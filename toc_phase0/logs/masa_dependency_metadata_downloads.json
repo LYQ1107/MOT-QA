@@ -1,0 +1,58 @@
+[
+  {
+    "path": "logs/masa_mmcv_wheel_index.html",
+    "source": "https://download.openmmlab.com/mmcv/dist/cu118/torch2.1/index.html",
+    "resolved_url": "https://download.openmmlab.com/mmcv/dist/cu118/torch2.1/index.html",
+    "bytes": 3104,
+    "sha256": "44913912a6c73b8c6c3959ef99bd84dd07fcfd1c6b23813af8f07f8929311a5d",
+    "integrity": "Local SHA256 recorded; no independent digest"
+  },
+  {
+    "path": "logs/masa_dep_openai_CLIP_commit.json",
+    "source": "https://api.github.com/repos/openai/CLIP/commits/HEAD",
+    "resolved_url": "https://api.github.com/repos/openai/CLIP/commits/HEAD",
+    "bytes": 5611,
+    "sha256": "ce1919c23491a0a904b8a3cc551538a59850379db09c7430e010f726141ca30b",
+    "integrity": "Local SHA256 recorded; no independent digest"
+  },
+  {
+    "path": "logs/masa_dep_siyuanliii_TrackEval_commit.json",
+    "source": "https://api.github.com/repos/siyuanliii/TrackEval/commits/HEAD",
+    "resolved_url": "https://api.github.com/repos/siyuanliii/TrackEval/commits/HEAD",
+    "bytes": 54311,
+    "sha256": "1c20bc94f90321f8bcf49ac337567787478be3f55f6c33c35ce051370041cde1",
+    "integrity": "Local SHA256 recorded; no independent digest"
+  },
+  {
+    "path": "logs/masa_dep_SysCV_tet_commit.json",
+    "source": "https://api.github.com/repos/SysCV/tet/commits/HEAD",
+    "resolved_url": "https://api.github.com/repos/SysCV/tet/commits/HEAD",
+    "bytes": 6452,
+    "sha256": "7dc29f575ee85d3bfe1bfb046a75137b4b6c7d4aad9e74ac121f6c0959247483",
+    "integrity": "Local SHA256 recorded; no independent digest"
+  },
+  {
+    "path": "logs/masa_dep_scalabel_scalabel_commit.json",
+    "source": "https://api.github.com/repos/scalabel/scalabel/commits/scalabel-evalAPI",
+    "resolved_url": "https://api.github.com/repos/scalabel/scalabel/commits/scalabel-evalAPI",
+    "bytes": 4219,
+    "sha256": "6cee790a75924167db611c0d12f83ee2efdfbcf3a10c88c681d2e739aeb0843f",
+    "integrity": "Local SHA256 recorded; no independent digest"
+  },
+  {
+    "path": "logs/masa_dep_TAO-Dataset_tao_commit.json",
+    "source": "https://api.github.com/repos/TAO-Dataset/tao/commits/HEAD",
+    "resolved_url": "https://api.github.com/repos/TAO-Dataset/tao/commits/HEAD",
+    "bytes": 5433,
+    "sha256": "189401c12904dce40d89b5eb20b39b9493681398d3073b7b20de9f1c7c0586c3",
+    "integrity": "Local SHA256 recorded; no independent digest"
+  },
+  {
+    "path": "logs/masa_dep_lvis-dataset_lvis-api_commit.json",
+    "source": "https://api.github.com/repos/lvis-dataset/lvis-api/commits/HEAD",
+    "resolved_url": "https://api.github.com/repos/lvis-dataset/lvis-api/commits/HEAD",
+    "bytes": 5925,
+    "sha256": "8a4a1014546a32962c5fdc941ed6f892af1e70c563cc1a9d4dfbc1c3806b6a69",
+    "integrity": "Local SHA256 recorded; no independent digest"
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "finished_at": "2026-11-05T21:06:19.330687+08:00",
+  "packet_id": "motqa_fullquestion20_e092f59020a4a6cd",
+  "count": 20,
+  "page": "/home/user/motqa_pilot/results/question_review/打开完整题审阅.html",
+  "html_bytes": 99900,
+  "zip": "/home/user/motqa_pilot/results/motqa_complete_question_review_20_zh_v1.zip",
+  "zip_bytes": 81705184,
+  "zip_sha256": "70e90d896d2f1248499abe05b2e110f9df09ae91cdf25a0bd25202654cf3f57a",
+  "video_files": 40,
+  "questions_sha256": "e092f59020a4a6cd3b5765b33a9bcbc278c0edf3a1a64296979513350e1d2a2d",
+  "new_tracker_runs": 0,
+  "new_model_calls": 0,
+  "full900_completed": false,
+  "status": "WAITING_FOR_USER_COMPLETE_QUESTION_REVIEW",
+  "browser_check": "/home/user/motqa_pilot/results/question_review/browser_check/browser_check_result.json",
+  "browser_check_status": "PASSED",
+  "raw_GT_answer_audit": "/home/user/motqa_pilot/results/question_review/raw_gt_answer_audit.json",
+  "original_GT_answers_verified": 20,
+  "actual_user_question_review_received": false,
+  "review_export_filename": "question_review_result.json",
+  "full_batch_pending": [
+    "approximately900 candidates",
+    "global and within-dataset semantic answer balancing",
+    "public visual-feature appearance_similarity",
+    "formal filtering and final release"
+  ]
+}

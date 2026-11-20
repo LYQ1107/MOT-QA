@@ -1,0 +1,99 @@
+{
+  "unit_key": "dancetrack0043__id007",
+  "sequence": "dancetrack0043",
+  "gt_id": 7,
+  "phase": "blind_match",
+  "started_at": "2026-11-04T14:07:07.791961+00:00",
+  "completed_at": "2026-11-04T14:07:23.445863+00:00",
+  "seconds": 15.653934578876942,
+  "prompt_text": "Match this appearance phrase against ALL anonymous person tiles in the image(s): \"the person with a white traditional-style dress and a bright red sash tied at the waist, with short dark hair styled in a side part\"\nEvery labeled tile is one different person from the same video; its two crops are held-out views. Labels and tile order do not reveal the intended target. A phrase may match none, one, or several people. Include ALL people who visibly satisfy the whole phrase in matches. Include in uncertain any plausible person for whom the views do not resolve an attribute, instead of assuming that person is a non-match. Do not pick a best match when several fit. A location or action does not distinguish appearance. Omitted labels mean clear non-matches.\nReturn {\"matches\":[\"P01\"],\"uncertain\":[],\"reason\":\"brief visual explanation\"}. Valid labels: [\"P01\", \"P02\", \"P03\", \"P04\", \"P05\", \"P06\", \"P07\", \"P08\", \"P09\", \"P10\", \"P11\", \"P12\", \"P13\", \"P14\"].",
+  "image_paths": [
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0043/heldout_gallery_page00.jpg",
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0043/heldout_gallery_page01.jpg"
+  ],
+  "image_sha256": [
+    "0c004a4e160009d22a2083bfae8d7192f5f70a4ef61281b617a5baf520e29c8a",
+    "56cecf98dca9f0bd67f26e89365a869385eec75460cd76033d6d216b9045191f"
+  ],
+  "response": {
+    "id": "chatcmpl-b3810f6a92e53229",
+    "object": "chat.completion",
+    "created": 1793801227,
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"matches\":[\"P02\",\"P03\",\"P04\",\"P06\",\"P07\",\"P08\",\"P10\",\"P11\",\"P12\",\"P13\",\"P14\"],\"uncertain\":[\"P01\",\"P05\",\"P09\"],\"reason\":\"The phrase specifies a white traditional-style dress with a bright red sash tied at the waist and short dark hair styled in a side part. Most individuals (P02, P03, P04, P06, P07, P08, P10, P11, P12, P13, P14) clearly wear white traditional dresses with bright red sashes at the waist. However, hair style is not clearly visible for many due to motion, angle, or partial occlusion. P01, P05, and P09 show less clear views of the sash and/or hair, making them uncertain. P01 and P05 appear to have long hair, which contradicts the 'short dark hair' requirement, but the hair is not fully visible to confirm. P09’s sash is not clearly red and may be pink or light-colored. Therefore, only those with clearly visible red sashes and plausible short hair (or no clear contradiction) are included in matches, while ambiguous cases are placed in uncertain.\"}",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 1448,
+      "total_tokens": 1737,
+      "completion_tokens": 289,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "check": {
+    "valid": true,
+    "parsed": {
+      "matches": [
+        "P02",
+        "P03",
+        "P04",
+        "P06",
+        "P07",
+        "P08",
+        "P10",
+        "P11",
+        "P12",
+        "P13",
+        "P14"
+      ],
+      "uncertain": [
+        "P01",
+        "P05",
+        "P09"
+      ],
+      "reason": "The phrase specifies a white traditional-style dress with a bright red sash tied at the waist and short dark hair styled in a side part. Most individuals (P02, P03, P04, P06, P07, P08, P10, P11, P12, P13, P14) clearly wear white traditional dresses with bright red sashes at the waist. However, hair style is not clearly visible for many due to motion, angle, or partial occlusion. P01, P05, and P09 show less clear views of the sash and/or hair, making them uncertain. P01 and P05 appear to have long hair, which contradicts the 'short dark hair' requirement, but the hair is not fully visible to confirm. P09’s sash is not clearly red and may be pink or light-colored. Therefore, only those with clearly visible red sashes and plausible short hair (or no clear contradiction) are included in matches, while ambiguous cases are placed in uncertain."
+    },
+    "matched_gt_ids": [
+      6,
+      12,
+      10,
+      7,
+      5,
+      8,
+      0,
+      9,
+      4,
+      13,
+      3
+    ],
+    "uncertain_gt_ids": [
+      2,
+      1,
+      11
+    ],
+    "passed": false,
+    "error": null
+  },
+  "inference_policy_sha256": "ea3ce06e83208db2fc1ed693ee2ac1b349f8ae344fcdc2cb0a22e30ef8df60e3"
+}

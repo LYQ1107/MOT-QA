@@ -1,0 +1,10 @@
+{
+  "completed_at": "2026-11-02T18:23:06.759356+08:00",
+  "template": "official",
+  "decoding": "main",
+  "conditions": [
+    "B-main",
+    "B-events"
+  ],
+  "predictions_per_condition": 749
+}

@@ -1,0 +1,420 @@
+{
+  "created_at": "2026-11-04T18:53:28.001187+08:00",
+  "selection": "First3 sorted correct and first3 sorted wrong for each active condition",
+  "records": [
+    {
+      "condition": "T1",
+      "qa_id": "061682ce31ac",
+      "video_id": "perception_test_video_6366",
+      "correct": true,
+      "truth": "A",
+      "prediction": "A",
+      "record_path": "/data2/user/toc_phase0/results/stage7/predictions/main/T1/061682ce31ac.json",
+      "record_sha256": "e6e7ff0e1cf3ad1d85176ce28f59b7ed27653f2531101e5d404736cae482b570",
+      "raw_response": "The mug disappears at5.6s and reappears at5.6s. This indicates full blockage, optionA.\nAnswer: A",
+      "returned_observations": [
+        {
+          "name": "events",
+          "arguments": {
+            "object": "white mug"
+          },
+          "legal": true,
+          "matched": true,
+          "text": "[Tracking events] query=\"white mug\"  video_length=20.4s  tracker_fps=5\nfirst appears at 5.6s at (0.19, 0.56)\nlast seen at 20.2s at (0.21, 0.56)\nNote: Representative native track IDs: 4; stitched using the frozen geometric rule.\nNote: 8 additional short, low-confidence, or lower-ranked tracks were omitted.\n",
+          "images": []
+        }
+      ]
+    },
+    {
+      "condition": "T1",
+      "qa_id": "128d74ab4e21",
+      "video_id": "charades_M8NEU",
+      "correct": true,
+      "truth": "A",
+      "prediction": "A",
+      "record_path": "/data2/user/toc_phase0/results/stage7/predictions/main/T1/128d74ab4e21.json",
+      "record_sha256": "da1a4ad6b1361563b27a7373593f61c90366f278a57903d231fd322d5d712763",
+      "raw_response": "The chair reappears at20.8s; it leaves the frame before coming back.\nAnswer: A",
+      "returned_observations": [
+        {
+          "name": "events",
+          "arguments": {
+            "object": "plastic chair"
+          },
+          "legal": true,
+          "matched": true,
+          "text": "[Tracking events] query=\"plastic chair\"  video_length=30.2s  tracker_fps=5\nfirst appears at 20.8s at (0.06, 0.91)\nlast seen at 30.0s at (0.33, 0.80)\nNote: Representative native track IDs: 34; stitched using the frozen geometric rule.\nNote: 38 additional short, low-confidence, or lower-ranked tracks were omitted.\n",
+          "images": []
+        }
+      ]
+    },
+    {
+      "condition": "T1",
+      "qa_id": "1299999226de",
+      "video_id": "perception_test_video_6013",
+      "correct": true,
+      "truth": "A",
+      "prediction": "A",
+      "record_path": "/data2/user/toc_phase0/results/stage7/predictions/main/T1/1299999226de.json",
+      "record_sha256": "c6eba1f2ec3245571278d07800bdbf8dd73edd430500c10629afe75148b3cf12",
+      "raw_response": "The tomato slices disappear at28.4s and reappear at28.8s. This supports full blockage, optionA.\nAnswer: A",
+      "returned_observations": [
+        {
+          "name": "events",
+          "arguments": {
+            "object": "tomato slices"
+          },
+          "legal": true,
+          "matched": true,
+          "text": "[Tracking events] query=\"tomato slices\"  video_length=34.2s  tracker_fps=5\nfirst appears at 0.0s at (0.28, 0.44)\ndisappears at 28.4s; last position (0.27, 0.47); within 0.05 of frame edge: no\nreappears at 28.8s at (0.26, 0.42)\ndisappears at 29.0s; last position (0.26, 0.42); within 0.05 of frame edge: no\nreappears at 29.4s at (0.27, 0.43)\nlast seen at 29.4s at (0.27, 0.43)\ndisappears at 29.6s; last position (0.27, 0.43); within 0.05 of frame edge: no\nNote: Representative native track IDs: 0; stitched using the frozen geometric rule.\nNote: 12 additional short, low-confidence, or lower-ranked tracks were omitted.\n",
+          "images": []
+        }
+      ]
+    },
+    {
+      "condition": "T1",
+      "qa_id": "0893a25082de",
+      "video_id": "perception_test_video_10764",
+      "correct": false,
+      "truth": "A",
+      "prediction": "B",
+      "record_path": "/data2/user/toc_phase0/results/stage7/predictions/main/T1/0893a25082de.json",
+      "record_sha256": "b982c3217372aa73f3f841de9f36e8d68c4b00e389b259cc4ed71f7117a8a82f",
+      "raw_response": "The ring disappears at13.4s and19.8s. It leaves the frame both times.\nAnswer: B",
+      "returned_observations": [
+        {
+          "name": "events",
+          "arguments": {
+            "object": "ring"
+          },
+          "legal": true,
+          "matched": true,
+          "text": "[Tracking events] query=\"ring\"  video_length=27.2s  tracker_fps=5\nfirst appears at 0.0s at (0.89, 0.88)\ndisappears at 13.4s; last position (0.76, 0.80); within 0.05 of frame edge: no\nreappears at 19.2s at (0.92, 0.74)\nlast seen at 19.8s at (0.92, 0.76)\ndisappears at 20.0s; last position (0.92, 0.76); within 0.05 of frame edge: no\nNote: Representative native track IDs: 0; stitched using the frozen geometric rule.\nNote: 26 additional short, low-confidence, or lower-ranked tracks were omitted.\n",
+          "images": []
+        }
+      ]
+    },
+    {
+      "condition": "T1",
+      "qa_id": "093589b84207",
+      "video_id": "perception_test_video_9981",
+      "correct": false,
+      "truth": "A",
+      "prediction": "B",
+      "record_path": "/data2/user/toc_phase0/results/stage7/predictions/main/T1/093589b84207.json",
+      "record_sha256": "81461b08feb4f78d9e1e289a1a818c7b9062869da6a14930e1ba205d7a2d691e",
+      "raw_response": "The cup disappears at6.0s,16.4s,20.2s,25.2s and34.8s. Each disappearance is away from the edge, indicating optionB.\nAnswer: B",
+      "returned_observations": [
+        {
+          "name": "events",
+          "arguments": {
+            "object": "glass cup"
+          },
+          "legal": true,
+          "matched": true,
+          "text": "[Tracking events] query=\"glass cup\"  video_length=35.0s  tracker_fps=5\nfirst appears at 0.0s at (0.51, 0.61)\ndisappears at 6.0s; last position (0.50, 0.61); within 0.05 of frame edge: no\nreappears at 7.0s at (0.48, 0.55)\ndisappears at 16.4s; last position (0.50, 0.61); within 0.05 of frame edge: no\nreappears at 18.0s at (0.70, 0.61)\ndisappears at 20.2s; last position (0.72, 0.61); within 0.05 of frame edge: no\nreappears at 20.6s at (0.69, 0.60)\ndisappears at 25.2s; last position (0.72, 0.47); within 0.05 of frame edge: no\nreappears at 25.8s at (0.73, 0.49)\nlast seen at 34.8s at (0.71, 0.61)\nNote: Representative native track IDs: 20, 1; stitched using the frozen geometric rule.\nNote: 23 additional short, low-confidence, or lower-ranked tracks were omitted.\n",
+          "images": []
+        }
+      ]
+    },
+    {
+      "condition": "T1",
+      "qa_id": "09ecc5ba1b9b",
+      "video_id": "perception_test_video_8872",
+      "correct": false,
+      "truth": "B",
+      "prediction": null,
+      "record_path": "/data2/user/toc_phase0/results/stage7/predictions/main/T1/09ecc5ba1b9b.json",
+      "record_sha256": "f8a5fa0831cb99a4b6359d01f5caec0fbc7ee487cde5d584cb9742a636c2e761",
+      "raw_response": "The couch reappears at14.4s and15.0s. These are two returns; its initial appearance is not a return.\nAnswer: 2",
+      "returned_observations": [
+        {
+          "name": "events",
+          "arguments": {
+            "object": "black leather couch"
+          },
+          "legal": true,
+          "matched": true,
+          "text": "[Tracking events] query=\"black leather couch\"  video_length=33.8s  tracker_fps=5\nfirst appears at 4.8s at (0.34, 0.36)\ndisappears at 5.0s; last position (0.34, 0.36); within 0.05 of frame edge: no\nreappears at 6.4s at (0.34, 0.40)\ndisappears at 7.0s; last position (0.34, 0.39); within 0.05 of frame edge: no\nreappears at 7.4s at (0.34, 0.39)\ndisappears at 10.2s; last position (0.34, 0.42); within 0.05 of frame edge: no\nreappears at 10.8s at (0.34, 0.49)\ndisappears at 11.4s; last position (0.34, 0.49); within 0.05 of frame edge: no\nreappears at 11.8s at (0.35, 0.47)\ndisappears at 14.0s; last position (0.35, 0.43); within 0.05 of frame edge: no\nreappears at 14.4s at (0.35, 0.38)\ndisappears at 14.6s; last position (0.35, 0.38); within 0.05 of frame edge: no\nreappears at 15.0s at (0.34, 0.37)\ndisappears at 15.2s; last position (0.34, 0.37); within 0.05 of frame edge: no\nreappears at 16.4s at (0.35, 0.38)\ndisappears at 29.4s; last position (0.34, 0.38); within 0.05 of frame edge: no\nreappears at 29.8s at (0.36, 0.37)\ndisappears at 30.0s; last position (0.36, 0.37); within 0.05 of frame edge: no\nreappears at 31.0s at (0.34, 0.40)\nlast seen at 33.6s at (0.34, 0.41)\nNote: Representative native track IDs: 36; stitched using the frozen geometric rule.\nNote: 39 additional short, low-confidence, or lower-ranked tracks were omitted.\n",
+          "images": []
+        }
+      ]
+    },
+    {
+      "condition": "T-ph",
+      "qa_id": "061682ce31ac",
+      "video_id": "perception_test_video_6366",
+      "correct": true,
+      "truth": "A",
+      "prediction": "A",
+      "record_path": "/data2/user/toc_phase0/results/stage7/predictions/main/T-ph/061682ce31ac.json",
+      "record_sha256": "b5781149bf5a0c3dec12dbc85d158a7cc4910fffa6532b44cf9435055e4c29a6",
+      "raw_response": "The mug disappears at 1.255s and reappears at 1.916s. This supports full blockage, optionA.\nAnswer: A",
+      "returned_observations": [
+        {
+          "name": "events",
+          "arguments": {
+            "object": "white mug"
+          },
+          "legal": true,
+          "matched": true,
+          "text": "[tool output omitted]",
+          "images": []
+        }
+      ]
+    },
+    {
+      "condition": "T-ph",
+      "qa_id": "093589b84207",
+      "video_id": "perception_test_video_9981",
+      "correct": true,
+      "truth": "A",
+      "prediction": "A",
+      "record_path": "/data2/user/toc_phase0/results/stage7/predictions/main/T-ph/093589b84207.json",
+      "record_sha256": "36f9d084656b61a456c622b2644f0fbbf973be3adb48f97b1ffd506f0e8a5948",
+      "raw_response": "The cup disappears at27.283s away from the edge and reappears at28.384s. This supports full blockage, optionA.\nAnswer: A",
+      "returned_observations": [
+        {
+          "name": "events",
+          "arguments": {
+            "object": "glass cup"
+          },
+          "legal": true,
+          "matched": true,
+          "text": "[tool output omitted]",
+          "images": []
+        }
+      ]
+    },
+    {
+      "condition": "T-ph",
+      "qa_id": "09ecc5ba1b9b",
+      "video_id": "perception_test_video_8872",
+      "correct": true,
+      "truth": "B",
+      "prediction": "B",
+      "record_path": "/data2/user/toc_phase0/results/stage7/predictions/main/T-ph/09ecc5ba1b9b.json",
+      "record_sha256": "d47d944a2ff3afa09fe41ddd18661868be5904f36d325399277b0eeb01070c70",
+      "raw_response": "The couch disappears at 0.0s and reappears at 1.033s. This supports full blockage, optionB.\nAnswer: B",
+      "returned_observations": [
+        {
+          "name": "events",
+          "arguments": {
+            "object": "black leather couch"
+          },
+          "legal": true,
+          "matched": true,
+          "text": "[tool output omitted]",
+          "images": []
+        }
+      ]
+    },
+    {
+      "condition": "T-ph",
+      "qa_id": "0893a25082de",
+      "video_id": "perception_test_video_10764",
+      "correct": false,
+      "truth": "A",
+      "prediction": "B",
+      "record_path": "/data2/user/toc_phase0/results/stage7/predictions/main/T-ph/0893a25082de.json",
+      "record_sha256": "f35bfcc9aa96905599edb232f6097679d5768fa2ca9b4ea57a2195939e86e280",
+      "raw_response": "Answer: B",
+      "returned_observations": [
+        {
+          "name": "events",
+          "arguments": {
+            "object": "ring"
+          },
+          "legal": true,
+          "matched": true,
+          "text": "[tool output omitted]",
+          "images": []
+        }
+      ]
+    },
+    {
+      "condition": "T-ph",
+      "qa_id": "13357e2b139e",
+      "video_id": "charades_3IAPG",
+      "correct": false,
+      "truth": "A",
+      "prediction": "B",
+      "record_path": "/data2/user/toc_phase0/results/stage7/predictions/main/T-ph/13357e2b139e.json",
+      "record_sha256": "f0c2eea44520ba146abaaa9a17c15cec2b6f1e58f0c75c6d81843ed3f844a591",
+      "raw_response": "Answer: B",
+      "returned_observations": [
+        {
+          "name": "events",
+          "arguments": {
+            "object": "plaid shirt"
+          },
+          "legal": true,
+          "matched": true,
+          "text": "[tool output omitted]",
+          "images": []
+        }
+      ]
+    },
+    {
+      "condition": "T-ph",
+      "qa_id": "13b4b9c339ff",
+      "video_id": "charades_44Q8A",
+      "correct": false,
+      "truth": "A",
+      "prediction": "B",
+      "record_path": "/data2/user/toc_phase0/results/stage7/predictions/main/T-ph/13b4b9c339ff.json",
+      "record_sha256": "d80dfe6c6cfee886c3fd3aea2c8271e406aa049be5447bc3886a42c17134ea91",
+      "raw_response": "The mug reappears at11.0s; its initial appearance is not a return.\nAnswer: B",
+      "returned_observations": [
+        {
+          "name": "events",
+          "arguments": {
+            "object": "white mug"
+          },
+          "legal": true,
+          "matched": true,
+          "text": "[tool output omitted]",
+          "images": []
+        }
+      ]
+    },
+    {
+      "condition": "T-sh",
+      "qa_id": "093589b84207",
+      "video_id": "perception_test_video_9981",
+      "correct": true,
+      "truth": "A",
+      "prediction": "A",
+      "record_path": "/data2/user/toc_phase0/results/stage7/predictions/main/T-sh/093589b84207.json",
+      "record_sha256": "0995af8c0a232f41be9a84c9323a74b4157b798e07ddb3a7e4b3923defaea747",
+      "raw_response": "The cup disappears at7.2s and34.4s away from the edge. Full blockage corresponds to optionA.\nAnswer: A",
+      "returned_observations": [
+        {
+          "name": "events",
+          "arguments": {
+            "object": "glass cup"
+          },
+          "legal": true,
+          "matched": true,
+          "text": "[Tracking events] query=\"glass cup\"  video_length=35.0s  tracker_fps=5\nfirst appears at 0.4s at (0.70, 0.61)\ndisappears at 7.2s; last position (0.72, 0.47); within 0.05 of frame edge: no\nreappears at 25.2s at (0.73, 0.49)\nlast seen at 34.2s at (0.71, 0.61)\ndisappears at 34.4s; last position (0.71, 0.61); within 0.05 of frame edge: no\nNote: Representative native track IDs: 20; stitched using the frozen geometric rule.\nNote: 24 additional short, low-confidence, or lower-ranked tracks were omitted.\n",
+          "images": []
+        }
+      ]
+    },
+    {
+      "condition": "T-sh",
+      "qa_id": "1299999226de",
+      "video_id": "perception_test_video_6013",
+      "correct": true,
+      "truth": "A",
+      "prediction": "A",
+      "record_path": "/data2/user/toc_phase0/results/stage7/predictions/main/T-sh/1299999226de.json",
+      "record_sha256": "61e415345f1744b42a9cad22c70f1e615d1f574cbaaa7c2da93f2cf7fbdf0f69",
+      "raw_response": "The tomato slices are seen continuously throughout the video, so they do not leave the frame. OptionA is correct.\nAnswer: A",
+      "returned_observations": [
+        {
+          "name": "events",
+          "arguments": {
+            "object": "tomato slices"
+          },
+          "legal": true,
+          "matched": true,
+          "text": "[Tracking events] query=\"tomato slices\"  video_length=33.6s  tracker_fps=5\nfirst appears at 0.0s at (0.34, 0.50)\nlast seen at 33.4s at (0.34, 0.50)\nNote: Representative native track IDs: 1; stitched using the frozen geometric rule.\nNote: 54 additional short, low-confidence, or lower-ranked tracks were omitted.\n",
+          "images": []
+        }
+      ]
+    },
+    {
+      "condition": "T-sh",
+      "qa_id": "13b4b9c339ff",
+      "video_id": "charades_44Q8A",
+      "correct": true,
+      "truth": "A",
+      "prediction": "A",
+      "record_path": "/data2/user/toc_phase0/results/stage7/predictions/main/T-sh/13b4b9c339ff.json",
+      "record_sha256": "488585e01e3900b3a41739819014a1951d5e62753e5b20de81567bc2686380b1",
+      "raw_response": "The white mug disappears at28.2s away from the edge and reappears at13.6s. This supports full blockage, optionA.\nAnswer: A",
+      "returned_observations": [
+        {
+          "name": "events",
+          "arguments": {
+            "object": "white mug"
+          },
+          "legal": true,
+          "matched": true,
+          "text": "[Tracking events] query=\"white mug\"  video_length=29.2s  tracker_fps=5\nfirst appears at 13.6s at (0.01, 0.96)\nlast seen at 28.0s at (0.01, 0.90)\ndisappears at 28.2s; last position (0.01, 0.90); within 0.05 of frame edge: yes (left)\nNote: Representative native track IDs: 61; stitched using the frozen geometric rule.\nNote: 23 additional short, low-confidence, or lower-ranked tracks were omitted.\n",
+          "images": []
+        }
+      ]
+    },
+    {
+      "condition": "T-sh",
+      "qa_id": "061682ce31ac",
+      "video_id": "perception_test_video_6366",
+      "correct": false,
+      "truth": "A",
+      "prediction": "B",
+      "record_path": "/data2/user/toc_phase0/results/stage7/predictions/main/T-sh/061682ce31ac.json",
+      "record_sha256": "d174b3d51a97d6324b4e682da29b8630c6a143b6f59ca5ae997f6813b6b568f1",
+      "raw_response": "The mug disappears at10.0s and14.8s and21.2s and23.2s and29.6s. These are all away from the edge. The optionB fits.\nAnswer: B",
+      "returned_observations": [
+        {
+          "name": "events",
+          "arguments": {
+            "object": "white mug"
+          },
+          "legal": true,
+          "matched": true,
+          "text": "[Tracking events] query=\"white mug\"  video_length=40.4s  tracker_fps=5\nfirst appears at 0.0s at (0.57, 0.50)\ndisappears at 0.8s; last position (0.58, 0.50); within 0.05 of frame edge: no\nreappears at 1.4s at (0.58, 0.50)\ndisappears at 10.0s; last position (0.57, 0.46); within 0.05 of frame edge: no\nreappears at 11.4s at (0.52, 0.36)\ndisappears at 14.8s; last position (0.50, 0.34); within 0.05 of frame edge: no\nreappears at 15.2s at (0.50, 0.34)\ndisappears at 21.2s; last position (0.38, 0.31); within 0.05 of frame edge: no\nreappears at 22.0s at (0.37, 0.31)\ndisappears at 23.2s; last position (0.37, 0.36); within 0.05 of frame edge: no\nreappears at 23.6s at (0.39, 0.36)\nlast seen at 29.4s at (0.41, 0.34)\ndisappears at 29.6s; last position (0.41, 0.34); within 0.05 of frame edge: no\nNote: Representative native track IDs: 0; stitched using the frozen geometric rule.\nNote: 14 additional short, low-confidence, or lower-ranked tracks were omitted.\n",
+          "images": []
+        }
+      ]
+    },
+    {
+      "condition": "T-sh",
+      "qa_id": "0893a25082de",
+      "video_id": "perception_test_video_10764",
+      "correct": false,
+      "truth": "A",
+      "prediction": "B",
+      "record_path": "/data2/user/toc_phase0/results/stage7/predictions/main/T-sh/0893a25082de.json",
+      "record_sha256": "ea9dd106d2633cdad72984907cebe62f7e681a2459e47e71496bba178a56c0d1",
+      "raw_response": "The ring disappears at13.4s and reappears at26.4s. The reappearances are not close enough to be considered a full blockage, optionB.\nAnswer: B",
+      "returned_observations": [
+        {
+          "name": "events",
+          "arguments": {
+            "object": "ring"
+          },
+          "legal": true,
+          "matched": true,
+          "text": "[Tracking events] query=\"ring\"  video_length=27.2s  tracker_fps=5\nfirst appears at 0.0s at (0.89, 0.88)\ndisappears at 13.4s; last position (0.76, 0.80); within 0.05 of frame edge: no\nreappears at 26.4s at (0.92, 0.74)\nlast seen at 27.0s at (0.92, 0.76)\nNote: Representative native track IDs: 0; stitched using the frozen geometric rule.\nNote: 26 additional short, low-confidence, or lower-ranked tracks were omitted.\n",
+          "images": []
+        }
+      ]
+    },
+    {
+      "condition": "T-sh",
+      "qa_id": "09ecc5ba1b9b",
+      "video_id": "perception_test_video_8872",
+      "correct": false,
+      "truth": "B",
+      "prediction": null,
+      "record_path": "/data2/user/toc_phase0/results/stage7/predictions/main/T-sh/09ecc5ba1b9b.json",
+      "record_sha256": "a66e6d034490664e24808bdc97a4f0167e55ee3b3c5cf4d92648a0b70e38921b",
+      "raw_response": "The couch reappears at15.6s and28.4s. These are two returns; its initial appearance is not a return.\nAnswer: 2",
+      "returned_observations": [
+        {
+          "name": "events",
+          "arguments": {
+            "object": "black leather couch"
+          },
+          "legal": true,
+          "matched": true,
+          "text": "[Tracking events] query=\"black leather couch\"  video_length=33.8s  tracker_fps=5\nfirst appears at 0.4s at (0.34, 0.40)\ndisappears at 1.0s; last position (0.34, 0.39); within 0.05 of frame edge: no\nreappears at 2.2s at (0.35, 0.38)\ndisappears at 15.2s; last position (0.34, 0.38); within 0.05 of frame edge: no\nreappears at 15.6s at (0.36, 0.37)\ndisappears at 20.8s; last position (0.34, 0.42); within 0.05 of frame edge: no\nreappears at 28.4s at (0.34, 0.37)\ndisappears at 28.8s; last position (0.35, 0.38); within 0.05 of frame edge: no\nreappears at 29.6s at (0.34, 0.36)\ndisappears at 32.6s; last position (0.34, 0.41); within 0.05 of frame edge: no\nreappears at 33.2s at (0.34, 0.49)\nlast seen at 33.6s at (0.34, 0.49)\nNote: Representative native track IDs: 36; stitched using the frozen geometric rule.\nNote: 39 additional short, low-confidence, or lower-ranked tracks were omitted.\n",
+          "images": []
+        }
+      ]
+    }
+  ]
+}

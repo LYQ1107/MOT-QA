@@ -1,0 +1,25 @@
+{
+  "recorded_at": "2026-11-01T14:21:19.402178+08:00",
+  "stage_four_authorized": false,
+  "main_metric": "official unconstrained strict accuracy; unchanged",
+  "protocols": [
+    "official_plus_timestamps_and_evidence",
+    "brief_reasoning_last_line_Answer_supplement"
+  ],
+  "numerical_conditions": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "legal_choices": [
+    "2",
+    "3",
+    "4",
+    "5 or more"
+  ],
+  "legal_ratio": "exact stripped answer-region membership; direct-output main uses entire response, reasoning supplement uses its final Answer region; also report official parser-valid ratio separately",
+  "constrained_decoding": "separate numerical-only A/B/C/D runs for each protocol; vLLM guided choice / structured_outputs.choice adapter; analysis only, never replace unconstrained main scores",
+  "results_separated_by_protocol_and_decoding": true,
+  "trackable_subset_reported_alongside_full_scope": true
+}

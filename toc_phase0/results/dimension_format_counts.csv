@@ -1,0 +1,11 @@
+dimension,mcq_4,numerical,ordering_3,ordering_4,sp,total
+conditional_state,278,0,0,0,0,278
+cross_object_order,0,0,0,0,187,187
+duration_category,312,0,0,0,0,312
+event_count,0,300,0,0,0,300
+event_existence,0,0,0,0,219,219
+event_ordering,0,0,52,53,0,105
+reappear_identity,0,0,0,0,23,23
+reappear_or_disappear,0,0,0,0,134,134
+relative_spatial_change,178,0,0,0,0,178
+temporal_location,587,0,0,0,0,587

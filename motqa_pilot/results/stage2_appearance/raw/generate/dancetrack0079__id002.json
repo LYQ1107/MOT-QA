@@ -1,0 +1,73 @@
+{
+  "unit_key": "dancetrack0079__id002",
+  "sequence": "dancetrack0079",
+  "gt_id": 2,
+  "phase": "generate",
+  "started_at": "2026-11-04T13:58:34.144021+00:00",
+  "completed_at": "2026-11-04T13:58:42.340132+00:00",
+  "seconds": 8.196151935029775,
+  "prompt_text": "The first image shows three crops of ONE target person at different times. The other image(s) show comparison people from the SAME video; every labeled tile is a different annotated person, shown in up to three crops. These comparison labels are anonymous bookkeeping labels, not appearance attributes.\nWrite one concise English noun phrase (at most 30 words), starting with \"the person\", describing the target using stable, clearly visible clothing, patterns, hair, or accessories. Prefer details that distinguish this person from comparison people. Do not mention actions, pose, scene location, time, spatial relation to others, gallery labels, or GT identity numbers. Visible garment lettering is allowed only if clearly legible. Do not infer colors/details hidden by another person. If no reliable description is possible, use an empty phrase. If a truthful description is shared by others, still provide it and set visually_distinct to false.\nReturn {\"phrase\":\"...\", \"supported_attributes\":[\"...\"], \"visually_distinct\":true, \"limitations\":\"...\"}. A description need not be unique; truthful uncertainty is preferred to invented uniqueness.\nThe target person is also included once among the comparison gallery tiles. Identify that repeated target visually; do not treat the repeated target tile as a different rival. Look for truthful stable appearance that distinguishes the target from OTHER people.",
+  "image_paths": [
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0079/id002_target.jpg",
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0079/generation_gallery_page00.jpg",
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0079/generation_gallery_page01.jpg"
+  ],
+  "image_sha256": [
+    "8d85c821ecb0caed3b254aba4036f1dc291b73c3efa9eec361cd68e933e6e28d",
+    "ff9ad6409f93b7e4bf8842075dcc2efd5c65e81deebee6f123fe4b1635f33b24",
+    "0adbb93278710e4c2e76fefc2ae86e1b0c0d8b272184a7b27e33a8f077ba77ec"
+  ],
+  "response": {
+    "id": "chatcmpl-95da70b397268982",
+    "object": "chat.completion",
+    "created": 1793800714,
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"phrase\": \"the person in a yellow t-shirt with a white graphic, black pants, and white sneakers\",\n  \"supported_attributes\": [\"yellow t-shirt\", \"white graphic on shirt\", \"black pants\", \"white sneakers\"],\n  \"visually_distinct\": false,\n  \"limitations\": \"The clothing combination is shared by multiple people in the gallery, including P04, P05, P09, P13, P14, P17, and P18, making it non-unique. The white graphic on the shirt is not clearly legible, so it cannot be used for definitive distinction.\"\n}",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 2893,
+      "total_tokens": 3027,
+      "completion_tokens": 134,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "check": {
+    "valid": true,
+    "parsed": {
+      "phrase": "the person in a yellow t-shirt with a white graphic, black pants, and white sneakers",
+      "supported_attributes": [
+        "yellow t-shirt",
+        "white graphic on shirt",
+        "black pants",
+        "white sneakers"
+      ],
+      "visually_distinct": false,
+      "limitations": "The clothing combination is shared by multiple people in the gallery, including P04, P05, P09, P13, P14, P17, and P18, making it non-unique. The white graphic on the shirt is not clearly legible, so it cannot be used for definitive distinction."
+    },
+    "phrase": "the person in a yellow t-shirt with a white graphic, black pants, and white sneakers",
+    "error": null
+  },
+  "inference_policy_sha256": "ea3ce06e83208db2fc1ed693ee2ac1b349f8ae344fcdc2cb0a22e30ef8df60e3"
+}

@@ -1,0 +1,73 @@
+{
+  "unit_key": "dancetrack0097__id000",
+  "sequence": "dancetrack0097",
+  "gt_id": 0,
+  "phase": "blind_match",
+  "started_at": "2026-11-04T14:13:11.614054+00:00",
+  "completed_at": "2026-11-04T14:13:15.789120+00:00",
+  "seconds": 4.175095727201551,
+  "prompt_text": "Match this appearance phrase against ALL anonymous person tiles in the image(s): \"the person with shoulder-length dark hair wearing a black cropped jacket and flared black pants with black heeled sandals\"\nEvery labeled tile is one different person from the same video; its two crops are held-out views. Labels and tile order do not reveal the intended target. A phrase may match none, one, or several people. Include ALL people who visibly satisfy the whole phrase in matches. Include in uncertain any plausible person for whom the views do not resolve an attribute, instead of assuming that person is a non-match. Do not pick a best match when several fit. A location or action does not distinguish appearance. Omitted labels mean clear non-matches.\nReturn {\"matches\":[\"P01\"],\"uncertain\":[],\"reason\":\"brief visual explanation\"}. Valid labels: [\"P01\", \"P02\", \"P03\", \"P04\"].",
+  "image_paths": [
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0097/heldout_gallery_page00.jpg"
+  ],
+  "image_sha256": [
+    "e6266b92d2d13d0bb9fdf3e7c631cd32bb048a91b653c9f10557c1142084fd4b"
+  ],
+  "response": {
+    "id": "chatcmpl-94059d1fda238a1f",
+    "object": "chat.completion",
+    "created": 1793801591,
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"matches\":[\"P01\",\"P02\",\"P03\"],\"uncertain\":[],\"reason\":\"P01, P02, and P03 all show shoulder-length dark hair, black cropped jackets, flared black pants, and black heeled sandals. P04 has red hair and a different jacket style, so it does not match. All three matches are clearly visible in their crops.\"}",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 580,
+      "total_tokens": 665,
+      "completion_tokens": 85,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "check": {
+    "valid": true,
+    "parsed": {
+      "matches": [
+        "P01",
+        "P02",
+        "P03"
+      ],
+      "uncertain": [],
+      "reason": "P01, P02, and P03 all show shoulder-length dark hair, black cropped jackets, flared black pants, and black heeled sandals. P04 has red hair and a different jacket style, so it does not match. All three matches are clearly visible in their crops."
+    },
+    "matched_gt_ids": [
+      1,
+      2,
+      0
+    ],
+    "uncertain_gt_ids": [],
+    "passed": false,
+    "error": null
+  },
+  "inference_policy_sha256": "ea3ce06e83208db2fc1ed693ee2ac1b349f8ae344fcdc2cb0a22e30ef8df60e3"
+}

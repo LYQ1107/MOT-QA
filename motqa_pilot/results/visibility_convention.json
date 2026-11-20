@@ -1,0 +1,13 @@
+{
+  "generated_at": "2026-11-04T20:46:01.706124+08:00",
+  "status": "LOCKED",
+  "threshold": 0.25,
+  "DanceTrack": "GT target box present => visible; last column is constant placeholder 1",
+  "SportsMOT": "GT target box present => visible; last column is constant placeholder 1",
+  "MOT17": "flag=1, class=1, visibility>=0.25 => visible; absent rows not visible",
+  "interpolation": false,
+  "threshold_recommendation": "User confirmed 0.25; now locked.",
+  "locked_at": "2026-11-04T23:07:46.563889+08:00",
+  "lock_reason": "沿用任务预设，未依据 QA 结果调参",
+  "previous_sha256": "5036847dc051cca1645df5f3303159bc6435a048206d747729c410b6f4725b35"
+}

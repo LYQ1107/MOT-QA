@@ -1,0 +1,26 @@
+[
+  {
+    "dataset": "DanceTrack",
+    "sequence": "dancetrack0004",
+    "source_rows": 4586,
+    "visible_rows": 4586,
+    "raw_boxes_preserved": true,
+    "timestamps_origin_s": 0.0
+  },
+  {
+    "dataset": "MOT17",
+    "sequence": "MOT17-02-FRCNN",
+    "source_rows": 18581,
+    "visible_rows": 9393,
+    "raw_boxes_preserved": true,
+    "timestamps_origin_s": 0.0
+  },
+  {
+    "dataset": "SportsMOT",
+    "sequence": "v_00HRwkvvjtQ_c001",
+    "source_rows": 11276,
+    "visible_rows": 11276,
+    "raw_boxes_preserved": true,
+    "timestamps_origin_s": 0.0
+  }
+]

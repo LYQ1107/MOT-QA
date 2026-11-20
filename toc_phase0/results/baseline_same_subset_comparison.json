@@ -1,0 +1,82 @@
+{
+  "generated_at": "2026-11-01T18:57:08.544401+08:00",
+  "new_inference": false,
+  "source_predictions": [
+    "results/stage2_predictions.jsonl",
+    "results/stage3_rule_predictions.jsonl"
+  ],
+  "denominator": "same preregistered subset; missing/parse failures/abstentions count wrong",
+  "comparison": [
+    {
+      "scope": "trackable_all_324",
+      "total": 324,
+      "qwen_correct": 90,
+      "qwen_accuracy": 0.2777777777777778,
+      "rule_correct": 109,
+      "rule_accuracy": 0.33641975308641975,
+      "rule_covered": 220,
+      "rule_coverage": 0.6790123456790124
+    },
+    {
+      "scope": "trackable_main_301",
+      "total": 301,
+      "qwen_correct": 78,
+      "qwen_accuracy": 0.2591362126245847,
+      "rule_correct": 109,
+      "rule_accuracy": 0.36212624584717606,
+      "rule_covered": 220,
+      "rule_coverage": 0.7308970099667774
+    },
+    {
+      "scope": "dimension:cross_object_order",
+      "total": 38,
+      "qwen_correct": 21,
+      "qwen_accuracy": 0.5526315789473685,
+      "rule_correct": 7,
+      "rule_accuracy": 0.18421052631578946,
+      "rule_covered": 10,
+      "rule_coverage": 0.2631578947368421
+    },
+    {
+      "scope": "dimension:event_count",
+      "total": 106,
+      "qwen_correct": 2,
+      "qwen_accuracy": 0.018867924528301886,
+      "rule_correct": 30,
+      "rule_accuracy": 0.2830188679245283,
+      "rule_covered": 106,
+      "rule_coverage": 1.0
+    },
+    {
+      "scope": "dimension:event_ordering",
+      "total": 23,
+      "qwen_correct": 2,
+      "qwen_accuracy": 0.08695652173913043,
+      "rule_correct": 1,
+      "rule_accuracy": 0.043478260869565216,
+      "rule_covered": 2,
+      "rule_coverage": 0.08695652173913043
+    },
+    {
+      "scope": "dimension:reappear_identity",
+      "total": 23,
+      "qwen_correct": 12,
+      "qwen_accuracy": 0.5217391304347826,
+      "rule_correct": 0,
+      "rule_accuracy": 0.0,
+      "rule_covered": 0,
+      "rule_coverage": 0.0
+    },
+    {
+      "scope": "dimension:reappear_or_disappear",
+      "total": 134,
+      "qwen_correct": 53,
+      "qwen_accuracy": 0.39552238805970147,
+      "rule_correct": 71,
+      "rule_accuracy": 0.5298507462686567,
+      "rule_covered": 102,
+      "rule_coverage": 0.7611940298507462
+    }
+  ],
+  "not_used_for_tuning": true
+}

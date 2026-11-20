@@ -1,0 +1,5203 @@
+{
+  "algorithm": "random.Random(42).shuffle(sorted(video_ids)); first round(0.2*N) videos are development",
+  "answers_or_metadata_read": false,
+  "created_at": "2026-11-01T18:53:52.873719+08:00",
+  "dataset_revision": "da3065053d958c38151304e33a42e138b1899eaf",
+  "dev_qa_ids": [
+    "00ce8068b953",
+    "0190d0cf2c4a",
+    "02d9ae720ba9",
+    "02e5bf5f7a8b",
+    "06a3cd7ce9e0",
+    "0baf6491b598",
+    "0e3fab1c4df1",
+    "0eaf0f9a69cf",
+    "0eeb7a9a4848",
+    "11db2343c407",
+    "125cbc704801",
+    "1297862b34c8",
+    "13a41b8c6b50",
+    "13ad81807fa0",
+    "159ef612d3ef",
+    "16d4258d42db",
+    "1e17312b10c1",
+    "22a3a66a2703",
+    "249a574204b2",
+    "2812f5f6f6c7",
+    "29614708f97c",
+    "2d60b5a05f2b",
+    "2e595b32b2e6",
+    "32933837ab5e",
+    "32e6a8cce4fd",
+    "33b2d3491f22",
+    "362c97c30ef8",
+    "38341887d62b",
+    "3850789009dc",
+    "387c432723bf",
+    "38d03b8e4fa7",
+    "39e8c9fc268a",
+    "3afb8d11cee9",
+    "406726a06e80",
+    "4468cdcbe0f3",
+    "473e00adafd7",
+    "493b75dca0e1",
+    "4cfc5513567b",
+    "507101ea6e79",
+    "53ce9e69bf88",
+    "5d6529738f63",
+    "5e04f6d50d47",
+    "5f102bd2f014",
+    "5f961f928575",
+    "5fb424697d23",
+    "601cc4c6cc8f",
+    "623d0795d174",
+    "6289767bb622",
+    "638b779d37c6",
+    "64059a22a232",
+    "640c47330a0f",
+    "657faa58fd39",
+    "67db44a4d3e4",
+    "6a3feca9fa03",
+    "6c80cb6cec94",
+    "6cca465a0da2",
+    "6dc05876f34e",
+    "6eb374c995b4",
+    "71059f033aa6",
+    "73409fad889f",
+    "7366e977e6b3",
+    "744469c01f94",
+    "757370c61467",
+    "775223ef09cb",
+    "787554b00cf5",
+    "78d1daa3ce8d",
+    "80de61955323",
+    "868fc635a146",
+    "8855613117cc",
+    "8a27448d838a",
+    "8c547a7c18ff",
+    "8c8330a7347d",
+    "8ca7d26ca10f",
+    "8f371502728a",
+    "90d708e859f9",
+    "910c203320e7",
+    "912974a8d310",
+    "922fe7d37efb",
+    "92c1d693a460",
+    "939a669a0713",
+    "976bcc3f2d32",
+    "982263a379f8",
+    "998a1297d525",
+    "9bec647a1462",
+    "9bf91548f358",
+    "9c3eb2c7688d",
+    "9e409446f0d2",
+    "9e4b3b397bf2",
+    "9e6ee9ae67c5",
+    "9e86b0cbce7f",
+    "a08786ffb3bf",
+    "a1a0445a8cae",
+    "a40deae8074c",
+    "a4b88edb2b8f",
+    "a55d47c8e367",
+    "a66221b831fe",
+    "a716cc35fb7c",
+    "a8a8c7f5cb89",
+    "a98f4767efa4",
+    "aa3a997a1f73",
+    "aa9f2d427438",
+    "ac1c44179121",
+    "ad94a1545092",
+    "ae848dcc0da3",
+    "afd393dc6074",
+    "b272e8759d22",
+    "b2df05809e9b",
+    "b43f33798bce",
+    "baed0a163ae1",
+    "bb92eacb40c6",
+    "bdd73e29f8e7",
+    "c41b99ad7fc0",
+    "c6070c3beddc",
+    "c99c41e3c9e7",
+    "cb8a34b31b11",
+    "cc02df154bdc",
+    "cc54aea3162c",
+    "cd58e49a3daa",
+    "d230ded2d8dc",
+    "d6612ec78f3f",
+    "d6ca723faa05",
+    "da93465f6c98",
+    "db414913f5c7",
+    "dd00093fb9f2",
+    "df1690e14607",
+    "e258822dd00a",
+    "e2e81f57d5f1",
+    "e38b0509fd49",
+    "e4e6803a2beb",
+    "e74e88a44365",
+    "e9efdea942b1",
+    "eafba5543f5b",
+    "ebec301e15d6",
+    "ec19d83823fe",
+    "ed232e200a58",
+    "eda382abac12",
+    "f1e351a86297",
+    "f334a003ff45",
+    "f3dd33830122",
+    "f5c165c5de20",
+    "f5d86d1c164f",
+    "f91ed1475652",
+    "f9c76022d937",
+    "fa28e1396163",
+    "fad7617f06d0",
+    "fd121af8b866",
+    "ff8c8f93f7e4"
+  ],
+  "dev_video_ids": [
+    "charades_06X2V",
+    "charades_0GR11",
+    "charades_0OUEP",
+    "charades_115MY",
+    "charades_11TTU",
+    "charades_1440M",
+    "charades_23QFL",
+    "charades_2SIO0",
+    "charades_33I4D",
+    "charades_3L3LC",
+    "charades_3LFV6",
+    "charades_3MIWR",
+    "charades_5FDHU",
+    "charades_5KZLW",
+    "charades_5QXCO",
+    "charades_6G96Q",
+    "charades_73J9F",
+    "charades_87EXS",
+    "charades_8OHDL",
+    "charades_94HB1",
+    "charades_9JZCC",
+    "charades_9KYMU",
+    "charades_9S0QC",
+    "charades_9UPC6",
+    "charades_AXIW1",
+    "charades_AXS82",
+    "charades_B6HUA",
+    "charades_CBLSW",
+    "charades_COFJV",
+    "charades_CXZW3",
+    "charades_D4AJ5",
+    "charades_D5886",
+    "charades_DOUFF",
+    "charades_DVT6L",
+    "charades_EOD1J",
+    "charades_F1LTO",
+    "charades_F8SNW",
+    "charades_FMXZS",
+    "charades_FNBYE",
+    "charades_GBD1Y",
+    "charades_GGAN0",
+    "charades_GIW6N",
+    "charades_H59EA",
+    "charades_H9V9I",
+    "charades_HIO3X",
+    "charades_HV20I",
+    "charades_I562C",
+    "charades_J8KPE",
+    "charades_JKWJ6",
+    "charades_K14NJ",
+    "charades_KZS5M",
+    "charades_LSH63",
+    "charades_LVLVR",
+    "charades_LWRKS",
+    "charades_LX54K",
+    "charades_MPX3X",
+    "charades_MS58Y",
+    "charades_MZ3I3",
+    "charades_NHB5N",
+    "charades_OOKN5",
+    "charades_PKEZI",
+    "charades_QOJ09",
+    "charades_QYF31",
+    "charades_R5WMI",
+    "charades_R9TL9",
+    "charades_S4P5J",
+    "charades_SQKR0",
+    "charades_SUKBV",
+    "charades_TIEA9",
+    "charades_TYYZK",
+    "charades_U386F",
+    "charades_U588C",
+    "charades_VA7IT",
+    "charades_VMI2D",
+    "charades_XIYIK",
+    "charades_XRR22",
+    "charades_XS7RN",
+    "charades_ZKGKR",
+    "charades_ZUU2X",
+    "mose_hhlnz8tp",
+    "perception_test_video_10149",
+    "perception_test_video_10175",
+    "perception_test_video_1025",
+    "perception_test_video_10287",
+    "perception_test_video_1037",
+    "perception_test_video_10426",
+    "perception_test_video_10998",
+    "perception_test_video_11583",
+    "perception_test_video_1555",
+    "perception_test_video_1568",
+    "perception_test_video_1952",
+    "perception_test_video_1991",
+    "perception_test_video_2178",
+    "perception_test_video_2531",
+    "perception_test_video_2749",
+    "perception_test_video_2793",
+    "perception_test_video_3076",
+    "perception_test_video_3129",
+    "perception_test_video_3232",
+    "perception_test_video_3483",
+    "perception_test_video_3593",
+    "perception_test_video_3638",
+    "perception_test_video_373",
+    "perception_test_video_378",
+    "perception_test_video_3937",
+    "perception_test_video_4062",
+    "perception_test_video_4191",
+    "perception_test_video_4362",
+    "perception_test_video_4498",
+    "perception_test_video_4499",
+    "perception_test_video_4525",
+    "perception_test_video_466",
+    "perception_test_video_4727",
+    "perception_test_video_4738",
+    "perception_test_video_4744",
+    "perception_test_video_5141",
+    "perception_test_video_5280",
+    "perception_test_video_5320",
+    "perception_test_video_5503",
+    "perception_test_video_5531",
+    "perception_test_video_5659",
+    "perception_test_video_5866",
+    "perception_test_video_5985",
+    "perception_test_video_6062",
+    "perception_test_video_612",
+    "perception_test_video_6129",
+    "perception_test_video_6525",
+    "perception_test_video_6741",
+    "perception_test_video_6977",
+    "perception_test_video_7116",
+    "perception_test_video_7380",
+    "perception_test_video_7424",
+    "perception_test_video_7778",
+    "perception_test_video_829",
+    "perception_test_video_8521",
+    "perception_test_video_8582",
+    "perception_test_video_9091",
+    "perception_test_video_9149"
+  ],
+  "policy": "immutable; all questions of one video stay together; new parameter decisions use development only; test accuracy is evaluated only after frozen_config_v1 is locked",
+  "prior_exposure": "The accepted stage-three report and its full-corpus aggregates/visual examples existed before this split. This round forbids further test-accuracy use for tuning.",
+  "rows": [
+    {
+      "qa_id": "306b3b6b5877",
+      "split": "test",
+      "video_id": "charades_VYMZC"
+    },
+    {
+      "qa_id": "fd121af8b866",
+      "split": "dev",
+      "video_id": "charades_06X2V"
+    },
+    {
+      "qa_id": "e1113ed4bdfd",
+      "split": "test",
+      "video_id": "charades_JFU3J"
+    },
+    {
+      "qa_id": "912974a8d310",
+      "split": "dev",
+      "video_id": "perception_test_video_9149"
+    },
+    {
+      "qa_id": "637b10b97536",
+      "split": "test",
+      "video_id": "perception_test_video_463"
+    },
+    {
+      "qa_id": "39e4b6ca2eab",
+      "split": "test",
+      "video_id": "perception_test_video_802"
+    },
+    {
+      "qa_id": "f13903352ab3",
+      "split": "test",
+      "video_id": "perception_test_video_8048"
+    },
+    {
+      "qa_id": "72003818feab",
+      "split": "test",
+      "video_id": "charades_LKNZD"
+    },
+    {
+      "qa_id": "b13e3c617734",
+      "split": "test",
+      "video_id": "charades_3SIOT"
+    },
+    {
+      "qa_id": "7c9f8a2deb5a",
+      "split": "test",
+      "video_id": "mose_62pqsed8"
+    },
+    {
+      "qa_id": "5118b23e48d1",
+      "split": "test",
+      "video_id": "perception_test_video_2198"
+    },
+    {
+      "qa_id": "f69bd688d550",
+      "split": "test",
+      "video_id": "charades_FZBK6"
+    },
+    {
+      "qa_id": "c0e538203735",
+      "split": "test",
+      "video_id": "charades_X0VAO"
+    },
+    {
+      "qa_id": "e9e4171e81d7",
+      "split": "test",
+      "video_id": "charades_7DODT"
+    },
+    {
+      "qa_id": "e8bbfbb73ffc",
+      "split": "test",
+      "video_id": "charades_X9M5B"
+    },
+    {
+      "qa_id": "e6bb2181a161",
+      "split": "test",
+      "video_id": "perception_test_video_9435"
+    },
+    {
+      "qa_id": "6ff6b9bf50ae",
+      "split": "test",
+      "video_id": "charades_GXZHG"
+    },
+    {
+      "qa_id": "9bec647a1462",
+      "split": "dev",
+      "video_id": "charades_EOD1J"
+    },
+    {
+      "qa_id": "068106fc0838",
+      "split": "test",
+      "video_id": "charades_A2L8M"
+    },
+    {
+      "qa_id": "d754da662fdd",
+      "split": "test",
+      "video_id": "perception_test_video_3929"
+    },
+    {
+      "qa_id": "f90f9583aca4",
+      "split": "test",
+      "video_id": "perception_test_video_9247"
+    },
+    {
+      "qa_id": "6c86816279d7",
+      "split": "test",
+      "video_id": "perception_test_video_1715"
+    },
+    {
+      "qa_id": "eda382abac12",
+      "split": "dev",
+      "video_id": "perception_test_video_378"
+    },
+    {
+      "qa_id": "f2c405a59d03",
+      "split": "test",
+      "video_id": "perception_test_video_7801"
+    },
+    {
+      "qa_id": "35fa9bd5bb69",
+      "split": "test",
+      "video_id": "charades_J1RLO"
+    },
+    {
+      "qa_id": "a2d9b8f8eaf8",
+      "split": "test",
+      "video_id": "charades_KOF86"
+    },
+    {
+      "qa_id": "e38b0509fd49",
+      "split": "dev",
+      "video_id": "perception_test_video_1025"
+    },
+    {
+      "qa_id": "9e4b3b397bf2",
+      "split": "dev",
+      "video_id": "charades_U588C"
+    },
+    {
+      "qa_id": "f3444d13f6db",
+      "split": "test",
+      "video_id": "charades_T4HF9"
+    },
+    {
+      "qa_id": "d0e3e04ec6db",
+      "split": "test",
+      "video_id": "charades_19PNV"
+    },
+    {
+      "qa_id": "5a4f17bd1bd4",
+      "split": "test",
+      "video_id": "perception_test_video_5766"
+    },
+    {
+      "qa_id": "7a368e283b2d",
+      "split": "test",
+      "video_id": "charades_GMPHO"
+    },
+    {
+      "qa_id": "ecf43beb0173",
+      "split": "test",
+      "video_id": "charades_U5KRD"
+    },
+    {
+      "qa_id": "9f16296d2ad9",
+      "split": "test",
+      "video_id": "charades_7FQ5Q"
+    },
+    {
+      "qa_id": "0190d0cf2c4a",
+      "split": "dev",
+      "video_id": "perception_test_video_5141"
+    },
+    {
+      "qa_id": "3e3b3b797c90",
+      "split": "test",
+      "video_id": "charades_NFA8R"
+    },
+    {
+      "qa_id": "244a03c5d934",
+      "split": "test",
+      "video_id": "charades_QYSER"
+    },
+    {
+      "qa_id": "3c860821f0fa",
+      "split": "test",
+      "video_id": "charades_U8X15"
+    },
+    {
+      "qa_id": "aad61a79b530",
+      "split": "test",
+      "video_id": "charades_E2EHR"
+    },
+    {
+      "qa_id": "64059a22a232",
+      "split": "dev",
+      "video_id": "perception_test_video_10426"
+    },
+    {
+      "qa_id": "cd58e49a3daa",
+      "split": "dev",
+      "video_id": "charades_DVT6L"
+    },
+    {
+      "qa_id": "c6b08d647eeb",
+      "split": "test",
+      "video_id": "charades_YJ2CM"
+    },
+    {
+      "qa_id": "c9467b76f345",
+      "split": "test",
+      "video_id": "perception_test_video_3316"
+    },
+    {
+      "qa_id": "4cfc5513567b",
+      "split": "dev",
+      "video_id": "charades_D5886"
+    },
+    {
+      "qa_id": "2092db8de444",
+      "split": "test",
+      "video_id": "charades_KRT78"
+    },
+    {
+      "qa_id": "087a4a8a2507",
+      "split": "test",
+      "video_id": "charades_CZO8C"
+    },
+    {
+      "qa_id": "b3a7aa28c2b1",
+      "split": "test",
+      "video_id": "charades_BWZL2"
+    },
+    {
+      "qa_id": "38f3e37f9491",
+      "split": "test",
+      "video_id": "perception_test_video_1527"
+    },
+    {
+      "qa_id": "f2f0ca1236e2",
+      "split": "test",
+      "video_id": "charades_1GQ73"
+    },
+    {
+      "qa_id": "410a4ffa8071",
+      "split": "test",
+      "video_id": "charades_3LN8C"
+    },
+    {
+      "qa_id": "406726a06e80",
+      "split": "dev",
+      "video_id": "perception_test_video_5320"
+    },
+    {
+      "qa_id": "c28aba38998b",
+      "split": "test",
+      "video_id": "charades_HUU4X"
+    },
+    {
+      "qa_id": "473e00adafd7",
+      "split": "dev",
+      "video_id": "charades_MS58Y"
+    },
+    {
+      "qa_id": "cc54aea3162c",
+      "split": "dev",
+      "video_id": "charades_ZKGKR"
+    },
+    {
+      "qa_id": "e381e304a359",
+      "split": "test",
+      "video_id": "perception_test_video_9763"
+    },
+    {
+      "qa_id": "817c973dfc2e",
+      "split": "test",
+      "video_id": "perception_test_video_2716"
+    },
+    {
+      "qa_id": "baed0a163ae1",
+      "split": "dev",
+      "video_id": "perception_test_video_4525"
+    },
+    {
+      "qa_id": "e4cfec18ab03",
+      "split": "test",
+      "video_id": "charades_3XKBC"
+    },
+    {
+      "qa_id": "20618ad0b147",
+      "split": "test",
+      "video_id": "perception_test_video_10079"
+    },
+    {
+      "qa_id": "5eda20dbe3b4",
+      "split": "test",
+      "video_id": "perception_test_video_7713"
+    },
+    {
+      "qa_id": "05e65d76463f",
+      "split": "test",
+      "video_id": "perception_test_video_9013"
+    },
+    {
+      "qa_id": "6eb374c995b4",
+      "split": "dev",
+      "video_id": "perception_test_video_11583"
+    },
+    {
+      "qa_id": "9cb289a97b8a",
+      "split": "test",
+      "video_id": "charades_48BUM"
+    },
+    {
+      "qa_id": "a263c917735a",
+      "split": "test",
+      "video_id": "perception_test_video_8982"
+    },
+    {
+      "qa_id": "922fe7d37efb",
+      "split": "dev",
+      "video_id": "charades_QOJ09"
+    },
+    {
+      "qa_id": "8ebdde6fc68e",
+      "split": "test",
+      "video_id": "perception_test_video_9148"
+    },
+    {
+      "qa_id": "5d6529738f63",
+      "split": "dev",
+      "video_id": "charades_6G96Q"
+    },
+    {
+      "qa_id": "493f7288fc97",
+      "split": "test",
+      "video_id": "perception_test_video_11309"
+    },
+    {
+      "qa_id": "b272e8759d22",
+      "split": "dev",
+      "video_id": "perception_test_video_3937"
+    },
+    {
+      "qa_id": "49659fe18b86",
+      "split": "test",
+      "video_id": "perception_test_video_11424"
+    },
+    {
+      "qa_id": "35d99fd3d86a",
+      "split": "test",
+      "video_id": "perception_test_video_6302"
+    },
+    {
+      "qa_id": "f6f105d654cf",
+      "split": "test",
+      "video_id": "perception_test_video_5008"
+    },
+    {
+      "qa_id": "e648662c049d",
+      "split": "test",
+      "video_id": "perception_test_video_7145"
+    },
+    {
+      "qa_id": "6289767bb622",
+      "split": "dev",
+      "video_id": "charades_FNBYE"
+    },
+    {
+      "qa_id": "e77aa63dab18",
+      "split": "test",
+      "video_id": "mose_jtefx29o"
+    },
+    {
+      "qa_id": "a0065696e668",
+      "split": "test",
+      "video_id": "charades_G5LEA"
+    },
+    {
+      "qa_id": "11db2343c407",
+      "split": "dev",
+      "video_id": "charades_R9TL9"
+    },
+    {
+      "qa_id": "33e9ee85ff87",
+      "split": "test",
+      "video_id": "perception_test_video_11370"
+    },
+    {
+      "qa_id": "40c8a8899957",
+      "split": "test",
+      "video_id": "charades_S2TC7"
+    },
+    {
+      "qa_id": "90d54482df4b",
+      "split": "test",
+      "video_id": "perception_test_video_8725"
+    },
+    {
+      "qa_id": "f7eb00cf9383",
+      "split": "test",
+      "video_id": "perception_test_video_3260"
+    },
+    {
+      "qa_id": "ed232e200a58",
+      "split": "dev",
+      "video_id": "perception_test_video_5866"
+    },
+    {
+      "qa_id": "efd1f0f61fbd",
+      "split": "test",
+      "video_id": "perception_test_video_9470"
+    },
+    {
+      "qa_id": "712260bf1958",
+      "split": "test",
+      "video_id": "charades_RQRRD"
+    },
+    {
+      "qa_id": "775223ef09cb",
+      "split": "dev",
+      "video_id": "charades_HIO3X"
+    },
+    {
+      "qa_id": "614c247d2e06",
+      "split": "test",
+      "video_id": "perception_test_video_2388"
+    },
+    {
+      "qa_id": "1e17312b10c1",
+      "split": "dev",
+      "video_id": "charades_LWRKS"
+    },
+    {
+      "qa_id": "5065b7936486",
+      "split": "test",
+      "video_id": "perception_test_video_9456"
+    },
+    {
+      "qa_id": "c9c9b6f9e6c7",
+      "split": "test",
+      "video_id": "charades_MBAUA"
+    },
+    {
+      "qa_id": "41b71b1ff744",
+      "split": "test",
+      "video_id": "charades_E0AEN"
+    },
+    {
+      "qa_id": "ce78c6eb3fe1",
+      "split": "test",
+      "video_id": "charades_M2T77"
+    },
+    {
+      "qa_id": "1b423d5f0441",
+      "split": "test",
+      "video_id": "charades_RS9D9"
+    },
+    {
+      "qa_id": "0759cb9bb6cd",
+      "split": "test",
+      "video_id": "perception_test_video_907"
+    },
+    {
+      "qa_id": "f6db37251836",
+      "split": "test",
+      "video_id": "perception_test_video_4564"
+    },
+    {
+      "qa_id": "46d5db724a2d",
+      "split": "test",
+      "video_id": "charades_G6LYD"
+    },
+    {
+      "qa_id": "48b3bdea5cd6",
+      "split": "test",
+      "video_id": "perception_test_video_1564"
+    },
+    {
+      "qa_id": "a1a6fa838b5e",
+      "split": "test",
+      "video_id": "perception_test_video_1486"
+    },
+    {
+      "qa_id": "e0708a5f429f",
+      "split": "test",
+      "video_id": "charades_3HOJR"
+    },
+    {
+      "qa_id": "dd00093fb9f2",
+      "split": "dev",
+      "video_id": "charades_LX54K"
+    },
+    {
+      "qa_id": "32e6a8cce4fd",
+      "split": "dev",
+      "video_id": "charades_SQKR0"
+    },
+    {
+      "qa_id": "5c88dc973cc9",
+      "split": "test",
+      "video_id": "charades_B0LK0"
+    },
+    {
+      "qa_id": "c7616ea16ebd",
+      "split": "test",
+      "video_id": "perception_test_video_5368"
+    },
+    {
+      "qa_id": "c2574c3e6d43",
+      "split": "test",
+      "video_id": "charades_8Z02S"
+    },
+    {
+      "qa_id": "cc8066db36a6",
+      "split": "test",
+      "video_id": "charades_7T6MB"
+    },
+    {
+      "qa_id": "b2df05809e9b",
+      "split": "dev",
+      "video_id": "charades_F1LTO"
+    },
+    {
+      "qa_id": "64cc5254725b",
+      "split": "test",
+      "video_id": "charades_N30A9"
+    },
+    {
+      "qa_id": "e9efdea942b1",
+      "split": "dev",
+      "video_id": "charades_D4AJ5"
+    },
+    {
+      "qa_id": "a66221b831fe",
+      "split": "dev",
+      "video_id": "perception_test_video_6977"
+    },
+    {
+      "qa_id": "f5c165c5de20",
+      "split": "dev",
+      "video_id": "charades_3LFV6"
+    },
+    {
+      "qa_id": "41b092d6d108",
+      "split": "test",
+      "video_id": "perception_test_video_1106"
+    },
+    {
+      "qa_id": "6ef19196ce44",
+      "split": "test",
+      "video_id": "perception_test_video_1340"
+    },
+    {
+      "qa_id": "5fb424697d23",
+      "split": "dev",
+      "video_id": "charades_TYYZK"
+    },
+    {
+      "qa_id": "fad7617f06d0",
+      "split": "dev",
+      "video_id": "charades_ZUU2X"
+    },
+    {
+      "qa_id": "c54586ea15fd",
+      "split": "test",
+      "video_id": "charades_4Y1AW"
+    },
+    {
+      "qa_id": "2c2b1d82edf3",
+      "split": "test",
+      "video_id": "charades_C6LDA"
+    },
+    {
+      "qa_id": "9e5c44170f80",
+      "split": "test",
+      "video_id": "charades_1SKLG"
+    },
+    {
+      "qa_id": "ee4d5546df01",
+      "split": "test",
+      "video_id": "perception_test_video_3956"
+    },
+    {
+      "qa_id": "6fa95513346d",
+      "split": "test",
+      "video_id": "charades_0UK3H"
+    },
+    {
+      "qa_id": "ce456b677fd5",
+      "split": "test",
+      "video_id": "charades_8MLCU"
+    },
+    {
+      "qa_id": "0893a25082de",
+      "split": "test",
+      "video_id": "perception_test_video_10764"
+    },
+    {
+      "qa_id": "9bf91548f358",
+      "split": "dev",
+      "video_id": "charades_TIEA9"
+    },
+    {
+      "qa_id": "24cd69603707",
+      "split": "test",
+      "video_id": "charades_52FNN"
+    },
+    {
+      "qa_id": "998a1297d525",
+      "split": "dev",
+      "video_id": "perception_test_video_5659"
+    },
+    {
+      "qa_id": "29614708f97c",
+      "split": "dev",
+      "video_id": "perception_test_video_3129"
+    },
+    {
+      "qa_id": "d39ea5abede5",
+      "split": "test",
+      "video_id": "perception_test_video_1277"
+    },
+    {
+      "qa_id": "35e1be5c9e71",
+      "split": "test",
+      "video_id": "perception_test_video_5234"
+    },
+    {
+      "qa_id": "64385fff656a",
+      "split": "test",
+      "video_id": "charades_UUF84"
+    },
+    {
+      "qa_id": "edaadd40ee46",
+      "split": "test",
+      "video_id": "charades_ZS9IX"
+    },
+    {
+      "qa_id": "4c7a14e86d78",
+      "split": "test",
+      "video_id": "perception_test_video_3967"
+    },
+    {
+      "qa_id": "507101ea6e79",
+      "split": "dev",
+      "video_id": "perception_test_video_2531"
+    },
+    {
+      "qa_id": "aa880ade2cff",
+      "split": "test",
+      "video_id": "charades_LG73V"
+    },
+    {
+      "qa_id": "3cc17e3bc31f",
+      "split": "test",
+      "video_id": "charades_DINAV"
+    },
+    {
+      "qa_id": "f1cee1c62996",
+      "split": "test",
+      "video_id": "charades_TANB8"
+    },
+    {
+      "qa_id": "ad8e898830eb",
+      "split": "test",
+      "video_id": "charades_9AC1T"
+    },
+    {
+      "qa_id": "4c9082a77916",
+      "split": "test",
+      "video_id": "charades_VXEXI"
+    },
+    {
+      "qa_id": "f2f4ab6e819a",
+      "split": "test",
+      "video_id": "perception_test_video_6391"
+    },
+    {
+      "qa_id": "eaead7ee9248",
+      "split": "test",
+      "video_id": "perception_test_video_5665"
+    },
+    {
+      "qa_id": "02d9ae720ba9",
+      "split": "dev",
+      "video_id": "charades_8OHDL"
+    },
+    {
+      "qa_id": "2e3ed9b80f69",
+      "split": "test",
+      "video_id": "charades_287ST"
+    },
+    {
+      "qa_id": "ee134dc18780",
+      "split": "test",
+      "video_id": "charades_08KKF"
+    },
+    {
+      "qa_id": "3d83bd30542e",
+      "split": "test",
+      "video_id": "charades_MBAUA"
+    },
+    {
+      "qa_id": "9e86b0cbce7f",
+      "split": "dev",
+      "video_id": "mose_hhlnz8tp"
+    },
+    {
+      "qa_id": "80de61955323",
+      "split": "dev",
+      "video_id": "perception_test_video_1952"
+    },
+    {
+      "qa_id": "9e409446f0d2",
+      "split": "dev",
+      "video_id": "perception_test_video_6062"
+    },
+    {
+      "qa_id": "8ca7d26ca10f",
+      "split": "dev",
+      "video_id": "perception_test_video_5503"
+    },
+    {
+      "qa_id": "e72268209e78",
+      "split": "test",
+      "video_id": "charades_OM2NF"
+    },
+    {
+      "qa_id": "279badfc2fdb",
+      "split": "test",
+      "video_id": "charades_XS6PF"
+    },
+    {
+      "qa_id": "f192c6ea9cc5",
+      "split": "test",
+      "video_id": "charades_AEHBG"
+    },
+    {
+      "qa_id": "61c15be6be29",
+      "split": "test",
+      "video_id": "perception_test_video_7504"
+    },
+    {
+      "qa_id": "3301d3ea65a8",
+      "split": "test",
+      "video_id": "charades_ZC8L5"
+    },
+    {
+      "qa_id": "cc2ad769b645",
+      "split": "test",
+      "video_id": "charades_4JKLQ"
+    },
+    {
+      "qa_id": "52a7d4ebb1be",
+      "split": "test",
+      "video_id": "charades_Y5826"
+    },
+    {
+      "qa_id": "7e1384c66b0b",
+      "split": "test",
+      "video_id": "charades_OEIR9"
+    },
+    {
+      "qa_id": "064cb90e6389",
+      "split": "test",
+      "video_id": "charades_J1RLO"
+    },
+    {
+      "qa_id": "e8ce11c154dd",
+      "split": "test",
+      "video_id": "perception_test_video_5698"
+    },
+    {
+      "qa_id": "638b779d37c6",
+      "split": "dev",
+      "video_id": "charades_XRR22"
+    },
+    {
+      "qa_id": "b1a819deb3b8",
+      "split": "test",
+      "video_id": "charades_UQJ58"
+    },
+    {
+      "qa_id": "2e595b32b2e6",
+      "split": "dev",
+      "video_id": "perception_test_video_4062"
+    },
+    {
+      "qa_id": "91ec9ffa0ef9",
+      "split": "test",
+      "video_id": "perception_test_video_5281"
+    },
+    {
+      "qa_id": "38f7094160be",
+      "split": "test",
+      "video_id": "charades_TDD74"
+    },
+    {
+      "qa_id": "1f16de08e889",
+      "split": "test",
+      "video_id": "perception_test_video_9532"
+    },
+    {
+      "qa_id": "aaf185604082",
+      "split": "test",
+      "video_id": "perception_test_video_6109"
+    },
+    {
+      "qa_id": "b4c8fd9e163b",
+      "split": "test",
+      "video_id": "charades_7326A"
+    },
+    {
+      "qa_id": "b86bd035e102",
+      "split": "test",
+      "video_id": "perception_test_video_5854"
+    },
+    {
+      "qa_id": "0e9001a3b829",
+      "split": "test",
+      "video_id": "perception_test_video_11514"
+    },
+    {
+      "qa_id": "fdc20dc15669",
+      "split": "test",
+      "video_id": "charades_ORPD5"
+    },
+    {
+      "qa_id": "2989e2d7de3d",
+      "split": "test",
+      "video_id": "charades_DOGYU"
+    },
+    {
+      "qa_id": "df24461110a3",
+      "split": "test",
+      "video_id": "charades_RJN35"
+    },
+    {
+      "qa_id": "174566649511",
+      "split": "test",
+      "video_id": "perception_test_video_10902"
+    },
+    {
+      "qa_id": "ad94a1545092",
+      "split": "dev",
+      "video_id": "perception_test_video_829"
+    },
+    {
+      "qa_id": "576d2206cf11",
+      "split": "test",
+      "video_id": "charades_HCSPE"
+    },
+    {
+      "qa_id": "8f371502728a",
+      "split": "dev",
+      "video_id": "charades_9S0QC"
+    },
+    {
+      "qa_id": "c9172dfae676",
+      "split": "test",
+      "video_id": "perception_test_video_6139"
+    },
+    {
+      "qa_id": "b435e43623cd",
+      "split": "test",
+      "video_id": "perception_test_video_8261"
+    },
+    {
+      "qa_id": "f9ab1de16734",
+      "split": "test",
+      "video_id": "charades_T2FSV"
+    },
+    {
+      "qa_id": "1b1f653650f9",
+      "split": "test",
+      "video_id": "perception_test_video_9539"
+    },
+    {
+      "qa_id": "38ca321b15d2",
+      "split": "test",
+      "video_id": "charades_RSG1C"
+    },
+    {
+      "qa_id": "c3dfa6fd780d",
+      "split": "test",
+      "video_id": "charades_WNSGZ"
+    },
+    {
+      "qa_id": "db6d62738250",
+      "split": "test",
+      "video_id": "perception_test_video_8940"
+    },
+    {
+      "qa_id": "3aea61053429",
+      "split": "test",
+      "video_id": "charades_CI1I6"
+    },
+    {
+      "qa_id": "f6b59401d5e6",
+      "split": "test",
+      "video_id": "charades_CRNL5"
+    },
+    {
+      "qa_id": "7b6137d3786f",
+      "split": "test",
+      "video_id": "charades_A1VTR"
+    },
+    {
+      "qa_id": "0e3fab1c4df1",
+      "split": "dev",
+      "video_id": "charades_0OUEP"
+    },
+    {
+      "qa_id": "7701856a4c94",
+      "split": "test",
+      "video_id": "charades_0M7YH"
+    },
+    {
+      "qa_id": "15f31e2572de",
+      "split": "test",
+      "video_id": "charades_D0Q6H"
+    },
+    {
+      "qa_id": "601cc4c6cc8f",
+      "split": "dev",
+      "video_id": "charades_XIYIK"
+    },
+    {
+      "qa_id": "20e82782d18b",
+      "split": "test",
+      "video_id": "perception_test_video_7372"
+    },
+    {
+      "qa_id": "3f8c860b9ad6",
+      "split": "test",
+      "video_id": "charades_D2ES2"
+    },
+    {
+      "qa_id": "d8ab5e9d3df9",
+      "split": "test",
+      "video_id": "perception_test_video_10356"
+    },
+    {
+      "qa_id": "0fce3444c9c7",
+      "split": "test",
+      "video_id": "charades_W7SGQ"
+    },
+    {
+      "qa_id": "53ce9e69bf88",
+      "split": "dev",
+      "video_id": "charades_H59EA"
+    },
+    {
+      "qa_id": "9f9ca17f22be",
+      "split": "test",
+      "video_id": "perception_test_video_4253"
+    },
+    {
+      "qa_id": "939a669a0713",
+      "split": "dev",
+      "video_id": "perception_test_video_6525"
+    },
+    {
+      "qa_id": "59d033e42aa7",
+      "split": "test",
+      "video_id": "perception_test_video_10705"
+    },
+    {
+      "qa_id": "0bfdc4f94796",
+      "split": "test",
+      "video_id": "perception_test_video_6015"
+    },
+    {
+      "qa_id": "39829d3712a6",
+      "split": "test",
+      "video_id": "charades_QNPDC"
+    },
+    {
+      "qa_id": "ca07dbf8359f",
+      "split": "test",
+      "video_id": "charades_VFAE3"
+    },
+    {
+      "qa_id": "6cdafa9cf1fd",
+      "split": "test",
+      "video_id": "charades_P3XT7"
+    },
+    {
+      "qa_id": "bdd73e29f8e7",
+      "split": "dev",
+      "video_id": "perception_test_video_8521"
+    },
+    {
+      "qa_id": "1c1bf92db462",
+      "split": "test",
+      "video_id": "perception_test_video_3987"
+    },
+    {
+      "qa_id": "13a41b8c6b50",
+      "split": "dev",
+      "video_id": "charades_3L3LC"
+    },
+    {
+      "qa_id": "7dcaa19f4a42",
+      "split": "test",
+      "video_id": "perception_test_video_6754"
+    },
+    {
+      "qa_id": "8855613117cc",
+      "split": "dev",
+      "video_id": "charades_3MIWR"
+    },
+    {
+      "qa_id": "86ff4a0f2cba",
+      "split": "test",
+      "video_id": "perception_test_video_3348"
+    },
+    {
+      "qa_id": "0ef023cdb6f2",
+      "split": "test",
+      "video_id": "charades_3P8NL"
+    },
+    {
+      "qa_id": "c12ea5f8262a",
+      "split": "test",
+      "video_id": "charades_05124"
+    },
+    {
+      "qa_id": "e17508487853",
+      "split": "test",
+      "video_id": "charades_0M0T4"
+    },
+    {
+      "qa_id": "67b7fcd55020",
+      "split": "test",
+      "video_id": "charades_DYVUY"
+    },
+    {
+      "qa_id": "bb92eacb40c6",
+      "split": "dev",
+      "video_id": "charades_DOUFF"
+    },
+    {
+      "qa_id": "cfc2cfd2abcb",
+      "split": "test",
+      "video_id": "charades_D0Q6H"
+    },
+    {
+      "qa_id": "1c1f2c3175be",
+      "split": "test",
+      "video_id": "perception_test_video_1296"
+    },
+    {
+      "qa_id": "387c432723bf",
+      "split": "dev",
+      "video_id": "charades_FNBYE"
+    },
+    {
+      "qa_id": "7f9ebd763fa7",
+      "split": "test",
+      "video_id": "perception_test_video_6745"
+    },
+    {
+      "qa_id": "710807ec1130",
+      "split": "test",
+      "video_id": "charades_OB1XO"
+    },
+    {
+      "qa_id": "3484d0bf89d5",
+      "split": "test",
+      "video_id": "perception_test_video_7733"
+    },
+    {
+      "qa_id": "1cd0cf28703f",
+      "split": "test",
+      "video_id": "perception_test_video_5212"
+    },
+    {
+      "qa_id": "e8d8911789a9",
+      "split": "test",
+      "video_id": "charades_3AE3T"
+    },
+    {
+      "qa_id": "2e16ccb4c8da",
+      "split": "test",
+      "video_id": "charades_4Q766"
+    },
+    {
+      "qa_id": "0baf6491b598",
+      "split": "dev",
+      "video_id": "perception_test_video_4362"
+    },
+    {
+      "qa_id": "6c80cb6cec94",
+      "split": "dev",
+      "video_id": "charades_I562C"
+    },
+    {
+      "qa_id": "139b17cdf632",
+      "split": "test",
+      "video_id": "charades_PON7X"
+    },
+    {
+      "qa_id": "53647348bd55",
+      "split": "test",
+      "video_id": "perception_test_video_4679"
+    },
+    {
+      "qa_id": "e268d11bbeff",
+      "split": "test",
+      "video_id": "perception_test_video_3863"
+    },
+    {
+      "qa_id": "74dd998dce76",
+      "split": "test",
+      "video_id": "perception_test_video_10479"
+    },
+    {
+      "qa_id": "6d500a2cf1e9",
+      "split": "test",
+      "video_id": "charades_BIJYC"
+    },
+    {
+      "qa_id": "f1dcabafeefd",
+      "split": "test",
+      "video_id": "charades_BYSQ7"
+    },
+    {
+      "qa_id": "0e9e33c81d1d",
+      "split": "test",
+      "video_id": "charades_6B328"
+    },
+    {
+      "qa_id": "46f7b599730b",
+      "split": "test",
+      "video_id": "perception_test_video_807"
+    },
+    {
+      "qa_id": "e28143b52d91",
+      "split": "test",
+      "video_id": "charades_NLXQE"
+    },
+    {
+      "qa_id": "292a9865c751",
+      "split": "test",
+      "video_id": "charades_6H78U"
+    },
+    {
+      "qa_id": "120825200c3f",
+      "split": "test",
+      "video_id": "charades_DHVYY"
+    },
+    {
+      "qa_id": "d6cb083659f7",
+      "split": "test",
+      "video_id": "perception_test_video_6751"
+    },
+    {
+      "qa_id": "aa95129776c4",
+      "split": "test",
+      "video_id": "charades_GOK03"
+    },
+    {
+      "qa_id": "90d708e859f9",
+      "split": "dev",
+      "video_id": "charades_73J9F"
+    },
+    {
+      "qa_id": "8c547a7c18ff",
+      "split": "dev",
+      "video_id": "charades_GBD1Y"
+    },
+    {
+      "qa_id": "1ac388273259",
+      "split": "test",
+      "video_id": "charades_XJFMW"
+    },
+    {
+      "qa_id": "67db44a4d3e4",
+      "split": "dev",
+      "video_id": "charades_K14NJ"
+    },
+    {
+      "qa_id": "a6cad908c3c7",
+      "split": "test",
+      "video_id": "perception_test_video_3144"
+    },
+    {
+      "qa_id": "3850789009dc",
+      "split": "dev",
+      "video_id": "charades_B6HUA"
+    },
+    {
+      "qa_id": "982263a379f8",
+      "split": "dev",
+      "video_id": "perception_test_video_5531"
+    },
+    {
+      "qa_id": "8c0e59a15019",
+      "split": "test",
+      "video_id": "perception_test_video_9823"
+    },
+    {
+      "qa_id": "38fe51cbf9fe",
+      "split": "test",
+      "video_id": "perception_test_video_6391"
+    },
+    {
+      "qa_id": "599944b9cd39",
+      "split": "test",
+      "video_id": "perception_test_video_10814"
+    },
+    {
+      "qa_id": "803549452aa8",
+      "split": "test",
+      "video_id": "charades_KPNJ5"
+    },
+    {
+      "qa_id": "093589b84207",
+      "split": "test",
+      "video_id": "perception_test_video_9981"
+    },
+    {
+      "qa_id": "a289a0914aff",
+      "split": "test",
+      "video_id": "mose_skgveb0s"
+    },
+    {
+      "qa_id": "253669f7544a",
+      "split": "test",
+      "video_id": "perception_test_video_209"
+    },
+    {
+      "qa_id": "fcba45c6843c",
+      "split": "test",
+      "video_id": "mose_97cegrqe"
+    },
+    {
+      "qa_id": "4313f3d7d450",
+      "split": "test",
+      "video_id": "perception_test_video_4227"
+    },
+    {
+      "qa_id": "f6ce39a8381c",
+      "split": "test",
+      "video_id": "charades_4ALLQ"
+    },
+    {
+      "qa_id": "23b114b9d6f7",
+      "split": "test",
+      "video_id": "charades_H5RDP"
+    },
+    {
+      "qa_id": "24773ab677ad",
+      "split": "test",
+      "video_id": "charades_Y4IIO"
+    },
+    {
+      "qa_id": "3078022e3939",
+      "split": "test",
+      "video_id": "perception_test_video_10156"
+    },
+    {
+      "qa_id": "26eb74bfda76",
+      "split": "test",
+      "video_id": "charades_GH3D1"
+    },
+    {
+      "qa_id": "d997a3c85a53",
+      "split": "test",
+      "video_id": "mose_f9oeua6y"
+    },
+    {
+      "qa_id": "77ade1dad943",
+      "split": "test",
+      "video_id": "perception_test_video_2882"
+    },
+    {
+      "qa_id": "0abb99e6a10a",
+      "split": "test",
+      "video_id": "perception_test_video_11041"
+    },
+    {
+      "qa_id": "83986244196e",
+      "split": "test",
+      "video_id": "charades_JCLES"
+    },
+    {
+      "qa_id": "79e261e5e3d2",
+      "split": "test",
+      "video_id": "charades_D260T"
+    },
+    {
+      "qa_id": "46f603ad2aba",
+      "split": "test",
+      "video_id": "perception_test_video_4930"
+    },
+    {
+      "qa_id": "d4d1c0d7c4ba",
+      "split": "test",
+      "video_id": "charades_35P3Q"
+    },
+    {
+      "qa_id": "63acab31636a",
+      "split": "test",
+      "video_id": "perception_test_video_3553"
+    },
+    {
+      "qa_id": "71059f033aa6",
+      "split": "dev",
+      "video_id": "perception_test_video_1555"
+    },
+    {
+      "qa_id": "7d04803f98c0",
+      "split": "test",
+      "video_id": "charades_SPJVR"
+    },
+    {
+      "qa_id": "3afb8d11cee9",
+      "split": "dev",
+      "video_id": "perception_test_video_10998"
+    },
+    {
+      "qa_id": "3520414b37c5",
+      "split": "test",
+      "video_id": "perception_test_video_7136"
+    },
+    {
+      "qa_id": "7cabca0d8f0e",
+      "split": "test",
+      "video_id": "perception_test_video_2553"
+    },
+    {
+      "qa_id": "81713877817e",
+      "split": "test",
+      "video_id": "perception_test_video_1747"
+    },
+    {
+      "qa_id": "362c97c30ef8",
+      "split": "dev",
+      "video_id": "charades_F8SNW"
+    },
+    {
+      "qa_id": "1e1c2ae1c7d6",
+      "split": "test",
+      "video_id": "perception_test_video_588"
+    },
+    {
+      "qa_id": "1297862b34c8",
+      "split": "dev",
+      "video_id": "perception_test_video_1568"
+    },
+    {
+      "qa_id": "c4ddf8a8ed26",
+      "split": "test",
+      "video_id": "charades_Q5EPP"
+    },
+    {
+      "qa_id": "d6dc07be09df",
+      "split": "test",
+      "video_id": "charades_WLOCV"
+    },
+    {
+      "qa_id": "932fc9216a1a",
+      "split": "test",
+      "video_id": "charades_X95FK"
+    },
+    {
+      "qa_id": "910c203320e7",
+      "split": "dev",
+      "video_id": "charades_SQKR0"
+    },
+    {
+      "qa_id": "862550f41656",
+      "split": "test",
+      "video_id": "perception_test_video_225"
+    },
+    {
+      "qa_id": "73409fad889f",
+      "split": "dev",
+      "video_id": "perception_test_video_3483"
+    },
+    {
+      "qa_id": "3b47b91a8409",
+      "split": "test",
+      "video_id": "perception_test_video_5614"
+    },
+    {
+      "qa_id": "15359fdfbefe",
+      "split": "test",
+      "video_id": "perception_test_video_9165"
+    },
+    {
+      "qa_id": "42a3529598cd",
+      "split": "test",
+      "video_id": "charades_EWBOG"
+    },
+    {
+      "qa_id": "c90d84123c08",
+      "split": "test",
+      "video_id": "perception_test_video_550"
+    },
+    {
+      "qa_id": "b97864e1b5ba",
+      "split": "test",
+      "video_id": "charades_ZATTZ"
+    },
+    {
+      "qa_id": "1fee389d677f",
+      "split": "test",
+      "video_id": "perception_test_video_9052"
+    },
+    {
+      "qa_id": "d663925de846",
+      "split": "test",
+      "video_id": "perception_test_video_4932"
+    },
+    {
+      "qa_id": "16f94195d2e3",
+      "split": "test",
+      "video_id": "perception_test_video_6366"
+    },
+    {
+      "qa_id": "bcc67d46d84a",
+      "split": "test",
+      "video_id": "charades_JNWX7"
+    },
+    {
+      "qa_id": "1e62a18493ca",
+      "split": "test",
+      "video_id": "perception_test_video_207"
+    },
+    {
+      "qa_id": "53a3eb67757d",
+      "split": "test",
+      "video_id": "charades_BE43L"
+    },
+    {
+      "qa_id": "3cbdef8cb838",
+      "split": "test",
+      "video_id": "charades_ISHJ4"
+    },
+    {
+      "qa_id": "637304fdb2fa",
+      "split": "test",
+      "video_id": "charades_U6KQ7"
+    },
+    {
+      "qa_id": "60a2141634eb",
+      "split": "test",
+      "video_id": "perception_test_video_6449"
+    },
+    {
+      "qa_id": "f1fcd6bfb421",
+      "split": "test",
+      "video_id": "charades_G6K7T"
+    },
+    {
+      "qa_id": "a098744c4c21",
+      "split": "test",
+      "video_id": "charades_ZFQNZ"
+    },
+    {
+      "qa_id": "82b6b8904003",
+      "split": "test",
+      "video_id": "perception_test_video_2568"
+    },
+    {
+      "qa_id": "868fc635a146",
+      "split": "dev",
+      "video_id": "charades_33I4D"
+    },
+    {
+      "qa_id": "af7bb93e2a8e",
+      "split": "test",
+      "video_id": "charades_F207R"
+    },
+    {
+      "qa_id": "d5664374c2fe",
+      "split": "test",
+      "video_id": "charades_DM2XL"
+    },
+    {
+      "qa_id": "8702085e38ee",
+      "split": "test",
+      "video_id": "charades_2B8ML"
+    },
+    {
+      "qa_id": "f8307447538d",
+      "split": "test",
+      "video_id": "charades_17LNN"
+    },
+    {
+      "qa_id": "f196efbdf7bf",
+      "split": "test",
+      "video_id": "charades_E184J"
+    },
+    {
+      "qa_id": "c0a6f88dff62",
+      "split": "test",
+      "video_id": "perception_test_video_6015"
+    },
+    {
+      "qa_id": "b39c68bdc6ce",
+      "split": "test",
+      "video_id": "charades_X9ULK"
+    },
+    {
+      "qa_id": "623d0795d174",
+      "split": "dev",
+      "video_id": "perception_test_video_4744"
+    },
+    {
+      "qa_id": "1bd3c7640e1b",
+      "split": "test",
+      "video_id": "charades_31YNM"
+    },
+    {
+      "qa_id": "83710b7c7993",
+      "split": "test",
+      "video_id": "perception_test_video_5558"
+    },
+    {
+      "qa_id": "bb50078097d3",
+      "split": "test",
+      "video_id": "perception_test_video_8100"
+    },
+    {
+      "qa_id": "ba52a9507bf1",
+      "split": "test",
+      "video_id": "charades_SMRL1"
+    },
+    {
+      "qa_id": "7d73a701e7a6",
+      "split": "test",
+      "video_id": "charades_8SAEO"
+    },
+    {
+      "qa_id": "6069d87b5be0",
+      "split": "test",
+      "video_id": "charades_MOKPE"
+    },
+    {
+      "qa_id": "324b69d04f07",
+      "split": "test",
+      "video_id": "perception_test_video_9791"
+    },
+    {
+      "qa_id": "8f0b5e6fb678",
+      "split": "test",
+      "video_id": "charades_9MOH2"
+    },
+    {
+      "qa_id": "b5786fadc3ec",
+      "split": "test",
+      "video_id": "charades_OA6XR"
+    },
+    {
+      "qa_id": "f98e61d0194e",
+      "split": "test",
+      "video_id": "perception_test_video_3610"
+    },
+    {
+      "qa_id": "f334a003ff45",
+      "split": "dev",
+      "video_id": "charades_CBLSW"
+    },
+    {
+      "qa_id": "5c92e154093b",
+      "split": "test",
+      "video_id": "perception_test_video_7414"
+    },
+    {
+      "qa_id": "e258822dd00a",
+      "split": "dev",
+      "video_id": "perception_test_video_7424"
+    },
+    {
+      "qa_id": "78f5ef111f70",
+      "split": "test",
+      "video_id": "charades_XJFMW"
+    },
+    {
+      "qa_id": "8868afe2cfc9",
+      "split": "test",
+      "video_id": "perception_test_video_5254"
+    },
+    {
+      "qa_id": "bafa2f95fa6f",
+      "split": "test",
+      "video_id": "charades_9D37U"
+    },
+    {
+      "qa_id": "22cd8d7961ed",
+      "split": "test",
+      "video_id": "charades_WJ13E"
+    },
+    {
+      "qa_id": "1d43cc9574ce",
+      "split": "test",
+      "video_id": "perception_test_video_3523"
+    },
+    {
+      "qa_id": "7e33774b4d4e",
+      "split": "test",
+      "video_id": "perception_test_video_3316"
+    },
+    {
+      "qa_id": "d694bbfeca75",
+      "split": "test",
+      "video_id": "charades_UY08H"
+    },
+    {
+      "qa_id": "0eaf0f9a69cf",
+      "split": "dev",
+      "video_id": "charades_9JZCC"
+    },
+    {
+      "qa_id": "7fc4d8860d7e",
+      "split": "test",
+      "video_id": "charades_8WZJW"
+    },
+    {
+      "qa_id": "ba2435eaa18b",
+      "split": "test",
+      "video_id": "perception_test_video_2917"
+    },
+    {
+      "qa_id": "d3309fe979f8",
+      "split": "test",
+      "video_id": "charades_NNG2V"
+    },
+    {
+      "qa_id": "2d440264b7c2",
+      "split": "test",
+      "video_id": "perception_test_video_5504"
+    },
+    {
+      "qa_id": "ae848dcc0da3",
+      "split": "dev",
+      "video_id": "perception_test_video_5985"
+    },
+    {
+      "qa_id": "cb0e5f0058c4",
+      "split": "test",
+      "video_id": "perception_test_video_1689"
+    },
+    {
+      "qa_id": "f91ed1475652",
+      "split": "dev",
+      "video_id": "charades_U386F"
+    },
+    {
+      "qa_id": "9e6ee9ae67c5",
+      "split": "dev",
+      "video_id": "perception_test_video_6129"
+    },
+    {
+      "qa_id": "e83008801159",
+      "split": "test",
+      "video_id": "perception_test_video_6148"
+    },
+    {
+      "qa_id": "e32727d13887",
+      "split": "test",
+      "video_id": "perception_test_video_4096"
+    },
+    {
+      "qa_id": "b43f33798bce",
+      "split": "dev",
+      "video_id": "perception_test_video_8582"
+    },
+    {
+      "qa_id": "6fa89f92d40a",
+      "split": "test",
+      "video_id": "perception_test_video_665"
+    },
+    {
+      "qa_id": "0ff6c332876f",
+      "split": "test",
+      "video_id": "charades_IGH70"
+    },
+    {
+      "qa_id": "01bd8703e42a",
+      "split": "test",
+      "video_id": "charades_3LN8C"
+    },
+    {
+      "qa_id": "59acfe54c0a3",
+      "split": "test",
+      "video_id": "perception_test_video_9414"
+    },
+    {
+      "qa_id": "872572c376b5",
+      "split": "test",
+      "video_id": "perception_test_video_6889"
+    },
+    {
+      "qa_id": "1e24b82d15aa",
+      "split": "test",
+      "video_id": "charades_W4W97"
+    },
+    {
+      "qa_id": "983afa3f9ddb",
+      "split": "test",
+      "video_id": "charades_JC9SA"
+    },
+    {
+      "qa_id": "0adf492d0dfd",
+      "split": "test",
+      "video_id": "perception_test_video_9131"
+    },
+    {
+      "qa_id": "e74e88a44365",
+      "split": "dev",
+      "video_id": "perception_test_video_10175"
+    },
+    {
+      "qa_id": "f2459fce3f36",
+      "split": "test",
+      "video_id": "perception_test_video_6973"
+    },
+    {
+      "qa_id": "0866a68d4c5c",
+      "split": "test",
+      "video_id": "perception_test_video_11242"
+    },
+    {
+      "qa_id": "16d4258d42db",
+      "split": "dev",
+      "video_id": "charades_J8KPE"
+    },
+    {
+      "qa_id": "55958cc80029",
+      "split": "test",
+      "video_id": "perception_test_video_2289"
+    },
+    {
+      "qa_id": "60d15aad057e",
+      "split": "test",
+      "video_id": "perception_test_video_5052"
+    },
+    {
+      "qa_id": "13b4b9c339ff",
+      "split": "test",
+      "video_id": "charades_44Q8A"
+    },
+    {
+      "qa_id": "182c9fb2d168",
+      "split": "test",
+      "video_id": "charades_FDU31"
+    },
+    {
+      "qa_id": "2240937e99d8",
+      "split": "test",
+      "video_id": "charades_493WS"
+    },
+    {
+      "qa_id": "c41b99ad7fc0",
+      "split": "dev",
+      "video_id": "charades_23QFL"
+    },
+    {
+      "qa_id": "da93465f6c98",
+      "split": "dev",
+      "video_id": "charades_NHB5N"
+    },
+    {
+      "qa_id": "d6612ec78f3f",
+      "split": "dev",
+      "video_id": "perception_test_video_7778"
+    },
+    {
+      "qa_id": "d230ded2d8dc",
+      "split": "dev",
+      "video_id": "charades_COFJV"
+    },
+    {
+      "qa_id": "5d2e57aa8606",
+      "split": "test",
+      "video_id": "charades_RZ9SZ"
+    },
+    {
+      "qa_id": "5b87ec205b5a",
+      "split": "test",
+      "video_id": "charades_V3CWF"
+    },
+    {
+      "qa_id": "1ba7f910ff5e",
+      "split": "test",
+      "video_id": "perception_test_video_6742"
+    },
+    {
+      "qa_id": "67b94c1ccd75",
+      "split": "test",
+      "video_id": "charades_WEIJ6"
+    },
+    {
+      "qa_id": "aa28ef614c28",
+      "split": "test",
+      "video_id": "charades_R1KMF"
+    },
+    {
+      "qa_id": "cc5a935697ca",
+      "split": "test",
+      "video_id": "charades_JDG40"
+    },
+    {
+      "qa_id": "d51859b306f4",
+      "split": "test",
+      "video_id": "charades_LVJ3U"
+    },
+    {
+      "qa_id": "d8272b6a8f8f",
+      "split": "test",
+      "video_id": "perception_test_video_3269"
+    },
+    {
+      "qa_id": "c97135d67122",
+      "split": "test",
+      "video_id": "perception_test_video_6227"
+    },
+    {
+      "qa_id": "a77b0193c8c5",
+      "split": "test",
+      "video_id": "charades_SX07Q"
+    },
+    {
+      "qa_id": "a716cc35fb7c",
+      "split": "dev",
+      "video_id": "charades_XS7RN"
+    },
+    {
+      "qa_id": "7fa797891ee6",
+      "split": "test",
+      "video_id": "perception_test_video_9913"
+    },
+    {
+      "qa_id": "bead183a585f",
+      "split": "test",
+      "video_id": "perception_test_video_10599"
+    },
+    {
+      "qa_id": "95f58b2e8f71",
+      "split": "test",
+      "video_id": "charades_Q6M0X"
+    },
+    {
+      "qa_id": "3f564caa139b",
+      "split": "test",
+      "video_id": "perception_test_video_5635"
+    },
+    {
+      "qa_id": "8c8330a7347d",
+      "split": "dev",
+      "video_id": "charades_GIW6N"
+    },
+    {
+      "qa_id": "b458a1690694",
+      "split": "test",
+      "video_id": "charades_Y4PAD"
+    },
+    {
+      "qa_id": "e4e6803a2beb",
+      "split": "dev",
+      "video_id": "perception_test_video_4498"
+    },
+    {
+      "qa_id": "744469c01f94",
+      "split": "dev",
+      "video_id": "perception_test_video_3483"
+    },
+    {
+      "qa_id": "b0d318814a8b",
+      "split": "test",
+      "video_id": "perception_test_video_4032"
+    },
+    {
+      "qa_id": "597711ab10de",
+      "split": "test",
+      "video_id": "perception_test_video_8532"
+    },
+    {
+      "qa_id": "38341887d62b",
+      "split": "dev",
+      "video_id": "charades_11TTU"
+    },
+    {
+      "qa_id": "520729a46d04",
+      "split": "test",
+      "video_id": "charades_DG1A5"
+    },
+    {
+      "qa_id": "f40b299cb7a1",
+      "split": "test",
+      "video_id": "charades_10AEA"
+    },
+    {
+      "qa_id": "b230b339ed75",
+      "split": "test",
+      "video_id": "perception_test_video_8967"
+    },
+    {
+      "qa_id": "9a0919b7f7c7",
+      "split": "test",
+      "video_id": "perception_test_video_665"
+    },
+    {
+      "qa_id": "b7c0103e8449",
+      "split": "test",
+      "video_id": "perception_test_video_5844"
+    },
+    {
+      "qa_id": "4d84ab2836ff",
+      "split": "test",
+      "video_id": "perception_test_video_5687"
+    },
+    {
+      "qa_id": "85d2ff87acc2",
+      "split": "test",
+      "video_id": "charades_9WGMG"
+    },
+    {
+      "qa_id": "85802e3d63f4",
+      "split": "test",
+      "video_id": "charades_FRLW2"
+    },
+    {
+      "qa_id": "bdb5e905f6a4",
+      "split": "test",
+      "video_id": "perception_test_video_8980"
+    },
+    {
+      "qa_id": "757370c61467",
+      "split": "dev",
+      "video_id": "perception_test_video_10287"
+    },
+    {
+      "qa_id": "f3dd33830122",
+      "split": "dev",
+      "video_id": "perception_test_video_612"
+    },
+    {
+      "qa_id": "9aa5d7538a3a",
+      "split": "test",
+      "video_id": "perception_test_video_6035"
+    },
+    {
+      "qa_id": "35cd30876c5c",
+      "split": "test",
+      "video_id": "charades_UY08H"
+    },
+    {
+      "qa_id": "8249e51cfa39",
+      "split": "test",
+      "video_id": "charades_65M4K"
+    },
+    {
+      "qa_id": "0d2e76cc29b5",
+      "split": "test",
+      "video_id": "perception_test_video_9768"
+    },
+    {
+      "qa_id": "c9f6e70b8f10",
+      "split": "test",
+      "video_id": "charades_LD8PU"
+    },
+    {
+      "qa_id": "d6ca723faa05",
+      "split": "dev",
+      "video_id": "perception_test_video_8582"
+    },
+    {
+      "qa_id": "96b30141876f",
+      "split": "test",
+      "video_id": "charades_ZWE6N"
+    },
+    {
+      "qa_id": "7734fd7e1bad",
+      "split": "test",
+      "video_id": "perception_test_video_3798"
+    },
+    {
+      "qa_id": "38f0d143eb08",
+      "split": "test",
+      "video_id": "charades_ZO3EG"
+    },
+    {
+      "qa_id": "8fa255afa125",
+      "split": "test",
+      "video_id": "charades_UTLK1"
+    },
+    {
+      "qa_id": "13357e2b139e",
+      "split": "test",
+      "video_id": "charades_3IAPG"
+    },
+    {
+      "qa_id": "1299999226de",
+      "split": "test",
+      "video_id": "perception_test_video_6013"
+    },
+    {
+      "qa_id": "ea41f6ab8bb3",
+      "split": "test",
+      "video_id": "charades_E5WJJ"
+    },
+    {
+      "qa_id": "a202ba91895f",
+      "split": "test",
+      "video_id": "charades_BSF19"
+    },
+    {
+      "qa_id": "03e3a0783fc4",
+      "split": "test",
+      "video_id": "charades_6ZJAL"
+    },
+    {
+      "qa_id": "98c060ef4a07",
+      "split": "test",
+      "video_id": "charades_OCSJP"
+    },
+    {
+      "qa_id": "1924c14f48a6",
+      "split": "test",
+      "video_id": "charades_FRSBQ"
+    },
+    {
+      "qa_id": "6da766e057d5",
+      "split": "test",
+      "video_id": "perception_test_video_9926"
+    },
+    {
+      "qa_id": "6a30c8123d53",
+      "split": "test",
+      "video_id": "charades_2CJC9"
+    },
+    {
+      "qa_id": "88c3a64b933d",
+      "split": "test",
+      "video_id": "charades_RXF2Q"
+    },
+    {
+      "qa_id": "acafadfc87b8",
+      "split": "test",
+      "video_id": "charades_QNUIU"
+    },
+    {
+      "qa_id": "c05529df5cf5",
+      "split": "test",
+      "video_id": "charades_42PMR"
+    },
+    {
+      "qa_id": "ebec301e15d6",
+      "split": "dev",
+      "video_id": "perception_test_video_4191"
+    },
+    {
+      "qa_id": "2c02461a2357",
+      "split": "test",
+      "video_id": "perception_test_video_5254"
+    },
+    {
+      "qa_id": "ceefa6bb9e59",
+      "split": "test",
+      "video_id": "charades_QLGHA"
+    },
+    {
+      "qa_id": "36cf64e4197c",
+      "split": "test",
+      "video_id": "charades_JTTAP"
+    },
+    {
+      "qa_id": "bdb0fb8d4d60",
+      "split": "test",
+      "video_id": "perception_test_video_7490"
+    },
+    {
+      "qa_id": "e5aee2867f4b",
+      "split": "test",
+      "video_id": "charades_YTBQM"
+    },
+    {
+      "qa_id": "c35ccbc77330",
+      "split": "test",
+      "video_id": "charades_DQ1TU"
+    },
+    {
+      "qa_id": "4750572c484e",
+      "split": "test",
+      "video_id": "charades_HB8QW"
+    },
+    {
+      "qa_id": "6242d1b61501",
+      "split": "test",
+      "video_id": "charades_CAW41"
+    },
+    {
+      "qa_id": "ed5664b30137",
+      "split": "test",
+      "video_id": "perception_test_video_10920"
+    },
+    {
+      "qa_id": "e5e754e5867d",
+      "split": "test",
+      "video_id": "charades_EJL2F"
+    },
+    {
+      "qa_id": "93df3f813ae9",
+      "split": "test",
+      "video_id": "perception_test_video_2819"
+    },
+    {
+      "qa_id": "4468cdcbe0f3",
+      "split": "dev",
+      "video_id": "charades_H9V9I"
+    },
+    {
+      "qa_id": "ed922c12f6ba",
+      "split": "test",
+      "video_id": "perception_test_video_4730"
+    },
+    {
+      "qa_id": "159ef612d3ef",
+      "split": "dev",
+      "video_id": "charades_1440M"
+    },
+    {
+      "qa_id": "f58dfcc9d523",
+      "split": "test",
+      "video_id": "charades_7U43Y"
+    },
+    {
+      "qa_id": "a71607250f80",
+      "split": "test",
+      "video_id": "perception_test_video_4608"
+    },
+    {
+      "qa_id": "b9333e85930e",
+      "split": "test",
+      "video_id": "charades_CS01T"
+    },
+    {
+      "qa_id": "773478469360",
+      "split": "test",
+      "video_id": "perception_test_video_2378"
+    },
+    {
+      "qa_id": "b3abf19c7faa",
+      "split": "test",
+      "video_id": "charades_L4DUU"
+    },
+    {
+      "qa_id": "7ac6526085a8",
+      "split": "test",
+      "video_id": "perception_test_video_3518"
+    },
+    {
+      "qa_id": "9baf77ce996d",
+      "split": "test",
+      "video_id": "perception_test_video_10851"
+    },
+    {
+      "qa_id": "3aa2a9a5f31e",
+      "split": "test",
+      "video_id": "charades_OXCLE"
+    },
+    {
+      "qa_id": "cba467a5d9fa",
+      "split": "test",
+      "video_id": "charades_HJ2JO"
+    },
+    {
+      "qa_id": "15554ceb91bf",
+      "split": "test",
+      "video_id": "charades_06NUT"
+    },
+    {
+      "qa_id": "98ea35d9d5c6",
+      "split": "test",
+      "video_id": "charades_I1CS8"
+    },
+    {
+      "qa_id": "47bad465fbc3",
+      "split": "test",
+      "video_id": "charades_EBHC9"
+    },
+    {
+      "qa_id": "b562fea79ce0",
+      "split": "test",
+      "video_id": "charades_CIL5L"
+    },
+    {
+      "qa_id": "66a6044629c9",
+      "split": "test",
+      "video_id": "charades_RG0KS"
+    },
+    {
+      "qa_id": "a40deae8074c",
+      "split": "dev",
+      "video_id": "charades_CXZW3"
+    },
+    {
+      "qa_id": "c3264f9f4b0c",
+      "split": "test",
+      "video_id": "perception_test_video_9057"
+    },
+    {
+      "qa_id": "befb2e0548fb",
+      "split": "test",
+      "video_id": "charades_PZJMP"
+    },
+    {
+      "qa_id": "9843e3b7bb1a",
+      "split": "test",
+      "video_id": "perception_test_video_4807"
+    },
+    {
+      "qa_id": "0e31f0501a4b",
+      "split": "test",
+      "video_id": "charades_JCLES"
+    },
+    {
+      "qa_id": "e1e9c0d59e4d",
+      "split": "test",
+      "video_id": "charades_YXPTI"
+    },
+    {
+      "qa_id": "06a3cd7ce9e0",
+      "split": "dev",
+      "video_id": "charades_QYF31"
+    },
+    {
+      "qa_id": "66f32c0dc5b3",
+      "split": "test",
+      "video_id": "charades_IFQS1"
+    },
+    {
+      "qa_id": "1d9dc2a81f99",
+      "split": "test",
+      "video_id": "charades_Y50QF"
+    },
+    {
+      "qa_id": "7af8bd00687e",
+      "split": "test",
+      "video_id": "perception_test_video_1736"
+    },
+    {
+      "qa_id": "2bdb56ca2910",
+      "split": "test",
+      "video_id": "charades_TYKVA"
+    },
+    {
+      "qa_id": "120b8c0c180e",
+      "split": "test",
+      "video_id": "perception_test_video_7067"
+    },
+    {
+      "qa_id": "787554b00cf5",
+      "split": "dev",
+      "video_id": "perception_test_video_4499"
+    },
+    {
+      "qa_id": "eb920b020281",
+      "split": "test",
+      "video_id": "charades_V1WN7"
+    },
+    {
+      "qa_id": "640c47330a0f",
+      "split": "dev",
+      "video_id": "charades_MS58Y"
+    },
+    {
+      "qa_id": "f8d95e8bfed5",
+      "split": "test",
+      "video_id": "charades_7VMDP"
+    },
+    {
+      "qa_id": "8ab83f3f80eb",
+      "split": "test",
+      "video_id": "perception_test_video_2314"
+    },
+    {
+      "qa_id": "324a59b08b0f",
+      "split": "test",
+      "video_id": "charades_1GQ73"
+    },
+    {
+      "qa_id": "972cd673bf73",
+      "split": "test",
+      "video_id": "charades_RS3SQ"
+    },
+    {
+      "qa_id": "0e166ddb30b0",
+      "split": "test",
+      "video_id": "perception_test_video_3062"
+    },
+    {
+      "qa_id": "6a0976d64399",
+      "split": "test",
+      "video_id": "perception_test_video_10913"
+    },
+    {
+      "qa_id": "7366e977e6b3",
+      "split": "dev",
+      "video_id": "perception_test_video_1991"
+    },
+    {
+      "qa_id": "2aeb90329fad",
+      "split": "test",
+      "video_id": "charades_SCFIN"
+    },
+    {
+      "qa_id": "46a32b161117",
+      "split": "test",
+      "video_id": "charades_LLLXJ"
+    },
+    {
+      "qa_id": "a8a8c7f5cb89",
+      "split": "dev",
+      "video_id": "charades_SUKBV"
+    },
+    {
+      "qa_id": "aa9f2d427438",
+      "split": "dev",
+      "video_id": "perception_test_video_7380"
+    },
+    {
+      "qa_id": "9d152c058707",
+      "split": "test",
+      "video_id": "charades_FDU31"
+    },
+    {
+      "qa_id": "78d1daa3ce8d",
+      "split": "dev",
+      "video_id": "charades_9KYMU"
+    },
+    {
+      "qa_id": "8cbced1e8d19",
+      "split": "test",
+      "video_id": "charades_7BLQD"
+    },
+    {
+      "qa_id": "3980f024897d",
+      "split": "test",
+      "video_id": "charades_NNG2V"
+    },
+    {
+      "qa_id": "5c8d8ad6682c",
+      "split": "test",
+      "video_id": "charades_NCBNH"
+    },
+    {
+      "qa_id": "4d8170824a73",
+      "split": "test",
+      "video_id": "charades_40NIM"
+    },
+    {
+      "qa_id": "1826ee37c8b4",
+      "split": "test",
+      "video_id": "perception_test_video_5549"
+    },
+    {
+      "qa_id": "7a34438d40bd",
+      "split": "test",
+      "video_id": "perception_test_video_10356"
+    },
+    {
+      "qa_id": "4ca964fecb49",
+      "split": "test",
+      "video_id": "charades_1DYYP"
+    },
+    {
+      "qa_id": "a4b88edb2b8f",
+      "split": "dev",
+      "video_id": "charades_9UPC6"
+    },
+    {
+      "qa_id": "61bb0d18192b",
+      "split": "test",
+      "video_id": "perception_test_video_1564"
+    },
+    {
+      "qa_id": "cb8a34b31b11",
+      "split": "dev",
+      "video_id": "perception_test_video_466"
+    },
+    {
+      "qa_id": "40383484284a",
+      "split": "test",
+      "video_id": "charades_BSDSA"
+    },
+    {
+      "qa_id": "6e5a5abef084",
+      "split": "test",
+      "video_id": "charades_7WOTM"
+    },
+    {
+      "qa_id": "80e39d6def14",
+      "split": "test",
+      "video_id": "charades_4LDRK"
+    },
+    {
+      "qa_id": "6fd4107b2c04",
+      "split": "test",
+      "video_id": "perception_test_video_6332"
+    },
+    {
+      "qa_id": "bed60ac52b99",
+      "split": "test",
+      "video_id": "perception_test_video_3847"
+    },
+    {
+      "qa_id": "95a96c7e0f2c",
+      "split": "test",
+      "video_id": "perception_test_video_1049"
+    },
+    {
+      "qa_id": "c6070c3beddc",
+      "split": "dev",
+      "video_id": "charades_OOKN5"
+    },
+    {
+      "qa_id": "1323da821116",
+      "split": "test",
+      "video_id": "charades_ATJEO"
+    },
+    {
+      "qa_id": "fa4aa6466535",
+      "split": "test",
+      "video_id": "charades_X9WTR"
+    },
+    {
+      "qa_id": "2bc39a5ff94a",
+      "split": "test",
+      "video_id": "charades_Y50QF"
+    },
+    {
+      "qa_id": "3473dec5db8a",
+      "split": "test",
+      "video_id": "charades_BQOLV"
+    },
+    {
+      "qa_id": "864b3faf850b",
+      "split": "test",
+      "video_id": "charades_CPDH9"
+    },
+    {
+      "qa_id": "88c62f804109",
+      "split": "test",
+      "video_id": "charades_R5IQ5"
+    },
+    {
+      "qa_id": "584579bf320f",
+      "split": "test",
+      "video_id": "perception_test_video_2988"
+    },
+    {
+      "qa_id": "b25ce0fe6cf5",
+      "split": "test",
+      "video_id": "perception_test_video_2507"
+    },
+    {
+      "qa_id": "3eabdaba2d90",
+      "split": "test",
+      "video_id": "charades_KV99H"
+    },
+    {
+      "qa_id": "0c6cad2f5eca",
+      "split": "test",
+      "video_id": "charades_DZDD2"
+    },
+    {
+      "qa_id": "cc02df154bdc",
+      "split": "dev",
+      "video_id": "charades_LVLVR"
+    },
+    {
+      "qa_id": "0f868943c6b8",
+      "split": "test",
+      "video_id": "perception_test_video_6360"
+    },
+    {
+      "qa_id": "99a1a01ccde6",
+      "split": "test",
+      "video_id": "charades_D8OSC"
+    },
+    {
+      "qa_id": "0eeb7a9a4848",
+      "split": "dev",
+      "video_id": "charades_6G96Q"
+    },
+    {
+      "qa_id": "a215e50360be",
+      "split": "test",
+      "video_id": "perception_test_video_3203"
+    },
+    {
+      "qa_id": "6681ff5dc867",
+      "split": "test",
+      "video_id": "charades_SWZWL"
+    },
+    {
+      "qa_id": "d69bd17512b5",
+      "split": "test",
+      "video_id": "perception_test_video_11514"
+    },
+    {
+      "qa_id": "a0e2de384a2f",
+      "split": "test",
+      "video_id": "perception_test_video_7619"
+    },
+    {
+      "qa_id": "868fd4ea5b23",
+      "split": "test",
+      "video_id": "charades_4JW8U"
+    },
+    {
+      "qa_id": "c96e4442290e",
+      "split": "test",
+      "video_id": "perception_test_video_2936"
+    },
+    {
+      "qa_id": "f7e01e1dd82d",
+      "split": "test",
+      "video_id": "charades_I52A6"
+    },
+    {
+      "qa_id": "be2ec485b257",
+      "split": "test",
+      "video_id": "perception_test_video_7414"
+    },
+    {
+      "qa_id": "8a27448d838a",
+      "split": "dev",
+      "video_id": "perception_test_video_4727"
+    },
+    {
+      "qa_id": "976bcc3f2d32",
+      "split": "dev",
+      "video_id": "charades_S4P5J"
+    },
+    {
+      "qa_id": "694252028fa7",
+      "split": "test",
+      "video_id": "charades_BSDSA"
+    },
+    {
+      "qa_id": "2b28e75d65b1",
+      "split": "test",
+      "video_id": "charades_U896B"
+    },
+    {
+      "qa_id": "5dc26fa4056a",
+      "split": "test",
+      "video_id": "perception_test_video_5443"
+    },
+    {
+      "qa_id": "4e24f7f1b218",
+      "split": "test",
+      "video_id": "charades_YLGF5"
+    },
+    {
+      "qa_id": "dbf8572d26b1",
+      "split": "test",
+      "video_id": "charades_DB07P"
+    },
+    {
+      "qa_id": "78c99ec329c4",
+      "split": "test",
+      "video_id": "charades_DZDD2"
+    },
+    {
+      "qa_id": "8d67d8c08937",
+      "split": "test",
+      "video_id": "charades_YLGF5"
+    },
+    {
+      "qa_id": "c934a2d7ae57",
+      "split": "test",
+      "video_id": "charades_ZS9IX"
+    },
+    {
+      "qa_id": "b80950bf2d58",
+      "split": "test",
+      "video_id": "perception_test_video_10011"
+    },
+    {
+      "qa_id": "8e2cb6cbf96b",
+      "split": "test",
+      "video_id": "charades_KZTDH"
+    },
+    {
+      "qa_id": "ec19d83823fe",
+      "split": "dev",
+      "video_id": "perception_test_video_7116"
+    },
+    {
+      "qa_id": "eafba5543f5b",
+      "split": "dev",
+      "video_id": "perception_test_video_1568"
+    },
+    {
+      "qa_id": "a560e4aecadc",
+      "split": "test",
+      "video_id": "perception_test_video_3458"
+    },
+    {
+      "qa_id": "2812f5f6f6c7",
+      "split": "dev",
+      "video_id": "perception_test_video_6741"
+    },
+    {
+      "qa_id": "8c489aafe4bb",
+      "split": "test",
+      "video_id": "perception_test_video_5359"
+    },
+    {
+      "qa_id": "6f5daf002bdc",
+      "split": "test",
+      "video_id": "charades_SWIQN"
+    },
+    {
+      "qa_id": "2465b40da486",
+      "split": "test",
+      "video_id": "charades_TW2F4"
+    },
+    {
+      "qa_id": "6cca465a0da2",
+      "split": "dev",
+      "video_id": "charades_MPX3X"
+    },
+    {
+      "qa_id": "f5d86d1c164f",
+      "split": "dev",
+      "video_id": "charades_JKWJ6"
+    },
+    {
+      "qa_id": "cf10a8b552c0",
+      "split": "test",
+      "video_id": "perception_test_video_1527"
+    },
+    {
+      "qa_id": "32119de6d447",
+      "split": "test",
+      "video_id": "perception_test_video_9369"
+    },
+    {
+      "qa_id": "a0ecf0276945",
+      "split": "test",
+      "video_id": "charades_CXKFB"
+    },
+    {
+      "qa_id": "a9e789af44b0",
+      "split": "test",
+      "video_id": "charades_N67PL"
+    },
+    {
+      "qa_id": "2175d655dec0",
+      "split": "test",
+      "video_id": "charades_2U903"
+    },
+    {
+      "qa_id": "ce1f0cf00c1a",
+      "split": "test",
+      "video_id": "charades_ZYVTC"
+    },
+    {
+      "qa_id": "debe408b5d9a",
+      "split": "test",
+      "video_id": "charades_8DL54"
+    },
+    {
+      "qa_id": "c5d7c178cb3e",
+      "split": "test",
+      "video_id": "charades_Y4MW3"
+    },
+    {
+      "qa_id": "ef5beb6477fe",
+      "split": "test",
+      "video_id": "charades_OWXLM"
+    },
+    {
+      "qa_id": "96ea6e9620a3",
+      "split": "test",
+      "video_id": "perception_test_video_9066"
+    },
+    {
+      "qa_id": "5d35b80f555d",
+      "split": "test",
+      "video_id": "charades_GL7E6"
+    },
+    {
+      "qa_id": "8fd70226c28b",
+      "split": "test",
+      "video_id": "charades_UM5II"
+    },
+    {
+      "qa_id": "8476aa62d5ef",
+      "split": "test",
+      "video_id": "charades_XQSXK"
+    },
+    {
+      "qa_id": "90427baf38a5",
+      "split": "test",
+      "video_id": "charades_S407A"
+    },
+    {
+      "qa_id": "b1a097cdc558",
+      "split": "test",
+      "video_id": "charades_IZTHW"
+    },
+    {
+      "qa_id": "ce5408ca650d",
+      "split": "test",
+      "video_id": "charades_3MZZI"
+    },
+    {
+      "qa_id": "38d03b8e4fa7",
+      "split": "dev",
+      "video_id": "charades_115MY"
+    },
+    {
+      "qa_id": "72fd7960830a",
+      "split": "test",
+      "video_id": "charades_LV24Z"
+    },
+    {
+      "qa_id": "0002f24829a4",
+      "split": "test",
+      "video_id": "charades_WEJRX"
+    },
+    {
+      "qa_id": "92c1d693a460",
+      "split": "dev",
+      "video_id": "perception_test_video_2749"
+    },
+    {
+      "qa_id": "51aea7835501",
+      "split": "test",
+      "video_id": "perception_test_video_7087"
+    },
+    {
+      "qa_id": "d046d1ca132f",
+      "split": "test",
+      "video_id": "charades_DS22L"
+    },
+    {
+      "qa_id": "48ce57a894da",
+      "split": "test",
+      "video_id": "perception_test_video_2641"
+    },
+    {
+      "qa_id": "c670580944d1",
+      "split": "test",
+      "video_id": "charades_F9J4H"
+    },
+    {
+      "qa_id": "33b2d3491f22",
+      "split": "dev",
+      "video_id": "charades_KZS5M"
+    },
+    {
+      "qa_id": "125cbc704801",
+      "split": "dev",
+      "video_id": "charades_FMXZS"
+    },
+    {
+      "qa_id": "e7110fb2f9d3",
+      "split": "test",
+      "video_id": "charades_7P0HA"
+    },
+    {
+      "qa_id": "7057213cb667",
+      "split": "test",
+      "video_id": "perception_test_video_5145"
+    },
+    {
+      "qa_id": "ba99898a6474",
+      "split": "test",
+      "video_id": "perception_test_video_3867"
+    },
+    {
+      "qa_id": "e632157faf80",
+      "split": "test",
+      "video_id": "charades_3HOJR"
+    },
+    {
+      "qa_id": "b3de549746f5",
+      "split": "test",
+      "video_id": "charades_FDU31"
+    },
+    {
+      "qa_id": "4d86b5a8f9e8",
+      "split": "test",
+      "video_id": "charades_C69Y1"
+    },
+    {
+      "qa_id": "038f40b3aba3",
+      "split": "test",
+      "video_id": "charades_9XXJ7"
+    },
+    {
+      "qa_id": "02c6e7fb0c96",
+      "split": "test",
+      "video_id": "perception_test_video_2934"
+    },
+    {
+      "qa_id": "02e5bf5f7a8b",
+      "split": "dev",
+      "video_id": "charades_87EXS"
+    },
+    {
+      "qa_id": "5c977ce4c903",
+      "split": "test",
+      "video_id": "charades_4ALLQ"
+    },
+    {
+      "qa_id": "657faa58fd39",
+      "split": "dev",
+      "video_id": "charades_HV20I"
+    },
+    {
+      "qa_id": "08b887d08161",
+      "split": "test",
+      "video_id": "charades_CDNV7"
+    },
+    {
+      "qa_id": "b2673a068d5d",
+      "split": "test",
+      "video_id": "charades_DU7H1"
+    },
+    {
+      "qa_id": "b4da574efdfc",
+      "split": "test",
+      "video_id": "perception_test_video_10525"
+    },
+    {
+      "qa_id": "a01908ac4f2e",
+      "split": "test",
+      "video_id": "charades_E6PSM"
+    },
+    {
+      "qa_id": "249a574204b2",
+      "split": "dev",
+      "video_id": "charades_2SIO0"
+    },
+    {
+      "qa_id": "33c22e72b672",
+      "split": "test",
+      "video_id": "charades_W74ZY"
+    },
+    {
+      "qa_id": "474636895005",
+      "split": "test",
+      "video_id": "charades_FQAQL"
+    },
+    {
+      "qa_id": "3a4d09c7aa6d",
+      "split": "test",
+      "video_id": "charades_WI6NB"
+    },
+    {
+      "qa_id": "50f49a2c202f",
+      "split": "test",
+      "video_id": "charades_CMD0M"
+    },
+    {
+      "qa_id": "46b07245afc8",
+      "split": "test",
+      "video_id": "perception_test_video_552"
+    },
+    {
+      "qa_id": "2d60b5a05f2b",
+      "split": "dev",
+      "video_id": "charades_94HB1"
+    },
+    {
+      "qa_id": "5a11fa97ff61",
+      "split": "test",
+      "video_id": "charades_WVNBE"
+    },
+    {
+      "qa_id": "22a3a66a2703",
+      "split": "dev",
+      "video_id": "charades_OOKN5"
+    },
+    {
+      "qa_id": "3cc4b6a2cf1b",
+      "split": "test",
+      "video_id": "charades_D0V0Y"
+    },
+    {
+      "qa_id": "ff8c8f93f7e4",
+      "split": "dev",
+      "video_id": "perception_test_video_4499"
+    },
+    {
+      "qa_id": "0ac845085db5",
+      "split": "test",
+      "video_id": "perception_test_video_7314"
+    },
+    {
+      "qa_id": "a1a0445a8cae",
+      "split": "dev",
+      "video_id": "charades_LSH63"
+    },
+    {
+      "qa_id": "493b75dca0e1",
+      "split": "dev",
+      "video_id": "perception_test_video_9091"
+    },
+    {
+      "qa_id": "f4dec629fe25",
+      "split": "test",
+      "video_id": "charades_6F5W0"
+    },
+    {
+      "qa_id": "7450921603f8",
+      "split": "test",
+      "video_id": "perception_test_video_4030"
+    },
+    {
+      "qa_id": "39e8c9fc268a",
+      "split": "dev",
+      "video_id": "charades_0GR11"
+    },
+    {
+      "qa_id": "4637ebfddf83",
+      "split": "test",
+      "video_id": "charades_1514T"
+    },
+    {
+      "qa_id": "69c4803ac4ee",
+      "split": "test",
+      "video_id": "perception_test_video_8375"
+    },
+    {
+      "qa_id": "a55d47c8e367",
+      "split": "dev",
+      "video_id": "perception_test_video_3076"
+    },
+    {
+      "qa_id": "e2da2f6a54c4",
+      "split": "test",
+      "video_id": "perception_test_video_3839"
+    },
+    {
+      "qa_id": "61fe126ac78a",
+      "split": "test",
+      "video_id": "charades_8BG1T"
+    },
+    {
+      "qa_id": "7ca9235d412b",
+      "split": "test",
+      "video_id": "charades_YLRVT"
+    },
+    {
+      "qa_id": "f94c0b450522",
+      "split": "test",
+      "video_id": "charades_0RNRI"
+    },
+    {
+      "qa_id": "f1ae58eeab7f",
+      "split": "test",
+      "video_id": "perception_test_video_204"
+    },
+    {
+      "qa_id": "4c99920c2628",
+      "split": "test",
+      "video_id": "charades_9PXC0"
+    },
+    {
+      "qa_id": "db99554df15b",
+      "split": "test",
+      "video_id": "charades_FQAQL"
+    },
+    {
+      "qa_id": "6234bd941fba",
+      "split": "test",
+      "video_id": "charades_WMBOO"
+    },
+    {
+      "qa_id": "2393dd7ba785",
+      "split": "test",
+      "video_id": "charades_HZ3AM"
+    },
+    {
+      "qa_id": "e7e56536fe04",
+      "split": "test",
+      "video_id": "charades_Z9THH"
+    },
+    {
+      "qa_id": "7bfbb54ba3a8",
+      "split": "test",
+      "video_id": "perception_test_video_3870"
+    },
+    {
+      "qa_id": "2683b0ff6699",
+      "split": "test",
+      "video_id": "perception_test_video_3495"
+    },
+    {
+      "qa_id": "fa28e1396163",
+      "split": "dev",
+      "video_id": "charades_VA7IT"
+    },
+    {
+      "qa_id": "69636187aaae",
+      "split": "test",
+      "video_id": "charades_J1EA0"
+    },
+    {
+      "qa_id": "d012ce349622",
+      "split": "test",
+      "video_id": "perception_test_video_701"
+    },
+    {
+      "qa_id": "9c3eb2c7688d",
+      "split": "dev",
+      "video_id": "perception_test_video_5280"
+    },
+    {
+      "qa_id": "3e540ca9f752",
+      "split": "test",
+      "video_id": "charades_I5Q2Z"
+    },
+    {
+      "qa_id": "6be607028e2a",
+      "split": "test",
+      "video_id": "charades_TVBN3"
+    },
+    {
+      "qa_id": "afd393dc6074",
+      "split": "dev",
+      "video_id": "charades_PKEZI"
+    },
+    {
+      "qa_id": "e9810004db27",
+      "split": "test",
+      "video_id": "charades_NGMVI"
+    },
+    {
+      "qa_id": "fadc08b73f50",
+      "split": "test",
+      "video_id": "perception_test_video_9693"
+    },
+    {
+      "qa_id": "5e04f6d50d47",
+      "split": "dev",
+      "video_id": "perception_test_video_10149"
+    },
+    {
+      "qa_id": "63f7dfe03858",
+      "split": "test",
+      "video_id": "charades_40NIM"
+    },
+    {
+      "qa_id": "a4495c2d02d4",
+      "split": "test",
+      "video_id": "perception_test_video_10205"
+    },
+    {
+      "qa_id": "09f5094808ca",
+      "split": "test",
+      "video_id": "perception_test_video_6134"
+    },
+    {
+      "qa_id": "5f102bd2f014",
+      "split": "dev",
+      "video_id": "charades_VMI2D"
+    },
+    {
+      "qa_id": "1bc39a39d493",
+      "split": "test",
+      "video_id": "charades_3FEYY"
+    },
+    {
+      "qa_id": "13ad81807fa0",
+      "split": "dev",
+      "video_id": "perception_test_video_3593"
+    },
+    {
+      "qa_id": "09ecc5ba1b9b",
+      "split": "test",
+      "video_id": "perception_test_video_8872"
+    },
+    {
+      "qa_id": "2f22330b5c1d",
+      "split": "test",
+      "video_id": "charades_IF7KE"
+    },
+    {
+      "qa_id": "8bf86f62ecea",
+      "split": "test",
+      "video_id": "perception_test_video_6795"
+    },
+    {
+      "qa_id": "988a479814c6",
+      "split": "test",
+      "video_id": "charades_RBAO4"
+    },
+    {
+      "qa_id": "05c3f3343d9f",
+      "split": "test",
+      "video_id": "charades_CJ0U1"
+    },
+    {
+      "qa_id": "4d2346a545bf",
+      "split": "test",
+      "video_id": "perception_test_video_11514"
+    },
+    {
+      "qa_id": "3309ea33d1de",
+      "split": "test",
+      "video_id": "perception_test_video_8048"
+    },
+    {
+      "qa_id": "b0f584526d88",
+      "split": "test",
+      "video_id": "charades_8LLI3"
+    },
+    {
+      "qa_id": "1e127320a187",
+      "split": "test",
+      "video_id": "charades_XZLNT"
+    },
+    {
+      "qa_id": "f1b10d1d8690",
+      "split": "test",
+      "video_id": "charades_3P8NL"
+    },
+    {
+      "qa_id": "32933837ab5e",
+      "split": "dev",
+      "video_id": "charades_R5WMI"
+    },
+    {
+      "qa_id": "5b168d83b941",
+      "split": "test",
+      "video_id": "perception_test_video_3391"
+    },
+    {
+      "qa_id": "494c05ca5eeb",
+      "split": "test",
+      "video_id": "charades_BXRSI"
+    },
+    {
+      "qa_id": "178a97c34031",
+      "split": "test",
+      "video_id": "charades_BYSQ7"
+    },
+    {
+      "qa_id": "c0aa0fe0ae91",
+      "split": "test",
+      "video_id": "charades_PYIA3"
+    },
+    {
+      "qa_id": "fbfe42c0d021",
+      "split": "test",
+      "video_id": "charades_0CG15"
+    },
+    {
+      "qa_id": "f18d0beedb14",
+      "split": "test",
+      "video_id": "charades_9O0NP"
+    },
+    {
+      "qa_id": "2f1a2cc072dd",
+      "split": "test",
+      "video_id": "charades_2XXH8"
+    },
+    {
+      "qa_id": "173fde2d9a1b",
+      "split": "test",
+      "video_id": "perception_test_video_2499"
+    },
+    {
+      "qa_id": "7fe0dd3f3666",
+      "split": "test",
+      "video_id": "charades_10INO"
+    },
+    {
+      "qa_id": "a2a4df623fbf",
+      "split": "test",
+      "video_id": "charades_K7PVL"
+    },
+    {
+      "qa_id": "2c04c91f35a0",
+      "split": "test",
+      "video_id": "perception_test_video_422"
+    },
+    {
+      "qa_id": "a825988d6dc3",
+      "split": "test",
+      "video_id": "charades_5F1AW"
+    },
+    {
+      "qa_id": "75ea549ab20f",
+      "split": "test",
+      "video_id": "charades_9BPW6"
+    },
+    {
+      "qa_id": "770e009a71c5",
+      "split": "test",
+      "video_id": "charades_PV856"
+    },
+    {
+      "qa_id": "b24abdfeaef1",
+      "split": "test",
+      "video_id": "charades_LM4GS"
+    },
+    {
+      "qa_id": "946e7e1fc0c3",
+      "split": "test",
+      "video_id": "charades_YLRVT"
+    },
+    {
+      "qa_id": "29f9e68fae50",
+      "split": "test",
+      "video_id": "charades_O6V4U"
+    },
+    {
+      "qa_id": "db414913f5c7",
+      "split": "dev",
+      "video_id": "perception_test_video_4738"
+    },
+    {
+      "qa_id": "89a32ab8d387",
+      "split": "test",
+      "video_id": "charades_DZDD2"
+    },
+    {
+      "qa_id": "4daadb0c5ad4",
+      "split": "test",
+      "video_id": "charades_IZTHW"
+    },
+    {
+      "qa_id": "8701cafcd47b",
+      "split": "test",
+      "video_id": "charades_ARCUY"
+    },
+    {
+      "qa_id": "b1feddade6c7",
+      "split": "test",
+      "video_id": "charades_1SUIC"
+    },
+    {
+      "qa_id": "fe2bb63cd75b",
+      "split": "test",
+      "video_id": "charades_78FJX"
+    },
+    {
+      "qa_id": "78d54a64758f",
+      "split": "test",
+      "video_id": "perception_test_video_8890"
+    },
+    {
+      "qa_id": "cfe74981cedf",
+      "split": "test",
+      "video_id": "charades_S7JTZ"
+    },
+    {
+      "qa_id": "3e66aa3181fe",
+      "split": "test",
+      "video_id": "charades_ZS9IX"
+    },
+    {
+      "qa_id": "bbd62db9f9eb",
+      "split": "test",
+      "video_id": "perception_test_video_11415"
+    },
+    {
+      "qa_id": "ff569d6320f5",
+      "split": "test",
+      "video_id": "perception_test_video_9148"
+    },
+    {
+      "qa_id": "43997ce38432",
+      "split": "test",
+      "video_id": "charades_NJM82"
+    },
+    {
+      "qa_id": "fafe75526a5b",
+      "split": "test",
+      "video_id": "charades_5VINT"
+    },
+    {
+      "qa_id": "120548d7e666",
+      "split": "test",
+      "video_id": "charades_XF41L"
+    },
+    {
+      "qa_id": "7ae834c61a18",
+      "split": "test",
+      "video_id": "perception_test_video_5492"
+    },
+    {
+      "qa_id": "298c2a249578",
+      "split": "test",
+      "video_id": "charades_KO34N"
+    },
+    {
+      "qa_id": "f1e351a86297",
+      "split": "dev",
+      "video_id": "charades_5FDHU"
+    },
+    {
+      "qa_id": "128d74ab4e21",
+      "split": "test",
+      "video_id": "charades_M8NEU"
+    },
+    {
+      "qa_id": "5f4bfd9dda3e",
+      "split": "test",
+      "video_id": "perception_test_video_6376"
+    },
+    {
+      "qa_id": "d79f1e112da3",
+      "split": "test",
+      "video_id": "charades_D0Q6H"
+    },
+    {
+      "qa_id": "6112a54064ef",
+      "split": "test",
+      "video_id": "perception_test_video_9180"
+    },
+    {
+      "qa_id": "d791676e882d",
+      "split": "test",
+      "video_id": "charades_6TNP4"
+    },
+    {
+      "qa_id": "600ccf0b1ae9",
+      "split": "test",
+      "video_id": "charades_15OH5"
+    },
+    {
+      "qa_id": "5f961f928575",
+      "split": "dev",
+      "video_id": "perception_test_video_3232"
+    },
+    {
+      "qa_id": "59ac26d139e9",
+      "split": "test",
+      "video_id": "charades_R5IQ5"
+    },
+    {
+      "qa_id": "e2e81f57d5f1",
+      "split": "dev",
+      "video_id": "perception_test_video_3638"
+    },
+    {
+      "qa_id": "aa3a997a1f73",
+      "split": "dev",
+      "video_id": "charades_5KZLW"
+    },
+    {
+      "qa_id": "86ce640b3234",
+      "split": "test",
+      "video_id": "charades_VJ0LT"
+    },
+    {
+      "qa_id": "7764f07301a8",
+      "split": "test",
+      "video_id": "charades_HIJBX"
+    },
+    {
+      "qa_id": "c6a59720d730",
+      "split": "test",
+      "video_id": "perception_test_video_2400"
+    },
+    {
+      "qa_id": "65f9e4f5ff2b",
+      "split": "test",
+      "video_id": "charades_WEJRX"
+    },
+    {
+      "qa_id": "443deece9c97",
+      "split": "test",
+      "video_id": "perception_test_video_3509"
+    },
+    {
+      "qa_id": "48aba2c6fd8e",
+      "split": "test",
+      "video_id": "charades_O5TU5"
+    },
+    {
+      "qa_id": "96d8212c8bd3",
+      "split": "test",
+      "video_id": "charades_OHLSE"
+    },
+    {
+      "qa_id": "d89b7b491879",
+      "split": "test",
+      "video_id": "charades_K4XO7"
+    },
+    {
+      "qa_id": "d8349ee8dadb",
+      "split": "test",
+      "video_id": "mose_5ibctv9k"
+    },
+    {
+      "qa_id": "061682ce31ac",
+      "split": "test",
+      "video_id": "perception_test_video_6366"
+    },
+    {
+      "qa_id": "d078dc629a33",
+      "split": "test",
+      "video_id": "perception_test_video_1228"
+    },
+    {
+      "qa_id": "767869a3a83c",
+      "split": "test",
+      "video_id": "charades_ONA0S"
+    },
+    {
+      "qa_id": "5fb397a43554",
+      "split": "test",
+      "video_id": "perception_test_video_633"
+    },
+    {
+      "qa_id": "12c70baa67ab",
+      "split": "test",
+      "video_id": "charades_X9ULK"
+    },
+    {
+      "qa_id": "e7361cdbf797",
+      "split": "test",
+      "video_id": "charades_C83CH"
+    },
+    {
+      "qa_id": "f9c76022d937",
+      "split": "dev",
+      "video_id": "charades_5QXCO"
+    },
+    {
+      "qa_id": "2d2659ac32aa",
+      "split": "test",
+      "video_id": "perception_test_video_7539"
+    },
+    {
+      "qa_id": "6d192d2a46f4",
+      "split": "test",
+      "video_id": "charades_KXAIZ"
+    },
+    {
+      "qa_id": "273577c22f43",
+      "split": "test",
+      "video_id": "charades_JQAO5"
+    },
+    {
+      "qa_id": "2ef03425bdbe",
+      "split": "test",
+      "video_id": "perception_test_video_9818"
+    },
+    {
+      "qa_id": "c6104a071c0e",
+      "split": "test",
+      "video_id": "perception_test_video_5603"
+    },
+    {
+      "qa_id": "50bc451496fd",
+      "split": "test",
+      "video_id": "perception_test_video_3311"
+    },
+    {
+      "qa_id": "816aafd9767f",
+      "split": "test",
+      "video_id": "perception_test_video_7284"
+    },
+    {
+      "qa_id": "75ac27d0b7d0",
+      "split": "test",
+      "video_id": "perception_test_video_6232"
+    },
+    {
+      "qa_id": "6a3feca9fa03",
+      "split": "dev",
+      "video_id": "charades_MZ3I3"
+    },
+    {
+      "qa_id": "4253aef9fdcf",
+      "split": "test",
+      "video_id": "charades_APH4V"
+    },
+    {
+      "qa_id": "4c9a8b752468",
+      "split": "test",
+      "video_id": "charades_UN86L"
+    },
+    {
+      "qa_id": "f18edb142c36",
+      "split": "test",
+      "video_id": "perception_test_video_957"
+    },
+    {
+      "qa_id": "821c34f1ce82",
+      "split": "test",
+      "video_id": "perception_test_video_2683"
+    },
+    {
+      "qa_id": "5446efc3b40b",
+      "split": "test",
+      "video_id": "charades_ONA0S"
+    },
+    {
+      "qa_id": "962edfacaaf4",
+      "split": "test",
+      "video_id": "charades_I5PU9"
+    },
+    {
+      "qa_id": "63b5ad032654",
+      "split": "test",
+      "video_id": "perception_test_video_11423"
+    },
+    {
+      "qa_id": "350e3bee0919",
+      "split": "test",
+      "video_id": "charades_SANRG"
+    },
+    {
+      "qa_id": "7528426b76f2",
+      "split": "test",
+      "video_id": "charades_ZKOCS"
+    },
+    {
+      "qa_id": "e21bb335af7c",
+      "split": "test",
+      "video_id": "charades_LNR61"
+    },
+    {
+      "qa_id": "ffb1c23e35b4",
+      "split": "test",
+      "video_id": "charades_BUL4V"
+    },
+    {
+      "qa_id": "394f1da7db8c",
+      "split": "test",
+      "video_id": "perception_test_video_9537"
+    },
+    {
+      "qa_id": "ff845ac983d2",
+      "split": "test",
+      "video_id": "charades_LCKF3"
+    },
+    {
+      "qa_id": "da02e4c84205",
+      "split": "test",
+      "video_id": "charades_7FQ5Q"
+    },
+    {
+      "qa_id": "a08786ffb3bf",
+      "split": "dev",
+      "video_id": "charades_AXS82"
+    },
+    {
+      "qa_id": "a98f4767efa4",
+      "split": "dev",
+      "video_id": "perception_test_video_1037"
+    },
+    {
+      "qa_id": "728f755b9cef",
+      "split": "test",
+      "video_id": "charades_LQMXW"
+    },
+    {
+      "qa_id": "6679bac90bd4",
+      "split": "test",
+      "video_id": "charades_QB7ZN"
+    },
+    {
+      "qa_id": "7e079c49def8",
+      "split": "test",
+      "video_id": "charades_2X7OY"
+    },
+    {
+      "qa_id": "7be04f0440e6",
+      "split": "test",
+      "video_id": "charades_C83CH"
+    },
+    {
+      "qa_id": "df1690e14607",
+      "split": "dev",
+      "video_id": "charades_AXIW1"
+    },
+    {
+      "qa_id": "7a717127f3be",
+      "split": "test",
+      "video_id": "perception_test_video_9797"
+    },
+    {
+      "qa_id": "afe37e724bd4",
+      "split": "test",
+      "video_id": "perception_test_video_6037"
+    },
+    {
+      "qa_id": "f7af63b0ffe3",
+      "split": "test",
+      "video_id": "charades_3QGLU"
+    },
+    {
+      "qa_id": "d9dc98852400",
+      "split": "test",
+      "video_id": "perception_test_video_4609"
+    },
+    {
+      "qa_id": "34fdc230d264",
+      "split": "test",
+      "video_id": "charades_QODUB"
+    },
+    {
+      "qa_id": "ac1c44179121",
+      "split": "dev",
+      "video_id": "perception_test_video_373"
+    },
+    {
+      "qa_id": "617c64a60245",
+      "split": "test",
+      "video_id": "charades_M52K2"
+    },
+    {
+      "qa_id": "9274862e5321",
+      "split": "test",
+      "video_id": "charades_08KKF"
+    },
+    {
+      "qa_id": "3730ed20f379",
+      "split": "test",
+      "video_id": "charades_8NSDT"
+    },
+    {
+      "qa_id": "5db6b68286c7",
+      "split": "test",
+      "video_id": "perception_test_video_5001"
+    },
+    {
+      "qa_id": "5669cf7a2de7",
+      "split": "test",
+      "video_id": "charades_BIJYC"
+    },
+    {
+      "qa_id": "20c7636a71a1",
+      "split": "test",
+      "video_id": "charades_XHQT1"
+    },
+    {
+      "qa_id": "9888afd6d432",
+      "split": "test",
+      "video_id": "perception_test_video_5797"
+    },
+    {
+      "qa_id": "504663bac5a0",
+      "split": "test",
+      "video_id": "perception_test_video_3618"
+    },
+    {
+      "qa_id": "edce70a443f3",
+      "split": "test",
+      "video_id": "charades_HYEY7"
+    },
+    {
+      "qa_id": "3dd298aa19bc",
+      "split": "test",
+      "video_id": "charades_MJZJM"
+    },
+    {
+      "qa_id": "b0826b43eb3c",
+      "split": "test",
+      "video_id": "charades_M0KTN"
+    },
+    {
+      "qa_id": "9d99ed3cfaf9",
+      "split": "test",
+      "video_id": "perception_test_video_2305"
+    },
+    {
+      "qa_id": "d549ee7443b0",
+      "split": "test",
+      "video_id": "charades_7MRKY"
+    },
+    {
+      "qa_id": "c99c41e3c9e7",
+      "split": "dev",
+      "video_id": "charades_GGAN0"
+    },
+    {
+      "qa_id": "b7b457d6cea9",
+      "split": "test",
+      "video_id": "charades_P3XT7"
+    },
+    {
+      "qa_id": "66dd19caa6fe",
+      "split": "test",
+      "video_id": "charades_YJV7W"
+    },
+    {
+      "qa_id": "bb4ff66c7939",
+      "split": "test",
+      "video_id": "charades_3NE5P"
+    },
+    {
+      "qa_id": "00ce8068b953",
+      "split": "dev",
+      "video_id": "perception_test_video_2178"
+    },
+    {
+      "qa_id": "5f2a0c2e75e4",
+      "split": "test",
+      "video_id": "perception_test_video_2688"
+    },
+    {
+      "qa_id": "2d90e1a956e4",
+      "split": "test",
+      "video_id": "charades_FZ6AD"
+    },
+    {
+      "qa_id": "f9a3e25607c0",
+      "split": "test",
+      "video_id": "perception_test_video_9768"
+    },
+    {
+      "qa_id": "6dc05876f34e",
+      "split": "dev",
+      "video_id": "perception_test_video_2793"
+    },
+    {
+      "qa_id": "41bde4f8aab0",
+      "split": "test",
+      "video_id": "perception_test_video_6912"
+    },
+    {
+      "qa_id": "882e15381c1f",
+      "split": "test",
+      "video_id": "charades_FSWT4"
+    },
+    {
+      "qa_id": "3afa66911c2b",
+      "split": "test",
+      "video_id": "charades_7R8ZU"
+    }
+  ],
+  "seed": 42,
+  "split_unit": "video_id",
+  "test_qa_ids": [
+    "0002f24829a4",
+    "01bd8703e42a",
+    "02c6e7fb0c96",
+    "038f40b3aba3",
+    "03e3a0783fc4",
+    "05c3f3343d9f",
+    "05e65d76463f",
+    "061682ce31ac",
+    "064cb90e6389",
+    "068106fc0838",
+    "0759cb9bb6cd",
+    "0866a68d4c5c",
+    "087a4a8a2507",
+    "0893a25082de",
+    "08b887d08161",
+    "093589b84207",
+    "09ecc5ba1b9b",
+    "09f5094808ca",
+    "0abb99e6a10a",
+    "0ac845085db5",
+    "0adf492d0dfd",
+    "0bfdc4f94796",
+    "0c6cad2f5eca",
+    "0d2e76cc29b5",
+    "0e166ddb30b0",
+    "0e31f0501a4b",
+    "0e9001a3b829",
+    "0e9e33c81d1d",
+    "0ef023cdb6f2",
+    "0f868943c6b8",
+    "0fce3444c9c7",
+    "0ff6c332876f",
+    "120548d7e666",
+    "120825200c3f",
+    "120b8c0c180e",
+    "128d74ab4e21",
+    "1299999226de",
+    "12c70baa67ab",
+    "1323da821116",
+    "13357e2b139e",
+    "139b17cdf632",
+    "13b4b9c339ff",
+    "15359fdfbefe",
+    "15554ceb91bf",
+    "15f31e2572de",
+    "16f94195d2e3",
+    "173fde2d9a1b",
+    "174566649511",
+    "178a97c34031",
+    "1826ee37c8b4",
+    "182c9fb2d168",
+    "1924c14f48a6",
+    "1ac388273259",
+    "1b1f653650f9",
+    "1b423d5f0441",
+    "1ba7f910ff5e",
+    "1bc39a39d493",
+    "1bd3c7640e1b",
+    "1c1bf92db462",
+    "1c1f2c3175be",
+    "1cd0cf28703f",
+    "1d43cc9574ce",
+    "1d9dc2a81f99",
+    "1e127320a187",
+    "1e1c2ae1c7d6",
+    "1e24b82d15aa",
+    "1e62a18493ca",
+    "1f16de08e889",
+    "1fee389d677f",
+    "20618ad0b147",
+    "2092db8de444",
+    "20c7636a71a1",
+    "20e82782d18b",
+    "2175d655dec0",
+    "2240937e99d8",
+    "22cd8d7961ed",
+    "2393dd7ba785",
+    "23b114b9d6f7",
+    "244a03c5d934",
+    "2465b40da486",
+    "24773ab677ad",
+    "24cd69603707",
+    "253669f7544a",
+    "2683b0ff6699",
+    "26eb74bfda76",
+    "273577c22f43",
+    "279badfc2fdb",
+    "292a9865c751",
+    "2989e2d7de3d",
+    "298c2a249578",
+    "29f9e68fae50",
+    "2aeb90329fad",
+    "2b28e75d65b1",
+    "2bc39a5ff94a",
+    "2bdb56ca2910",
+    "2c02461a2357",
+    "2c04c91f35a0",
+    "2c2b1d82edf3",
+    "2d2659ac32aa",
+    "2d440264b7c2",
+    "2d90e1a956e4",
+    "2e16ccb4c8da",
+    "2e3ed9b80f69",
+    "2ef03425bdbe",
+    "2f1a2cc072dd",
+    "2f22330b5c1d",
+    "306b3b6b5877",
+    "3078022e3939",
+    "32119de6d447",
+    "324a59b08b0f",
+    "324b69d04f07",
+    "3301d3ea65a8",
+    "3309ea33d1de",
+    "33c22e72b672",
+    "33e9ee85ff87",
+    "3473dec5db8a",
+    "3484d0bf89d5",
+    "34fdc230d264",
+    "350e3bee0919",
+    "3520414b37c5",
+    "35cd30876c5c",
+    "35d99fd3d86a",
+    "35e1be5c9e71",
+    "35fa9bd5bb69",
+    "36cf64e4197c",
+    "3730ed20f379",
+    "38ca321b15d2",
+    "38f0d143eb08",
+    "38f3e37f9491",
+    "38f7094160be",
+    "38fe51cbf9fe",
+    "394f1da7db8c",
+    "3980f024897d",
+    "39829d3712a6",
+    "39e4b6ca2eab",
+    "3a4d09c7aa6d",
+    "3aa2a9a5f31e",
+    "3aea61053429",
+    "3afa66911c2b",
+    "3b47b91a8409",
+    "3c860821f0fa",
+    "3cbdef8cb838",
+    "3cc17e3bc31f",
+    "3cc4b6a2cf1b",
+    "3d83bd30542e",
+    "3dd298aa19bc",
+    "3e3b3b797c90",
+    "3e540ca9f752",
+    "3e66aa3181fe",
+    "3eabdaba2d90",
+    "3f564caa139b",
+    "3f8c860b9ad6",
+    "40383484284a",
+    "40c8a8899957",
+    "410a4ffa8071",
+    "41b092d6d108",
+    "41b71b1ff744",
+    "41bde4f8aab0",
+    "4253aef9fdcf",
+    "42a3529598cd",
+    "4313f3d7d450",
+    "43997ce38432",
+    "443deece9c97",
+    "4637ebfddf83",
+    "46a32b161117",
+    "46b07245afc8",
+    "46d5db724a2d",
+    "46f603ad2aba",
+    "46f7b599730b",
+    "474636895005",
+    "4750572c484e",
+    "47bad465fbc3",
+    "48aba2c6fd8e",
+    "48b3bdea5cd6",
+    "48ce57a894da",
+    "493f7288fc97",
+    "494c05ca5eeb",
+    "49659fe18b86",
+    "4c7a14e86d78",
+    "4c9082a77916",
+    "4c99920c2628",
+    "4c9a8b752468",
+    "4ca964fecb49",
+    "4d2346a545bf",
+    "4d8170824a73",
+    "4d84ab2836ff",
+    "4d86b5a8f9e8",
+    "4daadb0c5ad4",
+    "4e24f7f1b218",
+    "504663bac5a0",
+    "5065b7936486",
+    "50bc451496fd",
+    "50f49a2c202f",
+    "5118b23e48d1",
+    "51aea7835501",
+    "520729a46d04",
+    "52a7d4ebb1be",
+    "53647348bd55",
+    "53a3eb67757d",
+    "5446efc3b40b",
+    "55958cc80029",
+    "5669cf7a2de7",
+    "576d2206cf11",
+    "584579bf320f",
+    "597711ab10de",
+    "599944b9cd39",
+    "59ac26d139e9",
+    "59acfe54c0a3",
+    "59d033e42aa7",
+    "5a11fa97ff61",
+    "5a4f17bd1bd4",
+    "5b168d83b941",
+    "5b87ec205b5a",
+    "5c88dc973cc9",
+    "5c8d8ad6682c",
+    "5c92e154093b",
+    "5c977ce4c903",
+    "5d2e57aa8606",
+    "5d35b80f555d",
+    "5db6b68286c7",
+    "5dc26fa4056a",
+    "5eda20dbe3b4",
+    "5f2a0c2e75e4",
+    "5f4bfd9dda3e",
+    "5fb397a43554",
+    "600ccf0b1ae9",
+    "6069d87b5be0",
+    "60a2141634eb",
+    "60d15aad057e",
+    "6112a54064ef",
+    "614c247d2e06",
+    "617c64a60245",
+    "61bb0d18192b",
+    "61c15be6be29",
+    "61fe126ac78a",
+    "6234bd941fba",
+    "6242d1b61501",
+    "637304fdb2fa",
+    "637b10b97536",
+    "63acab31636a",
+    "63b5ad032654",
+    "63f7dfe03858",
+    "64385fff656a",
+    "64cc5254725b",
+    "65f9e4f5ff2b",
+    "6679bac90bd4",
+    "6681ff5dc867",
+    "66a6044629c9",
+    "66dd19caa6fe",
+    "66f32c0dc5b3",
+    "67b7fcd55020",
+    "67b94c1ccd75",
+    "694252028fa7",
+    "69636187aaae",
+    "69c4803ac4ee",
+    "6a0976d64399",
+    "6a30c8123d53",
+    "6be607028e2a",
+    "6c86816279d7",
+    "6cdafa9cf1fd",
+    "6d192d2a46f4",
+    "6d500a2cf1e9",
+    "6da766e057d5",
+    "6e5a5abef084",
+    "6ef19196ce44",
+    "6f5daf002bdc",
+    "6fa89f92d40a",
+    "6fa95513346d",
+    "6fd4107b2c04",
+    "6ff6b9bf50ae",
+    "7057213cb667",
+    "710807ec1130",
+    "712260bf1958",
+    "72003818feab",
+    "728f755b9cef",
+    "72fd7960830a",
+    "7450921603f8",
+    "74dd998dce76",
+    "7528426b76f2",
+    "75ac27d0b7d0",
+    "75ea549ab20f",
+    "767869a3a83c",
+    "7701856a4c94",
+    "770e009a71c5",
+    "773478469360",
+    "7734fd7e1bad",
+    "7764f07301a8",
+    "77ade1dad943",
+    "78c99ec329c4",
+    "78d54a64758f",
+    "78f5ef111f70",
+    "79e261e5e3d2",
+    "7a34438d40bd",
+    "7a368e283b2d",
+    "7a717127f3be",
+    "7ac6526085a8",
+    "7ae834c61a18",
+    "7af8bd00687e",
+    "7b6137d3786f",
+    "7be04f0440e6",
+    "7bfbb54ba3a8",
+    "7c9f8a2deb5a",
+    "7ca9235d412b",
+    "7cabca0d8f0e",
+    "7d04803f98c0",
+    "7d73a701e7a6",
+    "7dcaa19f4a42",
+    "7e079c49def8",
+    "7e1384c66b0b",
+    "7e33774b4d4e",
+    "7f9ebd763fa7",
+    "7fa797891ee6",
+    "7fc4d8860d7e",
+    "7fe0dd3f3666",
+    "803549452aa8",
+    "80e39d6def14",
+    "816aafd9767f",
+    "81713877817e",
+    "817c973dfc2e",
+    "821c34f1ce82",
+    "8249e51cfa39",
+    "82b6b8904003",
+    "83710b7c7993",
+    "83986244196e",
+    "8476aa62d5ef",
+    "85802e3d63f4",
+    "85d2ff87acc2",
+    "862550f41656",
+    "864b3faf850b",
+    "868fd4ea5b23",
+    "86ce640b3234",
+    "86ff4a0f2cba",
+    "8701cafcd47b",
+    "8702085e38ee",
+    "872572c376b5",
+    "882e15381c1f",
+    "8868afe2cfc9",
+    "88c3a64b933d",
+    "88c62f804109",
+    "89a32ab8d387",
+    "8ab83f3f80eb",
+    "8bf86f62ecea",
+    "8c0e59a15019",
+    "8c489aafe4bb",
+    "8cbced1e8d19",
+    "8d67d8c08937",
+    "8e2cb6cbf96b",
+    "8ebdde6fc68e",
+    "8f0b5e6fb678",
+    "8fa255afa125",
+    "8fd70226c28b",
+    "90427baf38a5",
+    "90d54482df4b",
+    "91ec9ffa0ef9",
+    "9274862e5321",
+    "932fc9216a1a",
+    "93df3f813ae9",
+    "946e7e1fc0c3",
+    "95a96c7e0f2c",
+    "95f58b2e8f71",
+    "962edfacaaf4",
+    "96b30141876f",
+    "96d8212c8bd3",
+    "96ea6e9620a3",
+    "972cd673bf73",
+    "983afa3f9ddb",
+    "9843e3b7bb1a",
+    "9888afd6d432",
+    "988a479814c6",
+    "98c060ef4a07",
+    "98ea35d9d5c6",
+    "99a1a01ccde6",
+    "9a0919b7f7c7",
+    "9aa5d7538a3a",
+    "9baf77ce996d",
+    "9cb289a97b8a",
+    "9d152c058707",
+    "9d99ed3cfaf9",
+    "9e5c44170f80",
+    "9f16296d2ad9",
+    "9f9ca17f22be",
+    "a0065696e668",
+    "a01908ac4f2e",
+    "a098744c4c21",
+    "a0e2de384a2f",
+    "a0ecf0276945",
+    "a1a6fa838b5e",
+    "a202ba91895f",
+    "a215e50360be",
+    "a263c917735a",
+    "a289a0914aff",
+    "a2a4df623fbf",
+    "a2d9b8f8eaf8",
+    "a4495c2d02d4",
+    "a560e4aecadc",
+    "a6cad908c3c7",
+    "a71607250f80",
+    "a77b0193c8c5",
+    "a825988d6dc3",
+    "a9e789af44b0",
+    "aa28ef614c28",
+    "aa880ade2cff",
+    "aa95129776c4",
+    "aad61a79b530",
+    "aaf185604082",
+    "acafadfc87b8",
+    "ad8e898830eb",
+    "af7bb93e2a8e",
+    "afe37e724bd4",
+    "b0826b43eb3c",
+    "b0d318814a8b",
+    "b0f584526d88",
+    "b13e3c617734",
+    "b1a097cdc558",
+    "b1a819deb3b8",
+    "b1feddade6c7",
+    "b230b339ed75",
+    "b24abdfeaef1",
+    "b25ce0fe6cf5",
+    "b2673a068d5d",
+    "b39c68bdc6ce",
+    "b3a7aa28c2b1",
+    "b3abf19c7faa",
+    "b3de549746f5",
+    "b435e43623cd",
+    "b458a1690694",
+    "b4c8fd9e163b",
+    "b4da574efdfc",
+    "b562fea79ce0",
+    "b5786fadc3ec",
+    "b7b457d6cea9",
+    "b7c0103e8449",
+    "b80950bf2d58",
+    "b86bd035e102",
+    "b9333e85930e",
+    "b97864e1b5ba",
+    "ba2435eaa18b",
+    "ba52a9507bf1",
+    "ba99898a6474",
+    "bafa2f95fa6f",
+    "bb4ff66c7939",
+    "bb50078097d3",
+    "bbd62db9f9eb",
+    "bcc67d46d84a",
+    "bdb0fb8d4d60",
+    "bdb5e905f6a4",
+    "be2ec485b257",
+    "bead183a585f",
+    "bed60ac52b99",
+    "befb2e0548fb",
+    "c05529df5cf5",
+    "c0a6f88dff62",
+    "c0aa0fe0ae91",
+    "c0e538203735",
+    "c12ea5f8262a",
+    "c2574c3e6d43",
+    "c28aba38998b",
+    "c3264f9f4b0c",
+    "c35ccbc77330",
+    "c3dfa6fd780d",
+    "c4ddf8a8ed26",
+    "c54586ea15fd",
+    "c5d7c178cb3e",
+    "c6104a071c0e",
+    "c670580944d1",
+    "c6a59720d730",
+    "c6b08d647eeb",
+    "c7616ea16ebd",
+    "c90d84123c08",
+    "c9172dfae676",
+    "c934a2d7ae57",
+    "c9467b76f345",
+    "c96e4442290e",
+    "c97135d67122",
+    "c9c9b6f9e6c7",
+    "c9f6e70b8f10",
+    "ca07dbf8359f",
+    "cb0e5f0058c4",
+    "cba467a5d9fa",
+    "cc2ad769b645",
+    "cc5a935697ca",
+    "cc8066db36a6",
+    "ce1f0cf00c1a",
+    "ce456b677fd5",
+    "ce5408ca650d",
+    "ce78c6eb3fe1",
+    "ceefa6bb9e59",
+    "cf10a8b552c0",
+    "cfc2cfd2abcb",
+    "cfe74981cedf",
+    "d012ce349622",
+    "d046d1ca132f",
+    "d078dc629a33",
+    "d0e3e04ec6db",
+    "d3309fe979f8",
+    "d39ea5abede5",
+    "d4d1c0d7c4ba",
+    "d51859b306f4",
+    "d549ee7443b0",
+    "d5664374c2fe",
+    "d663925de846",
+    "d694bbfeca75",
+    "d69bd17512b5",
+    "d6cb083659f7",
+    "d6dc07be09df",
+    "d754da662fdd",
+    "d791676e882d",
+    "d79f1e112da3",
+    "d8272b6a8f8f",
+    "d8349ee8dadb",
+    "d89b7b491879",
+    "d8ab5e9d3df9",
+    "d997a3c85a53",
+    "d9dc98852400",
+    "da02e4c84205",
+    "db6d62738250",
+    "db99554df15b",
+    "dbf8572d26b1",
+    "debe408b5d9a",
+    "df24461110a3",
+    "e0708a5f429f",
+    "e1113ed4bdfd",
+    "e17508487853",
+    "e1e9c0d59e4d",
+    "e21bb335af7c",
+    "e268d11bbeff",
+    "e28143b52d91",
+    "e2da2f6a54c4",
+    "e32727d13887",
+    "e381e304a359",
+    "e4cfec18ab03",
+    "e5aee2867f4b",
+    "e5e754e5867d",
+    "e632157faf80",
+    "e648662c049d",
+    "e6bb2181a161",
+    "e7110fb2f9d3",
+    "e72268209e78",
+    "e7361cdbf797",
+    "e77aa63dab18",
+    "e7e56536fe04",
+    "e83008801159",
+    "e8bbfbb73ffc",
+    "e8ce11c154dd",
+    "e8d8911789a9",
+    "e9810004db27",
+    "e9e4171e81d7",
+    "ea41f6ab8bb3",
+    "eaead7ee9248",
+    "eb920b020281",
+    "ecf43beb0173",
+    "ed5664b30137",
+    "ed922c12f6ba",
+    "edaadd40ee46",
+    "edce70a443f3",
+    "ee134dc18780",
+    "ee4d5546df01",
+    "ef5beb6477fe",
+    "efd1f0f61fbd",
+    "f13903352ab3",
+    "f18d0beedb14",
+    "f18edb142c36",
+    "f192c6ea9cc5",
+    "f196efbdf7bf",
+    "f1ae58eeab7f",
+    "f1b10d1d8690",
+    "f1cee1c62996",
+    "f1dcabafeefd",
+    "f1fcd6bfb421",
+    "f2459fce3f36",
+    "f2c405a59d03",
+    "f2f0ca1236e2",
+    "f2f4ab6e819a",
+    "f3444d13f6db",
+    "f40b299cb7a1",
+    "f4dec629fe25",
+    "f58dfcc9d523",
+    "f69bd688d550",
+    "f6b59401d5e6",
+    "f6ce39a8381c",
+    "f6db37251836",
+    "f6f105d654cf",
+    "f7af63b0ffe3",
+    "f7e01e1dd82d",
+    "f7eb00cf9383",
+    "f8307447538d",
+    "f8d95e8bfed5",
+    "f90f9583aca4",
+    "f94c0b450522",
+    "f98e61d0194e",
+    "f9a3e25607c0",
+    "f9ab1de16734",
+    "fa4aa6466535",
+    "fadc08b73f50",
+    "fafe75526a5b",
+    "fbfe42c0d021",
+    "fcba45c6843c",
+    "fdc20dc15669",
+    "fe2bb63cd75b",
+    "ff569d6320f5",
+    "ff845ac983d2",
+    "ffb1c23e35b4"
+  ],
+  "test_video_ids": [
+    "charades_05124",
+    "charades_06NUT",
+    "charades_08KKF",
+    "charades_0CG15",
+    "charades_0M0T4",
+    "charades_0M7YH",
+    "charades_0RNRI",
+    "charades_0UK3H",
+    "charades_10AEA",
+    "charades_10INO",
+    "charades_1514T",
+    "charades_15OH5",
+    "charades_17LNN",
+    "charades_19PNV",
+    "charades_1DYYP",
+    "charades_1GQ73",
+    "charades_1SKLG",
+    "charades_1SUIC",
+    "charades_287ST",
+    "charades_2B8ML",
+    "charades_2CJC9",
+    "charades_2U903",
+    "charades_2X7OY",
+    "charades_2XXH8",
+    "charades_31YNM",
+    "charades_35P3Q",
+    "charades_3AE3T",
+    "charades_3FEYY",
+    "charades_3HOJR",
+    "charades_3IAPG",
+    "charades_3LN8C",
+    "charades_3MZZI",
+    "charades_3NE5P",
+    "charades_3P8NL",
+    "charades_3QGLU",
+    "charades_3SIOT",
+    "charades_3XKBC",
+    "charades_40NIM",
+    "charades_42PMR",
+    "charades_44Q8A",
+    "charades_48BUM",
+    "charades_493WS",
+    "charades_4ALLQ",
+    "charades_4JKLQ",
+    "charades_4JW8U",
+    "charades_4LDRK",
+    "charades_4Q766",
+    "charades_4Y1AW",
+    "charades_52FNN",
+    "charades_5F1AW",
+    "charades_5VINT",
+    "charades_65M4K",
+    "charades_6B328",
+    "charades_6F5W0",
+    "charades_6H78U",
+    "charades_6TNP4",
+    "charades_6ZJAL",
+    "charades_7326A",
+    "charades_78FJX",
+    "charades_7BLQD",
+    "charades_7DODT",
+    "charades_7FQ5Q",
+    "charades_7MRKY",
+    "charades_7P0HA",
+    "charades_7R8ZU",
+    "charades_7T6MB",
+    "charades_7U43Y",
+    "charades_7VMDP",
+    "charades_7WOTM",
+    "charades_8BG1T",
+    "charades_8DL54",
+    "charades_8LLI3",
+    "charades_8MLCU",
+    "charades_8NSDT",
+    "charades_8SAEO",
+    "charades_8WZJW",
+    "charades_8Z02S",
+    "charades_9AC1T",
+    "charades_9BPW6",
+    "charades_9D37U",
+    "charades_9MOH2",
+    "charades_9O0NP",
+    "charades_9PXC0",
+    "charades_9WGMG",
+    "charades_9XXJ7",
+    "charades_A1VTR",
+    "charades_A2L8M",
+    "charades_AEHBG",
+    "charades_APH4V",
+    "charades_ARCUY",
+    "charades_ATJEO",
+    "charades_B0LK0",
+    "charades_BE43L",
+    "charades_BIJYC",
+    "charades_BQOLV",
+    "charades_BSDSA",
+    "charades_BSF19",
+    "charades_BUL4V",
+    "charades_BWZL2",
+    "charades_BXRSI",
+    "charades_BYSQ7",
+    "charades_C69Y1",
+    "charades_C6LDA",
+    "charades_C83CH",
+    "charades_CAW41",
+    "charades_CDNV7",
+    "charades_CI1I6",
+    "charades_CIL5L",
+    "charades_CJ0U1",
+    "charades_CMD0M",
+    "charades_CPDH9",
+    "charades_CRNL5",
+    "charades_CS01T",
+    "charades_CXKFB",
+    "charades_CZO8C",
+    "charades_D0Q6H",
+    "charades_D0V0Y",
+    "charades_D260T",
+    "charades_D2ES2",
+    "charades_D8OSC",
+    "charades_DB07P",
+    "charades_DG1A5",
+    "charades_DHVYY",
+    "charades_DINAV",
+    "charades_DM2XL",
+    "charades_DOGYU",
+    "charades_DQ1TU",
+    "charades_DS22L",
+    "charades_DU7H1",
+    "charades_DYVUY",
+    "charades_DZDD2",
+    "charades_E0AEN",
+    "charades_E184J",
+    "charades_E2EHR",
+    "charades_E5WJJ",
+    "charades_E6PSM",
+    "charades_EBHC9",
+    "charades_EJL2F",
+    "charades_EWBOG",
+    "charades_F207R",
+    "charades_F9J4H",
+    "charades_FDU31",
+    "charades_FQAQL",
+    "charades_FRLW2",
+    "charades_FRSBQ",
+    "charades_FSWT4",
+    "charades_FZ6AD",
+    "charades_FZBK6",
+    "charades_G5LEA",
+    "charades_G6K7T",
+    "charades_G6LYD",
+    "charades_GH3D1",
+    "charades_GL7E6",
+    "charades_GMPHO",
+    "charades_GOK03",
+    "charades_GXZHG",
+    "charades_H5RDP",
+    "charades_HB8QW",
+    "charades_HCSPE",
+    "charades_HIJBX",
+    "charades_HJ2JO",
+    "charades_HUU4X",
+    "charades_HYEY7",
+    "charades_HZ3AM",
+    "charades_I1CS8",
+    "charades_I52A6",
+    "charades_I5PU9",
+    "charades_I5Q2Z",
+    "charades_IF7KE",
+    "charades_IFQS1",
+    "charades_IGH70",
+    "charades_ISHJ4",
+    "charades_IZTHW",
+    "charades_J1EA0",
+    "charades_J1RLO",
+    "charades_JC9SA",
+    "charades_JCLES",
+    "charades_JDG40",
+    "charades_JFU3J",
+    "charades_JNWX7",
+    "charades_JQAO5",
+    "charades_JTTAP",
+    "charades_K4XO7",
+    "charades_K7PVL",
+    "charades_KO34N",
+    "charades_KOF86",
+    "charades_KPNJ5",
+    "charades_KRT78",
+    "charades_KV99H",
+    "charades_KXAIZ",
+    "charades_KZTDH",
+    "charades_L4DUU",
+    "charades_LCKF3",
+    "charades_LD8PU",
+    "charades_LG73V",
+    "charades_LKNZD",
+    "charades_LLLXJ",
+    "charades_LM4GS",
+    "charades_LNR61",
+    "charades_LQMXW",
+    "charades_LV24Z",
+    "charades_LVJ3U",
+    "charades_M0KTN",
+    "charades_M2T77",
+    "charades_M52K2",
+    "charades_M8NEU",
+    "charades_MBAUA",
+    "charades_MJZJM",
+    "charades_MOKPE",
+    "charades_N30A9",
+    "charades_N67PL",
+    "charades_NCBNH",
+    "charades_NFA8R",
+    "charades_NGMVI",
+    "charades_NJM82",
+    "charades_NLXQE",
+    "charades_NNG2V",
+    "charades_O5TU5",
+    "charades_O6V4U",
+    "charades_OA6XR",
+    "charades_OB1XO",
+    "charades_OCSJP",
+    "charades_OEIR9",
+    "charades_OHLSE",
+    "charades_OM2NF",
+    "charades_ONA0S",
+    "charades_ORPD5",
+    "charades_OWXLM",
+    "charades_OXCLE",
+    "charades_P3XT7",
+    "charades_PON7X",
+    "charades_PV856",
+    "charades_PYIA3",
+    "charades_PZJMP",
+    "charades_Q5EPP",
+    "charades_Q6M0X",
+    "charades_QB7ZN",
+    "charades_QLGHA",
+    "charades_QNPDC",
+    "charades_QNUIU",
+    "charades_QODUB",
+    "charades_QYSER",
+    "charades_R1KMF",
+    "charades_R5IQ5",
+    "charades_RBAO4",
+    "charades_RG0KS",
+    "charades_RJN35",
+    "charades_RQRRD",
+    "charades_RS3SQ",
+    "charades_RS9D9",
+    "charades_RSG1C",
+    "charades_RXF2Q",
+    "charades_RZ9SZ",
+    "charades_S2TC7",
+    "charades_S407A",
+    "charades_S7JTZ",
+    "charades_SANRG",
+    "charades_SCFIN",
+    "charades_SMRL1",
+    "charades_SPJVR",
+    "charades_SWIQN",
+    "charades_SWZWL",
+    "charades_SX07Q",
+    "charades_T2FSV",
+    "charades_T4HF9",
+    "charades_TANB8",
+    "charades_TDD74",
+    "charades_TVBN3",
+    "charades_TW2F4",
+    "charades_TYKVA",
+    "charades_U5KRD",
+    "charades_U6KQ7",
+    "charades_U896B",
+    "charades_U8X15",
+    "charades_UM5II",
+    "charades_UN86L",
+    "charades_UQJ58",
+    "charades_UTLK1",
+    "charades_UUF84",
+    "charades_UY08H",
+    "charades_V1WN7",
+    "charades_V3CWF",
+    "charades_VFAE3",
+    "charades_VJ0LT",
+    "charades_VXEXI",
+    "charades_VYMZC",
+    "charades_W4W97",
+    "charades_W74ZY",
+    "charades_W7SGQ",
+    "charades_WEIJ6",
+    "charades_WEJRX",
+    "charades_WI6NB",
+    "charades_WJ13E",
+    "charades_WLOCV",
+    "charades_WMBOO",
+    "charades_WNSGZ",
+    "charades_WVNBE",
+    "charades_X0VAO",
+    "charades_X95FK",
+    "charades_X9M5B",
+    "charades_X9ULK",
+    "charades_X9WTR",
+    "charades_XF41L",
+    "charades_XHQT1",
+    "charades_XJFMW",
+    "charades_XQSXK",
+    "charades_XS6PF",
+    "charades_XZLNT",
+    "charades_Y4IIO",
+    "charades_Y4MW3",
+    "charades_Y4PAD",
+    "charades_Y50QF",
+    "charades_Y5826",
+    "charades_YJ2CM",
+    "charades_YJV7W",
+    "charades_YLGF5",
+    "charades_YLRVT",
+    "charades_YTBQM",
+    "charades_YXPTI",
+    "charades_Z9THH",
+    "charades_ZATTZ",
+    "charades_ZC8L5",
+    "charades_ZFQNZ",
+    "charades_ZKOCS",
+    "charades_ZO3EG",
+    "charades_ZS9IX",
+    "charades_ZWE6N",
+    "charades_ZYVTC",
+    "mose_5ibctv9k",
+    "mose_62pqsed8",
+    "mose_97cegrqe",
+    "mose_f9oeua6y",
+    "mose_jtefx29o",
+    "mose_skgveb0s",
+    "perception_test_video_10011",
+    "perception_test_video_10079",
+    "perception_test_video_10156",
+    "perception_test_video_10205",
+    "perception_test_video_10356",
+    "perception_test_video_10479",
+    "perception_test_video_1049",
+    "perception_test_video_10525",
+    "perception_test_video_10599",
+    "perception_test_video_10705",
+    "perception_test_video_10764",
+    "perception_test_video_10814",
+    "perception_test_video_10851",
+    "perception_test_video_10902",
+    "perception_test_video_10913",
+    "perception_test_video_10920",
+    "perception_test_video_11041",
+    "perception_test_video_1106",
+    "perception_test_video_11242",
+    "perception_test_video_11309",
+    "perception_test_video_11370",
+    "perception_test_video_11415",
+    "perception_test_video_11423",
+    "perception_test_video_11424",
+    "perception_test_video_11514",
+    "perception_test_video_1228",
+    "perception_test_video_1277",
+    "perception_test_video_1296",
+    "perception_test_video_1340",
+    "perception_test_video_1486",
+    "perception_test_video_1527",
+    "perception_test_video_1564",
+    "perception_test_video_1689",
+    "perception_test_video_1715",
+    "perception_test_video_1736",
+    "perception_test_video_1747",
+    "perception_test_video_204",
+    "perception_test_video_207",
+    "perception_test_video_209",
+    "perception_test_video_2198",
+    "perception_test_video_225",
+    "perception_test_video_2289",
+    "perception_test_video_2305",
+    "perception_test_video_2314",
+    "perception_test_video_2378",
+    "perception_test_video_2388",
+    "perception_test_video_2400",
+    "perception_test_video_2499",
+    "perception_test_video_2507",
+    "perception_test_video_2553",
+    "perception_test_video_2568",
+    "perception_test_video_2641",
+    "perception_test_video_2683",
+    "perception_test_video_2688",
+    "perception_test_video_2716",
+    "perception_test_video_2819",
+    "perception_test_video_2882",
+    "perception_test_video_2917",
+    "perception_test_video_2934",
+    "perception_test_video_2936",
+    "perception_test_video_2988",
+    "perception_test_video_3062",
+    "perception_test_video_3144",
+    "perception_test_video_3203",
+    "perception_test_video_3260",
+    "perception_test_video_3269",
+    "perception_test_video_3311",
+    "perception_test_video_3316",
+    "perception_test_video_3348",
+    "perception_test_video_3391",
+    "perception_test_video_3458",
+    "perception_test_video_3495",
+    "perception_test_video_3509",
+    "perception_test_video_3518",
+    "perception_test_video_3523",
+    "perception_test_video_3553",
+    "perception_test_video_3610",
+    "perception_test_video_3618",
+    "perception_test_video_3798",
+    "perception_test_video_3839",
+    "perception_test_video_3847",
+    "perception_test_video_3863",
+    "perception_test_video_3867",
+    "perception_test_video_3870",
+    "perception_test_video_3929",
+    "perception_test_video_3956",
+    "perception_test_video_3967",
+    "perception_test_video_3987",
+    "perception_test_video_4030",
+    "perception_test_video_4032",
+    "perception_test_video_4096",
+    "perception_test_video_422",
+    "perception_test_video_4227",
+    "perception_test_video_4253",
+    "perception_test_video_4564",
+    "perception_test_video_4608",
+    "perception_test_video_4609",
+    "perception_test_video_463",
+    "perception_test_video_4679",
+    "perception_test_video_4730",
+    "perception_test_video_4807",
+    "perception_test_video_4930",
+    "perception_test_video_4932",
+    "perception_test_video_5001",
+    "perception_test_video_5008",
+    "perception_test_video_5052",
+    "perception_test_video_5145",
+    "perception_test_video_5212",
+    "perception_test_video_5234",
+    "perception_test_video_5254",
+    "perception_test_video_5281",
+    "perception_test_video_5359",
+    "perception_test_video_5368",
+    "perception_test_video_5443",
+    "perception_test_video_5492",
+    "perception_test_video_550",
+    "perception_test_video_5504",
+    "perception_test_video_552",
+    "perception_test_video_5549",
+    "perception_test_video_5558",
+    "perception_test_video_5603",
+    "perception_test_video_5614",
+    "perception_test_video_5635",
+    "perception_test_video_5665",
+    "perception_test_video_5687",
+    "perception_test_video_5698",
+    "perception_test_video_5766",
+    "perception_test_video_5797",
+    "perception_test_video_5844",
+    "perception_test_video_5854",
+    "perception_test_video_588",
+    "perception_test_video_6013",
+    "perception_test_video_6015",
+    "perception_test_video_6035",
+    "perception_test_video_6037",
+    "perception_test_video_6109",
+    "perception_test_video_6134",
+    "perception_test_video_6139",
+    "perception_test_video_6148",
+    "perception_test_video_6227",
+    "perception_test_video_6232",
+    "perception_test_video_6302",
+    "perception_test_video_633",
+    "perception_test_video_6332",
+    "perception_test_video_6360",
+    "perception_test_video_6366",
+    "perception_test_video_6376",
+    "perception_test_video_6391",
+    "perception_test_video_6449",
+    "perception_test_video_665",
+    "perception_test_video_6742",
+    "perception_test_video_6745",
+    "perception_test_video_6751",
+    "perception_test_video_6754",
+    "perception_test_video_6795",
+    "perception_test_video_6889",
+    "perception_test_video_6912",
+    "perception_test_video_6973",
+    "perception_test_video_701",
+    "perception_test_video_7067",
+    "perception_test_video_7087",
+    "perception_test_video_7136",
+    "perception_test_video_7145",
+    "perception_test_video_7284",
+    "perception_test_video_7314",
+    "perception_test_video_7372",
+    "perception_test_video_7414",
+    "perception_test_video_7490",
+    "perception_test_video_7504",
+    "perception_test_video_7539",
+    "perception_test_video_7619",
+    "perception_test_video_7713",
+    "perception_test_video_7733",
+    "perception_test_video_7801",
+    "perception_test_video_802",
+    "perception_test_video_8048",
+    "perception_test_video_807",
+    "perception_test_video_8100",
+    "perception_test_video_8261",
+    "perception_test_video_8375",
+    "perception_test_video_8532",
+    "perception_test_video_8725",
+    "perception_test_video_8872",
+    "perception_test_video_8890",
+    "perception_test_video_8940",
+    "perception_test_video_8967",
+    "perception_test_video_8980",
+    "perception_test_video_8982",
+    "perception_test_video_9013",
+    "perception_test_video_9052",
+    "perception_test_video_9057",
+    "perception_test_video_9066",
+    "perception_test_video_907",
+    "perception_test_video_9131",
+    "perception_test_video_9148",
+    "perception_test_video_9165",
+    "perception_test_video_9180",
+    "perception_test_video_9247",
+    "perception_test_video_9369",
+    "perception_test_video_9414",
+    "perception_test_video_9435",
+    "perception_test_video_9456",
+    "perception_test_video_9470",
+    "perception_test_video_9532",
+    "perception_test_video_9537",
+    "perception_test_video_9539",
+    "perception_test_video_957",
+    "perception_test_video_9693",
+    "perception_test_video_9763",
+    "perception_test_video_9768",
+    "perception_test_video_9791",
+    "perception_test_video_9797",
+    "perception_test_video_9818",
+    "perception_test_video_9823",
+    "perception_test_video_9913",
+    "perception_test_video_9926",
+    "perception_test_video_9981"
+  ]
+}

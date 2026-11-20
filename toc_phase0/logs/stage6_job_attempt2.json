@@ -1,0 +1,55 @@
+{
+  "status": "INTERRUPTED_AUXILIARY_IMPLEMENTATION",
+  "controller_pid": 1005931,
+  "started_at": "2026-11-04T10:12:40.109155+08:00",
+  "attempt": 2,
+  "protocol_sha256": "3b15efad09ef2913ff7ed2a8db3f9a37705f95deb03a4017cdb5bcf66c21504e",
+  "hypotheses_sha256": "b3a14977afe2d0bbc75870e5d4c97f25e5908ddd19b54b1bebb292027705af71",
+  "allocation": {
+    "checked_at": "2026-11-04T10:11:02.723645+08:00",
+    "vllm": {
+      "physical_index": 7,
+      "uuid": "GPU-0322c0e7-ffbf-e068-5bdd-587b8216a9d9",
+      "name": "NVIDIA A800-SXM4-80GB",
+      "initial_used_MiB": 16181,
+      "initial_free_MiB": 65739,
+      "existing_process_count": 1,
+      "initial_utilization": 89
+    },
+    "training_and_lora_eval": {
+      "physical_index": 6,
+      "uuid": "GPU-883c8be3-25b0-3d19-6fa8-4c2e335e67d2",
+      "name": "NVIDIA A800-SXM4-80GB",
+      "initial_used_MiB": 19009,
+      "initial_free_MiB": 62911,
+      "existing_process_count": 2,
+      "initial_utilization": 91
+    },
+    "registered_physical_gpus": [
+      7,
+      6
+    ],
+    "sharing_user_authorized": true,
+    "full_snapshot": "0, GPU-bf21a95d-d96d-9ec5-cb15-b0fb7ad50536, NVIDIA A800-SXM4-80GB, 81920, 69000, 90\n1, GPU-f35654b3-bbf5-7303-cfcb-9bd5d3e16e69, NVIDIA A800-SXM4-80GB, 81920, 69096, 100\n2, GPU-c2484ded-5f87-237c-bbf0-d23fcb74fdb2, NVIDIA A800-SXM4-80GB, 81920, 69064, 82\n3, GPU-6cb11599-704e-c3aa-9e28-5f15faa25c7c, NVIDIA A800-SXM4-80GB, 81920, 69224, 49\n4, GPU-44f62835-4095-23ec-d3dd-5af16a00705c, NVIDIA A800-SXM4-80GB, 81920, 24910, 100\n5, GPU-c6523d98-cb2d-95ed-4cb2-a84936acceb6, NVIDIA A800-SXM4-80GB, 81920, 28030, 100\n6, GPU-883c8be3-25b0-3d19-6fa8-4c2e335e67d2, NVIDIA A800-SXM4-80GB, 81920, 19009, 91\n7, GPU-0322c0e7-ffbf-e068-5bdd-587b8216a9d9, NVIDIA A800-SXM4-80GB, 81920, 16181, 89\n",
+    "processes": "GPU-bf21a95d-d96d-9ec5-cb15-b0fb7ad50536, 2258854, 68830\nGPU-f35654b3-bbf5-7303-cfcb-9bd5d3e16e69, 2258855, 68926\nGPU-c2484ded-5f87-237c-bbf0-d23fcb74fdb2, 2258856, 68894\nGPU-6cb11599-704e-c3aa-9e28-5f15faa25c7c, 2258857, 69054\nGPU-44f62835-4095-23ec-d3dd-5af16a00705c, 923884, 8748\nGPU-44f62835-4095-23ec-d3dd-5af16a00705c, 934359, 7394\nGPU-44f62835-4095-23ec-d3dd-5af16a00705c, 970280, 8748\nGPU-c6523d98-cb2d-95ed-4cb2-a84936acceb6, 3949636, 8748\nGPU-c6523d98-cb2d-95ed-4cb2-a84936acceb6, 940243, 10514\nGPU-c6523d98-cb2d-95ed-4cb2-a84936acceb6, 970281, 8748\nGPU-883c8be3-25b0-3d19-6fa8-4c2e335e67d2, 3528813, 8480\nGPU-883c8be3-25b0-3d19-6fa8-4c2e335e67d2, 940244, 10514\nGPU-0322c0e7-ffbf-e068-5bdd-587b8216a9d9, 3348212, 16172\n"
+  },
+  "source_sha256": {
+    "run_stage6.py": "ba3e8f803515d2b41a3c75ffeca9736cbae4bddfe2643d9f4af0a9b7b853033c",
+    "stage6_runtime.py": "a4f8b15d4d492d6dc5a5c8c30eb5cf0e819e11b72db9594e5fdc44c6a347cf10",
+    "train_stage6.py": "d9065c57e8151897b466d8b5adf8a78828f5166836374404cbce611c92efb231"
+  },
+  "stage": "base_server_startup",
+  "updated_at": "2026-11-04T11:55:01.969185+08:00",
+  "training_pid": 1005979,
+  "server_pid": 1006002,
+  "tools_stage": "T1/guided",
+  "tools_committed": 20,
+  "tools_expected": 242,
+  "tools_eta_min": 76.4,
+  "lora_stage": "complete",
+  "lora_committed": 251,
+  "lora_expected": 251,
+  "lora_eta_min": 0.0,
+  "interrupted_at": "2026-11-04T12:11:08.398426+08:00",
+  "interruption_reason": "Auxiliary grammar forced closing-tag syntax instead of leaving model errors to the ordinary parser; no primary outcomes changed"
+}

@@ -1,0 +1,27 @@
+{
+  "recorded_at": "2026-11-05T23:06:13.398218+08:00",
+  "source_kind": "explicit_user_message",
+  "user_statement_verbatim": "这三个都通过了",
+  "packet_id": "motqa_temporal_replacement3_58f30e0865ccca20",
+  "questions_file": "/home/user/motqa_pilot/data/question_review_temporal_replacements_3.jsonl",
+  "questions_sha256": "58f30e0865ccca20975e382ec4333bafcce0272419950829a6e25727754fa2ff",
+  "decisions": [
+    {
+      "qa_id": "motqa_precheck_04_temporal_v2",
+      "review_index": 4,
+      "decision": "pass"
+    },
+    {
+      "qa_id": "motqa_precheck_05_temporal_v2",
+      "review_index": 5,
+      "decision": "pass"
+    },
+    {
+      "qa_id": "motqa_precheck_17_temporal_v2",
+      "review_index": 17,
+      "decision": "pass"
+    }
+  ],
+  "scope": "Design review only; the approximately900-question full candidate batch and final release are not complete.",
+  "exported_JSON_received": false
+}

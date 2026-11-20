@@ -1,0 +1,568 @@
+{
+  "version": "round2_v2",
+  "locked_at": "2026-11-05T23:37:55.994864+08:00",
+  "seed": 42,
+  "author": "agent-authored and manually checked for predicate/output equivalence; not an additional user audit",
+  "held_out_ids": [
+    3,
+    4
+  ],
+  "held_out_use": "test only; forbidden in future training",
+  "finite_paraphrases_do_not_guarantee_unparseability": true,
+  "templates": {
+    "region": [
+      {
+        "paraphrase_id": 0,
+        "paraphrase_split": "shared",
+        "text": "Which region of the image contains person A at {end} s?",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      },
+      {
+        "paraphrase_id": 1,
+        "paraphrase_split": "shared",
+        "text": "At {end} s, is person A in the left, center, or right region of the frame?",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      },
+      {
+        "paraphrase_id": 2,
+        "paraphrase_split": "shared",
+        "text": "Locate person A at {end} s and report the image region containing that person.",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      },
+      {
+        "paraphrase_id": 3,
+        "paraphrase_split": "held_out",
+        "text": "What is person A’s left/center/right region at the timestamp {end} s?",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      },
+      {
+        "paraphrase_id": 4,
+        "paraphrase_split": "held_out",
+        "text": "Identify the frame region occupied by person A at {end} s.",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      }
+    ],
+    "left_pair": [
+      {
+        "paraphrase_id": 0,
+        "paraphrase_split": "shared",
+        "text": "At {end} s, which person is farther left in the image, A or B?",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      },
+      {
+        "paraphrase_id": 1,
+        "paraphrase_split": "shared",
+        "text": "Who is on the left of the other person at {end} s: A or B?",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      },
+      {
+        "paraphrase_id": 2,
+        "paraphrase_split": "shared",
+        "text": "Compare A and B at {end} s. Which one has the smaller horizontal image coordinate?",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      },
+      {
+        "paraphrase_id": 3,
+        "paraphrase_split": "held_out",
+        "text": "Which of A and B occupies the more leftward position at {end} s?",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      },
+      {
+        "paraphrase_id": 4,
+        "paraphrase_split": "held_out",
+        "text": "Looking at {end} s, name the leftmost of the two people A and B.",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      }
+    ],
+    "return_time": [
+      {
+        "paraphrase_id": 0,
+        "paraphrase_split": "shared",
+        "text": "After the visibility gap beginning around {gap} s, when does person A first become clearly visible again within {start}–{end} s?",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      },
+      {
+        "paraphrase_id": 1,
+        "paraphrase_split": "shared",
+        "text": "Give A’s first clear return time in {start}–{end} s following the gap that starts near {gap} s.",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      },
+      {
+        "paraphrase_id": 2,
+        "paraphrase_split": "shared",
+        "text": "Within {start}–{end} s, at what time does A first return to clear view after the visibility interruption near {gap} s?",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      },
+      {
+        "paraphrase_id": 3,
+        "paraphrase_split": "held_out",
+        "text": "Find A’s first clearly visible frame after the gap around {gap} s, restricted to {start}–{end} s. What is its time?",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      },
+      {
+        "paraphrase_id": 4,
+        "paraphrase_split": "held_out",
+        "text": "For the interruption starting near {gap} s, identify A’s earliest clear reappearance during {start}–{end} s.",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      }
+    ],
+    "cross_count": [
+      {
+        "paraphrase_id": 0,
+        "paraphrase_split": "shared",
+        "text": "How many different people cross paths with A during {start}–{end} s? Count each person once.",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      },
+      {
+        "paraphrase_id": 1,
+        "paraphrase_split": "shared",
+        "text": "Count the distinct people whose left-right order with A reverses through an overlap in {start}–{end} s.",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      },
+      {
+        "paraphrase_id": 2,
+        "paraphrase_split": "shared",
+        "text": "During {start}–{end} s, how many unique individuals have a qualifying crossing with A?",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      },
+      {
+        "paraphrase_id": 3,
+        "paraphrase_split": "held_out",
+        "text": "Report the number of distinct people A crosses paths with between {start} and {end} s; repeated crossings with one person count once.",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      },
+      {
+        "paraphrase_id": 4,
+        "paraphrase_split": "held_out",
+        "text": "Considering {start}–{end} s, what is the deduplicated count of people involved in a crossing with A?",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      }
+    ],
+    "entry_count": [
+      {
+        "paraphrase_id": 0,
+        "paraphrase_split": "shared",
+        "text": "How many distinct track identities first enter from a frame edge during {start}–{end} s? Count each identity once.",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      },
+      {
+        "paraphrase_id": 1,
+        "paraphrase_split": "shared",
+        "text": "Count track identities with their first edge entry in {start}–{end} s, without counting any identity twice.",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      },
+      {
+        "paraphrase_id": 2,
+        "paraphrase_split": "shared",
+        "text": "During {start}–{end} s, how many different track identities make their first appearance at an image edge?",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      },
+      {
+        "paraphrase_id": 3,
+        "paraphrase_split": "held_out",
+        "text": "Give the number of distinct identities whose first edge appearance falls between {start} and {end} s.",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      },
+      {
+        "paraphrase_id": 4,
+        "paraphrase_split": "held_out",
+        "text": "What is the count of first-time edge-entering track identities in {start}–{end} s?",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      }
+    ],
+    "earlier_return_time": [
+      {
+        "paraphrase_id": 0,
+        "paraphrase_split": "shared",
+        "text": "Comparing A and B in {start}–{end} s, at what time does the earlier of their first clear returns after a visibility gap occur?",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      },
+      {
+        "paraphrase_id": 1,
+        "paraphrase_split": "shared",
+        "text": "Find the first clear return of A and of B during {start}–{end} s after a visibility gap. What is the earlier timestamp?",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      },
+      {
+        "paraphrase_id": 2,
+        "paraphrase_split": "shared",
+        "text": "Which timestamp is earlier when A’s and B’s first clear reappearances in {start}–{end} s are compared? Give that time.",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      },
+      {
+        "paraphrase_id": 3,
+        "paraphrase_split": "held_out",
+        "text": "Report the time of the earlier first reappearance of A and B during {start}–{end} s, after their visibility interruptions.",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      },
+      {
+        "paraphrase_id": 4,
+        "paraphrase_split": "held_out",
+        "text": "At what time is the earlier first return to clear view among A and B in {start}–{end} s?",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      }
+    ],
+    "earliest_return_person": [
+      {
+        "paraphrase_id": 0,
+        "paraphrase_split": "shared",
+        "text": "Among A, B, and C, who first returns to clear view after a visibility gap during {start}–{end} s?",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      },
+      {
+        "paraphrase_id": 1,
+        "paraphrase_split": "shared",
+        "text": "Which of A, B, and C has the earliest clear reappearance following a visibility interruption in {start}–{end} s?",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      },
+      {
+        "paraphrase_id": 2,
+        "paraphrase_split": "shared",
+        "text": "Compare the first post-gap returns of A, B, and C within {start}–{end} s. Who returns first?",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      },
+      {
+        "paraphrase_id": 3,
+        "paraphrase_split": "held_out",
+        "text": "During {start}–{end} s, identify the earliest returning person among A, B, and C after a visibility gap.",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      },
+      {
+        "paraphrase_id": 4,
+        "paraphrase_split": "held_out",
+        "text": "Who wins the first-clear-return comparison among A, B, and C for {start}–{end} s?",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      }
+    ],
+    "closest_time": [
+      {
+        "paraphrase_id": 0,
+        "paraphrase_split": "shared",
+        "text": "During {start}–{end} s, in which time segment are A and B closest in image coordinates?",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      },
+      {
+        "paraphrase_id": 1,
+        "paraphrase_split": "shared",
+        "text": "Which segment of {start}–{end} s contains the minimum image-plane separation of A and B?",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      },
+      {
+        "paraphrase_id": 2,
+        "paraphrase_split": "shared",
+        "text": "Compare the image distance between A and B throughout {start}–{end} s. In which segment is its minimum?",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      },
+      {
+        "paraphrase_id": 3,
+        "paraphrase_split": "held_out",
+        "text": "Locate the time segment when A and B reach their smallest separation in the image during {start}–{end} s.",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      },
+      {
+        "paraphrase_id": 4,
+        "paraphrase_split": "held_out",
+        "text": "Within {start}–{end} s, which segment includes A and B’s closest image positions?",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      }
+    ],
+    "cross_time": [
+      {
+        "paraphrase_id": 0,
+        "paraphrase_split": "shared",
+        "text": "In {start}–{end} s, which time segment contains the first qualifying crossing of A and B?",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      },
+      {
+        "paraphrase_id": 1,
+        "paraphrase_split": "shared",
+        "text": "When A and B first exchange left-right order through an overlap during {start}–{end} s, which segment is it?",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      },
+      {
+        "paraphrase_id": 2,
+        "paraphrase_split": "shared",
+        "text": "Identify the segment of {start}–{end} s containing A and B’s first overlap followed by reversed left-right order.",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      },
+      {
+        "paraphrase_id": 3,
+        "paraphrase_split": "held_out",
+        "text": "Which part of {start}–{end} s contains the first crossing event between A and B?",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      },
+      {
+        "paraphrase_id": 4,
+        "paraphrase_split": "held_out",
+        "text": "For A and B during {start}–{end} s, report the segment of their earliest qualifying crossing.",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      }
+    ],
+    "return_region": [
+      {
+        "paraphrase_id": 0,
+        "paraphrase_split": "shared",
+        "text": "During {start}–{end} s, in which image region is A at the {ordinal} clear reappearance after a visibility gap?",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      },
+      {
+        "paraphrase_id": 1,
+        "paraphrase_split": "shared",
+        "text": "Where in the left/center/right regions does A make the {ordinal} post-gap return to clear view in {start}–{end} s?",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      },
+      {
+        "paraphrase_id": 2,
+        "paraphrase_split": "shared",
+        "text": "Locate A’s {ordinal} clear reappearance within {start}–{end} s after a visibility interruption. Which region contains A?",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      },
+      {
+        "paraphrase_id": 3,
+        "paraphrase_split": "held_out",
+        "text": "At A’s {ordinal} return to clear view following a gap during {start}–{end} s, what is the image region?",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      },
+      {
+        "paraphrase_id": 4,
+        "paraphrase_split": "held_out",
+        "text": "Which frame region contains A when the {ordinal} qualifying reappearance occurs in {start}–{end} s?",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      }
+    ],
+    "identity_match": [
+      {
+        "paraphrase_id": 0,
+        "paraphrase_split": "shared",
+        "text": "In the frame at {end} s, four people have numbered boxes 1–4. Which box contains person A from the reference frame?",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      },
+      {
+        "paraphrase_id": 1,
+        "paraphrase_split": "shared",
+        "text": "Match reference person A to one of the four numbered people at {end} s. Give the box number.",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      },
+      {
+        "paraphrase_id": 2,
+        "paraphrase_split": "shared",
+        "text": "Which of boxes 1–4 at {end} s marks the same person as A in the reference image?",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      },
+      {
+        "paraphrase_id": 3,
+        "paraphrase_split": "held_out",
+        "text": "Follow person A to {end} s and select the corresponding numbered box among 1–4.",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      },
+      {
+        "paraphrase_id": 4,
+        "paraphrase_split": "held_out",
+        "text": "Identify A’s matching person in the numbered-box frame at {end} s. Which number is correct?",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      }
+    ],
+    "identity_same": [
+      {
+        "paraphrase_id": 0,
+        "paraphrase_split": "shared",
+        "text": "Is person B, marked in the frame at {end} s, the same person as reference person A?",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      },
+      {
+        "paraphrase_id": 1,
+        "paraphrase_split": "shared",
+        "text": "Do reference person A and the marked person B at {end} s have the same identity?",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      },
+      {
+        "paraphrase_id": 2,
+        "paraphrase_split": "shared",
+        "text": "Compare A in the reference image with B marked at {end} s. Are they the same individual?",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      },
+      {
+        "paraphrase_id": 3,
+        "paraphrase_split": "held_out",
+        "text": "Has reference person A been matched to the same individual in the marked B image at {end} s?",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      },
+      {
+        "paraphrase_id": 4,
+        "paraphrase_split": "held_out",
+        "text": "Does the person marked B at {end} s correspond to reference person A?",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      }
+    ],
+    "cross_exit_count": [
+      {
+        "paraphrase_id": 0,
+        "paraphrase_split": "shared",
+        "text": "Among the different people who cross paths with A in {start}–{end} s, how many leave the frame later in that interval? Count each once.",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      },
+      {
+        "paraphrase_id": 1,
+        "paraphrase_split": "shared",
+        "text": "Count distinct people who first cross A and subsequently leave the image, with both events in {start}–{end} s.",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      },
+      {
+        "paraphrase_id": 2,
+        "paraphrase_split": "shared",
+        "text": "During {start}–{end} s, how many unique people satisfy both conditions: a crossing with A, followed by a frame exit?",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      },
+      {
+        "paraphrase_id": 3,
+        "paraphrase_split": "held_out",
+        "text": "Select people who cross A in {start}–{end} s, then count those who exit after that crossing but before the interval ends.",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      },
+      {
+        "paraphrase_id": 4,
+        "paraphrase_split": "held_out",
+        "text": "What is the deduplicated number of people whose crossing with A precedes their exit, both within {start}–{end} s?",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      }
+    ],
+    "order_region": [
+      {
+        "paraphrase_id": 0,
+        "paraphrase_split": "shared",
+        "text": "Of A and B, who first returns after a visibility gap in {start}–{end} s, and in which image region is that person at {end} s?",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      },
+      {
+        "paraphrase_id": 1,
+        "paraphrase_split": "shared",
+        "text": "Find the earlier first post-gap return among A and B during {start}–{end} s; report that person and their region at {end} s.",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      },
+      {
+        "paraphrase_id": 2,
+        "paraphrase_split": "shared",
+        "text": "Which of A and B reappears first in {start}–{end} s, and where is the earlier returner at the final timestamp?",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      },
+      {
+        "paraphrase_id": 3,
+        "paraphrase_split": "held_out",
+        "text": "Compare A’s and B’s first clear returns in {start}–{end} s, then give the earlier person’s left/center/right region at {end} s.",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      },
+      {
+        "paraphrase_id": 4,
+        "paraphrase_split": "held_out",
+        "text": "Report the identity and final image region of the earlier first-returning person among A and B in {start}–{end} s.",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      }
+    ],
+    "motion_relation_example_only": [
+      {
+        "paraphrase_id": 0,
+        "paraphrase_split": "shared",
+        "text": "In {start}–{end} s, who has the greater cumulative box-center path in image coordinates, A or B, and is that person left or right of the other at {end} s?",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      },
+      {
+        "paraphrase_id": 1,
+        "paraphrase_split": "shared",
+        "text": "Compare A and B’s cumulative image-coordinate box-center paths for {start}–{end} s; name the farther mover and their final left/right relation.",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      },
+      {
+        "paraphrase_id": 2,
+        "paraphrase_split": "shared",
+        "text": "Which of A and B accumulates more box-center movement in the static-camera image during {start}–{end} s, and where are they relative to the other at the end?",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      },
+      {
+        "paraphrase_id": 3,
+        "paraphrase_split": "held_out",
+        "text": "For {start}–{end} s, identify the larger cumulative image-path mover among A and B and state their left/right position at {end} s.",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      },
+      {
+        "paraphrase_id": 4,
+        "paraphrase_split": "held_out",
+        "text": "Name the person with the longer cumulative image-coordinate box-center trajectory in {start}–{end} s and their final side relative to the other.",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      }
+    ],
+    "cross_region": [
+      {
+        "paraphrase_id": 0,
+        "paraphrase_split": "shared",
+        "text": "At the first crossing of A and B during {start}–{end} s, in which image region is A immediately after their overlap?",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      },
+      {
+        "paraphrase_id": 1,
+        "paraphrase_split": "shared",
+        "text": "Find A and B’s first crossing within {start}–{end} s; what left/center/right region contains A just after the overlap?",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      },
+      {
+        "paraphrase_id": 2,
+        "paraphrase_split": "shared",
+        "text": "Which frame region contains A immediately following the first qualifying crossing with B in {start}–{end} s?",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      },
+      {
+        "paraphrase_id": 3,
+        "paraphrase_split": "held_out",
+        "text": "During {start}–{end} s, locate the first A–B crossing and report A’s region at the first post-overlap frame.",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      },
+      {
+        "paraphrase_id": 4,
+        "paraphrase_split": "held_out",
+        "text": "Report the image region of A just after A’s first overlap-and-order-exchange with B during {start}–{end} s.",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      }
+    ],
+    "first_cross_crop": [
+      {
+        "paraphrase_id": 0,
+        "paraphrase_split": "shared",
+        "text": "Who is the first different person A crosses paths with during {start}–{end} s? Select the matching person crop.",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      },
+      {
+        "paraphrase_id": 1,
+        "paraphrase_split": "shared",
+        "text": "Within {start}–{end} s, identify A’s earliest crossing partner using the portrait options.",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      },
+      {
+        "paraphrase_id": 2,
+        "paraphrase_split": "shared",
+        "text": "Which option shows the person whose qualifying crossing with A occurs first in {start}–{end} s?",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      },
+      {
+        "paraphrase_id": 3,
+        "paraphrase_split": "held_out",
+        "text": "Find the first A–other-person crossing between {start} and {end} s, then choose that other person’s crop.",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      },
+      {
+        "paraphrase_id": 4,
+        "paraphrase_split": "held_out",
+        "text": "Among the portrait choices, who crosses A first during {start}–{end} s?",
+        "semantic_review": "checked_same_operation_arguments_and_answer_target"
+      }
+    ]
+  },
+  "pre_generation_addition": {
+    "at": "2026-11-05T23:44:48.335270+08:00",
+    "reason": "Add dedicated O6+O1 composition wording; do not reuse the crossing-time question for a region answer. No candidates generated yet.",
+    "previous_sha256": "7134164f10ee7abe90a342d8fa800bb4902bde7963d71c9887b5b6ef80d244a8"
+  },
+  "optional_crop_template_addition": {
+    "at": "2026-11-05T23:48:15.553964+08:00",
+    "previous_sha256": "4cafae51f60fd92f8ce62e99f0cdc5683b02f9e4795a3da190ba8589380ad4e8",
+    "scope": "Lock optional crop-answer wording before constructing optional candidates; existing numeric/box candidate templates unchanged."
+  }
+}

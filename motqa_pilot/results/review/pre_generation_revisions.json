@@ -1,0 +1,8 @@
+{
+  "at": "2026-11-04T23:16:09.388755+08:00",
+  "config_old_sha256": "3e0323e71367fbc696ab164febd14ebc8961247d4ffd34285195eff2bd466428",
+  "config_final_sha256": "b75ddac560bb71629e37120f97f0c5e23c4b8dddb052e9605d2d750a8fd85166",
+  "reason": "Remove unintended censored-absence allowance to match the user restriction exactly; no QA generated.",
+  "image_build_first_error": "OpenCV5 build has no cv2.HOGDescriptor; use explicit deterministic NumPy gradient histograms instead of adding an environment dependency. Selection was not yet emitted; no model/QA calls.",
+  "all_old_bytes_preserved": true
+}

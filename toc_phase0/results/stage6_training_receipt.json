@@ -1,0 +1,13 @@
+{
+  "completed_at": "2026-11-04T10:48:21.419761+08:00",
+  "elapsed_s": 2140.496,
+  "epochs": 2.0,
+  "global_step": 250,
+  "train_examples": 2000,
+  "synthetic_only": true,
+  "adapter_path": "/data2/user/toc_phase0/models/stage6_lora_r8",
+  "adapter_sha256": "3572c37f70ff0f1206aab7fa40aee6031826d303e6c60572685b27a869ac97ea",
+  "adapter_config_sha256": "fd6586dda00479761d9e8584a3e6f20357f211378df692087ca729ad32597b60",
+  "data_manifest_sha256": "c8049019a947229f23b56dc78e4bc71346e5373c5499dcdbad18dbc1336ebd7e",
+  "hypotheses_sha256": "b3a14977afe2d0bbc75870e5d4c97f25e5908ddd19b54b1bebb292027705af71"
+}

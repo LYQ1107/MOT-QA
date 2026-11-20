@@ -1,0 +1,13 @@
+{
+  "completed_at": "2026-11-02T17:53:36.883685+08:00",
+  "template": "reasoning",
+  "decoding": "main",
+  "condition": "D",
+  "predictions": 749,
+  "new_predictions": 749,
+  "elapsed_this_attempt_s": 569.83,
+  "parse_failures": 94,
+  "truncated": 0,
+  "sha256": "6ed9b1ffa15d060cfad74c3508b5e21e7fba693f5e6abc98e9ce560c34943dc0",
+  "output": "/data2/user/toc_phase0/results/stage5/reasoning_main_D_predictions.jsonl"
+}

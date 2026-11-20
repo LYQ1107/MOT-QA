@@ -1,0 +1,7 @@
+{
+  "diagnosed_at": "2026-11-01T14:55:15.359569+08:00",
+  "affected_pilot_videos": 20,
+  "archive": "/data2/user/toc_phase0/tracks/diagnostics/pilot_stale_text_cache",
+  "root_cause": "GroundingDINOMasa only initializes track_text_dict when None; changing prompts refreshes token maps but leaves cached embeddings from first video",
+  "fix": "clear four detector text-cache attributes at every video start; no model algorithm or prompts changed"
+}

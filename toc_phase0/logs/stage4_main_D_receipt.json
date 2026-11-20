@@ -1,0 +1,12 @@
+{
+  "condition": "D",
+  "decoding": "main",
+  "completed_at": "2026-11-02T10:58:05.138776+08:00",
+  "predictions": 749,
+  "unique": 749,
+  "new_predictions": 749,
+  "elapsed_this_attempt_s": 730.759,
+  "output": "/data2/user/toc_phase0/results/stage4/main_D_predictions.jsonl",
+  "sha256": "93906affe6195a30d65ffd4cb941498e76397ceefc0308614a8f3a1887d7e647",
+  "parse_failures": 49
+}

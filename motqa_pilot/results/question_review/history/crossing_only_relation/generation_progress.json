@@ -1,0 +1,26 @@
+[
+  {
+    "index": 1,
+    "dataset": "DanceTrack",
+    "reference_type": "box",
+    "operation": "O2",
+    "tried": 1,
+    "found": true
+  },
+  {
+    "index": 2,
+    "dataset": "SportsMOT",
+    "reference_type": "box",
+    "operation": "O2",
+    "tried": 3,
+    "found": true
+  },
+  {
+    "index": 3,
+    "dataset": "MOT17",
+    "reference_type": "box",
+    "operation": "O2",
+    "tried": 79,
+    "found": false
+  }
+]

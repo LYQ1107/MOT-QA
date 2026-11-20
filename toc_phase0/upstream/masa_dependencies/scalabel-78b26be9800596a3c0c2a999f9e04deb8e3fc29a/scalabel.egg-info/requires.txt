@@ -1,0 +1,16 @@
+motmetrics
+nanoid
+numpy
+Pillow
+plyfile
+psutil
+pycocotools
+pydantic==2.7
+pyparsing
+python-dateutil
+PyYAML
+requests
+tabulate
+tqdm
+toml
+joblib

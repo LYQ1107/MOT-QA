@@ -1,0 +1,29 @@
+{
+  "created_at": "2026-11-04T09:53:15.332352+08:00",
+  "hypotheses_sha256": "b3a14977afe2d0bbc75870e5d4c97f25e5908ddd19b54b1bebb292027705af71",
+  "examples": 2000,
+  "families": {
+    "Count": 600,
+    "RD": 800,
+    "XOrder": 600
+  },
+  "benchmark_labels_used": false,
+  "generation_source_sha256": "36c73e0732b81ea922e9d50c09b9871304a20fcd64ac7ca0a369423a373600c4",
+  "train": {
+    "path": "/data2/user/toc_phase0/data/stage6_synthetic/train.json",
+    "sha256": "fe550b51b08a352d6b2503cd37169c1176c591f7a5160dd6179e077191311622",
+    "locked_at": "2026-11-04T09:53:15.272553+08:00"
+  },
+  "dataset_info": {
+    "path": "/data2/user/toc_phase0/data/stage6_synthetic/dataset_info.json",
+    "sha256": "63ddcbe95f92989ea8a7cd1c882e55b534610208c532e85c4b877d485e535cd1",
+    "locked_at": "2026-11-04T09:53:15.272766+08:00"
+  },
+  "config": {
+    "path": "/data2/user/toc_phase0/results/stage6_training_config_locked.json",
+    "sha256": "1683ff623ca4f09e39fb3316f9669b3ecbb8ecea4c8a3d29aef6af897e90d6c9",
+    "locked_at": "2026-11-04T09:53:15.272972+08:00"
+  },
+  "source": "Deterministic synthetic generator seed42; no benchmark files imported by generator",
+  "final_adapter": "Always second epoch, no benchmark-label checkpoint selection"
+}

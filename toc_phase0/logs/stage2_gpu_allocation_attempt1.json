@@ -1,0 +1,19 @@
+{
+  "checked_at": "2026-10-31T17:41:45.858835+00:00",
+  "full_gpu_snapshot": "0, GPU-bf21a95d-d96d-9ec5-cb15-b0fb7ad50536, NVIDIA A800-SXM4-80GB, 0, 0\n1, GPU-f35654b3-bbf5-7303-cfcb-9bd5d3e16e69, NVIDIA A800-SXM4-80GB, 16035, 100\n2, GPU-c2484ded-5f87-237c-bbf0-d23fcb74fdb2, NVIDIA A800-SXM4-80GB, 14599, 85\n3, GPU-6cb11599-704e-c3aa-9e28-5f15faa25c7c, NVIDIA A800-SXM4-80GB, 0, 0\n4, GPU-44f62835-4095-23ec-d3dd-5af16a00705c, NVIDIA A800-SXM4-80GB, 0, 0\n5, GPU-c6523d98-cb2d-95ed-4cb2-a84936acceb6, NVIDIA A800-SXM4-80GB, 0, 0\n6, GPU-883c8be3-25b0-3d19-6fa8-4c2e335e67d2, NVIDIA A800-SXM4-80GB, 16183, 0\n7, GPU-0322c0e7-ffbf-e068-5bdd-587b8216a9d9, NVIDIA A800-SXM4-80GB, 2895, 31\n",
+  "compute_process_snapshot": "GPU-f35654b3-bbf5-7303-cfcb-9bd5d3e16e69, 3924761, /data3/LJH/PRISM/.venv/bin/python\nGPU-c2484ded-5f87-237c-bbf0-d23fcb74fdb2, 1078246, /home/szgx/anaconda3/envs/dfot/bin/python\nGPU-883c8be3-25b0-3d19-6fa8-4c2e335e67d2, 2676408, python\nGPU-0322c0e7-ffbf-e068-5bdd-587b8216a9d9, 1047109, /home/szgx/anaconda3/envs/harmon/bin/python\n",
+  "selected": [
+    {
+      "physical_index": 0,
+      "uuid": "GPU-bf21a95d-d96d-9ec5-cb15-b0fb7ad50536",
+      "name": "NVIDIA A800-SXM4-80GB"
+    },
+    {
+      "physical_index": 3,
+      "uuid": "GPU-6cb11599-704e-c3aa-9e28-5f15faa25c7c",
+      "name": "NVIDIA A800-SXM4-80GB"
+    }
+  ],
+  "physical_gpu_count": 2,
+  "masa_run": false
+}

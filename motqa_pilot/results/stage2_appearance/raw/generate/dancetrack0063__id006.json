@@ -1,0 +1,72 @@
+{
+  "unit_key": "dancetrack0063__id006",
+  "sequence": "dancetrack0063",
+  "gt_id": 6,
+  "phase": "generate",
+  "started_at": "2026-11-04T13:57:21.775761+00:00",
+  "completed_at": "2026-11-04T13:57:28.933008+00:00",
+  "seconds": 7.157281538937241,
+  "prompt_text": "The first image shows three crops of ONE target person at different times. The other image(s) show comparison people from the SAME video; every labeled tile is a different annotated person, shown in up to three crops. These comparison labels are anonymous bookkeeping labels, not appearance attributes.\nWrite one concise English noun phrase (at most 30 words), starting with \"the person\", describing the target using stable, clearly visible clothing, patterns, hair, or accessories. Prefer details that distinguish this person from comparison people. Do not mention actions, pose, scene location, time, spatial relation to others, gallery labels, or GT identity numbers. Visible garment lettering is allowed only if clearly legible. Do not infer colors/details hidden by another person. If no reliable description is possible, use an empty phrase. If a truthful description is shared by others, still provide it and set visually_distinct to false.\nReturn {\"phrase\":\"...\", \"supported_attributes\":[\"...\"], \"visually_distinct\":true, \"limitations\":\"...\"}. A description need not be unique; truthful uncertainty is preferred to invented uniqueness.\nThe target person is also included once among the comparison gallery tiles. Identify that repeated target visually; do not treat the repeated target tile as a different rival. Look for truthful stable appearance that distinguishes the target from OTHER people.",
+  "image_paths": [
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0063/id006_target.jpg",
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0063/generation_gallery_page00.jpg"
+  ],
+  "image_sha256": [
+    "d88ed049305d4e3e45a6dc5d53f209bb45be29bf172fce777be90d1422c24e21",
+    "ccf1f2d97eb46a6ba7ca08bc71125f58b8b3471d1606203c7ee94cbf7e8acc77"
+  ],
+  "response": {
+    "id": "chatcmpl-9957fab384ab9a15",
+    "object": "chat.completion",
+    "created": 1793800641,
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"phrase\": \"the person in a black sequined dress with red fringe hem and red floral embellishment, wearing a red and black hat and black heeled sandals\",\n  \"supported_attributes\": [\n    \"black sequined dress\",\n    \"red fringe hem\",\n    \"red floral embellishment\",\n    \"red and black hat\",\n    \"black heeled sandals\"\n  ],\n  \"visually_distinct\": false,\n  \"limitations\": \"The described outfit is worn by multiple people in the gallery, making the appearance not visually distinct. The target is present in the gallery as P03, but the clothing is shared among several individuals.\"\n}",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 1433,
+      "total_tokens": 1567,
+      "completion_tokens": 134,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "check": {
+    "valid": true,
+    "parsed": {
+      "phrase": "the person in a black sequined dress with red fringe hem and red floral embellishment, wearing a red and black hat and black heeled sandals",
+      "supported_attributes": [
+        "black sequined dress",
+        "red fringe hem",
+        "red floral embellishment",
+        "red and black hat",
+        "black heeled sandals"
+      ],
+      "visually_distinct": false,
+      "limitations": "The described outfit is worn by multiple people in the gallery, making the appearance not visually distinct. The target is present in the gallery as P03, but the clothing is shared among several individuals."
+    },
+    "phrase": "the person in a black sequined dress with red fringe hem and red floral embellishment, wearing a red and black hat and black heeled sandals",
+    "error": null
+  },
+  "inference_policy_sha256": "ea3ce06e83208db2fc1ed693ee2ac1b349f8ae344fcdc2cb0a22e30ef8df60e3"
+}

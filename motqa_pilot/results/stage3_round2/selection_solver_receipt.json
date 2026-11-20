@@ -1,0 +1,6 @@
+{
+  "status": 0,
+  "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "fun": -145.0967697884545,
+  "mip_gap": 2.5501709564376715e-06
+}

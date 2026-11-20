@@ -1,0 +1,71 @@
+{
+  "unit_key": "dancetrack0097__id003",
+  "sequence": "dancetrack0097",
+  "gt_id": 3,
+  "phase": "reference_instant_match",
+  "started_at": "2026-11-04T14:14:17.164250+00:00",
+  "completed_at": "2026-11-04T14:14:20.054280+00:00",
+  "seconds": 2.890060930978507,
+  "prompt_text": "At this reference instant, match the following appearance phrase to ALL visible people: \"the person with bright red hair wearing a black blazer and matching pants with a white name tag on the chest\"\nThe first image is the full frame, with anonymous boxes and labels. The other image(s) are crops of EVERY GT-present person at this SAME instant. Read the central person in each crop; neighboring bodies may overlap. Labels are bookkeeping only. Do not use gallery order, location, pose, or box color as appearance attributes. Include ALL people satisfying the full appearance phrase in matches, and any plausible but obscured/unclear people in uncertain. A partly hidden target whose defining clothing cannot be seen is uncertain. No forced choice; none or several are valid outcomes. Omitted labels mean clear non-matches.\nReturn {\"matches\":[\"P01\"],\"uncertain\":[],\"reason\":\"brief visual explanation\"}. Valid labels: [\"P01\", \"P02\", \"P03\", \"P04\"].",
+  "image_paths": [
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0097/anchor_id003_f000251/full_frame.jpg",
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0097/anchor_id003_f000251/local_gallery_page00.jpg"
+  ],
+  "image_sha256": [
+    "cee5d84103123edf5c1d9eac5712d4886a26dd021d29ab30f447f31d648ec662",
+    "8ff6ea979818dad40d86df15ed95211f4ca69997fffa5e8418f11d2ffd7e01e5"
+  ],
+  "response": {
+    "id": "chatcmpl-b88a8526fa6f0c74",
+    "object": "chat.completion",
+    "created": 1793801657,
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"matches\":[\"P02\"],\"uncertain\":[],\"reason\":\"P02 has bright red hair, is wearing a black blazer and matching pants, and has a white name tag visible on the chest. The other individuals do not have bright red hair.\"}",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 1315,
+      "total_tokens": 1369,
+      "completion_tokens": 54,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "check": {
+    "valid": true,
+    "parsed": {
+      "matches": [
+        "P02"
+      ],
+      "uncertain": [],
+      "reason": "P02 has bright red hair, is wearing a black blazer and matching pants, and has a white name tag visible on the chest. The other individuals do not have bright red hair."
+    },
+    "matched_gt_ids": [
+      3
+    ],
+    "uncertain_gt_ids": [],
+    "passed": true,
+    "error": null
+  },
+  "inference_policy_sha256": "ea3ce06e83208db2fc1ed693ee2ac1b349f8ae344fcdc2cb0a22e30ef8df60e3"
+}

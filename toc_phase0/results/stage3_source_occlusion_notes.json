@@ -1,0 +1,127 @@
+{
+  "review_started_at": "2026-11-01T15:26:10.520928+08:00",
+  "tracker_outputs_or_answers_seen_for_these_notes": false,
+  "rows": {
+    "charades_2X7OY": {
+      "observation": "粉色洗手盆位于左后墙；1fps概览中有相机上下摇动、前景人物穿过。约2秒及14–21秒有遮挡/离框混合候选，需要5fps局部确认。",
+      "candidate_ranges": [
+        [
+          1,
+          3
+        ],
+        [
+          13,
+          22
+        ]
+      ],
+      "status": "needs_dense_review"
+    },
+    "charades_7R8ZU": {
+      "observation": "前13秒笔记本持续可见；14–18秒人物转身并放置笔记本，19秒后相机拉远并转向厨房，未在概览确认同一笔记本被遮挡后再现。",
+      "candidate_ranges": [
+        [
+          12,
+          19
+        ]
+      ],
+      "status": "orientation_or_departure_uncertain"
+    },
+    "charades_CDNV7": {
+      "observation": "桌子和银色竖腿多根；前半段桌腿基本可见，20–23秒人物经过与相机转向同时发生，需要区分具体哪根腿和前景遮挡。",
+      "candidate_ranges": [
+        [
+          18,
+          25
+        ]
+      ],
+      "status": "multiple_instances_needs_dense_review"
+    },
+    "charades_E184J": {
+      "observation": "白杯被人持握；约5–7秒身体转背后遮住杯子又转回，约8–17秒再转背后遮挡并重现，可能两个可判读回合。",
+      "candidate_ranges": [
+        [
+          3,
+          8
+        ],
+        [
+          7,
+          19
+        ]
+      ],
+      "status": "two_candidate_body_occlusions"
+    },
+    "charades_ONA0S": {
+      "observation": "门把手0–10秒可见；11–18秒用手持续抓握，19秒后释放。是手遮挡小物体的候选回合，需排除转门造成的自遮挡/边缘变化。",
+      "candidate_ranges": [
+        [
+          9,
+          21
+        ]
+      ],
+      "status": "one_candidate_hand_occlusion"
+    },
+    "charades_V3CWF": {
+      "observation": "墙上木搁板全程大部分可见，下方还有低书架；存在同词多个可能指代，概览未确认完整遮挡与重现。",
+      "candidate_ranges": [
+        [
+          2,
+          10
+        ]
+      ],
+      "status": "multiple_referents_no_confirmed_complete_occlusion"
+    },
+    "charades_YJV7W": {
+      "observation": "约9–13秒穿衣过程手机被衬衣/手臂遮住后重新露出；19–22秒主要是相机近移导致手机离开视野，不计物理遮挡。",
+      "candidate_ranges": [
+        [
+          8,
+          14
+        ]
+      ],
+      "status": "one_candidate_clothing_occlusion"
+    },
+    "perception_test_video_10599": {
+      "observation": "柠檬静置笔记本左侧，前景左手/手臂多次经过其视线；1、9、11、16、19、24秒附近有完全或部分遮挡候选，需用5fps检查。",
+      "candidate_ranges": [
+        [
+          0,
+          3
+        ],
+        [
+          7,
+          12
+        ],
+        [
+          15,
+          20
+        ],
+        [
+          23,
+          26
+        ]
+      ],
+      "status": "repeated_candidate_forearm_occlusions"
+    },
+    "perception_test_video_1952": {
+      "observation": "盆栽位于红色玩具后方，条纹及蓝色衣物在约2–8秒、10–17秒经过，叶簇可见性变化；盆与叶是否同时完全遮住尚不明确。",
+      "candidate_ranges": [
+        [
+          1,
+          9
+        ],
+        [
+          9,
+          18
+        ]
+      ],
+      "status": "two_candidates_complete_vs_partial_uncertain"
+    },
+    "perception_test_video_8048": {
+      "observation": "红手链在手腕上，手臂随展示字母反复进出画面，3、10、15、20–22秒附近为离框；概览未确认前景遮挡导致的完整消失。",
+      "candidate_ranges": [],
+      "status": "frame_departures_not_confirmed_occlusions"
+    }
+  },
+  "source_overview_review_completed_at": "2026-11-01T15:28:39.001437+08:00",
+  "videos_reviewed": 10
+}

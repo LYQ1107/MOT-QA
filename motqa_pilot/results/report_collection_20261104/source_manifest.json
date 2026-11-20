@@ -1,0 +1,272 @@
+{
+  "generated_at": "2026-11-04T22:48:31+08:00",
+  "report_count": 13,
+  "current_report_count": 12,
+  "superseded_report_count": 1,
+  "appendix_count": 4,
+  "reports": [
+    {
+      "id": "toc1",
+      "title": "TOC 阶段一：环境与数据准备",
+      "project": "toc_bench",
+      "kind": "report",
+      "status": "current",
+      "note": "独立安装 vLLM 与 MASA，统一模型可用，保留下载来源与依赖版本。",
+      "source": "/data2/user/toc_phase0/results/stage1_report.md",
+      "archive_path": "original_reports/toc_bench/stage1_report.md",
+      "bytes": 16525,
+      "sha256": "c64ce0e8985b2c5c4e9873e0e5c47021b63c64d053ecf0c563aa6d16bc11c0d0",
+      "source_mtime": "2026-11-01T00:27:22.300407+08:00"
+    },
+    {
+      "id": "toc2",
+      "title": "TOC 阶段二：官方协议复现",
+      "project": "toc_bench",
+      "kind": "report",
+      "status": "current",
+      "note": "623/2323＝26.82%，通过复现；解析失败291题全部计错。",
+      "source": "/data2/user/toc_phase0/results/stage2_report.md",
+      "archive_path": "original_reports/toc_bench/stage2_report.md",
+      "bytes": 13027,
+      "sha256": "89b0a156965b3ecad41bacd7aeb8dd9f853270534becb4d4f1fc4dd0237ea72a",
+      "source_mtime": "2026-11-01T02:08:30.143702+08:00"
+    },
+    {
+      "id": "toc3",
+      "title": "TOC 阶段三：轨迹与规则基线",
+      "project": "toc_bench",
+      "kind": "report",
+      "status": "current",
+      "note": "749题、689视频；预登记可表达324题；初始R/D规则71/134。",
+      "source": "/data2/user/toc_phase0/results/stage3_report.md",
+      "archive_path": "original_reports/toc_bench/stage3_report.md",
+      "bytes": 24002,
+      "sha256": "59e04e2c7fbe9bbb73b09d4a03715792ed5a65e1eaf4c6311b1c2edc9cd5c06d",
+      "source_mtime": "2026-11-01T18:26:16.261301+08:00"
+    },
+    {
+      "id": "toc3v1",
+      "title": "TOC 阶段三改进：冻结 v1",
+      "project": "toc_bench",
+      "kind": "report",
+      "status": "current",
+      "note": "按视频锁定开发/测试；memo50、top5、gap0.5秒；测试未因本轮改进涨分。",
+      "source": "/data2/user/toc_phase0/results/stage3_improvement_report.md",
+      "archive_path": "original_reports/toc_bench/stage3_improvement_report.md",
+      "bytes": 17392,
+      "sha256": "9585cd6fc4ab6144d09a279de1565d00473d92b4d39c2243b0b5b9741cc3ce02",
+      "source_mtime": "2026-11-02T00:44:57.245798+08:00"
+    },
+    {
+      "id": "toc4",
+      "title": "TOC 阶段四：官方格式主实验",
+      "project": "toc_bench",
+      "kind": "report",
+      "status": "current",
+      "note": "测试可表达251题，A89、B88、D88；真实轨迹未检出收益。",
+      "source": "/data2/user/toc_phase0/results/stage4_main_report.md",
+      "archive_path": "original_reports/toc_bench/stage4_main_report.md",
+      "bytes": 20522,
+      "sha256": "757789f6c5949d4045f3aafd3b04040388889140fd8f6671d5c45a4cd05a205b",
+      "source_mtime": "2026-11-02T11:25:40.661722+08:00"
+    },
+    {
+      "id": "toc5",
+      "title": "TOC 阶段五：推理模板与表示梯度（最终修正版）",
+      "project": "toc_bench",
+      "kind": "report",
+      "status": "current",
+      "note": "推理模板B80对A58，但B对D不显著，表示梯度不单调。",
+      "source": "/data2/user/toc_phase0/results/stage5_report.md",
+      "archive_path": "original_reports/toc_bench/stage5_report.md",
+      "bytes": 29865,
+      "sha256": "9e4c854f2926f9cff877a361174e8c541d8b638a87a273dfcc2f128bb597bd2a",
+      "source_mtime": "2026-11-02T21:40:09.689139+08:00"
+    },
+    {
+      "id": "toc5old",
+      "title": "TOC 阶段五：约束实现初稿（已替代）",
+      "project": "toc_bench",
+      "kind": "report",
+      "status": "superseded",
+      "note": "保留历史失败与修复过程；不能与最终版约束解码结果混合。",
+      "source": "/data2/user/toc_phase0/results/stage5_report_initial_implementation.md",
+      "archive_path": "original_reports/toc_bench/stage5_report_initial_implementation.md",
+      "bytes": 23625,
+      "sha256": "0e0e745c3a785166f4edb04bb9cdacad4090f1ccf36ab9e9449ee168ff32794b",
+      "source_mtime": "2026-11-02T21:34:52.727508+08:00"
+    },
+    {
+      "id": "toc6",
+      "title": "TOC 阶段六：工具调用与合成 LoRA",
+      "project": "toc_bench",
+      "kind": "report",
+      "status": "current",
+      "note": "原T1调用被格式拒绝；LoRA使R/D29→40/101，未达到45/101。",
+      "source": "/data2/user/toc_phase0/results/stage6_report.md",
+      "archive_path": "original_reports/toc_bench/stage6_report.md",
+      "bytes": 15960,
+      "sha256": "d0f10a9c065d05a6e5ee16737c073642bb4162e9b948d0446d8b3094a2ef5f95",
+      "source_mtime": "2026-11-04T13:15:29.920210+08:00"
+    },
+    {
+      "id": "toc7info",
+      "title": "TOC 阶段七：轨迹信息量事后诊断",
+      "project": "toc_bench",
+      "kind": "report",
+      "status": "current",
+      "note": "同覆盖子集R/D规则与多数盲基线均51/75；尚无超出先验的可靠证据。",
+      "source": "/data2/user/toc_phase0/results/stage7_track_information_report.md",
+      "archive_path": "original_reports/toc_bench/stage7_track_information_report.md",
+      "bytes": 6978,
+      "sha256": "74d3a2948b785ddfa0e396d2ff3fcab6581ef0007f96f66357e384f81711ed17",
+      "source_mtime": "2026-11-04T17:38:23.649163+08:00"
+    },
+    {
+      "id": "toc7",
+      "title": "TOC 阶段七：接口修复与决定性对照",
+      "project": "toc_bench",
+      "kind": "report",
+      "status": "current",
+      "note": "修复T1为98/251，占位同为98，打乱94；未检出真实轨迹特异收益。",
+      "source": "/data2/user/toc_phase0/results/stage7_report.md",
+      "archive_path": "original_reports/toc_bench/stage7_report.md",
+      "bytes": 16410,
+      "sha256": "7b8ac71e5ab65d3d5bbd426439e256f26a1bcc17e2f21060fdf150e12f84f663",
+      "source_mtime": "2026-11-04T18:59:07.828691+08:00"
+    },
+    {
+      "id": "mot1",
+      "title": "MOT-QA 阶段一：数据与语言资源盘点",
+      "project": "motqa_pilot",
+      "kind": "report",
+      "status": "current",
+      "note": "169个唯一视频，其中162个有GT；登记身份语义与临时来源限制。",
+      "source": "/home/user/motqa_pilot/results/stage1_report.md",
+      "archive_path": "original_reports/motqa_pilot/stage1_report.md",
+      "bytes": 14639,
+      "sha256": "dc2e109cf5aa0172a6bde7e85aff0048396478a2e83f61482c15e9dc154e8016",
+      "source_mtime": "2026-11-04T20:20:26.498250+08:00"
+    },
+    {
+      "id": "mot2",
+      "title": "MOT-QA 阶段二：GT 事实与指代资源",
+      "project": "motqa_pilot",
+      "kind": "report",
+      "status": "current",
+      "note": "2518个GT ID；外观484时段、事件352条、位置2344时段；尚未生成QA。",
+      "source": "/home/user/motqa_pilot/results/stage2_report.md",
+      "archive_path": "original_reports/motqa_pilot/stage2_report.md",
+      "bytes": 12723,
+      "sha256": "2f887fb113d58f0d36e68ea08c9f7e5b6729ec27470675b0028e919f23bb7c33",
+      "source_mtime": "2026-11-04T21:07:48.986818+08:00"
+    },
+    {
+      "id": "mot2appearance",
+      "title": "MOT-QA 阶段二补充：DanceTrack 外观描述",
+      "project": "motqa_pilot",
+      "kind": "report",
+      "status": "current",
+      "note": "273个ID全部处理；25自动候选中17条审阅未见明显问题、8条标疑。",
+      "source": "/home/user/motqa_pilot/results/stage2_appearance_report.md",
+      "archive_path": "original_reports/motqa_pilot/stage2_appearance_report.md",
+      "bytes": 10818,
+      "sha256": "573c08a5bf7539ddc4b393936de2e4cdc069c1719d17b522167f2cb3be8cfd62",
+      "source_mtime": "2026-11-04T22:32:33.341460+08:00"
+    },
+    {
+      "id": "examples4",
+      "title": "阶段四：A/B 成败对照样例",
+      "project": "toc_bench",
+      "kind": "appendix",
+      "status": "reference",
+      "note": "原报告所引的完整样例附录。",
+      "source": "/data2/user/toc_phase0/results/stage4_AB_examples.md",
+      "archive_path": "appendices/stage4_AB_examples.md",
+      "bytes": 95479,
+      "sha256": "7c4c3c8f1c3d1c659bc1f5742a16d475a28ca7e522f3e092635a11e27f5d833a",
+      "source_mtime": "2026-11-02T11:18:46.699955+08:00"
+    },
+    {
+      "id": "examples5",
+      "title": "阶段五：R/D 推理样例",
+      "project": "toc_bench",
+      "kind": "appendix",
+      "status": "reference",
+      "note": "原报告所引的完整样例附录。",
+      "source": "/data2/user/toc_phase0/results/stage5_reasoning_RD_examples.md",
+      "archive_path": "appendices/stage5_reasoning_RD_examples.md",
+      "bytes": 18851,
+      "sha256": "9097a32edc5a30e24fb1796e0e0e9560ab66db7bf2c41eafd3a553e258d127fd",
+      "source_mtime": "2026-11-02T20:54:18.876737+08:00"
+    },
+    {
+      "id": "examples6",
+      "title": "阶段六：R/D 完整交互",
+      "project": "toc_bench",
+      "kind": "appendix",
+      "status": "reference",
+      "note": "原报告所引的完整样例附录。",
+      "source": "/data2/user/toc_phase0/results/stage6_RD_interactions.md",
+      "archive_path": "appendices/stage6_RD_interactions.md",
+      "bytes": 59408,
+      "sha256": "a124a8da184ea29197dee1d500087301c9f7765bb2322528df660157806a1e13",
+      "source_mtime": "2026-11-04T12:53:53.650161+08:00"
+    },
+    {
+      "id": "examples7",
+      "title": "阶段七：R/D 完整交互与事实核查",
+      "project": "toc_bench",
+      "kind": "appendix",
+      "status": "reference",
+      "note": "原报告所引的完整样例附录。",
+      "source": "/data2/user/toc_phase0/results/stage7_RD_interactions.md",
+      "archive_path": "appendices/stage7_RD_interactions.md",
+      "bytes": 50815,
+      "sha256": "b4f8f520d0883411abe889fbf035b330545eaf72b82e859f0a10f514a96c26e9",
+      "source_mtime": "2026-11-04T18:53:27.996645+08:00"
+    }
+  ],
+  "figures": [
+    {
+      "source": "/data2/user/toc_phase0/results/improvement/dev_memory_visuals/dev_blue_cup_arm.jpg",
+      "archive_path": "figures/toc_bench/results/improvement/dev_memory_visuals/dev_blue_cup_arm.jpg",
+      "bytes": 224439,
+      "sha256": "b5a63ee51abbae12d1a46fecbec553e117fab56a7943e86f84f0cc3e39f8527d"
+    },
+    {
+      "source": "/data2/user/toc_phase0/results/improvement/dev_memory_visuals/dev_eggs_forearm.jpg",
+      "archive_path": "figures/toc_bench/results/improvement/dev_memory_visuals/dev_eggs_forearm.jpg",
+      "bytes": 254170,
+      "sha256": "e922baed69907a3bae3ebd1237bbfeeda4b9ca39bab817f26787096a58253160"
+    },
+    {
+      "source": "/data2/user/toc_phase0/results/stage7/figures/RD_class_recalls.png",
+      "archive_path": "figures/toc_bench/results/stage7/figures/RD_class_recalls.png",
+      "bytes": 66179,
+      "sha256": "5ffc6c277586f5bb921dc53e96173d048ecc3fe1b11ce5c4d38cf7c026f11dec"
+    },
+    {
+      "source": "/data2/user/toc_phase0/results/stage7/figures/test_rule_confusions.png",
+      "archive_path": "figures/toc_bench/results/stage7/figures/test_rule_confusions.png",
+      "bytes": 151098,
+      "sha256": "8744181ed2f7a3e3198994357f8f502166db4de1f40dbb0de547d605d14ab364"
+    },
+    {
+      "source": "/home/user/motqa_pilot/results/stage2/reference_review/SportsMOT_long.jpg",
+      "archive_path": "figures/motqa_pilot/results/stage2/reference_review/SportsMOT_long.jpg",
+      "bytes": 140338,
+      "sha256": "cfdb7713f104ea1970acda8c42f0b135ad1fc022a3f1013255890152c991c884"
+    }
+  ],
+  "generated_html": {
+    "path": "all_reports_summary.html",
+    "sha256": "88f1480d1bd104844a8bbae2b7738267444905071a31e561584fb50a42edf385"
+  },
+  "exclusions": [
+    "raw video",
+    "model weights",
+    "full prediction data",
+    "external local evidence files"
+  ]
+}

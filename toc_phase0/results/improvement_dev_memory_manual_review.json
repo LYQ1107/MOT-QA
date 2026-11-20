@@ -1,0 +1,166 @@
+{
+  "reviewed_at": "2026-11-01T20:27:39.632697+08:00",
+  "scope": "development_only",
+  "summary": [
+    {
+      "memory": 10,
+      "candidates": 3,
+      "judgeable": 2,
+      "fresh_ids": 0,
+      "different_ids": 0,
+      "fresh_id_ratio": 0.0,
+      "unjudgeable": 1
+    },
+    {
+      "memory": 25,
+      "candidates": 3,
+      "judgeable": 2,
+      "fresh_ids": 0,
+      "different_ids": 0,
+      "fresh_id_ratio": 0.0,
+      "unjudgeable": 1
+    },
+    {
+      "memory": 50,
+      "candidates": 3,
+      "judgeable": 2,
+      "fresh_ids": 0,
+      "different_ids": 0,
+      "fresh_id_ratio": 0.0,
+      "unjudgeable": 1
+    }
+  ],
+  "rows": [
+    {
+      "memory": 10,
+      "event_id": "dev_blue_cup_arm",
+      "judgeable": true,
+      "before_id": 0,
+      "after_id": 0,
+      "different_id": false,
+      "fresh_after_id": false,
+      "compared_before_frame": 10,
+      "compared_after_frame": 17,
+      "after_first_visible_frame": 16,
+      "note": "Physical blue cup retains ID0. The hidden-frame ID1 box is on a clear plastic bottle, not on the cup; it is a false query detection and excluded from matching."
+    },
+    {
+      "memory": 10,
+      "event_id": "dev_eggs_forearm",
+      "judgeable": true,
+      "before_id": 21,
+      "after_id": 21,
+      "different_id": false,
+      "fresh_after_id": false,
+      "compared_before_frame": 19,
+      "compared_after_frame": 25,
+      "after_first_visible_frame": 24,
+      "note": "The identifiable right-hand white egg keeps its pre-gap ID. The other egg has a new native ID at return, but lacks an unambiguous pre-gap instance box in this registered window and is excluded from the identity pair denominator."
+    },
+    {
+      "memory": 25,
+      "event_id": "dev_blue_cup_arm",
+      "judgeable": true,
+      "before_id": 0,
+      "after_id": 0,
+      "different_id": false,
+      "fresh_after_id": false,
+      "compared_before_frame": 10,
+      "compared_after_frame": 17,
+      "after_first_visible_frame": 16,
+      "note": "Physical blue cup retains ID0. The hidden-frame ID1 box is on a clear plastic bottle, not on the cup; it is a false query detection and excluded from matching."
+    },
+    {
+      "memory": 25,
+      "event_id": "dev_eggs_forearm",
+      "judgeable": true,
+      "before_id": 1,
+      "after_id": 1,
+      "different_id": false,
+      "fresh_after_id": false,
+      "compared_before_frame": 19,
+      "compared_after_frame": 25,
+      "after_first_visible_frame": 24,
+      "note": "The identifiable right-hand white egg keeps its pre-gap ID. The other egg has a new native ID at return, but lacks an unambiguous pre-gap instance box in this registered window and is excluded from the identity pair denominator."
+    },
+    {
+      "memory": 50,
+      "event_id": "dev_blue_cup_arm",
+      "judgeable": true,
+      "before_id": 0,
+      "after_id": 0,
+      "different_id": false,
+      "fresh_after_id": false,
+      "compared_before_frame": 10,
+      "compared_after_frame": 17,
+      "after_first_visible_frame": 16,
+      "note": "Physical blue cup retains ID0. The hidden-frame ID1 box is on a clear plastic bottle, not on the cup; it is a false query detection and excluded from matching."
+    },
+    {
+      "memory": 50,
+      "event_id": "dev_eggs_forearm",
+      "judgeable": true,
+      "before_id": 1,
+      "after_id": 1,
+      "different_id": false,
+      "fresh_after_id": false,
+      "compared_before_frame": 19,
+      "compared_after_frame": 25,
+      "after_first_visible_frame": 24,
+      "note": "The identifiable right-hand white egg keeps its pre-gap ID. The other egg has a new native ID at return, but lacks an unambiguous pre-gap instance box in this registered window and is excluded from the identity pair denominator."
+    },
+    {
+      "memory": 10,
+      "event_id": "dev_eggs_forearm",
+      "physical_instance": "left egg",
+      "judgeable": false,
+      "before_id": null,
+      "after_id": 30,
+      "first_native_frame": 24,
+      "native_birth_at_return": true,
+      "different_id": null,
+      "fresh_after_id": null,
+      "note": "The returned left egg has a newly born native ID, but lacks a matched pre-gap instance box in this fixed source window; identity reassignment is unjudgeable and is reported separately."
+    },
+    {
+      "memory": 25,
+      "event_id": "dev_eggs_forearm",
+      "physical_instance": "left egg",
+      "judgeable": false,
+      "before_id": null,
+      "after_id": 29,
+      "first_native_frame": 24,
+      "native_birth_at_return": true,
+      "different_id": null,
+      "fresh_after_id": null,
+      "note": "The returned left egg has a newly born native ID, but lacks a matched pre-gap instance box in this fixed source window; identity reassignment is unjudgeable and is reported separately."
+    },
+    {
+      "memory": 50,
+      "event_id": "dev_eggs_forearm",
+      "physical_instance": "left egg",
+      "judgeable": false,
+      "before_id": null,
+      "after_id": 29,
+      "first_native_frame": 24,
+      "native_birth_at_return": true,
+      "different_id": null,
+      "fresh_after_id": null,
+      "note": "The returned left egg has a newly born native ID, but lacks a matched pre-gap instance box in this fixed source window; identity reassignment is unjudgeable and is reported separately."
+    }
+  ],
+  "source_registry": "results/improvement_dev_source_visual_notes.json",
+  "images_actually_reviewed": [
+    "results/improvement/dev_memory_visuals/dev_blue_cup_arm.jpg",
+    "results/improvement/dev_memory_visuals/dev_eggs_forearm.jpg"
+  ],
+  "missing_matches": 3,
+  "answers_or_metadata_read": false,
+  "limitation": "Two small windows, both shorter than the original two-second memory; insufficient to establish a long-occlusion effect. Geometry proxies are reported separately.",
+  "denominator_unit": "Identifiable physical instance pairs within two preselected source windows; one cup and two eggs give three candidate instances per memory.",
+  "source_windows": 2,
+  "clarified_at": "2026-11-02T00:37:57.996607+08:00",
+  "clarification": "The original two-window summary counted the matched right egg only. List the additional unmatched left egg explicitly; it is not counted as successful identity preservation.",
+  "missing_matches_per_memory": 1,
+  "unmatched_unique_physical_instances": 1
+}

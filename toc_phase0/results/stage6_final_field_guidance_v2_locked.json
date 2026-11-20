@@ -1,0 +1,59 @@
+{
+  "locked_at": "2026-11-04T12:16:16.069774+08:00",
+  "version": "final_field_only_v2",
+  "role": "Auxiliary numerical diagnosis correction only; all primary predictions andH9-H11 preserved",
+  "reason": "Tool turns must retain ordinary decoding/EOS and ordinary parser errors. A union grammar forcing closed tags had constrained tool syntax and caused length tails.",
+  "method": "Generate freely with stop Answer: and include_stop_str_in_output. If an Answer marker is emitted outside a tool-attempt turn, continue the same assistant message under four-value guided choice; no new role prefix. Concatenate actual returned segments.",
+  "legal_choices": [
+    "2",
+    "3",
+    "4",
+    "5 or more"
+  ],
+  "temperature": 0,
+  "seed": 42,
+  "total_generation_tokens": 2048,
+  "max_tool_calls": 4,
+  "eos_policy": "No special EOS masking or syntax constraints in free/tool stage. Mask extraEOS151643 only during numeric continuation, exactly as Stage5 corrected choice.",
+  "accounting": "All physical response IDs, raw segments, per-request usage/max budget saved. Per-turn usage sums physical requests; per-question completion total<=2048. No budget reset for continuation.",
+  "parser": "Unchanged Stage5 final line parser; no closing-tag recovery; malformed tool calls remain errors.",
+  "cpu_checks": [
+    "Exact Qwen assistant continuation equals original rendered prompt plus raw prefix",
+    "Unclosed real-style call returns unchanged in one unconstrained request",
+    "Reasoning prefix and legal numeric continuation concatenated;20+2tokens,remaining2028"
+  ],
+  "supersedes_unexecuted_grammar_draft_sha256": "4250b96d440025684e7d815d022b73e9c533e2d1da94425a91c11627879a1de8",
+  "previous_draft_model_requests": 0,
+  "primary_and_training_reused": {
+    "T-none": {
+      "path": "/data2/user/toc_phase0/results/stage6/main_T-none_predictions.jsonl",
+      "sha256": "b549356c9b49e53325f9997457de8c3a3255398c3a44adfcfbc6a251b3836cd3",
+      "questions": 602,
+      "attempted": 0,
+      "legal": 0
+    },
+    "T0": {
+      "path": "/data2/user/toc_phase0/results/stage6/main_T0_predictions.jsonl",
+      "sha256": "e04474a819033acc0b61189869327fcbfa54c217a687c74b28c152d73e94a3ad",
+      "questions": 602,
+      "attempted": 0,
+      "legal": 0
+    },
+    "T1": {
+      "path": "/data2/user/toc_phase0/results/stage6/main_T1_predictions.jsonl",
+      "sha256": "32bc72b74b0af05fc1e2b7a040e3238e27e0486a64802dcffa8a81dbf9709166",
+      "questions": 602,
+      "attempted": 1801,
+      "legal": 0
+    },
+    "LoRA-B-events": {
+      "path": "/data2/user/toc_phase0/results/stage6/main_LoRA-B-events_predictions.jsonl",
+      "sha256": "fa9b23afcbe8f8a305d880458a216180a4f05d284767ffe633c65bd54a974742",
+      "questions": 251
+    }
+  },
+  "original_diagnostic_records": 514,
+  "implementation_sha256": "301b14c767ca01a751c9cfa7ca163ea3e4819b59c405dd0a75a68401b32d82e7",
+  "runner_sha256": "661303812e35872fc8bbe78ad5548ebb3b789a968e1038db1f8e9106295c07f2",
+  "run_policy": "All3 conditions242 each rerun uniformly; conditional controls use identical v2 method; primary data and training not rerun or changed"
+}

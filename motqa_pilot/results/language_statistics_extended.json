@@ -1,0 +1,31 @@
+{
+  "LaMOT": {
+    "descriptions": 7556,
+    "sequences": 1647,
+    "unique_texts": 3693,
+    "unique_sequence_texts": 7470,
+    "unique_target_frame_annotations": 7514,
+    "positive_descriptions": 7556,
+    "empty_descriptions": 0,
+    "mean_unique_targets": 3.411990471148756,
+    "mean_unique_targets_positive": 3.411990471148756,
+    "single_target_descriptions": 5479,
+    "gt_references": 3920873,
+    "gt_reference_matches": 3920873
+  },
+  "Refer-Dance": {
+    "descriptions": 1985,
+    "sequences": 65,
+    "unique_texts": 48,
+    "unique_sequence_texts": 1985,
+    "unique_target_frame_annotations": 1985,
+    "positive_descriptions": 102,
+    "empty_descriptions": 1883,
+    "mean_unique_targets": 0.327455919395466,
+    "mean_unique_targets_positive": 6.372549019607843,
+    "single_target_descriptions": 30,
+    "gt_references": 551680,
+    "gt_reference_matches": 551680
+  },
+  "same_sequence_text_with_different_target_frame_annotations": 44
+}

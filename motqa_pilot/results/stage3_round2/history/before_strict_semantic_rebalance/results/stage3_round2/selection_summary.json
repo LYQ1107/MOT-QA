@@ -1,0 +1,37 @@
+{
+  "count": 900,
+  "operations": {
+    "O4": 105,
+    "O7": 110,
+    "O8": 135,
+    "composition": 100,
+    "O1": 60,
+    "O2": 90,
+    "O6": 100,
+    "O3": 100,
+    "O5": 100
+  },
+  "datasets": {
+    "DanceTrack": 360,
+    "MOT17": 135,
+    "SportsMOT": 405
+  },
+  "references": {
+    "box": 426,
+    "appearance": 114,
+    "event": 225,
+    "position": 135
+  },
+  "formats": {
+    "multiple_choice": 720,
+    "numeric_time": 110,
+    "numeric_count": 70
+  },
+  "identity_challenge": 708,
+  "solver": {
+    "status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "fun": -161.0980655188177,
+    "mip_gap": 0.005074344649015801
+  }
+}

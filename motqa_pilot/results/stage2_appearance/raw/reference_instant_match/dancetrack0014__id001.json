@@ -1,0 +1,73 @@
+{
+  "unit_key": "dancetrack0014__id001",
+  "sequence": "dancetrack0014",
+  "gt_id": 1,
+  "phase": "reference_instant_match",
+  "started_at": "2026-11-04T14:13:33.704790+00:00",
+  "completed_at": "2026-11-04T14:13:42.852695+00:00",
+  "seconds": 9.147936004213989,
+  "prompt_text": "At this reference instant, match the following appearance phrase to ALL visible people: \"the person with long dark hair wearing a white crop top and light purple pants\"\nThe first image is the full frame, with anonymous boxes and labels. The other image(s) are crops of EVERY GT-present person at this SAME instant. Read the central person in each crop; neighboring bodies may overlap. Labels are bookkeeping only. Do not use gallery order, location, pose, or box color as appearance attributes. Include ALL people satisfying the full appearance phrase in matches, and any plausible but obscured/unclear people in uncertain. A partly hidden target whose defining clothing cannot be seen is uncertain. No forced choice; none or several are valid outcomes. Omitted labels mean clear non-matches.\nReturn {\"matches\":[\"P01\"],\"uncertain\":[],\"reason\":\"brief visual explanation\"}. Valid labels: [\"P01\", \"P02\", \"P03\", \"P04\", \"P05\", \"P06\", \"P07\", \"P08\", \"P09\", \"P10\", \"P11\"].",
+  "image_paths": [
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0014/anchor_id001_f000908/full_frame.jpg",
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0014/anchor_id001_f000908/local_gallery_page00.jpg"
+  ],
+  "image_sha256": [
+    "972b4c73ad433c2d41cd9b12e3be9f149670134ea9264f37eac7d21c665907da",
+    "2b6aba739feb132a373a91bc2d52c712d8bd1a76066dbfb44607f46445f04978"
+  ],
+  "response": {
+    "id": "chatcmpl-9e6f71d046b77f4f",
+    "object": "chat.completion",
+    "created": 1793801613,
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"matches\":[\"P05\",\"P10\"],\"uncertain\":[],\"reason\":\"P05 and P10 both have long dark hair and are wearing a white crop top with light purple pants. Other individuals either have different hair color (e.g., P06 has short orange hair, P07 has long red hair), different tops (e.g., P02 has a purple top, P03 has a purple jacket), or different bottoms (e.g., P01, P09, P11 wear white shorts). P08 is partially obscured but appears to have a purple top and white shorts, not matching the description. P04 has a purple hoodie and pants, not a white crop top. Thus, only P05 and P10 fully match the appearance phrase.\"}",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 1667,
+      "total_tokens": 1835,
+      "completion_tokens": 168,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "check": {
+    "valid": true,
+    "parsed": {
+      "matches": [
+        "P05",
+        "P10"
+      ],
+      "uncertain": [],
+      "reason": "P05 and P10 both have long dark hair and are wearing a white crop top with light purple pants. Other individuals either have different hair color (e.g., P06 has short orange hair, P07 has long red hair), different tops (e.g., P02 has a purple top, P03 has a purple jacket), or different bottoms (e.g., P01, P09, P11 wear white shorts). P08 is partially obscured but appears to have a purple top and white shorts, not matching the description. P04 has a purple hoodie and pants, not a white crop top. Thus, only P05 and P10 fully match the appearance phrase."
+    },
+    "matched_gt_ids": [
+      11,
+      1
+    ],
+    "uncertain_gt_ids": [],
+    "passed": false,
+    "error": null
+  },
+  "inference_policy_sha256": "ea3ce06e83208db2fc1ed693ee2ac1b349f8ae344fcdc2cb0a22e30ef8df60e3"
+}

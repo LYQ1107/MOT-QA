@@ -1,0 +1,15 @@
+{
+  "recorded_at": "2026-11-06T20:33:48.247468+08:00",
+  "candidate_file": "/home/user/motqa_pilot/data/candidates_readability_v3.jsonl",
+  "candidate_sha256": "473ffd08e31ddeaa286cda833b1631b1f4923a284ffd2aa735232f3e15a7251c",
+  "n": 900,
+  "retained_original_facts": 647,
+  "new_factual_candidates": 253,
+  "unchanged_reviewed_questions_preserved": 9,
+  "missing_public_feature_keys": 222,
+  "public_feature_extraction_device": "CPU",
+  "seconds": 29.872742168139666,
+  "original_candidate_file_unchanged": true,
+  "QA_model_calls": 0,
+  "tracker_runs": 0
+}

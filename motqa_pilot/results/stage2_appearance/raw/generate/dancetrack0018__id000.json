@@ -1,0 +1,71 @@
+{
+  "unit_key": "dancetrack0018__id000",
+  "sequence": "dancetrack0018",
+  "gt_id": 0,
+  "phase": "generate",
+  "started_at": "2026-11-04T13:52:33.856370+00:00",
+  "completed_at": "2026-11-04T13:52:41.369519+00:00",
+  "seconds": 7.513169206678867,
+  "prompt_text": "The first image shows three crops of ONE target person at different times. The other image(s) show comparison people from the SAME video; every labeled tile is a different annotated person, shown in up to three crops. These comparison labels are anonymous bookkeeping labels, not appearance attributes.\nWrite one concise English noun phrase (at most 30 words), starting with \"the person\", describing the target using stable, clearly visible clothing, patterns, hair, or accessories. Prefer details that distinguish this person from comparison people. Do not mention actions, pose, scene location, time, spatial relation to others, gallery labels, or GT identity numbers. Visible garment lettering is allowed only if clearly legible. Do not infer colors/details hidden by another person. If no reliable description is possible, use an empty phrase. If a truthful description is shared by others, still provide it and set visually_distinct to false.\nReturn {\"phrase\":\"...\", \"supported_attributes\":[\"...\"], \"visually_distinct\":true, \"limitations\":\"...\"}. A description need not be unique; truthful uncertainty is preferred to invented uniqueness.\nThe target person is also included once among the comparison gallery tiles. Identify that repeated target visually; do not treat the repeated target tile as a different rival. Look for truthful stable appearance that distinguishes the target from OTHER people.",
+  "image_paths": [
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id000_target.jpg",
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/generation_gallery_page00.jpg"
+  ],
+  "image_sha256": [
+    "cf32d8eb4225c218c4db58c81aea4be78d74ce6fa0be0743b15dda3373d15c7f",
+    "3aff1bde339849bad30841eff706d6d4ab8975e6bc1ea3faac0b1f47411ef722"
+  ],
+  "response": {
+    "id": "chatcmpl-a66eff57ecfc5eb8",
+    "object": "chat.completion",
+    "created": 1793800353,
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"phrase\": \"the person wearing a dark cap, a white shirt under a dark open jacket, dark pants with a gold stripe down the side, and white sneakers\",\n  \"supported_attributes\": [\n    \"dark cap\",\n    \"white shirt under dark open jacket\",\n    \"dark pants with gold stripe\",\n    \"white sneakers\"\n  ],\n  \"visually_distinct\": true,\n  \"limitations\": \"The gold stripe on the pants and the specific layering of the white shirt under the dark jacket are the most distinguishing features; other people may share some elements like caps or white sneakers, but the combination of all visible clothing details is unique to this person.\"\n}",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 1433,
+      "total_tokens": 1571,
+      "completion_tokens": 138,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "check": {
+    "valid": true,
+    "parsed": {
+      "phrase": "the person wearing a dark cap, a white shirt under a dark open jacket, dark pants with a gold stripe down the side, and white sneakers",
+      "supported_attributes": [
+        "dark cap",
+        "white shirt under dark open jacket",
+        "dark pants with gold stripe",
+        "white sneakers"
+      ],
+      "visually_distinct": true,
+      "limitations": "The gold stripe on the pants and the specific layering of the white shirt under the dark jacket are the most distinguishing features; other people may share some elements like caps or white sneakers, but the combination of all visible clothing details is unique to this person."
+    },
+    "phrase": "the person wearing a dark cap, a white shirt under a dark open jacket, dark pants with a gold stripe down the side, and white sneakers",
+    "error": null
+  },
+  "inference_policy_sha256": "ea3ce06e83208db2fc1ed693ee2ac1b349f8ae344fcdc2cb0a22e30ef8df60e3"
+}

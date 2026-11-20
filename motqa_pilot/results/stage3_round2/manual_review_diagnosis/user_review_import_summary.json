@@ -1,0 +1,33 @@
+{
+  "recorded_at": "2026-11-06T19:43:22.739321+08:00",
+  "status": "REVIEW_RECEIVED_3_CONCERNS_PENDING_REVISION",
+  "packet_id": "motqa_round2_formal20_1e38560f221ddaaa",
+  "user_exported_at": "2026-11-06T11:33:30.896Z",
+  "source_file": "/home/user/.codex/attachments/b7396cfa-6be1-4600-a67e-44d00ebaee64/stage3_candidate_review_result.json",
+  "archived_source": "/home/user/motqa_pilot/results/stage3_round2/manual_review_diagnosis/user_submissions/2026-11-06_1ce539a8cef6.json",
+  "source_sha256": "1ce539a8cef6b72492072aa715a411f28308fe7f00cc9bd5a61f850b14fdea5f",
+  "original_human_counts": {
+    "pass": 18,
+    "uncertain": 2
+  },
+  "review_hold_qa_ids": [
+    "motqa_pilot_r2_0225",
+    "motqa_pilot_r2_0229",
+    "motqa_pilot_r2_0777"
+  ],
+  "uncontested_human_passed": 17,
+  "other_candidates_not_individually_human_reviewed": 880,
+  "candidate_questions_or_answers_changed": false,
+  "GT_changed": false,
+  "generation_or_visibility_locks_changed": false,
+  "model_calls": 0,
+  "tracker_runs": 0,
+  "filtering_started": false,
+  "preserved_files_sha256": {
+    "/home/user/motqa_pilot/data/candidates.jsonl": "f99e302cfa2b6abcb7d283789b8d350a3576b8e5b81650e00c80e8397f752edc",
+    "/home/user/motqa_pilot/results/generation_config_locked.json": "0ce27a335341974f84ab638e5244b45a7b5cfd9dea7436604c85be07613776f4",
+    "/home/user/motqa_pilot/results/visibility_convention.json": "ab72163cdc2ba92a4dfe78bb1970fc4d7ea08974f035c9cd72b33eadc7721c98",
+    "/home/user/motqa_pilot/results/templates_locked.json": "77a2cc0672de63b566e371211f77483dedb4fb8f0c8007bbcfd75cfaf27f178e",
+    "/home/user/motqa_pilot/data/question_review_user_passed_20.jsonl": "452cbd881bdcd2b6540dbb274e5f4fc56a9a1e3f14fdb009b2efcb188af1225d"
+  }
+}

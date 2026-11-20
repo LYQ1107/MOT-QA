@@ -1,0 +1,10 @@
+{
+  "at": "2026-11-05T15:34:36.018593+00:00",
+  "source": "https://download.pytorch.org/models/mobilenet_v3_small-047dcff4.pth",
+  "path": "/home/user/motqa_pilot/models/mobilenet_v3_small/mobilenet_v3_small-047dcff4.pth",
+  "bytes": 10306551,
+  "sha256": "047dcff4addef86ea5bc2eff13c9614dc11f47ab1160d0a71a25e7db994f4e1f",
+  "proxy": false,
+  "purpose": "Public general visual-feature backbone for appearance_similarity and candidate ranking; not evaluated QA model or tracker",
+  "license": "TorchVision code BSD-3-Clause; pretrained ImageNet-1K weights, training-data terms remain applicable"
+}

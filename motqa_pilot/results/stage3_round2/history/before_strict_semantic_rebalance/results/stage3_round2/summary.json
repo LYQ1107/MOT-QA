@@ -1,0 +1,187 @@
+{
+  "count": 900,
+  "operations": {
+    "O4": 105,
+    "O7": 110,
+    "O8": 135,
+    "composition": 100,
+    "O1": 60,
+    "O2": 90,
+    "O6": 100,
+    "O3": 100,
+    "O5": 100
+  },
+  "datasets": {
+    "DanceTrack": 360,
+    "MOT17": 135,
+    "SportsMOT": 405
+  },
+  "references": {
+    "box": 426,
+    "appearance": 114,
+    "event": 225,
+    "position": 135
+  },
+  "formats": {
+    "multiple_choice": 720,
+    "numeric_time": 110,
+    "numeric_count": 70
+  },
+  "template_families": {
+    "cross_count": 105,
+    "return_region": 110,
+    "identity_match": 75,
+    "cross_region": 77,
+    "region": 60,
+    "left_pair": 90,
+    "closest_time": 3,
+    "cross_time": 36,
+    "cross_frequency": 16,
+    "identity_same": 60,
+    "first_cross_crop": 45,
+    "return_time": 100,
+    "earlier_return_time": 70,
+    "earliest_return_person": 30,
+    "cross_exit_count": 23
+  },
+  "O8_subtypes": {
+    "numbered_box_match": 75,
+    "same_person_yes_no": 60
+  },
+  "O8_same_answers": {
+    "No": 30,
+    "Yes": 30
+  },
+  "identity_challenge_count": 708,
+  "simple_control_count": 192,
+  "binary_count": 150,
+  "image_option_count": 45,
+  "held_out_paraphrase_count": 368,
+  "composition_count": 100,
+  "GT_check": "PASSED",
+  "candidate_SHA256": "987b0c5724d0df87d7b12bb5e3fc73c0532d8cd6293987fab66764ac030432ac",
+  "formal_release_completed": false,
+  "filtering_executed": false,
+  "stage5_inference_executed": false,
+  "videos_used": 76,
+  "max_per_video": 20,
+  "primary_identities": 403,
+  "max_primary_reuse": 3,
+  "confusion_option_count": 505,
+  "choice_count": 720,
+  "confusion_option_fraction": 0.7013888888888888,
+  "ordinary_never_correct": 40,
+  "ordinary_never_fraction": 0.05063291139240506,
+  "ordinary_never_distractor": 86,
+  "blind_baselines": {
+    "O1": {
+      "n": 60,
+      "multiple_choice_n": 60,
+      "numeric_n": 0,
+      "majority_answer_letter": 0.3333333333333333,
+      "uniform_random_choice": 0.3333333333333332,
+      "dataset_only_answer_letter": 0.3333333333333333,
+      "semantic_majority": 0.35,
+      "semantic_dataset_only": 0.38333333333333336,
+      "numeric_random_baseline": "not defined for continuous/exact free response; do not equate it with4-choice chance",
+      "numeric_modal_exact_answer": null
+    },
+    "O2": {
+      "n": 90,
+      "multiple_choice_n": 90,
+      "numeric_n": 0,
+      "majority_answer_letter": 0.5,
+      "uniform_random_choice": 0.5,
+      "dataset_only_answer_letter": 0.5,
+      "semantic_majority": 0.5111111111111111,
+      "semantic_dataset_only": 0.5333333333333333,
+      "numeric_random_baseline": "not defined for continuous/exact free response; do not equate it with4-choice chance",
+      "numeric_modal_exact_answer": null
+    },
+    "O3": {
+      "n": 100,
+      "multiple_choice_n": 60,
+      "numeric_n": 40,
+      "majority_answer_letter": 0.26666666666666666,
+      "uniform_random_choice": 0.25,
+      "dataset_only_answer_letter": 0.26666666666666666,
+      "semantic_majority": 0.38333333333333336,
+      "semantic_dataset_only": 0.38333333333333336,
+      "numeric_random_baseline": "not defined for continuous/exact free response; do not equate it with4-choice chance",
+      "numeric_modal_exact_answer": 0.075
+    },
+    "O4": {
+      "n": 105,
+      "multiple_choice_n": 35,
+      "numeric_n": 70,
+      "majority_answer_letter": 0.2571428571428571,
+      "uniform_random_choice": 0.25,
+      "dataset_only_answer_letter": 0.2571428571428571,
+      "semantic_majority": 0.3142857142857143,
+      "semantic_dataset_only": 0.37142857142857144,
+      "numeric_random_baseline": "not defined for continuous/exact free response; do not equate it with4-choice chance",
+      "numeric_modal_exact_answer": 0.37142857142857144
+    },
+    "O5": {
+      "n": 100,
+      "multiple_choice_n": 30,
+      "numeric_n": 70,
+      "majority_answer_letter": 0.3,
+      "uniform_random_choice": 0.25,
+      "dataset_only_answer_letter": 0.3,
+      "semantic_majority": 0.43333333333333335,
+      "semantic_dataset_only": 0.43333333333333335,
+      "numeric_random_baseline": "not defined for continuous/exact free response; do not equate it with4-choice chance",
+      "numeric_modal_exact_answer": 0.08571428571428572
+    },
+    "O6": {
+      "n": 100,
+      "multiple_choice_n": 100,
+      "numeric_n": 0,
+      "majority_answer_letter": 0.26,
+      "uniform_random_choice": 0.25,
+      "dataset_only_answer_letter": 0.26,
+      "semantic_majority": 0.15,
+      "semantic_dataset_only": 0.2,
+      "numeric_random_baseline": "not defined for continuous/exact free response; do not equate it with4-choice chance",
+      "numeric_modal_exact_answer": null
+    },
+    "O7": {
+      "n": 110,
+      "multiple_choice_n": 110,
+      "numeric_n": 0,
+      "majority_answer_letter": 0.2636363636363636,
+      "uniform_random_choice": 0.25,
+      "dataset_only_answer_letter": 0.2636363636363636,
+      "semantic_majority": 0.5,
+      "semantic_dataset_only": 0.5,
+      "numeric_random_baseline": "not defined for continuous/exact free response; do not equate it with4-choice chance",
+      "numeric_modal_exact_answer": null
+    },
+    "O8": {
+      "n": 135,
+      "multiple_choice_n": 135,
+      "numeric_n": 0,
+      "majority_answer_letter": 0.37777777777777777,
+      "uniform_random_choice": 0.3611111111111111,
+      "dataset_only_answer_letter": 0.37777777777777777,
+      "semantic_majority": 0.2222222222222222,
+      "semantic_dataset_only": 0.24444444444444444,
+      "numeric_random_baseline": "not defined for continuous/exact free response; do not equate it with4-choice chance",
+      "numeric_modal_exact_answer": null
+    },
+    "composition": {
+      "n": 100,
+      "multiple_choice_n": 100,
+      "numeric_n": 0,
+      "majority_answer_letter": 0.33,
+      "uniform_random_choice": 0.3141666666666667,
+      "dataset_only_answer_letter": 0.33,
+      "semantic_majority": 0.27,
+      "semantic_dataset_only": 0.28,
+      "numeric_random_baseline": "not defined for continuous/exact free response; do not equate it with4-choice chance",
+      "numeric_modal_exact_answer": null
+    }
+  },
+  "balance_warnings": []
+}

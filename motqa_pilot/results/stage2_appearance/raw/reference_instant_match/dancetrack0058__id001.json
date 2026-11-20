@@ -1,0 +1,71 @@
+{
+  "unit_key": "dancetrack0058__id001",
+  "sequence": "dancetrack0058",
+  "gt_id": 1,
+  "phase": "reference_instant_match",
+  "started_at": "2026-11-04T14:13:55.693636+00:00",
+  "completed_at": "2026-11-04T14:13:59.176881+00:00",
+  "seconds": 3.483274788595736,
+  "prompt_text": "At this reference instant, match the following appearance phrase to ALL visible people: \"the person with short silver hair wearing a black long-sleeve shirt with 'FG' on the chest and black shorts\"\nThe first image is the full frame, with anonymous boxes and labels. The other image(s) are crops of EVERY GT-present person at this SAME instant. Read the central person in each crop; neighboring bodies may overlap. Labels are bookkeeping only. Do not use gallery order, location, pose, or box color as appearance attributes. Include ALL people satisfying the full appearance phrase in matches, and any plausible but obscured/unclear people in uncertain. A partly hidden target whose defining clothing cannot be seen is uncertain. No forced choice; none or several are valid outcomes. Omitted labels mean clear non-matches.\nReturn {\"matches\":[\"P01\"],\"uncertain\":[],\"reason\":\"brief visual explanation\"}. Valid labels: [\"P01\", \"P02\", \"P03\", \"P04\", \"P05\", \"P06\"].",
+  "image_paths": [
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0058/anchor_id001_f001162/full_frame.jpg",
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0058/anchor_id001_f001162/local_gallery_page00.jpg"
+  ],
+  "image_sha256": [
+    "548f9d9ee899d79d3204d48789f0e075e21818ec905ec43590b2cc9ce54f5d7f",
+    "50d547484a69c1e0b411d99156697895d4d93f28edbcd4277e9ef74c8dd0187e"
+  ],
+  "response": {
+    "id": "chatcmpl-bc5a09dce3499192",
+    "object": "chat.completion",
+    "created": 1793801635,
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"matches\":[\"P03\"],\"uncertain\":[],\"reason\":\"P03 has short silver hair, wears a black long-sleeve shirt with 'FG' on the chest, and black shorts. All other individuals either lack silver hair, do not wear the specified shirt, or do not wear black shorts.\"}",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 1489,
+      "total_tokens": 1554,
+      "completion_tokens": 65,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "check": {
+    "valid": true,
+    "parsed": {
+      "matches": [
+        "P03"
+      ],
+      "uncertain": [],
+      "reason": "P03 has short silver hair, wears a black long-sleeve shirt with 'FG' on the chest, and black shorts. All other individuals either lack silver hair, do not wear the specified shirt, or do not wear black shorts."
+    },
+    "matched_gt_ids": [
+      5
+    ],
+    "uncertain_gt_ids": [],
+    "passed": false,
+    "error": null
+  },
+  "inference_policy_sha256": "ea3ce06e83208db2fc1ed693ee2ac1b349f8ae344fcdc2cb0a22e30ef8df60e3"
+}

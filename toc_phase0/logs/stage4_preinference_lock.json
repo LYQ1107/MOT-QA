@@ -1,0 +1,67 @@
+{
+  "locked_at": "2026-11-02T10:06:01.178825+08:00",
+  "no_stage4_inference_at_lock": true,
+  "frozen_config_sha256": "7f0dbd16926026fa087ac4bb84fb1f3dce142ee903e5cf16c9e8eb1b7a62d93d",
+  "artifacts": [
+    {
+      "path": "/data2/user/toc_phase0/results/stage4_D_assignments_locked.json",
+      "sha256": "5ffa173e7aefe6eef47903570c2dc839265eb9f9518cf4654bda37e0a152090c",
+      "locked_at": "2026-11-02T10:05:48.436142+08:00"
+    },
+    {
+      "path": "/data2/user/toc_phase0/results/stage4_hypotheses_preregistered.json",
+      "sha256": "477e2e8136a01bd1d11825bf315fc135c4351b9d9dc49b18f266d36ce6fdd197",
+      "locked_at": "2026-11-02T10:05:48.436492+08:00"
+    },
+    {
+      "path": "/data2/user/toc_phase0/results/stage4/prompts/A.jsonl",
+      "sha256": "68b2e2a7c91e10e23abc41905ddeeeb3a43c84b83a0feb60e6f79c1fa9a2664c",
+      "locked_at": "2026-11-02T10:06:00.976815+08:00"
+    },
+    {
+      "path": "/data2/user/toc_phase0/results/stage4/prompts/B.jsonl",
+      "sha256": "21c559168d0810812f192d65bf9fe8f6bbfa0c8e232e42be5afc852179c35da2",
+      "locked_at": "2026-11-02T10:06:01.014762+08:00"
+    },
+    {
+      "path": "/data2/user/toc_phase0/results/stage4/prompts/C.jsonl",
+      "sha256": "11aae299c8d6855cd07fb87764790ddf058698f0b3833fd491747d56615a6464",
+      "locked_at": "2026-11-02T10:06:01.024171+08:00"
+    },
+    {
+      "path": "/data2/user/toc_phase0/results/stage4/prompts/D.jsonl",
+      "sha256": "d60eb9849bb55e98dfa564aee68b25da79d76ccca9ced89cd781b86131595fb2",
+      "locked_at": "2026-11-02T10:06:01.059571+08:00"
+    },
+    {
+      "path": "/data2/user/toc_phase0/results/stage4_image_manifest_locked.json",
+      "sha256": "7bfe7a4c9fa8c21c95770e3b4b4fe89341e9eb9884d4867bb4f22a78f5eaf441",
+      "locked_at": "2026-11-02T10:06:01.165200+08:00"
+    },
+    {
+      "path": "/data2/user/toc_phase0/results/stage4_prompt_lengths.json",
+      "sha256": "835f09168490ddeb4a7a90a509c0c07f2fd6e871781b0a8644a4a94b09d79232",
+      "locked_at": "2026-11-02T10:06:01.174130+08:00"
+    },
+    {
+      "path": "/data2/user/toc_phase0/results/stage4_protocol_locked.json",
+      "sha256": "6cc76f8b54333a6039183e08fb0bde500be1d572c685ec8e6fb199890c3867ef",
+      "locked_at": "2026-11-02T10:06:01.174410+08:00"
+    },
+    {
+      "path": "/data2/user/toc_phase0/results/stage4_D_text_manifest_locked.json",
+      "sha256": "9d23f939ec86fdc290bb1c0393118aec03b45e77328a86d574acd709622749d8",
+      "locked_at": "2026-11-02T10:06:01.178566+08:00"
+    },
+    {
+      "path": "/data2/user/toc_phase0/results/stage4/routing_stage2_metrics.json",
+      "sha256": "2054ade459959bc9646fc94fdb6098f9a32734d99cce3a41683c21c8f68adc5b"
+    },
+    {
+      "path": "/data2/user/toc_phase0/results/stage4/dev_count_rule_confusion.json",
+      "sha256": "2e101c92d4d0933af5c25979054246400e3350a13c8fd18bf47dc5616bd73da6"
+    }
+  ],
+  "qa_count": 749,
+  "image_videos": 689
+}

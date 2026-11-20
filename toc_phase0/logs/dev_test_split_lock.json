@@ -1,0 +1,12 @@
+{
+  "locked_at": "2026-11-01T18:53:52.877612+08:00",
+  "path": "/data2/user/toc_phase0/results/dev_test_split_locked.json",
+  "sha256": "e1d87675aca7e69d57a5ac99dc7ecdedaf8ca8c4efb1588bb86f42066fce80b3",
+  "seed": 42,
+  "dev_videos": 138,
+  "test_videos": 551,
+  "dev_questions": 147,
+  "test_questions": 602,
+  "video_overlap": 0,
+  "read_only": true
+}

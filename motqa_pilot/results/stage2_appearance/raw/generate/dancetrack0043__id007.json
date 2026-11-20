@@ -1,0 +1,73 @@
+{
+  "unit_key": "dancetrack0043__id007",
+  "sequence": "dancetrack0043",
+  "gt_id": 7,
+  "phase": "generate",
+  "started_at": "2026-11-04T13:56:17.498450+00:00",
+  "completed_at": "2026-11-04T13:56:25.428893+00:00",
+  "seconds": 7.9304777649231255,
+  "prompt_text": "The first image shows three crops of ONE target person at different times. The other image(s) show comparison people from the SAME video; every labeled tile is a different annotated person, shown in up to three crops. These comparison labels are anonymous bookkeeping labels, not appearance attributes.\nWrite one concise English noun phrase (at most 30 words), starting with \"the person\", describing the target using stable, clearly visible clothing, patterns, hair, or accessories. Prefer details that distinguish this person from comparison people. Do not mention actions, pose, scene location, time, spatial relation to others, gallery labels, or GT identity numbers. Visible garment lettering is allowed only if clearly legible. Do not infer colors/details hidden by another person. If no reliable description is possible, use an empty phrase. If a truthful description is shared by others, still provide it and set visually_distinct to false.\nReturn {\"phrase\":\"...\", \"supported_attributes\":[\"...\"], \"visually_distinct\":true, \"limitations\":\"...\"}. A description need not be unique; truthful uncertainty is preferred to invented uniqueness.\nThe target person is also included once among the comparison gallery tiles. Identify that repeated target visually; do not treat the repeated target tile as a different rival. Look for truthful stable appearance that distinguishes the target from OTHER people.",
+  "image_paths": [
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0043/id007_target.jpg",
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0043/generation_gallery_page00.jpg",
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0043/generation_gallery_page01.jpg"
+  ],
+  "image_sha256": [
+    "271f7e7064dede18ce5963718d87ca1931f074563c9e5e54c298caca5da2917c",
+    "b743c0479ae25b12316411e933a74b1eeb1e8360ae9249564ec7b12706d107d8",
+    "7a6526b7a9cd7dce2c2bc4a4074a190f331f4f70681293cf3930ba7160c29f3e"
+  ],
+  "response": {
+    "id": "chatcmpl-801d0fefe273af8f",
+    "object": "chat.completion",
+    "created": 1793800577,
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"phrase\": \"the person with a white traditional-style dress and a bright red sash tied at the waist, with short dark hair styled in a side part\",\n  \"supported_attributes\": [\n    \"white traditional-style dress\",\n    \"bright red sash tied at the waist\",\n    \"short dark hair\",\n    \"side part hairstyle\"\n  ],\n  \"visually_distinct\": true,\n  \"limitations\": \"The red sash is common among many dancers, but the combination of the short dark hair with a side part and the specific way the sash is tied distinguishes this person from others who have long hair or different sash arrangements.\"\n}",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 2164,
+      "total_tokens": 2300,
+      "completion_tokens": 136,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "check": {
+    "valid": true,
+    "parsed": {
+      "phrase": "the person with a white traditional-style dress and a bright red sash tied at the waist, with short dark hair styled in a side part",
+      "supported_attributes": [
+        "white traditional-style dress",
+        "bright red sash tied at the waist",
+        "short dark hair",
+        "side part hairstyle"
+      ],
+      "visually_distinct": true,
+      "limitations": "The red sash is common among many dancers, but the combination of the short dark hair with a side part and the specific way the sash is tied distinguishes this person from others who have long hair or different sash arrangements."
+    },
+    "phrase": "the person with a white traditional-style dress and a bright red sash tied at the waist, with short dark hair styled in a side part",
+    "error": null
+  },
+  "inference_policy_sha256": "ea3ce06e83208db2fc1ed693ee2ac1b349f8ae344fcdc2cb0a22e30ef8df60e3"
+}

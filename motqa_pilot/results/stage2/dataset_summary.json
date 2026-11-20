@@ -1,0 +1,245 @@
+[
+  {
+    "dataset": "DanceTrack",
+    "sequences": 65,
+    "eligible_sequences": 25,
+    "tracks": 692,
+    "eligible_visible_gt_ids": 273,
+    "rows": 574078,
+    "visible_rows": 574078,
+    "region_ambiguous_rows": 160032,
+    "events": {
+      "becomes_occluded": 353,
+      "reappears": 340,
+      "enters_frame": 41,
+      "leaves_frame": 66
+    },
+    "eligible_events": {
+      "becomes_occluded": 166,
+      "reappears": 175,
+      "enters_frame": 19,
+      "leaves_frame": 35
+    },
+    "initial_edge_entries": 16,
+    "eligible_initial_edge_entries": 5,
+    "terminal_disappearances": 79,
+    "overlap_episodes": 17538,
+    "crossings": 2317,
+    "crossing_unknown": 7533,
+    "eligible_overlap_episodes": 6911,
+    "eligible_crossings": 657,
+    "appearance_groups": 425,
+    "positive_appearance_groups": 40,
+    "unique_appearance_groups": 19,
+    "appearance_positive_frame_pairs": 42782,
+    "appearance_unique_frame_pairs": 14801,
+    "refs": {
+      "appearance": {
+        "intervals": 118,
+        "future_3s_intervals": 113,
+        "reference_frames": 14801,
+        "future_3s_frames": 14032,
+        "videos": 7,
+        "cue_id_units": 21,
+        "unique_target_ids": 21
+      },
+      "event": {
+        "intervals": 149,
+        "future_3s_intervals": 139,
+        "reference_frames": 149,
+        "future_3s_frames": 139,
+        "videos": 22,
+        "cue_id_units": 149,
+        "unique_target_ids": 67
+      },
+      "position": {
+        "intervals": 870,
+        "future_3s_intervals": 799,
+        "reference_frames": 34666,
+        "future_3s_frames": 32726,
+        "videos": 25,
+        "cue_id_units": 237,
+        "unique_target_ids": 184
+      }
+    },
+    "appearance_interval_seconds_quantiles": [
+      0.05,
+      0.3625,
+      1.475,
+      5.4,
+      20.34749999999995,
+      80.05
+    ],
+    "appearance_intervals_under_1s": 53,
+    "screen_distance_quantiles": [
+      0.020881497243608993,
+      1.3817221648739682,
+      2.4160973595559354,
+      3.729619867436043,
+      7.255402138430104,
+      12.664480900576367
+    ]
+  },
+  {
+    "dataset": "SportsMOT",
+    "sequences": 90,
+    "eligible_sequences": 45,
+    "tracks": 1280,
+    "eligible_visible_gt_ids": 641,
+    "rows": 608152,
+    "visible_rows": 608152,
+    "region_ambiguous_rows": 156431,
+    "events": {
+      "leaves_frame": 994,
+      "reappears": 718,
+      "enters_frame": 439,
+      "becomes_occluded": 10
+    },
+    "eligible_events": {
+      "leaves_frame": 501,
+      "reappears": 342,
+      "enters_frame": 225,
+      "becomes_occluded": 4
+    },
+    "initial_edge_entries": 51,
+    "eligible_initial_edge_entries": 21,
+    "terminal_disappearances": 286,
+    "overlap_episodes": 6662,
+    "crossings": 3567,
+    "crossing_unknown": 623,
+    "eligible_overlap_episodes": 3118,
+    "eligible_crossings": 1646,
+    "appearance_groups": 466,
+    "positive_appearance_groups": 466,
+    "unique_appearance_groups": 157,
+    "appearance_positive_frame_pairs": 242642,
+    "appearance_unique_frame_pairs": 29388,
+    "refs": {
+      "appearance": {
+        "intervals": 223,
+        "future_3s_intervals": 202,
+        "reference_frames": 29388,
+        "future_3s_frames": 22814,
+        "videos": 29,
+        "cue_id_units": 161,
+        "unique_target_ids": 60
+      },
+      "event": {
+        "intervals": 157,
+        "future_3s_intervals": 132,
+        "reference_frames": 157,
+        "future_3s_frames": 132,
+        "videos": 37,
+        "cue_id_units": 157,
+        "unique_target_ids": 112
+      },
+      "position": {
+        "intervals": 1278,
+        "future_3s_intervals": 1111,
+        "reference_frames": 31063,
+        "future_3s_frames": 27009,
+        "videos": 45,
+        "cue_id_units": 605,
+        "unique_target_ids": 505
+      }
+    },
+    "appearance_interval_seconds_quantiles": [
+      0.04,
+      0.84,
+      3.2,
+      8.36,
+      17.16,
+      21.32
+    ],
+    "appearance_intervals_under_1s": 57,
+    "screen_distance_quantiles": [
+      0.00313887866086107,
+      1.0663911339310161,
+      1.6398263635281984,
+      2.344333603492826,
+      3.6440294954931685,
+      8.221854144056309
+    ]
+  },
+  {
+    "dataset": "MOT17",
+    "sequences": 7,
+    "eligible_sequences": 7,
+    "tracks": 546,
+    "eligible_visible_gt_ids": 319,
+    "rows": 112297,
+    "visible_rows": 85828,
+    "region_ambiguous_rows": 18169,
+    "events": {
+      "leaves_frame": 216,
+      "becomes_occluded": 316,
+      "reappears": 148,
+      "enters_frame": 106
+    },
+    "eligible_events": {
+      "becomes_occluded": 133,
+      "reappears": 67,
+      "leaves_frame": 118,
+      "enters_frame": 55
+    },
+    "initial_edge_entries": 12,
+    "eligible_initial_edge_entries": 0,
+    "terminal_disappearances": 384,
+    "overlap_episodes": 1029,
+    "crossings": 60,
+    "crossing_unknown": 781,
+    "eligible_overlap_episodes": 473,
+    "eligible_crossings": 25,
+    "appearance_groups": 37,
+    "positive_appearance_groups": 37,
+    "unique_appearance_groups": 26,
+    "appearance_positive_frame_pairs": 10653,
+    "appearance_unique_frame_pairs": 2826,
+    "refs": {
+      "appearance": {
+        "intervals": 143,
+        "future_3s_intervals": 128,
+        "reference_frames": 2826,
+        "future_3s_frames": 2345,
+        "videos": 6,
+        "cue_id_units": 68,
+        "unique_target_ids": 68
+      },
+      "event": {
+        "intervals": 46,
+        "future_3s_intervals": 41,
+        "reference_frames": 46,
+        "future_3s_frames": 41,
+        "videos": 7,
+        "cue_id_units": 46,
+        "unique_target_ids": 40
+      },
+      "position": {
+        "intervals": 196,
+        "future_3s_intervals": 150,
+        "reference_frames": 3475,
+        "future_3s_frames": 2831,
+        "videos": 7,
+        "cue_id_units": 134,
+        "unique_target_ids": 124
+      }
+    },
+    "appearance_interval_seconds_quantiles": [
+      0.03333333333333333,
+      0.12,
+      0.42857142857142855,
+      1.0,
+      3.653333333333336,
+      12.666666666666666
+    ],
+    "appearance_intervals_under_1s": 105,
+    "screen_distance_quantiles": [
+      0.0,
+      0.04432796440594085,
+      0.1722633523103323,
+      0.3776699322862211,
+      0.8550592764501874,
+      2.6801934814453126
+    ]
+  }
+]

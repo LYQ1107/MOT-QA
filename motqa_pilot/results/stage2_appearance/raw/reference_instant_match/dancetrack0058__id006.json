@@ -1,0 +1,71 @@
+{
+  "unit_key": "dancetrack0058__id006",
+  "sequence": "dancetrack0058",
+  "gt_id": 6,
+  "phase": "reference_instant_match",
+  "started_at": "2026-11-04T14:14:02.573030+00:00",
+  "completed_at": "2026-11-04T14:14:07.470019+00:00",
+  "seconds": 4.8970206142403185,
+  "prompt_text": "At this reference instant, match the following appearance phrase to ALL visible people: \"the person wearing a white t-shirt with a graphic print of a person under a dark jacket, dark pants, and black-and-white sneakers\"\nThe first image is the full frame, with anonymous boxes and labels. The other image(s) are crops of EVERY GT-present person at this SAME instant. Read the central person in each crop; neighboring bodies may overlap. Labels are bookkeeping only. Do not use gallery order, location, pose, or box color as appearance attributes. Include ALL people satisfying the full appearance phrase in matches, and any plausible but obscured/unclear people in uncertain. A partly hidden target whose defining clothing cannot be seen is uncertain. No forced choice; none or several are valid outcomes. Omitted labels mean clear non-matches.\nReturn {\"matches\":[\"P01\"],\"uncertain\":[],\"reason\":\"brief visual explanation\"}. Valid labels: [\"P01\", \"P02\", \"P03\", \"P04\", \"P05\", \"P06\", \"P07\"].",
+  "image_paths": [
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0058/anchor_id006_f000331/full_frame.jpg",
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0058/anchor_id006_f000331/local_gallery_page00.jpg"
+  ],
+  "image_sha256": [
+    "f86b6e861934ef2562e869028c35da1af3ac3e2aa33dd12a9668e659733847c4",
+    "34f520aa2b35e66108ead58908cfa44dadb1fe7a224d2a4799eb5be011378fd2"
+  ],
+  "response": {
+    "id": "chatcmpl-a2c8ad66f378901b",
+    "object": "chat.completion",
+    "created": 1793801642,
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"matches\":[\"P06\"],\"uncertain\":[],\"reason\":\"P06 is wearing a white t-shirt with a graphic print of a person, under a dark jacket, dark pants, and black-and-white sneakers. P01 wears a white t-shirt under a dark jacket and dark pants, but the t-shirt is plain, not with a graphic print of a person. No other person matches all elements of the description.\"}",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 1497,
+      "total_tokens": 1585,
+      "completion_tokens": 88,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "check": {
+    "valid": true,
+    "parsed": {
+      "matches": [
+        "P06"
+      ],
+      "uncertain": [],
+      "reason": "P06 is wearing a white t-shirt with a graphic print of a person, under a dark jacket, dark pants, and black-and-white sneakers. P01 wears a white t-shirt under a dark jacket and dark pants, but the t-shirt is plain, not with a graphic print of a person. No other person matches all elements of the description."
+    },
+    "matched_gt_ids": [
+      6
+    ],
+    "uncertain_gt_ids": [],
+    "passed": true,
+    "error": null
+  },
+  "inference_policy_sha256": "ea3ce06e83208db2fc1ed693ee2ac1b349f8ae344fcdc2cb0a22e30ef8df60e3"
+}

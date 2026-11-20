@@ -1,0 +1,74 @@
+{
+  "generated_at": "2026-11-02T16:02:50.094251+08:00",
+  "no_tuning": true,
+  "scope": "All frozen B retained native tracks; per-dimension unique (video,query,native_id); tracks shared by dimensions may occur in more than one row.",
+  "criterion": "An observation is suspicious if |cx-.50|<=.05 AND |cy-.50|<=.05 AND bbox_area/frame_area>=.80. Track proportions reported for any observation and >=50% observations. Geometric proxy, not confirmed false-positive labels.",
+  "overall": {
+    "query_pairs": 899,
+    "retained_native_tracks": 3944,
+    "any_suspicious": 87,
+    "majority_suspicious": 44,
+    "any_ratio": 0.022058823529411766,
+    "majority_ratio": 0.011156186612576065,
+    "observations": 163814,
+    "suspicious_observations": 1940,
+    "observation_ratio": 0.011842699647160804
+  },
+  "per_dimension": {
+    "cross_object_order": {
+      "query_pairs": 374,
+      "retained_native_tracks": 1588,
+      "any_suspicious": 17,
+      "majority_suspicious": 6,
+      "any_ratio": 0.010705289672544081,
+      "majority_ratio": 0.003778337531486146,
+      "observations": 63038,
+      "suspicious_observations": 162,
+      "observation_ratio": 0.002569878485992576
+    },
+    "event_count": {
+      "query_pairs": 300,
+      "retained_native_tracks": 1333,
+      "any_suspicious": 34,
+      "majority_suspicious": 17,
+      "any_ratio": 0.025506376594148537,
+      "majority_ratio": 0.012753188297074268,
+      "observations": 58099,
+      "suspicious_observations": 829,
+      "observation_ratio": 0.014268748171224978
+    },
+    "event_ordering": {
+      "query_pairs": 105,
+      "retained_native_tracks": 476,
+      "any_suspicious": 20,
+      "majority_suspicious": 11,
+      "any_ratio": 0.04201680672268908,
+      "majority_ratio": 0.023109243697478993,
+      "observations": 18812,
+      "suspicious_observations": 353,
+      "observation_ratio": 0.018764618328726345
+    },
+    "reappear_identity": {
+      "query_pairs": 23,
+      "retained_native_tracks": 108,
+      "any_suspicious": 0,
+      "majority_suspicious": 0,
+      "any_ratio": 0.0,
+      "majority_ratio": 0.0,
+      "observations": 4802,
+      "suspicious_observations": 0,
+      "observation_ratio": 0.0
+    },
+    "reappear_or_disappear": {
+      "query_pairs": 135,
+      "retained_native_tracks": 624,
+      "any_suspicious": 22,
+      "majority_suspicious": 12,
+      "any_ratio": 0.035256410256410256,
+      "majority_ratio": 0.019230769230769232,
+      "observations": 26427,
+      "suspicious_observations": 664,
+      "observation_ratio": 0.025125818291898437
+    }
+  }
+}

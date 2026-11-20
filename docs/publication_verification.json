@@ -1,0 +1,36 @@
+{
+  "status": "VERIFIED",
+  "source_files_match_original": 4132,
+  "own_python_sources_parse": 150,
+  "frozen_v1_and_8_source_hashes_unchanged": true,
+  "candidate_count": 900,
+  "nas_symlinks_in_snapshot": [],
+  "secret_pattern_findings": [],
+  "new_document_link_errors": [],
+  "history_txt_matches_original": true,
+  "files_before_this_receipt": 4151,
+  "bytes_before_this_receipt": 275416450,
+  "largest_files": [
+    [
+      10413098,
+      "motqa_pilot/results/stage2/overlap_events.jsonl"
+    ],
+    [
+      8262298,
+      "motqa_pilot/results/language_descriptions.jsonl"
+    ],
+    [
+      7652444,
+      "toc_phase0/results/video_decode_audit.json"
+    ],
+    [
+      6001135,
+      "motqa_pilot/results/stage3_readability_v3/o7_time_extra_pool.jsonl"
+    ],
+    [
+      4921219,
+      "motqa_pilot/results/stage3_readability_v3/history/before_O6_rebalance/candidates_readability_v3.jsonl"
+    ]
+  ],
+  "new_inference_or_training": false
+}

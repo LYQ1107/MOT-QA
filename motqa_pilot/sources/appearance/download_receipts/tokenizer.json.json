@@ -1,0 +1,11 @@
+{
+  "at": "2026-11-04T13:21:37.414026+00:00",
+  "repo": "Qwen/Qwen3-VL-32B-Instruct",
+  "revision": "8d6f46b05db6abe0cb3a5ca8c817929cc0fa2d5a",
+  "url": "https://modelscope.cn/models/Qwen/Qwen3-VL-32B-Instruct/resolve/8d6f46b05db6abe0cb3a5ca8c817929cc0fa2d5a/tokenizer.json",
+  "path": "/home/user/motqa_pilot/models/Qwen3-VL-32B-Instruct/tokenizer.json",
+  "bytes": 7032403,
+  "sha256": "a5d85b6dcc535e6b93115a9ef287e6132fdbf30270da6218194ba742261173c7",
+  "verification": "publisher manifest SHA256 matched",
+  "proxy": false
+}

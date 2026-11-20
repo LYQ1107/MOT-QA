@@ -1,0 +1,100 @@
+{
+  "reviewed_at": "2026-11-01T18:22:47.011637+08:00",
+  "status": "TEN_BOXED_OVERVIEWS_REVIEWED",
+  "rows": [
+    {
+      "video_id": "charades_2X7OY",
+      "queries": [
+        "pink sink"
+      ],
+      "observation": "洗手盆在开头定位正确，但ID由0变为19/27/37/38/42等；人物、椅子和桌面也被高于0.2的框命中。相机摇动与前景遮挡混合，不将所有ID变化归因于遮挡。",
+      "visualization": "/data2/user/toc_phase0/results/stage3_visualizations/occlusion_audit/charades_2X7OY_overview.jpg",
+      "boxed_overview_actually_viewed": true
+    },
+    {
+      "video_id": "charades_7R8ZU",
+      "queries": [
+        "black laptop"
+      ],
+      "observation": "前约14秒笔记本正确定位且多为ID0；转身放下并离开视野后出现橱柜、黑色电器等误框，以及人物大框。未确认完整物理遮挡后的重现事件。",
+      "visualization": "/data2/user/toc_phase0/results/stage3_visualizations/occlusion_audit/charades_7R8ZU_overview.jpg",
+      "boxed_overview_actually_viewed": true
+    },
+    {
+      "video_id": "charades_CDNV7",
+      "queries": [
+        "silver table leg"
+      ],
+      "observation": "前约18秒一根桌腿多为ID0，但场景有多根同类腿，后续为多个ID及部分人物误框；无法独立确认具体同一根腿的遮挡回合。",
+      "visualization": "/data2/user/toc_phase0/results/stage3_visualizations/occlusion_audit/charades_CDNV7_overview.jpg",
+      "boxed_overview_actually_viewed": true
+    },
+    {
+      "video_id": "charades_E184J",
+      "queries": [
+        "white cup"
+      ],
+      "observation": "小杯在人体转向的5.4–6.4秒遮挡前后为ID9→25，新ID首次在7.0秒出现；同时有持续覆盖整个人的高分误框，主体选择容易被其干扰。",
+      "visualization": "/data2/user/toc_phase0/results/stage3_visualizations/occlusion_audit/charades_E184J_overview.jpg",
+      "boxed_overview_actually_viewed": true
+    },
+    {
+      "video_id": "charades_ONA0S",
+      "queries": [
+        "door handle",
+        "wooden bench"
+      ],
+      "observation": "门把手开头多为ID1，后段为ID9；抓握、门转动与部分遮挡难区分，未计入确认完整遮挡比例。第二查询wooden bench大体命中坐面，另有门板/人体误框。",
+      "visualization": "/data2/user/toc_phase0/results/stage3_visualizations/occlusion_audit/charades_ONA0S_overview.jpg",
+      "boxed_overview_actually_viewed": true
+    },
+    {
+      "video_id": "charades_V3CWF",
+      "queries": [
+        "wooden shelf"
+      ],
+      "observation": "墙上搁板由ID0稳定跟踪全程，低处书架候选主要低于0.2；未见清楚的完整遮挡。该视频说明可获得稳定轨迹，但不能检验遮挡ReID。",
+      "visualization": "/data2/user/toc_phase0/results/stage3_visualizations/occlusion_audit/charades_V3CWF_overview.jpg",
+      "boxed_overview_actually_viewed": true
+    },
+    {
+      "video_id": "charades_YJV7W",
+      "queries": [
+        "cell phone"
+      ],
+      "observation": "手机开头ID0，中途旋转及穿衣过程碎片化；确认遮挡前9.0秒ID12、后13.0秒ID25，为新分配ID；更晚有多个碎片与误框。",
+      "visualization": "/data2/user/toc_phase0/results/stage3_visualizations/occlusion_audit/charades_YJV7W_overview.jpg",
+      "boxed_overview_actually_viewed": true
+    },
+    {
+      "video_id": "perception_test_video_10599",
+      "queries": [
+        "yellow lemon"
+      ],
+      "observation": "柠檬全露/局部露出时常用不同旧ID，初次完整遮挡后ID0→11；目标隐藏时仍有手、金属件等同查询误框。13个可判读完整遮挡回合中4个前后ID不同，其中仅1个为重新分配的新ID，其余回到旧ID。",
+      "visualization": "/data2/user/toc_phase0/results/stage3_visualizations/occlusion_audit/perception_test_video_10599_overview.jpg",
+      "boxed_overview_actually_viewed": true
+    },
+    {
+      "video_id": "perception_test_video_1952",
+      "queries": [
+        "plant in the pot"
+      ],
+      "observation": "背景盆栽部分叶簇可见，但所有候选均低于0.2（概览约0.10–0.14），最终输出为空。衣物经过时完整与部分遮挡仍难区分，且前后均无合格目标框，因此不纳入遮挡后ID比例。",
+      "visualization": "/data2/user/toc_phase0/results/stage3_visualizations/occlusion_audit/perception_test_video_1952_overview.jpg",
+      "boxed_overview_actually_viewed": true
+    },
+    {
+      "video_id": "perception_test_video_8048",
+      "queries": [
+        "red bracelet",
+        "woman in pink shirt"
+      ],
+      "observation": "手链局部有正确细框（例如ID20/39/56），但大量同查询框覆盖整条手臂；手腕离框时红色杯子被高分误框（ID3/59，约0.76–0.80），使查询逐帧覆盖率达到100%、自动看不到任何缺口。画面主要为手臂，第二查询woman in pink shirt无≥0.2检测。离框不计完整物理遮挡。",
+      "visualization": "/data2/user/toc_phase0/results/stage3_visualizations/occlusion_audit/perception_test_video_8048_overview.jpg",
+      "boxed_overview_actually_viewed": true
+    }
+  ],
+  "pending": [],
+  "event_details": "/data2/user/toc_phase0/results/stage3_occlusion_manual_events.json"
+}

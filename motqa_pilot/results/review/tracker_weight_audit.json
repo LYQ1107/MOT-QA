@@ -1,0 +1,63 @@
+{
+  "generated_at": "2026-11-04T23:32:35.692464+08:00",
+  "tracker_backends": [
+    "OC-SORT",
+    "ByteTrack"
+  ],
+  "downloaded_weights": 0,
+  "tracker_runs": 0,
+  "documented_target_split_eligible_weights": [
+    "DanceTrack original train detector",
+    "OC-SORT DanceTrack train detector",
+    "MixSort SportsMOT train YOLOX detector"
+  ],
+  "mot17_half_adapted_status": "UNAVAILABLE_UNDER_CURRENT_LOCKED_BOUNDARY",
+  "mot17_boundary_overlap_inference": [
+    {
+      "sequence": "MOT17-02-FRCNN",
+      "frames": 600,
+      "potential_overlap_frame_1based": 301,
+      "project_second_half_start": 301
+    },
+    {
+      "sequence": "MOT17-04-FRCNN",
+      "frames": 1050,
+      "potential_overlap_frame_1based": 526,
+      "project_second_half_start": 526
+    },
+    {
+      "sequence": "MOT17-05-FRCNN",
+      "frames": 837,
+      "potential_overlap_frame_1based": 419,
+      "project_second_half_start": 419
+    },
+    {
+      "sequence": "MOT17-09-FRCNN",
+      "frames": 525,
+      "potential_overlap_frame_1based": 263,
+      "project_second_half_start": 263
+    },
+    {
+      "sequence": "MOT17-10-FRCNN",
+      "frames": 654,
+      "potential_overlap_frame_1based": 328,
+      "project_second_half_start": 328
+    },
+    {
+      "sequence": "MOT17-11-FRCNN",
+      "frames": 900,
+      "potential_overlap_frame_1based": 451,
+      "project_second_half_start": 451
+    },
+    {
+      "sequence": "MOT17-13-FRCNN",
+      "frames": 750,
+      "potential_overlap_frame_1based": 376,
+      "project_second_half_start": 376
+    }
+  ],
+  "external_only_fallback": "MixSort yolox_x_ch.pth.tar; COCO pretraining + CrowdHuman train/val, no MOT17 adaptation",
+  "unconfirmed_training_components": "unusable; no inference from detector provenance to additional ReID/association weights",
+  "official_tuning_exclusion_proven": false,
+  "report": "/home/user/motqa_pilot/logs/tracker_candidates.md"
+}

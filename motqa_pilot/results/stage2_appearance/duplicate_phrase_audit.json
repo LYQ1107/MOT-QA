@@ -1,0 +1,206 @@
+{
+  "at": "2026-11-04T14:32:32.681772+00:00",
+  "duplicate_groups": [
+    {
+      "sequence": "dancetrack0019",
+      "normalized_phrase": "the person in a light-colored sleeveless dress with a flared skirt and bare feet",
+      "gt_ids": [
+        2,
+        4
+      ],
+      "auto_pass_gt_ids": []
+    },
+    {
+      "sequence": "dancetrack0025",
+      "normalized_phrase": "the person in a brown short-sleeved dress with a flared skirt and bare feet",
+      "gt_ids": [
+        2,
+        3
+      ],
+      "auto_pass_gt_ids": []
+    },
+    {
+      "sequence": "dancetrack0026",
+      "normalized_phrase": "the person in a white tutu with a floral hair accessory and a ruffled bodice",
+      "gt_ids": [
+        0,
+        1,
+        6,
+        10,
+        15
+      ],
+      "auto_pass_gt_ids": []
+    },
+    {
+      "sequence": "dancetrack0026",
+      "normalized_phrase": "the person in a white tutu with a ruffled bodice and a small floral hair accessory",
+      "gt_ids": [
+        3,
+        12,
+        16
+      ],
+      "auto_pass_gt_ids": []
+    },
+    {
+      "sequence": "dancetrack0026",
+      "normalized_phrase": "the person in a white tutu with a blue floral hair accessory and a ruffled bodice",
+      "gt_ids": [
+        8,
+        14
+      ],
+      "auto_pass_gt_ids": []
+    },
+    {
+      "sequence": "dancetrack0026",
+      "normalized_phrase": "the person in a white tutu with a floral hair accessory and a visible back corset detail",
+      "gt_ids": [
+        13,
+        17
+      ],
+      "auto_pass_gt_ids": []
+    },
+    {
+      "sequence": "dancetrack0030",
+      "normalized_phrase": "the person in a dark sleeveless leotard with a flared skirt and light-colored ballet shoes",
+      "gt_ids": [
+        2,
+        3
+      ],
+      "auto_pass_gt_ids": []
+    },
+    {
+      "sequence": "dancetrack0034",
+      "normalized_phrase": "the person with short light-colored hair wearing a black jacket with gold trim and a large circular emblem on the back",
+      "gt_ids": [
+        0,
+        6,
+        10,
+        11
+      ],
+      "auto_pass_gt_ids": []
+    },
+    {
+      "sequence": "dancetrack0034",
+      "normalized_phrase": "the person with short light-colored hair wearing a black jacket with a large circular gold emblem on the back and gold stripes on the sleeves",
+      "gt_ids": [
+        1,
+        13
+      ],
+      "auto_pass_gt_ids": []
+    },
+    {
+      "sequence": "dancetrack0034",
+      "normalized_phrase": "the person with short light-colored hair wearing a black jacket with gold patterns on the sleeves and a large circular emblem on the back",
+      "gt_ids": [
+        5,
+        9
+      ],
+      "auto_pass_gt_ids": []
+    },
+    {
+      "sequence": "dancetrack0041",
+      "normalized_phrase": "the person wearing a black top with a red band, black wide-leg pants, bright pink shoes, and a large silver circular accessory hanging from the waist",
+      "gt_ids": [
+        0,
+        14
+      ],
+      "auto_pass_gt_ids": []
+    },
+    {
+      "sequence": "dancetrack0041",
+      "normalized_phrase": "the person wearing a black top with a red band, black wide-leg pants, bright pink shoes, and a silver chain with large rings hanging from the waist",
+      "gt_ids": [
+        1,
+        8
+      ],
+      "auto_pass_gt_ids": []
+    },
+    {
+      "sequence": "dancetrack0043",
+      "normalized_phrase": "the person with a white flowing dress and a bright red sash tied at the waist",
+      "gt_ids": [
+        4,
+        13
+      ],
+      "auto_pass_gt_ids": []
+    },
+    {
+      "sequence": "dancetrack0047",
+      "normalized_phrase": "the person with long dark hair in a low ponytail wearing a black leotard with a sheer mesh overlay and a flared skirt",
+      "gt_ids": [
+        1,
+        6
+      ],
+      "auto_pass_gt_ids": []
+    },
+    {
+      "sequence": "dancetrack0065",
+      "normalized_phrase": "the person in a sparkly pink and green leotard with floral patterns and matching leg coverings",
+      "gt_ids": [
+        0,
+        3,
+        4
+      ],
+      "auto_pass_gt_ids": []
+    },
+    {
+      "sequence": "dancetrack0065",
+      "normalized_phrase": "the person in a pink and green sequined leotard with floral patterns and matching leg coverings",
+      "gt_ids": [
+        1,
+        2
+      ],
+      "auto_pass_gt_ids": []
+    },
+    {
+      "sequence": "dancetrack0079",
+      "normalized_phrase": "the person in a yellow t-shirt with a white graphic, black pants, and white sneakers",
+      "gt_ids": [
+        2,
+        14
+      ],
+      "auto_pass_gt_ids": []
+    },
+    {
+      "sequence": "dancetrack0081",
+      "normalized_phrase": "the person in a white short-sleeved collared shirt and dark trousers",
+      "gt_ids": [
+        0,
+        1
+      ],
+      "auto_pass_gt_ids": []
+    },
+    {
+      "sequence": "dancetrack0081",
+      "normalized_phrase": "the person in a blue and white leotard with red trim and a white bow in her hair",
+      "gt_ids": [
+        4,
+        5
+      ],
+      "auto_pass_gt_ids": []
+    },
+    {
+      "sequence": "dancetrack0094",
+      "normalized_phrase": "the person with short dark hair, wearing a dark long-sleeve top, dark pants, and white sneakers",
+      "gt_ids": [
+        0,
+        9,
+        16,
+        19,
+        20
+      ],
+      "auto_pass_gt_ids": []
+    },
+    {
+      "sequence": "dancetrack0094",
+      "normalized_phrase": "the person with long dark hair tied back, wearing a dark olive green long-sleeve top and matching pants with white sneakers",
+      "gt_ids": [
+        8,
+        15
+      ],
+      "auto_pass_gt_ids": []
+    }
+  ],
+  "contradictory_automatic_unique_groups": [],
+  "handling": "Report any contradiction; do not silently reinterpret independent matching outputs or repair descriptions."
+}

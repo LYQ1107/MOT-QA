@@ -1,0 +1,11 @@
+{
+  "completed_at": "2026-11-04T13:25:37.950886+00:00",
+  "seconds": 14.82341156899929,
+  "videos": 25,
+  "IDs": 273,
+  "complete_disjoint_crops": 273,
+  "anchors": 269,
+  "geometric_quality_anchors": 237,
+  "image_artifacts_hashed": 2358,
+  "relaxed_selections": 8
+}

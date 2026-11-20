@@ -1,0 +1,13 @@
+{
+  "completed_at": "2026-11-02T20:26:16.292806+08:00",
+  "template": "reasoning",
+  "decoding": "guided",
+  "condition": "B-main",
+  "predictions": 300,
+  "new_predictions": 300,
+  "elapsed_this_attempt_s": 1416.282,
+  "parse_failures": 212,
+  "truncated": 212,
+  "sha256": "b46d5ec7ef516f3ea77d696edcb6d92e898d067eb603ddaede6d86e3bade05b8",
+  "output": "/data2/user/toc_phase0/results/stage5/reasoning_guided_B-main_predictions.jsonl"
+}

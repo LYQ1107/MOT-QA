@@ -1,0 +1,75 @@
+{
+  "created_at": "2026-11-04T09:53:15.197593+08:00",
+  "before_any_stage6_inference_or_training": true,
+  "seed": 42,
+  "frozen_config_sha256": "7f0dbd16926026fa087ac4bb84fb1f3dce142ee903e5cf16c9e8eb1b7a62d93d",
+  "split_sha256": "e1d87675aca7e69d57a5ac99dc7ecdedaf8ca8c4efb1588bb86f42066fce80b3",
+  "trackable_sha256": "4a4d1fdbb57158696986a99130d0a4e2ba27a51c73776c813347829d4b9a2593",
+  "project_root": "/data2/user/toc_phase0",
+  "primary_scope": "test trackable251; per-dimension and main-four231 also reported; test all602 supplemental",
+  "hypotheses": [
+    {
+      "id": "H9",
+      "statement": "Zero-shot tool use T0 exceeds official-format A (89/251,35.46%) on test trackable251.",
+      "comparison": "T0 minus reused Stage4 official A",
+      "criterion": "positive delta, exact two-sided McNemar p<.05 and bootstrap lower95% bound>0"
+    },
+    {
+      "id": "H10",
+      "statement": "Five-development-example T1 exceeds zero-shot T0 on test trackable251.",
+      "comparison": "T1 minus T0",
+      "criterion": "positive delta, exact two-sided McNemar p<.05 and bootstrap lower95% bound>0"
+    },
+    {
+      "id": "H11",
+      "statement": "After synthetic-only LoRA, B-events reaches at least45/101 on test reappear_or_disappear; frozen rule51/101.",
+      "criterion": "observed count>=45 is the prespecified empirical endpoint; separately report paired before/after and versus rule with p andCI, without claiming a population lower bound from this count alone"
+    }
+  ],
+  "statistics": {
+    "mcnemar": "exact two-sided conditional binomial on discordant correctness, p1 if none",
+    "bootstrap": "paired question-level percentile95%CI,1000 resamples, numpy default_rng42, sortedqa_id in each group",
+    "alpha": 0.05,
+    "multiplicity": "raw p reported; Holm-adjust H9/H10 additionally; other dimensions descriptive"
+  },
+  "parser": {
+    "source_path": "/data2/user/toc_phase0/src/stage5_common.py",
+    "source_sha256": "8482b37d0136fd2966bea5d727d239b536c79cfe181238eab24ec8dcdeb5fdd3",
+    "rule": "Reuse strict last nonempty Answer: line exactly; no fallback; invalid parses wrong"
+  },
+  "tool_budget": {
+    "max_calls": 4,
+    "total_generation_tokens_per_question": 2048,
+    "calls_include_invalid_attempts": true,
+    "max_assistant_turns": 5,
+    "temperature": 0,
+    "seed": 42
+  },
+  "conditional_controls": {
+    "gate": "After all T-none/T0/T1 raw predictions, run only if T0 orT1 has strictly more correct thanT-none on251.",
+    "selection": "Choose greater correct count ofT0/T1; tieT0. Lock decision before controls.",
+    "controls": [
+      "T-ph: all tool replies placeholder",
+      "T-sh: frozen Stage4D assignments projected to requested tools"
+    ],
+    "run_scope": "test all602 plus separate guided242"
+  },
+  "training": {
+    "synthetic_examples": 2000,
+    "benchmark_labels_used": false,
+    "types": {
+      "RD": 800,
+      "XOrder": 600,
+      "Count": 600
+    },
+    "framework": "LlamaFactory0.9.3",
+    "rank": 8,
+    "epochs": 2,
+    "selection": "final second-epoch adapter; no benchmark validation or tuning",
+    "evaluation": "test trackable251 B-events with original Stage5 reasoning prompt and1024 token limit; compare saved pre-LoRA B-events and frozen rule"
+  },
+  "look_service_note": "Image-count conflict raised before execution: original32 plus at most8look images. Final tool image policy will be separately locked before inference after user clarification.",
+  "no_tracking_rerun": true,
+  "no_frozen_changes": true,
+  "stop_after_report": true
+}

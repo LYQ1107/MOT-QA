@@ -1,0 +1,689 @@
+{
+  "frame_shifts": {
+    "position_nearest_frame_shift": 1336
+  },
+  "problems": [
+    {
+      "ref_id": "36f401ad29b4ea6131d7",
+      "type": "rounded_position_target_changed",
+      "source_frame": 558,
+      "rounded_frame": 559,
+      "target": 2,
+      "rounded_target": 4
+    },
+    {
+      "ref_id": "47ec42edfb03ff343670",
+      "type": "rounded_position_target_changed",
+      "source_frame": 258,
+      "rounded_frame": 257,
+      "target": 3,
+      "rounded_target": 2
+    },
+    {
+      "ref_id": "09725eaaa42400ee21cc",
+      "type": "rounded_event_uniqueness_changed",
+      "nearby": 2,
+      "source_time": 15.15,
+      "rounded_time": 15.2
+    },
+    {
+      "ref_id": "db45e235e68eaacebd1b",
+      "type": "rounded_position_target_changed",
+      "source_frame": 168,
+      "rounded_frame": 167,
+      "target": 3,
+      "rounded_target": 16
+    },
+    {
+      "ref_id": "fd28c484b9e4f0bea51d",
+      "type": "rounded_position_target_changed",
+      "source_frame": 216,
+      "rounded_frame": 217,
+      "target": 6,
+      "rounded_target": 1
+    },
+    {
+      "ref_id": "c6c72ca9232b18332cc6",
+      "type": "rounded_position_target_changed",
+      "source_frame": 890,
+      "rounded_frame": 891,
+      "target": 10,
+      "rounded_target": 3
+    },
+    {
+      "ref_id": "241f1a4439eff670ebe3",
+      "type": "rounded_position_target_changed",
+      "source_frame": 608,
+      "rounded_frame": 609,
+      "target": 0,
+      "rounded_target": 19
+    },
+    {
+      "ref_id": "9d0762f7a716510542e9",
+      "type": "rounded_position_target_changed",
+      "source_frame": 362,
+      "rounded_frame": 363,
+      "target": 8,
+      "rounded_target": 6
+    },
+    {
+      "ref_id": "a8b528f1552f5836ce17",
+      "type": "rounded_position_target_changed",
+      "source_frame": 270,
+      "rounded_frame": 269,
+      "target": 21,
+      "rounded_target": 16
+    },
+    {
+      "ref_id": "90fe4d9c6486e2c50412",
+      "type": "rounded_position_target_changed",
+      "source_frame": 900,
+      "rounded_frame": 901,
+      "target": 2,
+      "rounded_target": 11
+    },
+    {
+      "ref_id": "338bc4e47d8b2440b00f",
+      "type": "rounded_position_target_changed",
+      "source_frame": 836,
+      "rounded_frame": 835,
+      "target": 98,
+      "rounded_target": 97
+    },
+    {
+      "ref_id": "71fb3bf9e64ac4861459",
+      "type": "rounded_position_target_changed",
+      "source_frame": 381,
+      "rounded_frame": 382,
+      "target": 26,
+      "rounded_target": 9
+    },
+    {
+      "ref_id": "38afc9d03a887adc1cc4",
+      "type": "rounded_position_target_changed",
+      "source_frame": 396,
+      "rounded_frame": 397,
+      "target": 26,
+      "rounded_target": 2
+    },
+    {
+      "ref_id": "c26855fdd1d9401449ef",
+      "type": "rounded_position_target_changed",
+      "source_frame": 845,
+      "rounded_frame": 844,
+      "target": 70,
+      "rounded_target": 62
+    },
+    {
+      "ref_id": "9a6416d7c559edc48a90",
+      "type": "rounded_position_target_changed",
+      "source_frame": 440,
+      "rounded_frame": 441,
+      "target": 135,
+      "rounded_target": 157
+    },
+    {
+      "ref_id": "3294f8bc6cda65c2b723",
+      "type": "rounded_position_target_changed",
+      "source_frame": 503,
+      "rounded_frame": 504,
+      "target": 23,
+      "rounded_target": 26
+    },
+    {
+      "ref_id": "365992d40cbcc043f561",
+      "type": "rounded_position_target_changed",
+      "source_frame": 870,
+      "rounded_frame": 871,
+      "target": 9,
+      "rounded_target": 6
+    },
+    {
+      "ref_id": "6bf8b1a27963c6ba5bf2",
+      "type": "rounded_position_target_changed",
+      "source_frame": 518,
+      "rounded_frame": 519,
+      "target": 9,
+      "rounded_target": 5
+    },
+    {
+      "ref_id": "2fc6bc7c2501a5585004",
+      "type": "rounded_position_target_changed",
+      "source_frame": 284,
+      "rounded_frame": 283,
+      "target": 0,
+      "rounded_target": 2
+    },
+    {
+      "ref_id": "381609fc3f851bfc0265",
+      "type": "rounded_position_target_changed",
+      "source_frame": 45,
+      "rounded_frame": 46,
+      "target": 10,
+      "rounded_target": 9
+    },
+    {
+      "ref_id": "fdb4e7894a7513a4dc71",
+      "type": "rounded_position_target_changed",
+      "source_frame": 42,
+      "rounded_frame": 41,
+      "target": 8,
+      "rounded_target": 7
+    },
+    {
+      "ref_id": "d5accc321046eb94b5d8",
+      "type": "rounded_position_target_changed",
+      "source_frame": 25,
+      "rounded_frame": 26,
+      "target": 8,
+      "rounded_target": 9
+    },
+    {
+      "ref_id": "e60d54e2ddc5507bb0f3",
+      "type": "rounded_position_target_changed",
+      "source_frame": 37,
+      "rounded_frame": 36,
+      "target": 2,
+      "rounded_target": 0
+    },
+    {
+      "ref_id": "6ed5bbfdc1559a6ea4ae",
+      "type": "rounded_position_target_changed",
+      "source_frame": 175,
+      "rounded_frame": 176,
+      "target": 3,
+      "rounded_target": 8
+    },
+    {
+      "ref_id": "05d3640beb9e40bcf7d1",
+      "type": "rounded_position_target_changed",
+      "source_frame": 387,
+      "rounded_frame": 386,
+      "target": 6,
+      "rounded_target": 16
+    },
+    {
+      "ref_id": "d6eca6b2a9e6f9cb82ed",
+      "type": "rounded_position_target_changed",
+      "source_frame": 824,
+      "rounded_frame": 823,
+      "target": 1,
+      "rounded_target": 5
+    },
+    {
+      "ref_id": "5964cd88b58b9c995215",
+      "type": "rounded_position_target_changed",
+      "source_frame": 138,
+      "rounded_frame": 139,
+      "target": 0,
+      "rounded_target": 1
+    },
+    {
+      "ref_id": "a6556a2f4a53028d180a",
+      "type": "rounded_position_target_changed",
+      "source_frame": 755,
+      "rounded_frame": 756,
+      "target": 8,
+      "rounded_target": 4
+    },
+    {
+      "ref_id": "9ba2df47b6c6b9ccb086",
+      "type": "rounded_position_target_changed",
+      "source_frame": 830,
+      "rounded_frame": 831,
+      "target": 8,
+      "rounded_target": 9
+    },
+    {
+      "ref_id": "5c37b23cab48e389d212",
+      "type": "rounded_position_target_changed",
+      "source_frame": 635,
+      "rounded_frame": 636,
+      "target": 9,
+      "rounded_target": 7
+    },
+    {
+      "ref_id": "45d224a4b9acea1329f8",
+      "type": "rounded_position_target_changed",
+      "source_frame": 30,
+      "rounded_frame": 31,
+      "target": 6,
+      "rounded_target": 7
+    },
+    {
+      "ref_id": "9f97b5c494c53ea10174",
+      "type": "rounded_position_target_changed",
+      "source_frame": 38,
+      "rounded_frame": 39,
+      "target": 9,
+      "rounded_target": 11
+    },
+    {
+      "ref_id": "a2194cf259ac72d81bd0",
+      "type": "rounded_position_target_changed",
+      "source_frame": 24,
+      "rounded_frame": 23,
+      "target": 8,
+      "rounded_target": 7
+    },
+    {
+      "ref_id": "c7ae92df9628a226b2cd",
+      "type": "rounded_position_target_changed",
+      "source_frame": 295,
+      "rounded_frame": 296,
+      "target": 1,
+      "rounded_target": 2
+    },
+    {
+      "ref_id": "5b09c2ceb959a475799c",
+      "type": "rounded_position_target_changed",
+      "source_frame": 75,
+      "rounded_frame": 76,
+      "target": 8,
+      "rounded_target": 4
+    },
+    {
+      "ref_id": "f0940f95fb720235c826",
+      "type": "rounded_position_target_changed",
+      "source_frame": 344,
+      "rounded_frame": 343,
+      "target": 1,
+      "rounded_target": 9
+    },
+    {
+      "ref_id": "12002e72c1e350c4f259",
+      "type": "rounded_position_outside_video",
+      "source_frame": 1000,
+      "rounded_frame": 1001
+    },
+    {
+      "ref_id": "b2275d6582e4db53af64",
+      "type": "rounded_position_target_changed",
+      "source_frame": 453,
+      "rounded_frame": 454,
+      "target": 5,
+      "rounded_target": 8
+    },
+    {
+      "ref_id": "6dbc49dae076856ed274",
+      "type": "rounded_position_target_changed",
+      "source_frame": 524,
+      "rounded_frame": 523,
+      "target": 9,
+      "rounded_target": 3
+    },
+    {
+      "ref_id": "1ad3ac32637f413c8351",
+      "type": "rounded_position_target_changed",
+      "source_frame": 235,
+      "rounded_frame": 236,
+      "target": 6,
+      "rounded_target": 14
+    },
+    {
+      "ref_id": "712ef1e534d414b5bef2",
+      "type": "rounded_position_target_changed",
+      "source_frame": 190,
+      "rounded_frame": 191,
+      "target": 3,
+      "rounded_target": 0
+    },
+    {
+      "ref_id": "4434ce71bab872d71b0a",
+      "type": "rounded_position_target_changed",
+      "source_frame": 50,
+      "rounded_frame": 51,
+      "target": 5,
+      "rounded_target": 7
+    },
+    {
+      "ref_id": "c9a75540d2dd6b1306e2",
+      "type": "rounded_position_outside_video",
+      "source_frame": 500,
+      "rounded_frame": 501
+    },
+    {
+      "ref_id": "3e01be1d7840cb37f355",
+      "type": "rounded_position_target_changed",
+      "source_frame": 184,
+      "rounded_frame": 183,
+      "target": 12,
+      "rounded_target": 8
+    },
+    {
+      "ref_id": "82aea73eeafd93b3fba7",
+      "type": "rounded_position_target_changed",
+      "source_frame": 180,
+      "rounded_frame": 181,
+      "target": 18,
+      "rounded_target": 8
+    },
+    {
+      "ref_id": "4285064d05b252654b9e",
+      "type": "rounded_event_uniqueness_changed",
+      "nearby": 2,
+      "source_time": 1.04,
+      "rounded_time": 1.0
+    },
+    {
+      "ref_id": "d060a893f437dc2e48e1",
+      "type": "rounded_position_target_changed",
+      "source_frame": 467,
+      "rounded_frame": 466,
+      "target": 9,
+      "rounded_target": 15
+    },
+    {
+      "ref_id": "648986eb5964d8097a82",
+      "type": "rounded_position_target_changed",
+      "source_frame": 187,
+      "rounded_frame": 186,
+      "target": 6,
+      "rounded_target": 0
+    },
+    {
+      "ref_id": "bc086620c1cd43c8d408",
+      "type": "rounded_position_target_changed",
+      "source_frame": 388,
+      "rounded_frame": 389,
+      "target": 11,
+      "rounded_target": 15
+    },
+    {
+      "ref_id": "60f4740151e31079d6ce",
+      "type": "rounded_position_target_changed",
+      "source_frame": 320,
+      "rounded_frame": 321,
+      "target": 15,
+      "rounded_target": 13
+    },
+    {
+      "ref_id": "4f13e31d3c6ef3952b4e",
+      "type": "rounded_position_target_changed",
+      "source_frame": 330,
+      "rounded_frame": 331,
+      "target": 19,
+      "rounded_target": 16
+    },
+    {
+      "ref_id": "05a03539183a76ccd385",
+      "type": "rounded_position_target_changed",
+      "source_frame": 418,
+      "rounded_frame": 419,
+      "target": 19,
+      "rounded_target": 18
+    },
+    {
+      "ref_id": "a3e2cbf4c008b32a02e9",
+      "type": "rounded_position_target_changed",
+      "source_frame": 305,
+      "rounded_frame": 306,
+      "target": 0,
+      "rounded_target": 4
+    },
+    {
+      "ref_id": "7edfca337f6e7cd743af",
+      "type": "rounded_position_target_changed",
+      "source_frame": 268,
+      "rounded_frame": 269,
+      "target": 15,
+      "rounded_target": 13
+    },
+    {
+      "ref_id": "daebfe86a9261beb21b3",
+      "type": "rounded_position_target_changed",
+      "source_frame": 738,
+      "rounded_frame": 739,
+      "target": 14,
+      "rounded_target": 12
+    },
+    {
+      "ref_id": "dffa4c9d4a4940750f28",
+      "type": "rounded_position_target_changed",
+      "source_frame": 367,
+      "rounded_frame": 366,
+      "target": 16,
+      "rounded_target": 19
+    },
+    {
+      "ref_id": "c34b26e756c87bd00508",
+      "type": "rounded_position_target_changed",
+      "source_frame": 298,
+      "rounded_frame": 299,
+      "target": 19,
+      "rounded_target": 18
+    },
+    {
+      "ref_id": "6ea4d42f279f11dda911",
+      "type": "rounded_position_target_changed",
+      "source_frame": 362,
+      "rounded_frame": 361,
+      "target": 20,
+      "rounded_target": 18
+    },
+    {
+      "ref_id": "01c2aae480be65184097",
+      "type": "rounded_position_target_changed",
+      "source_frame": 378,
+      "rounded_frame": 379,
+      "target": 4,
+      "rounded_target": 9
+    },
+    {
+      "ref_id": "e8dd382b0d5c9d8e486b",
+      "type": "rounded_position_target_changed",
+      "source_frame": 748,
+      "rounded_frame": 749,
+      "target": 6,
+      "rounded_target": 13
+    },
+    {
+      "ref_id": "8e6d158cf96d5ef33d31",
+      "type": "rounded_position_target_changed",
+      "source_frame": 254,
+      "rounded_frame": 253,
+      "target": 9,
+      "rounded_target": 4
+    },
+    {
+      "ref_id": "38394056e96032c4dd56",
+      "type": "rounded_position_target_changed",
+      "source_frame": 285,
+      "rounded_frame": 286,
+      "target": 9,
+      "rounded_target": 0
+    },
+    {
+      "ref_id": "740999f3934af2ff6fc2",
+      "type": "rounded_position_target_changed",
+      "source_frame": 554,
+      "rounded_frame": 553,
+      "target": 8,
+      "rounded_target": 7
+    },
+    {
+      "ref_id": "28d5ede08e3a8d5eb506",
+      "type": "rounded_position_target_changed",
+      "source_frame": 18,
+      "rounded_frame": 19,
+      "target": 6,
+      "rounded_target": 8
+    },
+    {
+      "ref_id": "bf260fb73d99e9c7b54e",
+      "type": "rounded_position_target_changed",
+      "source_frame": 28,
+      "rounded_frame": 29,
+      "target": 9,
+      "rounded_target": 10
+    },
+    {
+      "ref_id": "39d89726cdf534e9f92a",
+      "type": "rounded_position_target_changed",
+      "source_frame": 158,
+      "rounded_frame": 159,
+      "target": 11,
+      "rounded_target": 13
+    },
+    {
+      "ref_id": "18d36a9e0f5061ecc7a8",
+      "type": "rounded_position_target_changed",
+      "source_frame": 160,
+      "rounded_frame": 161,
+      "target": 13,
+      "rounded_target": 16
+    },
+    {
+      "ref_id": "4f9813e4ef6847abaff6",
+      "type": "rounded_position_target_changed",
+      "source_frame": 84,
+      "rounded_frame": 83,
+      "target": 19,
+      "rounded_target": 16
+    },
+    {
+      "ref_id": "40f40c5a7264fbe7ede3",
+      "type": "rounded_position_target_changed",
+      "source_frame": 348,
+      "rounded_frame": 349,
+      "target": 14,
+      "rounded_target": 3
+    },
+    {
+      "ref_id": "106e8633561deeb3efc4",
+      "type": "rounded_position_target_changed",
+      "source_frame": 298,
+      "rounded_frame": 299,
+      "target": 6,
+      "rounded_target": 5
+    },
+    {
+      "ref_id": "f4068b8ad6311c143ccd",
+      "type": "rounded_position_target_changed",
+      "source_frame": 285,
+      "rounded_frame": 286,
+      "target": 10,
+      "rounded_target": 13
+    },
+    {
+      "ref_id": "64383d3689f52c1f2b9b",
+      "type": "rounded_position_target_changed",
+      "source_frame": 342,
+      "rounded_frame": 341,
+      "target": 12,
+      "rounded_target": 11
+    },
+    {
+      "ref_id": "3ba37089882fd4df05dd",
+      "type": "rounded_position_target_changed",
+      "source_frame": 20,
+      "rounded_frame": 21,
+      "target": 12,
+      "rounded_target": 13
+    },
+    {
+      "ref_id": "1469979e5912d156009f",
+      "type": "rounded_position_target_changed",
+      "source_frame": 120,
+      "rounded_frame": 121,
+      "target": 15,
+      "rounded_target": 14
+    },
+    {
+      "ref_id": "a56311a36b62621f9d3b",
+      "type": "rounded_position_target_changed",
+      "source_frame": 147,
+      "rounded_frame": 146,
+      "target": 3,
+      "rounded_target": 8
+    },
+    {
+      "ref_id": "8af343f5fec1d43281ba",
+      "type": "rounded_position_target_changed",
+      "source_frame": 472,
+      "rounded_frame": 471,
+      "target": 2,
+      "rounded_target": 0
+    },
+    {
+      "ref_id": "4b3ccabc914766bab60e",
+      "type": "rounded_position_target_changed",
+      "source_frame": 129,
+      "rounded_frame": 128,
+      "target": 4,
+      "rounded_target": 3
+    },
+    {
+      "ref_id": "ac7f1d4a053b1c71ea15",
+      "type": "rounded_position_target_changed",
+      "source_frame": 487,
+      "rounded_frame": 486,
+      "target": 11,
+      "rounded_target": 5
+    },
+    {
+      "ref_id": "6705403e4df5b67494f8",
+      "type": "rounded_position_target_changed",
+      "source_frame": 80,
+      "rounded_frame": 81,
+      "target": 13,
+      "rounded_target": 15
+    },
+    {
+      "ref_id": "8105c9e96cce3b7e4904",
+      "type": "rounded_position_target_changed",
+      "source_frame": 227,
+      "rounded_frame": 226,
+      "target": 8,
+      "rounded_target": 9
+    },
+    {
+      "ref_id": "87a61ae359b126adfdd8",
+      "type": "rounded_position_target_changed",
+      "source_frame": 737,
+      "rounded_frame": 736,
+      "target": 9,
+      "rounded_target": 10
+    },
+    {
+      "ref_id": "0c3bbff47c0e3dab0c1a",
+      "type": "rounded_position_target_changed",
+      "source_frame": 710,
+      "rounded_frame": 711,
+      "target": 10,
+      "rounded_target": 8
+    },
+    {
+      "ref_id": "f7373ce322fb4af2e8cc",
+      "type": "rounded_position_target_changed",
+      "source_frame": 712,
+      "rounded_frame": 711,
+      "target": 10,
+      "rounded_target": 8
+    },
+    {
+      "ref_id": "81df4a7a28bb204eaeb3",
+      "type": "rounded_position_target_changed",
+      "source_frame": 738,
+      "rounded_frame": 739,
+      "target": 10,
+      "rounded_target": 9
+    },
+    {
+      "ref_id": "92e46a052d0f33c2f20c",
+      "type": "rounded_position_target_changed",
+      "source_frame": 748,
+      "rounded_frame": 749,
+      "target": 10,
+      "rounded_target": 9
+    },
+    {
+      "ref_id": "d48ec3d788e42f41f7c0",
+      "type": "rounded_position_target_changed",
+      "source_frame": 75,
+      "rounded_frame": 76,
+      "target": 11,
+      "rounded_target": 1
+    }
+  ]
+}

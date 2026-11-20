@@ -1,0 +1,27 @@
+{
+  "diagnostic_only": true,
+  "success": true,
+  "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "violations": [
+    {
+      "name": "O7 region DanceTrack0",
+      "lower_shortfall": 0.9999999999999991,
+      "upper_excess": 0.0
+    },
+    {
+      "name": "O7 region MOT171",
+      "lower_shortfall": 0.3333333333333333,
+      "upper_excess": 0.0
+    },
+    {
+      "name": "O7 region SportsMOT1",
+      "lower_shortfall": 6.999999999999998,
+      "upper_excess": 0.0
+    },
+    {
+      "name": "O7 region SportsMOT2",
+      "lower_shortfall": 0.0,
+      "upper_excess": 6.0000000000000036
+    }
+  ]
+}

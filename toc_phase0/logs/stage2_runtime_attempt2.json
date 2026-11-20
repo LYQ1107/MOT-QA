@@ -1,0 +1,68 @@
+{
+  "attempt": 2,
+  "started_at": "2026-10-31T17:44:21.490676+00:00",
+  "devices": [
+    {
+      "physical_index": 0,
+      "uuid": "GPU-bf21a95d-d96d-9ec5-cb15-b0fb7ad50536",
+      "name": "NVIDIA A800-SXM4-80GB"
+    },
+    {
+      "physical_index": 5,
+      "uuid": "GPU-c6523d98-cb2d-95ed-4cb2-a84936acceb6",
+      "name": "NVIDIA A800-SXM4-80GB"
+    }
+  ],
+  "ports": [
+    18002,
+    18003
+  ],
+  "server_pids": [
+    1450891,
+    1450892
+  ],
+  "cuda_visible_devices": [
+    "0",
+    "5"
+  ],
+  "server_arguments": [
+    "vllm.entrypoints.openai.api_server",
+    "--model",
+    "/data2/user/toc_phase0/models/Qwen2.5-VL-7B-Instruct",
+    "--served-model-name",
+    "Qwen/Qwen2.5-VL-7B-Instruct",
+    "--host",
+    "127.0.0.1",
+    "--port",
+    "18003",
+    "--tensor-parallel-size",
+    "1",
+    "--dtype",
+    "bfloat16",
+    "--max-model-len",
+    "32768",
+    "--max-num-seqs",
+    "8",
+    "--max-num-batched-tokens",
+    "32768",
+    "--gpu-memory-utilization",
+    "0.75",
+    "--seed",
+    "42",
+    "--enforce-eager",
+    "--limit-mm-per-prompt",
+    "{\"image\":{\"count\":32,\"width\":720,\"height\":720},\"video\":0}",
+    "--disable-log-requests"
+  ],
+  "generation_config": "auto (original model defaults)",
+  "model_repetition_penalty": 1.05,
+  "mm_processor_overrides": null,
+  "profiling_only_image_dimensions": [
+    720,
+    720
+  ],
+  "per_endpoint_concurrency": 4,
+  "split_rule": "sorted qa_id alternating endpoints",
+  "parser": "official answer_extractor.extract",
+  "guided_choice": false
+}

@@ -1,0 +1,37 @@
+{
+  "status": "STAGE_TWO_PASS_WAITING_USER_CONFIRMATION",
+  "completed_at": "2026-10-31T18:08:30.149391+00:00",
+  "overall_percent": 26.81876883340508,
+  "paper_overall_percent": 27.0,
+  "delta_pp": -0.18123116659491956,
+  "acceptance_percent": [
+    24.0,
+    30.0
+  ],
+  "passed": true,
+  "unique_predictions": 2323,
+  "missing_predictions": 0,
+  "duplicate_predictions": 0,
+  "parse_failures": 291,
+  "parse_failure_percent": 12.526904864399482,
+  "failed_startup_attempts": 1,
+  "reid_percent": 52.17391304347826,
+  "reid_paper_difference_unresolved": true,
+  "verified_videos": 1951,
+  "decode_anomalies": 2,
+  "source_short_videos": [
+    "ovis_2b827e3a",
+    "ovis_f4b271d4"
+  ],
+  "decode_failures": 0,
+  "unexpected_missing_frames": 0,
+  "error_examples": 20,
+  "main_dimensions_total": 726,
+  "main_dimensions_correct": 154,
+  "component_duration_sum_s": 4448.756,
+  "total_wall_s": 3911.898,
+  "decode_overlapped_with_download": true,
+  "stage_three_started": false,
+  "stage_three_authorized": false,
+  "report": "/data2/user/toc_phase0/results/stage2_report.md"
+}

@@ -1,0 +1,7 @@
+{
+  "at": "2026-11-04T13:21:34.403969+00:00",
+  "original_bytes": 6792,
+  "original_sha256": "174c27f03b7be431b9bdc2bf3ce4f4031dc03fe0129d06f47a4be6014e387a91",
+  "archive_path": "/home/user/motqa_pilot/sources/appearance/downloads_log_before_appearance.md",
+  "reason": "Preserve completed Stage 1 log bytes before required append-only download entries."
+}

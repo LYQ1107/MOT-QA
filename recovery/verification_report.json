@@ -1,0 +1,181 @@
+{
+  "status": "VERIFIED",
+  "new_model_inference": false,
+  "new_training": false,
+  "frozen_v1": {
+    "sha256": "7f0dbd16926026fa087ac4bb84fb1f3dce142ee903e5cf16c9e8eb1b7a62d93d",
+    "source_files": 8,
+    "split_and_subset_unchanged": true
+  },
+  "historical_scores_replayed": {
+    "stage2_all": {
+      "correct": 623,
+      "total": 2323,
+      "accuracy": 0.2681876883340508,
+      "unique_prediction_rows": 2323
+    },
+    "stage4_A": {
+      "correct": 89,
+      "total": 251,
+      "accuracy": 0.3545816733067729,
+      "unique_prediction_rows": 749
+    },
+    "stage4_B": {
+      "correct": 88,
+      "total": 251,
+      "accuracy": 0.350597609561753,
+      "unique_prediction_rows": 749
+    },
+    "stage4_C": {
+      "correct": 90,
+      "total": 251,
+      "accuracy": 0.35856573705179284,
+      "unique_prediction_rows": 749
+    },
+    "stage4_D": {
+      "correct": 88,
+      "total": 251,
+      "accuracy": 0.350597609561753,
+      "unique_prediction_rows": 749
+    },
+    "stage7_T_none": {
+      "correct": 73,
+      "total": 251,
+      "accuracy": 0.2908366533864542,
+      "unique_prediction_rows": 602
+    },
+    "stage7_T1": {
+      "correct": 98,
+      "total": 251,
+      "accuracy": 0.3904382470119522,
+      "unique_prediction_rows": 602
+    },
+    "stage7_T_ph": {
+      "correct": 98,
+      "total": 251,
+      "accuracy": 0.3904382470119522,
+      "unique_prediction_rows": 602
+    },
+    "stage7_T_sh": {
+      "correct": 94,
+      "total": 251,
+      "accuracy": 0.3745019920318725,
+      "unique_prediction_rows": 602
+    },
+    "majority_blind": {
+      "correct": 126,
+      "total": 251,
+      "accuracy": 0.50199203187251,
+      "unique_prediction_rows": 749
+    },
+    "route_A": {
+      "correct": 112,
+      "total": 251,
+      "accuracy": 0.44621513944223107,
+      "unique_prediction_rows": 749
+    }
+  },
+  "nas_videos": {
+    "expected": 1951,
+    "present": 1951,
+    "bytes": 15235916868,
+    "size_mismatches": [],
+    "current_sha256_samples": 1,
+    "current_full_video_sha256_rerun": false,
+    "original_full_verification_receipt": "/data3/liuyeqiang/toc_phase0/results/stage2_receipt.json"
+  },
+  "nas_models": {
+    "qwen_shards": [
+      {
+        "name": "model-00001-of-00005.safetensors",
+        "bytes": 3900233256,
+        "tensors": 436
+      },
+      {
+        "name": "model-00002-of-00005.safetensors",
+        "bytes": 3864726320,
+        "tensors": 97
+      },
+      {
+        "name": "model-00003-of-00005.safetensors",
+        "bytes": 3864726424,
+        "tensors": 97
+      },
+      {
+        "name": "model-00004-of-00005.safetensors",
+        "bytes": 3864733680,
+        "tensors": 98
+      },
+      {
+        "name": "model-00005-of-00005.safetensors",
+        "bytes": 1089994880,
+        "tensors": 1
+      }
+    ],
+    "qwen_weight_index_and_headers_match": true,
+    "full_weight_sha256_rerun": false,
+    "masa_bytes": 1091120775,
+    "lora_adapter_target": "/data3/liuyeqiang/nas/A800/priority_assets_20261112/data2/user/toc_phase0/models/stage6_lora_r8/adapter_model.safetensors",
+    "lora_adapter_bytes": 80797976,
+    "qwen3_vl_32b": "Not included in original MOT-QA backup; deferred by original transfer policy"
+  },
+  "motqa": {
+    "candidates_v3": 900,
+    "example_keys": [
+      "dataset",
+      "sequence",
+      "source_split",
+      "fps",
+      "video_duration_s",
+      "question",
+      "template_id",
+      "paraphrase_id",
+      "paraphrase_split",
+      "format",
+      "raw_options",
+      "semantic_answer",
+      "answer_index",
+      "numeric_answer",
+      "answer_tolerance",
+      "operation_name",
+      "operations",
+      "split_role",
+      "reference",
+      "evidence",
+      "has_confusion_option",
+      "difficulty",
+      "identity_risk",
+      "license_registry",
+      "source_gt_sha256",
+      "unified_gt_sha256",
+      "pool_id",
+      "qa_id",
+      "status",
+      "exclude_from_formal_statistics",
+      "needs_visual_grounding",
+      "question_zh",
+      "options",
+      "answer",
+      "option_provenance",
+      "options_zh",
+      "video_input",
+      "readability_v3",
+      "previous_qa_id",
+      "preserve_reviewed_question",
+      "previous_slot_qa_id",
+      "replaces_qa_id"
+    ],
+    "review12_zip_exists": true,
+    "human_review12_received": false,
+    "filtering_completed": false,
+    "gt_comparison_completed": false
+  },
+  "local_files": {
+    "count": 11848,
+    "bytes": 426340954,
+    "all_match_restore_manifest": true,
+    "motqa_matches_original_backup_sha256": true,
+    "top_level_nas_links": 20,
+    "broken_links": []
+  }
+}

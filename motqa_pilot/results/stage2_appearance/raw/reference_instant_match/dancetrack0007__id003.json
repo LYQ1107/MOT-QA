@@ -1,0 +1,71 @@
+{
+  "unit_key": "dancetrack0007__id003",
+  "sequence": "dancetrack0007",
+  "gt_id": 3,
+  "phase": "reference_instant_match",
+  "started_at": "2026-11-04T14:13:22.627099+00:00",
+  "completed_at": "2026-11-04T14:13:27.771498+00:00",
+  "seconds": 5.144430703017861,
+  "prompt_text": "At this reference instant, match the following appearance phrase to ALL visible people: \"the person wearing a white long-sleeve crop top, white shorts, white knee pads, and white sneakers\"\nThe first image is the full frame, with anonymous boxes and labels. The other image(s) are crops of EVERY GT-present person at this SAME instant. Read the central person in each crop; neighboring bodies may overlap. Labels are bookkeeping only. Do not use gallery order, location, pose, or box color as appearance attributes. Include ALL people satisfying the full appearance phrase in matches, and any plausible but obscured/unclear people in uncertain. A partly hidden target whose defining clothing cannot be seen is uncertain. No forced choice; none or several are valid outcomes. Omitted labels mean clear non-matches.\nReturn {\"matches\":[\"P01\"],\"uncertain\":[],\"reason\":\"brief visual explanation\"}. Valid labels: [\"P01\", \"P02\", \"P03\", \"P04\", \"P05\", \"P06\", \"P07\", \"P08\"].",
+  "image_paths": [
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0007/anchor_id003_f000785/full_frame.jpg",
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0007/anchor_id003_f000785/local_gallery_page00.jpg"
+  ],
+  "image_sha256": [
+    "285eac6d8e454aa6de653db1cdffc96b51037e02ad42cdcebbdbfe5cc6bcd827",
+    "a5be72fd62955348f331673aa484d451d0347d297e15baa9b03ef98348b8106f"
+  ],
+  "response": {
+    "id": "chatcmpl-891bb7d8143c3b36",
+    "object": "chat.completion",
+    "created": 1793801602,
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"matches\":[\"P08\"],\"uncertain\":[],\"reason\":\"Only P08 is clearly wearing a white long-sleeve crop top, white shorts, white knee pads, and white sneakers. All others wear white pants instead of shorts, and none show knee pads. P08’s knee pads are visible in the crop, confirming the full appearance match.\"}",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 1497,
+      "total_tokens": 1572,
+      "completion_tokens": 75,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "check": {
+    "valid": true,
+    "parsed": {
+      "matches": [
+        "P08"
+      ],
+      "uncertain": [],
+      "reason": "Only P08 is clearly wearing a white long-sleeve crop top, white shorts, white knee pads, and white sneakers. All others wear white pants instead of shorts, and none show knee pads. P08’s knee pads are visible in the crop, confirming the full appearance match."
+    },
+    "matched_gt_ids": [
+      3
+    ],
+    "uncertain_gt_ids": [],
+    "passed": true,
+    "error": null
+  },
+  "inference_policy_sha256": "ea3ce06e83208db2fc1ed693ee2ac1b349f8ae344fcdc2cb0a22e30ef8df60e3"
+}

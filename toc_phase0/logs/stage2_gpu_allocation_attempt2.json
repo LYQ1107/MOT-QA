@@ -1,0 +1,19 @@
+{
+  "checked_at": "2026-10-31T17:44:21.486739+00:00",
+  "full_gpu_snapshot": "0, GPU-bf21a95d-d96d-9ec5-cb15-b0fb7ad50536, NVIDIA A800-SXM4-80GB, 0, 0\n1, GPU-f35654b3-bbf5-7303-cfcb-9bd5d3e16e69, NVIDIA A800-SXM4-80GB, 16035, 100\n2, GPU-c2484ded-5f87-237c-bbf0-d23fcb74fdb2, NVIDIA A800-SXM4-80GB, 14599, 53\n3, GPU-6cb11599-704e-c3aa-9e28-5f15faa25c7c, NVIDIA A800-SXM4-80GB, 7779, 31\n4, GPU-44f62835-4095-23ec-d3dd-5af16a00705c, NVIDIA A800-SXM4-80GB, 6843, 31\n5, GPU-c6523d98-cb2d-95ed-4cb2-a84936acceb6, NVIDIA A800-SXM4-80GB, 0, 0\n6, GPU-883c8be3-25b0-3d19-6fa8-4c2e335e67d2, NVIDIA A800-SXM4-80GB, 16183, 100\n7, GPU-0322c0e7-ffbf-e068-5bdd-587b8216a9d9, NVIDIA A800-SXM4-80GB, 2897, 33\n",
+  "compute_process_snapshot": "GPU-f35654b3-bbf5-7303-cfcb-9bd5d3e16e69, 3924761, /data3/LJH/PRISM/.venv/bin/python\nGPU-c2484ded-5f87-237c-bbf0-d23fcb74fdb2, 1078246, /home/szgx/anaconda3/envs/dfot/bin/python\nGPU-6cb11599-704e-c3aa-9e28-5f15faa25c7c, 1448423, /data2/user/LocateMOT_GroundJEV/yestrack_diagnosis_20261101/analysis/.venv-yestrack/bin/python\nGPU-6cb11599-704e-c3aa-9e28-5f15faa25c7c, 1448424, /data2/user/LocateMOT_GroundJEV/yestrack_diagnosis_20261101/analysis/.venv-yestrack/bin/python\nGPU-44f62835-4095-23ec-d3dd-5af16a00705c, 1448424, /data2/user/LocateMOT_GroundJEV/yestrack_diagnosis_20261101/analysis/.venv-yestrack/bin/python\nGPU-883c8be3-25b0-3d19-6fa8-4c2e335e67d2, 2676408, python\nGPU-0322c0e7-ffbf-e068-5bdd-587b8216a9d9, 1047109, /home/szgx/anaconda3/envs/harmon/bin/python\n",
+  "selected": [
+    {
+      "physical_index": 0,
+      "uuid": "GPU-bf21a95d-d96d-9ec5-cb15-b0fb7ad50536",
+      "name": "NVIDIA A800-SXM4-80GB"
+    },
+    {
+      "physical_index": 5,
+      "uuid": "GPU-c6523d98-cb2d-95ed-4cb2-a84936acceb6",
+      "name": "NVIDIA A800-SXM4-80GB"
+    }
+  ],
+  "physical_gpu_count": 2,
+  "masa_run": false
+}

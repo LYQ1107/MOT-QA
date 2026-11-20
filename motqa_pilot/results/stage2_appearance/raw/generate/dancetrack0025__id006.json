@@ -1,0 +1,70 @@
+{
+  "unit_key": "dancetrack0025__id006",
+  "sequence": "dancetrack0025",
+  "gt_id": 6,
+  "phase": "generate",
+  "started_at": "2026-11-04T13:53:15.395728+00:00",
+  "completed_at": "2026-11-04T13:53:21.935699+00:00",
+  "seconds": 6.539999269880354,
+  "prompt_text": "The first image shows three crops of ONE target person at different times. The other image(s) show comparison people from the SAME video; every labeled tile is a different annotated person, shown in up to three crops. These comparison labels are anonymous bookkeeping labels, not appearance attributes.\nWrite one concise English noun phrase (at most 30 words), starting with \"the person\", describing the target using stable, clearly visible clothing, patterns, hair, or accessories. Prefer details that distinguish this person from comparison people. Do not mention actions, pose, scene location, time, spatial relation to others, gallery labels, or GT identity numbers. Visible garment lettering is allowed only if clearly legible. Do not infer colors/details hidden by another person. If no reliable description is possible, use an empty phrase. If a truthful description is shared by others, still provide it and set visually_distinct to false.\nReturn {\"phrase\":\"...\", \"supported_attributes\":[\"...\"], \"visually_distinct\":true, \"limitations\":\"...\"}. A description need not be unique; truthful uncertainty is preferred to invented uniqueness.\nThe target person is also included once among the comparison gallery tiles. Identify that repeated target visually; do not treat the repeated target tile as a different rival. Look for truthful stable appearance that distinguishes the target from OTHER people.",
+  "image_paths": [
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0025/id006_target.jpg",
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0025/generation_gallery_page00.jpg"
+  ],
+  "image_sha256": [
+    "2538cfd1e2891b55ffb5313607769e2c6cb2d3a44b1750eb1dab59fc4c71bdaa",
+    "9f6f621c9c2341ae9570c1b3fddd981dd9fe6d60cc7cc760438a8e755862f87d"
+  ],
+  "response": {
+    "id": "chatcmpl-812a971812a66b75",
+    "object": "chat.completion",
+    "created": 1793800395,
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"phrase\": \"the person with short dark hair wearing a dark brown sleeveless dress with a flared skirt\",\n  \"supported_attributes\": [\"short dark hair\", \"dark brown sleeveless dress\", \"flared skirt\"],\n  \"visually_distinct\": false,\n  \"limitations\": \"The described appearance is shared by multiple dancers in the gallery, including P02, P03, P04, P05, P07, and P09, making it non-distinctive. The target is visually identical to these individuals in clothing and hairstyle.\"\n}",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 1919,
+      "total_tokens": 2040,
+      "completion_tokens": 121,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "check": {
+    "valid": true,
+    "parsed": {
+      "phrase": "the person with short dark hair wearing a dark brown sleeveless dress with a flared skirt",
+      "supported_attributes": [
+        "short dark hair",
+        "dark brown sleeveless dress",
+        "flared skirt"
+      ],
+      "visually_distinct": false,
+      "limitations": "The described appearance is shared by multiple dancers in the gallery, including P02, P03, P04, P05, P07, and P09, making it non-distinctive. The target is visually identical to these individuals in clothing and hairstyle."
+    },
+    "phrase": "the person with short dark hair wearing a dark brown sleeveless dress with a flared skirt",
+    "error": null
+  },
+  "inference_policy_sha256": "ea3ce06e83208db2fc1ed693ee2ac1b349f8ae344fcdc2cb0a22e30ef8df60e3"
+}

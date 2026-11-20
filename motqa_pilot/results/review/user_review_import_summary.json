@@ -1,0 +1,129 @@
+{
+  "processed_at": "2026-11-05T20:19:13.383225+08:00",
+  "original_file": "/home/user/motqa_pilot/results/review/user_submissions/20261105_reference_review_result_4b0bb0e65491.json",
+  "original_sha256": "4b0bb0e654910673b8fe6467c4d463f381212e88783017eb255f727d0ff2a778",
+  "result": "/home/user/motqa_pilot/results/review/reference_review_result_final.json",
+  "result_sha256": "c40b5fb27e275a4860a3b1080db30a49e5abdb431c99066e47cf0b7c90921763",
+  "input": {
+    "total": 154,
+    "pass": 54,
+    "fail": 40,
+    "uncertain": 2,
+    "pending": 58,
+    "completed": 96
+  },
+  "final": {
+    "total": 154,
+    "pass": 51,
+    "fail": 101,
+    "uncertain": 2,
+    "pending": 0,
+    "completed": 154
+  },
+  "by_dataset": {
+    "DanceTrack": {
+      "total": 46,
+      "pass": 22,
+      "fail": 22,
+      "uncertain": 2,
+      "pending": 0,
+      "completed": 46
+    },
+    "MOT17": {
+      "total": 68,
+      "pass": 0,
+      "fail": 68,
+      "uncertain": 0,
+      "pending": 0,
+      "completed": 68
+    },
+    "SportsMOT": {
+      "total": 40,
+      "pass": 29,
+      "fail": 11,
+      "uncertain": 0,
+      "pending": 0,
+      "completed": 40
+    }
+  },
+  "raw_explicit_ambiguity_notes": {
+    "DanceTrack": 3,
+    "SportsMOT": 8,
+    "MOT17": 24
+  },
+  "pass_note_conflicts_resolved": [
+    {
+      "index": 62,
+      "review_id": "refreview_dafd5162cbf13048",
+      "original_verdict": "pass",
+      "original_note": "描述过于笼统，多人符合，无法唯一指认"
+    },
+    {
+      "index": 64,
+      "review_id": "refreview_3c61c9183dfbb700",
+      "original_verdict": "pass",
+      "original_note": "描述过于笼统，多人符合，无法唯一指认"
+    },
+    {
+      "index": 68,
+      "review_id": "refreview_18a1a5fdcbdd109c",
+      "original_verdict": "pass",
+      "original_note": "描述过于笼统，多人符合，无法唯一指认"
+    }
+  ],
+  "changed_decisions": 61,
+  "bulk_pending_to_fail": 58,
+  "sports_appearance_gate": {
+    "sample_n": 40,
+    "completed": 40,
+    "passed": 29,
+    "pass_rate": 0.725,
+    "status": "ALLOW_INDIVIDUALLY_PASSED_ONLY"
+  },
+  "human_passed_descriptions": 51,
+  "generation_eligible_descriptions": 47,
+  "generation_eligible_by_dataset": {
+    "DanceTrack": 22,
+    "SportsMOT": 25
+  },
+  "generation_holds": [
+    {
+      "index": 30,
+      "dataset": "SportsMOT",
+      "reasons": [
+        "less_than_3s_after_locked_review_instant"
+      ]
+    },
+    {
+      "index": 41,
+      "dataset": "SportsMOT",
+      "reasons": [
+        "less_than_3s_after_locked_review_instant"
+      ]
+    },
+    {
+      "index": 49,
+      "dataset": "SportsMOT",
+      "reasons": [
+        "less_than_3s_after_locked_review_instant"
+      ]
+    },
+    {
+      "index": 55,
+      "dataset": "SportsMOT",
+      "reasons": [
+        "less_than_3s_after_locked_review_instant"
+      ]
+    }
+  ],
+  "MOT20_in_this_packet": false,
+  "phrase_policy": "Non-unique descriptions are excluded from single-person appearance references. Do not convert one bound GT ID to a semantic group. Appearance shortfall transfers to box references under the locked configuration.",
+  "locked_files_sha256": {
+    "/home/user/motqa_pilot/results/review/reference_review_selection_locked.json": "cd035a43567957e933f8415330259910a752653befa8295f5dd21bf21e053858",
+    "/home/user/motqa_pilot/results/generation_config_locked.json": "b75ddac560bb71629e37120f97f0c5e23c4b8dddb052e9605d2d750a8fd85166",
+    "/home/user/motqa_pilot/results/visibility_convention.json": "ab72163cdc2ba92a4dfe78bb1970fc4d7ea08974f035c9cd72b33eadc7721c98"
+  },
+  "qa_generated": 0,
+  "new_model_calls": 0,
+  "new_tracker_runs": 0
+}

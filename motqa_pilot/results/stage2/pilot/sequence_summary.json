@@ -1,0 +1,198 @@
+[
+  {
+    "dataset": "DanceTrack",
+    "sequence": "dancetrack0004",
+    "source_split": "val",
+    "eligible_source": true,
+    "source_window": [
+      1,
+      1203
+    ],
+    "frames": 1203,
+    "fps": 20.0,
+    "tracks": 4,
+    "camera_motion": "moving",
+    "events": {
+      "becomes_occluded": 2,
+      "reappears": 2,
+      "enters_frame": 1
+    },
+    "eligible_events": {
+      "becomes_occluded": 2,
+      "reappears": 2,
+      "enters_frame": 1
+    },
+    "overlap_episodes": 126,
+    "crossings": 3,
+    "crossing_unknown": 72,
+    "eligible_overlap_episodes": 126,
+    "eligible_crossings": 3,
+    "terminal_disappearances": 0,
+    "initial_edge_appearances": 1,
+    "reference_intervals": {
+      "appearance": 1,
+      "event": 4,
+      "position": 38
+    },
+    "reference_intervals_with_future_3s": {
+      "appearance": 1,
+      "event": 4,
+      "position": 38
+    },
+    "position_frame_counts": {
+      "leftmost": 910,
+      "rightmost": 834
+    },
+    "visibility": {
+      "rows": 4586,
+      "track_ids": 4,
+      "present_frames": 4586,
+      "visible_frames": 4586,
+      "region_ambiguous_visible_rows": 1153,
+      "source_last_column_quantiles": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible_at_threshold": null,
+      "true_visibility_available": false
+    }
+  },
+  {
+    "dataset": "MOT17",
+    "sequence": "MOT17-02-FRCNN",
+    "source_split": "train",
+    "eligible_source": true,
+    "source_window": [
+      301,
+      600
+    ],
+    "frames": 600,
+    "fps": 30.0,
+    "tracks": 62,
+    "camera_motion": "static",
+    "events": {
+      "leaves_frame": 8,
+      "becomes_occluded": 74,
+      "reappears": 53,
+      "enters_frame": 6
+    },
+    "eligible_events": {
+      "becomes_occluded": 43,
+      "reappears": 29,
+      "leaves_frame": 6,
+      "enters_frame": 5
+    },
+    "overlap_episodes": 135,
+    "crossings": 1,
+    "crossing_unknown": 121,
+    "eligible_overlap_episodes": 66,
+    "eligible_crossings": 0,
+    "terminal_disappearances": 29,
+    "initial_edge_appearances": 0,
+    "reference_intervals": {
+      "appearance": 19,
+      "event": 4,
+      "position": 17
+    },
+    "reference_intervals_with_future_3s": {
+      "appearance": 17,
+      "event": 3,
+      "position": 14
+    },
+    "position_frame_counts": {
+      "leftmost": 146,
+      "rightmost": 262
+    },
+    "visibility": {
+      "rows": 18581,
+      "track_ids": 62,
+      "present_frames": 18581,
+      "visible_frames": 9393,
+      "region_ambiguous_visible_rows": 3400,
+      "source_last_column_quantiles": [
+        0.0,
+        0.0,
+        0.0,
+        0.26132,
+        0.90438,
+        1.0,
+        1.0
+      ],
+      "visible_at_threshold": {
+        "0.0": 18581,
+        "0.1": 10993,
+        "0.25": 9393,
+        "0.5": 7288,
+        "0.75": 5416,
+        "1.0": 3842
+      },
+      "true_visibility_available": true
+    }
+  },
+  {
+    "dataset": "SportsMOT",
+    "sequence": "v_00HRwkvvjtQ_c001",
+    "source_split": "val",
+    "eligible_source": true,
+    "source_window": [
+      1,
+      1162
+    ],
+    "frames": 1162,
+    "fps": 25.0,
+    "tracks": 10,
+    "camera_motion": "moving",
+    "events": {
+      "leaves_frame": 5,
+      "reappears": 5,
+      "enters_frame": 1
+    },
+    "eligible_events": {
+      "leaves_frame": 5,
+      "reappears": 5,
+      "enters_frame": 1
+    },
+    "overlap_episodes": 159,
+    "crossings": 83,
+    "crossing_unknown": 17,
+    "eligible_overlap_episodes": 159,
+    "eligible_crossings": 83,
+    "terminal_disappearances": 0,
+    "initial_edge_appearances": 0,
+    "reference_intervals": {
+      "event": 5,
+      "position": 27
+    },
+    "reference_intervals_with_future_3s": {
+      "event": 5,
+      "position": 27
+    },
+    "position_frame_counts": {
+      "leftmost": 878,
+      "rightmost": 454
+    },
+    "visibility": {
+      "rows": 11276,
+      "track_ids": 10,
+      "present_frames": 11276,
+      "visible_frames": 11276,
+      "region_ambiguous_visible_rows": 2985,
+      "source_last_column_quantiles": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible_at_threshold": null,
+      "true_visibility_available": false
+    }
+  }
+]

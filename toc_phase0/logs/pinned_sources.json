@@ -1,0 +1,8 @@
+{
+  "dataset_repo": "anonymous-video-benchmark/toc_bench",
+  "dataset_revision": "da3065053d958c38151304e33a42e138b1899eaf",
+  "github_repo": "junzhe-c/toc_bench",
+  "github_commit": "e4a10bc1fd31ec1af9482bcfc827e41f2fac769a",
+  "video_files": 1951,
+  "video_bytes": 15235916868
+}

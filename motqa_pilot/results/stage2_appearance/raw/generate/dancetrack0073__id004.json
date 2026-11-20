@@ -1,0 +1,73 @@
+{
+  "unit_key": "dancetrack0073__id004",
+  "sequence": "dancetrack0073",
+  "gt_id": 4,
+  "phase": "generate",
+  "started_at": "2026-11-04T13:57:45.315346+00:00",
+  "completed_at": "2026-11-04T13:57:52.199325+00:00",
+  "seconds": 6.884013045113534,
+  "prompt_text": "The first image shows three crops of ONE target person at different times. The other image(s) show comparison people from the SAME video; every labeled tile is a different annotated person, shown in up to three crops. These comparison labels are anonymous bookkeeping labels, not appearance attributes.\nWrite one concise English noun phrase (at most 30 words), starting with \"the person\", describing the target using stable, clearly visible clothing, patterns, hair, or accessories. Prefer details that distinguish this person from comparison people. Do not mention actions, pose, scene location, time, spatial relation to others, gallery labels, or GT identity numbers. Visible garment lettering is allowed only if clearly legible. Do not infer colors/details hidden by another person. If no reliable description is possible, use an empty phrase. If a truthful description is shared by others, still provide it and set visually_distinct to false.\nReturn {\"phrase\":\"...\", \"supported_attributes\":[\"...\"], \"visually_distinct\":true, \"limitations\":\"...\"}. A description need not be unique; truthful uncertainty is preferred to invented uniqueness.\nThe target person is also included once among the comparison gallery tiles. Identify that repeated target visually; do not treat the repeated target tile as a different rival. Look for truthful stable appearance that distinguishes the target from OTHER people.",
+  "image_paths": [
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0073/id004_target.jpg",
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0073/generation_gallery_page00.jpg",
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0073/generation_gallery_page01.jpg"
+  ],
+  "image_sha256": [
+    "04a5a44511e26740017d5d81f2e941cb881f3555a0913f4294eb09213989ff30",
+    "0f0d5127497c60ff3d60c01448b64fb704abd1ac9b47a19511090e62a6bd0912",
+    "62bf96838f7d084a6632ca549afbe040289e0d0de348db2bf348712221345b3f"
+  ],
+  "response": {
+    "id": "chatcmpl-ace42e465034a117",
+    "object": "chat.completion",
+    "created": 1793800665,
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"phrase\": \"the person wearing a black t-shirt and gray pants with a black face mask featuring a white floral design\",\n  \"supported_attributes\": [\"black t-shirt\", \"gray pants\", \"black face mask\", \"white floral design on mask\"],\n  \"visually_distinct\": false,\n  \"limitations\": \"The clothing and mask design are shared by multiple individuals in the gallery, including P07, P08, P09, P10, P11, P12, and P14, making the description not visually distinct.\"\n}",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 2164,
+      "total_tokens": 2284,
+      "completion_tokens": 120,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "check": {
+    "valid": true,
+    "parsed": {
+      "phrase": "the person wearing a black t-shirt and gray pants with a black face mask featuring a white floral design",
+      "supported_attributes": [
+        "black t-shirt",
+        "gray pants",
+        "black face mask",
+        "white floral design on mask"
+      ],
+      "visually_distinct": false,
+      "limitations": "The clothing and mask design are shared by multiple individuals in the gallery, including P07, P08, P09, P10, P11, P12, and P14, making the description not visually distinct."
+    },
+    "phrase": "the person wearing a black t-shirt and gray pants with a black face mask featuring a white floral design",
+    "error": null
+  },
+  "inference_policy_sha256": "ea3ce06e83208db2fc1ed693ee2ac1b349f8ae344fcdc2cb0a22e30ef8df60e3"
+}

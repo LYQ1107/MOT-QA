@@ -1,0 +1,11 @@
+{
+  "completed_at": "2026-11-04T20:05:32.016782+08:00",
+  "elapsed_seconds": 101.21587512129918,
+  "status": "INVENTORY_COMPUTED_REPORT_PENDING",
+  "sequence_directories": 197,
+  "unique_videos": 169,
+  "unresolved_cameras": 5,
+  "anomalies": 0,
+  "gpu_used": false,
+  "raw_files_modified": false
+}

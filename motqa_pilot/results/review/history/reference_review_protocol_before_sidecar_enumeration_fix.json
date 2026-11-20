@@ -1,0 +1,46 @@
+{
+  "generated_at": "2026-11-04T23:16:20.333648+08:00",
+  "seed": 42,
+  "scope": "appearance human review only, no QA, tracker, learned-model inference or training",
+  "main_counts": {
+    "dance_flagged_vlm": 8,
+    "dance_original_refer": 21,
+    "sports_lamot_stratified": 40,
+    "mot17_lamot": 68
+  },
+  "additional_counts": {
+    "dance_agent_cleared_vlm": 17
+  },
+  "sports_selection": "all60 original appearance-unique video/ID units grouped across29 videos; seed42 shuffle videos and IDs, round-robin until40; no repeated identity",
+  "original_phrase_selection": "per identity choose interval with most future3s frames, then longest unique interval, then stable ref_id",
+  "original_tref_selection": "within that exact annotation-unique interval; prefer >=3s remaining, previous geometric thresholds, >=2 others visible, then fixed quality, earliest tie",
+  "vlm_tref_selection": "retain the exact previously validated single instant, do not change identity or phrase",
+  "quality": "sqrt(area/max-ID-area) * in-frame fraction * (1 - max other-box cover / target area)",
+  "geometric_thresholds": {
+    "in_frame_min": 0.95,
+    "max_cover": 0.35,
+    "min_width": 16,
+    "min_height": 48
+  },
+  "other_target_views": "two distinct visible frames in the eligible source window, excluding t_ref; quality with mild preference for20%/80% temporal span; prefer0.5s separation, record relaxation",
+  "similarity": {
+    "kind": "deterministic CPU color/gradient proxy, not a learned ReID feature or semantic guarantee",
+    "crop_padding_each_side": 0.05,
+    "resize": [
+      64,
+      128
+    ],
+    "HSV": "three horizontal strips, HxS histogram8x4 plus V8; square-root probability then L2 normalize",
+    "HOG": "NumPy central gradients, unsigned hard9-bin orientation, magnitude-weighted8x8 cells,16x16 blocks stride8, per-block then global L2 normalize; 64x128 image",
+    "score": ".7*cos(HSV)+.3*cos(HOG)",
+    "pool": "all other GT-visible people in the same original frame; descending score, GT-ID tie break"
+  },
+  "render": "full native-resolution frame; target red3px, other GT-present people gray1px; no ID labels; JPEG90; crops JPEG95",
+  "review_only": "marked gray/red images are for user review, never an appearance-evaluation input",
+  "missing_horizon": "keep requested identities and explicitly flag horizon<3s; no silent drop or eligibility claim",
+  "no_description_rewrite": true,
+  "default_verdict": null,
+  "future_generation_gate": "only explicit user pass for exact reviewed phrase+instant; Sports>=28/40 pass, otherwise globally disable Sports appearance",
+  "all_new_outputs_under": "/home/user/motqa_pilot/results/review",
+  "generation_config_sha256": "b75ddac560bb71629e37120f97f0c5e23c4b8dddb052e9605d2d750a8fd85166"
+}

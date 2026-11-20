@@ -1,0 +1,15 @@
+{
+  "started_at": "2026-11-02T16:13:38.330927+08:00",
+  "interval_s": 5,
+  "devices": {
+    "GPU-44f62835-4095-23ec-d3dd-5af16a00705c": {
+      "own_peak_MiB": 57326.0,
+      "total_peak_MiB": 78859.75
+    },
+    "GPU-c6523d98-cb2d-95ed-4cb2-a84936acceb6": {
+      "own_peak_MiB": 58012.0,
+      "total_peak_MiB": 81905.75
+    }
+  },
+  "completed_at": "2026-11-02T18:16:16.768093+08:00"
+}

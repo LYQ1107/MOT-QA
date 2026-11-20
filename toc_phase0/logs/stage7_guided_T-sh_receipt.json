@@ -1,0 +1,10 @@
+{
+  "completed_at": "2026-11-04T18:52:46.789576+08:00",
+  "condition": "T-sh",
+  "mode": "guided",
+  "predictions": 242,
+  "new_predictions": 242,
+  "elapsed_s": 658.4433347037993,
+  "output": "/data2/user/toc_phase0/results/stage7/guided_T-sh_predictions.jsonl",
+  "sha256": "fdb7b96ae3a81bde3062a752177c491f5a428f253df853e203ea609e3c2c5599"
+}

@@ -1,0 +1,468 @@
+{
+  "generated_at": "2026-11-01T18:19:52.920821+08:00",
+  "groups": {
+    "full_749": {
+      "total": 749,
+      "covered": 220,
+      "coverage": 0.2937249666221629,
+      "correct": 109,
+      "accuracy_all": 0.14552736982643524,
+      "accuracy_on_covered": 0.4954545454545455
+    },
+    "trackable_324": {
+      "total": 324,
+      "covered": 220,
+      "coverage": 0.6790123456790124,
+      "correct": 109,
+      "accuracy_all": 0.33641975308641975,
+      "accuracy_on_covered": 0.4954545454545455
+    },
+    "main_726": {
+      "total": 726,
+      "covered": 220,
+      "coverage": 0.30303030303030304,
+      "correct": 109,
+      "accuracy_all": 0.15013774104683195,
+      "accuracy_on_covered": 0.4954545454545455
+    },
+    "main_trackable_301": {
+      "total": 301,
+      "covered": 220,
+      "coverage": 0.7308970099667774,
+      "correct": 109,
+      "accuracy_all": 0.36212624584717606,
+      "accuracy_on_covered": 0.4954545454545455
+    },
+    "dimension:cross_object_order": {
+      "total": 187,
+      "covered": 10,
+      "coverage": 0.053475935828877004,
+      "correct": 7,
+      "accuracy_all": 0.0374331550802139,
+      "accuracy_on_covered": 0.7
+    },
+    "dimension:event_count": {
+      "total": 300,
+      "covered": 106,
+      "coverage": 0.35333333333333333,
+      "correct": 30,
+      "accuracy_all": 0.1,
+      "accuracy_on_covered": 0.2830188679245283
+    },
+    "dimension:event_ordering": {
+      "total": 105,
+      "covered": 2,
+      "coverage": 0.01904761904761905,
+      "correct": 1,
+      "accuracy_all": 0.009523809523809525,
+      "accuracy_on_covered": 0.5
+    },
+    "dimension:reappear_identity": {
+      "total": 23,
+      "covered": 0,
+      "coverage": 0.0,
+      "correct": 0,
+      "accuracy_all": 0.0,
+      "accuracy_on_covered": null
+    },
+    "dimension:reappear_or_disappear": {
+      "total": 134,
+      "covered": 102,
+      "coverage": 0.7611940298507462,
+      "correct": 71,
+      "accuracy_all": 0.5298507462686567,
+      "accuracy_on_covered": 0.696078431372549
+    },
+    "trackable_dimension:cross_object_order": {
+      "total": 38,
+      "covered": 10,
+      "coverage": 0.2631578947368421,
+      "correct": 7,
+      "accuracy_all": 0.18421052631578946,
+      "accuracy_on_covered": 0.7
+    },
+    "trackable_dimension:event_count": {
+      "total": 106,
+      "covered": 106,
+      "coverage": 1.0,
+      "correct": 30,
+      "accuracy_all": 0.2830188679245283,
+      "accuracy_on_covered": 0.2830188679245283
+    },
+    "trackable_dimension:event_ordering": {
+      "total": 23,
+      "covered": 2,
+      "coverage": 0.08695652173913043,
+      "correct": 1,
+      "accuracy_all": 0.043478260869565216,
+      "accuracy_on_covered": 0.5
+    },
+    "trackable_dimension:reappear_identity": {
+      "total": 23,
+      "covered": 0,
+      "coverage": 0.0,
+      "correct": 0,
+      "accuracy_all": 0.0,
+      "accuracy_on_covered": null
+    },
+    "trackable_dimension:reappear_or_disappear": {
+      "total": 134,
+      "covered": 102,
+      "coverage": 0.7611940298507462,
+      "correct": 71,
+      "accuracy_all": 0.5298507462686567,
+      "accuracy_on_covered": 0.696078431372549
+    }
+  },
+  "event_types": {
+    "changes_abruptly": {
+      "total": 126,
+      "covered": 0,
+      "coverage": 0.0,
+      "correct": 0,
+      "accuracy_all": 0.0,
+      "accuracy_on_covered": null
+    },
+    "comes_back_into_view": {
+      "total": 252,
+      "covered": 118,
+      "coverage": 0.46825396825396826,
+      "correct": 46,
+      "accuracy_all": 0.18253968253968253,
+      "accuracy_on_covered": 0.3898305084745763
+    },
+    "disappears": {
+      "total": 99,
+      "covered": 58,
+      "coverage": 0.5858585858585859,
+      "correct": 48,
+      "accuracy_all": 0.48484848484848486,
+      "accuracy_on_covered": 0.8275862068965517
+    },
+    "enters_frame": {
+      "total": 56,
+      "covered": 1,
+      "coverage": 0.017857142857142856,
+      "correct": 0,
+      "accuracy_all": 0.0,
+      "accuracy_on_covered": 0.0
+    },
+    "first_shows_up": {
+      "total": 37,
+      "covered": 4,
+      "coverage": 0.10810810810810811,
+      "correct": 2,
+      "accuracy_all": 0.05405405405405406,
+      "accuracy_on_covered": 0.5
+    },
+    "fully_hidden": {
+      "total": 307,
+      "covered": 148,
+      "coverage": 0.4820846905537459,
+      "correct": 87,
+      "accuracy_all": 0.28338762214983715,
+      "accuracy_on_covered": 0.5878378378378378
+    },
+    "leaves_frame": {
+      "total": 238,
+      "covered": 107,
+      "coverage": 0.4495798319327731,
+      "correct": 74,
+      "accuracy_all": 0.31092436974789917,
+      "accuracy_on_covered": 0.6915887850467289
+    },
+    "partly_hidden": {
+      "total": 299,
+      "covered": 0,
+      "coverage": 0.0,
+      "correct": 0,
+      "accuracy_all": 0.0,
+      "accuracy_on_covered": null
+    }
+  },
+  "event_type_counting": "multi-label; totals overlap",
+  "rule_parameters": {
+    "gap_seconds": 0.5,
+    "edge_center_margin": 0.05,
+    "fragment_max_gap_seconds": 10.0,
+    "fragment_max_center_distance": 0.25,
+    "fragment_max_area_ratio": 3.0,
+    "event_tie_tolerance_seconds": 0.2,
+    "representative": "largest sum of confidence; greedily attach non-overlapping adjacent fragments by geometry",
+    "unsupported": [
+      "partly_hidden",
+      "changes_abruptly",
+      "other"
+    ],
+    "reid": "compare original MASA IDs before/after first observed query-visibility gap; no ID merging for identity decision"
+  },
+  "numerical": {
+    "total": 300,
+    "covered": 106,
+    "legal": 80,
+    "legal_ratio_all": 0.26666666666666666,
+    "legal_ratio_covered": 0.7547169811320755,
+    "raw_answers": {
+      "3": 17,
+      "None": 194,
+      "5 or more": 29,
+      "1": 12,
+      "4": 14,
+      "2": 20,
+      "0": 14
+    }
+  },
+  "abstention_reasons": {
+    "unsupported event type: changes_abruptly": 126,
+    "no observed disappearance/reappearance gap": 23,
+    "no disappearance event observed": 32,
+    "unsupported event type: partly_hidden": 299,
+    "at least one requested event was not observed": 20,
+    "a cross-object event was not observed": 27,
+    "cross-object event timestamps tied": 1,
+    "event timestamps tied at 5 fps": 1
+  },
+  "main_official_metrics": {
+    "model": "MASA_rule",
+    "n_total": 749,
+    "n_scored": 749,
+    "n_missing_preds": 0,
+    "n_invalid_extraction": 555,
+    "invalid_rate": 0.7409879839786382,
+    "overall": 0.14552736982643524,
+    "macro_dim": 0.13536154217453603,
+    "tier_weighted": 0.08740099339638799,
+    "hda": null,
+    "per_dim": {
+      "event_count": 0.1,
+      "reappear_identity": 0.0,
+      "reappear_or_disappear": 0.5298507462686567,
+      "cross_object_order": 0.0374331550802139,
+      "event_ordering": 0.009523809523809525
+    },
+    "per_dim_counts": {
+      "event_count": {
+        "correct": 30,
+        "total": 300
+      },
+      "reappear_identity": {
+        "correct": 0,
+        "total": 23
+      },
+      "reappear_or_disappear": {
+        "correct": 71,
+        "total": 134
+      },
+      "cross_object_order": {
+        "correct": 7,
+        "total": 187
+      },
+      "event_ordering": {
+        "correct": 1,
+        "total": 105
+      }
+    },
+    "per_tier": {
+      "tier2": 0.18149466192170818,
+      "tier3": 0.0374331550802139
+    },
+    "per_tier_counts": {
+      "tier2": {
+        "correct": 102,
+        "total": 562
+      },
+      "tier3": {
+        "correct": 7,
+        "total": 187
+      }
+    },
+    "per_format": {
+      "numerical": 0.1,
+      "sp": 0.22674418604651161,
+      "ordering_4": 0.018867924528301886,
+      "ordering_3": 0.0
+    },
+    "per_format_counts": {
+      "numerical": {
+        "correct": 30,
+        "total": 300
+      },
+      "sp": {
+        "correct": 78,
+        "total": 344
+      },
+      "ordering_4": {
+        "correct": 1,
+        "total": 53
+      },
+      "ordering_3": {
+        "correct": 0,
+        "total": 52
+      }
+    },
+    "per_source": {
+      "charades": 0.13839285714285715,
+      "perception": 0.1564625850340136,
+      "mose": 0.14285714285714285
+    },
+    "per_source_counts": {
+      "charades": {
+        "correct": 62,
+        "total": 448
+      },
+      "perception": {
+        "correct": 46,
+        "total": 294
+      },
+      "mose": {
+        "correct": 1,
+        "total": 7
+      }
+    },
+    "hallucination_buckets": {
+      "clean": {
+        "correct": 109,
+        "total": 749,
+        "accuracy": 0.14552736982643524
+      },
+      "variant_a": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": 0.0
+      },
+      "variant_b": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": 0.0
+      },
+      "distractor_only": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": 0.0
+      }
+    }
+  },
+  "trackable_official_metrics": {
+    "model": "MASA_rule",
+    "n_total": 324,
+    "n_scored": 324,
+    "n_missing_preds": 0,
+    "n_invalid_extraction": 130,
+    "invalid_rate": 0.4012345679012346,
+    "overall": 0.33641975308641975,
+    "macro_dim": 0.20811168027570792,
+    "tier_weighted": 0.19940927493559074,
+    "hda": null,
+    "per_dim": {
+      "event_count": 0.2830188679245283,
+      "reappear_identity": 0.0,
+      "reappear_or_disappear": 0.5298507462686567,
+      "event_ordering": 0.043478260869565216,
+      "cross_object_order": 0.18421052631578946
+    },
+    "per_dim_counts": {
+      "event_count": {
+        "correct": 30,
+        "total": 106
+      },
+      "reappear_identity": {
+        "correct": 0,
+        "total": 23
+      },
+      "reappear_or_disappear": {
+        "correct": 71,
+        "total": 134
+      },
+      "event_ordering": {
+        "correct": 1,
+        "total": 23
+      },
+      "cross_object_order": {
+        "correct": 7,
+        "total": 38
+      }
+    },
+    "per_tier": {
+      "tier2": 0.35664335664335667,
+      "tier3": 0.18421052631578946
+    },
+    "per_tier_counts": {
+      "tier2": {
+        "correct": 102,
+        "total": 286
+      },
+      "tier3": {
+        "correct": 7,
+        "total": 38
+      }
+    },
+    "per_format": {
+      "numerical": 0.2830188679245283,
+      "sp": 0.4,
+      "ordering_4": 0.0625,
+      "ordering_3": 0.0
+    },
+    "per_format_counts": {
+      "numerical": {
+        "correct": 30,
+        "total": 106
+      },
+      "sp": {
+        "correct": 78,
+        "total": 195
+      },
+      "ordering_4": {
+        "correct": 1,
+        "total": 16
+      },
+      "ordering_3": {
+        "correct": 0,
+        "total": 7
+      }
+    },
+    "per_source": {
+      "charades": 0.31155778894472363,
+      "perception": 0.3770491803278688,
+      "mose": 0.3333333333333333
+    },
+    "per_source_counts": {
+      "charades": {
+        "correct": 62,
+        "total": 199
+      },
+      "perception": {
+        "correct": 46,
+        "total": 122
+      },
+      "mose": {
+        "correct": 1,
+        "total": 3
+      }
+    },
+    "hallucination_buckets": {
+      "clean": {
+        "correct": 109,
+        "total": 324,
+        "accuracy": 0.33641975308641975
+      },
+      "variant_a": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": 0.0
+      },
+      "variant_b": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": 0.0
+      },
+      "distractor_only": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": 0.0
+      }
+    }
+  },
+  "missing_predictions": 0,
+  "metadata_used_by_predictor": false,
+  "raw_integer_counts_preserved": true
+}

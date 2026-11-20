@@ -1,0 +1,79 @@
+{
+  "unit_key": "dancetrack0094__id021",
+  "sequence": "dancetrack0094",
+  "gt_id": 21,
+  "phase": "blind_match",
+  "started_at": "2026-11-04T14:12:56.598067+00:00",
+  "completed_at": "2026-11-04T14:13:04.247868+00:00",
+  "seconds": 7.6498425379395485,
+  "prompt_text": "Match this appearance phrase against ALL anonymous person tiles in the image(s): \"the person with a full beard, wearing a dark long-sleeve top and dark pants with white sneakers\"\nEvery labeled tile is one different person from the same video; its two crops are held-out views. Labels and tile order do not reveal the intended target. A phrase may match none, one, or several people. Include ALL people who visibly satisfy the whole phrase in matches. Include in uncertain any plausible person for whom the views do not resolve an attribute, instead of assuming that person is a non-match. Do not pick a best match when several fit. A location or action does not distinguish appearance. Omitted labels mean clear non-matches.\nReturn {\"matches\":[\"P01\"],\"uncertain\":[],\"reason\":\"brief visual explanation\"}. Valid labels: [\"P01\", \"P02\", \"P03\", \"P04\", \"P05\", \"P06\", \"P07\", \"P08\", \"P09\", \"P10\", \"P11\", \"P12\", \"P13\", \"P14\", \"P15\", \"P16\", \"P17\", \"P18\", \"P19\", \"P20\", \"P21\", \"P22\", \"P23\", \"P24\", \"P25\"].",
+  "image_paths": [
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0094/heldout_gallery_page00.jpg",
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0094/heldout_gallery_page01.jpg",
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0094/heldout_gallery_page02.jpg"
+  ],
+  "image_sha256": [
+    "93a06bb47ccbbcdf987b0d59300e81bb217cf5210b8f8e475e36543150743796",
+    "1654fa98ed5d72ad6084528096b52f8afd41c489f12dc25df0e7d1a0e1db1465",
+    "270a8a435d33b49fe1fff07f750557a6e7eea2335c6bcb89f498fa4f11e4bf76"
+  ],
+  "response": {
+    "id": "chatcmpl-bde1c9d41adb5954",
+    "object": "chat.completion",
+    "created": 1793801576,
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"matches\":[\"P17\",\"P18\",\"P19\",\"P24\"],\"uncertain\":[],\"reason\":\"The phrase specifies a person with a full beard, wearing a dark long-sleeve top, dark pants, and white sneakers. P17, P18, P19, and P24 all show individuals with visible full beards, dark long-sleeve tops, dark pants, and white sneakers in their crops. Other individuals either lack a full beard (e.g., P01, P02, P03, etc.) or are not clearly visible enough to confirm all attributes. No other person in the tiles clearly satisfies all the appearance criteria.\"}",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 2389,
+      "total_tokens": 2533,
+      "completion_tokens": 144,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "check": {
+    "valid": true,
+    "parsed": {
+      "matches": [
+        "P17",
+        "P18",
+        "P19",
+        "P24"
+      ],
+      "uncertain": [],
+      "reason": "The phrase specifies a person with a full beard, wearing a dark long-sleeve top, dark pants, and white sneakers. P17, P18, P19, and P24 all show individuals with visible full beards, dark long-sleeve tops, dark pants, and white sneakers in their crops. Other individuals either lack a full beard (e.g., P01, P02, P03, etc.) or are not clearly visible enough to confirm all attributes. No other person in the tiles clearly satisfies all the appearance criteria."
+    },
+    "matched_gt_ids": [
+      3,
+      12,
+      19,
+      18
+    ],
+    "uncertain_gt_ids": [],
+    "passed": false,
+    "error": null
+  },
+  "inference_policy_sha256": "ea3ce06e83208db2fc1ed693ee2ac1b349f8ae344fcdc2cb0a22e30ef8df60e3"
+}

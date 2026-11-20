@@ -1,0 +1,12 @@
+{
+  "time_decimals": 3,
+  "appearance": "Original human text unchanged; t_ref in metadata",
+  "event": {
+    "enters_frame": "the person who enters the frame from the {edge} at around {time:.3f} s",
+    "leaves_frame": "the person who leaves the frame near the {edge} edge at around {time:.3f} s",
+    "becomes_occluded": "the person who disappears from view at around {time:.3f} s",
+    "reappears": "the person who comes back into view at around {time:.3f} s"
+  },
+  "position": "the {leftmost|rightmost} person at {t_ref:.3f} s",
+  "qa_templates_created": false
+}

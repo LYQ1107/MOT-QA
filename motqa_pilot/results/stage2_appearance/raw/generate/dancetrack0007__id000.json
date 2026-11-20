@@ -1,0 +1,70 @@
+{
+  "unit_key": "dancetrack0007__id000",
+  "sequence": "dancetrack0007",
+  "gt_id": 0,
+  "phase": "generate",
+  "started_at": "2026-11-04T13:51:39.419767+00:00",
+  "completed_at": "2026-11-04T13:51:44.790969+00:00",
+  "seconds": 5.371236817911267,
+  "prompt_text": "The first image shows three crops of ONE target person at different times. The other image(s) show comparison people from the SAME video; every labeled tile is a different annotated person, shown in up to three crops. These comparison labels are anonymous bookkeeping labels, not appearance attributes.\nWrite one concise English noun phrase (at most 30 words), starting with \"the person\", describing the target using stable, clearly visible clothing, patterns, hair, or accessories. Prefer details that distinguish this person from comparison people. Do not mention actions, pose, scene location, time, spatial relation to others, gallery labels, or GT identity numbers. Visible garment lettering is allowed only if clearly legible. Do not infer colors/details hidden by another person. If no reliable description is possible, use an empty phrase. If a truthful description is shared by others, still provide it and set visually_distinct to false.\nReturn {\"phrase\":\"...\", \"supported_attributes\":[\"...\"], \"visually_distinct\":true, \"limitations\":\"...\"}. A description need not be unique; truthful uncertainty is preferred to invented uniqueness.\nThe target person is also included once among the comparison gallery tiles. Identify that repeated target visually; do not treat the repeated target tile as a different rival. Look for truthful stable appearance that distinguishes the target from OTHER people.",
+  "image_paths": [
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0007/id000_target.jpg",
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0007/generation_gallery_page00.jpg"
+  ],
+  "image_sha256": [
+    "3a9a56fe30981148f764724c2bffb7929242054ae81e98e0c4d110f41dac0e95",
+    "110ba3fe7aea1a9740f8db934c2faa25f918d6b6f335bbebbcd1bd7f7f5f1fdf"
+  ],
+  "response": {
+    "id": "chatcmpl-8331334bb2da0d10",
+    "object": "chat.completion",
+    "created": 1793800299,
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"phrase\": \"the person with long light brown hair wearing a white long-sleeve crop top and matching white pants\",\n  \"supported_attributes\": [\"long light brown hair\", \"white long-sleeve crop top\", \"white pants\"],\n  \"visually_distinct\": false,\n  \"limitations\": \"The outfit is shared by multiple people in the gallery; the hair color and length are similar to others, making the description not uniquely distinguishing.\"\n}",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 1433,
+      "total_tokens": 1528,
+      "completion_tokens": 95,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "check": {
+    "valid": true,
+    "parsed": {
+      "phrase": "the person with long light brown hair wearing a white long-sleeve crop top and matching white pants",
+      "supported_attributes": [
+        "long light brown hair",
+        "white long-sleeve crop top",
+        "white pants"
+      ],
+      "visually_distinct": false,
+      "limitations": "The outfit is shared by multiple people in the gallery; the hair color and length are similar to others, making the description not uniquely distinguishing."
+    },
+    "phrase": "the person with long light brown hair wearing a white long-sleeve crop top and matching white pants",
+    "error": null
+  },
+  "inference_policy_sha256": "ea3ce06e83208db2fc1ed693ee2ac1b349f8ae344fcdc2cb0a22e30ef8df60e3"
+}

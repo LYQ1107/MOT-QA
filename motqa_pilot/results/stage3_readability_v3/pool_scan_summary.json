@@ -1,0 +1,98 @@
+{
+  "recorded_at": "2026-11-06T20:16:10.659601+08:00",
+  "old_candidate_n": 900,
+  "directly_repairable_n": 722,
+  "old_questions_needing_replacement_n": 178,
+  "eligible_pool_n": 92740,
+  "rejection_reasons_nonexclusive": {
+    "negative_question_has_actual_return_including_short_gap": 1132,
+    "original_hard_rule:position_reference_comparison_margin": 13938,
+    "original_hard_rule:unknown_crossing_cannot_determine_count_or_absence": 5372,
+    "original_hard_rule:exit_return_identity_scope": 236,
+    "numeric_time_sampling_interval_over_1s": 80,
+    "visible_run_around_gap_under_0_6s": 600,
+    "gap_under_readability_2s": 1084,
+    "32_frames_do_not_resolve_gap_context": 188,
+    "event_reference_no_clear_wide_anchor": 314,
+    "event_reference_visible_run_too_short": 273,
+    "reanchored_reference_too_close_to_question": 320,
+    "original_hard_rule:composition_has_near_threshold_exit": 18,
+    "event_reference_insufficient_start_context": 372,
+    "original_hard_rule:zero_composition_has_event_within2s_extension": 30,
+    "original_hard_rule:displayed_time_bin_below1s": 2
+  },
+  "operation_dataset": {
+    "O1": {
+      "DanceTrack": 6101,
+      "SportsMOT": 11036,
+      "MOT17": 727
+    },
+    "O2": {
+      "DanceTrack": 11978,
+      "SportsMOT": 24808,
+      "MOT17": 1496
+    },
+    "O3": {
+      "DanceTrack": 200,
+      "SportsMOT": 1185,
+      "MOT17": 24
+    },
+    "O4": {
+      "DanceTrack": 523,
+      "SportsMOT": 2335,
+      "MOT17": 0
+    },
+    "O5": {
+      "DanceTrack": 333,
+      "SportsMOT": 1226,
+      "MOT17": 40
+    },
+    "O6": {
+      "DanceTrack": 3881,
+      "SportsMOT": 6399,
+      "MOT17": 141
+    },
+    "O7": {
+      "DanceTrack": 721,
+      "SportsMOT": 2093,
+      "MOT17": 102
+    },
+    "O8": {
+      "DanceTrack": 4223,
+      "SportsMOT": 11137,
+      "MOT17": 449
+    },
+    "composition": {
+      "DanceTrack": 302,
+      "SportsMOT": 1279,
+      "MOT17": 1
+    }
+  },
+  "reference_counts": {
+    "box": 73689,
+    "position": 14925,
+    "appearance": 1068,
+    "event": 3058
+  },
+  "numeric_counts_by_operation": {
+    "O4": 1428,
+    "O3": 667,
+    "O5": 154
+  },
+  "pinned_pool_ids": [
+    39300,
+    4415,
+    5585,
+    46832,
+    7094,
+    57283,
+    71994,
+    116481,
+    76956,
+    24244,
+    91360
+  ],
+  "seconds": 20.138157562352717,
+  "no_model_inference": true,
+  "no_source_GT_or_lock_edits": true
+}

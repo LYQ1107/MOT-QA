@@ -1,0 +1,8 @@
+{
+  "position_reference_comparison_margin": 14012,
+  "unknown_crossing_cannot_determine_count_or_absence": 5327,
+  "exit_return_identity_scope": 236,
+  "composition_has_near_threshold_exit": 18,
+  "zero_composition_has_event_within2s_extension": 30,
+  "displayed_time_bin_below1s": 2
+}

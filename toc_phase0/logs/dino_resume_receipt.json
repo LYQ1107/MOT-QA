@@ -1,0 +1,9 @@
+{
+  "status": "DINO_RESUME_COMPLETE_SHA256_VERIFIED",
+  "source": "https://huggingface.co/IDEA-Research/grounding-dino-base/resolve/12bdfa3120f3e7ec7b434d90674b3396eccf88eb/model.safetensors",
+  "bytes": 933400872,
+  "sha256": "5548f844c928c4b6f411fa8cbcc2bfa8dbbba437cb1d513975519f93c2a9ed21",
+  "initial_valid_prefix_bytes": 83886080,
+  "range_request_bytes": 33554432,
+  "proxy_used": false
+}

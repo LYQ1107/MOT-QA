@@ -1,0 +1,11 @@
+{
+  "at": "2026-11-04T13:35:13.838924+00:00",
+  "repo": "Qwen/Qwen3-VL-32B-Instruct",
+  "revision": "8d6f46b05db6abe0cb3a5ca8c817929cc0fa2d5a",
+  "url": "https://modelscope.cn/models/Qwen/Qwen3-VL-32B-Instruct/resolve/8d6f46b05db6abe0cb3a5ca8c817929cc0fa2d5a/model-00003-of-00014.safetensors",
+  "path": "/home/user/motqa_pilot/models/Qwen3-VL-32B-Instruct/model-00003-of-00014.safetensors",
+  "bytes": 4875990552,
+  "sha256": "54f22e8b3168f8dc962fac0d313607ebf52a12b433d4cf3098a0d82d9f042940",
+  "verification": "publisher manifest SHA256 matched",
+  "proxy": false
+}

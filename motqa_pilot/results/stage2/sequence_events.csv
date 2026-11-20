@@ -1,0 +1,163 @@
+dataset,source_split,sequence,eligible_source,source_window,tracks,enters_edge_first_seen,frame1_edge_first_seen_censored,leaves_frame,becomes_occluded,reappears,terminal_disappearances,overlap_episodes,crossings,crossing_unknown,eligible_overlap_episodes,eligible_crossings,appearance_intervals,event_references,position_intervals,camera_motion
+DanceTrack,train,dancetrack0001,False,,7,0,0,0,0,0,0,51,12,15,0,0,0,0,0,static
+DanceTrack,train,dancetrack0002,False,,8,0,0,0,3,3,0,145,11,71,0,0,0,0,0,static
+DanceTrack,train,dancetrack0006,False,,9,0,0,0,1,1,0,293,17,140,0,0,0,0,0,static
+DanceTrack,train,dancetrack0008,False,,8,0,0,0,0,0,0,180,23,103,0,0,0,0,0,moving
+DanceTrack,train,dancetrack0012,False,,12,0,0,0,19,19,0,591,42,309,0,0,0,0,0,static
+DanceTrack,train,dancetrack0015,False,,9,0,0,0,0,0,0,280,2,52,0,0,0,0,0,static
+DanceTrack,train,dancetrack0016,False,,6,0,0,0,4,4,0,293,25,124,0,0,0,0,0,moving
+DanceTrack,train,dancetrack0020,False,,40,1,1,1,39,40,0,1116,106,650,0,0,0,0,0,moving
+DanceTrack,train,dancetrack0023,False,,9,0,0,0,4,4,0,239,8,110,0,0,0,0,0,moving
+DanceTrack,train,dancetrack0024,False,,6,0,0,0,1,1,0,64,0,21,0,0,0,0,0,moving
+DanceTrack,train,dancetrack0027,False,,13,4,0,0,3,2,1,139,10,77,0,0,0,0,0,moving
+DanceTrack,train,dancetrack0029,False,,7,1,0,1,0,0,1,96,30,12,0,0,0,0,0,moving
+DanceTrack,train,dancetrack0032,False,,6,0,0,0,3,3,0,92,2,70,0,0,0,0,0,static
+DanceTrack,train,dancetrack0033,False,,8,0,0,0,2,2,0,218,38,112,0,0,0,0,0,moving
+DanceTrack,train,dancetrack0037,False,,7,0,0,0,0,0,0,239,29,56,0,0,0,0,0,moving
+DanceTrack,train,dancetrack0039,False,,5,0,0,0,1,0,1,133,6,64,0,0,0,0,0,moving
+DanceTrack,train,dancetrack0044,False,,13,0,0,6,15,20,1,849,251,556,0,0,0,0,0,moving
+DanceTrack,train,dancetrack0045,False,,14,0,0,0,16,16,0,528,52,242,0,0,0,0,0,moving
+DanceTrack,train,dancetrack0049,False,,8,0,0,0,0,0,0,231,34,84,0,0,0,0,0,moving
+DanceTrack,train,dancetrack0051,False,,9,0,0,0,0,0,0,260,66,26,0,0,0,0,0,moving
+DanceTrack,train,dancetrack0052,False,,4,4,4,0,4,4,0,110,15,47,0,0,0,0,0,moving
+DanceTrack,train,dancetrack0053,False,,5,0,0,0,0,0,0,119,30,42,0,0,0,0,0,moving
+DanceTrack,train,dancetrack0055,False,,5,0,0,0,1,1,0,152,15,84,0,0,0,0,0,moving
+DanceTrack,train,dancetrack0057,False,,6,4,2,3,0,2,1,49,15,19,0,0,0,0,0,moving
+DanceTrack,train,dancetrack0061,False,,5,0,0,0,0,0,0,84,47,3,0,0,0,0,0,moving
+DanceTrack,train,dancetrack0062,False,,6,1,0,1,0,0,1,83,41,5,0,0,0,0,0,moving
+DanceTrack,train,dancetrack0066,False,,5,0,0,0,0,0,0,111,65,2,0,0,0,0,0,moving
+DanceTrack,train,dancetrack0068,False,,5,0,0,0,0,0,0,173,63,26,0,0,0,0,0,moving
+DanceTrack,train,dancetrack0069,False,,6,0,0,0,2,2,0,128,7,27,0,0,0,0,0,moving
+DanceTrack,train,dancetrack0072,False,,5,1,1,0,1,1,0,145,40,50,0,0,0,0,0,moving
+DanceTrack,train,dancetrack0074,False,,5,2,2,0,15,15,0,163,2,89,0,0,0,0,0,moving
+DanceTrack,train,dancetrack0075,False,,7,1,1,2,0,2,0,86,12,21,0,0,0,0,0,moving
+DanceTrack,train,dancetrack0080,False,,16,2,0,9,1,0,10,217,72,8,0,0,0,0,0,static
+DanceTrack,train,dancetrack0082,False,,24,0,0,4,8,0,12,376,121,80,0,0,0,0,0,static
+DanceTrack,train,dancetrack0083,False,,25,0,0,0,0,0,0,587,34,73,0,0,0,0,0,static
+DanceTrack,train,dancetrack0086,False,,16,0,0,0,1,1,0,392,69,122,0,0,0,0,0,moving
+DanceTrack,train,dancetrack0087,False,,11,0,0,0,2,2,0,326,38,122,0,0,0,0,0,moving
+DanceTrack,train,dancetrack0096,False,,40,0,0,0,25,2,23,736,167,106,0,0,0,0,0,static
+DanceTrack,train,dancetrack0098,False,,8,0,0,0,15,14,1,301,11,163,0,0,0,0,0,moving
+DanceTrack,train,dancetrack0099,False,,11,1,0,4,1,4,1,252,32,142,0,0,0,0,0,static
+DanceTrack,val,dancetrack0004,True,"[1, 1203]",4,1,1,0,2,2,0,126,3,72,126,3,1,4,38,moving
+DanceTrack,val,dancetrack0005,True,"[1, 1203]",4,0,0,1,0,1,0,76,7,29,76,7,11,2,23,moving
+DanceTrack,val,dancetrack0007,True,"[1, 1203]",8,0,0,0,3,3,0,179,22,59,179,22,0,6,49,static
+DanceTrack,val,dancetrack0010,True,"[1, 1203]",6,0,0,0,2,2,0,141,18,30,141,18,7,4,24,static
+DanceTrack,val,dancetrack0014,True,"[1, 1203]",12,0,0,0,29,29,0,588,17,337,588,17,91,22,47,static
+DanceTrack,val,dancetrack0018,True,"[1, 503]",8,0,0,0,12,11,1,67,2,29,67,2,1,10,5,moving
+DanceTrack,val,dancetrack0019,True,"[1, 2402]",7,0,0,0,5,5,0,340,53,106,340,53,0,6,90,moving
+DanceTrack,val,dancetrack0025,True,"[1, 803]",9,0,0,0,1,1,0,145,3,34,145,3,0,2,22,moving
+DanceTrack,val,dancetrack0026,True,"[1, 302]",19,3,2,11,5,5,11,365,26,318,365,26,0,5,40,moving
+DanceTrack,val,dancetrack0030,True,"[1, 1263]",6,0,0,0,0,0,0,185,29,21,185,29,0,0,33,static
+DanceTrack,val,dancetrack0034,True,"[1, 923]",14,3,1,12,9,21,0,304,19,172,304,19,0,13,53,moving
+DanceTrack,val,dancetrack0035,True,"[1, 703]",8,0,0,0,5,5,0,210,3,98,210,3,0,6,20,static
+DanceTrack,val,dancetrack0041,True,"[1, 1003]",22,12,1,0,18,15,3,901,67,709,901,67,0,12,69,moving
+DanceTrack,val,dancetrack0043,True,"[1, 183]",14,0,0,0,3,3,0,126,1,106,126,1,0,6,13,static
+DanceTrack,val,dancetrack0047,True,"[1, 1203]",8,0,0,0,3,3,0,188,25,69,188,25,0,4,40,moving
+DanceTrack,val,dancetrack0058,True,"[1, 1601]",7,0,0,0,1,1,0,165,34,34,165,34,5,2,38,static
+DanceTrack,val,dancetrack0063,True,"[1, 1000]",8,0,0,0,4,4,0,219,14,137,219,14,0,3,20,moving
+DanceTrack,val,dancetrack0065,True,"[1, 702]",5,0,0,0,0,0,0,58,34,8,58,34,0,0,42,moving
+DanceTrack,val,dancetrack0073,True,"[1, 703]",14,0,0,0,6,6,0,272,16,84,272,16,0,4,32,moving
+DanceTrack,val,dancetrack0077,True,"[1, 1203]",9,0,0,0,0,0,0,137,19,5,137,19,0,0,16,static
+DanceTrack,val,dancetrack0079,True,"[1, 1202]",18,0,0,4,4,0,8,356,72,37,356,72,2,3,40,static
+DanceTrack,val,dancetrack0081,True,"[1, 984]",20,0,0,1,6,7,0,665,127,283,665,127,0,10,19,static
+DanceTrack,val,dancetrack0090,True,"[1, 1004]",14,0,0,1,11,12,0,517,31,271,517,31,0,11,50,moving
+DanceTrack,val,dancetrack0094,True,"[1, 603]",25,0,0,5,35,37,3,487,10,327,487,10,0,10,20,moving
+DanceTrack,val,dancetrack0097,True,"[1, 1203]",4,0,0,0,2,2,0,94,5,33,94,5,0,4,27,static
+MOT17,train,MOT17-02-FRCNN,True,"[301, 600]",62,6,0,8,74,53,29,135,1,121,66,0,19,4,17,static
+MOT17,train,MOT17-04-FRCNN,True,"[526, 1050]",83,44,8,37,19,23,33,292,54,186,148,23,4,10,6,static
+MOT17,train,MOT17-05-FRCNN,True,"[419, 837]",133,18,0,55,75,20,110,89,0,79,46,0,62,13,69,moving
+MOT17,train,MOT17-09-FRCNN,True,"[263, 525]",26,13,1,11,14,9,16,69,3,57,51,2,0,4,20,static
+MOT17,train,MOT17-10-FRCNN,True,"[328, 654]",57,6,0,24,38,20,42,167,0,127,67,0,23,3,25,moving
+MOT17,train,MOT17-11-FRCNN,True,"[451, 900]",75,5,2,28,35,10,53,92,0,64,53,0,10,5,28,moving
+MOT17,train,MOT17-13-FRCNN,True,"[376, 750]",110,14,1,53,61,13,101,185,2,147,42,0,25,7,31,moving
+SportsMOT,train,v_-6Os86HzwCs_c001,False,,10,0,0,2,0,2,0,143,66,9,0,0,0,0,0,moving
+SportsMOT,train,v_-6Os86HzwCs_c003,False,,10,0,0,5,0,5,0,47,24,3,0,0,0,0,0,moving
+SportsMOT,train,v_-6Os86HzwCs_c007,False,,10,0,0,3,0,3,0,66,34,4,0,0,0,0,0,moving
+SportsMOT,train,v_-6Os86HzwCs_c009,False,,10,0,0,0,0,0,0,78,42,4,0,0,0,0,0,moving
+SportsMOT,train,v_1LwtoLPw2TU_c006,False,,12,5,1,0,0,0,0,38,18,8,0,0,0,0,0,moving
+SportsMOT,train,v_1LwtoLPw2TU_c012,False,,12,4,0,0,0,0,0,38,12,7,0,0,0,0,0,moving
+SportsMOT,train,v_1LwtoLPw2TU_c014,False,,12,2,1,0,0,0,0,72,32,6,0,0,0,0,0,moving
+SportsMOT,train,v_1LwtoLPw2TU_c016,False,,12,4,0,0,0,0,0,31,18,4,0,0,0,0,0,moving
+SportsMOT,train,v_1yHWGw8DH4A_c029,False,,22,15,1,15,0,7,8,42,24,4,0,0,0,0,0,moving
+SportsMOT,train,v_1yHWGw8DH4A_c047,False,,21,11,0,25,2,21,6,26,16,3,0,0,0,0,0,moving
+SportsMOT,train,v_1yHWGw8DH4A_c077,False,,22,3,1,40,1,33,8,45,18,8,0,0,0,0,0,moving
+SportsMOT,train,v_1yHWGw8DH4A_c601,False,,18,12,1,13,0,12,1,21,16,3,0,0,0,0,0,moving
+SportsMOT,train,v_1yHWGw8DH4A_c609,False,,21,6,2,21,0,20,1,19,12,2,0,0,0,0,0,moving
+SportsMOT,train,v_1yHWGw8DH4A_c610,False,,18,5,1,11,0,6,5,15,12,1,0,0,0,0,0,moving
+SportsMOT,train,v_2j7kLB-vEEk_c001,False,,10,0,0,10,0,7,3,151,91,9,0,0,0,0,0,moving
+SportsMOT,train,v_2j7kLB-vEEk_c002,False,,10,5,1,12,0,8,4,206,129,6,0,0,0,0,0,moving
+SportsMOT,train,v_2j7kLB-vEEk_c005,False,,10,0,0,22,1,19,4,194,113,9,0,0,0,0,0,moving
+SportsMOT,train,v_2j7kLB-vEEk_c007,False,,10,0,0,9,0,9,0,159,81,13,0,0,0,0,0,moving
+SportsMOT,train,v_2j7kLB-vEEk_c009,False,,10,6,0,27,0,23,4,357,211,16,0,0,0,0,0,moving
+SportsMOT,train,v_2j7kLB-vEEk_c010,False,,10,6,0,5,0,5,0,83,48,6,0,0,0,0,0,moving
+SportsMOT,train,v_4LXTUim5anY_c002,False,,10,0,0,10,0,10,0,134,80,10,0,0,0,0,0,moving
+SportsMOT,train,v_4LXTUim5anY_c003,False,,10,3,3,6,0,4,2,124,79,5,0,0,0,0,0,moving
+SportsMOT,train,v_4LXTUim5anY_c010,False,,10,0,0,8,0,5,3,115,71,7,0,0,0,0,0,moving
+SportsMOT,train,v_4LXTUim5anY_c012,False,,10,5,1,16,0,15,1,123,63,16,0,0,0,0,0,moving
+SportsMOT,train,v_4LXTUim5anY_c013,False,,10,0,0,7,0,7,0,134,63,30,0,0,0,0,0,moving
+SportsMOT,train,v_ApPxnw_Jffg_c001,False,,12,4,0,1,0,1,0,23,10,4,0,0,0,0,0,moving
+SportsMOT,train,v_ApPxnw_Jffg_c002,False,,12,4,1,0,0,0,0,29,15,5,0,0,0,0,0,moving
+SportsMOT,train,v_ApPxnw_Jffg_c009,False,,12,3,2,0,0,0,0,77,46,5,0,0,0,0,0,moving
+SportsMOT,train,v_ApPxnw_Jffg_c015,False,,12,4,0,3,0,3,0,19,9,4,0,0,0,0,0,moving
+SportsMOT,train,v_ApPxnw_Jffg_c016,False,,12,2,1,5,0,5,0,37,11,9,0,0,0,0,0,moving
+SportsMOT,train,v_CW0mQbgYIF4_c004,False,,12,5,0,0,0,0,0,44,16,6,0,0,0,0,0,moving
+SportsMOT,train,v_CW0mQbgYIF4_c005,False,,12,6,2,0,0,0,0,47,19,6,0,0,0,0,0,moving
+SportsMOT,train,v_CW0mQbgYIF4_c006,False,,12,6,2,0,0,0,0,33,13,4,0,0,0,0,0,moving
+SportsMOT,train,v_Dk3EpDDa3o0_c002,False,,12,4,1,0,0,0,0,29,10,5,0,0,0,0,0,moving
+SportsMOT,train,v_Dk3EpDDa3o0_c007,False,,12,3,0,0,0,0,0,54,25,6,0,0,0,0,0,moving
+SportsMOT,train,v_HdiyOtliFiw_c003,False,,21,7,0,15,0,6,9,113,67,4,0,0,0,0,0,moving
+SportsMOT,train,v_HdiyOtliFiw_c004,False,,20,10,1,34,0,27,7,91,42,11,0,0,0,0,0,moving
+SportsMOT,train,v_HdiyOtliFiw_c008,False,,21,8,0,21,0,14,7,56,27,6,0,0,0,0,0,moving
+SportsMOT,train,v_HdiyOtliFiw_c010,False,,21,5,1,34,0,27,7,181,98,18,0,0,0,0,0,moving
+SportsMOT,train,v_HdiyOtliFiw_c602,False,,21,14,0,11,0,4,7,29,16,5,0,0,0,0,0,moving
+SportsMOT,train,v_dChHNGIfm4Y_c003,False,,12,6,1,0,0,0,0,41,13,10,0,0,0,0,0,moving
+SportsMOT,train,v_gQNyhv8y0QY_c003,False,,20,9,1,21,0,9,12,42,26,4,0,0,0,0,0,moving
+SportsMOT,train,v_gQNyhv8y0QY_c012,False,,21,9,2,41,0,35,6,52,38,3,0,0,0,0,0,moving
+SportsMOT,train,v_gQNyhv8y0QY_c013,False,,20,10,1,24,2,19,7,45,20,4,0,0,0,0,0,moving
+SportsMOT,train,v_iIxMOsCGH58_c013,False,,22,3,1,16,0,5,11,41,27,3,0,0,0,0,0,moving
+SportsMOT,val,v_00HRwkvvjtQ_c001,True,"[1, 1162]",10,1,0,5,0,5,0,159,83,17,159,83,0,5,27,moving
+SportsMOT,val,v_00HRwkvvjtQ_c003,True,"[1, 1161]",10,0,0,5,0,5,0,101,46,3,101,46,0,2,35,moving
+SportsMOT,val,v_00HRwkvvjtQ_c005,True,"[1, 594]",10,2,0,6,0,3,3,105,53,9,105,53,0,0,26,moving
+SportsMOT,val,v_00HRwkvvjtQ_c007,True,"[1, 707]",10,3,1,5,1,4,2,107,61,5,107,61,0,2,32,moving
+SportsMOT,val,v_00HRwkvvjtQ_c008,True,"[1, 972]",10,6,0,1,0,0,1,132,83,3,132,83,0,1,26,moving
+SportsMOT,val,v_00HRwkvvjtQ_c011,True,"[1, 734]",10,1,1,5,0,4,1,108,45,11,108,45,0,4,27,moving
+SportsMOT,val,v_0kUtTtmLaJA_c004,True,"[1, 542]",12,6,1,2,0,2,0,72,37,4,72,37,7,0,21,moving
+SportsMOT,val,v_0kUtTtmLaJA_c005,True,"[1, 349]",12,6,1,3,0,3,0,50,27,9,50,27,9,0,16,moving
+SportsMOT,val,v_0kUtTtmLaJA_c006,True,"[1, 346]",12,6,1,5,0,5,0,48,15,11,48,15,11,4,16,moving
+SportsMOT,val,v_0kUtTtmLaJA_c007,True,"[1, 271]",12,5,0,1,0,1,0,44,27,5,44,27,9,3,12,moving
+SportsMOT,val,v_0kUtTtmLaJA_c008,True,"[1, 266]",12,5,0,1,0,1,0,40,11,9,40,11,7,2,13,moving
+SportsMOT,val,v_0kUtTtmLaJA_c010,True,"[1, 270]",12,6,0,1,0,1,0,40,14,8,40,14,13,2,12,moving
+SportsMOT,val,v_2QhNRucNC7E_c017,True,"[1, 450]",21,5,3,19,0,10,9,32,16,7,32,16,1,3,26,moving
+SportsMOT,val,v_4-EmEtrturE_c009,True,"[1, 250]",12,4,0,0,0,0,0,19,8,6,19,8,6,0,8,moving
+SportsMOT,val,v_4r8QL_wglzQ_c001,True,"[1, 886]",10,0,0,10,0,6,4,126,71,7,126,71,3,6,33,moving
+SportsMOT,val,v_5ekaksddqrc_c001,True,"[1, 550]",10,0,0,6,0,4,2,82,39,9,82,39,0,1,20,moving
+SportsMOT,val,v_5ekaksddqrc_c002,True,"[1, 632]",10,1,0,6,0,4,2,102,64,3,102,64,0,2,27,moving
+SportsMOT,val,v_5ekaksddqrc_c003,True,"[1, 1215]",10,0,0,5,0,5,0,156,89,5,156,89,0,0,36,moving
+SportsMOT,val,v_5ekaksddqrc_c004,True,"[1, 824]",10,2,0,5,0,5,0,120,73,3,120,73,0,4,36,moving
+SportsMOT,val,v_5ekaksddqrc_c005,True,"[1, 1000]",10,0,0,7,0,7,0,111,66,8,111,66,0,5,42,moving
+SportsMOT,val,v_9MHDmAMxO5I_c002,True,"[1, 239]",12,9,1,2,0,2,0,34,11,8,34,11,5,0,11,moving
+SportsMOT,val,v_9MHDmAMxO5I_c003,True,"[1, 226]",12,10,1,1,0,1,0,26,8,9,26,8,5,2,11,moving
+SportsMOT,val,v_9MHDmAMxO5I_c004,True,"[1, 455]",12,7,1,5,0,5,0,68,30,11,68,30,5,2,17,moving
+SportsMOT,val,v_9MHDmAMxO5I_c006,True,"[1, 269]",12,11,1,5,0,5,0,29,13,12,29,13,18,0,19,moving
+SportsMOT,val,v_9MHDmAMxO5I_c009,True,"[1, 507]",12,3,1,8,0,8,0,63,21,15,63,21,8,4,26,moving
+SportsMOT,val,v_BgwzTUxJaeU_c008,True,"[1, 500]",10,0,0,7,0,6,1,100,49,14,100,49,0,1,30,moving
+SportsMOT,val,v_BgwzTUxJaeU_c012,True,"[1, 620]",10,0,0,5,0,4,1,118,66,8,118,66,0,3,29,moving
+SportsMOT,val,v_BgwzTUxJaeU_c014,True,"[1, 1000]",10,0,0,4,0,1,3,221,144,9,221,144,0,2,34,moving
+SportsMOT,val,v_G-vNjfx1GGc_c004,True,"[1, 675]",20,8,1,28,0,17,11,30,17,5,30,17,6,4,40,moving
+SportsMOT,val,v_G-vNjfx1GGc_c008,True,"[1, 480]",20,8,1,21,0,6,15,6,2,0,6,2,6,5,24,moving
+SportsMOT,val,v_G-vNjfx1GGc_c600,True,"[1, 500]",19,7,1,25,0,20,5,19,13,2,19,13,0,2,44,moving
+SportsMOT,val,v_G-vNjfx1GGc_c601,True,"[1, 481]",20,7,1,24,0,14,10,9,2,1,9,2,5,4,42,moving
+SportsMOT,val,v_ITo3sCnpw_k_c007,True,"[1, 701]",21,8,0,39,0,27,12,112,58,14,112,58,3,6,55,moving
+SportsMOT,val,v_ITo3sCnpw_k_c010,True,"[1, 560]",20,8,0,15,0,11,4,21,8,6,21,8,0,4,30,moving
+SportsMOT,val,v_ITo3sCnpw_k_c011,True,"[1, 776]",22,13,0,31,0,16,15,103,62,8,103,62,9,11,44,moving
+SportsMOT,val,v_ITo3sCnpw_k_c012,True,"[1, 850]",21,10,1,47,0,35,12,39,23,6,39,23,9,6,58,moving
+SportsMOT,val,v_cC2mHWqMcjk_c007,True,"[1, 681]",12,5,0,3,0,3,0,94,47,3,94,47,19,6,27,moving
+SportsMOT,val,v_cC2mHWqMcjk_c008,True,"[1, 259]",12,6,0,5,0,5,0,28,13,6,28,13,5,6,17,moving
+SportsMOT,val,v_cC2mHWqMcjk_c009,True,"[1, 425]",12,6,0,2,0,2,0,45,23,8,45,23,7,0,15,moving
+SportsMOT,val,v_dw7LOz17Omg_c053,True,"[1, 550]",21,1,0,26,0,17,9,52,26,4,52,26,3,2,31,moving
+SportsMOT,val,v_dw7LOz17Omg_c067,True,"[1, 450]",22,6,0,19,0,4,15,38,20,3,38,20,5,5,25,moving
+SportsMOT,val,v_i2_L4qquVg0_c006,True,"[1, 888]",22,7,1,21,1,15,7,36,22,7,36,22,11,12,32,moving
+SportsMOT,val,v_i2_L4qquVg0_c007,True,"[1, 451]",21,9,0,12,2,6,8,11,6,1,11,6,12,8,28,moving
+SportsMOT,val,v_i2_L4qquVg0_c009,True,"[1, 488]",20,4,1,10,0,8,2,42,22,5,42,22,3,7,21,moving
+SportsMOT,val,v_i2_L4qquVg0_c010,True,"[1, 758]",21,13,1,38,0,29,9,20,12,1,20,12,13,9,77,moving

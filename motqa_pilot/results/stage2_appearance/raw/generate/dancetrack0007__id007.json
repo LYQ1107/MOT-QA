@@ -1,0 +1,70 @@
+{
+  "unit_key": "dancetrack0007__id007",
+  "sequence": "dancetrack0007",
+  "gt_id": 7,
+  "phase": "generate",
+  "started_at": "2026-11-04T13:51:53.319593+00:00",
+  "completed_at": "2026-11-04T13:51:58.450885+00:00",
+  "seconds": 5.131325714755803,
+  "prompt_text": "The first image shows three crops of ONE target person at different times. The other image(s) show comparison people from the SAME video; every labeled tile is a different annotated person, shown in up to three crops. These comparison labels are anonymous bookkeeping labels, not appearance attributes.\nWrite one concise English noun phrase (at most 30 words), starting with \"the person\", describing the target using stable, clearly visible clothing, patterns, hair, or accessories. Prefer details that distinguish this person from comparison people. Do not mention actions, pose, scene location, time, spatial relation to others, gallery labels, or GT identity numbers. Visible garment lettering is allowed only if clearly legible. Do not infer colors/details hidden by another person. If no reliable description is possible, use an empty phrase. If a truthful description is shared by others, still provide it and set visually_distinct to false.\nReturn {\"phrase\":\"...\", \"supported_attributes\":[\"...\"], \"visually_distinct\":true, \"limitations\":\"...\"}. A description need not be unique; truthful uncertainty is preferred to invented uniqueness.\nThe target person is also included once among the comparison gallery tiles. Identify that repeated target visually; do not treat the repeated target tile as a different rival. Look for truthful stable appearance that distinguishes the target from OTHER people.",
+  "image_paths": [
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0007/id007_target.jpg",
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0007/generation_gallery_page00.jpg"
+  ],
+  "image_sha256": [
+    "23385d8db9e4484d8600dda2034a07ea001780700a63f91cfbd04f04d92e7d50",
+    "110ba3fe7aea1a9740f8db934c2faa25f918d6b6f335bbebbcd1bd7f7f5f1fdf"
+  ],
+  "response": {
+    "id": "chatcmpl-b3d57d52d5ead7bb",
+    "object": "chat.completion",
+    "created": 1793800313,
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"phrase\": \"the person with long brown hair wearing a white short-sleeved crop top and white pants\",\n  \"supported_attributes\": [\"long brown hair\", \"white short-sleeved crop top\", \"white pants\"],\n  \"visually_distinct\": false,\n  \"limitations\": \"The outfit is common among multiple people in the gallery; the hair color and length are shared by others, making the description not uniquely distinguishing.\"\n}",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 1433,
+      "total_tokens": 1525,
+      "completion_tokens": 92,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "check": {
+    "valid": true,
+    "parsed": {
+      "phrase": "the person with long brown hair wearing a white short-sleeved crop top and white pants",
+      "supported_attributes": [
+        "long brown hair",
+        "white short-sleeved crop top",
+        "white pants"
+      ],
+      "visually_distinct": false,
+      "limitations": "The outfit is common among multiple people in the gallery; the hair color and length are shared by others, making the description not uniquely distinguishing."
+    },
+    "phrase": "the person with long brown hair wearing a white short-sleeved crop top and white pants",
+    "error": null
+  },
+  "inference_policy_sha256": "ea3ce06e83208db2fc1ed693ee2ac1b349f8ae344fcdc2cb0a22e30ef8df60e3"
+}

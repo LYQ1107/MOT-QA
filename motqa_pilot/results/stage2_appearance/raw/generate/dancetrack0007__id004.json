@@ -1,0 +1,71 @@
+{
+  "unit_key": "dancetrack0007__id004",
+  "sequence": "dancetrack0007",
+  "gt_id": 4,
+  "phase": "generate",
+  "started_at": "2026-11-04T13:51:47.031573+00:00",
+  "completed_at": "2026-11-04T13:51:53.316271+00:00",
+  "seconds": 6.28475162293762,
+  "prompt_text": "The first image shows three crops of ONE target person at different times. The other image(s) show comparison people from the SAME video; every labeled tile is a different annotated person, shown in up to three crops. These comparison labels are anonymous bookkeeping labels, not appearance attributes.\nWrite one concise English noun phrase (at most 30 words), starting with \"the person\", describing the target using stable, clearly visible clothing, patterns, hair, or accessories. Prefer details that distinguish this person from comparison people. Do not mention actions, pose, scene location, time, spatial relation to others, gallery labels, or GT identity numbers. Visible garment lettering is allowed only if clearly legible. Do not infer colors/details hidden by another person. If no reliable description is possible, use an empty phrase. If a truthful description is shared by others, still provide it and set visually_distinct to false.\nReturn {\"phrase\":\"...\", \"supported_attributes\":[\"...\"], \"visually_distinct\":true, \"limitations\":\"...\"}. A description need not be unique; truthful uncertainty is preferred to invented uniqueness.\nThe target person is also included once among the comparison gallery tiles. Identify that repeated target visually; do not treat the repeated target tile as a different rival. Look for truthful stable appearance that distinguishes the target from OTHER people.",
+  "image_paths": [
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0007/id004_target.jpg",
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0007/generation_gallery_page00.jpg"
+  ],
+  "image_sha256": [
+    "225c58ea018ba41df0eac3b220d65d58902cdd08b7e0104e2a0486d3cc1f1f02",
+    "110ba3fe7aea1a9740f8db934c2faa25f918d6b6f335bbebbcd1bd7f7f5f1fdf"
+  ],
+  "response": {
+    "id": "chatcmpl-9d858408e1930960",
+    "object": "chat.completion",
+    "created": 1793800307,
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"phrase\": \"the person with light blonde hair in a high ponytail wearing a white long-sleeve crop top and white loose pants\",\n  \"supported_attributes\": [\"light blonde hair\", \"high ponytail\", \"white long-sleeve crop top\", \"white loose pants\"],\n  \"visually_distinct\": true,\n  \"limitations\": \"The target's hair color and style are the most distinguishing features; other people have dark hair. The white outfit is common, but the combination with the specific hair appearance makes the target visually distinct.\"\n}",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 1433,
+      "total_tokens": 1548,
+      "completion_tokens": 115,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "check": {
+    "valid": true,
+    "parsed": {
+      "phrase": "the person with light blonde hair in a high ponytail wearing a white long-sleeve crop top and white loose pants",
+      "supported_attributes": [
+        "light blonde hair",
+        "high ponytail",
+        "white long-sleeve crop top",
+        "white loose pants"
+      ],
+      "visually_distinct": true,
+      "limitations": "The target's hair color and style are the most distinguishing features; other people have dark hair. The white outfit is common, but the combination with the specific hair appearance makes the target visually distinct."
+    },
+    "phrase": "the person with light blonde hair in a high ponytail wearing a white long-sleeve crop top and white loose pants",
+    "error": null
+  },
+  "inference_policy_sha256": "ea3ce06e83208db2fc1ed693ee2ac1b349f8ae344fcdc2cb0a22e30ef8df60e3"
+}

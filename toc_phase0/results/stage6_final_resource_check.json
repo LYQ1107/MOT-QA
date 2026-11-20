@@ -1,0 +1,90 @@
+{
+  "checked_at": "2026-11-04T13:15:10.468156+08:00",
+  "remaining_task_owned_pids": [],
+  "remaining_task_owned_gpu_processes": [],
+  "runtimes": [
+    {
+      "path": "/data2/user/toc_phase0/logs/stage6_runtime_base_attempt1.json",
+      "pid": 1002181
+    },
+    {
+      "path": "/data2/user/toc_phase0/logs/stage6_runtime_base_attempt2.json",
+      "pid": 1006002
+    },
+    {
+      "path": "/data2/user/toc_phase0/logs/stage6_runtime_base_attempt3.json",
+      "pid": 1201684
+    },
+    {
+      "path": "/data2/user/toc_phase0/logs/stage6_runtime_lora_attempt2.json",
+      "pid": 1063122
+    },
+    {
+      "path": "/data2/user/toc_phase0/logs/stage6_runtime_lora_attemptsanity.json",
+      "pid": 1270015
+    },
+    {
+      "path": "/data2/user/toc_phase0/logs/stage6_runtime_training_attempt1.json",
+      "pid": 1002175
+    },
+    {
+      "path": "/data2/user/toc_phase0/logs/stage6_runtime_training_attempt2.json",
+      "pid": 1005979
+    },
+    {
+      "path": "/data2/user/toc_phase0/logs/stage6_lora_sanity_hf_runtime.json",
+      "pid": 1270011
+    }
+  ],
+  "all_gpu_memory_snapshot": [
+    {
+      "gpu_index": 0,
+      "gpu_uuid": "GPU-bf21a95d-d96d-9ec5-cb15-b0fb7ad50536",
+      "total_used_MiB": 35940.062,
+      "process_count": 1
+    },
+    {
+      "gpu_index": 1,
+      "gpu_uuid": "GPU-f35654b3-bbf5-7303-cfcb-9bd5d3e16e69",
+      "total_used_MiB": 13996.062,
+      "process_count": 1
+    },
+    {
+      "gpu_index": 2,
+      "gpu_uuid": "GPU-c2484ded-5f87-237c-bbf0-d23fcb74fdb2",
+      "total_used_MiB": 25324.062,
+      "process_count": 1
+    },
+    {
+      "gpu_index": 3,
+      "gpu_uuid": "GPU-6cb11599-704e-c3aa-9e28-5f15faa25c7c",
+      "total_used_MiB": 35908.062,
+      "process_count": 1
+    },
+    {
+      "gpu_index": 4,
+      "gpu_uuid": "GPU-44f62835-4095-23ec-d3dd-5af16a00705c",
+      "total_used_MiB": 25698.188,
+      "process_count": 3
+    },
+    {
+      "gpu_index": 5,
+      "gpu_uuid": "GPU-c6523d98-cb2d-95ed-4cb2-a84936acceb6",
+      "total_used_MiB": 28796.188,
+      "process_count": 3
+    },
+    {
+      "gpu_index": 6,
+      "gpu_uuid": "GPU-883c8be3-25b0-3d19-6fa8-4c2e335e67d2",
+      "total_used_MiB": 15314.625,
+      "process_count": 2
+    },
+    {
+      "gpu_index": 7,
+      "gpu_uuid": "GPU-0322c0e7-ffbf-e068-5bdd-587b8216a9d9",
+      "total_used_MiB": 16947.062,
+      "process_count": 1
+    }
+  ],
+  "foreign_processes_untouched": true
+}

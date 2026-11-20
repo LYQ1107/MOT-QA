@@ -1,0 +1,32 @@
+{
+  "mcq_4": {
+    "example_qa_id": "42fbdd45fe59",
+    "system": "You are a video understanding model. Follow output format exactly.",
+    "user": "You will see a video and a multiple-choice question with four options. Choose the BEST option. Output ONLY the letter A, B, C, or D.\n\nQuestion: When in the video does white plate first get fully hidden?\nA. beginning\nB. late\nC. there is no sandwich on plate in this video\nD. end\nAnswer:",
+    "max_tokens": 64
+  },
+  "numerical": {
+    "example_qa_id": "306b3b6b5877",
+    "system": "You are a video understanding model. Follow output format exactly.",
+    "user": "You will see a video and a counting question. Output ONLY a single integer (e.g., 2, 3, 4) or the phrase \"5 or more\". No other words.\n\nQuestion: How many times does green dress get fully hidden in the video?\nAnswer:",
+    "max_tokens": 64
+  },
+  "ordering_3": {
+    "example_qa_id": "c0e538203735",
+    "system": "You are a video understanding model. Follow output format exactly.",
+    "user": "You will see a video and a list of events. Output the events in chronological order from earliest to latest, as a comma-separated list of letters (e.g., \"B, A, C\" or \"B, A, C, D\"). No other words.\n\nQuestion: Put the following events for orange tablecloth in order from earliest to latest.\nA. it disappears for good\nB. it gets partly hidden\nC. it leaves the frame\nAnswer:",
+    "max_tokens": 256
+  },
+  "ordering_4": {
+    "example_qa_id": "f69bd688d550",
+    "system": "You are a video understanding model. Follow output format exactly.",
+    "user": "You will see a video and a list of events. Output the events in chronological order from earliest to latest, as a comma-separated list of letters (e.g., \"B, A, C\" or \"B, A, C, D\"). No other words.\n\nQuestion: Put the following events for man in dark shirt in order from earliest to latest.\nA. it leaves the frame\nB. it enters the frame\nC. it gets partly hidden\nD. it comes back into view\nAnswer:",
+    "max_tokens": 256
+  },
+  "sp": {
+    "example_qa_id": "a34a83a3afe7",
+    "system": "You are a video understanding model. Follow output format exactly.",
+    "user": "You will see a video and two statements. Choose the statement that is TRUE according to the video. Output ONLY the letter A or B.\n\nQuestion: Does brown bottle ever enter the frame in the video?\nA. brown bottle never enters the frame\nB. brown bottle does enter the frame\nAnswer:",
+    "max_tokens": 64
+  }
+}

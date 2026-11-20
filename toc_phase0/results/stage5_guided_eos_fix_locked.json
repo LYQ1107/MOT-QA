@@ -1,0 +1,43 @@
+{
+  "locked_at": "2026-11-02T18:21:33.788510+08:00",
+  "reason": "HF model stops on151645 and151643; xgrammar only registers tokenizer EOS151645. With unrestricted regex prefix,151643 was accepted as ordinary text while vLLM stopped early.",
+  "cpu_reproduced": true,
+  "cpu_regression": [
+    {
+      "prefix": "unfinished reasoning",
+      "primary_eos_accepted": false,
+      "secondary_eos_masked": true
+    },
+    {
+      "prefix": "Reasoning.\nAnswer: 2",
+      "primary_eos_accepted": true,
+      "secondary_eos_masked": true
+    },
+    {
+      "prefix": "Reasoning.\nAnswer: 5 or more",
+      "primary_eos_accepted": true,
+      "secondary_eos_masked": true
+    }
+  ],
+  "applies_to": "Reasoning numerical guided requests only",
+  "extra_body_addition": {
+    "bad_words": [
+      "<|endoftext|>"
+    ]
+  },
+  "blocked_token_id": 151643,
+  "primary_eos_token_id": 151645,
+  "regex_unchanged": "[\\s\\S]*\\nAnswer: (2|3|4|5 or more)",
+  "prompts_parser_seed_budget_service_config_unchanged": true,
+  "malformed_response": {
+    "qa_id": "2d2659ac32aa",
+    "raw_response": "Answer: 2.0000000000000002\n\n",
+    "prediction_path": "/data2/user/toc_phase0/results/stage5/predictions/reasoning/guided/A/2d2659ac32aa.json",
+    "counted_wrong": true,
+    "retried": false,
+    "completion_token_usage_unavailable": true
+  },
+  "pre_fix_valid_committed": 44,
+  "applies_to_remaining_only": true,
+  "limitation": "Numeric guided condition A includes44 valid original requests and one retained failed output before this technical fix. Later requests use the fix. Raw main hypotheses are unaffected."
+}

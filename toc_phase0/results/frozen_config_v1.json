@@ -1,0 +1,147 @@
+{
+  "version": 1,
+  "frozen_at": "2026-11-01T20:32:22.805985+08:00",
+  "split_sha256": "e1d87675aca7e69d57a5ac99dc7ecdedaf8ca8c4efb1588bb86f42066fce80b3",
+  "preregistration_sha256": "4a4d1fdbb57158696986a99130d0a4e2ba27a51c73776c813347829d4b9a2593",
+  "selection_scope": "development only, 138 videos / 147 QA, primary objective 70 main-trackable QA",
+  "prior_exposure": "The accepted original stage-three report contained full-set results before the video split. No new test rule scores were used for this round.",
+  "tracking": {
+    "model": "MASA-GroundingDINO unified",
+    "code_commit": "c5472b9c7615f35abdf1188cb1a0c5408fe50d66",
+    "weights": "models/MASA/gdino_masa.pth",
+    "weights_hf_revision": "25ed372c47f2c46cf36fd446d1b657b656bc7ea9",
+    "config": "upstream/masa/configs/masa-gdino/masa_gdino_swinb_inference.py",
+    "language_model": "models/MASA/bert-base-uncased",
+    "memo_tracklet_frames": 50,
+    "fps": 5,
+    "seed": 42,
+    "score_threshold": 0.2,
+    "fp16": true,
+    "unified": true,
+    "custom_entities": true,
+    "text_separator": " . ",
+    "sam_mask": false,
+    "sam2_or_sam3_used": false,
+    "native_scores_preserved": true,
+    "reset_tracker_and_all_detector_text_caches_per_video": true,
+    "native_tracker": {
+      "type": "MasaTaoTracker",
+      "init_score_thr": 0.1,
+      "obj_score_thr": 0.01,
+      "match_score_thr": 0.5,
+      "memo_tracklet_frames": 50,
+      "memo_momentum": 0.8,
+      "with_cats": false,
+      "max_distance": 100,
+      "fps": 5
+    }
+  },
+  "filter": {
+    "name": "short_weak_top5",
+    "short_seconds": 0.6,
+    "low_confidence": 0.3,
+    "top_k": 5
+  },
+  "serialization": {
+    "format": "original raw facts, retained native IDs; no inferred answers",
+    "max_tracks_per_query": 5,
+    "visible_interval_gap_seconds": 0.5,
+    "coordinates": "normalized box centers, two decimal places",
+    "times": "seconds, one decimal place",
+    "retain_all_intervals_of_kept_tracks": true,
+    "omitted_line": "Note: {N} additional short, low-confidence, or lower-ranked tracks were omitted.",
+    "text_target_p95_tokens": 8000,
+    "text_target_max_tokens": 12000,
+    "b2_area_ratios": "deferred, separate optional exploratory variant"
+  },
+  "rule": {
+    "event_mode": "legacy_gap_0.5",
+    "geometry_parameters": {
+      "gap_seconds": 0.5,
+      "edge_center_margin": 0.05,
+      "fragment_max_gap_seconds": 10.0,
+      "fragment_max_center_distance": 0.25,
+      "fragment_max_area_ratio": 3.0,
+      "event_tie_tolerance_seconds": 0.2,
+      "representative": "largest sum of confidence; greedily attach non-overlapping adjacent fragments by geometry",
+      "unsupported": [
+        "partly_hidden",
+        "changes_abruptly",
+        "other"
+      ],
+      "reid": "compare original MASA IDs before/after first observed query-visibility gap; no ID merging for identity decision"
+    },
+    "active_event_protocol": {
+      "grid_fps": 5,
+      "visible_observation_gap_seconds": 0.5,
+      "terminal_absence_seconds": 0.5
+    },
+    "public_definition_candidate": {
+      "url": "https://arxiv.org/html/2605.09904#A1",
+      "section": "Appendix A, Table 3",
+      "source_tracking_fps": 3,
+      "minimum_occlusion_frames": 2,
+      "reappearance_visible_frames": 2,
+      "implementation": "MASA remains 5fps; project visibility to a 3fps nearest-sample grid (max time offset 1/15s), require two absent samples and two consecutive visible samples; backdate confirmed return to first visible sample",
+      "limitation": "box absence/edge position remain proxies; no SAM masks or mask-area thresholds used"
+    },
+    "unsupported": "partial occlusion and abrupt state changes remain unsupported",
+    "numerical": "raw 0/1 are retained, covered, illegal, and wrong under official parsing; >=5 maps to 5 or more",
+    "coverage": "an answer is returned; all-scope accuracy counts abstentions/invalid parses wrong"
+  },
+  "service_context": {
+    "max_model_len": 65536,
+    "all_future_conditions_same": true,
+    "reason": "Conservative common bound: 32 images each at most 26*26 tokens, each possible donor block budgeted at 12000 tokens, 4096 common-text reserve and 1024 generation reserve; 32768 does not cover this bound.",
+    "maximum_queries_per_question": 2,
+    "conservative_input_generation_bound": 50752,
+    "model_max_position_embeddings": 128000,
+    "image_processor": "Qwen2VLImageProcessorFast",
+    "processor_kwargs_overrides": null,
+    "main_generation_tokens": {
+      "normal": 64,
+      "ordering": 256
+    },
+    "supplement_generation_length_reserve": 1024
+  },
+  "future_input": {
+    "official_prompt_and_parser": true,
+    "sampling": "floor(i*N/32), official short-video branch",
+    "frames": 32,
+    "long_edge_max": 720,
+    "jpeg_quality": 85,
+    "temperature": 0,
+    "seed": 42,
+    "timestamps": "official sample index / original FPS, formatted to 0.001 seconds, after frames in every condition",
+    "evidence": "insert immediately before Question:; A empty, B original 7.3 preface plus facts, C original 7.4, D original 7.5",
+    "metadata_as_input": false,
+    "numerical_guided_choice": "separate diagnostic reruns in all four conditions only; not main strict result"
+  },
+  "dev_selected_label": "memo50_short_weak_top5",
+  "dev_primary_result": {
+    "total": 70,
+    "covered": 52,
+    "correct": 30,
+    "coverage": 0.7428571428571429,
+    "accuracy_all": 0.42857142857142855,
+    "accuracy_on_covered": 0.5769230769230769
+  },
+  "selection_artifacts": [
+    "results/improvement/dev/memory_selection.json",
+    "results/improvement/dev/filter_selection.json",
+    "results/improvement/dev/event_selection.json"
+  ],
+  "source_sha256": {
+    "run_masa_improvement.py": "577e59583ea915e4072a145169dc96079ab8420080d247f7971e237196673d82",
+    "improvement_facts.py": "7f0333244b123cc9fea80adfa7d4c8a927f837d840da47ebdc25307e1c6820da",
+    "improvement_events.py": "6c02ba4ea3b417f00567601e25d7e2cad6f305862c9336ac54fa5b66524e3dbe",
+    "rule_prediction.py": "3eb4377da34895d08fbc83f16d1620a9c842152ecd868a97be7673915bd2bda8",
+    "track_facts.py": "2088470cbfa88f7fe6728458a824508db24b7adf294e69c95961035b43b922e9",
+    "stage3_text.py": "7b3e427b23fd1aa6171957a0582210579775f38bb358f450ccdede3b3669f5b8",
+    "finalize_improvement_v1.py": "67dc3e4a5371dfb50c53b60d3d012f0a6790129e86a3567fd978d7dfd47b965f",
+    "measure_improvement_lengths.py": "670e2568f40a11725f9db1f96696f46453989f4a6f372ecda8e282393e5f548d"
+  },
+  "final_retracking": "all 689 videos recomputed in tracks/v1/raw after this freeze; development trial raw outputs not reused",
+  "preregistered_subset_changed": false,
+  "stage_four_inference_authorized": false
+}

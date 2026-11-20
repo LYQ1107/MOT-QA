@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MOT-QA Pilot：外观指代人工复核</title>
+<style>
+:root{color-scheme:light;--ink:#172c3b;--muted:#526874;--border:#ccd9df;--accent:#17637a}*{box-sizing:border-box}
+body{margin:0;font:15px/1.65 system-ui,-apple-system,"Noto Sans CJK SC",sans-serif;color:var(--ink);background:#eef3f5}
+main{max-width:1600px;margin:auto;padding:26px}h1{font-size:28px;margin:0 0 8px}h2{font-size:21px;margin:30px 0 14px}
+.intro,.toolbar,.review-row,.finish{background:white;border:1px solid var(--border);border-radius:9px;padding:18px;margin-bottom:18px}
+.intro p{margin:8px 0}.hint,.source{font-size:13px;color:var(--muted)}.toolbar{position:sticky;top:0;z-index:5;display:flex;align-items:center;gap:10px;flex-wrap:wrap;box-shadow:0 2px 8px #15354010}
+button,select,input[type=search]{font:inherit;border:1px solid var(--border);border-radius:5px;padding:7px 11px;background:white;color:var(--ink)}button{cursor:pointer}button.primary{background:var(--accent);color:white;border-color:var(--accent)}
+#progress{font-weight:600;margin-right:auto}.review-row header{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}.stamp{font-variant-numeric:tabular-nums;color:var(--muted)}
+.phrase{font-size:19px;font-weight:600;line-height:1.5;white-space:pre-wrap;margin:12px 0 6px}.images{display:grid;grid-template-columns:minmax(330px,2.8fr) repeat(4,minmax(110px,1fr));gap:10px;align-items:start}
+figure{margin:0;background:#f7f9fa;border:1px solid #e0e7ec;border-radius:5px;padding:5px}img{display:block;width:100%;height:230px;object-fit:contain;cursor:zoom-in;background:#eaf0f3}.full img{height:340px}figcaption{font-size:12px;color:var(--muted);margin:5px 1px;line-height:1.5}
+.verdict{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:15px 0 9px}.choice{display:flex;align-items:center;gap:5px;padding:7px 14px;border:1px solid var(--border);border-radius:5px;cursor:pointer}.choice:has(input:checked){border-color:var(--accent);background:#e2f1f5;font-weight:600}.row-status{font-size:13px;color:var(--muted)}input[type=radio]{width:17px;height:17px;accent-color:var(--accent)}
+.note-label{display:block;font-size:13px;color:var(--muted)}textarea{display:block;width:100%;font:inherit;padding:8px;border:1px solid var(--border);border-radius:5px;resize:vertical;margin-top:3px}.warning{color:#8a5100;background:#fff4d8;padding:6px 10px;font-size:13px}
+.prior{font-size:13px;margin:10px 0;color:var(--muted)}summary{cursor:pointer}#additional>summary{padding:15px;background:#e3edf1;border-radius:6px;font-weight:600}.group-progress{font-weight:400;font-size:13px;color:var(--muted)}[hidden]{display:none!important}.finish{text-align:center;padding:25px}.finish p{margin:6px}.footer-buttons{display:flex;justify-content:center;gap:14px;margin:15px 0}
+.missing-view{height:230px;display:flex;align-items:center;justify-content:center;text-align:center;color:var(--muted);padding:12px;background:#edf1f3}
+dialog{border:1px solid #7d969f;border-radius:8px;padding:12px;max-width:98vw;max-height:97vh}dialog::backdrop{background:#001a29bd}dialog img{width:auto;height:auto;max-width:94vw;max-height:86vh;object-fit:contain;cursor:auto}dialog button{display:block;margin-left:auto;margin-bottom:6px}#storage-warning{color:#9a4d00}#import-file{display:none}.legend{display:flex;gap:20px;flex-wrap:wrap}.red{color:#c62020}
+@media(max-width:1050px){.images{grid-template-columns:repeat(4,1fr)}.full{grid-column:1/-1}.full img{height:auto;max-height:560px}}
+@media(max-width:650px){main{padding:10px}.intro,.toolbar,.review-row{padding:12px}.images{grid-template-columns:repeat(2,1fr)}img{height:200px}.full img{height:auto}.toolbar{position:static}h1{font-size:23px}.phrase{font-size:17px}}
+</style></head><body><main>
+<section class="intro"><h1>MOT-QA Pilot · 外观指代人工复核</h1>
+<p>主复核区 <strong>137条</strong>：DanceTrack 标疑8、原Refer-Dance21、SportsMOT40、MOT17全部68。另有折叠补充区17条，供确认此前智能体未见明显疑点的模型描述。</p>
+<p><strong>通过：</strong>原描述的细节准确，并且在所示指代时刻只指向红框人物。<strong>不通过：</strong>描述有误或同帧多人符合。<strong>不确定：</strong>细节、遮挡或分辨率不足以确认。后两者均不进入正式外观题；备注不会自动改写原描述。</p>
+<p class="legend"><span class="red">红框：目标</span><span>细灰框：其他GT人物（不写ID）</span><span>点击任何图片可放大</span></p>
+<p class="hint">两张同目标图来自其他时刻；比较者来自同一指代帧，按固定颜色/纹理代理选择最相似的两人，并非模型认定的语义近邻。请同时查看整帧，判断是否还有其他相同外观人物。</p>
+<p class="hint">无默认通过项。进度尽可能保存在当前浏览器；请随时导出JSON备份，换设备时可导入继续。主区全部完成后，导出并上传 <code>reference_review_result.json</code>。尚未确认的补充区描述不会进入正式题。</p>
+<p class="hint">SportsMOT须全部40条有决定，且“通过”≥28/40，才保留其逐条通过的外观候选；低于70%则整体改为框标指代。页面不使用服务器或网络。</p>
+<p class="hint">生成：__GENERATED_AT__<br>锁定名单SHA256：<code>__SELECTION_SHA__</code></p></section>
+<nav class="toolbar" aria-label="复核筛选与进度"><span id="progress" aria-live="polite"></span>
+<select id="dataset-filter" aria-label="数据集筛选"><option value="">所有数据集</option><option>DanceTrack</option><option>SportsMOT</option><option>MOT17</option></select>
+<select id="status-filter" aria-label="状态筛选"><option value="">所有状态</option><option value="pending">未选择</option><option value="pass">通过</option><option value="fail">不通过</option><option value="uncertain">不确定</option></select>
+<input id="search" type="search" placeholder="搜索视频或描述" aria-label="搜索">
+<button id="next-pending">下一条未选择</button><button id="export-top" class="primary">导出当前结果</button><button id="import">导入继续</button><input id="import-file" type="file" accept="application/json,.json">
+<span id="storage-warning" role="status"></span></nav>
+<div id="rows">__REVIEW_ROWS__</div>
+<section class="finish"><p id="completion"></p><p id="sports-gate"></p>
+<div class="footer-buttons"><button id="export-bottom" class="primary">导出 reference_review_result.json</button><button id="next-bottom">下一条未选择</button></div>
+<p class="hint">未选择项会以 verdict: null 导出，永远不会被当作通过；未完成时也可导出备份。</p><p id="last-export" class="hint"></p></section>
+<dialog id="zoom"><button id="zoom-close">关闭大图</button><img id="zoom-image" alt="放大图片"></dialog>
+<script id="review-payload" type="application/json">__REVIEW_PAYLOAD__</script>
+<script>
+'use strict';
+const payload=JSON.parse(document.getElementById('review-payload').textContent);
+const cases=payload.cases;
+const allowed=new Set(['pass','fail','uncertain']);
+const key='motqa_review_'+payload.meta.packet_id;
+let state=Object.fromEntries(cases.map(c=>[c.review_id,{verdict:null,note:''}]));
+const el=id=>document.getElementById(id);
+const rowById=Object.fromEntries([...document.querySelectorAll('.review-row')].map(r=>[r.dataset.id,r]));
+function counts(list){const r={total:list.length,pass:0,fail:0,uncertain:0,pending:0};for(const c of list){const v=state[c.review_id].verdict;r[v||'pending']++;}r.completed=r.total-r.pending;return r;}
+function sportsGate(){const c=counts(cases.filter(x=>x.group==='sports_lamot_stratified'));return {sample_n:40,completed:c.completed,passed:c.pass,pass_rate:c.pass/40,status:c.pending?'PENDING':c.pass>=28?'ALLOW_INDIVIDUALLY_PASSED_ONLY':'DISABLE_ALL_SPORTSMOT_APPEARANCE'};}
+function buildResult(){const main=counts(cases.filter(x=>x.review_scope==='main'));return {...payload.meta,exported_at:new Date().toISOString(),main_complete:main.pending===0,counts:{main,additional:counts(cases.filter(x=>x.review_scope==='additional'))},sports_appearance_gate:sportsGate(),reviews:cases.map(c=>({...c,...state[c.review_id]}))};}
+function save(){try{localStorage.setItem(key,JSON.stringify(state));el('storage-warning').textContent='';}catch(e){el('storage-warning').textContent='浏览器未允许自动保存，请及时导出备份。';}}
+function filter(){const ds=el('dataset-filter').value,s=el('status-filter').value,q=el('search').value.trim().toLowerCase();for(const c of cases){rowById[c.review_id].hidden=Boolean((ds&&c.dataset!==ds)||(s&&(state[c.review_id].verdict||'pending')!==s)||(q&&!(c.sequence+' '+c.text).toLowerCase().includes(q)));}}
+function refresh(){const main=counts(cases.filter(c=>c.review_scope==='main'));const extra=counts(cases.filter(c=>c.review_scope==='additional'));
+el('progress').textContent=`主区 ${main.completed}/137 · 补充 ${extra.completed}/17`;
+el('completion').textContent=`主区：通过 ${main.pass} · 不通过 ${main.fail} · 不确定 ${main.uncertain} · 未选择 ${main.pending}。补充区完成 ${extra.completed}/17。`;
+const g=sportsGate();el('sports-gate').textContent=g.status==='PENDING'?`SportsMOT：已决定 ${g.completed}/40，目前通过 ${g.passed}/40；40条决定完成后计算是否达到70%。`:g.status==='DISABLE_ALL_SPORTSMOT_APPEARANCE'?`SportsMOT通过 ${g.passed}/40，低于70%，整体不用外观指代。`:`SportsMOT通过 ${g.passed}/40，达到70%；仅逐条通过的描述可用。`;
+for(const span of document.querySelectorAll('.group-progress')){const c=counts(cases.filter(x=>x.group===span.dataset.group));span.textContent=`${c.completed}/${c.total} 已决定`;}
+for(const c of cases){const r=rowById[c.review_id],v=state[c.review_id].verdict;r.querySelector('.row-status').textContent=({pass:'已标记：通过',fail:'已标记：不通过',uncertain:'已标记：不确定'})[v]||'未选择';r.dataset.verdict=v||'pending';}filter();}
+function restore(){for(const c of cases){const r=rowById[c.review_id],s=state[c.review_id];for(const radio of r.querySelectorAll('input[type=radio]'))radio.checked=radio.value===s.verdict;r.querySelector('textarea').value=s.note;}refresh();}
+function importResult(data){if(data.packet_id!==payload.meta.packet_id||data.selection_sha256!==payload.meta.selection_sha256)throw new Error('名单版本不同，未导入。');const entries=new Map(data.reviews.map(r=>[r.review_id,r]));for(const c of cases){const r=entries.get(c.review_id);if(!r||r.text!==c.text||r.reference_frame!==c.reference_frame||!(r.verdict===null||allowed.has(r.verdict)))throw new Error('条目或决定不匹配，未导入。');}state=Object.fromEntries(cases.map(c=>{const r=entries.get(c.review_id);return [c.review_id,{verdict:r.verdict,note:typeof r.note==='string'?r.note:''}];}));save();restore();}
+try{const cached=JSON.parse(localStorage.getItem(key)||'null');if(cached){for(const c of cases){const s=cached[c.review_id];if(s&&(s.verdict===null||allowed.has(s.verdict)))state[c.review_id]={verdict:s.verdict,note:typeof s.note==='string'?s.note:''};}}}catch(e){el('storage-warning').textContent='未能读取浏览器缓存，可导入已导出的JSON继续。';}
+for(const c of cases){const r=rowById[c.review_id];r.addEventListener('change',e=>{if(e.target.type==='radio'){state[c.review_id].verdict=e.target.value;save();refresh();}});r.querySelector('textarea').addEventListener('input',e=>{state[c.review_id].note=e.target.value;save();});r.querySelector('.clear').onclick=()=>{state[c.review_id].verdict=null;save();restore();};}
+function exportResult(){const data=JSON.stringify(buildResult(),null,2);const url=URL.createObjectURL(new Blob([data],{type:'application/json;charset=utf-8'}));const a=document.createElement('a');a.href=url;a.download='reference_review_result.json';document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);el('last-export').textContent='已导出当前结果：'+new Date().toLocaleString();}
+function nextPending(){const visible=cases.filter(c=>!rowById[c.review_id].hidden&&!state[c.review_id].verdict);let next=visible.find(c=>rowById[c.review_id].getBoundingClientRect().top>180)||visible[0];if(!next)return;const row=rowById[next.review_id];const parent=row.closest('details#additional');if(parent)parent.open=true;row.scrollIntoView({behavior:'smooth',block:'center'});row.querySelector('input').focus({preventScroll:true});}
+for(const id of ['dataset-filter','status-filter'])el(id).onchange=filter;el('search').oninput=filter;
+el('export-top').onclick=exportResult;el('export-bottom').onclick=exportResult;el('next-pending').onclick=nextPending;el('next-bottom').onclick=nextPending;
+el('import').onclick=()=>el('import-file').click();el('import-file').onchange=async e=>{try{importResult(JSON.parse(await e.target.files[0].text()));el('storage-warning').textContent='已导入并恢复。';}catch(error){el('storage-warning').textContent=error.message;}e.target.value='';};
+document.querySelectorAll('.images img').forEach(img=>img.onclick=()=>{el('zoom-image').src=img.src;el('zoom-image').alt=img.alt;el('zoom').showModal();});el('zoom-close').onclick=()=>el('zoom').close();el('zoom').onclick=e=>{if(e.target===el('zoom'))el('zoom').close();};
+window.reviewApp={buildResult,importResult,exportResult,packet:payload};
+restore();
+</script></main></body></html>

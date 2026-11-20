@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-11-04T22:48:31+08:00",
+  "scope": "Two conversation projects; existing results only",
+  "report_count": 13,
+  "current_report_count": 12,
+  "superseded_report_count": 1,
+  "appendix_count": 4,
+  "key_results": {
+    "toc_official_reproduction": {
+      "correct": 623,
+      "n": 2323,
+      "accuracy_percent": 26.82
+    },
+    "toc_test_trackable_n": 251,
+    "toc_official_A": 89,
+    "toc_official_B": 88,
+    "toc_T1_fixed": 98,
+    "toc_Tph": 98,
+    "toc_Tsh": 94,
+    "toc_majority": 126,
+    "toc_route_A": 112,
+    "mot_public_gt_videos": 162,
+    "mot_gt_track_ids": 2518,
+    "mot_dance_val_gt_ids": 273,
+    "mot_appearance_auto_candidates": 25,
+    "mot_appearance_agent_clear": 17,
+    "mot_appearance_flagged": 8,
+    "mot_appearance_mixed_union_ids": 31,
+    "mot_qa_generated": 0
+  },
+  "interpretation": [
+    "No detectable true-trajectory-content benefit through TOC stage7; not proof of raw-trajectory impossibility.",
+    "Earlier route gains do not establish information beyond class priors.",
+    "MOT-QA stage2 resources are candidates, not finalized QA or independent human-certified identities."
+  ]
+}

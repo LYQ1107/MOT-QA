@@ -1,0 +1,9 @@
+{
+  "status": "MASA_UNIFIED_WEIGHT_SHA256_VERIFIED",
+  "path": "/data2/user/toc_phase0/models/MASA/gdino_masa.pth",
+  "source": "https://huggingface.co/dereksiyuanli/masa/resolve/25ed372c47f2c46cf36fd446d1b657b656bc7ea9/gdino_masa.pth",
+  "bytes": 1091120775,
+  "sha256": "15f4380ae4b17ac98c80a9a56bf6e569bac5bc21592906ccd3945a97438424ad",
+  "hf_revision": "25ed372c47f2c46cf36fd446d1b657b656bc7ea9",
+  "proxy_used": false
+}

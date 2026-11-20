@@ -1,0 +1,6 @@
+{
+  "at": "2026-11-04T13:51:27.545963+00:00",
+  "pilot_seconds": 14.001143215689808,
+  "upper_scenario_hours": 2.3919280455901752,
+  "method": "slowest observed pilot request x3 stages x273 IDs, ignoring endpoint concurrency; pilot retained, not used to tune captions or acceptance"
+}

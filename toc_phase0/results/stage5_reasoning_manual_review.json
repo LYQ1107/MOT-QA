@@ -1,0 +1,126 @@
+{
+  "reviewed_at": "2026-11-02T18:24:52.864973+08:00",
+  "review_type": "Direct reading of the10 preregistered examples; no inference or tuning",
+  "examples": [
+    {
+      "qa_id": "09ecc5ba1b9b",
+      "video_id": "perception_test_video_8872",
+      "correct": true,
+      "raw_model_output": "Answer: B",
+      "raw_output_sha256": "35423da1bc06c7d82357014a0d9bed41a9c54491b3dc9a5142d561fb40b09c0c",
+      "visible_explanation": false,
+      "explicit_track_reference": false,
+      "trace_alignment": "No trace claim to compare to evidence.",
+      "review_note": "完整输出只有Answer和字母，没有解释、轨迹ID、时间戳、位置或间断引用；无法从可见输出判断是否实际使用证据。"
+    },
+    {
+      "qa_id": "128d74ab4e21",
+      "video_id": "charades_M8NEU",
+      "correct": true,
+      "raw_model_output": "Answer: A",
+      "raw_output_sha256": "5a4d8dea07a00ed9800fc855f124468e5d39681056f2b67193070b5a2d70f867",
+      "visible_explanation": false,
+      "explicit_track_reference": false,
+      "trace_alignment": "No trace claim to compare to evidence.",
+      "review_note": "完整输出只有Answer和字母，没有解释、轨迹ID、时间戳、位置或间断引用；无法从可见输出判断是否实际使用证据。"
+    },
+    {
+      "qa_id": "24773ab677ad",
+      "video_id": "charades_Y4IIO",
+      "correct": true,
+      "raw_model_output": "Answer: B",
+      "raw_output_sha256": "35423da1bc06c7d82357014a0d9bed41a9c54491b3dc9a5142d561fb40b09c0c",
+      "visible_explanation": false,
+      "explicit_track_reference": false,
+      "trace_alignment": "No trace claim to compare to evidence.",
+      "review_note": "完整输出只有Answer和字母，没有解释、轨迹ID、时间戳、位置或间断引用；无法从可见输出判断是否实际使用证据。"
+    },
+    {
+      "qa_id": "298c2a249578",
+      "video_id": "charades_KO34N",
+      "correct": true,
+      "raw_model_output": "Answer: B",
+      "raw_output_sha256": "35423da1bc06c7d82357014a0d9bed41a9c54491b3dc9a5142d561fb40b09c0c",
+      "visible_explanation": false,
+      "explicit_track_reference": false,
+      "trace_alignment": "No trace claim to compare to evidence.",
+      "review_note": "完整输出只有Answer和字母，没有解释、轨迹ID、时间戳、位置或间断引用；无法从可见输出判断是否实际使用证据。"
+    },
+    {
+      "qa_id": "3a4d09c7aa6d",
+      "video_id": "charades_WI6NB",
+      "correct": true,
+      "raw_model_output": "Answer: A",
+      "raw_output_sha256": "5a4d8dea07a00ed9800fc855f124468e5d39681056f2b67193070b5a2d70f867",
+      "visible_explanation": false,
+      "explicit_track_reference": false,
+      "trace_alignment": "No trace claim to compare to evidence.",
+      "review_note": "完整输出只有Answer和字母，没有解释、轨迹ID、时间戳、位置或间断引用；无法从可见输出判断是否实际使用证据。"
+    },
+    {
+      "qa_id": "061682ce31ac",
+      "video_id": "perception_test_video_6366",
+      "correct": false,
+      "raw_model_output": "Answer: B",
+      "raw_output_sha256": "35423da1bc06c7d82357014a0d9bed41a9c54491b3dc9a5142d561fb40b09c0c",
+      "visible_explanation": false,
+      "explicit_track_reference": false,
+      "trace_alignment": "No trace claim to compare to evidence.",
+      "review_note": "完整输出只有Answer和字母，没有解释、轨迹ID、时间戳、位置或间断引用；无法从可见输出判断是否实际使用证据。"
+    },
+    {
+      "qa_id": "0893a25082de",
+      "video_id": "perception_test_video_10764",
+      "correct": false,
+      "raw_model_output": "Answer: B. ring left the frame",
+      "raw_output_sha256": "9b26403e4d79016ec33bcc41c998cd717b9c4eafd7998330c3bc957b06b6d59f",
+      "visible_explanation": false,
+      "explicit_track_reference": false,
+      "trace_alignment": "No trace claim to compare to evidence.",
+      "review_note": "输出为Answer加选项陈述，没有解释或轨迹引用。固定解析判失败；其明确写出的B也与真值A不符，因此本例并非仅因格式被判错。"
+    },
+    {
+      "qa_id": "093589b84207",
+      "video_id": "perception_test_video_9981",
+      "correct": false,
+      "raw_model_output": "Answer: B",
+      "raw_output_sha256": "35423da1bc06c7d82357014a0d9bed41a9c54491b3dc9a5142d561fb40b09c0c",
+      "visible_explanation": false,
+      "explicit_track_reference": false,
+      "trace_alignment": "No trace claim to compare to evidence.",
+      "review_note": "完整输出只有Answer和字母，没有解释、轨迹ID、时间戳、位置或间断引用；无法从可见输出判断是否实际使用证据。"
+    },
+    {
+      "qa_id": "0e9e33c81d1d",
+      "video_id": "charades_6B328",
+      "correct": false,
+      "raw_model_output": "Answer: B. striped socks was fully blocked before coming back",
+      "raw_output_sha256": "4317eee63c669c4f5c6a3d2d1ffbdb81a1a76c85e74f9369e5c69ee1579f42c3",
+      "visible_explanation": false,
+      "explicit_track_reference": false,
+      "trace_alignment": "No trace claim to compare to evidence.",
+      "review_note": "输出为Answer加选项陈述，没有解释或轨迹引用。固定解析判失败；其明确写出的B也与真值A不符，因此本例并非仅因格式被判错。"
+    },
+    {
+      "qa_id": "0f868943c6b8",
+      "video_id": "perception_test_video_6360",
+      "correct": false,
+      "raw_model_output": "Answer: B",
+      "raw_output_sha256": "35423da1bc06c7d82357014a0d9bed41a9c54491b3dc9a5142d561fb40b09c0c",
+      "visible_explanation": false,
+      "explicit_track_reference": false,
+      "trace_alignment": "No trace claim to compare to evidence.",
+      "review_note": "完整输出只有Answer和字母，没有解释、轨迹ID、时间戳、位置或间断引用；无法从可见输出判断是否实际使用证据。"
+    }
+  ],
+  "summary": {
+    "examples": 10,
+    "correct": 5,
+    "wrong": 5,
+    "answer_only": 8,
+    "answer_plus_option_statement": 2,
+    "visible_explanations": 0,
+    "explicit_tracking_citations": 0
+  },
+  "limitation": "These examples do not show visible reasoning or references. This is not proof that latent computation ignored tracks, and the sorted diagnostic sample is not a random sample of all outputs. The original template remains unchanged."
+}

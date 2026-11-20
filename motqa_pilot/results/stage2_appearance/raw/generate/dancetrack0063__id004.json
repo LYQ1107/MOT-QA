@@ -1,0 +1,71 @@
+{
+  "unit_key": "dancetrack0063__id004",
+  "sequence": "dancetrack0063",
+  "gt_id": 4,
+  "phase": "generate",
+  "started_at": "2026-11-04T13:57:15.887268+00:00",
+  "completed_at": "2026-11-04T13:57:22.193622+00:00",
+  "seconds": 6.30638747708872,
+  "prompt_text": "The first image shows three crops of ONE target person at different times. The other image(s) show comparison people from the SAME video; every labeled tile is a different annotated person, shown in up to three crops. These comparison labels are anonymous bookkeeping labels, not appearance attributes.\nWrite one concise English noun phrase (at most 30 words), starting with \"the person\", describing the target using stable, clearly visible clothing, patterns, hair, or accessories. Prefer details that distinguish this person from comparison people. Do not mention actions, pose, scene location, time, spatial relation to others, gallery labels, or GT identity numbers. Visible garment lettering is allowed only if clearly legible. Do not infer colors/details hidden by another person. If no reliable description is possible, use an empty phrase. If a truthful description is shared by others, still provide it and set visually_distinct to false.\nReturn {\"phrase\":\"...\", \"supported_attributes\":[\"...\"], \"visually_distinct\":true, \"limitations\":\"...\"}. A description need not be unique; truthful uncertainty is preferred to invented uniqueness.\nThe target person is also included once among the comparison gallery tiles. Identify that repeated target visually; do not treat the repeated target tile as a different rival. Look for truthful stable appearance that distinguishes the target from OTHER people.",
+  "image_paths": [
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0063/id004_target.jpg",
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0063/generation_gallery_page00.jpg"
+  ],
+  "image_sha256": [
+    "04761de7ca82ee50a4a7222fe2f8d53ad432216b4f2fe9de8c198090b8474110",
+    "ccf1f2d97eb46a6ba7ca08bc71125f58b8b3471d1606203c7ee94cbf7e8acc77"
+  ],
+  "response": {
+    "id": "chatcmpl-9c25e0037b8a9ba4",
+    "object": "chat.completion",
+    "created": 1793800635,
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"phrase\": \"the person wearing a black dress with red fringe, a red hat, and holding yellow and red scarves\",\n  \"supported_attributes\": [\"black dress\", \"red fringe\", \"red hat\", \"yellow and red scarves\"],\n  \"visually_distinct\": false,\n  \"limitations\": \"The described appearance is shared by multiple people in the comparison gallery, including P02, P03, P04, P05, P06, P07, and P08, making it not visually distinct.\"\n}",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 1433,
+      "total_tokens": 1550,
+      "completion_tokens": 117,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "check": {
+    "valid": true,
+    "parsed": {
+      "phrase": "the person wearing a black dress with red fringe, a red hat, and holding yellow and red scarves",
+      "supported_attributes": [
+        "black dress",
+        "red fringe",
+        "red hat",
+        "yellow and red scarves"
+      ],
+      "visually_distinct": false,
+      "limitations": "The described appearance is shared by multiple people in the comparison gallery, including P02, P03, P04, P05, P06, P07, and P08, making it not visually distinct."
+    },
+    "phrase": "the person wearing a black dress with red fringe, a red hat, and holding yellow and red scarves",
+    "error": null
+  },
+  "inference_policy_sha256": "ea3ce06e83208db2fc1ed693ee2ac1b349f8ae344fcdc2cb0a22e30ef8df60e3"
+}

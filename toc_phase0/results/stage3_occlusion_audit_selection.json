@@ -1,0 +1,71 @@
+{
+  "selected_at": "2026-11-01T15:14:37.138016+08:00",
+  "seed": 42,
+  "method": "10 distinct non-pilot videos sampled from numerical questions whose visible predicate is fully_hidden; no trajectories, answers or metadata read for selection; targeted occlusion audit, not prevalence estimate",
+  "reason": "broad pilot inspection contains many camera departures and ambiguous instances; use explicit occlusion questions for final 10-video ID audit; threshold remains frozen",
+  "candidate_videos": 35,
+  "video_ids": [
+    "charades_2X7OY",
+    "charades_7R8ZU",
+    "charades_CDNV7",
+    "charades_E184J",
+    "charades_ONA0S",
+    "charades_V3CWF",
+    "charades_YJV7W",
+    "perception_test_video_10599",
+    "perception_test_video_1952",
+    "perception_test_video_8048"
+  ],
+  "rows": [
+    {
+      "qa_id": "7e079c49def8",
+      "video_id": "charades_2X7OY",
+      "question": "How many times does pink sink get fully hidden in the video?"
+    },
+    {
+      "qa_id": "3afa66911c2b",
+      "video_id": "charades_7R8ZU",
+      "question": "How many times does the black laptop get fully hidden in the video?"
+    },
+    {
+      "qa_id": "08b887d08161",
+      "video_id": "charades_CDNV7",
+      "question": "How many times does the silver table leg get fully hidden in the video?"
+    },
+    {
+      "qa_id": "f196efbdf7bf",
+      "video_id": "charades_E184J",
+      "question": "How many times does the white cup get fully hidden in the video?"
+    },
+    {
+      "qa_id": "5446efc3b40b",
+      "video_id": "charades_ONA0S",
+      "question": "How many times does the door handle get fully hidden in the video?"
+    },
+    {
+      "qa_id": "5b87ec205b5a",
+      "video_id": "charades_V3CWF",
+      "question": "How many times does the wooden shelf get fully hidden in the video?"
+    },
+    {
+      "qa_id": "66dd19caa6fe",
+      "video_id": "charades_YJV7W",
+      "question": "How many times does the cell phone get fully hidden in the video?"
+    },
+    {
+      "qa_id": "bead183a585f",
+      "video_id": "perception_test_video_10599",
+      "question": "How many times does the yellow lemon get fully hidden in the video?"
+    },
+    {
+      "qa_id": "80de61955323",
+      "video_id": "perception_test_video_1952",
+      "question": "How many times does the plant in the pot get fully hidden in the video?"
+    },
+    {
+      "qa_id": "f13903352ab3",
+      "video_id": "perception_test_video_8048",
+      "question": "How many times does the red bracelet get fully hidden in the video?"
+    }
+  ]
+}

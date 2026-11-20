@@ -1,0 +1,71 @@
+{
+  "unit_key": "dancetrack0010__id000",
+  "sequence": "dancetrack0010",
+  "gt_id": 0,
+  "phase": "reference_instant_match",
+  "started_at": "2026-11-04T14:13:26.704373+00:00",
+  "completed_at": "2026-11-04T14:13:33.700075+00:00",
+  "seconds": 6.995734620839357,
+  "prompt_text": "At this reference instant, match the following appearance phrase to ALL visible people: \"the person with red hair tied in a high ponytail, wearing a white crop top with black trim and black pants with white side stripes\"\nThe first image is the full frame, with anonymous boxes and labels. The other image(s) are crops of EVERY GT-present person at this SAME instant. Read the central person in each crop; neighboring bodies may overlap. Labels are bookkeeping only. Do not use gallery order, location, pose, or box color as appearance attributes. Include ALL people satisfying the full appearance phrase in matches, and any plausible but obscured/unclear people in uncertain. A partly hidden target whose defining clothing cannot be seen is uncertain. No forced choice; none or several are valid outcomes. Omitted labels mean clear non-matches.\nReturn {\"matches\":[\"P01\"],\"uncertain\":[],\"reason\":\"brief visual explanation\"}. Valid labels: [\"P01\", \"P02\", \"P03\", \"P04\", \"P05\"].",
+  "image_paths": [
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0010/anchor_id000_f000267/full_frame.jpg",
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0010/anchor_id000_f000267/local_gallery_page00.jpg"
+  ],
+  "image_sha256": [
+    "f462de4f57d805572e37c7160a259d64b512bfe77ebc98942864f4fa863ca30c",
+    "d7c52676cab824a84fa9e1961191763b674cd1333b0c0975f34b3e109f132ed1"
+  ],
+  "response": {
+    "id": "chatcmpl-9acb8011c7ad7fde",
+    "object": "chat.completion",
+    "created": 1793801606,
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"matches\":[\"P04\"],\"uncertain\":[],\"reason\":\"P04 has red hair tied in a high ponytail, wears a white crop top with black trim, and black pants with white side stripes. All other individuals do not match the full description: P01 is in a black hoodie and pants, P02 has blonde hair and black outfit, P03 has dark hair and black crop top/pants, P05 has dark hair and black pants with white stripes but no visible top details. Only P04 fully satisfies the appearance phrase.\"}",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 1487,
+      "total_tokens": 1604,
+      "completion_tokens": 117,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "check": {
+    "valid": true,
+    "parsed": {
+      "matches": [
+        "P04"
+      ],
+      "uncertain": [],
+      "reason": "P04 has red hair tied in a high ponytail, wears a white crop top with black trim, and black pants with white side stripes. All other individuals do not match the full description: P01 is in a black hoodie and pants, P02 has blonde hair and black outfit, P03 has dark hair and black crop top/pants, P05 has dark hair and black pants with white stripes but no visible top details. Only P04 fully satisfies the appearance phrase."
+    },
+    "matched_gt_ids": [
+      0
+    ],
+    "uncertain_gt_ids": [],
+    "passed": true,
+    "error": null
+  },
+  "inference_policy_sha256": "ea3ce06e83208db2fc1ed693ee2ac1b349f8ae344fcdc2cb0a22e30ef8df60e3"
+}

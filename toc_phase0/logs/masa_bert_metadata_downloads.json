@@ -1,0 +1,10 @@
+[
+  {
+    "path": "logs/masa_bert_modelscope_info.json",
+    "source": "https://modelscope.cn/api/v1/models/AI-ModelScope/bert-base-uncased/repo/files?Revision=master&Recursive=true",
+    "resolved_url": "https://modelscope.cn/api/v1/models/AI-ModelScope/bert-base-uncased/repo/files?Revision=master&Recursive=true",
+    "bytes": 8138,
+    "sha256": "d9e5c1936b8f21875907ff17857831d43716bde3ccbf8fd41a9f45e9c6edf16a",
+    "integrity": "Local SHA256 recorded; no independent digest"
+  }
+]

@@ -1,0 +1,71 @@
+{
+  "unit_key": "dancetrack0058__id000",
+  "sequence": "dancetrack0058",
+  "gt_id": 0,
+  "phase": "reference_instant_match",
+  "started_at": "2026-11-04T14:13:52.678943+00:00",
+  "completed_at": "2026-11-04T14:14:00.137441+00:00",
+  "seconds": 7.458531111944467,
+  "prompt_text": "At this reference instant, match the following appearance phrase to ALL visible people: \"the person in a black oversized long-sleeve shirt with a chest pocket and black ripped pants\"\nThe first image is the full frame, with anonymous boxes and labels. The other image(s) are crops of EVERY GT-present person at this SAME instant. Read the central person in each crop; neighboring bodies may overlap. Labels are bookkeeping only. Do not use gallery order, location, pose, or box color as appearance attributes. Include ALL people satisfying the full appearance phrase in matches, and any plausible but obscured/unclear people in uncertain. A partly hidden target whose defining clothing cannot be seen is uncertain. No forced choice; none or several are valid outcomes. Omitted labels mean clear non-matches.\nReturn {\"matches\":[\"P01\"],\"uncertain\":[],\"reason\":\"brief visual explanation\"}. Valid labels: [\"P01\", \"P02\", \"P03\", \"P04\", \"P05\", \"P06\", \"P07\"].",
+  "image_paths": [
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0058/anchor_id000_f001091/full_frame.jpg",
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0058/anchor_id000_f001091/local_gallery_page00.jpg"
+  ],
+  "image_sha256": [
+    "569e553dae7e1d4eb74fc009441c1962dcccc4807b8db4ba9e12c60173fdba28",
+    "78becd431ac23e3f1c066cb02d873fef8905581ceba5c510dd6701c411b4dc58"
+  ],
+  "response": {
+    "id": "chatcmpl-aed7869a7c6ec106",
+    "object": "chat.completion",
+    "created": 1793801632,
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"matches\":[\"P07\"],\"uncertain\":[],\"reason\":\"P07 wears a black oversized long-sleeve shirt with a visible chest pocket and black ripped pants. Other individuals either wear different shirts (e.g., P01 has a maroon shirt, P03 has a black shirt with 'FG' but no visible pocket, P05 has a dark jacket, P04 has a black jacket with a red smiley, P02 has a patterned top, P06 has a polka-dot shirt and tan pants), or their pants are not ripped or not black. No other person matches all specified clothing attributes.\"}",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 1489,
+      "total_tokens": 1623,
+      "completion_tokens": 134,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "check": {
+    "valid": true,
+    "parsed": {
+      "matches": [
+        "P07"
+      ],
+      "uncertain": [],
+      "reason": "P07 wears a black oversized long-sleeve shirt with a visible chest pocket and black ripped pants. Other individuals either wear different shirts (e.g., P01 has a maroon shirt, P03 has a black shirt with 'FG' but no visible pocket, P05 has a dark jacket, P04 has a black jacket with a red smiley, P02 has a patterned top, P06 has a polka-dot shirt and tan pants), or their pants are not ripped or not black. No other person matches all specified clothing attributes."
+    },
+    "matched_gt_ids": [
+      0
+    ],
+    "uncertain_gt_ids": [],
+    "passed": true,
+    "error": null
+  },
+  "inference_policy_sha256": "ea3ce06e83208db2fc1ed693ee2ac1b349f8ae344fcdc2cb0a22e30ef8df60e3"
+}

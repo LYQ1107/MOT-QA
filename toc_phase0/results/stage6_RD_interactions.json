@@ -1,0 +1,246 @@
+{
+  "created_at": "2026-11-04T12:53:53.653808+08:00",
+  "selection": "first3 sorted correct and first3 sorted wrong per active condition",
+  "records": [
+    {
+      "condition": "T-none",
+      "qa_id": "09ecc5ba1b9b",
+      "video_id": "perception_test_video_8872",
+      "correct": true,
+      "truth": "B",
+      "prediction": "B",
+      "record_path": "/data2/user/toc_phase0/results/stage6/predictions/main/T-none/09ecc5ba1b9b.json",
+      "record_sha256": "c9564b113b7dfb1a175a98833ff91deaa0f82ed6c247f7d01760b5e3ad0c3586"
+    },
+    {
+      "condition": "T-none",
+      "qa_id": "1299999226de",
+      "video_id": "perception_test_video_6013",
+      "correct": true,
+      "truth": "A",
+      "prediction": "A",
+      "record_path": "/data2/user/toc_phase0/results/stage6/predictions/main/T-none/1299999226de.json",
+      "record_sha256": "ad66410958df0882229582fc9a0a0a3a3cf06ecf27b3f3d863c635026a5952a1"
+    },
+    {
+      "condition": "T-none",
+      "qa_id": "178a97c34031",
+      "video_id": "charades_BYSQ7",
+      "correct": true,
+      "truth": "B",
+      "prediction": "B",
+      "record_path": "/data2/user/toc_phase0/results/stage6/predictions/main/T-none/178a97c34031.json",
+      "record_sha256": "c92263e95e831c619ff0a5f620b3011f992e35a53cc8f5bf38fe79604d43fa07"
+    },
+    {
+      "condition": "T-none",
+      "qa_id": "061682ce31ac",
+      "video_id": "perception_test_video_6366",
+      "correct": false,
+      "truth": "A",
+      "prediction": "B",
+      "record_path": "/data2/user/toc_phase0/results/stage6/predictions/main/T-none/061682ce31ac.json",
+      "record_sha256": "8c774f1ac09f4612ede449625e672569a081a8d2327f0f03335bc1d1657c7250"
+    },
+    {
+      "condition": "T-none",
+      "qa_id": "0893a25082de",
+      "video_id": "perception_test_video_10764",
+      "correct": false,
+      "truth": "A",
+      "prediction": null,
+      "record_path": "/data2/user/toc_phase0/results/stage6/predictions/main/T-none/0893a25082de.json",
+      "record_sha256": "5be02ce471f7b953c49ddc550c6c8f1b046ec4008401b11eeb3a37ade621bf5e"
+    },
+    {
+      "condition": "T-none",
+      "qa_id": "093589b84207",
+      "video_id": "perception_test_video_9981",
+      "correct": false,
+      "truth": "A",
+      "prediction": "B",
+      "record_path": "/data2/user/toc_phase0/results/stage6/predictions/main/T-none/093589b84207.json",
+      "record_sha256": "67f3a22769bb89d815a157ac7924d47e776531c004311a12d323fb6f86e8cc2e"
+    },
+    {
+      "condition": "T0",
+      "qa_id": "09ecc5ba1b9b",
+      "video_id": "perception_test_video_8872",
+      "correct": true,
+      "truth": "B",
+      "prediction": "B",
+      "record_path": "/data2/user/toc_phase0/results/stage6/predictions/main/T0/09ecc5ba1b9b.json",
+      "record_sha256": "95bfec5afe3bcc1f01a4ec61ae78c859b8f1ccb7bf0b1e59fa4bee744ab99bc4"
+    },
+    {
+      "condition": "T0",
+      "qa_id": "178a97c34031",
+      "video_id": "charades_BYSQ7",
+      "correct": true,
+      "truth": "B",
+      "prediction": "B",
+      "record_path": "/data2/user/toc_phase0/results/stage6/predictions/main/T0/178a97c34031.json",
+      "record_sha256": "bfd3d58f7e215f60af5feb05aaa5dd4973d5d707c0ebc7a1f23b5f824de5cd5e"
+    },
+    {
+      "condition": "T0",
+      "qa_id": "24773ab677ad",
+      "video_id": "charades_Y4IIO",
+      "correct": true,
+      "truth": "B",
+      "prediction": "B",
+      "record_path": "/data2/user/toc_phase0/results/stage6/predictions/main/T0/24773ab677ad.json",
+      "record_sha256": "c5de69cbe5c0fea42863609f4807293d7cd726f7c9a807fb9deb089ac1cf8a41"
+    },
+    {
+      "condition": "T0",
+      "qa_id": "061682ce31ac",
+      "video_id": "perception_test_video_6366",
+      "correct": false,
+      "truth": "A",
+      "prediction": "B",
+      "record_path": "/data2/user/toc_phase0/results/stage6/predictions/main/T0/061682ce31ac.json",
+      "record_sha256": "beea2513f6e6340897cece7d65bd73a5fddc2618b765e142a565359c511219b0"
+    },
+    {
+      "condition": "T0",
+      "qa_id": "0893a25082de",
+      "video_id": "perception_test_video_10764",
+      "correct": false,
+      "truth": "A",
+      "prediction": "B",
+      "record_path": "/data2/user/toc_phase0/results/stage6/predictions/main/T0/0893a25082de.json",
+      "record_sha256": "ec9fbf54ce634283e101c15f5fa4469b7b43a4c2b5db9efa1ab29e6fa5a0f94b"
+    },
+    {
+      "condition": "T0",
+      "qa_id": "093589b84207",
+      "video_id": "perception_test_video_9981",
+      "correct": false,
+      "truth": "A",
+      "prediction": "B",
+      "record_path": "/data2/user/toc_phase0/results/stage6/predictions/main/T0/093589b84207.json",
+      "record_sha256": "a0c93cc867b3a9b3805ba98b3618d907ee75dccc0d1960d0421ef30a1d92c8be"
+    },
+    {
+      "condition": "T1",
+      "qa_id": "09ecc5ba1b9b",
+      "video_id": "perception_test_video_8872",
+      "correct": true,
+      "truth": "B",
+      "prediction": "B",
+      "record_path": "/data2/user/toc_phase0/results/stage6/predictions/main/T1/09ecc5ba1b9b.json",
+      "record_sha256": "4e21800cb36c42ca2a2f728cc17c0a7c1a9dcbb83973d227a68fcbc72798a827"
+    },
+    {
+      "condition": "T1",
+      "qa_id": "0e9e33c81d1d",
+      "video_id": "charades_6B328",
+      "correct": true,
+      "truth": "A",
+      "prediction": "A",
+      "record_path": "/data2/user/toc_phase0/results/stage6/predictions/main/T1/0e9e33c81d1d.json",
+      "record_sha256": "8fb5cbb2c06d8ecbf41163a351b154ddee578268b25541ce1a99d84c95acdd25"
+    },
+    {
+      "condition": "T1",
+      "qa_id": "128d74ab4e21",
+      "video_id": "charades_M8NEU",
+      "correct": true,
+      "truth": "A",
+      "prediction": "A",
+      "record_path": "/data2/user/toc_phase0/results/stage6/predictions/main/T1/128d74ab4e21.json",
+      "record_sha256": "628d2f0c62d35e02c02523841307dabbd9f7abd1968cca60c8e4a7568c521369"
+    },
+    {
+      "condition": "T1",
+      "qa_id": "061682ce31ac",
+      "video_id": "perception_test_video_6366",
+      "correct": false,
+      "truth": "A",
+      "prediction": "B",
+      "record_path": "/data2/user/toc_phase0/results/stage6/predictions/main/T1/061682ce31ac.json",
+      "record_sha256": "19d9b6985d34673f24e5bd07d57fe56c01be414fee53cfbb8488ec0086d9e443"
+    },
+    {
+      "condition": "T1",
+      "qa_id": "0893a25082de",
+      "video_id": "perception_test_video_10764",
+      "correct": false,
+      "truth": "A",
+      "prediction": "B",
+      "record_path": "/data2/user/toc_phase0/results/stage6/predictions/main/T1/0893a25082de.json",
+      "record_sha256": "445370b52353781be724d6d9d08087ab5e0b9a5acbaf7d1c465050d9cb698767"
+    },
+    {
+      "condition": "T1",
+      "qa_id": "093589b84207",
+      "video_id": "perception_test_video_9981",
+      "correct": false,
+      "truth": "A",
+      "prediction": "B",
+      "record_path": "/data2/user/toc_phase0/results/stage6/predictions/main/T1/093589b84207.json",
+      "record_sha256": "d48ac8ec43c21b947b60a3a1560b17471ab93619f441fbdc7e11010716d37260"
+    },
+    {
+      "condition": "LoRA-B-events",
+      "qa_id": "0893a25082de",
+      "video_id": "perception_test_video_10764",
+      "correct": true,
+      "truth": "A",
+      "prediction": "A",
+      "record_path": "/data2/user/toc_phase0/results/stage6/predictions/main/LoRA-B-events/0893a25082de.json",
+      "record_sha256": "fd28168ac0e74b1149e23c862cf08d214e1d08ec4313d04f58943c3092705aa6"
+    },
+    {
+      "condition": "LoRA-B-events",
+      "qa_id": "0e9e33c81d1d",
+      "video_id": "charades_6B328",
+      "correct": true,
+      "truth": "A",
+      "prediction": "A",
+      "record_path": "/data2/user/toc_phase0/results/stage6/predictions/main/LoRA-B-events/0e9e33c81d1d.json",
+      "record_sha256": "1c6a5f4ad886a30f11518230d0f1f8014bbdcdb2723f0b535c1b92faabf5317b"
+    },
+    {
+      "condition": "LoRA-B-events",
+      "qa_id": "128d74ab4e21",
+      "video_id": "charades_M8NEU",
+      "correct": true,
+      "truth": "A",
+      "prediction": "A",
+      "record_path": "/data2/user/toc_phase0/results/stage6/predictions/main/LoRA-B-events/128d74ab4e21.json",
+      "record_sha256": "16c8a86430110b6b2f9be09c472730a9500bbc1a0cbacdd2db51f1f046dff516"
+    },
+    {
+      "condition": "LoRA-B-events",
+      "qa_id": "061682ce31ac",
+      "video_id": "perception_test_video_6366",
+      "correct": false,
+      "truth": "A",
+      "prediction": "B",
+      "record_path": "/data2/user/toc_phase0/results/stage6/predictions/main/LoRA-B-events/061682ce31ac.json",
+      "record_sha256": "43cc2fb70f6b3a9f71330bb05220827343403752e5036194239b3b45708cd0a6"
+    },
+    {
+      "condition": "LoRA-B-events",
+      "qa_id": "093589b84207",
+      "video_id": "perception_test_video_9981",
+      "correct": false,
+      "truth": "A",
+      "prediction": null,
+      "record_path": "/data2/user/toc_phase0/results/stage6/predictions/main/LoRA-B-events/093589b84207.json",
+      "record_sha256": "e13b778f66fac1305763d3820d1d13c256783740bb26c654f6987c5feaa7ed2b"
+    },
+    {
+      "condition": "LoRA-B-events",
+      "qa_id": "09ecc5ba1b9b",
+      "video_id": "perception_test_video_8872",
+      "correct": false,
+      "truth": "B",
+      "prediction": "A",
+      "record_path": "/data2/user/toc_phase0/results/stage6/predictions/main/LoRA-B-events/09ecc5ba1b9b.json",
+      "record_sha256": "4c1a8efaf029a9b1f05cf8b8816849c2fdbfd35943585a92639abc9a3f175734"
+    }
+  ]
+}

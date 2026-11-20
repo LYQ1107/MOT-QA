@@ -1,0 +1,73 @@
+{
+  "unit_key": "dancetrack0079__id001",
+  "sequence": "dancetrack0079",
+  "gt_id": 1,
+  "phase": "reference_instant_match",
+  "started_at": "2026-11-04T14:14:03.623145+00:00",
+  "completed_at": "2026-11-04T14:14:07.424255+00:00",
+  "seconds": 3.8011414408683777,
+  "prompt_text": "At this reference instant, match the following appearance phrase to ALL visible people: \"the person wearing a white t-shirt under a black jacket with dark pants and light-colored sneakers\"\nThe first image is the full frame, with anonymous boxes and labels. The other image(s) are crops of EVERY GT-present person at this SAME instant. Read the central person in each crop; neighboring bodies may overlap. Labels are bookkeeping only. Do not use gallery order, location, pose, or box color as appearance attributes. Include ALL people satisfying the full appearance phrase in matches, and any plausible but obscured/unclear people in uncertain. A partly hidden target whose defining clothing cannot be seen is uncertain. No forced choice; none or several are valid outcomes. Omitted labels mean clear non-matches.\nReturn {\"matches\":[\"P01\"],\"uncertain\":[],\"reason\":\"brief visual explanation\"}. Valid labels: [\"P01\", \"P02\", \"P03\", \"P04\", \"P05\", \"P06\", \"P07\", \"P08\", \"P09\", \"P10\", \"P11\", \"P12\", \"P13\", \"P14\", \"P15\", \"P16\", \"P17\", \"P18\"].",
+  "image_paths": [
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0079/anchor_id001_f000396/full_frame.jpg",
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0079/anchor_id001_f000396/local_gallery_page00.jpg",
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0079/anchor_id001_f000396/local_gallery_page01.jpg"
+  ],
+  "image_sha256": [
+    "fbc833dbf54c94afb0015ff6eb07dce2b9801a6d414c884fe1fee6f6a6c271cd",
+    "c8fa6c18c84633545581de7c3b977611609c8c0cb5fe527b23c74e64884523cf",
+    "9f08b110dde091a8c34c447bf4251c8329dbbcc7e6db07c2de072c29360ea19a"
+  ],
+  "response": {
+    "id": "chatcmpl-addd6a446c0f4505",
+    "object": "chat.completion",
+    "created": 1793801643,
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"matches\":[\"P10\"],\"uncertain\":[],\"reason\":\"Only P10 is clearly wearing a white t-shirt under a black jacket, with dark pants and light-colored sneakers. Other individuals either wear yellow shirts, different outerwear, or their upper body clothing is not clearly visible to confirm the white t-shirt under a black jacket.\"}",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 2031,
+      "total_tokens": 2101,
+      "completion_tokens": 70,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "check": {
+    "valid": true,
+    "parsed": {
+      "matches": [
+        "P10"
+      ],
+      "uncertain": [],
+      "reason": "Only P10 is clearly wearing a white t-shirt under a black jacket, with dark pants and light-colored sneakers. Other individuals either wear yellow shirts, different outerwear, or their upper body clothing is not clearly visible to confirm the white t-shirt under a black jacket."
+    },
+    "matched_gt_ids": [
+      1
+    ],
+    "uncertain_gt_ids": [],
+    "passed": true,
+    "error": null
+  },
+  "inference_policy_sha256": "ea3ce06e83208db2fc1ed693ee2ac1b349f8ae344fcdc2cb0a22e30ef8df60e3"
+}

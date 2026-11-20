@@ -1,0 +1,43 @@
+{
+  "version": "stage3_readability_v3",
+  "status": "LOCKED_BEFORE_REVISION",
+  "locked_at": "2026-11-06T20:12:56.901294+08:00",
+  "authorization": "User accepted the proposed full-candidate repair and Chinese supplementary review: 继续吧",
+  "parameters": {
+    "seed": 42,
+    "base_gap_definition_s": 1.0,
+    "previous_gap_construction_min_s": 1.5,
+    "readability_gap_min_s": 2.0,
+    "visible_run_before_and_after_gap_min_s": 0.6,
+    "sampled_frames_inside_positive_gap_min": 2,
+    "visible_sample_before_and_after_positive_gap_min": 1,
+    "event_reference_continuous_visible_context_s": 1.0,
+    "event_reference_min_width_fraction": 0.02,
+    "event_reference_min_width_px": 32,
+    "event_reference_search_from_event_max_s": 2.0,
+    "event_reference_start_context_min_s": 1.0,
+    "numeric_time_sampling_interval_max_s": 1.0,
+    "negative_gap_question": "reject any internal missing run returning in query through the existing2s negative extension, including subthreshold runs",
+    "video_input": {
+      "frame_count": 32,
+      "sampling": "start + floor(i*N/32), i=0..31, inclusive window length N",
+      "window_start": "earliest displayed reference frame minus1s, clipped to original eligible source window",
+      "window_end": "question end plus2s, clipped to original eligible source window",
+      "time_origin": "original video, not clip-relative",
+      "used_to_choose_window": "question/reference instants only; no answer events or model scores",
+      "same_frames_for_all_later_conditions": true
+    },
+    "event_facts": "original GT/visibility convention remains unchanged; stricter candidate eligibility does not redefine source events",
+    "non_gap_questions": "scan references and store actual uniform input; no new duration rule on crossings/point queries",
+    "human_feedback": "held three specific originals are replaced, even if an automatic proxy passes",
+    "reference_quota": "try original225 event references; unclear event references may become box references as authorized; report any shortage",
+    "scope": "900 candidate revision and small Chinese supplementary review; stop before filtering or Stage5"
+  },
+  "preserved_source_files": {
+    "/home/user/motqa_pilot/data/candidates.jsonl": "f99e302cfa2b6abcb7d283789b8d350a3576b8e5b81650e00c80e8397f752edc",
+    "/home/user/motqa_pilot/results/generation_config_locked.json": "0ce27a335341974f84ab638e5244b45a7b5cfd9dea7436604c85be07613776f4",
+    "/home/user/motqa_pilot/results/visibility_convention.json": "ab72163cdc2ba92a4dfe78bb1970fc4d7ea08974f035c9cd72b33eadc7721c98",
+    "/home/user/motqa_pilot/results/templates_locked.json": "77a2cc0672de63b566e371211f77483dedb4fb8f0c8007bbcfd75cfaf27f178e",
+    "/home/user/motqa_pilot/data/question_review_user_passed_20.jsonl": "452cbd881bdcd2b6540dbb274e5f4fc56a9a1e3f14fdb009b2efcb188af1225d"
+  }
+}

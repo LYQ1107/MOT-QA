@@ -1,0 +1,72 @@
+{
+  "unit_key": "dancetrack0026__id016",
+  "sequence": "dancetrack0026",
+  "gt_id": 16,
+  "phase": "generate",
+  "started_at": "2026-11-04T13:53:55.112273+00:00",
+  "completed_at": "2026-11-04T13:54:00.959060+00:00",
+  "seconds": 5.846819705795497,
+  "prompt_text": "The first image shows three crops of ONE target person at different times. The other image(s) show comparison people from the SAME video; every labeled tile is a different annotated person, shown in up to three crops. These comparison labels are anonymous bookkeeping labels, not appearance attributes.\nWrite one concise English noun phrase (at most 30 words), starting with \"the person\", describing the target using stable, clearly visible clothing, patterns, hair, or accessories. Prefer details that distinguish this person from comparison people. Do not mention actions, pose, scene location, time, spatial relation to others, gallery labels, or GT identity numbers. Visible garment lettering is allowed only if clearly legible. Do not infer colors/details hidden by another person. If no reliable description is possible, use an empty phrase. If a truthful description is shared by others, still provide it and set visually_distinct to false.\nReturn {\"phrase\":\"...\", \"supported_attributes\":[\"...\"], \"visually_distinct\":true, \"limitations\":\"...\"}. A description need not be unique; truthful uncertainty is preferred to invented uniqueness.\nThe target person is also included once among the comparison gallery tiles. Identify that repeated target visually; do not treat the repeated target tile as a different rival. Look for truthful stable appearance that distinguishes the target from OTHER people.",
+  "image_paths": [
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0026/id016_target.jpg",
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0026/generation_gallery_page00.jpg",
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0026/generation_gallery_page01.jpg"
+  ],
+  "image_sha256": [
+    "b4afa935cc4a255ba45f073b7bac57fb2b1ea07b22a030cb37d16c2999d43cb3",
+    "6367b6673fa802dce0f99a3476d7848ce774094ece49cdcdc97498d0f9db79a6",
+    "6c941c7d5a259adb74a666caa5b9a5026520fcc9b53100942293c67ea577356d"
+  ],
+  "response": {
+    "id": "chatcmpl-9a6c9ff9f1e94629",
+    "object": "chat.completion",
+    "created": 1793800435,
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"phrase\": \"the person in a white tutu with a ruffled bodice and a small floral hair accessory\",\n  \"supported_attributes\": [\"white tutu\", \"ruffled bodice\", \"small floral hair accessory\"],\n  \"visually_distinct\": false,\n  \"limitations\": \"The described appearance is common among multiple dancers in the gallery; no unique distinguishing features are visible to differentiate this person from others.\"\n}",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 2893,
+      "total_tokens": 2982,
+      "completion_tokens": 89,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "check": {
+    "valid": true,
+    "parsed": {
+      "phrase": "the person in a white tutu with a ruffled bodice and a small floral hair accessory",
+      "supported_attributes": [
+        "white tutu",
+        "ruffled bodice",
+        "small floral hair accessory"
+      ],
+      "visually_distinct": false,
+      "limitations": "The described appearance is common among multiple dancers in the gallery; no unique distinguishing features are visible to differentiate this person from others."
+    },
+    "phrase": "the person in a white tutu with a ruffled bodice and a small floral hair accessory",
+    "error": null
+  },
+  "inference_policy_sha256": "ea3ce06e83208db2fc1ed693ee2ac1b349f8ae344fcdc2cb0a22e30ef8df60e3"
+}

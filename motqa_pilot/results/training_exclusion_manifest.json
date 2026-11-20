@@ -1,0 +1,98 @@
+{
+  "recorded_at": "2026-11-06T01:01:57.678430+08:00",
+  "purpose": "Future training must exclude held-out combinations and test-only paraphrases; no training data constructed.",
+  "operation_combinations": [
+    [
+      "O6",
+      "O1"
+    ],
+    [
+      "O6",
+      "O4"
+    ],
+    [
+      "O5",
+      "O2"
+    ]
+  ],
+  "composition_template_families": [
+    "cross_region",
+    "cross_exit_count",
+    "motion_relation_example_only"
+  ],
+  "paraphrase_exclusions": {
+    "region": [
+      3,
+      4
+    ],
+    "left_pair": [
+      3,
+      4
+    ],
+    "return_time": [
+      3,
+      4
+    ],
+    "cross_count": [
+      3,
+      4
+    ],
+    "entry_count": [
+      3,
+      4
+    ],
+    "earlier_return_time": [
+      3,
+      4
+    ],
+    "earliest_return_person": [
+      3,
+      4
+    ],
+    "closest_time": [
+      3,
+      4
+    ],
+    "cross_time": [
+      3,
+      4
+    ],
+    "return_region": [
+      3,
+      4
+    ],
+    "identity_match": [
+      3,
+      4
+    ],
+    "identity_same": [
+      3,
+      4
+    ],
+    "cross_exit_count": [
+      3,
+      4
+    ],
+    "order_region": [
+      3,
+      4
+    ],
+    "motion_relation_example_only": [
+      3,
+      4
+    ],
+    "cross_region": [
+      3,
+      4
+    ],
+    "first_cross_crop": [
+      3,
+      4
+    ],
+    "cross_frequency": [
+      3,
+      4
+    ]
+  },
+  "enforcement": "Exclude any split_role=held_out_composition regardless of paraphrase_split; exclude every held_out paraphrase in all other operations."
+}

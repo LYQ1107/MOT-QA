@@ -1,0 +1,9 @@
+{
+  "at": "2026-11-04T13:49:27.547008+00:00",
+  "cuda_visible_devices": "0,1",
+  "exit_code": 1,
+  "stdout": "",
+  "stderr": "Traceback (most recent call last):\n  File \"<string>\", line 1, in <module>\nTypeError: _ModelRegistry.is_multimodal_model() missing 1 required positional argument: 'model_config'\n",
+  "runner_sha256": "f868eef2b010e1a038321acd824eca4d7b2da9499289b0a9df54241a2f40c510",
+  "change": "UUID CVD replaced by physical indices; model/prompt/acceptance unchanged"
+}

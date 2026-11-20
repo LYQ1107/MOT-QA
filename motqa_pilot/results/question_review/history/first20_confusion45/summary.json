@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-11-05T20:57:36.387443+08:00",
+  "scope": "20 newly generated complete questions for user design review; not a random sample from a completed900-question batch.",
+  "count": 20,
+  "reference_counts": {
+    "box": 8,
+    "event": 5,
+    "appearance": 4,
+    "position": 3
+  },
+  "dataset_counts": {
+    "DanceTrack": 8,
+    "SportsMOT": 8,
+    "MOT17": 4
+  },
+  "operation_counts": {
+    "O2": 3,
+    "O5": 3,
+    "O6": 3,
+    "O4": 3,
+    "composition_motion_relation": 1,
+    "O3": 2,
+    "O7": 2,
+    "O1": 2,
+    "composition_cross_exit": 1
+  },
+  "confusion_coverage": 0.45,
+  "max_target_identity_reuse": 3,
+  "questions": "/home/user/motqa_pilot/data/question_review_candidates_20.jsonl",
+  "questions_sha256": "b51f634c8269062f107beaca77e08632139fcb89c936784d329534bd4a221f2f",
+  "protocol_sha256": "edc21f1a7834e9a860722236c305e7afc39cedf1b7d88499c09c9a2f2eb4cca6",
+  "full_900_candidate_batch_generated": false,
+  "new_model_calls": 0,
+  "new_tracker_runs": 0
+}

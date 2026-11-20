@@ -1,0 +1,1607 @@
+[
+  {
+    "unit_key": "dancetrack0018__id000",
+    "dataset": "DanceTrack",
+    "source_split": "val",
+    "sequence": "dancetrack0018",
+    "gt_id": 0,
+    "crop_records": [
+      {
+        "bin": 0,
+        "role": "generation",
+        "visible_index": 22,
+        "frame_index_0based": 22,
+        "frame_id_1based": 23,
+        "time_s": 1.1,
+        "box_xywh": [
+          15.0,
+          387.0,
+          513.0,
+          578.0
+        ],
+        "quality": 0.7883478607900453,
+        "in_frame_fraction": 1.0,
+        "max_other_box_cover_fraction": 0.0,
+        "path": "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id000_generation_0_f000023.jpg",
+        "sha256": "a43f81763fb9a5dff0a47378e810779b78af142456de60a4a2c4799ca7cecea7",
+        "source_frame_path": "/data2/user/LocateMOT/data/DanceTrack/val/dancetrack0018/img1/00000023.jpg",
+        "source_frame_sha256": "3161056eb5105c58eeacb75b2921f838099208c96ac7a85dc19d0bf8787e96ce",
+        "fallback": "none"
+      },
+      {
+        "bin": 1,
+        "role": "validation",
+        "visible_index": 125,
+        "frame_index_0based": 125,
+        "frame_id_1based": 126,
+        "time_s": 6.25,
+        "box_xywh": [
+          279.0,
+          239.0,
+          468.0,
+          773.0
+        ],
+        "quality": 0.6320010476366538,
+        "in_frame_fraction": 1.0,
+        "max_other_box_cover_fraction": 0.27421191716146437,
+        "path": "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id000_validation_1_f000126.jpg",
+        "sha256": "7de76b9c82a52cb4729fedb003f13cc5a90ef632ea5bf046bd696aeae6848b47",
+        "source_frame_path": "/data2/user/LocateMOT/data/DanceTrack/val/dancetrack0018/img1/00000126.jpg",
+        "source_frame_sha256": "0c585c1ab9a7620942a796ccfe27192efe835e94670ca2e8bef9d37353734c72",
+        "fallback": "none"
+      },
+      {
+        "bin": 2,
+        "role": "generation",
+        "visible_index": 236,
+        "frame_index_0based": 236,
+        "frame_id_1based": 237,
+        "time_s": 11.8,
+        "box_xywh": [
+          119.0,
+          247.0,
+          429.0,
+          784.0
+        ],
+        "quality": 0.8396184419516969,
+        "in_frame_fraction": 1.0,
+        "max_other_box_cover_fraction": 0.0,
+        "path": "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id000_generation_2_f000237.jpg",
+        "sha256": "3848c6c32bd482a039b2b779c148eaa1c6a6a676e32e66c6e5842d37905ac436",
+        "source_frame_path": "/data2/user/LocateMOT/data/DanceTrack/val/dancetrack0018/img1/00000237.jpg",
+        "source_frame_sha256": "92940798ee9c3e2cf88af4b42c0d05c1bb8e29c86f174146485494e282a0f47a",
+        "fallback": "none"
+      },
+      {
+        "bin": 3,
+        "role": "validation",
+        "visible_index": 361,
+        "frame_index_0based": 361,
+        "frame_id_1based": 362,
+        "time_s": 18.05,
+        "box_xywh": [
+          92.0,
+          244.0,
+          595.0,
+          762.0
+        ],
+        "quality": 0.7487885205295245,
+        "in_frame_fraction": 1.0,
+        "max_other_box_cover_fraction": 0.23188204415624517,
+        "path": "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id000_validation_3_f000362.jpg",
+        "sha256": "ab0c6dfb53427afefbf62f85ef64dfdd4e10ba8cff8b2f30b89d52b8bf0fd0b7",
+        "source_frame_path": "/data2/user/LocateMOT/data/DanceTrack/val/dancetrack0018/img1/00000362.jpg",
+        "source_frame_sha256": "9f4129d3222ac0355dbf801b2a3a19e19d3100502894bdd9b5487cd449d989d0",
+        "fallback": "none"
+      },
+      {
+        "bin": 4,
+        "role": "generation",
+        "visible_index": 486,
+        "frame_index_0based": 486,
+        "frame_id_1based": 487,
+        "time_s": 24.3,
+        "box_xywh": [
+          551.0,
+          337.0,
+          400.0,
+          658.0
+        ],
+        "quality": 0.6031395880150728,
+        "in_frame_fraction": 1.0,
+        "max_other_box_cover_fraction": 0.18795592705167175,
+        "path": "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id000_generation_4_f000487.jpg",
+        "sha256": "a1a9d23bbb4c0e6c71df7255786f62a589838108728fb7a9c15830adacb9f6f6",
+        "source_frame_path": "/data2/user/LocateMOT/data/DanceTrack/val/dancetrack0018/img1/00000487.jpg",
+        "source_frame_sha256": "8da37c29e31cee719797aaf3c2c342f5006d314f5526f4e967ab51f50217c4d3",
+        "fallback": "none"
+      }
+    ],
+    "generation_paths": [
+      "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id000_generation_0_f000023.jpg",
+      "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id000_generation_2_f000237.jpg",
+      "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id000_generation_4_f000487.jpg"
+    ],
+    "validation_paths": [
+      "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id000_validation_1_f000126.jpg",
+      "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id000_validation_3_f000362.jpg"
+    ],
+    "target_image": "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id000_target.jpg",
+    "anchor": {
+      "bin": 3,
+      "role": "validation",
+      "visible_index": 361,
+      "frame_index_0based": 361,
+      "frame_id_1based": 362,
+      "time_s": 18.05,
+      "box_xywh": [
+        92.0,
+        244.0,
+        595.0,
+        762.0
+      ],
+      "quality": 0.7487885205295245,
+      "in_frame_fraction": 1.0,
+      "max_other_box_cover_fraction": 0.23188204415624517,
+      "path": "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id000_validation_3_f000362.jpg",
+      "sha256": "ab0c6dfb53427afefbf62f85ef64dfdd4e10ba8cff8b2f30b89d52b8bf0fd0b7",
+      "source_frame_path": "/data2/user/LocateMOT/data/DanceTrack/val/dancetrack0018/img1/00000362.jpg",
+      "source_frame_sha256": "9f4129d3222ac0355dbf801b2a3a19e19d3100502894bdd9b5487cd449d989d0",
+      "fallback": "none",
+      "geometric_quality_pass": true
+    },
+    "visible_frame_count": 503,
+    "crop_complete": true,
+    "local_gallery": {
+      "images": [
+        "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/anchor_id000_f000362/full_frame.jpg",
+        "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/anchor_id000_f000362/local_gallery_page00.jpg"
+      ],
+      "label_to_gt_id": {
+        "P01": 0,
+        "P02": 4,
+        "P03": 3,
+        "P04": 2,
+        "P05": 6,
+        "P06": 1
+      },
+      "frame_id_1based": 362,
+      "time_s": 18.05
+    },
+    "global_gallery": {
+      "images": [
+        "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/heldout_gallery_page00.jpg"
+      ],
+      "label_to_gt_id": {
+        "P01": 4,
+        "P02": 6,
+        "P03": 2,
+        "P04": 1,
+        "P05": 7,
+        "P06": 0,
+        "P07": 3,
+        "P08": 5
+      }
+    },
+    "generation_gallery": {
+      "images": [
+        "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/generation_gallery_page00.jpg"
+      ],
+      "label_to_gt_id": {
+        "P01": 6,
+        "P02": 0,
+        "P03": 5,
+        "P04": 1,
+        "P05": 7,
+        "P06": 4,
+        "P07": 2,
+        "P08": 3
+      }
+    }
+  },
+  {
+    "unit_key": "dancetrack0018__id001",
+    "dataset": "DanceTrack",
+    "source_split": "val",
+    "sequence": "dancetrack0018",
+    "gt_id": 1,
+    "crop_records": [
+      {
+        "bin": 0,
+        "role": "generation",
+        "visible_index": 20,
+        "frame_index_0based": 20,
+        "frame_id_1based": 21,
+        "time_s": 1.0,
+        "box_xywh": [
+          941.0,
+          400.0,
+          254.0,
+          514.0
+        ],
+        "quality": 0.39315342034111334,
+        "in_frame_fraction": 1.0,
+        "max_other_box_cover_fraction": 0.3346456692913386,
+        "path": "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id001_generation_0_f000021.jpg",
+        "sha256": "144c90ba990aee5d0f4c50a7e1deaace1effae6497061f7d44ba4a32b0a58ced",
+        "source_frame_path": "/data2/user/LocateMOT/data/DanceTrack/val/dancetrack0018/img1/00000021.jpg",
+        "source_frame_sha256": "1208056b229671ef00371d3a0adbc04519d4e1d3e2a69ec5b86b22a121ec4819",
+        "fallback": "none"
+      },
+      {
+        "bin": 1,
+        "role": "validation",
+        "visible_index": 130,
+        "frame_index_0based": 130,
+        "frame_id_1based": 131,
+        "time_s": 6.5,
+        "box_xywh": [
+          944.0,
+          353.0,
+          390.0,
+          623.0
+        ],
+        "quality": 0.42578425005909903,
+        "in_frame_fraction": 1.0,
+        "max_other_box_cover_fraction": 0.4717948717948718,
+        "path": "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id001_validation_1_f000131.jpg",
+        "sha256": "4f5683e081e4436376a8106f2e57a60076677554ae61d4693a00a676b3102c95",
+        "source_frame_path": "/data2/user/LocateMOT/data/DanceTrack/val/dancetrack0018/img1/00000131.jpg",
+        "source_frame_sha256": "bb72cda3ab46e715acea90c725cb34e6b5837664777426dd57d7121f73cd6fd7",
+        "fallback": "none"
+      },
+      {
+        "bin": 2,
+        "role": "generation",
+        "visible_index": 242,
+        "frame_index_0based": 242,
+        "frame_id_1based": 243,
+        "time_s": 12.1,
+        "box_xywh": [
+          944.0,
+          295.0,
+          352.0,
+          674.0
+        ],
+        "quality": 0.6177772570095247,
+        "in_frame_fraction": 1.0,
+        "max_other_box_cover_fraction": 0.22443181818181818,
+        "path": "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id001_generation_2_f000243.jpg",
+        "sha256": "bbf0d4333e8a891fd49e2540c6571dfda8c7e1a8fd9722b8d95febfff0522e35",
+        "source_frame_path": "/data2/user/LocateMOT/data/DanceTrack/val/dancetrack0018/img1/00000243.jpg",
+        "source_frame_sha256": "51bdcb57fad522fe84e00500f4f4a7e1a223874dc3f55ac8e52d173932f77d66",
+        "fallback": "none"
+      },
+      {
+        "bin": 3,
+        "role": "validation",
+        "visible_index": 335,
+        "frame_index_0based": 335,
+        "frame_id_1based": 336,
+        "time_s": 16.75,
+        "box_xywh": [
+          1042.0,
+          303.0,
+          312.0,
+          663.0
+        ],
+        "quality": 0.5983617740858834,
+        "in_frame_fraction": 1.0,
+        "max_other_box_cover_fraction": 0.1955128205128205,
+        "path": "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id001_validation_3_f000336.jpg",
+        "sha256": "d6030afc3195a1484d401470364c490f007f06827c7c2fa1da041d8b24e0120f",
+        "source_frame_path": "/data2/user/LocateMOT/data/DanceTrack/val/dancetrack0018/img1/00000336.jpg",
+        "source_frame_sha256": "aa52fd3d94798bdf953c3c37e0765169a002ed0c49875215927b80c6f4eae158",
+        "fallback": "none"
+      },
+      {
+        "bin": 4,
+        "role": "generation",
+        "visible_index": 432,
+        "frame_index_0based": 432,
+        "frame_id_1based": 433,
+        "time_s": 21.6,
+        "box_xywh": [
+          1472.0,
+          260.0,
+          231.0,
+          708.0
+        ],
+        "quality": 0.6613529137369427,
+        "in_frame_fraction": 1.0,
+        "max_other_box_cover_fraction": 0.0,
+        "path": "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id001_generation_4_f000433.jpg",
+        "sha256": "75103f02030083642860ecbb4c4bb23bb3f374ec0a912ae474de9aa7ad1ce8d3",
+        "source_frame_path": "/data2/user/LocateMOT/data/DanceTrack/val/dancetrack0018/img1/00000433.jpg",
+        "source_frame_sha256": "ca6cdb24171e3df0db39849ca7af1d151d586aa12f5b1c43688dbd28600cb947",
+        "fallback": "none"
+      }
+    ],
+    "generation_paths": [
+      "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id001_generation_0_f000021.jpg",
+      "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id001_generation_2_f000243.jpg",
+      "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id001_generation_4_f000433.jpg"
+    ],
+    "validation_paths": [
+      "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id001_validation_1_f000131.jpg",
+      "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id001_validation_3_f000336.jpg"
+    ],
+    "target_image": "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id001_target.jpg",
+    "anchor": {
+      "bin": 3,
+      "role": "validation",
+      "visible_index": 335,
+      "frame_index_0based": 335,
+      "frame_id_1based": 336,
+      "time_s": 16.75,
+      "box_xywh": [
+        1042.0,
+        303.0,
+        312.0,
+        663.0
+      ],
+      "quality": 0.5983617740858834,
+      "in_frame_fraction": 1.0,
+      "max_other_box_cover_fraction": 0.1955128205128205,
+      "path": "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id001_validation_3_f000336.jpg",
+      "sha256": "d6030afc3195a1484d401470364c490f007f06827c7c2fa1da041d8b24e0120f",
+      "source_frame_path": "/data2/user/LocateMOT/data/DanceTrack/val/dancetrack0018/img1/00000336.jpg",
+      "source_frame_sha256": "aa52fd3d94798bdf953c3c37e0765169a002ed0c49875215927b80c6f4eae158",
+      "fallback": "none",
+      "geometric_quality_pass": true
+    },
+    "visible_frame_count": 503,
+    "crop_complete": true,
+    "local_gallery": {
+      "images": [
+        "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/anchor_id001_f000336/full_frame.jpg",
+        "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/anchor_id001_f000336/local_gallery_page00.jpg"
+      ],
+      "label_to_gt_id": {
+        "P01": 3,
+        "P02": 0,
+        "P03": 1,
+        "P04": 6,
+        "P05": 4,
+        "P06": 7,
+        "P07": 2
+      },
+      "frame_id_1based": 336,
+      "time_s": 16.75
+    },
+    "global_gallery": {
+      "images": [
+        "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/heldout_gallery_page00.jpg"
+      ],
+      "label_to_gt_id": {
+        "P01": 4,
+        "P02": 6,
+        "P03": 2,
+        "P04": 1,
+        "P05": 7,
+        "P06": 0,
+        "P07": 3,
+        "P08": 5
+      }
+    },
+    "generation_gallery": {
+      "images": [
+        "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/generation_gallery_page00.jpg"
+      ],
+      "label_to_gt_id": {
+        "P01": 6,
+        "P02": 0,
+        "P03": 5,
+        "P04": 1,
+        "P05": 7,
+        "P06": 4,
+        "P07": 2,
+        "P08": 3
+      }
+    }
+  },
+  {
+    "unit_key": "dancetrack0018__id002",
+    "dataset": "DanceTrack",
+    "source_split": "val",
+    "sequence": "dancetrack0018",
+    "gt_id": 2,
+    "crop_records": [
+      {
+        "bin": 0,
+        "role": "generation",
+        "visible_index": 23,
+        "frame_index_0based": 23,
+        "frame_id_1based": 24,
+        "time_s": 1.15,
+        "box_xywh": [
+          1255.0,
+          348.0,
+          371.0,
+          583.0
+        ],
+        "quality": 0.7366705145395301,
+        "in_frame_fraction": 1.0,
+        "max_other_box_cover_fraction": 0.0,
+        "path": "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id002_generation_0_f000024.jpg",
+        "sha256": "b0e6eb057e38b4c36d44c4b90f9e4b3dd897f6770f6bd502c84a23f86048e5c7",
+        "source_frame_path": "/data2/user/LocateMOT/data/DanceTrack/val/dancetrack0018/img1/00000024.jpg",
+        "source_frame_sha256": "01f1a1504c4ef6a69dc10b0fa354080bd39f99440f072536745c86366f6fbbf3",
+        "fallback": "none"
+      },
+      {
+        "bin": 1,
+        "role": "validation",
+        "visible_index": 122,
+        "frame_index_0based": 122,
+        "frame_id_1based": 123,
+        "time_s": 6.1,
+        "box_xywh": [
+          1278.0,
+          258.0,
+          400.0,
+          740.0
+        ],
+        "quality": 0.6427270603162294,
+        "in_frame_fraction": 1.0,
+        "max_other_box_cover_fraction": 0.2541891891891892,
+        "path": "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id002_validation_1_f000123.jpg",
+        "sha256": "97d5e2f7b45b54ed08889274a645be623784d9e1b0a2a054b4c97248831f8cb3",
+        "source_frame_path": "/data2/user/LocateMOT/data/DanceTrack/val/dancetrack0018/img1/00000123.jpg",
+        "source_frame_sha256": "6800db05aad121cc9da6abdbace0f6c4598880ce0a40983cb1da291df2c77b37",
+        "fallback": "none"
+      },
+      {
+        "bin": 2,
+        "role": "generation",
+        "visible_index": 285,
+        "frame_index_0based": 285,
+        "frame_id_1based": 286,
+        "time_s": 14.25,
+        "box_xywh": [
+          1258.0,
+          206.0,
+          464.0,
+          798.0
+        ],
+        "quality": 0.9024338896276735,
+        "in_frame_fraction": 1.0,
+        "max_other_box_cover_fraction": 0.06372612565897502,
+        "path": "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id002_generation_2_f000286.jpg",
+        "sha256": "05e1f24c07580bcda3d7ba2be8aaaeac9640bd4ba3534fff621800b59b17b996",
+        "source_frame_path": "/data2/user/LocateMOT/data/DanceTrack/val/dancetrack0018/img1/00000286.jpg",
+        "source_frame_sha256": "a765ba18a2676580c11c5400f3f5e8637d021816771918fbee602f373ea4f0ce",
+        "fallback": "none"
+      },
+      {
+        "bin": 3,
+        "role": "validation",
+        "visible_index": 366,
+        "frame_index_0based": 366,
+        "frame_id_1based": 367,
+        "time_s": 18.3,
+        "box_xywh": [
+          1321.0,
+          252.0,
+          356.0,
+          755.0
+        ],
+        "quality": 0.8212030052802372,
+        "in_frame_fraction": 1.0,
+        "max_other_box_cover_fraction": 0.0,
+        "path": "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id002_validation_3_f000367.jpg",
+        "sha256": "e190e04ebb860134e85ac4c999d7810a7c9ef2f8be30c8dad188ef20556d4a59",
+        "source_frame_path": "/data2/user/LocateMOT/data/DanceTrack/val/dancetrack0018/img1/00000367.jpg",
+        "source_frame_sha256": "a12da0bc237217400fe4bad60fa4aedfcd0dd57a4e71a5e5bc29afe679a1ce38",
+        "fallback": "none"
+      },
+      {
+        "bin": 4,
+        "role": "generation",
+        "visible_index": 409,
+        "frame_index_0based": 409,
+        "frame_id_1based": 410,
+        "time_s": 20.45,
+        "box_xywh": [
+          1092.0,
+          251.0,
+          348.0,
+          729.0
+        ],
+        "quality": 0.6668697872961611,
+        "in_frame_fraction": 1.0,
+        "max_other_box_cover_fraction": 0.1641360389763966,
+        "path": "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id002_generation_4_f000410.jpg",
+        "sha256": "5256ad4ef874ecf87c7a50ca9d7128b3d652abd8a5dc5a9f922ff1faa7b6df87",
+        "source_frame_path": "/data2/user/LocateMOT/data/DanceTrack/val/dancetrack0018/img1/00000410.jpg",
+        "source_frame_sha256": "e9b0d1b130ad499f3e8d7ccbc24303efcc45daf4fd9be43126d81ca54feef13e",
+        "fallback": "none"
+      }
+    ],
+    "generation_paths": [
+      "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id002_generation_0_f000024.jpg",
+      "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id002_generation_2_f000286.jpg",
+      "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id002_generation_4_f000410.jpg"
+    ],
+    "validation_paths": [
+      "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id002_validation_1_f000123.jpg",
+      "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id002_validation_3_f000367.jpg"
+    ],
+    "target_image": "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id002_target.jpg",
+    "anchor": {
+      "bin": 3,
+      "role": "validation",
+      "visible_index": 366,
+      "frame_index_0based": 366,
+      "frame_id_1based": 367,
+      "time_s": 18.3,
+      "box_xywh": [
+        1321.0,
+        252.0,
+        356.0,
+        755.0
+      ],
+      "quality": 0.8212030052802372,
+      "in_frame_fraction": 1.0,
+      "max_other_box_cover_fraction": 0.0,
+      "path": "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id002_validation_3_f000367.jpg",
+      "sha256": "e190e04ebb860134e85ac4c999d7810a7c9ef2f8be30c8dad188ef20556d4a59",
+      "source_frame_path": "/data2/user/LocateMOT/data/DanceTrack/val/dancetrack0018/img1/00000367.jpg",
+      "source_frame_sha256": "a12da0bc237217400fe4bad60fa4aedfcd0dd57a4e71a5e5bc29afe679a1ce38",
+      "fallback": "none",
+      "geometric_quality_pass": true
+    },
+    "visible_frame_count": 503,
+    "crop_complete": true,
+    "local_gallery": {
+      "images": [
+        "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/anchor_id002_f000367/full_frame.jpg",
+        "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/anchor_id002_f000367/local_gallery_page00.jpg"
+      ],
+      "label_to_gt_id": {
+        "P01": 7,
+        "P02": 3,
+        "P03": 2,
+        "P04": 4,
+        "P05": 1,
+        "P06": 0,
+        "P07": 6
+      },
+      "frame_id_1based": 367,
+      "time_s": 18.3
+    },
+    "global_gallery": {
+      "images": [
+        "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/heldout_gallery_page00.jpg"
+      ],
+      "label_to_gt_id": {
+        "P01": 4,
+        "P02": 6,
+        "P03": 2,
+        "P04": 1,
+        "P05": 7,
+        "P06": 0,
+        "P07": 3,
+        "P08": 5
+      }
+    },
+    "generation_gallery": {
+      "images": [
+        "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/generation_gallery_page00.jpg"
+      ],
+      "label_to_gt_id": {
+        "P01": 6,
+        "P02": 0,
+        "P03": 5,
+        "P04": 1,
+        "P05": 7,
+        "P06": 4,
+        "P07": 2,
+        "P08": 3
+      }
+    }
+  },
+  {
+    "unit_key": "dancetrack0018__id003",
+    "dataset": "DanceTrack",
+    "source_split": "val",
+    "sequence": "dancetrack0018",
+    "gt_id": 3,
+    "crop_records": [
+      {
+        "bin": 0,
+        "role": "generation",
+        "visible_index": 26,
+        "frame_index_0based": 26,
+        "frame_id_1based": 27,
+        "time_s": 1.3,
+        "box_xywh": [
+          513.0,
+          433.0,
+          257.0,
+          488.0
+        ],
+        "quality": 0.539403838269313,
+        "in_frame_fraction": 1.0,
+        "max_other_box_cover_fraction": 0.13127511641257894,
+        "path": "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id003_generation_0_f000027.jpg",
+        "sha256": "93e377b1261af69916f07cd083f4fdbf5da51f861ea6a0f6c2d74269cfb3606c",
+        "source_frame_path": "/data2/user/LocateMOT/data/DanceTrack/val/dancetrack0018/img1/00000027.jpg",
+        "source_frame_sha256": "085810cf94b03b0d5ee45b82252b87c1f9fa760ca68e24858a1e1931f42144ab",
+        "fallback": "none"
+      },
+      {
+        "bin": 1,
+        "role": "validation",
+        "visible_index": 118,
+        "frame_index_0based": 118,
+        "frame_id_1based": 119,
+        "time_s": 5.9,
+        "box_xywh": [
+          697.0,
+          301.0,
+          339.0,
+          667.0
+        ],
+        "quality": 0.4279249557177601,
+        "in_frame_fraction": 1.0,
+        "max_other_box_cover_fraction": 0.48672566371681414,
+        "path": "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id003_validation_1_f000119.jpg",
+        "sha256": "4fda7da9ef76093c24feaa8e3c89fd40101002581333007f206e13f4904c08b4",
+        "source_frame_path": "/data2/user/LocateMOT/data/DanceTrack/val/dancetrack0018/img1/00000119.jpg",
+        "source_frame_sha256": "d5a7b587d59328a3e84c2cdfd8cd0756e73c90d0123263e6b29cc9ce28db0f06",
+        "fallback": "none"
+      },
+      {
+        "bin": 2,
+        "role": "generation",
+        "visible_index": 291,
+        "frame_index_0based": 291,
+        "frame_id_1based": 292,
+        "time_s": 14.55,
+        "box_xywh": [
+          496.0,
+          321.0,
+          381.0,
+          658.0
+        ],
+        "quality": 0.6635875738992688,
+        "in_frame_fraction": 1.0,
+        "max_other_box_cover_fraction": 0.2440944881889764,
+        "path": "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id003_generation_2_f000292.jpg",
+        "sha256": "e1c36f944f9f3389b2b976297336557886bde2c511eccd94e0b97b6698d824bd",
+        "source_frame_path": "/data2/user/LocateMOT/data/DanceTrack/val/dancetrack0018/img1/00000292.jpg",
+        "source_frame_sha256": "0f72ef60d4846fdfb9e531320275169313ce2fef17407aede1838d721e35bfd2",
+        "fallback": "none"
+      },
+      {
+        "bin": 3,
+        "role": "validation",
+        "visible_index": 380,
+        "frame_index_0based": 380,
+        "frame_id_1based": 381,
+        "time_s": 19.0,
+        "box_xywh": [
+          303.0,
+          318.0,
+          320.0,
+          649.0
+        ],
+        "quality": 0.7141158798598018,
+        "in_frame_fraction": 1.0,
+        "max_other_box_cover_fraction": 0.10625,
+        "path": "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id003_validation_3_f000381.jpg",
+        "sha256": "29a23e4f49fe4fa647b25195ca1518221d908bc4ba65d21fcc0d30366b3ad6ad",
+        "source_frame_path": "/data2/user/LocateMOT/data/DanceTrack/val/dancetrack0018/img1/00000381.jpg",
+        "source_frame_sha256": "e0004aece39ab4cb274d0fefdce1233fe1866e5220b648238e2ba3ac723f4dcc",
+        "fallback": "none"
+      },
+      {
+        "bin": 4,
+        "role": "generation",
+        "visible_index": 500,
+        "frame_index_0based": 500,
+        "frame_id_1based": 501,
+        "time_s": 25.0,
+        "box_xywh": [
+          252.0,
+          348.0,
+          411.0,
+          630.0
+        ],
+        "quality": 0.7163390092581539,
+        "in_frame_fraction": 1.0,
+        "max_other_box_cover_fraction": 0.19708029197080293,
+        "path": "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id003_generation_4_f000501.jpg",
+        "sha256": "6e41a8be019ca9e96379459ef4259adcbd999b586b4efb0ccffa374e3ffd8ab3",
+        "source_frame_path": "/data2/user/LocateMOT/data/DanceTrack/val/dancetrack0018/img1/00000501.jpg",
+        "source_frame_sha256": "f81929780142d4c3b2e4e981067a50d7de304aa6459fe970d3cbcb2e87804999",
+        "fallback": "none"
+      }
+    ],
+    "generation_paths": [
+      "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id003_generation_0_f000027.jpg",
+      "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id003_generation_2_f000292.jpg",
+      "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id003_generation_4_f000501.jpg"
+    ],
+    "validation_paths": [
+      "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id003_validation_1_f000119.jpg",
+      "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id003_validation_3_f000381.jpg"
+    ],
+    "target_image": "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id003_target.jpg",
+    "anchor": {
+      "bin": 3,
+      "role": "validation",
+      "visible_index": 380,
+      "frame_index_0based": 380,
+      "frame_id_1based": 381,
+      "time_s": 19.0,
+      "box_xywh": [
+        303.0,
+        318.0,
+        320.0,
+        649.0
+      ],
+      "quality": 0.7141158798598018,
+      "in_frame_fraction": 1.0,
+      "max_other_box_cover_fraction": 0.10625,
+      "path": "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id003_validation_3_f000381.jpg",
+      "sha256": "29a23e4f49fe4fa647b25195ca1518221d908bc4ba65d21fcc0d30366b3ad6ad",
+      "source_frame_path": "/data2/user/LocateMOT/data/DanceTrack/val/dancetrack0018/img1/00000381.jpg",
+      "source_frame_sha256": "e0004aece39ab4cb274d0fefdce1233fe1866e5220b648238e2ba3ac723f4dcc",
+      "fallback": "none",
+      "geometric_quality_pass": true
+    },
+    "visible_frame_count": 503,
+    "crop_complete": true,
+    "local_gallery": {
+      "images": [
+        "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/anchor_id003_f000381/full_frame.jpg",
+        "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/anchor_id003_f000381/local_gallery_page00.jpg"
+      ],
+      "label_to_gt_id": {
+        "P01": 2,
+        "P02": 6,
+        "P03": 4,
+        "P04": 0,
+        "P05": 1,
+        "P06": 3
+      },
+      "frame_id_1based": 381,
+      "time_s": 19.0
+    },
+    "global_gallery": {
+      "images": [
+        "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/heldout_gallery_page00.jpg"
+      ],
+      "label_to_gt_id": {
+        "P01": 4,
+        "P02": 6,
+        "P03": 2,
+        "P04": 1,
+        "P05": 7,
+        "P06": 0,
+        "P07": 3,
+        "P08": 5
+      }
+    },
+    "generation_gallery": {
+      "images": [
+        "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/generation_gallery_page00.jpg"
+      ],
+      "label_to_gt_id": {
+        "P01": 6,
+        "P02": 0,
+        "P03": 5,
+        "P04": 1,
+        "P05": 7,
+        "P06": 4,
+        "P07": 2,
+        "P08": 3
+      }
+    }
+  },
+  {
+    "unit_key": "dancetrack0018__id004",
+    "dataset": "DanceTrack",
+    "source_split": "val",
+    "sequence": "dancetrack0018",
+    "gt_id": 4,
+    "crop_records": [
+      {
+        "bin": 0,
+        "role": "generation",
+        "visible_index": 32,
+        "frame_index_0based": 32,
+        "frame_id_1based": 33,
+        "time_s": 1.6,
+        "box_xywh": [
+          623.0,
+          102.0,
+          576.0,
+          899.0
+        ],
+        "quality": 0.6796302494343751,
+        "in_frame_fraction": 1.0,
+        "max_other_box_cover_fraction": 0.2762116085774317,
+        "path": "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id004_generation_0_f000033.jpg",
+        "sha256": "b944e7862bbde7a4aaad9b8fa14d50ec9e75a49e0eae16b083c6fa961410c368",
+        "source_frame_path": "/data2/user/LocateMOT/data/DanceTrack/val/dancetrack0018/img1/00000033.jpg",
+        "source_frame_sha256": "d908e7eba1adf78be21abeb7d1a24e2f8c5b97f7b854c928a85f23a0b5fa097e",
+        "fallback": "none"
+      },
+      {
+        "bin": 1,
+        "role": "validation",
+        "visible_index": 122,
+        "frame_index_0based": 122,
+        "frame_id_1based": 123,
+        "time_s": 6.1,
+        "box_xywh": [
+          769.0,
+          178.0,
+          478.0,
+          844.0
+        ],
+        "quality": 0.5287016771838003,
+        "in_frame_fraction": 1.0,
+        "max_other_box_cover_fraction": 0.36209571873326857,
+        "path": "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id004_validation_1_f000123.jpg",
+        "sha256": "5e43c97fe17264870c65c7bc4206e6eab1f22d5ad60ea2bdfb3a4fed2d857029",
+        "source_frame_path": "/data2/user/LocateMOT/data/DanceTrack/val/dancetrack0018/img1/00000123.jpg",
+        "source_frame_sha256": "6800db05aad121cc9da6abdbace0f6c4598880ce0a40983cb1da291df2c77b37",
+        "fallback": "none"
+      },
+      {
+        "bin": 2,
+        "role": "generation",
+        "visible_index": 299,
+        "frame_index_0based": 299,
+        "frame_id_1based": 300,
+        "time_s": 14.95,
+        "box_xywh": [
+          595.0,
+          194.0,
+          687.0,
+          839.0
+        ],
+        "quality": 0.6706650992259117,
+        "in_frame_fraction": 1.0,
+        "max_other_box_cover_fraction": 0.32301919003180124,
+        "path": "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id004_generation_2_f000300.jpg",
+        "sha256": "c818051f139d5931bd06fb4880e6fe4a86e30ba9fdd0d0406c14e5dd981d8c6d",
+        "source_frame_path": "/data2/user/LocateMOT/data/DanceTrack/val/dancetrack0018/img1/00000300.jpg",
+        "source_frame_sha256": "656cff48fd2bf4d38e88f4aa80ff05c503e043d213906a3eb489706ef47282bb",
+        "fallback": "none"
+      },
+      {
+        "bin": 3,
+        "role": "validation",
+        "visible_index": 375,
+        "frame_index_0based": 375,
+        "frame_id_1based": 376,
+        "time_s": 18.75,
+        "box_xywh": [
+          781.0,
+          179.0,
+          367.0,
+          833.0
+        ],
+        "quality": 0.6243911021986029,
+        "in_frame_fraction": 1.0,
+        "max_other_box_cover_fraction": 0.13457153978757716,
+        "path": "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id004_validation_3_f000376.jpg",
+        "sha256": "2a9111e9610607aab65e0f8a6df48a3d4e4007f2da850e4d5e3147bcae0ea372",
+        "source_frame_path": "/data2/user/LocateMOT/data/DanceTrack/val/dancetrack0018/img1/00000376.jpg",
+        "source_frame_sha256": "5f64cfff758537e370999af0e077b4c4e18bd5e428bafaab2524de1e3d226655",
+        "fallback": "none"
+      },
+      {
+        "bin": 4,
+        "role": "generation",
+        "visible_index": 458,
+        "frame_index_0based": 458,
+        "frame_id_1based": 459,
+        "time_s": 22.9,
+        "box_xywh": [
+          755.0,
+          183.0,
+          327.0,
+          836.0
+        ],
+        "quality": 0.6748207509628966,
+        "in_frame_fraction": 1.0,
+        "max_other_box_cover_fraction": 0.010897238927176155,
+        "path": "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id004_generation_4_f000459.jpg",
+        "sha256": "67fc5ac396bc9a3fc7e7174de8511c0e5beef0fe021ef39b0935f3b30c09b9ff",
+        "source_frame_path": "/data2/user/LocateMOT/data/DanceTrack/val/dancetrack0018/img1/00000459.jpg",
+        "source_frame_sha256": "1c402ae1b7f8b6e87d434f51c534ca34f60dfcafb6428817ade7bd43a0bfeb82",
+        "fallback": "none"
+      }
+    ],
+    "generation_paths": [
+      "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id004_generation_0_f000033.jpg",
+      "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id004_generation_2_f000300.jpg",
+      "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id004_generation_4_f000459.jpg"
+    ],
+    "validation_paths": [
+      "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id004_validation_1_f000123.jpg",
+      "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id004_validation_3_f000376.jpg"
+    ],
+    "target_image": "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id004_target.jpg",
+    "anchor": {
+      "bin": 3,
+      "role": "validation",
+      "visible_index": 375,
+      "frame_index_0based": 375,
+      "frame_id_1based": 376,
+      "time_s": 18.75,
+      "box_xywh": [
+        781.0,
+        179.0,
+        367.0,
+        833.0
+      ],
+      "quality": 0.6243911021986029,
+      "in_frame_fraction": 1.0,
+      "max_other_box_cover_fraction": 0.13457153978757716,
+      "path": "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id004_validation_3_f000376.jpg",
+      "sha256": "2a9111e9610607aab65e0f8a6df48a3d4e4007f2da850e4d5e3147bcae0ea372",
+      "source_frame_path": "/data2/user/LocateMOT/data/DanceTrack/val/dancetrack0018/img1/00000376.jpg",
+      "source_frame_sha256": "5f64cfff758537e370999af0e077b4c4e18bd5e428bafaab2524de1e3d226655",
+      "fallback": "none",
+      "geometric_quality_pass": true
+    },
+    "visible_frame_count": 503,
+    "crop_complete": true,
+    "local_gallery": {
+      "images": [
+        "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/anchor_id004_f000376/full_frame.jpg",
+        "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/anchor_id004_f000376/local_gallery_page00.jpg"
+      ],
+      "label_to_gt_id": {
+        "P01": 0,
+        "P02": 7,
+        "P03": 1,
+        "P04": 3,
+        "P05": 2,
+        "P06": 6,
+        "P07": 4
+      },
+      "frame_id_1based": 376,
+      "time_s": 18.75
+    },
+    "global_gallery": {
+      "images": [
+        "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/heldout_gallery_page00.jpg"
+      ],
+      "label_to_gt_id": {
+        "P01": 4,
+        "P02": 6,
+        "P03": 2,
+        "P04": 1,
+        "P05": 7,
+        "P06": 0,
+        "P07": 3,
+        "P08": 5
+      }
+    },
+    "generation_gallery": {
+      "images": [
+        "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/generation_gallery_page00.jpg"
+      ],
+      "label_to_gt_id": {
+        "P01": 6,
+        "P02": 0,
+        "P03": 5,
+        "P04": 1,
+        "P05": 7,
+        "P06": 4,
+        "P07": 2,
+        "P08": 3
+      }
+    }
+  },
+  {
+    "unit_key": "dancetrack0018__id005",
+    "dataset": "DanceTrack",
+    "source_split": "val",
+    "sequence": "dancetrack0018",
+    "gt_id": 5,
+    "crop_records": [
+      {
+        "bin": 0,
+        "role": "generation",
+        "visible_index": 16,
+        "frame_index_0based": 16,
+        "frame_id_1based": 17,
+        "time_s": 0.8,
+        "box_xywh": [
+          1140.0,
+          513.0,
+          121.0,
+          326.0
+        ],
+        "quality": 0.5427936817190318,
+        "in_frame_fraction": 1.0,
+        "max_other_box_cover_fraction": 0.32231404958677684,
+        "path": "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id005_generation_0_f000017.jpg",
+        "sha256": "5c994d258a3a8cbd4f015e4fe56872d4606ed5a18462025d472eb7576bd24422",
+        "source_frame_path": "/data2/user/LocateMOT/data/DanceTrack/val/dancetrack0018/img1/00000017.jpg",
+        "source_frame_sha256": "61a6ef0c85e952023bef37208034e23eb363fa20516c2ae3a3fbe80d4a83025a",
+        "fallback": "none"
+      },
+      {
+        "bin": 1,
+        "role": "validation",
+        "visible_index": 52,
+        "frame_index_0based": 98,
+        "frame_id_1based": 99,
+        "time_s": 4.9,
+        "box_xywh": [
+          1147.0,
+          508.0,
+          97.0,
+          351.0
+        ],
+        "quality": 0.0,
+        "in_frame_fraction": 1.0,
+        "max_other_box_cover_fraction": 1.0,
+        "path": "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id005_validation_1_f000099.jpg",
+        "sha256": "4551b01e0746a6a40e3918683ade8f7255dda9a398757683ae5dfbaec60873ed",
+        "source_frame_path": "/data2/user/LocateMOT/data/DanceTrack/val/dancetrack0018/img1/00000099.jpg",
+        "source_frame_sha256": "a936898481d3f0586ed4acf983c500f03422166470f0285a7c4d019259b4c7b9",
+        "fallback": "none"
+      },
+      {
+        "bin": 2,
+        "role": "generation",
+        "visible_index": 62,
+        "frame_index_0based": 241,
+        "frame_id_1based": 242,
+        "time_s": 12.05,
+        "box_xywh": [
+          1058.0,
+          535.0,
+          99.0,
+          341.0
+        ],
+        "quality": 0.0,
+        "in_frame_fraction": 1.0,
+        "max_other_box_cover_fraction": 1.0,
+        "path": "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id005_generation_2_f000242.jpg",
+        "sha256": "cb47fde06083ace0437de72340f72f77faf856c43d10fe951e7adb6f6f17a1b8",
+        "source_frame_path": "/data2/user/LocateMOT/data/DanceTrack/val/dancetrack0018/img1/00000242.jpg",
+        "source_frame_sha256": "9e34161c5384e0a360221006c6a2a68abf34ae6cfc7a03ee9ba5218ed1c8343b",
+        "fallback": "none"
+      },
+      {
+        "bin": 3,
+        "role": "validation",
+        "visible_index": 65,
+        "frame_index_0based": 367,
+        "frame_id_1based": 368,
+        "time_s": 18.35,
+        "box_xywh": [
+          1151.0,
+          531.0,
+          92.0,
+          342.0
+        ],
+        "quality": 0.0,
+        "in_frame_fraction": 1.0,
+        "max_other_box_cover_fraction": 1.0,
+        "path": "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id005_validation_3_f000368.jpg",
+        "sha256": "ed6b14671f60176792ddfc869334af6bd0a1a19377768c0770df06f1cef888ce",
+        "source_frame_path": "/data2/user/LocateMOT/data/DanceTrack/val/dancetrack0018/img1/00000368.jpg",
+        "source_frame_sha256": "41befe3ea8fd2555428a8790de197e9d8a61312a4d430df500ff83e7ff158491",
+        "fallback": "none"
+      },
+      {
+        "bin": 4,
+        "role": "generation",
+        "visible_index": 77,
+        "frame_index_0based": 431,
+        "frame_id_1based": 432,
+        "time_s": 21.55,
+        "box_xywh": [
+          1122.0,
+          487.0,
+          127.0,
+          371.0
+        ],
+        "quality": 0.7650906411465254,
+        "in_frame_fraction": 1.0,
+        "max_other_box_cover_fraction": 0.12598425196850394,
+        "path": "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id005_generation_4_f000432.jpg",
+        "sha256": "1429380c969da4ca966189f90e0bc133640e1a9a43db1c8e157a7a8eec1d5f9e",
+        "source_frame_path": "/data2/user/LocateMOT/data/DanceTrack/val/dancetrack0018/img1/00000432.jpg",
+        "source_frame_sha256": "b38678b10dcd1ad40a041f62a9fe6998fddbd3eb22fbe0446d3185e70ce29ac7",
+        "fallback": "none"
+      }
+    ],
+    "generation_paths": [
+      "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id005_generation_0_f000017.jpg",
+      "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id005_generation_2_f000242.jpg",
+      "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id005_generation_4_f000432.jpg"
+    ],
+    "validation_paths": [
+      "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id005_validation_1_f000099.jpg",
+      "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id005_validation_3_f000368.jpg"
+    ],
+    "target_image": "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id005_target.jpg",
+    "anchor": {
+      "bin": 1,
+      "role": "validation",
+      "visible_index": 52,
+      "frame_index_0based": 98,
+      "frame_id_1based": 99,
+      "time_s": 4.9,
+      "box_xywh": [
+        1147.0,
+        508.0,
+        97.0,
+        351.0
+      ],
+      "quality": 0.0,
+      "in_frame_fraction": 1.0,
+      "max_other_box_cover_fraction": 1.0,
+      "path": "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id005_validation_1_f000099.jpg",
+      "sha256": "4551b01e0746a6a40e3918683ade8f7255dda9a398757683ae5dfbaec60873ed",
+      "source_frame_path": "/data2/user/LocateMOT/data/DanceTrack/val/dancetrack0018/img1/00000099.jpg",
+      "source_frame_sha256": "a936898481d3f0586ed4acf983c500f03422166470f0285a7c4d019259b4c7b9",
+      "fallback": "none",
+      "geometric_quality_pass": false
+    },
+    "visible_frame_count": 112,
+    "crop_complete": true,
+    "local_gallery": {
+      "images": [
+        "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/anchor_id005_f000099/full_frame.jpg",
+        "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/anchor_id005_f000099/local_gallery_page00.jpg"
+      ],
+      "label_to_gt_id": {
+        "P01": 3,
+        "P02": 6,
+        "P03": 2,
+        "P04": 4,
+        "P05": 0,
+        "P06": 1,
+        "P07": 5
+      },
+      "frame_id_1based": 99,
+      "time_s": 4.9
+    },
+    "global_gallery": {
+      "images": [
+        "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/heldout_gallery_page00.jpg"
+      ],
+      "label_to_gt_id": {
+        "P01": 4,
+        "P02": 6,
+        "P03": 2,
+        "P04": 1,
+        "P05": 7,
+        "P06": 0,
+        "P07": 3,
+        "P08": 5
+      }
+    },
+    "generation_gallery": {
+      "images": [
+        "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/generation_gallery_page00.jpg"
+      ],
+      "label_to_gt_id": {
+        "P01": 6,
+        "P02": 0,
+        "P03": 5,
+        "P04": 1,
+        "P05": 7,
+        "P06": 4,
+        "P07": 2,
+        "P08": 3
+      }
+    }
+  },
+  {
+    "unit_key": "dancetrack0018__id006",
+    "dataset": "DanceTrack",
+    "source_split": "val",
+    "sequence": "dancetrack0018",
+    "gt_id": 6,
+    "crop_records": [
+      {
+        "bin": 0,
+        "role": "generation",
+        "visible_index": 0,
+        "frame_index_0based": 56,
+        "frame_id_1based": 57,
+        "time_s": 2.8,
+        "box_xywh": [
+          920.0,
+          523.0,
+          112.0,
+          319.0
+        ],
+        "quality": 0.0,
+        "in_frame_fraction": 1.0,
+        "max_other_box_cover_fraction": 1.0,
+        "path": "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id006_generation_0_f000057.jpg",
+        "sha256": "8555bf4f350c369d73cfbe9fb26991b4032042f53b2e5b4ee260553c4801ca0a",
+        "source_frame_path": "/data2/user/LocateMOT/data/DanceTrack/val/dancetrack0018/img1/00000057.jpg",
+        "source_frame_sha256": "8f0131de4acdd008c0c37f9a874d5bf54cb7ddfd104b485e36aa2c1ecbbf4e68",
+        "fallback": "none"
+      },
+      {
+        "bin": 1,
+        "role": "validation",
+        "visible_index": 39,
+        "frame_index_0based": 214,
+        "frame_id_1based": 215,
+        "time_s": 10.7,
+        "box_xywh": [
+          852.0,
+          546.0,
+          101.0,
+          319.0
+        ],
+        "quality": 0.0,
+        "in_frame_fraction": 1.0,
+        "max_other_box_cover_fraction": 1.0,
+        "path": "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id006_validation_1_f000215.jpg",
+        "sha256": "6a14aafe32f399cb86bb535f99eecbcdb905bb78115ece6b92e6ea2c9291c855",
+        "source_frame_path": "/data2/user/LocateMOT/data/DanceTrack/val/dancetrack0018/img1/00000215.jpg",
+        "source_frame_sha256": "565abc7c364a6f7c85d6b95202fe95cfd67378f41c80b240cde2d94688565c04",
+        "fallback": "none"
+      },
+      {
+        "bin": 2,
+        "role": "generation",
+        "visible_index": 44,
+        "frame_index_0based": 237,
+        "frame_id_1based": 238,
+        "time_s": 11.85,
+        "box_xywh": [
+          830.0,
+          569.0,
+          103.0,
+          312.0
+        ],
+        "quality": 0.0,
+        "in_frame_fraction": 1.0,
+        "max_other_box_cover_fraction": 1.0,
+        "path": "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id006_generation_2_f000238.jpg",
+        "sha256": "85a840d4e1258c1b35445eb18b10643fc6f05e47adf6be524cd5a9ab1005c922",
+        "source_frame_path": "/data2/user/LocateMOT/data/DanceTrack/val/dancetrack0018/img1/00000238.jpg",
+        "source_frame_sha256": "5d741b2f90fd9f0d4f8ae253e7f6867f92bae239e668045200671a3df7e03eaf",
+        "fallback": "none"
+      },
+      {
+        "bin": 3,
+        "role": "validation",
+        "visible_index": 66,
+        "frame_index_0based": 324,
+        "frame_id_1based": 325,
+        "time_s": 16.2,
+        "box_xywh": [
+          920.0,
+          529.0,
+          112.0,
+          346.0
+        ],
+        "quality": 0.0,
+        "in_frame_fraction": 1.0,
+        "max_other_box_cover_fraction": 1.0,
+        "path": "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id006_validation_3_f000325.jpg",
+        "sha256": "473747562e40353eb41922b6c237aae1dcb81494383db102b819110a76c58d03",
+        "source_frame_path": "/data2/user/LocateMOT/data/DanceTrack/val/dancetrack0018/img1/00000325.jpg",
+        "source_frame_sha256": "4205479869af174694ea93361df3d585b60f8800150b2677a71d0d9fb3515674",
+        "fallback": "none"
+      },
+      {
+        "bin": 4,
+        "role": "generation",
+        "visible_index": 167,
+        "frame_index_0based": 486,
+        "frame_id_1based": 487,
+        "time_s": 24.3,
+        "box_xywh": [
+          845.0,
+          474.0,
+          118.0,
+          405.0
+        ],
+        "quality": 0.09372352026981072,
+        "in_frame_fraction": 1.0,
+        "max_other_box_cover_fraction": 0.8983050847457628,
+        "path": "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id006_generation_4_f000487.jpg",
+        "sha256": "f86d327d5e47c5a9dfbc5939e0d912b78a693a36e5e9ab8d252479cd92799839",
+        "source_frame_path": "/data2/user/LocateMOT/data/DanceTrack/val/dancetrack0018/img1/00000487.jpg",
+        "source_frame_sha256": "8da37c29e31cee719797aaf3c2c342f5006d314f5526f4e967ab51f50217c4d3",
+        "fallback": "none"
+      }
+    ],
+    "generation_paths": [
+      "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id006_generation_0_f000057.jpg",
+      "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id006_generation_2_f000238.jpg",
+      "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id006_generation_4_f000487.jpg"
+    ],
+    "validation_paths": [
+      "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id006_validation_1_f000215.jpg",
+      "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id006_validation_3_f000325.jpg"
+    ],
+    "target_image": "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id006_target.jpg",
+    "anchor": {
+      "bin": 1,
+      "role": "validation",
+      "visible_index": 39,
+      "frame_index_0based": 214,
+      "frame_id_1based": 215,
+      "time_s": 10.7,
+      "box_xywh": [
+        852.0,
+        546.0,
+        101.0,
+        319.0
+      ],
+      "quality": 0.0,
+      "in_frame_fraction": 1.0,
+      "max_other_box_cover_fraction": 1.0,
+      "path": "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id006_validation_1_f000215.jpg",
+      "sha256": "6a14aafe32f399cb86bb535f99eecbcdb905bb78115ece6b92e6ea2c9291c855",
+      "source_frame_path": "/data2/user/LocateMOT/data/DanceTrack/val/dancetrack0018/img1/00000215.jpg",
+      "source_frame_sha256": "565abc7c364a6f7c85d6b95202fe95cfd67378f41c80b240cde2d94688565c04",
+      "fallback": "none",
+      "geometric_quality_pass": false
+    },
+    "visible_frame_count": 177,
+    "crop_complete": true,
+    "local_gallery": {
+      "images": [
+        "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/anchor_id006_f000215/full_frame.jpg",
+        "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/anchor_id006_f000215/local_gallery_page00.jpg"
+      ],
+      "label_to_gt_id": {
+        "P01": 2,
+        "P02": 0,
+        "P03": 1,
+        "P04": 6,
+        "P05": 3,
+        "P06": 4
+      },
+      "frame_id_1based": 215,
+      "time_s": 10.7
+    },
+    "global_gallery": {
+      "images": [
+        "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/heldout_gallery_page00.jpg"
+      ],
+      "label_to_gt_id": {
+        "P01": 4,
+        "P02": 6,
+        "P03": 2,
+        "P04": 1,
+        "P05": 7,
+        "P06": 0,
+        "P07": 3,
+        "P08": 5
+      }
+    },
+    "generation_gallery": {
+      "images": [
+        "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/generation_gallery_page00.jpg"
+      ],
+      "label_to_gt_id": {
+        "P01": 6,
+        "P02": 0,
+        "P03": 5,
+        "P04": 1,
+        "P05": 7,
+        "P06": 4,
+        "P07": 2,
+        "P08": 3
+      }
+    }
+  },
+  {
+    "unit_key": "dancetrack0018__id007",
+    "dataset": "DanceTrack",
+    "source_split": "val",
+    "sequence": "dancetrack0018",
+    "gt_id": 7,
+    "crop_records": [
+      {
+        "bin": 0,
+        "role": "generation",
+        "visible_index": 3,
+        "frame_index_0based": 26,
+        "frame_id_1based": 27,
+        "time_s": 1.3,
+        "box_xywh": [
+          721.0,
+          509.0,
+          105.0,
+          336.0
+        ],
+        "quality": 0.41531389596774637,
+        "in_frame_fraction": 1.0,
+        "max_other_box_cover_fraction": 0.5333333333333333,
+        "path": "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id007_generation_0_f000027.jpg",
+        "sha256": "80bf685e72f09878c9d93b6c23dc483810451421cdf1434a4e5397b65fdf768d",
+        "source_frame_path": "/data2/user/LocateMOT/data/DanceTrack/val/dancetrack0018/img1/00000027.jpg",
+        "source_frame_sha256": "085810cf94b03b0d5ee45b82252b87c1f9fa760ca68e24858a1e1931f42144ab",
+        "fallback": "none"
+      },
+      {
+        "bin": 1,
+        "role": "validation",
+        "visible_index": 2,
+        "frame_index_0based": 25,
+        "frame_id_1based": 26,
+        "time_s": 1.25,
+        "box_xywh": [
+          710.0,
+          502.0,
+          106.0,
+          344.0
+        ],
+        "quality": 0.40970656144754203,
+        "in_frame_fraction": 1.0,
+        "max_other_box_cover_fraction": 0.5471698113207547,
+        "path": "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id007_validation_1_f000026.jpg",
+        "sha256": "d8b9a8ca8f3767db2db46adf779216bc820f98f31c75e43d004ce80bea09764b",
+        "source_frame_path": "/data2/user/LocateMOT/data/DanceTrack/val/dancetrack0018/img1/00000026.jpg",
+        "source_frame_sha256": "53a9552a5f8d3e58e42e188a91fecb69699917f35074b9b25fbf38c082bde21f",
+        "fallback": "empty_bin_global_unused"
+      },
+      {
+        "bin": 2,
+        "role": "generation",
+        "visible_index": 16,
+        "frame_index_0based": 217,
+        "frame_id_1based": 218,
+        "time_s": 10.85,
+        "box_xywh": [
+          640.0,
+          556.0,
+          101.0,
+          316.0
+        ],
+        "quality": 0.0,
+        "in_frame_fraction": 1.0,
+        "max_other_box_cover_fraction": 1.0,
+        "path": "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id007_generation_2_f000218.jpg",
+        "sha256": "1aa8ea656e10a9ece47a6b95c6d0fcf9134415fd9e7f227d57f137a9acbec9b8",
+        "source_frame_path": "/data2/user/LocateMOT/data/DanceTrack/val/dancetrack0018/img1/00000218.jpg",
+        "source_frame_sha256": "1d8367a52426b3a6e2608703c7d06363471a47a357fb3942fe1e855bfd5e18b1",
+        "fallback": "none"
+      },
+      {
+        "bin": 3,
+        "role": "validation",
+        "visible_index": 90,
+        "frame_index_0based": 368,
+        "frame_id_1based": 369,
+        "time_s": 18.4,
+        "box_xywh": [
+          744.0,
+          524.0,
+          115.0,
+          343.0
+        ],
+        "quality": 0.31094754310448997,
+        "in_frame_fraction": 1.0,
+        "max_other_box_cover_fraction": 0.6695652173913044,
+        "path": "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id007_validation_3_f000369.jpg",
+        "sha256": "348e8c25bbbb13a1b9a3807cea0fa96cb9d711fe7be063da92c66c16584ac8a9",
+        "source_frame_path": "/data2/user/LocateMOT/data/DanceTrack/val/dancetrack0018/img1/00000369.jpg",
+        "source_frame_sha256": "f579ef7573356ab62f40905fb409b2bb63fa2a9c4a4e1d30071aa5fe6afdc1e5",
+        "fallback": "none"
+      },
+      {
+        "bin": 4,
+        "role": "generation",
+        "visible_index": 106,
+        "frame_index_0based": 457,
+        "frame_id_1based": 458,
+        "time_s": 22.85,
+        "box_xywh": [
+          655.0,
+          530.0,
+          111.0,
+          330.0
+        ],
+        "quality": 0.15522242881613468,
+        "in_frame_fraction": 1.0,
+        "max_other_box_cover_fraction": 0.8288288288288288,
+        "path": "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id007_generation_4_f000458.jpg",
+        "sha256": "ad334b785b6d834f8434f3fcc735a7a97b1facdfe2409e07177415aa3fd2e449",
+        "source_frame_path": "/data2/user/LocateMOT/data/DanceTrack/val/dancetrack0018/img1/00000458.jpg",
+        "source_frame_sha256": "10b91901316653b1edd18361f3a1eb25e69c307bffc7e1136cf4171cf3e9d7cb",
+        "fallback": "none"
+      }
+    ],
+    "generation_paths": [
+      "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id007_generation_0_f000027.jpg",
+      "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id007_generation_2_f000218.jpg",
+      "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id007_generation_4_f000458.jpg"
+    ],
+    "validation_paths": [
+      "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id007_validation_1_f000026.jpg",
+      "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id007_validation_3_f000369.jpg"
+    ],
+    "target_image": "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id007_target.jpg",
+    "anchor": {
+      "bin": 1,
+      "role": "validation",
+      "visible_index": 2,
+      "frame_index_0based": 25,
+      "frame_id_1based": 26,
+      "time_s": 1.25,
+      "box_xywh": [
+        710.0,
+        502.0,
+        106.0,
+        344.0
+      ],
+      "quality": 0.40970656144754203,
+      "in_frame_fraction": 1.0,
+      "max_other_box_cover_fraction": 0.5471698113207547,
+      "path": "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id007_validation_1_f000026.jpg",
+      "sha256": "d8b9a8ca8f3767db2db46adf779216bc820f98f31c75e43d004ce80bea09764b",
+      "source_frame_path": "/data2/user/LocateMOT/data/DanceTrack/val/dancetrack0018/img1/00000026.jpg",
+      "source_frame_sha256": "53a9552a5f8d3e58e42e188a91fecb69699917f35074b9b25fbf38c082bde21f",
+      "fallback": "empty_bin_global_unused",
+      "geometric_quality_pass": false
+    },
+    "visible_frame_count": 131,
+    "crop_complete": true,
+    "local_gallery": {
+      "images": [
+        "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/anchor_id007_f000026/full_frame.jpg",
+        "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/anchor_id007_f000026/local_gallery_page00.jpg"
+      ],
+      "label_to_gt_id": {
+        "P01": 1,
+        "P02": 0,
+        "P03": 4,
+        "P04": 2,
+        "P05": 7,
+        "P06": 3,
+        "P07": 5
+      },
+      "frame_id_1based": 26,
+      "time_s": 1.25
+    },
+    "global_gallery": {
+      "images": [
+        "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/heldout_gallery_page00.jpg"
+      ],
+      "label_to_gt_id": {
+        "P01": 4,
+        "P02": 6,
+        "P03": 2,
+        "P04": 1,
+        "P05": 7,
+        "P06": 0,
+        "P07": 3,
+        "P08": 5
+      }
+    },
+    "generation_gallery": {
+      "images": [
+        "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/generation_gallery_page00.jpg"
+      ],
+      "label_to_gt_id": {
+        "P01": 6,
+        "P02": 0,
+        "P03": 5,
+        "P04": 1,
+        "P05": 7,
+        "P06": 4,
+        "P07": 2,
+        "P08": 3
+      }
+    }
+  }
+]

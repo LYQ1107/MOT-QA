@@ -1,0 +1,104 @@
+{
+  "at": "2026-11-04T14:26:34.851Z",
+  "timing": "POST_HOC_EXTRA_REVIEW; no new model inference",
+  "reviewer": "Codex",
+  "reason": "Systematic attribute errors in the locked sample prompted review of the remaining16 auto-pass candidates. Automatic acceptance metrics remain unchanged.",
+  "cases": [
+    {
+      "extra_index": 1,
+      "verdict": "consistent",
+      "observation": "P08穿白色长袖短上衣、白短裤、白护膝及白鞋，其余同场人物多为白长裤，护膝/短裤组合有区分度。",
+      "unit_key": "dancetrack0007__id003"
+    },
+    {
+      "extra_index": 2,
+      "verdict": "consistent",
+      "observation": "P04红色高马尾、白短上衣与黑色侧白条长裤符合描述，当前为背/侧身但主要可区分组合仍可见；不据身体朝向生成指代。",
+      "unit_key": "dancetrack0010__id000"
+    },
+    {
+      "extra_index": 3,
+      "verdict": "consistent",
+      "observation": "P03浅金发与黑色长袖短上衣、黑裤的组合清楚，胸前小白标在该系列视图中可见；句法修饰略生硬，未见实质性的串人属性。",
+      "unit_key": "dancetrack0010__id004"
+    },
+    {
+      "extra_index": 4,
+      "verdict": "consistent",
+      "observation": "P05为黑色长袖短上衣与浅蓝宽下摆牛仔裤，同场其他人物均深色下装，组合较明确。",
+      "unit_key": "dancetrack0010__id005"
+    },
+    {
+      "extra_index": 5,
+      "verdict": "consistent",
+      "observation": "P10的白短上衣和紫色百褶短裙清楚；其他白上衣搭紫色长裤，紫上衣搭白下装，组合唯一。",
+      "unit_key": "dancetrack0014__id003"
+    },
+    {
+      "extra_index": 6,
+      "verdict": "needs_review",
+      "observation": "红发、浅紫短上衣与白短裤符合目标，发顶更像高发髻/团状盘发，生成图不能支持明确的high ponytail；发型类别需用户复核。",
+      "unit_key": "dancetrack0014__id005"
+    },
+    {
+      "extra_index": 7,
+      "verdict": "needs_review",
+      "observation": "白百褶裙、紫短上衣与白长袖外层可见；胸前深色条更像垂下的头发/细带，不能确认black tie。原句包含未获支持的颈部饰物，暂不直接采用。",
+      "unit_key": "dancetrack0014__id008"
+    },
+    {
+      "extra_index": 8,
+      "verdict": "consistent",
+      "observation": "P07宽松黑长袖上衣、深色破洞膝部裤装可见，胸前暗袋细节对比低但与生成图一致；其他黑衣者外套/白内搭或下装不同。",
+      "unit_key": "dancetrack0058__id000"
+    },
+    {
+      "extra_index": 9,
+      "verdict": "consistent",
+      "observation": "P05的红粉色头发、灰黑细条纹长袖上衣与黑裤清楚可见，组合与同场其他人不同。",
+      "unit_key": "dancetrack0058__id004"
+    },
+    {
+      "extra_index": 10,
+      "verdict": "consistent",
+      "observation": "P07黑短外套、白T恤、黑裤与白鞋可见，同场其他浅色内搭者为不同印花/蓝色破洞裤，完整组合可区分。",
+      "unit_key": "dancetrack0058__id005"
+    },
+    {
+      "extra_index": 11,
+      "verdict": "consistent",
+      "observation": "P06白T恤的人像图案、深外套与长裤、黑白鞋可见，其余白内搭不含同样人像，组合较明确。",
+      "unit_key": "dancetrack0058__id006"
+    },
+    {
+      "extra_index": 12,
+      "verdict": "consistent",
+      "observation": "P10白T恤、敞开的深色外套、深色长裤与浅色运动鞋可见，其他同场人物为黄/黑上衣及棋盘格下装等，无明显相同完整组合。",
+      "unit_key": "dancetrack0079__id001"
+    },
+    {
+      "extra_index": 13,
+      "verdict": "consistent",
+      "observation": "P11黑色长袖上衣、腰部浅色横带、深裤腿上的浅色线状装饰及浅底鞋可见；同场其他黑衣人物的短裤/帽子/配色不同，整体组合可辨。白线具体材质不作额外推断。",
+      "unit_key": "dancetrack0079__id005"
+    },
+    {
+      "extra_index": 14,
+      "verdict": "consistent",
+      "observation": "P08的黄色敞开外套、黑白棋盘格内搭及黑裤明确，同场另有棋盘格衬衫者不穿黄外套，组合可区分。",
+      "unit_key": "dancetrack0079__id016"
+    },
+    {
+      "extra_index": 15,
+      "verdict": "needs_review",
+      "observation": "长发、眼镜、黑西装外套和长裤可见，但内层胸前有明显白色衬衫/白领配深色细带，不能确认另有black cropped top。眼镜能指向目标，但原句的内搭颜色/类别需核查。",
+      "unit_key": "dancetrack0097__id001"
+    },
+    {
+      "extra_index": 16,
+      "verdict": "consistent",
+      "observation": "P02显著红发、黑西装与裤装及胸前垂挂的白色卡牌可见；卡牌较低，name tag按外观理解为白色挂牌，不读取或推断姓名。没有其他同样红发者。",
+      "unit_key": "dancetrack0097__id003"
+    }
+  ]
+}

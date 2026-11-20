@@ -1,0 +1,63 @@
+{
+  "at": "2026-11-04T23:21:15.092411+08:00",
+  "elapsed_s": 12.282456136774272,
+  "packet_id": "motqa_reference_review_0e0f0cfcf748e8323d62",
+  "main_count": 137,
+  "additional_count": 17,
+  "total_rows": 154,
+  "by_group": {
+    "dance_flagged_vlm": 8,
+    "dance_original_refer": 21,
+    "sports_lamot_stratified": 40,
+    "mot17_lamot": 68,
+    "dance_agent_cleared_vlm": 17
+  },
+  "sports_videos": 29,
+  "no_future_3s": [
+    "refreview_88c7c791494b0128",
+    "refreview_b8cda422f124bfad",
+    "refreview_d3a786af4622808b",
+    "refreview_77c912f3c104df3a",
+    "refreview_e5f691b85f58fd40",
+    "refreview_08ec5f06b521b6bf",
+    "refreview_94bec6074339d081",
+    "refreview_70ece1eb4b76b18d",
+    "refreview_73d1ab0bb953fad7",
+    "refreview_252729b6effcac9f",
+    "refreview_0347699260e9fe06",
+    "refreview_ce2051b32a89595d"
+  ],
+  "less_than_two_same_frame_comparators": [
+    "refreview_1652bacc8ec02a55",
+    "refreview_3c61c9183dfbb700"
+  ],
+  "less_than_two_other_target_views": [
+    "refreview_f922dd7525e8411f"
+  ],
+  "geometric_gate_not_met": [
+    "refreview_df478ac82e8c18a5",
+    "refreview_0bb5d8310983d3d3",
+    "refreview_06a25dbfc6b3f338",
+    "refreview_32b9cae482dff93c",
+    "refreview_08ec5f06b521b6bf",
+    "refreview_078aa7d802f6cc10",
+    "refreview_94bec6074339d081",
+    "refreview_9255e88f0ab91e26",
+    "refreview_252729b6effcac9f",
+    "refreview_5ec535b414939092",
+    "refreview_31da03f1fa5c7e6b",
+    "refreview_142eb1342cc2368f",
+    "refreview_6050cf0d2aab2959",
+    "refreview_fee6022544221e94",
+    "refreview_77b78d65f25160d3",
+    "refreview_540b68b03e1c4282",
+    "refreview_645fa75623fc3ea7"
+  ],
+  "selection_sha256": "cd035a43567957e933f8415330259910a752653befa8295f5dd21bf21e053858",
+  "html_sha256": "adefe7c5cabae5b003a6643d4c41bb5ffedf3a76bcee170e8ba3e4a989c28663",
+  "html_bytes": 50368385,
+  "all_user_verdicts_pending": true,
+  "qa_generated": 0,
+  "model_calls": 0,
+  "tracker_runs": 0
+}

@@ -1,0 +1,70 @@
+{
+  "unit_key": "dancetrack0007__id006",
+  "sequence": "dancetrack0007",
+  "gt_id": 6,
+  "phase": "generate",
+  "started_at": "2026-11-04T13:51:51.190318+00:00",
+  "completed_at": "2026-11-04T13:51:55.784939+00:00",
+  "seconds": 4.594640417024493,
+  "prompt_text": "The first image shows three crops of ONE target person at different times. The other image(s) show comparison people from the SAME video; every labeled tile is a different annotated person, shown in up to three crops. These comparison labels are anonymous bookkeeping labels, not appearance attributes.\nWrite one concise English noun phrase (at most 30 words), starting with \"the person\", describing the target using stable, clearly visible clothing, patterns, hair, or accessories. Prefer details that distinguish this person from comparison people. Do not mention actions, pose, scene location, time, spatial relation to others, gallery labels, or GT identity numbers. Visible garment lettering is allowed only if clearly legible. Do not infer colors/details hidden by another person. If no reliable description is possible, use an empty phrase. If a truthful description is shared by others, still provide it and set visually_distinct to false.\nReturn {\"phrase\":\"...\", \"supported_attributes\":[\"...\"], \"visually_distinct\":true, \"limitations\":\"...\"}. A description need not be unique; truthful uncertainty is preferred to invented uniqueness.\nThe target person is also included once among the comparison gallery tiles. Identify that repeated target visually; do not treat the repeated target tile as a different rival. Look for truthful stable appearance that distinguishes the target from OTHER people.",
+  "image_paths": [
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0007/id006_target.jpg",
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0007/generation_gallery_page00.jpg"
+  ],
+  "image_sha256": [
+    "328c4a988d7cf01ffe70db2f9e67be31cadc4fc879becbeb55a5668116e8a2f7",
+    "110ba3fe7aea1a9740f8db934c2faa25f918d6b6f335bbebbcd1bd7f7f5f1fdf"
+  ],
+  "response": {
+    "id": "chatcmpl-a6d3329be0a67c6e",
+    "object": "chat.completion",
+    "created": 1793800311,
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"phrase\": \"the person with long dark hair wearing a white crop top and white pants\",\n  \"supported_attributes\": [\"long dark hair\", \"white crop top\", \"white pants\"],\n  \"visually_distinct\": false,\n  \"limitations\": \"The clothing is common among multiple people in the gallery; the long dark hair is shared by several individuals, making the description not uniquely distinguishing.\"\n}",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 1433,
+      "total_tokens": 1517,
+      "completion_tokens": 84,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "check": {
+    "valid": true,
+    "parsed": {
+      "phrase": "the person with long dark hair wearing a white crop top and white pants",
+      "supported_attributes": [
+        "long dark hair",
+        "white crop top",
+        "white pants"
+      ],
+      "visually_distinct": false,
+      "limitations": "The clothing is common among multiple people in the gallery; the long dark hair is shared by several individuals, making the description not uniquely distinguishing."
+    },
+    "phrase": "the person with long dark hair wearing a white crop top and white pants",
+    "error": null
+  },
+  "inference_policy_sha256": "ea3ce06e83208db2fc1ed693ee2ac1b349f8ae344fcdc2cb0a22e30ef8df60e3"
+}

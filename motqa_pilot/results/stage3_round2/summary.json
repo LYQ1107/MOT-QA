@@ -1,0 +1,421 @@
+{
+  "count": 900,
+  "operations": {
+    "O4": 105,
+    "O7": 110,
+    "O8": 135,
+    "composition": 100,
+    "O1": 60,
+    "O2": 90,
+    "O6": 100,
+    "O3": 100,
+    "O5": 100
+  },
+  "datasets": {
+    "DanceTrack": 360,
+    "MOT17": 135,
+    "SportsMOT": 405
+  },
+  "references": {
+    "box": 434,
+    "appearance": 106,
+    "event": 225,
+    "position": 135
+  },
+  "formats": {
+    "multiple_choice": 720,
+    "numeric_count": 70,
+    "numeric_time": 110
+  },
+  "template_families": {
+    "cross_count": 105,
+    "return_region": 110,
+    "identity_match": 75,
+    "cross_region": 79,
+    "region": 60,
+    "left_pair": 90,
+    "closest_time": 1,
+    "cross_time": 36,
+    "cross_frequency": 18,
+    "identity_same": 60,
+    "first_cross_crop": 45,
+    "return_time": 100,
+    "earlier_return_time": 70,
+    "cross_exit_count": 21,
+    "earliest_return_person": 30
+  },
+  "O8_subtypes": {
+    "numbered_box_match": 75,
+    "same_person_yes_no": 60
+  },
+  "O8_same_answers": {
+    "No": 30,
+    "Yes": 30
+  },
+  "identity_challenge_count": 715,
+  "simple_control_count": 185,
+  "binary_count": 150,
+  "image_option_count": 45,
+  "held_out_paraphrase_count": 381,
+  "composition_count": 100,
+  "GT_check": "PASSED",
+  "candidate_SHA256": "f99e302cfa2b6abcb7d283789b8d350a3576b8e5b81650e00c80e8397f752edc",
+  "formal_release_completed": false,
+  "filtering_executed": false,
+  "stage5_inference_executed": false,
+  "videos_used": 76,
+  "max_per_video": 20,
+  "primary_identities": 405,
+  "max_primary_reuse": 3,
+  "confusion_option_count": 504,
+  "choice_count": 720,
+  "confusion_option_fraction": 0.7,
+  "ordinary_never_correct": 40,
+  "ordinary_never_fraction": 0.05063291139240506,
+  "ordinary_never_distractor": 86,
+  "operation_dataset_counts": {
+    "O1": {
+      "DanceTrack": 18,
+      "MOT17": 30,
+      "SportsMOT": 12
+    },
+    "O2": {
+      "DanceTrack": 26,
+      "MOT17": 22,
+      "SportsMOT": 42
+    },
+    "O3": {
+      "DanceTrack": 30,
+      "MOT17": 1,
+      "SportsMOT": 69
+    },
+    "O4": {
+      "DanceTrack": 30,
+      "SportsMOT": 75
+    },
+    "O5": {
+      "DanceTrack": 10,
+      "MOT17": 10,
+      "SportsMOT": 80
+    },
+    "O6": {
+      "DanceTrack": 48,
+      "MOT17": 7,
+      "SportsMOT": 45
+    },
+    "O7": {
+      "DanceTrack": 90,
+      "MOT17": 14,
+      "SportsMOT": 6
+    },
+    "O8": {
+      "DanceTrack": 75,
+      "MOT17": 50,
+      "SportsMOT": 10
+    },
+    "composition": {
+      "DanceTrack": 33,
+      "MOT17": 1,
+      "SportsMOT": 66
+    }
+  },
+  "answer_distributions": {
+    "O1": {
+      "choice_letters": {
+        "A": 20,
+        "B": 20,
+        "C": 20
+      },
+      "semantic_classes": {
+        "left": 18,
+        "right": 21,
+        "center": 21
+      },
+      "numeric_count": {}
+    },
+    "O2": {
+      "choice_letters": {
+        "A": 45,
+        "B": 45
+      },
+      "semantic_classes": {
+        "Person A": 44,
+        "Person B": 46
+      },
+      "numeric_count": {}
+    },
+    "O3": {
+      "choice_letters": {
+        "A": 15,
+        "B": 15,
+        "C": 15,
+        "D": 15
+      },
+      "semantic_classes": {
+        "time_bin:0": 15,
+        "time_bin:1": 15,
+        "time_bin:2": 15,
+        "time_bin:3": 15
+      },
+      "numeric_count": {}
+    },
+    "O4": {
+      "choice_letters": {
+        "A": 9,
+        "B": 9,
+        "C": 9,
+        "D": 8
+      },
+      "semantic_classes": {
+        "1": 11,
+        "2": 12,
+        "3": 5,
+        "4": 3,
+        "0": 4
+      },
+      "numeric_count": {
+        "2": 24,
+        "4": 3,
+        "3": 7,
+        "1": 11,
+        "0": 24,
+        "5": 1
+      }
+    },
+    "O5": {
+      "choice_letters": {
+        "A": 9,
+        "B": 7,
+        "C": 7,
+        "D": 7
+      },
+      "semantic_classes": {
+        "Person A": 8,
+        "Person B": 8,
+        "This never happens.": 10,
+        "Person C": 4
+      },
+      "numeric_count": {}
+    },
+    "O6": {
+      "choice_letters": {
+        "A": 26,
+        "B": 25,
+        "C": 25,
+        "D": 24
+      },
+      "semantic_classes": {
+        "time_bin:1": 9,
+        "time_bin:0": 8,
+        "1": 9,
+        "portrait_slot:A": 16,
+        "portrait_slot:B": 13,
+        "portrait_slot:D": 10,
+        "0": 7,
+        "time_bin:3": 15,
+        "portrait_slot:C": 6,
+        "time_bin:2": 5,
+        "2": 2
+      },
+      "numeric_count": {}
+    },
+    "O7": {
+      "choice_letters": {
+        "A": 29,
+        "B": 29,
+        "C": 26,
+        "D": 26
+      },
+      "semantic_classes": {
+        "This never happens.": 55,
+        "center": 17,
+        "left": 19,
+        "right": 19
+      },
+      "numeric_count": {}
+    },
+    "O8": {
+      "choice_letters": {
+        "A": 50,
+        "B": 49,
+        "C": 18,
+        "D": 18
+      },
+      "semantic_classes": {
+        "1": 20,
+        "2": 19,
+        "No": 30,
+        "Yes": 30,
+        "3": 18,
+        "4": 18
+      },
+      "numeric_count": {}
+    },
+    "composition": {
+      "choice_letters": {
+        "A": 33,
+        "B": 32,
+        "C": 31,
+        "D": 4
+      },
+      "semantic_classes": {
+        "right": 26,
+        "center": 28,
+        "left": 25,
+        "0": 9,
+        "1": 8,
+        "2": 4
+      },
+      "numeric_count": {}
+    }
+  },
+  "difficulty_quantiles": {
+    "n_crossings": {
+      "min": 0.0,
+      "p25": 0.0,
+      "p50": 1.0,
+      "p75": 3.25,
+      "p95": 9.0,
+      "max": 19.0
+    },
+    "max_gap_s": {
+      "min": 0.0,
+      "p25": 0.0,
+      "p50": 1.02,
+      "p75": 3.32,
+      "p95": 8.845999999999995,
+      "max": 19.071428571428573
+    },
+    "density": {
+      "min": 3.3591160220994474,
+      "p25": 7.854393547899916,
+      "p50": 10.27622072117485,
+      "p75": 13.074017328825022,
+      "p95": 19.48061123041438,
+      "max": 40.70718232044199
+    },
+    "appearance_similarity": {
+      "min": 0.0,
+      "p25": 0.7087111622095108,
+      "p50": 0.7808215618133545,
+      "p75": 0.8295691162347794,
+      "p95": 0.8997079133987427,
+      "max": 0.9879021048545837
+    }
+  },
+  "camera_motion_counts": {
+    "moving": 684,
+    "static": 216
+  },
+  "blind_baselines": {
+    "O1": {
+      "n": 60,
+      "multiple_choice_n": 60,
+      "numeric_n": 0,
+      "majority_answer_letter": 0.3333333333333333,
+      "uniform_random_choice": 0.3333333333333332,
+      "dataset_only_answer_letter": 0.3333333333333333,
+      "semantic_majority": 0.35,
+      "semantic_dataset_only": 0.38333333333333336,
+      "numeric_random_baseline": "not defined for continuous/exact free response; do not equate it with4-choice chance",
+      "numeric_modal_exact_answer": null
+    },
+    "O2": {
+      "n": 90,
+      "multiple_choice_n": 90,
+      "numeric_n": 0,
+      "majority_answer_letter": 0.5,
+      "uniform_random_choice": 0.5,
+      "dataset_only_answer_letter": 0.5,
+      "semantic_majority": 0.5111111111111111,
+      "semantic_dataset_only": 0.5333333333333333,
+      "numeric_random_baseline": "not defined for continuous/exact free response; do not equate it with4-choice chance",
+      "numeric_modal_exact_answer": null
+    },
+    "O3": {
+      "n": 100,
+      "multiple_choice_n": 60,
+      "numeric_n": 40,
+      "majority_answer_letter": 0.25,
+      "uniform_random_choice": 0.25,
+      "dataset_only_answer_letter": 0.25,
+      "semantic_majority": 0.25,
+      "semantic_dataset_only": 0.25,
+      "numeric_random_baseline": "not defined for continuous/exact free response; do not equate it with4-choice chance",
+      "numeric_modal_exact_answer": 0.075
+    },
+    "O4": {
+      "n": 105,
+      "multiple_choice_n": 35,
+      "numeric_n": 70,
+      "majority_answer_letter": 0.2571428571428571,
+      "uniform_random_choice": 0.25,
+      "dataset_only_answer_letter": 0.2571428571428571,
+      "semantic_majority": 0.34285714285714286,
+      "semantic_dataset_only": 0.34285714285714286,
+      "numeric_random_baseline": "not defined for continuous/exact free response; do not equate it with4-choice chance",
+      "numeric_modal_exact_answer": 0.34285714285714286
+    },
+    "O5": {
+      "n": 100,
+      "multiple_choice_n": 30,
+      "numeric_n": 70,
+      "majority_answer_letter": 0.3,
+      "uniform_random_choice": 0.25,
+      "dataset_only_answer_letter": 0.3,
+      "semantic_majority": 0.3333333333333333,
+      "semantic_dataset_only": 0.3333333333333333,
+      "numeric_random_baseline": "not defined for continuous/exact free response; do not equate it with4-choice chance",
+      "numeric_modal_exact_answer": 0.08571428571428572
+    },
+    "O6": {
+      "n": 100,
+      "multiple_choice_n": 100,
+      "numeric_n": 0,
+      "majority_answer_letter": 0.26,
+      "uniform_random_choice": 0.25,
+      "dataset_only_answer_letter": 0.26,
+      "semantic_majority": 0.16,
+      "semantic_dataset_only": 0.21,
+      "numeric_random_baseline": "not defined for continuous/exact free response; do not equate it with4-choice chance",
+      "numeric_modal_exact_answer": null
+    },
+    "O7": {
+      "n": 110,
+      "multiple_choice_n": 110,
+      "numeric_n": 0,
+      "majority_answer_letter": 0.2636363636363636,
+      "uniform_random_choice": 0.25,
+      "dataset_only_answer_letter": 0.2636363636363636,
+      "semantic_majority": 0.5,
+      "semantic_dataset_only": 0.5,
+      "numeric_random_baseline": "not defined for continuous/exact free response; do not equate it with4-choice chance",
+      "numeric_modal_exact_answer": null
+    },
+    "O8": {
+      "n": 135,
+      "multiple_choice_n": 135,
+      "numeric_n": 0,
+      "majority_answer_letter": 0.37037037037037035,
+      "uniform_random_choice": 0.3611111111111111,
+      "dataset_only_answer_letter": 0.37037037037037035,
+      "semantic_majority": 0.2222222222222222,
+      "semantic_dataset_only": 0.25925925925925924,
+      "numeric_random_baseline": "not defined for continuous/exact free response; do not equate it with4-choice chance",
+      "numeric_modal_exact_answer": null
+    },
+    "composition": {
+      "n": 100,
+      "multiple_choice_n": 100,
+      "numeric_n": 0,
+      "majority_answer_letter": 0.33,
+      "uniform_random_choice": 0.3158333333333333,
+      "dataset_only_answer_letter": 0.33,
+      "semantic_majority": 0.28,
+      "semantic_dataset_only": 0.29,
+      "numeric_random_baseline": "not defined for continuous/exact free response; do not equate it with4-choice chance",
+      "numeric_modal_exact_answer": null
+    }
+  },
+  "balance_warnings": []
+}

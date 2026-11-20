@@ -1,0 +1,71 @@
+{
+  "unit_key": "dancetrack0097__id003",
+  "sequence": "dancetrack0097",
+  "gt_id": 3,
+  "phase": "generate",
+  "started_at": "2026-11-04T14:01:55.267203+00:00",
+  "completed_at": "2026-11-04T14:02:00.634997+00:00",
+  "seconds": 5.367826068308204,
+  "prompt_text": "The first image shows three crops of ONE target person at different times. The other image(s) show comparison people from the SAME video; every labeled tile is a different annotated person, shown in up to three crops. These comparison labels are anonymous bookkeeping labels, not appearance attributes.\nWrite one concise English noun phrase (at most 30 words), starting with \"the person\", describing the target using stable, clearly visible clothing, patterns, hair, or accessories. Prefer details that distinguish this person from comparison people. Do not mention actions, pose, scene location, time, spatial relation to others, gallery labels, or GT identity numbers. Visible garment lettering is allowed only if clearly legible. Do not infer colors/details hidden by another person. If no reliable description is possible, use an empty phrase. If a truthful description is shared by others, still provide it and set visually_distinct to false.\nReturn {\"phrase\":\"...\", \"supported_attributes\":[\"...\"], \"visually_distinct\":true, \"limitations\":\"...\"}. A description need not be unique; truthful uncertainty is preferred to invented uniqueness.\nThe target person is also included once among the comparison gallery tiles. Identify that repeated target visually; do not treat the repeated target tile as a different rival. Look for truthful stable appearance that distinguishes the target from OTHER people.",
+  "image_paths": [
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0097/id003_target.jpg",
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0097/generation_gallery_page00.jpg"
+  ],
+  "image_sha256": [
+    "4d3068a097e5d7fcbe98d6a84be4ef9975b88cc87a7beddbb575b3654822627f",
+    "8129b88a6be6e63c8caa96183de893f4df7a46bdfaca382463a5e241f9cbff48"
+  ],
+  "response": {
+    "id": "chatcmpl-b84b070f953a2f96",
+    "object": "chat.completion",
+    "created": 1793800915,
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"phrase\": \"the person with bright red hair wearing a black blazer and matching pants with a white name tag on the chest\",\n  \"supported_attributes\": [\"bright red hair\", \"black blazer\", \"matching black pants\", \"white name tag on chest\"],\n  \"visually_distinct\": true,\n  \"limitations\": \"The red hair is the most distinguishing feature; other people wear similar black outfits but have dark hair. The white name tag is visible in some crops but may be obscured in others.\"\n}",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 947,
+      "total_tokens": 1055,
+      "completion_tokens": 108,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "check": {
+    "valid": true,
+    "parsed": {
+      "phrase": "the person with bright red hair wearing a black blazer and matching pants with a white name tag on the chest",
+      "supported_attributes": [
+        "bright red hair",
+        "black blazer",
+        "matching black pants",
+        "white name tag on chest"
+      ],
+      "visually_distinct": true,
+      "limitations": "The red hair is the most distinguishing feature; other people wear similar black outfits but have dark hair. The white name tag is visible in some crops but may be obscured in others."
+    },
+    "phrase": "the person with bright red hair wearing a black blazer and matching pants with a white name tag on the chest",
+    "error": null
+  },
+  "inference_policy_sha256": "ea3ce06e83208db2fc1ed693ee2ac1b349f8ae344fcdc2cb0a22e30ef8df60e3"
+}

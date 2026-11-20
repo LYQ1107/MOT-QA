@@ -1,0 +1,242 @@
+{
+  "motqa_precheck_17_temporal_v2": {
+    "qa_id": "motqa_precheck_17_temporal_v2",
+    "references": [
+      {
+        "role": "A",
+        "type": "appearance",
+        "text_zh": "穿蓝色衣服的足球运动员",
+        "text": "soccer player in blue clothes",
+        "time_s": 21.16,
+        "image": "media/motqa_precheck_17_temporal_v2/reference_A.jpg",
+        "image_is_question_input": false
+      },
+      {
+        "role": "B",
+        "type": "box",
+        "text_zh": "22.040 秒参考帧中红框标出的人",
+        "text": "the person marked with the red box at 22.040 s",
+        "time_s": 22.04,
+        "image": "media/motqa_precheck_17_temporal_v2/reference_B.jpg",
+        "image_is_question_input": true
+      }
+    ],
+    "frames": [
+      {
+        "frame": 530,
+        "time_s": 21.16,
+        "image": "media/motqa_precheck_17_temporal_v2/frame_000530.jpg"
+      },
+      {
+        "frame": 535,
+        "time_s": 21.36,
+        "image": "media/motqa_precheck_17_temporal_v2/frame_000535.jpg"
+      },
+      {
+        "frame": 536,
+        "time_s": 21.4,
+        "image": "media/motqa_precheck_17_temporal_v2/frame_000536.jpg"
+      },
+      {
+        "frame": 552,
+        "time_s": 22.04,
+        "image": "media/motqa_precheck_17_temporal_v2/frame_000552.jpg"
+      },
+      {
+        "frame": 553,
+        "time_s": 22.08,
+        "image": "media/motqa_precheck_17_temporal_v2/frame_000553.jpg"
+      },
+      {
+        "frame": 627,
+        "time_s": 25.04,
+        "image": "media/motqa_precheck_17_temporal_v2/frame_000627.jpg"
+      },
+      {
+        "frame": 685,
+        "time_s": 27.36,
+        "image": "media/motqa_precheck_17_temporal_v2/frame_000685.jpg"
+      },
+      {
+        "frame": 735,
+        "time_s": 29.36,
+        "image": "media/motqa_precheck_17_temporal_v2/frame_000735.jpg"
+      },
+      {
+        "frame": 754,
+        "time_s": 30.12,
+        "image": "media/motqa_precheck_17_temporal_v2/frame_000754.jpg"
+      }
+    ],
+    "raw_clip": "media/motqa_precheck_17_temporal_v2/clip_original.mp4",
+    "gt_clip": "media/motqa_precheck_17_temporal_v2/clip_gt_audit.mp4",
+    "clip_start_s": 19.16,
+    "clip_end_s": 32.12,
+    "clip_fps": 10,
+    "encoded_frame_count": 131,
+    "size": [
+      960,
+      540
+    ]
+  },
+  "motqa_precheck_05_temporal_v2": {
+    "qa_id": "motqa_precheck_05_temporal_v2",
+    "references": [
+      {
+        "role": "A",
+        "type": "box",
+        "text_zh": "11.133 秒参考帧中红框标出的人",
+        "text": "the person marked with the red box at 11.133 s",
+        "time_s": 11.133333333333333,
+        "image": "media/motqa_precheck_05_temporal_v2/reference_A.jpg",
+        "image_is_question_input": true
+      },
+      {
+        "role": "B",
+        "type": "box",
+        "text_zh": "11.133 秒参考帧中红框标出的人",
+        "text": "the person marked with the red box at 11.133 s",
+        "time_s": 11.133333333333333,
+        "image": "media/motqa_precheck_05_temporal_v2/reference_B.jpg",
+        "image_is_question_input": true
+      }
+    ],
+    "frames": [
+      {
+        "frame": 335,
+        "time_s": 11.133333333333333,
+        "image": "media/motqa_precheck_05_temporal_v2/frame_000335.jpg"
+      },
+      {
+        "frame": 371,
+        "time_s": 12.333333333333334,
+        "image": "media/motqa_precheck_05_temporal_v2/frame_000371.jpg"
+      },
+      {
+        "frame": 372,
+        "time_s": 12.366666666666667,
+        "image": "media/motqa_precheck_05_temporal_v2/frame_000372.jpg"
+      },
+      {
+        "frame": 425,
+        "time_s": 14.133333333333333,
+        "image": "media/motqa_precheck_05_temporal_v2/frame_000425.jpg"
+      },
+      {
+        "frame": 499,
+        "time_s": 16.6,
+        "image": "media/motqa_precheck_05_temporal_v2/frame_000499.jpg"
+      },
+      {
+        "frame": 500,
+        "time_s": 16.633333333333333,
+        "image": "media/motqa_precheck_05_temporal_v2/frame_000500.jpg"
+      },
+      {
+        "frame": 534,
+        "time_s": 17.766666666666666,
+        "image": "media/motqa_precheck_05_temporal_v2/frame_000534.jpg"
+      },
+      {
+        "frame": 557,
+        "time_s": 18.533333333333335,
+        "image": "media/motqa_precheck_05_temporal_v2/frame_000557.jpg"
+      }
+    ],
+    "raw_clip": "media/motqa_precheck_05_temporal_v2/clip_original.mp4",
+    "gt_clip": "media/motqa_precheck_05_temporal_v2/clip_gt_audit.mp4",
+    "clip_start_s": 10.9,
+    "clip_end_s": 20.533333333333335,
+    "clip_fps": 10,
+    "encoded_frame_count": 98,
+    "size": [
+      960,
+      540
+    ]
+  },
+  "motqa_precheck_04_temporal_v2": {
+    "qa_id": "motqa_precheck_04_temporal_v2",
+    "references": [
+      {
+        "role": "A",
+        "type": "box",
+        "text_zh": "36.600 秒参考帧中红框标出的人",
+        "text": "the person marked with the red box at 36.600 s",
+        "time_s": 36.6,
+        "image": "media/motqa_precheck_04_temporal_v2/reference_A.jpg",
+        "image_is_question_input": true
+      },
+      {
+        "role": "B",
+        "type": "box",
+        "text_zh": "35.250 秒参考帧中红框标出的人",
+        "text": "the person marked with the red box at 35.250 s",
+        "time_s": 35.25,
+        "image": "media/motqa_precheck_04_temporal_v2/reference_B.jpg",
+        "image_is_question_input": true
+      }
+    ],
+    "frames": [
+      {
+        "frame": 706,
+        "time_s": 35.25,
+        "image": "media/motqa_precheck_04_temporal_v2/frame_000706.jpg"
+      },
+      {
+        "frame": 733,
+        "time_s": 36.6,
+        "image": "media/motqa_precheck_04_temporal_v2/frame_000733.jpg"
+      },
+      {
+        "frame": 774,
+        "time_s": 38.65,
+        "image": "media/motqa_precheck_04_temporal_v2/frame_000774.jpg"
+      },
+      {
+        "frame": 775,
+        "time_s": 38.7,
+        "image": "media/motqa_precheck_04_temporal_v2/frame_000775.jpg"
+      },
+      {
+        "frame": 793,
+        "time_s": 39.6,
+        "image": "media/motqa_precheck_04_temporal_v2/frame_000793.jpg"
+      },
+      {
+        "frame": 809,
+        "time_s": 40.4,
+        "image": "media/motqa_precheck_04_temporal_v2/frame_000809.jpg"
+      },
+      {
+        "frame": 815,
+        "time_s": 40.7,
+        "image": "media/motqa_precheck_04_temporal_v2/frame_000815.jpg"
+      },
+      {
+        "frame": 816,
+        "time_s": 40.75,
+        "image": "media/motqa_precheck_04_temporal_v2/frame_000816.jpg"
+      },
+      {
+        "frame": 896,
+        "time_s": 44.75,
+        "image": "media/motqa_precheck_04_temporal_v2/frame_000896.jpg"
+      },
+      {
+        "frame": 911,
+        "time_s": 45.5,
+        "image": "media/motqa_precheck_04_temporal_v2/frame_000911.jpg"
+      }
+    ],
+    "raw_clip": "media/motqa_precheck_04_temporal_v2/clip_original.mp4",
+    "gt_clip": "media/motqa_precheck_04_temporal_v2/clip_gt_audit.mp4",
+    "clip_start_s": 33.25,
+    "clip_end_s": 47.5,
+    "clip_fps": 10,
+    "encoded_frame_count": 144,
+    "size": [
+      960,
+      540
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "qa_id": "0002f24829a4",
+  "system": "You are a video understanding model. Follow output format exactly.",
+  "user": "You will see a video and a list of events. Output the events in chronological order from earliest to latest, as a comma-separated list of letters (e.g., \"B, A, C\" or \"B, A, C, D\"). No other words.\n\nQuestion: Put the following events for man in blue shirt in order from earliest to latest.\nA. it leaves the frame\nB. it gets partly hidden\nC. it comes back into view\nD. it enters the frame\nAnswer:",
+  "content_order": [
+    "32 official JPEG image_url parts",
+    "official user prompt"
+  ],
+  "temperature": 0.0,
+  "seed": 42,
+  "max_tokens": 256,
+  "metadata_passed": false,
+  "extra_body": null
+}

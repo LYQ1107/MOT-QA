@@ -1,0 +1,49 @@
+{
+  "recorded_at": "2026-11-06T20:28:08.321022+08:00",
+  "status": "LOCKED_BEFORE_GENERATION",
+  "base_rules_sha256": "99a50a13b7613992dfe1d323330474281419c0274c012dace62de018e6e69dc5",
+  "reason": "Strict readability removes most short Dance occlusions; Sports has no center-region return among>=2s stable-gap facts. Add a when-question within the already authorized O7 false-premise operation, retaining conditional positive-class balance rather than weakening it.",
+  "no_event_definition_or_visibility_changes": true,
+  "operation": "O7",
+  "family": "premise_return_time",
+  "format": "multiple_choice",
+  "time_bins": 3,
+  "time_bin_event_margin_s": 0.5,
+  "held_out_ids": [
+    3,
+    4
+  ],
+  "premise": "first return after a visibility gap; original>1s definition; construction>=2s",
+  "templates": [
+    {
+      "paraphrase_id": 0,
+      "paraphrase_split": "shared",
+      "text": "During {start}–{end} s, in which time interval does A make the {ordinal} return to clear view after a visibility gap? For this question, a visibility gap means being out of clear view continuously for more than 1 second.",
+      "semantic_review": "first ordinal only; identical question scope and no-event alternative"
+    },
+    {
+      "paraphrase_id": 1,
+      "paraphrase_split": "shared",
+      "text": "Which listed interval contains A’s {ordinal} post-gap reappearance within {start}–{end} s? For this question, a visibility gap means being out of clear view continuously for more than 1 second.",
+      "semantic_review": "first ordinal only; identical question scope and no-event alternative"
+    },
+    {
+      "paraphrase_id": 2,
+      "paraphrase_split": "shared",
+      "text": "Locate the time interval of A’s {ordinal} clear reappearance following a gap during {start}–{end} s. For this question, a visibility gap means being out of clear view continuously for more than 1 second.",
+      "semantic_review": "first ordinal only; identical question scope and no-event alternative"
+    },
+    {
+      "paraphrase_id": 3,
+      "paraphrase_split": "held_out",
+      "text": "For {start}–{end} s, choose when A first returns to clear view after a gap, or indicate that the event does not occur. For this question, a visibility gap means being out of clear view continuously for more than 1 second.",
+      "semantic_review": "first ordinal only; identical question scope and no-event alternative"
+    },
+    {
+      "paraphrase_id": 4,
+      "paraphrase_split": "held_out",
+      "text": "When in {start}–{end} s does A have the {ordinal} return after a visibility interruption? Choose an interval or the no-event option. For this question, a visibility gap means being out of clear view continuously for more than 1 second.",
+      "semantic_review": "first ordinal only; identical question scope and no-event alternative"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "frozen_at": "2026-11-01T15:07:03.260988+08:00",
+  "pilot_videos_reviewed": 20,
+  "output_score_threshold": 0.2,
+  "fp16": true,
+  "fps": 5,
+  "unified": true,
+  "custom_entities": true,
+  "sam_mask": false,
+  "text_cache_reset_per_video": true,
+  "demo_postprocessing": false,
+  "seed": 42,
+  "threshold_rationale": "20视频中存在0.20–0.30的真实小目标/人物框，也有0.3以上的语义误框；提高统一分数阈值会损失真实观测且不能去除高分误框，因此保留初始0.2并固定。该决定仅依据图像与轨迹，未读取规则评分。",
+  "tracker_parameters": {
+    "type": "MasaTaoTracker",
+    "fps": 5,
+    "init_score_thr": 0.1,
+    "obj_score_thr": 0.01,
+    "match_score_thr": 0.5,
+    "memo_tracklet_frames": 10,
+    "memo_momentum": 0.8,
+    "with_cats": false,
+    "max_distance": 100
+  },
+  "calibration_record": "/data2/user/toc_phase0/results/stage3_threshold_review_20.json"
+}

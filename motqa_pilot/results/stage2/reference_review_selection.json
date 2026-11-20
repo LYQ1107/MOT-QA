@@ -1,0 +1,176 @@
+[
+  {
+    "dataset": "DanceTrack",
+    "kind": "short",
+    "path": "/home/user/motqa_pilot/results/stage2/reference_review/DanceTrack_short.jpg",
+    "reference": {
+      "ref_type": "appearance",
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0005",
+      "source_split": "val",
+      "text": "dancing person with white Tshirt and black pants",
+      "normalized_text": "dancing person with white tshirt and black pants",
+      "target_ids": [
+        3
+      ],
+      "frame_start": 674,
+      "frame_end": 674,
+      "reference_frame": 674,
+      "t_ref_s": 33.65,
+      "reference_frames": 1,
+      "with_future_3s_frames": 1,
+      "source_paths": [
+        "/data2/user/TTA-RMOT-assets/flexhook/refer-dance-official/Refer-Dance/expression/dancetrack0005/dancing-person-with-white-Tshirt-and-black-pants.json"
+      ],
+      "source_hashes": [
+        "cb94d377a314aa26f6d362bb4085843d73f5e36562b148874277f38e02c6cfbb"
+      ],
+      "ref_id": "2279db85ee0ff74b3576"
+    }
+  },
+  {
+    "dataset": "DanceTrack",
+    "kind": "long",
+    "path": "/home/user/motqa_pilot/results/stage2/reference_review/DanceTrack_long.jpg",
+    "reference": {
+      "ref_type": "appearance",
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0058",
+      "source_split": "val",
+      "text": "dancing person with black shirt and blue pants",
+      "normalized_text": "dancing person with black shirt and blue pants",
+      "target_ids": [
+        2
+      ],
+      "frame_start": 1,
+      "frame_end": 1601,
+      "reference_frame": 771,
+      "t_ref_s": 38.5,
+      "reference_frames": 1601,
+      "with_future_3s_frames": 1541,
+      "source_paths": [
+        "/data2/user/TTA-RMOT-assets/flexhook/refer-dance-official/Refer-Dance/expression/dancetrack0058/dancing-person-with-black-shirt-and-blue-pants.json"
+      ],
+      "source_hashes": [
+        "37c27ba27da68abcd1c823d3bc9e043dafa49dbcca32afed679b04d1abc40429"
+      ],
+      "ref_id": "a8a2990ce829aef2d290"
+    }
+  },
+  {
+    "dataset": "SportsMOT",
+    "kind": "short",
+    "path": "/home/user/motqa_pilot/results/stage2/reference_review/SportsMOT_short.jpg",
+    "reference": {
+      "ref_type": "appearance",
+      "dataset": "SportsMOT",
+      "sequence": "v_cC2mHWqMcjk_c009",
+      "source_split": "val",
+      "text": "right-side team player",
+      "normalized_text": "right-side team player",
+      "target_ids": [
+        6
+      ],
+      "frame_start": 18,
+      "frame_end": 18,
+      "reference_frame": 18,
+      "t_ref_s": 0.68,
+      "reference_frames": 1,
+      "with_future_3s_frames": 1,
+      "source_paths": [
+        "/home/user/motqa_pilot/sources/LaMOT-5300242c06381c8d5ad36865dd88f4b62c2482bc/annotations_v1/val/SportsMOT/v_cC2mHWqMcjk_c009_04.json"
+      ],
+      "source_hashes": [
+        "1ee09fc8b6ff0905b1e1751b5fa4fc2acb498a6786572fec6b94c61c3ce24018"
+      ],
+      "ref_id": "01cb9cf42a4db4d18ded"
+    }
+  },
+  {
+    "dataset": "SportsMOT",
+    "kind": "long",
+    "path": "/home/user/motqa_pilot/results/stage2/reference_review/SportsMOT_long.jpg",
+    "reference": {
+      "ref_type": "appearance",
+      "dataset": "SportsMOT",
+      "sequence": "v_cC2mHWqMcjk_c007",
+      "source_split": "val",
+      "text": "The player in the left-side team wearing white clothes.",
+      "normalized_text": "the player in the left-side team wearing white clothes.",
+      "target_ids": [
+        10
+      ],
+      "frame_start": 52,
+      "frame_end": 584,
+      "reference_frame": 318,
+      "t_ref_s": 12.68,
+      "reference_frames": 533,
+      "with_future_3s_frames": 533,
+      "source_paths": [
+        "/home/user/motqa_pilot/sources/LaMOT-5300242c06381c8d5ad36865dd88f4b62c2482bc/annotations_v1/val/SportsMOT/v_cC2mHWqMcjk_c007_14.json"
+      ],
+      "source_hashes": [
+        "27533d552a4c1116996bfdba2ce405a2615d7b7276f60e84381a8266ca1fdcf5"
+      ],
+      "ref_id": "fa8e6c7e8fc0390b35fc"
+    }
+  },
+  {
+    "dataset": "MOT17",
+    "kind": "short",
+    "path": "/home/user/motqa_pilot/results/stage2/reference_review/MOT17_short.jpg",
+    "reference": {
+      "ref_type": "appearance",
+      "dataset": "MOT17",
+      "sequence": "MOT17-10-FRCNN",
+      "source_split": "train",
+      "text": "a person walking on the street",
+      "normalized_text": "a person walking on the street",
+      "target_ids": [
+        59
+      ],
+      "frame_start": 350,
+      "frame_end": 350,
+      "reference_frame": 350,
+      "t_ref_s": 11.633333333333333,
+      "reference_frames": 1,
+      "with_future_3s_frames": 1,
+      "source_paths": [
+        "/home/user/motqa_pilot/sources/LaMOT-5300242c06381c8d5ad36865dd88f4b62c2482bc/annotations_v1/train/MOT17/MOT17-10-FRCNN_04.json"
+      ],
+      "source_hashes": [
+        "c25d0a298da3d94f80b6020bd17d539ae1eb4891fb939c12dd1b94a956b4ce94"
+      ],
+      "ref_id": "1811aa94173bc76ae228"
+    }
+  },
+  {
+    "dataset": "MOT17",
+    "kind": "long",
+    "path": "/home/user/motqa_pilot/results/stage2/reference_review/MOT17_long.jpg",
+    "reference": {
+      "ref_type": "appearance",
+      "dataset": "MOT17",
+      "sequence": "MOT17-04-FRCNN",
+      "source_split": "train",
+      "text": "man walking on the sidewalk",
+      "normalized_text": "man walking on the sidewalk",
+      "target_ids": [
+        106
+      ],
+      "frame_start": 656,
+      "frame_end": 1035,
+      "reference_frame": 808,
+      "t_ref_s": 26.9,
+      "reference_frames": 380,
+      "with_future_3s_frames": 305,
+      "source_paths": [
+        "/home/user/motqa_pilot/sources/LaMOT-5300242c06381c8d5ad36865dd88f4b62c2482bc/annotations_v1/train/MOT17/MOT17-04-FRCNN_05.json"
+      ],
+      "source_hashes": [
+        "9d59c392cd677fa1c9b0d2509943eebae20e1bd309f6e7d0f0c268ca66e0dc87"
+      ],
+      "ref_id": "c718660b1d9a8cf936c2"
+    }
+  }
+]

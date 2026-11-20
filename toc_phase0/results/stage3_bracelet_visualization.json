@@ -1,0 +1,165 @@
+{
+  "video_id": "perception_test_video_8048",
+  "overview": "/data2/user/toc_phase0/results/stage3_visualizations/occlusion_audit/perception_test_video_8048_overview.jpg",
+  "threshold": 0.2,
+  "queries": [
+    "red bracelet",
+    "woman in pink shirt"
+  ],
+  "track_summary": [
+    {
+      "query": "red bracelet",
+      "tracks": 23,
+      "observations": 140,
+      "visibility_fraction": 1.0,
+      "ids": [
+        {
+          "track_id": 0,
+          "observations": 13,
+          "first_s": 0.0,
+          "last_s": 2.4
+        },
+        {
+          "track_id": 1,
+          "observations": 3,
+          "first_s": 0.0,
+          "last_s": 1.2
+        },
+        {
+          "track_id": 2,
+          "observations": 9,
+          "first_s": 0.2,
+          "last_s": 1.8
+        },
+        {
+          "track_id": 3,
+          "observations": 22,
+          "first_s": 2.6,
+          "last_s": 15.8
+        },
+        {
+          "track_id": 7,
+          "observations": 1,
+          "first_s": 1.2,
+          "last_s": 1.2
+        },
+        {
+          "track_id": 17,
+          "observations": 1,
+          "first_s": 4.0,
+          "last_s": 4.0
+        },
+        {
+          "track_id": 19,
+          "observations": 40,
+          "first_s": 4.2,
+          "last_s": 14.2
+        },
+        {
+          "track_id": 20,
+          "observations": 37,
+          "first_s": 4.2,
+          "last_s": 14.2
+        },
+        {
+          "track_id": 23,
+          "observations": 3,
+          "first_s": 4.8,
+          "last_s": 5.4
+        },
+        {
+          "track_id": 28,
+          "observations": 1,
+          "first_s": 11.0,
+          "last_s": 11.0
+        },
+        {
+          "track_id": 33,
+          "observations": 15,
+          "first_s": 16.2,
+          "last_s": 19.6
+        },
+        {
+          "track_id": 36,
+          "observations": 1,
+          "first_s": 15.8,
+          "last_s": 15.8
+        },
+        {
+          "track_id": 38,
+          "observations": 1,
+          "first_s": 16.0,
+          "last_s": 16.0
+        },
+        {
+          "track_id": 39,
+          "observations": 18,
+          "first_s": 16.2,
+          "last_s": 19.8
+        },
+        {
+          "track_id": 44,
+          "observations": 8,
+          "first_s": 16.4,
+          "last_s": 18.4
+        },
+        {
+          "track_id": 47,
+          "observations": 3,
+          "first_s": 16.8,
+          "last_s": 17.2
+        },
+        {
+          "track_id": 56,
+          "observations": 23,
+          "first_s": 21.4,
+          "last_s": 25.8
+        },
+        {
+          "track_id": 57,
+          "observations": 1,
+          "first_s": 19.8,
+          "last_s": 19.8
+        },
+        {
+          "track_id": 59,
+          "observations": 17,
+          "first_s": 20.0,
+          "last_s": 27.8
+        },
+        {
+          "track_id": 62,
+          "observations": 18,
+          "first_s": 21.4,
+          "last_s": 25.6
+        },
+        {
+          "track_id": 65,
+          "observations": 5,
+          "first_s": 24.8,
+          "last_s": 25.8
+        },
+        {
+          "track_id": 67,
+          "observations": 8,
+          "first_s": 21.6,
+          "last_s": 23.6
+        },
+        {
+          "track_id": 70,
+          "observations": 4,
+          "first_s": 24.8,
+          "last_s": 25.6
+        }
+      ]
+    },
+    {
+      "query": "woman in pink shirt",
+      "tracks": 0,
+      "observations": 0,
+      "visibility_fraction": 0.0,
+      "ids": []
+    }
+  ],
+  "candidate_gaps": []
+}

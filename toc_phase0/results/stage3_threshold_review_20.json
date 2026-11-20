@@ -1,0 +1,174 @@
+{
+  "reviewed_at": "2026-11-01T15:07:03.260510+08:00",
+  "videos_reviewed": 20,
+  "selection": "unchanged seed42 pilot selection; all 20 annotated overviews inspected; no correctness labels used",
+  "rows": [
+    {
+      "video_id": "charades_1514T",
+      "queries": [
+        "wooden door"
+      ],
+      "visualization": "/data2/user/toc_phase0/results/stage3_visualizations/pilot/charades_1514T_overview.jpg",
+      "observation": "门主体早期ID0较稳定；同时存在把门洞/人物一起框住的重复框，开关门后ID分裂；没有足够证据把该概览中的变化认作完全遮挡。"
+    },
+    {
+      "video_id": "charades_3LN8C",
+      "queries": [
+        "man in black hoodie",
+        "wooden staircase railing"
+      ],
+      "visualization": "/data2/user/toc_phase0/results/stage3_visualizations/pilot/charades_3LN8C_overview.jpg",
+      "observation": "竖屏、镜头运动明显；人物真框常仅0.20–0.25，栏杆也出现落在地面或人物上的框，多个ID和查询标签交替。离开视野与漏检需分开。"
+    },
+    {
+      "video_id": "charades_7FQ5Q",
+      "queries": [
+        "pink wall"
+      ],
+      "visualization": "/data2/user/toc_phase0/results/stage3_visualizations/pilot/charades_7FQ5Q_overview.jpg",
+      "observation": "粉墙在后半程有较合理的大框，但前半程也把人物、门和家具作为该查询，高分误框存在，ID碎片多。"
+    },
+    {
+      "video_id": "charades_8OHDL",
+      "queries": [
+        "wooden shelf"
+      ],
+      "visualization": "/data2/user/toc_phase0/results/stage3_visualizations/pilot/charades_8OHDL_overview.jpg",
+      "observation": "前半程架子可检出，框包含遮挡它的人；镜头移向另一房间后出现其它家具/人物误框。不能把所有同查询ID拼成一个物体。"
+    },
+    {
+      "video_id": "charades_ARCUY",
+      "queries": [
+        "red patterned pillow"
+      ],
+      "visualization": "/data2/user/toc_phase0/results/stage3_visualizations/pilot/charades_ARCUY_overview.jpg",
+      "observation": "开始和结尾能定位红色花纹抱枕；中间人物坐在前面时出现人物/椅子大框，真实抱枕的前后ID不同，需结合遮挡细节判读。"
+    },
+    {
+      "video_id": "charades_AXIW1",
+      "queries": [
+        "blue pen"
+      ],
+      "visualization": "/data2/user/toc_phase0/results/stage3_visualizations/pilot/charades_AXIW1_overview.jpg",
+      "observation": "开头近景笔定位正确；镜头拉远后笔真框约0.20–0.30，同时出现0.4以上的人物误框，单纯提阈值不能解决。"
+    },
+    {
+      "video_id": "charades_CJ0U1",
+      "queries": [
+        "refrigerator"
+      ],
+      "visualization": "/data2/user/toc_phase0/results/stage3_visualizations/pilot/charades_CJ0U1_overview.jpg",
+      "observation": "冰箱前半段ID0和0.5以上置信度较稳定；镜头移出厨房后误检增多，变化主要为相机离框。"
+    },
+    {
+      "video_id": "charades_JTTAP",
+      "queries": [
+        "towel"
+      ],
+      "visualization": "/data2/user/toc_phase0/results/stage3_visualizations/pilot/charades_JTTAP_overview.jpg",
+      "observation": "起末帧能检出门后白毛巾和另一蓝色织物，中间相机移开；还有洗手池/整画面误框。不能把相机离框算物理遮挡。"
+    },
+    {
+      "video_id": "charades_LG73V",
+      "queries": [
+        "black cat",
+        "curtain"
+      ],
+      "visualization": "/data2/user/toc_phase0/results/stage3_visualizations/pilot/charades_LG73V_overview.jpg",
+      "observation": "初段窗帘较合理；猫和窗帘查询在人物进入后均有语义误框、身份变化，黑猫小目标/阴影难区分。"
+    },
+    {
+      "video_id": "charades_PKEZI",
+      "queries": [
+        "flower vase"
+      ],
+      "visualization": "/data2/user/toc_phase0/results/stage3_visualizations/pilot/charades_PKEZI_overview.jpg",
+      "observation": "能在床头看到很小的花瓶候选框，同时长期有床/人物大框，约0.3–0.4；小目标定位和主体选择受干扰。"
+    },
+    {
+      "video_id": "charades_W4W97",
+      "queries": [
+        "green cup"
+      ],
+      "visualization": "/data2/user/toc_phase0/results/stage3_visualizations/pilot/charades_W4W97_overview.jpg",
+      "observation": "水槽边绿杯小框可见，部分时段被前景人物挡住；同查询也有大幅人物/柜门误框，后续需按目标位置检查ID。"
+    },
+    {
+      "video_id": "mose_5ibctv9k",
+      "queries": [
+        "blue socked foot"
+      ],
+      "visualization": "/data2/user/toc_phase0/results/stage3_visualizations/pilot/mose_5ibctv9k_overview.jpg",
+      "observation": "多人和多只脚、快速运动、气垫遮挡；足部查询有大量碎片，存在多个可能对象，单靠概览无法唯一指认同一只脚。"
+    },
+    {
+      "video_id": "mose_f9oeua6y",
+      "queries": [
+        "hand"
+      ],
+      "visualization": "/data2/user/toc_phase0/results/stage3_visualizations/pilot/mose_f9oeua6y_overview.jpg",
+      "observation": "手部高分框多数能定位手，但双手交叉、手与杂耍棒交互时ID频繁变化；泛化hand查询含两个实例。"
+    },
+    {
+      "video_id": "perception_test_video_1991",
+      "queries": [
+        "black stand",
+        "white mug"
+      ],
+      "visualization": "/data2/user/toc_phase0/results/stage3_visualizations/pilot/perception_test_video_1991_overview.jpg",
+      "observation": "桌架和白杯初期高分定位较好；手经过杯子后杯ID由0变25、再64，桌架也有后段身份更换。"
+    },
+    {
+      "video_id": "perception_test_video_3232",
+      "queries": [
+        "bread slice"
+      ],
+      "visualization": "/data2/user/toc_phase0/results/stage3_visualizations/pilot/perception_test_video_3232_overview.jpg",
+      "observation": "面包可见时约0.8，瓶子/手经过期间存在遮挡及其它物体误框；可见面包ID依次0、27、58、117、126，需细看遮挡区间。"
+    },
+    {
+      "video_id": "perception_test_video_4096",
+      "queries": [
+        "white lace curtain"
+      ],
+      "visualization": "/data2/user/toc_phase0/results/stage3_visualizations/pilot/perception_test_video_4096_overview.jpg",
+      "observation": "能定位左右两片白纱帘，人物经过时框数和ID变化；状态突变题本就不在可直接表达子集。"
+    },
+    {
+      "video_id": "perception_test_video_6332",
+      "queries": [
+        "small glass bowl",
+        "stacked books"
+      ],
+      "visualization": "/data2/user/toc_phase0/results/stage3_visualizations/pilot/perception_test_video_6332_overview.jpg",
+      "observation": "玻璃碗ID0基本持续、置信度约0.9，堆叠书本可见但有ID1/4交替；部分遮挡未必触发可见间断。"
+    },
+    {
+      "video_id": "perception_test_video_7380",
+      "queries": [
+        "hand",
+        "notebook"
+      ],
+      "visualization": "/data2/user/toc_phase0/results/stage3_visualizations/pilot/perception_test_video_7380_overview.jpg",
+      "observation": "手和笔记本均有检测；手部定位较好，笔记本有后段ID变化及旁边另一叠物体的重复框，需区分离框/遮挡。"
+    },
+    {
+      "video_id": "perception_test_video_8100",
+      "queries": [
+        "purple spray can",
+        "wooden cup"
+      ],
+      "visualization": "/data2/user/toc_phase0/results/stage3_visualizations/pilot/perception_test_video_8100_overview.jpg",
+      "observation": "喷罐和木杯初帧能正确区分，后续两个目标均有持续检测，已消除首帧后第二目标消失的缓存异常；快速拿取与其它物体替换时ID碎片多。"
+    },
+    {
+      "video_id": "perception_test_video_9148",
+      "queries": [
+        "green book",
+        "yellow highlighter"
+      ],
+      "visualization": "/data2/user/toc_phase0/results/stage3_visualizations/pilot/perception_test_video_9148_overview.jpg",
+      "observation": "两个绿色书本实例、黄色荧光笔；前段真实目标可定位，后段绿色背景被误作green book，荧光笔也有包/其它小物体误框。"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "unit_key": "dancetrack0058__id004",
+  "sequence": "dancetrack0058",
+  "gt_id": 4,
+  "phase": "reference_instant_match",
+  "started_at": "2026-11-04T14:14:00.141790+00:00",
+  "completed_at": "2026-11-04T14:14:03.618364+00:00",
+  "seconds": 3.476604091003537,
+  "prompt_text": "At this reference instant, match the following appearance phrase to ALL visible people: \"the person with bright red hair wearing a gray and black striped long-sleeve top and black pants\"\nThe first image is the full frame, with anonymous boxes and labels. The other image(s) are crops of EVERY GT-present person at this SAME instant. Read the central person in each crop; neighboring bodies may overlap. Labels are bookkeeping only. Do not use gallery order, location, pose, or box color as appearance attributes. Include ALL people satisfying the full appearance phrase in matches, and any plausible but obscured/unclear people in uncertain. A partly hidden target whose defining clothing cannot be seen is uncertain. No forced choice; none or several are valid outcomes. Omitted labels mean clear non-matches.\nReturn {\"matches\":[\"P01\"],\"uncertain\":[],\"reason\":\"brief visual explanation\"}. Valid labels: [\"P01\", \"P02\", \"P03\", \"P04\", \"P05\", \"P06\", \"P07\"].",
+  "image_paths": [
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0058/anchor_id004_f000346/full_frame.jpg",
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0058/anchor_id004_f000346/local_gallery_page00.jpg"
+  ],
+  "image_sha256": [
+    "b0de6e4d28b77267a31e7bb3c6ebac46f0f2b3621336b89de6ca7d7fe5415bf4",
+    "407c0bdaa152b3fd6948ffbc0e0ea10202631d806b9eb3daf02804c3d63d151c"
+  ],
+  "response": {
+    "id": "chatcmpl-a5f78fc0f503b48c",
+    "object": "chat.completion",
+    "created": 1793801640,
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"matches\":[\"P05\"],\"uncertain\":[],\"reason\":\"P05 has bright red hair and is wearing a gray and black striped long-sleeve top with black pants. All other individuals either lack red hair or do not match the specified clothing.\"}",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 1490,
+      "total_tokens": 1544,
+      "completion_tokens": 54,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "check": {
+    "valid": true,
+    "parsed": {
+      "matches": [
+        "P05"
+      ],
+      "uncertain": [],
+      "reason": "P05 has bright red hair and is wearing a gray and black striped long-sleeve top with black pants. All other individuals either lack red hair or do not match the specified clothing."
+    },
+    "matched_gt_ids": [
+      4
+    ],
+    "uncertain_gt_ids": [],
+    "passed": true,
+    "error": null
+  },
+  "inference_policy_sha256": "ea3ce06e83208db2fc1ed693ee2ac1b349f8ae344fcdc2cb0a22e30ef8df60e3"
+}

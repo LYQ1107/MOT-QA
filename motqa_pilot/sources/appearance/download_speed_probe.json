@@ -1,0 +1,11 @@
+{
+  "at": "2026-11-04T13:22:03.589622+00:00",
+  "url": "https://modelscope.cn/models/Qwen/Qwen3-VL-32B-Instruct/resolve/8d6f46b05db6abe0cb3a5ca8c817929cc0fa2d5a/model-00001-of-00014.safetensors",
+  "bytes": 33554432,
+  "sha256": "b5dcbb9a54e3d79787735dbbfef1c9c2bd8915321a7a4d5d77c91b2ce372d29b",
+  "seconds": 1.7511758422479033,
+  "HTTP_status": 206,
+  "retained": false,
+  "remaining_model_bytes": 66714912872,
+  "serial_estimated_hours_x1_5": 1.4507465528835863
+}

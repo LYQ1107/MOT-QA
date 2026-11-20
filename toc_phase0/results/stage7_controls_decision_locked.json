@@ -1,0 +1,10 @@
+{
+  "decided_at": "2026-11-04T17:31:32.891317+08:00",
+  "scope": "test trackable251",
+  "T1_correct": 98,
+  "T_none_correct": 73,
+  "run_controls": true,
+  "gate": "strictly more correct; significance not required",
+  "T1_sha256": "2779a1311abd25c852896466367e008d36587c6c413b0b79761e7313b3ea8a2d",
+  "T_none_sha256": "b549356c9b49e53325f9997457de8c3a3255398c3a44adfcfbc6a251b3836cd3"
+}

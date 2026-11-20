@@ -1,0 +1,18 @@
+{
+  "pid": 1002175,
+  "args": [
+    "/data2/user/toc_phase0/env_stage6_train/bin/python",
+    "-u",
+    "/data2/user/toc_phase0/src/train_stage6.py"
+  ],
+  "device": {
+    "physical_index": 6,
+    "uuid": "GPU-883c8be3-25b0-3d19-6fa8-4c2e335e67d2",
+    "name": "NVIDIA A800-SXM4-80GB",
+    "initial_used_MiB": 19009,
+    "initial_free_MiB": 62911,
+    "existing_process_count": 2,
+    "initial_utilization": 91
+  },
+  "log": "/data2/user/toc_phase0/logs/stage6_training_attempt1.log"
+}

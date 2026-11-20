@@ -1,0 +1,260 @@
+{
+  "recorded_at": "2026-11-06T19:43:22.739321+08:00",
+  "basis": "Original released GT text; source frames visually inspected.",
+  "planned_sampling_not_a_model_run": true,
+  "cases": [
+    {
+      "qa_id": "motqa_pilot_r2_0225",
+      "reason": "用户不确定：感觉不是很明显；检查短间断与重现顺序的可辨认性。",
+      "question_zh": "在 17.450–41.450 秒内，A、B、C 中谁最先在可见性间断后重新清晰可见？",
+      "semantic_answer": "Person B",
+      "sampling_scope": "planned full source window, floor(i*N/32), not review MP4",
+      "nominal_sampling_interval_s": 1.5625,
+      "roles": [
+        {
+          "role": "A",
+          "gt_id": 5,
+          "gaps": [
+            {
+              "last_visible_frame": 613,
+              "last_visible_s": 30.6,
+              "first_missing_s": 30.65,
+              "return_frame": 616,
+              "return_s": 30.75,
+              "missing_duration_s": 0.1,
+              "sampled_missing_times_s": []
+            },
+            {
+              "last_visible_frame": 630,
+              "last_visible_s": 31.45,
+              "first_missing_s": 31.5,
+              "return_frame": 636,
+              "return_s": 31.75,
+              "missing_duration_s": 0.25,
+              "sampled_missing_times_s": []
+            },
+            {
+              "last_visible_frame": 671,
+              "last_visible_s": 33.5,
+              "first_missing_s": 33.55,
+              "return_frame": 692,
+              "return_s": 34.55,
+              "missing_duration_s": 1.0,
+              "sampled_missing_times_s": [
+                34.35
+              ]
+            },
+            {
+              "last_visible_frame": 696,
+              "last_visible_s": 34.75,
+              "first_missing_s": 34.8,
+              "return_frame": 700,
+              "return_s": 34.95,
+              "missing_duration_s": 0.15,
+              "sampled_missing_times_s": []
+            },
+            {
+              "last_visible_frame": 706,
+              "last_visible_s": 35.25,
+              "first_missing_s": 35.3,
+              "return_frame": 709,
+              "return_s": 35.4,
+              "missing_duration_s": 0.1,
+              "sampled_missing_times_s": []
+            },
+            {
+              "last_visible_frame": 714,
+              "last_visible_s": 35.65,
+              "first_missing_s": 35.7,
+              "return_frame": 720,
+              "return_s": 35.95,
+              "missing_duration_s": 0.25,
+              "sampled_missing_times_s": [
+                35.9
+              ]
+            }
+          ]
+        },
+        {
+          "role": "B",
+          "gt_id": 2,
+          "gaps": [
+            {
+              "last_visible_frame": 596,
+              "last_visible_s": 29.75,
+              "first_missing_s": 29.8,
+              "return_frame": 606,
+              "return_s": 30.25,
+              "missing_duration_s": 0.45,
+              "sampled_missing_times_s": []
+            },
+            {
+              "last_visible_frame": 623,
+              "last_visible_s": 31.1,
+              "first_missing_s": 31.15,
+              "return_frame": 635,
+              "return_s": 31.7,
+              "missing_duration_s": 0.55,
+              "sampled_missing_times_s": [
+                31.25
+              ]
+            },
+            {
+              "last_visible_frame": 655,
+              "last_visible_s": 32.7,
+              "first_missing_s": 32.75,
+              "return_frame": 692,
+              "return_s": 34.55,
+              "missing_duration_s": 1.8,
+              "sampled_missing_times_s": [
+                32.8,
+                34.35
+              ]
+            },
+            {
+              "last_visible_frame": 696,
+              "last_visible_s": 34.75,
+              "first_missing_s": 34.8,
+              "return_frame": 700,
+              "return_s": 34.95,
+              "missing_duration_s": 0.15,
+              "sampled_missing_times_s": []
+            }
+          ]
+        },
+        {
+          "role": "C",
+          "gt_id": 3,
+          "gaps": [
+            {
+              "last_visible_frame": 571,
+              "last_visible_s": 28.5,
+              "first_missing_s": 28.55,
+              "return_frame": 580,
+              "return_s": 28.95,
+              "missing_duration_s": 0.4,
+              "sampled_missing_times_s": []
+            },
+            {
+              "last_visible_frame": 671,
+              "last_visible_s": 33.5,
+              "first_missing_s": 33.55,
+              "return_frame": 680,
+              "return_s": 33.95,
+              "missing_duration_s": 0.4,
+              "sampled_missing_times_s": []
+            },
+            {
+              "last_visible_frame": 688,
+              "last_visible_s": 34.35,
+              "first_missing_s": 34.4,
+              "return_frame": 692,
+              "return_s": 34.55,
+              "missing_duration_s": 0.15,
+              "sampled_missing_times_s": []
+            },
+            {
+              "last_visible_frame": 706,
+              "last_visible_s": 35.25,
+              "first_missing_s": 35.3,
+              "return_frame": 708,
+              "return_s": 35.35,
+              "missing_duration_s": 0.05,
+              "sampled_missing_times_s": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0229",
+      "reason": "用户不确定：遮挡不明显；短间断被事件定义排除，但题面没有说明。",
+      "question_zh": "在 30.550–38.950 秒内，A 第 1 次在可见性间断后重新清晰可见时，位于画面哪个区域？",
+      "semantic_answer": "This never happens.",
+      "sampling_scope": "planned full source window, floor(i*N/32), not review MP4",
+      "nominal_sampling_interval_s": 1.5625,
+      "roles": [
+        {
+          "role": "A",
+          "gt_id": 7,
+          "gaps": [
+            {
+              "last_visible_frame": 631,
+              "last_visible_s": 31.5,
+              "first_missing_s": 31.55,
+              "return_frame": 637,
+              "return_s": 31.8,
+              "missing_duration_s": 0.25,
+              "sampled_missing_times_s": []
+            },
+            {
+              "last_visible_frame": 643,
+              "last_visible_s": 32.1,
+              "first_missing_s": 32.15,
+              "return_frame": 652,
+              "return_s": 32.55,
+              "missing_duration_s": 0.4,
+              "sampled_missing_times_s": []
+            },
+            {
+              "last_visible_frame": 688,
+              "last_visible_s": 34.35,
+              "first_missing_s": 34.4,
+              "return_frame": 690,
+              "return_s": 34.45,
+              "missing_duration_s": 0.05,
+              "sampled_missing_times_s": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0777",
+      "reason": "对话额外提出0.440秒边缘消失指代困难；保留JSON中的通过，另列修订疑点。",
+      "question_zh": "人物 A 在 12.200 秒附近开始的可见性间断之后，在 9.480–17.800 秒内首次重新清晰可见的时刻是什么？",
+      "semantic_answer": "This never happens.",
+      "sampling_scope": "planned full source window, floor(i*N/32), not review MP4",
+      "nominal_sampling_interval_s": 0.97,
+      "roles": [
+        {
+          "role": "A",
+          "gt_id": 0,
+          "gaps": [
+            {
+              "last_visible_frame": 305,
+              "last_visible_s": 12.16,
+              "first_missing_s": 12.2,
+              "return_frame": 571,
+              "return_s": 22.8,
+              "missing_duration_s": 10.6,
+              "sampled_missing_times_s": [
+                12.6,
+                13.56,
+                14.52,
+                15.52,
+                16.48,
+                17.44,
+                18.4,
+                19.4,
+                20.36,
+                21.32,
+                22.28
+              ]
+            }
+          ]
+        }
+      ],
+      "event_reference": {
+        "event_time_s": 0.44,
+        "anchor_time_s": 0.32,
+        "continuous_visible_before_event_s": 0.44,
+        "anchor_width_px": 18.0,
+        "anchor_width_fraction": 0.0140625,
+        "english_mentions_left_edge": true,
+        "chinese_omits_left_direction": true,
+        "geometry_gate_does_not_establish_human_identifiability": true
+      }
+    }
+  ]
+}

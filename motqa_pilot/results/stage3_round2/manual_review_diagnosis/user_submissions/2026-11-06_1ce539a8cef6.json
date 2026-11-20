@@ -1,0 +1,107 @@
+{
+  "packet_id": "motqa_round2_formal20_1e38560f221ddaaa",
+  "exported_at": "2026-11-06T11:33:30.896Z",
+  "total": 20,
+  "reviews": [
+    {
+      "qa_id": "motqa_pilot_r2_0013",
+      "verdict": "pass",
+      "notes": ""
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0022",
+      "verdict": "pass",
+      "notes": ""
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0031",
+      "verdict": "pass",
+      "notes": ""
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0096",
+      "verdict": "pass",
+      "notes": ""
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0121",
+      "verdict": "pass",
+      "notes": ""
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0136",
+      "verdict": "pass",
+      "notes": ""
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0169",
+      "verdict": "pass",
+      "notes": ""
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0225",
+      "verdict": "uncertain",
+      "notes": "感觉不是很明显"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0229",
+      "verdict": "uncertain",
+      "notes": "遮挡不明显"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0240",
+      "verdict": "pass",
+      "notes": ""
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0264",
+      "verdict": "pass",
+      "notes": ""
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0535",
+      "verdict": "pass",
+      "notes": ""
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0544",
+      "verdict": "pass",
+      "notes": ""
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0554",
+      "verdict": "pass",
+      "notes": ""
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0653",
+      "verdict": "pass",
+      "notes": ""
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0677",
+      "verdict": "pass",
+      "notes": ""
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0738",
+      "verdict": "pass",
+      "notes": ""
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0777",
+      "verdict": "pass",
+      "notes": ""
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0841",
+      "verdict": "pass",
+      "notes": ""
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0844",
+      "verdict": "pass",
+      "notes": ""
+    }
+  ]
+}

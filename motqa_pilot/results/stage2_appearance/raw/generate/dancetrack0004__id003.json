@@ -1,0 +1,70 @@
+{
+  "unit_key": "dancetrack0004__id003",
+  "sequence": "dancetrack0004",
+  "gt_id": 3,
+  "phase": "generate",
+  "started_at": "2026-11-04T13:51:27.574538+00:00",
+  "completed_at": "2026-11-04T13:51:33.715024+00:00",
+  "seconds": 6.140520920976996,
+  "prompt_text": "The first image shows three crops of ONE target person at different times. The other image(s) show comparison people from the SAME video; every labeled tile is a different annotated person, shown in up to three crops. These comparison labels are anonymous bookkeeping labels, not appearance attributes.\nWrite one concise English noun phrase (at most 30 words), starting with \"the person\", describing the target using stable, clearly visible clothing, patterns, hair, or accessories. Prefer details that distinguish this person from comparison people. Do not mention actions, pose, scene location, time, spatial relation to others, gallery labels, or GT identity numbers. Visible garment lettering is allowed only if clearly legible. Do not infer colors/details hidden by another person. If no reliable description is possible, use an empty phrase. If a truthful description is shared by others, still provide it and set visually_distinct to false.\nReturn {\"phrase\":\"...\", \"supported_attributes\":[\"...\"], \"visually_distinct\":true, \"limitations\":\"...\"}. A description need not be unique; truthful uncertainty is preferred to invented uniqueness.\nThe target person is also included once among the comparison gallery tiles. Identify that repeated target visually; do not treat the repeated target tile as a different rival. Look for truthful stable appearance that distinguishes the target from OTHER people.",
+  "image_paths": [
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0004/id003_target.jpg",
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0004/generation_gallery_page00.jpg"
+  ],
+  "image_sha256": [
+    "5f012a60511cf2d402452b4d394bdccb725b46d4c1c0051a59bc853abf970782",
+    "b4164555f39ef722a8331b0a7118287bbcffe6ecbc04d592a1ae5317f8192f07"
+  ],
+  "response": {
+    "id": "chatcmpl-8883157d7ef2aeaf",
+    "object": "chat.completion",
+    "created": 1793800287,
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"phrase\": \"the person with shoulder-length brown hair wearing a white crop top and white shorts with a frayed hem\",\n  \"supported_attributes\": [\"shoulder-length brown hair\", \"white crop top\", \"white shorts with frayed hem\"],\n  \"visually_distinct\": false,\n  \"limitations\": \"The white crop top and white shorts are worn by multiple people in the gallery, making the outfit not visually distinct. The frayed hem on the shorts is a subtle detail that may not be consistently visible or shared by others.\"\n}",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 947,
+      "total_tokens": 1060,
+      "completion_tokens": 113,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "check": {
+    "valid": true,
+    "parsed": {
+      "phrase": "the person with shoulder-length brown hair wearing a white crop top and white shorts with a frayed hem",
+      "supported_attributes": [
+        "shoulder-length brown hair",
+        "white crop top",
+        "white shorts with frayed hem"
+      ],
+      "visually_distinct": false,
+      "limitations": "The white crop top and white shorts are worn by multiple people in the gallery, making the outfit not visually distinct. The frayed hem on the shorts is a subtle detail that may not be consistently visible or shared by others."
+    },
+    "phrase": "the person with shoulder-length brown hair wearing a white crop top and white shorts with a frayed hem",
+    "error": null
+  },
+  "inference_policy_sha256": "ea3ce06e83208db2fc1ed693ee2ac1b349f8ae344fcdc2cb0a22e30ef8df60e3"
+}

@@ -1,0 +1,18 @@
+{
+  "before": 38216,
+  "extra_generated": 79710,
+  "after_dedup": 116408,
+  "reason": "Point questions use3s/5s reference separation, not an added4s interval; O6 frequency was an original authorized subtype",
+  "thresholds_weakened": false,
+  "by_type": {
+    "O7": 5077,
+    "O8": 15809,
+    "O4": 5860,
+    "O6": 15924,
+    "O2": 44475,
+    "composition": 2904,
+    "O5": 2965,
+    "O1": 20736,
+    "O3": 2658
+  }
+}

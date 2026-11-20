@@ -1,0 +1,62 @@
+{
+  "created_at": "2026-11-02T16:02:33.690992+08:00",
+  "before_any_stage5_inference": true,
+  "seed": 42,
+  "frozen_config_sha256": "7f0dbd16926026fa087ac4bb84fb1f3dce142ee903e5cf16c9e8eb1b7a62d93d",
+  "split_sha256": "e1d87675aca7e69d57a5ac99dc7ecdedaf8ca8c4efb1588bb86f42066fce80b3",
+  "trackable_sha256": "4a4d1fdbb57158696986a99130d0a4e2ba27a51c73776c813347829d4b9a2593",
+  "accepted_stage4_conclusion": "No detectable benefit of real trajectories B over A in official direct-answer format; B and D have symmetric flips. Rule routing gains about9pp over A on test trackable questions, demonstrating usable track information not used by that model/template.",
+  "primary_scope": "Test trackable251 QA; main-four231 also reported. R/D101 is entirely trackable. Test all602 and full749 supplemental; full includes development used for prior tuning.",
+  "methods": {
+    "mcnemar": "Exact two-sided conditional binomial test on discordant correctness; p=1 with zero discordances.",
+    "bootstrap": "Question-level paired percentile95%CI,1000 resamples,numpy default_rng(42),sorted qa_id within each subset,as Stage4.",
+    "alpha": 0.05,
+    "positive": "Positive delta, exact two-sided McNemar p<.05 and bootstrap lower bound>0.",
+    "weak_inequality": "For >= hypotheses, report observed ordering separately from inference. Significant positive differences support a transition; significant negative differences contradict it. With no prespecified noninferiority margin, nonsignificance or an observed tie alone does not establish population noninferiority.",
+    "multiplicity": "Unadjusted exact p and CIs reported; additionally Holm-adjust four H7 adjacent comparisons across two templates. No familywise claim for exploratory dimensions."
+  },
+  "hypotheses": [
+    {
+      "id": "H6",
+      "scope": "reasoning template, test trackable251",
+      "statement": "B>A under the brief-reasoning template.",
+      "criterion": "positive criterion on B-A; strict final-line parser"
+    },
+    {
+      "id": "H7",
+      "scope": "R/D101 test questions, each template separately",
+      "statement": "B-events >= B-main >= B.",
+      "comparisons": [
+        "B-main minus B",
+        "B-events minus B-main"
+      ],
+      "criterion": "Report observed monotonicity (both deltas>=0), each exact p and CI. Statistical support requires positive evidence for both transitions; otherwise distinguish observed ordering from uncertainty. Significant negative transition contradicts monotonicity."
+    },
+    {
+      "id": "H8",
+      "scope": "R/D101 test questions, each template separately",
+      "statement": "B-events is not lower than the frozen rule.",
+      "criterion": "Report observed gap to rule. Positive criterion supports at least reaching rule; significant negative delta contradicts it; an overlapping CI remains inconclusive for noninferiority, with no post-hoc margin."
+    }
+  ],
+  "reasoning_parser": {
+    "rule": "Require the final nonempty line to match case-sensitive Answer: <value>. No fallback to earlier lines or reasoning. sp/mcq require exact legal uppercase letter; numerical exact2/3/4/5 or more; ordering exact complete permutation of its labels separated by commas. Parse failure wrong.",
+    "source_sha256": "8482b37d0136fd2966bea5d727d239b536c79cfe181238eab24ec8dcdeb5fdd3",
+    "max_tokens": 1024
+  },
+  "numerical_guidance": {
+    "user_confirmed": "Preserve reasoning and constrain only final answer; total1024 tokens.",
+    "reasoning_backend": "structured_outputs.regex",
+    "regex": "[\\s\\S]*\\nAnswer: (2|3|4|5 or more)",
+    "reasoning_semantics": "Free reasoning prefix; EOS allowed only after a final newline Answer: with legal number. Token-limit truncations remain failures, not retried or dropped.",
+    "official_backend": "structured_outputs.choice",
+    "choices": [
+      "2",
+      "3",
+      "4",
+      "5 or more"
+    ]
+  },
+  "examples": "First5 sorted test R/D qa_id answered correctly by reasoning B and first5 wrong, including parse failures. Preserve whole output and evidence; manually describe whether it cites tracks, without inferring private reasoning or editing evidence.",
+  "no_parameter_updates": true
+}

@@ -1,0 +1,29 @@
+{
+  "status": "VERIFIED",
+  "inventory_sequence_rows": 197,
+  "checked_gt_files": 176,
+  "gt_sequence_rows_by_dataset": {
+    "DanceTrack": 65,
+    "SportsMOT": 90,
+    "MOT17": 21
+  },
+  "image_sha256_samples": [
+    {
+      "dataset": "DanceTrack",
+      "path": "/data2/user/LocateMOT/data/DanceTrack/train/dancetrack0001/img1/00000001.jpg",
+      "sha256": "17ac3a824382e503ea320037f44584192bfd32298adf6d51283b7057a6d56c0f"
+    },
+    {
+      "dataset": "SportsMOT",
+      "path": "/data2/user/LocateMOT_FullDataV2_spill/datasets/SportsMOT/train/v_-6Os86HzwCs_c001/img1/000001.jpg",
+      "sha256": "bfc4297d75b765368b53565a4cd460ec9e104dfab2230e173d2a76344e1ed108"
+    },
+    {
+      "dataset": "MOT17",
+      "path": "/data2/user/LocateMOT/data/MOT17/MOT17/train/MOT17-02-DPM/img1/000001.jpg",
+      "sha256": "41ff65408c5338f4a83035fd12e9f5f7b658ee82feacf4512655677032636597"
+    }
+  ],
+  "all_source_frames_rehashed": false,
+  "issues": []
+}

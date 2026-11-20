@@ -1,0 +1,31 @@
+{
+  "at": "2026-11-04T13:36:48.623433+00:00",
+  "purpose": "Visual layout/ambiguity sanity check before model results; no protocol or threshold changes",
+  "observations": [
+    {
+      "sequence": "dancetrack0004",
+      "view": "id000_target.jpg",
+      "observation": "Three crops show one light-haired person wearing a light top and white shorts; first crop is a bent pose and visually less informative than the others."
+    },
+    {
+      "sequence": "dancetrack0026",
+      "view": "heldout_gallery_page00.jpg",
+      "observation": "Many people wear very similar white ballet dresses and head decorations. Clothing alone is unlikely to uniquely distinguish these IDs; rejection is acceptable."
+    },
+    {
+      "sequence": "dancetrack0097",
+      "view": "heldout_gallery_page00.jpg",
+      "observation": "Four black-suit wearers have some visible differences: glasses, shirt/tie, short hair and bright hair color. Appearance distinctions may be supported without positional cues."
+    },
+    {
+      "sequence": "dancetrack0034",
+      "view": "heldout_gallery_page00.jpg",
+      "observation": "Matching black/gold outfits and similar light hair are shared by many people; fine hairstyle distinctions need caution under stage lighting."
+    },
+    {
+      "sequence": "dancetrack0094",
+      "view": "heldout_gallery_page00.jpg",
+      "observation": "Similar muted outfits under colored lighting; some GT crops show only a torso or legs. Such views may not resolve hair/face and should not automatically be treated as non-matches."
+    }
+  ]
+}

@@ -1,0 +1,298 @@
+[
+  {
+    "path": "logs/hf_dataset_info.json",
+    "source": "https://huggingface.co/api/datasets/anonymous-video-benchmark/toc_bench?blobs=true",
+    "resolved_url": "https://huggingface.co/api/datasets/anonymous-video-benchmark/toc_bench?blobs=true",
+    "bytes": 452690,
+    "sha256": "d7fab84a5f81e2d69e00730dd62ffa4bb73d7d29558b52af4a055ef2be23c878",
+    "integrity": "Local SHA256 recorded; no independent digest"
+  },
+  {
+    "path": "data/toc_bench/README.md",
+    "source": "https://huggingface.co/datasets/anonymous-video-benchmark/toc_bench/resolve/da3065053d958c38151304e33a42e138b1899eaf/README.md",
+    "resolved_url": "https://huggingface.co/api/resolve-cache/datasets/anonymous-video-benchmark/toc_bench/da3065053d958c38151304e33a42e138b1899eaf/README.md?%2Fdatasets%2Fanonymous-video-benchmark%2Ftoc_bench%2Fresolve%2Fda3065053d958c38151304e33a42e138b1899eaf%2FREADME.md=&etag=%2239ecf39a7c498f70c1c48b360735026749dba902%22",
+    "bytes": 6416,
+    "sha256": "97211d28907c22054f8fd96b4ce0d62c3590d703b4efa1f6e08c3709882e0770",
+    "integrity": "Git blob verified"
+  },
+  {
+    "path": "data/toc_bench/answer_final.json",
+    "source": "https://huggingface.co/datasets/anonymous-video-benchmark/toc_bench/resolve/da3065053d958c38151304e33a42e138b1899eaf/answer_final.json",
+    "resolved_url": "https://huggingface.co/api/resolve-cache/datasets/anonymous-video-benchmark/toc_bench/da3065053d958c38151304e33a42e138b1899eaf/answer_final.json?%2Fdatasets%2Fanonymous-video-benchmark%2Ftoc_bench%2Fresolve%2Fda3065053d958c38151304e33a42e138b1899eaf%2Fanswer_final.json=&etag=%2212400aff917c158f724d59df78e81e1ee4e7f979%22",
+    "bytes": 1388091,
+    "sha256": "dc930c60172e2811f0029ca1264f891ae68001031aa8055e986b1cea1bc8ed26",
+    "integrity": "Git blob verified"
+  },
+  {
+    "path": "data/toc_bench/data/test.jsonl",
+    "source": "https://huggingface.co/datasets/anonymous-video-benchmark/toc_bench/resolve/da3065053d958c38151304e33a42e138b1899eaf/data/test.jsonl",
+    "resolved_url": "https://huggingface.co/api/resolve-cache/datasets/anonymous-video-benchmark/toc_bench/da3065053d958c38151304e33a42e138b1899eaf/data%2Ftest.jsonl?%2Fdatasets%2Fanonymous-video-benchmark%2Ftoc_bench%2Fresolve%2Fda3065053d958c38151304e33a42e138b1899eaf%2Fdata%2Ftest.jsonl=&etag=%226e7fc52507a9c920a9a924443171df6f321eb306%22",
+    "bytes": 1132684,
+    "sha256": "157ef41aa44d87bc6b09a702ca6bebcc10e4f090510f4e56eeebd71101073730",
+    "integrity": "Git blob verified"
+  },
+  {
+    "path": "logs/github_tree.json",
+    "source": "https://api.github.com/repos/junzhe-c/toc_bench/git/trees/main?recursive=1",
+    "resolved_url": "https://api.github.com/repos/junzhe-c/toc_bench/git/trees/main?recursive=1",
+    "bytes": 6276,
+    "sha256": "0b3f09c7cfe2e03a500496311ad9fe837e7fce07d8ba3fd3861874b78a0fe847",
+    "integrity": "Local SHA256 recorded; no independent digest"
+  },
+  {
+    "path": "logs/github_commit.json",
+    "source": "https://api.github.com/repos/junzhe-c/toc_bench/commits/main",
+    "resolved_url": "https://api.github.com/repos/junzhe-c/toc_bench/commits/main",
+    "bytes": 110547,
+    "sha256": "bd299e5e63fd6ed6c245f6d7e33ec30138386283b2c1b7afef761cb7a71f50df",
+    "integrity": "Local SHA256 recorded; no independent digest"
+  },
+  {
+    "path": "upstream/toc_bench/.gitignore",
+    "source": "https://raw.githubusercontent.com/junzhe-c/toc_bench/e4a10bc1fd31ec1af9482bcfc827e41f2fac769a/.gitignore",
+    "resolved_url": "https://raw.githubusercontent.com/junzhe-c/toc_bench/e4a10bc1fd31ec1af9482bcfc827e41f2fac769a/.gitignore",
+    "bytes": 61,
+    "sha256": "106d53515ec1a97b2bf69c182e3cbe479e5e7ebb33e9b030cd1bf64c03ba0d91",
+    "integrity": "Git blob verified"
+  },
+  {
+    "path": "upstream/toc_bench/README.md",
+    "source": "https://raw.githubusercontent.com/junzhe-c/toc_bench/e4a10bc1fd31ec1af9482bcfc827e41f2fac769a/README.md",
+    "resolved_url": "https://raw.githubusercontent.com/junzhe-c/toc_bench/e4a10bc1fd31ec1af9482bcfc827e41f2fac769a/README.md",
+    "bytes": 11526,
+    "sha256": "bce0b4e416cf9de0ea2994cbd02f8250a08a6313800a618c55969b73ad5bcdcd",
+    "integrity": "Git blob verified"
+  },
+  {
+    "path": "upstream/toc_bench/answer_extractor.py",
+    "source": "https://raw.githubusercontent.com/junzhe-c/toc_bench/e4a10bc1fd31ec1af9482bcfc827e41f2fac769a/answer_extractor.py",
+    "resolved_url": "https://raw.githubusercontent.com/junzhe-c/toc_bench/e4a10bc1fd31ec1af9482bcfc827e41f2fac769a/answer_extractor.py",
+    "bytes": 7159,
+    "sha256": "35d235114a83dcae55e95d96c8cf4a942879644b5ccdb193d7f6adffb1899b77",
+    "integrity": "Git blob verified"
+  },
+  {
+    "path": "upstream/toc_bench/answer_final.json",
+    "source": "https://raw.githubusercontent.com/junzhe-c/toc_bench/e4a10bc1fd31ec1af9482bcfc827e41f2fac769a/answer_final.json",
+    "resolved_url": "https://raw.githubusercontent.com/junzhe-c/toc_bench/e4a10bc1fd31ec1af9482bcfc827e41f2fac769a/answer_final.json",
+    "bytes": 1388091,
+    "sha256": "dc930c60172e2811f0029ca1264f891ae68001031aa8055e986b1cea1bc8ed26",
+    "integrity": "Git blob verified"
+  },
+  {
+    "path": "upstream/toc_bench/compute_metrics.py",
+    "source": "https://raw.githubusercontent.com/junzhe-c/toc_bench/e4a10bc1fd31ec1af9482bcfc827e41f2fac769a/compute_metrics.py",
+    "resolved_url": "https://raw.githubusercontent.com/junzhe-c/toc_bench/e4a10bc1fd31ec1af9482bcfc827e41f2fac769a/compute_metrics.py",
+    "bytes": 12283,
+    "sha256": "75670a2df1353052081399c5b155ab471c1aa9006d5ff49478bb516203c92bd7",
+    "integrity": "Git blob verified"
+  },
+  {
+    "path": "upstream/toc_bench/configs/config.py",
+    "source": "https://raw.githubusercontent.com/junzhe-c/toc_bench/e4a10bc1fd31ec1af9482bcfc827e41f2fac769a/configs/config.py",
+    "resolved_url": "https://raw.githubusercontent.com/junzhe-c/toc_bench/e4a10bc1fd31ec1af9482bcfc827e41f2fac769a/configs/config.py",
+    "bytes": 30146,
+    "sha256": "97cf3c1079592ee83a48fc3f1997c525ab58111154451d470064b825a632bbb9",
+    "integrity": "Git blob verified"
+  },
+  {
+    "path": "upstream/toc_bench/data_repair.py",
+    "source": "https://raw.githubusercontent.com/junzhe-c/toc_bench/e4a10bc1fd31ec1af9482bcfc827e41f2fac769a/data_repair.py",
+    "resolved_url": "https://raw.githubusercontent.com/junzhe-c/toc_bench/e4a10bc1fd31ec1af9482bcfc827e41f2fac769a/data_repair.py",
+    "bytes": 14316,
+    "sha256": "a608d7f0a5a403e2fe4ca23a169d92a521712e8dfec863f8724b6a90859df821",
+    "integrity": "Git blob verified"
+  },
+  {
+    "path": "upstream/toc_bench/eval_runner.py",
+    "source": "https://raw.githubusercontent.com/junzhe-c/toc_bench/e4a10bc1fd31ec1af9482bcfc827e41f2fac769a/eval_runner.py",
+    "resolved_url": "https://raw.githubusercontent.com/junzhe-c/toc_bench/e4a10bc1fd31ec1af9482bcfc827e41f2fac769a/eval_runner.py",
+    "bytes": 82465,
+    "sha256": "42c8225d3f093e98f5d19c9f471a5b07f51caea404e1d6117f42bbd4b544946d",
+    "integrity": "Git blob verified"
+  },
+  {
+    "path": "upstream/toc_bench/requirements.txt",
+    "source": "https://raw.githubusercontent.com/junzhe-c/toc_bench/e4a10bc1fd31ec1af9482bcfc827e41f2fac769a/requirements.txt",
+    "resolved_url": "https://raw.githubusercontent.com/junzhe-c/toc_bench/e4a10bc1fd31ec1af9482bcfc827e41f2fac769a/requirements.txt",
+    "bytes": 4114,
+    "sha256": "0811fb4d515a46d24baa76534bfea4ed790340af19a371c21076b43908054dc7",
+    "integrity": "Git blob verified"
+  },
+  {
+    "path": "upstream/toc_bench/scripts/diagnose_filter_results.py",
+    "source": "https://raw.githubusercontent.com/junzhe-c/toc_bench/e4a10bc1fd31ec1af9482bcfc827e41f2fac769a/scripts/diagnose_filter_results.py",
+    "resolved_url": "https://raw.githubusercontent.com/junzhe-c/toc_bench/e4a10bc1fd31ec1af9482bcfc827e41f2fac769a/scripts/diagnose_filter_results.py",
+    "bytes": 18129,
+    "sha256": "4014ba1a7b961cc5fcacdad794fe0eaa52bb6141b63558dc3fcb7cb4f4fbeb95",
+    "integrity": "Git blob verified"
+  },
+  {
+    "path": "upstream/toc_bench/scripts/fix_duplicate_labels.py",
+    "source": "https://raw.githubusercontent.com/junzhe-c/toc_bench/e4a10bc1fd31ec1af9482bcfc827e41f2fac769a/scripts/fix_duplicate_labels.py",
+    "resolved_url": "https://raw.githubusercontent.com/junzhe-c/toc_bench/e4a10bc1fd31ec1af9482bcfc827e41f2fac769a/scripts/fix_duplicate_labels.py",
+    "bytes": 1670,
+    "sha256": "bb301b82ef8028c4209876c1705c7293afac0a2c6d04303ae7c3561a5d9e18c7",
+    "integrity": "Git blob verified"
+  },
+  {
+    "path": "upstream/toc_bench/scripts/referring_expressions.py",
+    "source": "https://raw.githubusercontent.com/junzhe-c/toc_bench/e4a10bc1fd31ec1af9482bcfc827e41f2fac769a/scripts/referring_expressions.py",
+    "resolved_url": "https://raw.githubusercontent.com/junzhe-c/toc_bench/e4a10bc1fd31ec1af9482bcfc827e41f2fac769a/scripts/referring_expressions.py",
+    "bytes": 16863,
+    "sha256": "c26489f8b843a85ac35196c97e27c0c3d389bfa6f1bdd93dfd9539713eb4a872",
+    "integrity": "Git blob verified"
+  },
+  {
+    "path": "upstream/toc_bench/scripts/run_step3b_subset_test.py",
+    "source": "https://raw.githubusercontent.com/junzhe-c/toc_bench/e4a10bc1fd31ec1af9482bcfc827e41f2fac769a/scripts/run_step3b_subset_test.py",
+    "resolved_url": "https://raw.githubusercontent.com/junzhe-c/toc_bench/e4a10bc1fd31ec1af9482bcfc827e41f2fac769a/scripts/run_step3b_subset_test.py",
+    "bytes": 6026,
+    "sha256": "9ccafd4be805a0d81b11e329d81be955f8c1eb0aa62eb820dbbe808bf63f3d89",
+    "integrity": "Git blob verified"
+  },
+  {
+    "path": "upstream/toc_bench/scripts/step1a_download_videos.py",
+    "source": "https://raw.githubusercontent.com/junzhe-c/toc_bench/e4a10bc1fd31ec1af9482bcfc827e41f2fac769a/scripts/step1a_download_videos.py",
+    "resolved_url": "https://raw.githubusercontent.com/junzhe-c/toc_bench/e4a10bc1fd31ec1af9482bcfc827e41f2fac769a/scripts/step1a_download_videos.py",
+    "bytes": 11217,
+    "sha256": "21cc15cd7f6d7498d9c58fbb4dc1fff7ae634c9e6be20cf9b1efadc146ef1950",
+    "integrity": "Git blob verified"
+  },
+  {
+    "path": "upstream/toc_bench/scripts/step1b_postprocess.py",
+    "source": "https://raw.githubusercontent.com/junzhe-c/toc_bench/e4a10bc1fd31ec1af9482bcfc827e41f2fac769a/scripts/step1b_postprocess.py",
+    "resolved_url": "https://raw.githubusercontent.com/junzhe-c/toc_bench/e4a10bc1fd31ec1af9482bcfc827e41f2fac769a/scripts/step1b_postprocess.py",
+    "bytes": 19011,
+    "sha256": "c00a2b97945f567e7c0736e49ec6ce3c522be8c43574d38d0503f05575663c3f",
+    "integrity": "Git blob verified"
+  },
+  {
+    "path": "upstream/toc_bench/scripts/step1b_track_objects.py",
+    "source": "https://raw.githubusercontent.com/junzhe-c/toc_bench/e4a10bc1fd31ec1af9482bcfc827e41f2fac769a/scripts/step1b_track_objects.py",
+    "resolved_url": "https://raw.githubusercontent.com/junzhe-c/toc_bench/e4a10bc1fd31ec1af9482bcfc827e41f2fac769a/scripts/step1b_track_objects.py",
+    "bytes": 27609,
+    "sha256": "450350e7b073f17b8f480d85c888aa1f354f0b615182ad4ed8619581be6d80f5",
+    "integrity": "Git blob verified"
+  },
+  {
+    "path": "upstream/toc_bench/scripts/step1c_detect_events.py",
+    "source": "https://raw.githubusercontent.com/junzhe-c/toc_bench/e4a10bc1fd31ec1af9482bcfc827e41f2fac769a/scripts/step1c_detect_events.py",
+    "resolved_url": "https://raw.githubusercontent.com/junzhe-c/toc_bench/e4a10bc1fd31ec1af9482bcfc827e41f2fac769a/scripts/step1c_detect_events.py",
+    "bytes": 54676,
+    "sha256": "76652ad140a784983805e57ff438138eddda6f0e3dd4608b6c7772b76742f74d",
+    "integrity": "Git blob verified"
+  },
+  {
+    "path": "upstream/toc_bench/scripts/step2_select_videos.py",
+    "source": "https://raw.githubusercontent.com/junzhe-c/toc_bench/e4a10bc1fd31ec1af9482bcfc827e41f2fac769a/scripts/step2_select_videos.py",
+    "resolved_url": "https://raw.githubusercontent.com/junzhe-c/toc_bench/e4a10bc1fd31ec1af9482bcfc827e41f2fac769a/scripts/step2_select_videos.py",
+    "bytes": 23550,
+    "sha256": "d1466a1b790e78737106e680ce0640813ba138a60d3c367e95ae7780b1d34b12",
+    "integrity": "Git blob verified"
+  },
+  {
+    "path": "upstream/toc_bench/scripts/step3a_extract_units.py",
+    "source": "https://raw.githubusercontent.com/junzhe-c/toc_bench/e4a10bc1fd31ec1af9482bcfc827e41f2fac769a/scripts/step3a_extract_units.py",
+    "resolved_url": "https://raw.githubusercontent.com/junzhe-c/toc_bench/e4a10bc1fd31ec1af9482bcfc827e41f2fac769a/scripts/step3a_extract_units.py",
+    "bytes": 43919,
+    "sha256": "f25550ad23fbf53677550ddff416ea2980b385862dae6240cfb296150b1c7169",
+    "integrity": "Git blob verified"
+  },
+  {
+    "path": "upstream/toc_bench/scripts/step3b_build_skeletons.py",
+    "source": "https://raw.githubusercontent.com/junzhe-c/toc_bench/e4a10bc1fd31ec1af9482bcfc827e41f2fac769a/scripts/step3b_build_skeletons.py",
+    "resolved_url": "https://raw.githubusercontent.com/junzhe-c/toc_bench/e4a10bc1fd31ec1af9482bcfc827e41f2fac769a/scripts/step3b_build_skeletons.py",
+    "bytes": 41897,
+    "sha256": "6b3cea756475582d6fb3eaf677494893b1a1f14e1234c4cd7d1fb740816d37e9",
+    "integrity": "Git blob verified"
+  },
+  {
+    "path": "upstream/toc_bench/scripts/step3c_surface_realize.py",
+    "source": "https://raw.githubusercontent.com/junzhe-c/toc_bench/e4a10bc1fd31ec1af9482bcfc827e41f2fac769a/scripts/step3c_surface_realize.py",
+    "resolved_url": "https://raw.githubusercontent.com/junzhe-c/toc_bench/e4a10bc1fd31ec1af9482bcfc827e41f2fac769a/scripts/step3c_surface_realize.py",
+    "bytes": 48931,
+    "sha256": "6eaf60d9a154fe2ab360125a1a1e8bd510e450999cc00e1aa5744cbdc5b1c474",
+    "integrity": "Git blob verified"
+  },
+  {
+    "path": "upstream/toc_bench/scripts/step4_temporal_filter.py",
+    "source": "https://raw.githubusercontent.com/junzhe-c/toc_bench/e4a10bc1fd31ec1af9482bcfc827e41f2fac769a/scripts/step4_temporal_filter.py",
+    "resolved_url": "https://raw.githubusercontent.com/junzhe-c/toc_bench/e4a10bc1fd31ec1af9482bcfc827e41f2fac769a/scripts/step4_temporal_filter.py",
+    "bytes": 61284,
+    "sha256": "0a65ef84b382c0b9cac9d92fb982dc5f80cd126f30d814d24524ca5b381ee938",
+    "integrity": "Git blob verified"
+  },
+  {
+    "path": "upstream/toc_bench/scripts/step4b_sample_for_verification.py",
+    "source": "https://raw.githubusercontent.com/junzhe-c/toc_bench/e4a10bc1fd31ec1af9482bcfc827e41f2fac769a/scripts/step4b_sample_for_verification.py",
+    "resolved_url": "https://raw.githubusercontent.com/junzhe-c/toc_bench/e4a10bc1fd31ec1af9482bcfc827e41f2fac769a/scripts/step4b_sample_for_verification.py",
+    "bytes": 15692,
+    "sha256": "9be705a682e7ec39c7f50baaca250653f072eafb3b3364f55066e2e25e5bdc76",
+    "integrity": "Git blob verified"
+  },
+  {
+    "path": "upstream/toc_bench/scripts/step5a_export_for_humans.py",
+    "source": "https://raw.githubusercontent.com/junzhe-c/toc_bench/e4a10bc1fd31ec1af9482bcfc827e41f2fac769a/scripts/step5a_export_for_humans.py",
+    "resolved_url": "https://raw.githubusercontent.com/junzhe-c/toc_bench/e4a10bc1fd31ec1af9482bcfc827e41f2fac769a/scripts/step5a_export_for_humans.py",
+    "bytes": 26250,
+    "sha256": "d9726a4407dee619accc3c2c7e485a46ffc3db0ef823658ef0b3b401a42e1d6a",
+    "integrity": "Git blob verified"
+  },
+  {
+    "path": "logs/pypi_vllm.json",
+    "source": "https://pypi.org/pypi/vllm/json",
+    "resolved_url": "https://pypi.org/pypi/vllm/json",
+    "bytes": 261123,
+    "sha256": "b9f17ec6633e5eac2b94a59a459197854f61d9e38cf07e27ea32f65a9ea37d18",
+    "integrity": "Local SHA256 recorded; no independent digest"
+  },
+  {
+    "path": "logs/pypi_modelscope.json",
+    "source": "https://pypi.org/pypi/modelscope/json",
+    "resolved_url": "https://pypi.org/pypi/modelscope/json",
+    "bytes": 185153,
+    "sha256": "372b836167b47e114dfe2cde112808560335d4149d926863560f952c8ebd31a3",
+    "integrity": "Local SHA256 recorded; no independent digest"
+  },
+  {
+    "path": "logs/pypi_transformers.json",
+    "source": "https://pypi.org/pypi/transformers/json",
+    "resolved_url": "https://pypi.org/pypi/transformers/json",
+    "bytes": 425153,
+    "sha256": "ab0e486f539ee7bb2993b8ebddbedf3a6309eaee0504838cba6b775a15c8a32a",
+    "integrity": "Local SHA256 recorded; no independent digest"
+  },
+  {
+    "path": "logs/pypi_supervision.json",
+    "source": "https://pypi.org/pypi/supervision/json",
+    "resolved_url": "https://pypi.org/pypi/supervision/json",
+    "bytes": 200355,
+    "sha256": "9e295223945ddadd932c6f32bc050c4502da36072e8a9b13d15913a81254164d",
+    "integrity": "Local SHA256 recorded; no independent digest"
+  },
+  {
+    "path": "logs/qwen_modelscope_info.json",
+    "source": "https://modelscope.cn/api/v1/models/Qwen/Qwen2.5-VL-7B-Instruct/repo/files?Revision=master&Recursive=true",
+    "resolved_url": "https://modelscope.cn/api/v1/models/Qwen/Qwen2.5-VL-7B-Instruct/repo/files?Revision=master&Recursive=true",
+    "bytes": 6918,
+    "sha256": "f9f9f14f03cc179bfffaa258ca976158c674f9f7f94de492b2a2c4ff2b24b6ec",
+    "integrity": "Local SHA256 recorded; no independent digest"
+  },
+  {
+    "path": "logs/dino_hf_info.json",
+    "source": "https://huggingface.co/api/models/IDEA-Research/grounding-dino-base?blobs=true",
+    "resolved_url": "https://huggingface.co/api/models/IDEA-Research/grounding-dino-base?blobs=true",
+    "bytes": 5255,
+    "sha256": "9eef7d5ffff1d2967e1c0e679024bea4414eb70b98b36cf625cdc7ec0e314617",
+    "integrity": "Local SHA256 recorded; no independent digest"
+  },
+  {
+    "path": "logs/qwen_hf_info.json",
+    "source": "https://huggingface.co/api/models/Qwen/Qwen2.5-VL-7B-Instruct?blobs=true",
+    "resolved_url": "https://huggingface.co/api/models/Qwen/Qwen2.5-VL-7B-Instruct?blobs=true",
+    "bytes": 9308,
+    "sha256": "9aa08359a7d55e96230d27989e2b282bd0015b3d89c5e1fa2170a01e30636153",
+    "integrity": "Local SHA256 recorded; no independent digest"
+  }
+]

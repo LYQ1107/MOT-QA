@@ -1,0 +1,69 @@
+{
+  "locked_at": "2026-11-04T13:09:45.236249+08:00",
+  "purpose": "Verify trained adapter loading after repetition/truncation observed; no test examples and no parameter selection.",
+  "adapter_sha256": "3572c37f70ff0f1206aab7fa40aee6031826d303e6c60572685b27a869ac97ea",
+  "cases": [
+    {
+      "id": "synthetic_0000",
+      "system": "You are a careful video analyst. Answer the question about the video.",
+      "user": "[Tracking events] query=\"blue cup\"  video_length=7.6s  tracker_fps=5\nfirst appears at 3.6s at (0.41, 0.38)\ndisappears at 5.2s; last position (0.23, 0.79); within 0.05 of frame edge: no\nreappears at 6.2s at (0.85, 0.64)\nlast seen at 7.4s at (0.13, 0.21)\n\nQuestion: Before blue cup comes back into view, was it fully blocked or did it leave the frame?\nOptions:\nA. blue cup left the frame before coming back\nB. blue cup was fully blocked before coming back\n\nThink briefly, then give your final answer on the last line as \"Answer: X\", where X is A or B.",
+      "images": [],
+      "expected_final": "Answer: B",
+      "split": "synthetic training example for loading check only"
+    },
+    {
+      "id": "synthetic_1400",
+      "system": "You are a careful video analyst. Answer the question about the video.",
+      "user": "[Tracking events] query=\"white shoe\"  video_length=19.0s  tracker_fps=5\nfirst appears at 2.6s at (0.28, 0.40)\ndisappears at 6.8s; last position (0.12, 0.14); within 0.05 of frame edge: no\nreappears at 9.0s at (0.40, 0.62)\ndisappears at 11.4s; last position (0.66, 0.56); within 0.05 of frame edge: no\nreappears at 15.2s at (0.49, 0.62)\nlast seen at 18.8s at (0.45, 0.76)\n\nQuestion: How many times does the white shoe completely disappear in the video?\nOptions:\n\n\nThink briefly, then give your final answer on the last line as \"Answer: N\", where N is one of 2, 3, 4, or \"5 or more\".",
+      "images": [],
+      "expected_final": "Answer: 2",
+      "split": "synthetic training example for loading check only"
+    },
+    {
+      "id": "dev_13a41b8c6b50",
+      "system": "You are a careful video analyst. Answer the question about the video.",
+      "user": "The frames above were sampled at these times (seconds): 0.000, 0.934, 1.902, 2.870, 3.804, 4.771, 5.739, 6.673, 7.641, 8.609, 9.543, 10.511, 11.478, 12.412, 13.380, 14.348, 15.315, 16.250, 17.217, 18.185, 19.119, 20.087, 21.054, 21.989, 22.956, 23.924, 24.858, 25.826, 26.793, 27.728, 28.695, 29.663.\nAn object tracker was run on the full video at 5 fps. Its output is below.\nThe tracker sees every frame, while you only see 32 sampled frames, so use\nthe tracks as evidence about when objects appear, disappear and reappear.\nThe tracker can make mistakes (fragmented tracks, identity switches, false\ndetections); check the tracks against the frames when they conflict.\n\n[Tracking events] query=\"red fire extinguisher\"  video_length=30.6s  tracker_fps=5\nfirst appears at 3.8s at (0.48, 0.27)\ndisappears at 4.0s; last position (0.48, 0.27); within 0.05 of frame edge: no\nreappears at 5.2s at (0.24, 0.83)\nlast seen at 30.4s at (0.14, 0.79)\nNote: Representative native track IDs: 6; stitched using the frozen geometric rule.\nNote: 11 additional short, low-confidence, or lower-ranked tracks were omitted.\nQuestion: Before red fire extinguisher comes back into view, was it fully blocked or did it leave the frame?\nOptions:\nA. red fire extinguisher was fully blocked before coming back\nB. red fire extinguisher left the frame before coming back\n\nThink briefly, then give your final answer on the last line as \"Answer: X\", where X is A or B.",
+      "images": [
+        "/data2/user/toc_phase0/frames_cache/official32/charades_3L3LC/00.jpg",
+        "/data2/user/toc_phase0/frames_cache/official32/charades_3L3LC/01.jpg",
+        "/data2/user/toc_phase0/frames_cache/official32/charades_3L3LC/02.jpg",
+        "/data2/user/toc_phase0/frames_cache/official32/charades_3L3LC/03.jpg",
+        "/data2/user/toc_phase0/frames_cache/official32/charades_3L3LC/04.jpg",
+        "/data2/user/toc_phase0/frames_cache/official32/charades_3L3LC/05.jpg",
+        "/data2/user/toc_phase0/frames_cache/official32/charades_3L3LC/06.jpg",
+        "/data2/user/toc_phase0/frames_cache/official32/charades_3L3LC/07.jpg",
+        "/data2/user/toc_phase0/frames_cache/official32/charades_3L3LC/08.jpg",
+        "/data2/user/toc_phase0/frames_cache/official32/charades_3L3LC/09.jpg",
+        "/data2/user/toc_phase0/frames_cache/official32/charades_3L3LC/10.jpg",
+        "/data2/user/toc_phase0/frames_cache/official32/charades_3L3LC/11.jpg",
+        "/data2/user/toc_phase0/frames_cache/official32/charades_3L3LC/12.jpg",
+        "/data2/user/toc_phase0/frames_cache/official32/charades_3L3LC/13.jpg",
+        "/data2/user/toc_phase0/frames_cache/official32/charades_3L3LC/14.jpg",
+        "/data2/user/toc_phase0/frames_cache/official32/charades_3L3LC/15.jpg",
+        "/data2/user/toc_phase0/frames_cache/official32/charades_3L3LC/16.jpg",
+        "/data2/user/toc_phase0/frames_cache/official32/charades_3L3LC/17.jpg",
+        "/data2/user/toc_phase0/frames_cache/official32/charades_3L3LC/18.jpg",
+        "/data2/user/toc_phase0/frames_cache/official32/charades_3L3LC/19.jpg",
+        "/data2/user/toc_phase0/frames_cache/official32/charades_3L3LC/20.jpg",
+        "/data2/user/toc_phase0/frames_cache/official32/charades_3L3LC/21.jpg",
+        "/data2/user/toc_phase0/frames_cache/official32/charades_3L3LC/22.jpg",
+        "/data2/user/toc_phase0/frames_cache/official32/charades_3L3LC/23.jpg",
+        "/data2/user/toc_phase0/frames_cache/official32/charades_3L3LC/24.jpg",
+        "/data2/user/toc_phase0/frames_cache/official32/charades_3L3LC/25.jpg",
+        "/data2/user/toc_phase0/frames_cache/official32/charades_3L3LC/26.jpg",
+        "/data2/user/toc_phase0/frames_cache/official32/charades_3L3LC/27.jpg",
+        "/data2/user/toc_phase0/frames_cache/official32/charades_3L3LC/28.jpg",
+        "/data2/user/toc_phase0/frames_cache/official32/charades_3L3LC/29.jpg",
+        "/data2/user/toc_phase0/frames_cache/official32/charades_3L3LC/30.jpg",
+        "/data2/user/toc_phase0/frames_cache/official32/charades_3L3LC/31.jpg"
+      ],
+      "split": "development, no label passed to model"
+    }
+  ],
+  "max_tokens": 1024,
+  "seed": 42,
+  "temperature": 0,
+  "repetition_penalty": 1.05,
+  "main_predictions_changed": false,
+  "training_repeated": false
+}

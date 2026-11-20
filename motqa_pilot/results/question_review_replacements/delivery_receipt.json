@@ -1,0 +1,45 @@
+{
+  "created_at": "2026-11-05T22:52:13.929950+08:00",
+  "status": "USER_CHAT_APPROVED_ALL3_REPLACEMENTS",
+  "packet_id": "motqa_temporal_replacement3_58f30e0865ccca20",
+  "count": 3,
+  "replaces_indices": [
+    4,
+    5,
+    17
+  ],
+  "accepted17_unchanged": true,
+  "questions_sha256": "58f30e0865ccca20975e382ec4333bafcce0272419950829a6e25727754fa2ff",
+  "page": "/home/user/motqa_pilot/results/question_review_replacements/打开3题补审.html",
+  "zip": "/home/user/motqa_pilot/results/motqa_temporal_replacement_review_3_zh_v2.zip",
+  "zip_bytes": 12834080,
+  "zip_sha256": "4b5bc5a5d406f5ce5106f84e99e0585f3290b04532d1d2d77d0f805baceb938f",
+  "video_files": 6,
+  "export_filename": "question_review_replacement_result.json",
+  "new_model_calls": 0,
+  "new_tracker_runs": 0,
+  "full900_completed": false,
+  "validated_at": "2026-11-05T22:57:56.729962+08:00",
+  "browser_check": "/home/user/motqa_pilot/results/question_review_replacements/browser_check/browser_check_result.json",
+  "browser_check_status": "PASSED",
+  "raw_GT_answer_audit": "/home/user/motqa_pilot/results/question_review_replacements/raw_gt_answer_audit.json",
+  "original_GT_answers_verified": 3,
+  "actual_user_replacement_review_received": true,
+  "prior_human_review_counts": {
+    "pass": 17,
+    "uncertain": 3
+  },
+  "pending_replacement_design_count": 0,
+  "locked_config_and_visibility_unchanged": true,
+  "user_review_source_kind": "explicit_user_message",
+  "user_review_source": "/home/user/motqa_pilot/results/question_review_replacements/user_chat_approval.json",
+  "user_review_received_at": "2026-11-05T23:06:13.398218+08:00",
+  "replacement_review_counts": {
+    "pass": 3,
+    "fail": 0,
+    "uncertain": 0,
+    "pending": 0
+  },
+  "combined_accepted_design_count": 20,
+  "combined_accepted_design_file": "/home/user/motqa_pilot/data/question_review_user_passed_20.jsonl"
+}

@@ -1,0 +1,51 @@
+{
+  "created_at": "2026-11-02T10:06:01.174146+08:00",
+  "current_user_authorization": "User confirmed frozen v1 and explicitly authorized Stage4 main on 2026-11-02; historical false authorization snapshots remain unchanged.",
+  "project_root": "/data2/user/toc_phase0",
+  "conditions": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "total_questions": 749,
+  "numerical_questions": 300,
+  "main_test_questions": 602,
+  "main_test_trackable_questions": 251,
+  "checkpoint": "/data2/user/toc_phase0/models/Qwen2.5-VL-7B-Instruct",
+  "official_code_commit": "e4a10bc1fd31ec1af9482bcfc827e41f2fac769a",
+  "format": "Official build_prompt unchanged; same index/fps timestamps after images; evidence immediately before Question:. A empty, B v1, C omitted, D locked wrong timelines.",
+  "temperature": 0,
+  "seed": 42,
+  "normal_max_tokens": 64,
+  "ordering_max_tokens": 256,
+  "parser": "Official answer_extractor.extract, no fallback",
+  "scorer": "Official compute_metrics.is_correct; every expected QA required; invalid parses wrong",
+  "max_model_len": 65536,
+  "dtype": "bfloat16",
+  "tensor_parallel_size": 1,
+  "gpu_memory_utilization": 0.65,
+  "max_num_seqs": 8,
+  "max_num_batched_tokens": 32768,
+  "enforce_eager": true,
+  "generation_config": "auto (original checkpoint default repetition_penalty 1.05)",
+  "multimodal_limits": {
+    "image": {
+      "count": 32,
+      "width": 720,
+      "height": 720
+    },
+    "video": 0
+  },
+  "mm_processor_overrides": null,
+  "image_caching": "Reuse official original JPEG bytes, no resize or reencoding; verify image manifest before inference.",
+  "gpu_policy": "Two A800 instances; may share when memory fits, prefer fewer foreign processes. Numeric CUDA_VISIBLE_DEVICES and PCI_BUS_ID with UUID check. Never stop foreign jobs.",
+  "endpoint_shards": "Sorted all 749 qa_id alternating slots; same slot for that QA in every condition and decoding run.",
+  "request_concurrency_per_endpoint": 4,
+  "guided_choice_adapter": "vLLM0.16 structured_outputs.choice = [2,3,4,5 or more] strings; identical main messages, temperature, seed, token budget; numerical-only separate predictions.",
+  "run_order": "Main official A then B then C then D; compute routing with A immediately after A completion; all four guided numerical conditions afterward.",
+  "frozen_config_sha256": "7f0dbd16926026fa087ac4bb84fb1f3dce142ee903e5cf16c9e8eb1b7a62d93d",
+  "frozen_authorization_snapshot_note": "frozen_config_v1.stage_four_inference_authorized=false describes pre-approval history; file is immutable, current authorization is above.",
+  "supplemental_template_started": false,
+  "B2_started": false
+}

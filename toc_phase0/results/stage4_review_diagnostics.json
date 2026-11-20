@@ -1,0 +1,347 @@
+{
+  "reviewed_at": "2026-11-02T11:25:40.662564+08:00",
+  "no_new_inference": true,
+  "count_distributions": {
+    "test": {
+      "all_count": {
+        "total": 242,
+        "truth": {
+          "2": 107,
+          "3": 74,
+          "4": 27,
+          "5 or more": 34
+        },
+        "main": {
+          "A": {
+            "1": 53,
+            "2": 120,
+            "0": 56,
+            "3": 11,
+            "4": 1,
+            "5 or more": 1
+          },
+          "B": {
+            "2": 173,
+            "1": 19,
+            "5 or more": 20,
+            "3": 8,
+            "4": 3,
+            "0": 19
+          },
+          "C": {
+            "2": 133,
+            "0": 45,
+            "1": 46,
+            "3": 8,
+            "5 or more": 10
+          },
+          "D": {
+            "2": 168,
+            "1": 24,
+            "3": 14,
+            "5 or more": 17,
+            "0": 19
+          }
+        },
+        "guided": {
+          "A": {
+            "2": 225,
+            "3": 12,
+            "5 or more": 4,
+            "4": 1
+          },
+          "B": {
+            "2": 199,
+            "4": 4,
+            "5 or more": 31,
+            "3": 8
+          },
+          "C": {
+            "2": 217,
+            "3": 8,
+            "5 or more": 17
+          },
+          "D": {
+            "2": 200,
+            "3": 14,
+            "5 or more": 28
+          }
+        }
+      },
+      "trackable_count": {
+        "total": 81,
+        "truth": {
+          "3": 28,
+          "2": 32,
+          "4": 9,
+          "5 or more": 12
+        },
+        "main": {
+          "A": {
+            "1": 32,
+            "2": 33,
+            "3": 6,
+            "0": 9,
+            "4": 1
+          },
+          "B": {
+            "2": 53,
+            "1": 16,
+            "3": 5,
+            "0": 4,
+            "4": 2,
+            "5 or more": 1
+          },
+          "C": {
+            "1": 28,
+            "2": 38,
+            "3": 5,
+            "0": 8,
+            "5 or more": 2
+          },
+          "D": {
+            "2": 49,
+            "1": 19,
+            "3": 7,
+            "5 or more": 1,
+            "0": 5
+          }
+        },
+        "guided": {
+          "A": {
+            "2": 73,
+            "3": 7,
+            "4": 1
+          },
+          "B": {
+            "2": 72,
+            "4": 3,
+            "3": 5,
+            "5 or more": 1
+          },
+          "C": {
+            "2": 74,
+            "3": 5,
+            "5 or more": 2
+          },
+          "D": {
+            "2": 73,
+            "3": 7,
+            "5 or more": 1
+          }
+        }
+      }
+    },
+    "full": {
+      "all_count": {
+        "total": 300,
+        "truth": {
+          "2": 136,
+          "3": 87,
+          "4": 34,
+          "5 or more": 43
+        },
+        "main": {
+          "A": {
+            "1": 63,
+            "2": 146,
+            "0": 74,
+            "3": 14,
+            "4": 1,
+            "5 or more": 2
+          },
+          "B": {
+            "2": 212,
+            "3": 13,
+            "1": 24,
+            "5 or more": 28,
+            "4": 3,
+            "0": 20
+          },
+          "C": {
+            "5 or more": 12,
+            "2": 161,
+            "0": 62,
+            "1": 54,
+            "3": 10,
+            "4": 1
+          },
+          "D": {
+            "2": 214,
+            "1": 28,
+            "3": 16,
+            "5 or more": 19,
+            "0": 21,
+            "4": 2
+          }
+        },
+        "guided": {
+          "A": {
+            "2": 276,
+            "3": 15,
+            "5 or more": 8,
+            "4": 1
+          },
+          "B": {
+            "2": 243,
+            "3": 13,
+            "4": 4,
+            "5 or more": 40
+          },
+          "C": {
+            "5 or more": 20,
+            "2": 269,
+            "3": 10,
+            "4": 1
+          },
+          "D": {
+            "2": 250,
+            "3": 16,
+            "5 or more": 32,
+            "4": 2
+          }
+        }
+      },
+      "trackable_count": {
+        "total": 106,
+        "truth": {
+          "2": 48,
+          "3": 31,
+          "4": 12,
+          "5 or more": 15
+        },
+        "main": {
+          "A": {
+            "1": 40,
+            "2": 41,
+            "3": 9,
+            "0": 14,
+            "4": 1,
+            "5 or more": 1
+          },
+          "B": {
+            "2": 70,
+            "1": 21,
+            "3": 6,
+            "5 or more": 3,
+            "0": 4,
+            "4": 2
+          },
+          "C": {
+            "5 or more": 3,
+            "1": 35,
+            "2": 47,
+            "3": 7,
+            "0": 13,
+            "4": 1
+          },
+          "D": {
+            "2": 66,
+            "1": 23,
+            "3": 8,
+            "5 or more": 2,
+            "0": 6,
+            "4": 1
+          }
+        },
+        "guided": {
+          "A": {
+            "2": 93,
+            "3": 10,
+            "5 or more": 2,
+            "4": 1
+          },
+          "B": {
+            "2": 94,
+            "4": 3,
+            "3": 6,
+            "5 or more": 3
+          },
+          "C": {
+            "5 or more": 3,
+            "2": 95,
+            "3": 7,
+            "4": 1
+          },
+          "D": {
+            "2": 94,
+            "3": 8,
+            "5 or more": 3,
+            "4": 1
+          }
+        }
+      }
+    }
+  },
+  "D_control_question_counts": {
+    "full": {
+      "all": {
+        "questions": 749,
+        "all_blocks_unchanged": 23,
+        "any_block_unchanged": 36,
+        "any_temporal_permutation_fallback": 397,
+        "only_different_video_donors": 352
+      },
+      "trackable": {
+        "questions": 324,
+        "all_blocks_unchanged": 7,
+        "any_block_unchanged": 8,
+        "any_temporal_permutation_fallback": 159,
+        "only_different_video_donors": 165
+      }
+    },
+    "test": {
+      "all": {
+        "questions": 602,
+        "all_blocks_unchanged": 20,
+        "any_block_unchanged": 33,
+        "any_temporal_permutation_fallback": 322,
+        "only_different_video_donors": 280
+      },
+      "trackable": {
+        "questions": 251,
+        "all_blocks_unchanged": 5,
+        "any_block_unchanged": 6,
+        "any_temporal_permutation_fallback": 123,
+        "only_different_video_donors": 128
+      }
+    }
+  },
+  "stage2_vs_A_protocol_check": {
+    "visible_fields_equal_original_benchmark": 749,
+    "A_after_removing_only_timestamps_equals_saved_stage2_prompt": 749,
+    "image_cache": "Both runners use frames_cache/official32; Stage4 locked all JPEG hashes before inference.",
+    "allowed_differences": "Added common timestamps; server max_model_len32768 to65536 and memory budget. Other official sampling, prompts, parser, generation settings remain unchanged.",
+    "no_factor_isolation": "No new ablation was run, so the Stage2-to-A change cannot be attributed uniquely to timestamps.",
+    "stage2_count_raw_distribution": {
+      "0": 70,
+      "3": 5,
+      "1": 220,
+      "2": 2,
+      "6": 1,
+      "10": 1,
+      "4": 1
+    },
+    "A_count_raw_distribution": {
+      "0": 74,
+      "3": 14,
+      "2": 146,
+      "1": 63,
+      "5 or more": 2,
+      "4": 1
+    }
+  },
+  "preregistration_before_server_start": true,
+  "preinference_lock_at": "2026-11-02T10:06:01.178825+08:00",
+  "server_start_recorded_at": "2026-11-02T10:09:42.236455+08:00",
+  "raw_timestamp_semantics": "Per-prediction started_at was recorded when building the completed response record, not at request dispatch. latency_s uses monotonic request timing. Server runtime timestamp provides an earlier pre-request bound for preregistration audit.",
+  "known_server_and_engine_pids": [
+    156142,
+    156145,
+    156319,
+    156323
+  ],
+  "remaining_owned_server_or_engine_pids": [],
+  "http_or_inference_errors": 0,
+  "supplemental_template_started": false
+}

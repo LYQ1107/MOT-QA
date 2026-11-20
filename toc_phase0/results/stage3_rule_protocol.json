@@ -1,0 +1,26 @@
+{
+  "recorded_at": "2026-11-01T14:35:37.921888+08:00",
+  "metadata_or_answers_used_to_select_parameters": false,
+  "parameters": {
+    "gap_seconds": 0.5,
+    "edge_center_margin": 0.05,
+    "fragment_max_gap_seconds": 10.0,
+    "fragment_max_center_distance": 0.25,
+    "fragment_max_area_ratio": 3.0,
+    "event_tie_tolerance_seconds": 0.2,
+    "representative": "largest sum of confidence; greedily attach non-overlapping adjacent fragments by geometry",
+    "unsupported": [
+      "partly_hidden",
+      "changes_abruptly",
+      "other"
+    ],
+    "reid": "compare original MASA IDs before/after first observed query-visibility gap; no ID merging for identity decision"
+  },
+  "coverage_definition": "rule returns an answer; unsupported/unobserved events abstain; illegal numerical 0/1 remain covered but incorrect and illegal",
+  "report_denominators": [
+    "all scope items",
+    "covered items",
+    "pre-registered trackable subset"
+  ],
+  "numerical_legality": "canonical rule answer in {2,3,4,5 or more}; also report all-300 and covered-only denominators"
+}

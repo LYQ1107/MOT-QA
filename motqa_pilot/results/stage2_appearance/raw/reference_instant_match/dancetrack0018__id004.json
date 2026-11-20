@@ -1,0 +1,71 @@
+{
+  "unit_key": "dancetrack0018__id004",
+  "sequence": "dancetrack0018",
+  "gt_id": 4,
+  "phase": "reference_instant_match",
+  "started_at": "2026-11-04T14:13:47.734397+00:00",
+  "completed_at": "2026-11-04T14:13:52.674803+00:00",
+  "seconds": 4.940438617020845,
+  "prompt_text": "At this reference instant, match the following appearance phrase to ALL visible people: \"the person wearing a black bucket hat, a dark jacket with yellow accents, and dark pants with white sneakers\"\nThe first image is the full frame, with anonymous boxes and labels. The other image(s) are crops of EVERY GT-present person at this SAME instant. Read the central person in each crop; neighboring bodies may overlap. Labels are bookkeeping only. Do not use gallery order, location, pose, or box color as appearance attributes. Include ALL people satisfying the full appearance phrase in matches, and any plausible but obscured/unclear people in uncertain. A partly hidden target whose defining clothing cannot be seen is uncertain. No forced choice; none or several are valid outcomes. Omitted labels mean clear non-matches.\nReturn {\"matches\":[\"P01\"],\"uncertain\":[],\"reason\":\"brief visual explanation\"}. Valid labels: [\"P01\", \"P02\", \"P03\", \"P04\", \"P05\", \"P06\", \"P07\"].",
+  "image_paths": [
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/anchor_id004_f000376/full_frame.jpg",
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/anchor_id004_f000376/local_gallery_page00.jpg"
+  ],
+  "image_sha256": [
+    "f52d9fb907f7dcf2996acd9979f7a4b3d126f395f9d28fbb8d61e48c5beaaf22",
+    "271ff7e34d1883cbe7eeb6b4ef3c458a047eea72f93a1fe132704af69e0ab59c"
+  ],
+  "response": {
+    "id": "chatcmpl-88e237c897eccfe4",
+    "object": "chat.completion",
+    "created": 1793801627,
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"matches\":[\"P07\"],\"uncertain\":[],\"reason\":\"P07 is wearing a black bucket hat, a dark jacket with visible yellow accents on the shoulder, dark pants, and white sneakers. All elements of the appearance phrase are clearly visible. Other individuals either lack the bucket hat, do not have yellow accents on a dark jacket, or are partially obscured (e.g., P06) or do not match the full description.\"}",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 1491,
+      "total_tokens": 1582,
+      "completion_tokens": 91,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "check": {
+    "valid": true,
+    "parsed": {
+      "matches": [
+        "P07"
+      ],
+      "uncertain": [],
+      "reason": "P07 is wearing a black bucket hat, a dark jacket with visible yellow accents on the shoulder, dark pants, and white sneakers. All elements of the appearance phrase are clearly visible. Other individuals either lack the bucket hat, do not have yellow accents on a dark jacket, or are partially obscured (e.g., P06) or do not match the full description."
+    },
+    "matched_gt_ids": [
+      4
+    ],
+    "uncertain_gt_ids": [],
+    "passed": true,
+    "error": null
+  },
+  "inference_policy_sha256": "ea3ce06e83208db2fc1ed693ee2ac1b349f8ae344fcdc2cb0a22e30ef8df60e3"
+}

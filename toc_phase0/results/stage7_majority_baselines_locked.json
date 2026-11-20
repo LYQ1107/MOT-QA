@@ -1,0 +1,121 @@
+{
+  "created_at": "2026-11-04T17:02:55.924363+08:00",
+  "posthoc": true,
+  "selection_uses_development_labels_only": true,
+  "primary_policy": "Majority across all development questions in the dimension/format; semantic class for R/D and ReID, answer label/permutation for others; ties lexicographic. Apply to visible options only.",
+  "covered_policy": "Additional diagnostic only: select majority among covered development questions; N/A where none. No test-subset fitted majority is used for comparisons.",
+  "priors": {
+    "event_count/numerical": {
+      "n": 58,
+      "class_counts": {
+        "2": 29,
+        "4": 7,
+        "3": 13,
+        "5 or more": 9
+      },
+      "selected_class": "2",
+      "ties": "lexicographic class order"
+    },
+    "reappear_or_disappear/sp": {
+      "n": 33,
+      "class_counts": {
+        "leaves_frame": 9,
+        "fully_hidden": 24
+      },
+      "selected_class": "fully_hidden",
+      "ties": "lexicographic class order"
+    },
+    "cross_object_order/sp": {
+      "n": 37,
+      "class_counts": {
+        "B": 22,
+        "A": 15
+      },
+      "selected_class": "B",
+      "ties": "lexicographic class order"
+    },
+    "event_ordering/ordering_3": {
+      "n": 9,
+      "class_counts": {
+        "B,A,C": 2,
+        "B,C,A": 3,
+        "C,B,A": 1,
+        "A,B,C": 2,
+        "A,C,B": 1
+      },
+      "selected_class": "B,C,A",
+      "ties": "lexicographic class order"
+    },
+    "event_ordering/ordering_4": {
+      "n": 7,
+      "class_counts": {
+        "B,C,D,A": 1,
+        "C,D,B,A": 1,
+        "D,A,C,B": 1,
+        "A,B,C,D": 2,
+        "A,C,B,D": 1,
+        "C,A,B": 1
+      },
+      "selected_class": "A,B,C,D",
+      "ties": "lexicographic class order"
+    },
+    "reappear_identity/sp": {
+      "n": 3,
+      "class_counts": {
+        "same": 2,
+        "different": 1
+      },
+      "selected_class": "same",
+      "ties": "lexicographic class order"
+    }
+  },
+  "covered_development_priors": {
+    "event_count/numerical": {
+      "n": 25,
+      "class_counts": {
+        "2": 16,
+        "5 or more": 3,
+        "4": 3,
+        "3": 3
+      },
+      "selected_class": "2",
+      "ties": "lexicographic class order"
+    },
+    "reappear_or_disappear/sp": {
+      "n": 27,
+      "class_counts": {
+        "fully_hidden": 20,
+        "leaves_frame": 7
+      },
+      "selected_class": "fully_hidden",
+      "ties": "lexicographic class order"
+    },
+    "cross_object_order/sp": {
+      "n": 0,
+      "class_counts": {},
+      "selected_class": null,
+      "ties": "lexicographic class order"
+    },
+    "event_ordering/ordering_3": {
+      "n": 0,
+      "class_counts": {},
+      "selected_class": null,
+      "ties": "lexicographic class order"
+    },
+    "event_ordering/ordering_4": {
+      "n": 0,
+      "class_counts": {},
+      "selected_class": null,
+      "ties": "lexicographic class order"
+    },
+    "reappear_identity/sp": {
+      "n": 0,
+      "class_counts": {},
+      "selected_class": null,
+      "ties": "lexicographic class order"
+    }
+  },
+  "predictions_path": "/data2/user/toc_phase0/results/stage7/majority_blind_predictions.jsonl",
+  "predictions_sha256": "89efdfd55562b94649fed8671190c62101cd200f1c9481a394d17e91897915df",
+  "split_sha256": "e1d87675aca7e69d57a5ac99dc7ecdedaf8ca8c4efb1588bb86f42066fce80b3"
+}

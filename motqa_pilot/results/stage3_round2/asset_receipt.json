@@ -1,0 +1,8 @@
+{
+  "formal": 900,
+  "revised_examples": 20,
+  "seconds": 26.470905139110982,
+  "model_calls": "visual features only; no evaluated VLM, tracker or training",
+  "GPU_service_started": false,
+  "GPU_memory_released_on_process_exit": true
+}

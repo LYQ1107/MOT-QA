@@ -1,0 +1,69 @@
+{
+  "at": "2026-11-04T14:32:32.683460+00:00",
+  "videos": 25,
+  "IDs": 273,
+  "generation_outputs": 273,
+  "valid_phrases": 272,
+  "statuses": {
+    "global_ambiguous": 228,
+    "global_wrong_or_missing_match": 12,
+    "auto_pass": 25,
+    "local_ambiguous": 4,
+    "local_wrong_or_missing_match": 3,
+    "unusable_or_invalid_phrase": 1
+  },
+  "global_pass_IDs": 32,
+  "model_validated_point_references": 25,
+  "model_validated_IDs": 25,
+  "model_validated_videos": 9,
+  "old_annotation_unique_IDs": 21,
+  "old_annotation_unique_videos": 7,
+  "overlap_IDs": 10,
+  "newly_covered_IDs": 15,
+  "mixed_candidate_union_IDs": 36,
+  "mixed_candidate_union_videos": 10,
+  "still_uncovered_IDs": 237,
+  "warning": "Original annotation uniqueness and new same-model visual validation have different evidence strength; their union is not fully human-verified. Point references are not unique interval counts or independent QA counts.",
+  "raw_calls": 577,
+  "calls_by_phase": {
+    "generate": 273,
+    "blind_match": 272,
+    "reference_instant_match": 32
+  },
+  "finish_reasons": {
+    "stop": 577
+  },
+  "duplicate_phrase_groups": 21,
+  "contradictory_auto_unique_phrase_groups": 0,
+  "tokens": {
+    "prompt_tokens": 1079941,
+    "completion_tokens": 73576,
+    "total_tokens": 1153517
+  },
+  "prompt_tokens_max": 3507,
+  "request_seconds": {
+    "generate": {
+      "sum": 1899.57482510712,
+      "median": 6.872272385749966,
+      "p95": 9.264338871929795,
+      "max": 10.879444207064807
+    },
+    "blind_match": {
+      "sum": 2045.871036278084,
+      "median": 7.0971979384776205,
+      "p95": 13.548104835604317,
+      "max": 26.862904177978635
+    },
+    "reference_instant_match": {
+      "sum": 169.57272219844162,
+      "median": 4.805553462356329,
+      "p95": 8.86354833515361,
+      "max": 9.147936004213989
+    }
+  },
+  "phrase_words": {
+    "median": 18.0,
+    "max": 30
+  },
+  "total_retained_raw_images_sha256_verified": true
+}

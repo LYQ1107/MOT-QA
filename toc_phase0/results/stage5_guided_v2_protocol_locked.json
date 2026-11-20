@@ -1,0 +1,32 @@
+{
+  "locked_at": "2026-11-02T20:57:42.702900+08:00",
+  "version": "v2_optional_reasoning_prefix",
+  "role": "Technical correction of numerical guided diagnosis only; post-original-registration, separately reported.",
+  "intended_policy": "Preserve optional reasoning and constrain only final legal Answer;1024 total tokens.",
+  "old_regex": "[\\s\\S]*\\nAnswer: (2|3|4|5 or more)",
+  "corrected_regex": "(?:[\\s\\S]*\\n)?Answer: (2|3|4|5 or more)",
+  "reason": "Original regex rejected one-line Answer responses that the locked final-line parser accepts, unintentionally forcing an extra line before completion.",
+  "eos_fix": {
+    "bad_words": [
+      "<|endoftext|>"
+    ],
+    "fix_sha256": "bd43dffa117d19c9a5a2fb80c40ca91a450fca9ec3a65b9fb0ccdabd118781ab"
+  },
+  "unchanged": [
+    "frozen tracking v1",
+    "all evidence representations",
+    "all image bytes/timestamps",
+    "all raw main predictions",
+    "H6-H8 tests",
+    "final-answer parser",
+    "legal choices",
+    "temperature0",
+    "seed42",
+    "1024 token budget",
+    "all service flags"
+  ],
+  "rerun": "All6 reasoning conditions x300 numerical QA, not selected failures. Original1800 guided responses remain scored and archived separately.",
+  "preregistered_hypotheses_file_unchanged": "985f7f38eb040db9f5088a8715bee579dad2b6fd46a983018a3a5222566c0c84",
+  "cpu_regression": "All4 bare legal Answer values and reasoning+Answer accepted;0/1/2.0/9 rejected. xgrammar primary EOS allowed immediately after bare valid Answer.",
+  "expected_requests": 1800
+}

@@ -1,0 +1,3180 @@
+[
+  {
+    "path": "models/Qwen2.5-VL-7B-Instruct/.gitattributes",
+    "source": "https://modelscope.cn/api/v1/models/Qwen/Qwen2.5-VL-7B-Instruct/repo?Revision=78d6bca5309f4e513181315c9ad3e68db4243a73&FilePath=.gitattributes",
+    "bytes": 1519,
+    "sha256": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361",
+    "integrity": "Published SHA256 and size verified",
+    "kind": "model"
+  },
+  {
+    "path": "models/Qwen2.5-VL-7B-Instruct/README.md",
+    "source": "https://modelscope.cn/api/v1/models/Qwen/Qwen2.5-VL-7B-Instruct/repo?Revision=2c6d9ffdae64c6ad088923e3e61f649363488e5b&FilePath=README.md",
+    "bytes": 18574,
+    "sha256": "1fa65dbb08bc9ffe0b020409c8686f08b23008c5a68554353305fd2de6f2b81e",
+    "integrity": "Published SHA256 and size verified",
+    "kind": "model"
+  },
+  {
+    "path": "models/Qwen2.5-VL-7B-Instruct/chat_template.json",
+    "source": "https://modelscope.cn/api/v1/models/Qwen/Qwen2.5-VL-7B-Instruct/repo?Revision=c03ef5ea2cb88c1aaf8c1231f58dcd8b4a80374f&FilePath=chat_template.json",
+    "bytes": 1050,
+    "sha256": "ad60d90252ed0b0705ba14e2d0ad0fec0beac1ea955642b54059b36052d8bc96",
+    "integrity": "Published SHA256 and size verified",
+    "kind": "model"
+  },
+  {
+    "path": "models/Qwen2.5-VL-7B-Instruct/config.json",
+    "source": "https://modelscope.cn/api/v1/models/Qwen/Qwen2.5-VL-7B-Instruct/repo?Revision=c03ef5ea2cb88c1aaf8c1231f58dcd8b4a80374f&FilePath=config.json",
+    "bytes": 1374,
+    "sha256": "77d9ec7321cc572e3579e2c84799c9cadaded63c49ce93b101733349fc330c43",
+    "integrity": "Published SHA256 and size verified",
+    "kind": "model"
+  },
+  {
+    "path": "models/Qwen2.5-VL-7B-Instruct/configuration.json",
+    "source": "https://modelscope.cn/api/v1/models/Qwen/Qwen2.5-VL-7B-Instruct/repo?Revision=c03ef5ea2cb88c1aaf8c1231f58dcd8b4a80374f&FilePath=configuration.json",
+    "bytes": 78,
+    "sha256": "4d48781a5e83989d77ec96075741c402903a81ceffbb6a265e29caec3ea1ab6d",
+    "integrity": "Published SHA256 and size verified",
+    "kind": "model"
+  },
+  {
+    "path": "models/Qwen2.5-VL-7B-Instruct/generation_config.json",
+    "source": "https://modelscope.cn/api/v1/models/Qwen/Qwen2.5-VL-7B-Instruct/repo?Revision=595c93811c6f7b0cb81c5efdbcb7e6ca19f6566f&FilePath=generation_config.json",
+    "bytes": 216,
+    "sha256": "0a3aea82869fe29f20dc95ccf3e2bcff380eca1f5ad6447a4a4b37110b08e43e",
+    "integrity": "Published SHA256 and size verified",
+    "kind": "model"
+  },
+  {
+    "path": "models/Qwen2.5-VL-7B-Instruct/merges.txt",
+    "source": "https://modelscope.cn/api/v1/models/Qwen/Qwen2.5-VL-7B-Instruct/repo?Revision=c03ef5ea2cb88c1aaf8c1231f58dcd8b4a80374f&FilePath=merges.txt",
+    "bytes": 1671839,
+    "sha256": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3",
+    "integrity": "Published SHA256 and size verified",
+    "kind": "model"
+  },
+  {
+    "path": "models/Qwen2.5-VL-7B-Instruct/model-00001-of-00005.safetensors",
+    "source": "https://modelscope.cn/api/v1/models/Qwen/Qwen2.5-VL-7B-Instruct/repo?Revision=c03ef5ea2cb88c1aaf8c1231f58dcd8b4a80374f&FilePath=model-00001-of-00005.safetensors",
+    "bytes": 3900233256,
+    "sha256": "e97b877e47fde53a6c6e77aafb36e58e91ee9d95c4a3eeac6f1b5c0e6a1c986e",
+    "integrity": "Published SHA256 and size verified",
+    "kind": "model"
+  },
+  {
+    "path": "models/Qwen2.5-VL-7B-Instruct/model-00002-of-00005.safetensors",
+    "source": "https://modelscope.cn/api/v1/models/Qwen/Qwen2.5-VL-7B-Instruct/repo?Revision=c03ef5ea2cb88c1aaf8c1231f58dcd8b4a80374f&FilePath=model-00002-of-00005.safetensors",
+    "bytes": 3864726320,
+    "sha256": "a9a300a43b4724eee2abe7c18ceb26768d0ab011eb0cad19d9bfd2476a24d024",
+    "integrity": "Published SHA256 and size verified",
+    "kind": "model"
+  },
+  {
+    "path": "models/Qwen2.5-VL-7B-Instruct/model-00003-of-00005.safetensors",
+    "source": "https://modelscope.cn/api/v1/models/Qwen/Qwen2.5-VL-7B-Instruct/repo?Revision=c03ef5ea2cb88c1aaf8c1231f58dcd8b4a80374f&FilePath=model-00003-of-00005.safetensors",
+    "bytes": 3864726424,
+    "sha256": "111223d173e00bbee81cba1216fad28668df3476706b7fd26f4d5b50f8b3a507",
+    "integrity": "Published SHA256 and size verified",
+    "kind": "model"
+  },
+  {
+    "path": "models/Qwen2.5-VL-7B-Instruct/model-00004-of-00005.safetensors",
+    "source": "https://modelscope.cn/api/v1/models/Qwen/Qwen2.5-VL-7B-Instruct/repo?Revision=c03ef5ea2cb88c1aaf8c1231f58dcd8b4a80374f&FilePath=model-00004-of-00005.safetensors",
+    "bytes": 3864733680,
+    "sha256": "ef47f634fa57d46ee134edcc09f34085a47da1e16c12a2abe0d67118be6d72ed",
+    "integrity": "Published SHA256 and size verified",
+    "kind": "model"
+  },
+  {
+    "path": "models/Qwen2.5-VL-7B-Instruct/model-00005-of-00005.safetensors",
+    "source": "https://modelscope.cn/api/v1/models/Qwen/Qwen2.5-VL-7B-Instruct/repo?Revision=c03ef5ea2cb88c1aaf8c1231f58dcd8b4a80374f&FilePath=model-00005-of-00005.safetensors",
+    "bytes": 1089994880,
+    "sha256": "0c859795ad3a627a9b95bcb762e059d5b768a4a36fdd4affeff269d93fdecc67",
+    "integrity": "Published SHA256 and size verified",
+    "kind": "model"
+  },
+  {
+    "path": "models/Qwen2.5-VL-7B-Instruct/model.safetensors.index.json",
+    "source": "https://modelscope.cn/api/v1/models/Qwen/Qwen2.5-VL-7B-Instruct/repo?Revision=c03ef5ea2cb88c1aaf8c1231f58dcd8b4a80374f&FilePath=model.safetensors.index.json",
+    "bytes": 57619,
+    "sha256": "73b333b0b16e5286ddba615d2caebcd495cf7e616f52eb217a81781393d79de9",
+    "integrity": "Published SHA256 and size verified",
+    "kind": "model"
+  },
+  {
+    "path": "models/Qwen2.5-VL-7B-Instruct/preprocessor_config.json",
+    "source": "https://modelscope.cn/api/v1/models/Qwen/Qwen2.5-VL-7B-Instruct/repo?Revision=78d6bca5309f4e513181315c9ad3e68db4243a73&FilePath=preprocessor_config.json",
+    "bytes": 350,
+    "sha256": "f2058c716eef96ccaed1cc1e2d0c08306b62586d535b28d9d08e691b2fab7ca0",
+    "integrity": "Published SHA256 and size verified",
+    "kind": "model"
+  },
+  {
+    "path": "models/Qwen2.5-VL-7B-Instruct/tokenizer.json",
+    "source": "https://modelscope.cn/api/v1/models/Qwen/Qwen2.5-VL-7B-Instruct/repo?Revision=c03ef5ea2cb88c1aaf8c1231f58dcd8b4a80374f&FilePath=tokenizer.json",
+    "bytes": 7031645,
+    "sha256": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+    "integrity": "Published SHA256 and size verified",
+    "kind": "model"
+  },
+  {
+    "path": "models/Qwen2.5-VL-7B-Instruct/tokenizer_config.json",
+    "source": "https://modelscope.cn/api/v1/models/Qwen/Qwen2.5-VL-7B-Instruct/repo?Revision=643fa78f70fc5f7c445f6deedf27338629e464ea&FilePath=tokenizer_config.json",
+    "bytes": 5702,
+    "sha256": "4abd3520120e266da84c0864fee064d1fb10806f02225911a47253dd38dc5f56",
+    "integrity": "Published SHA256 and size verified",
+    "kind": "model"
+  },
+  {
+    "path": "models/Qwen2.5-VL-7B-Instruct/vocab.json",
+    "source": "https://modelscope.cn/api/v1/models/Qwen/Qwen2.5-VL-7B-Instruct/repo?Revision=c03ef5ea2cb88c1aaf8c1231f58dcd8b4a80374f&FilePath=vocab.json",
+    "bytes": 2776833,
+    "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+    "integrity": "Published SHA256 and size verified",
+    "kind": "model"
+  },
+  {
+    "path": "models/grounding-dino-base/README.md",
+    "source": "https://huggingface.co/IDEA-Research/grounding-dino-base/resolve/12bdfa3120f3e7ec7b434d90674b3396eccf88eb/README.md",
+    "bytes": 2580,
+    "sha256": "a0d03193076262a585dcb1edfe4b3b72fac678055008b688feb188cceb7f977d",
+    "integrity": "Published Git blob and size verified",
+    "kind": "model"
+  },
+  {
+    "path": "models/grounding-dino-base/config.json",
+    "source": "https://huggingface.co/IDEA-Research/grounding-dino-base/resolve/12bdfa3120f3e7ec7b434d90674b3396eccf88eb/config.json",
+    "bytes": 1737,
+    "sha256": "eda416dae6f49419ff831b1c190ec430a060b19aae688dbaf2425a075b650608",
+    "integrity": "Published Git blob and size verified",
+    "kind": "model"
+  },
+  {
+    "path": "models/grounding-dino-base/model.safetensors",
+    "source": "https://huggingface.co/IDEA-Research/grounding-dino-base/resolve/12bdfa3120f3e7ec7b434d90674b3396eccf88eb/model.safetensors",
+    "bytes": 933400872,
+    "sha256": "5548f844c928c4b6f411fa8cbcc2bfa8dbbba437cb1d513975519f93c2a9ed21",
+    "integrity": "Published SHA256 and size verified",
+    "kind": "model"
+  },
+  {
+    "path": "models/grounding-dino-base/preprocessor_config.json",
+    "source": "https://huggingface.co/IDEA-Research/grounding-dino-base/resolve/12bdfa3120f3e7ec7b434d90674b3396eccf88eb/preprocessor_config.json",
+    "bytes": 457,
+    "sha256": "8454179ba95e2ad22947835aad7b45862a601fc0055ab88bf1ee70892d3aea60",
+    "integrity": "Published Git blob and size verified",
+    "kind": "model"
+  },
+  {
+    "path": "models/grounding-dino-base/special_tokens_map.json",
+    "source": "https://huggingface.co/IDEA-Research/grounding-dino-base/resolve/12bdfa3120f3e7ec7b434d90674b3396eccf88eb/special_tokens_map.json",
+    "bytes": 125,
+    "sha256": "b6d346be366a7d1d48332dbc9fdf3bf8960b5d879522b7799ddba59e76237ee3",
+    "integrity": "Published Git blob and size verified",
+    "kind": "model"
+  },
+  {
+    "path": "models/grounding-dino-base/tokenizer.json",
+    "source": "https://huggingface.co/IDEA-Research/grounding-dino-base/resolve/12bdfa3120f3e7ec7b434d90674b3396eccf88eb/tokenizer.json",
+    "bytes": 711396,
+    "sha256": "d241a60d5e8f04cc1b2b3e9ef7a4921b27bf526d9f6050ab90f9267a1f9e5c66",
+    "integrity": "Published Git blob and size verified",
+    "kind": "model"
+  },
+  {
+    "path": "models/grounding-dino-base/tokenizer_config.json",
+    "source": "https://huggingface.co/IDEA-Research/grounding-dino-base/resolve/12bdfa3120f3e7ec7b434d90674b3396eccf88eb/tokenizer_config.json",
+    "bytes": 1237,
+    "sha256": "d40ab645b68211910b9170d22433d43186a6ec8ee6fd10ba170524b25bf4fb56",
+    "integrity": "Published Git blob and size verified",
+    "kind": "model"
+  },
+  {
+    "path": "models/grounding-dino-base/vocab.txt",
+    "source": "https://huggingface.co/IDEA-Research/grounding-dino-base/resolve/12bdfa3120f3e7ec7b434d90674b3396eccf88eb/vocab.txt",
+    "bytes": 231508,
+    "sha256": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+    "integrity": "Published Git blob and size verified",
+    "kind": "model"
+  },
+  {
+    "path": "cache/conda/_openmp_mutex-4.5-20_gnu.conda",
+    "source": "https://conda.anaconda.org/conda-forge/linux-64/_openmp_mutex-4.5-20_gnu.conda",
+    "bytes": 28948,
+    "sha256": "1dd3fffd892081df9726d7eb7e0dea6198962ba775bd88842135a4ddb4deb3c9",
+    "integrity": "Published SHA256 and size verified",
+    "kind": "conda"
+  },
+  {
+    "path": "cache/conda/bzip2-1.0.8-hda65f42_10.conda",
+    "source": "https://conda.anaconda.org/conda-forge/linux-64/bzip2-1.0.8-hda65f42_10.conda",
+    "bytes": 257808,
+    "sha256": "1a0d382c515ebf55f8ee1f38c8b81bc95af5c2acc42ad53b66bc5df932032f96",
+    "integrity": "Published SHA256 and size verified",
+    "kind": "conda"
+  },
+  {
+    "path": "cache/conda/ca-certificates-2026.10.23-hbd8a1cb_0.conda",
+    "source": "https://conda.anaconda.org/conda-forge/noarch/ca-certificates-2026.10.23-hbd8a1cb_0.conda",
+    "bytes": 130057,
+    "sha256": "95619b9c1184be7175392eeb0ee7eeb5ccf25d280951f4225f2d62e725790be3",
+    "integrity": "Published SHA256 and size verified",
+    "kind": "conda"
+  },
+  {
+    "path": "cache/conda/ld_impl_linux-64-2.46.1-default_hbd61a6d_103.conda",
+    "source": "https://conda.anaconda.org/conda-forge/linux-64/ld_impl_linux-64-2.46.1-default_hbd61a6d_103.conda",
+    "bytes": 742109,
+    "sha256": "901649b1edbe841fd4ee7e2d491a05184ed540eb01cdae506872f344babc1d28",
+    "integrity": "Published SHA256 and size verified",
+    "kind": "conda"
+  },
+  {
+    "path": "cache/conda/libexpat-2.9.0-hd2095e1_0.conda",
+    "source": "https://conda.anaconda.org/conda-forge/linux-64/libexpat-2.9.0-hd2095e1_0.conda",
+    "bytes": 78894,
+    "sha256": "7b930a8b6bc6553cb754b4977a11f9c862c719a652fc2d128d89270992ce8beb",
+    "integrity": "Published SHA256 and size verified",
+    "kind": "conda"
+  },
+  {
+    "path": "cache/conda/libffi-3.7.0-h81df57d_1.conda",
+    "source": "https://conda.anaconda.org/conda-forge/linux-64/libffi-3.7.0-h81df57d_1.conda",
+    "bytes": 68004,
+    "sha256": "c8c7583ef063bc3c430f1d48298e5ad24f796a35c22ed5b14183325825a61106",
+    "integrity": "Published SHA256 and size verified",
+    "kind": "conda"
+  },
+  {
+    "path": "cache/conda/libgcc-16.2.0-ha9f2e26_7.conda",
+    "source": "https://conda.anaconda.org/conda-forge/linux-64/libgcc-16.2.0-ha9f2e26_7.conda",
+    "bytes": 1058444,
+    "sha256": "e031634c3a928f9594eba868bc46ef5230d6571a364a0c63215b06c4563bfcea",
+    "integrity": "Published SHA256 and size verified",
+    "kind": "conda"
+  },
+  {
+    "path": "cache/conda/libgomp-16.2.0-he0feb66_7.conda",
+    "source": "https://conda.anaconda.org/conda-forge/linux-64/libgomp-16.2.0-he0feb66_7.conda",
+    "bytes": 640566,
+    "sha256": "92a0bb350c7be6a4eedcb4e111c60aefd176018e6b1c009a6e025dbe9bbcd758",
+    "integrity": "Published SHA256 and size verified",
+    "kind": "conda"
+  },
+  {
+    "path": "cache/conda/liblzma-5.8.3-hb03c661_1.conda",
+    "source": "https://conda.anaconda.org/conda-forge/linux-64/liblzma-5.8.3-hb03c661_1.conda",
+    "bytes": 112995,
+    "sha256": "9787df8c22a59c9a70d3e5a10db9ad663485e75e9ccc3f09bd092cb7b95e0dab",
+    "integrity": "Published SHA256 and size verified",
+    "kind": "conda"
+  },
+  {
+    "path": "cache/conda/libnsl-2.0.1-hb9d3cd8_1.conda",
+    "source": "https://conda.anaconda.org/conda-forge/linux-64/libnsl-2.0.1-hb9d3cd8_1.conda",
+    "bytes": 33731,
+    "sha256": "927fe72b054277cde6cb82597d0fcf6baf127dcbce2e0a9d8925a68f1265eef5",
+    "integrity": "Published SHA256 and size verified",
+    "kind": "conda"
+  },
+  {
+    "path": "cache/conda/libpython-3.11.18-ha57cdbe_0_cpython.conda",
+    "source": "https://conda.anaconda.org/conda-forge/linux-64/libpython-3.11.18-ha57cdbe_0_cpython.conda",
+    "bytes": 7818687,
+    "sha256": "4e478747ecc18101b2bfa2a168bd5368fe901aec66d594a03c1287a453f6bcc7",
+    "integrity": "Published SHA256 and size verified",
+    "kind": "conda"
+  },
+  {
+    "path": "cache/conda/libsqlite-3.54.1-h0737f62_101.conda",
+    "source": "https://conda.anaconda.org/conda-forge/linux-64/libsqlite-3.54.1-h0737f62_101.conda",
+    "bytes": 980491,
+    "sha256": "c294029f893d05286f1061bbab85b820f1eea73dd859af4bcc619197bcc34810",
+    "integrity": "Published SHA256 and size verified",
+    "kind": "conda"
+  },
+  {
+    "path": "cache/conda/libuuid-2.42.4-hcfc3c73_0.conda",
+    "source": "https://conda.anaconda.org/conda-forge/linux-64/libuuid-2.42.4-hcfc3c73_0.conda",
+    "bytes": 34442,
+    "sha256": "f34b8d1de9a2bf62476d8608057d9b8a918d97444236dc53a47128f2fae79041",
+    "integrity": "Published SHA256 and size verified",
+    "kind": "conda"
+  },
+  {
+    "path": "cache/conda/libxcrypt-4.4.38-h280c20c_0.conda",
+    "source": "https://conda.anaconda.org/conda-forge/linux-64/libxcrypt-4.4.38-h280c20c_0.conda",
+    "bytes": 101957,
+    "sha256": "f7e9292dd219a6435bbb1223da9586c3e70d66d169c5a92f08db3f2127df04e9",
+    "integrity": "Published SHA256 and size verified",
+    "kind": "conda"
+  },
+  {
+    "path": "cache/conda/libzlib-1.3.2-h25fd6f3_3.conda",
+    "source": "https://conda.anaconda.org/conda-forge/linux-64/libzlib-1.3.2-h25fd6f3_3.conda",
+    "bytes": 63713,
+    "sha256": "eb8a0db0aa570124f7d2a93d7c7f596e3390df5e047818d873baad32985fc736",
+    "integrity": "Published SHA256 and size verified",
+    "kind": "conda"
+  },
+  {
+    "path": "cache/conda/ncurses-6.6-hdb14827_1.conda",
+    "source": "https://conda.anaconda.org/conda-forge/linux-64/ncurses-6.6-hdb14827_1.conda",
+    "bytes": 911196,
+    "sha256": "5d46557214ed184381dafe835b7c94a474a1c3b307a08a250b1ea4779b44ffb3",
+    "integrity": "Published SHA256 and size verified",
+    "kind": "conda"
+  },
+  {
+    "path": "cache/conda/openssl-3.6.5-h781a0a9_0.conda",
+    "source": "https://conda.anaconda.org/conda-forge/linux-64/openssl-3.6.5-h781a0a9_0.conda",
+    "bytes": 3195299,
+    "sha256": "9c1533f1cf784f0e250919c0c9762d0b0e6bc727a79290ffb7cea1ceca1d038c",
+    "integrity": "Published SHA256 and size verified",
+    "kind": "conda"
+  },
+  {
+    "path": "cache/conda/packaging-26.3-pyhc364b38_0.conda",
+    "source": "https://conda.anaconda.org/conda-forge/noarch/packaging-26.3-pyhc364b38_0.conda",
+    "bytes": 116363,
+    "sha256": "c432626b16768b8dab228bfb706f7060c2d462a21c516d240f68f2f902b5a044",
+    "integrity": "Published SHA256 and size verified",
+    "kind": "conda"
+  },
+  {
+    "path": "cache/conda/pip-26.2.2-pyh8b19718_0.conda",
+    "source": "https://conda.anaconda.org/conda-forge/noarch/pip-26.2.2-pyh8b19718_0.conda",
+    "bytes": 1201888,
+    "sha256": "83babe5e3c4021b061275164a7c28bd62d183cc77b4c2260ae80f19fcb0a98dd",
+    "integrity": "Published SHA256 and size verified",
+    "kind": "conda"
+  },
+  {
+    "path": "cache/conda/python-3.11.18-h5f976f7_0_cpython.conda",
+    "source": "https://conda.anaconda.org/conda-forge/linux-64/python-3.11.18-h5f976f7_0_cpython.conda",
+    "bytes": 23340543,
+    "sha256": "eba8fa1b26f90800af3dfda1e1f7626282fe925bb4eeccd64a74f8c90ba32533",
+    "integrity": "Published SHA256 and size verified",
+    "kind": "conda"
+  },
+  {
+    "path": "cache/conda/readline-8.3-hd6e31c0_1.conda",
+    "source": "https://conda.anaconda.org/conda-forge/linux-64/readline-8.3-hd6e31c0_1.conda",
+    "bytes": 348899,
+    "sha256": "01b3fe073a66e321970d09e04b388708f8cbdca5cdfbfcb7c9eeb470ad10383d",
+    "integrity": "Published SHA256 and size verified",
+    "kind": "conda"
+  },
+  {
+    "path": "cache/conda/setuptools-84.2.1-pyhe730653_0.conda",
+    "source": "https://conda.anaconda.org/conda-forge/noarch/setuptools-84.2.1-pyhe730653_0.conda",
+    "bytes": 567436,
+    "sha256": "17add609d1a31c874e39a03935072be59bcafb06d42383eceabea746d12e6025",
+    "integrity": "Published SHA256 and size verified",
+    "kind": "conda"
+  },
+  {
+    "path": "cache/conda/tk-8.6.13-noxft_h1df4ec4_4.conda",
+    "source": "https://conda.anaconda.org/conda-forge/linux-64/tk-8.6.13-noxft_h1df4ec4_4.conda",
+    "bytes": 3566806,
+    "sha256": "a1a241d172c1ccab067ba245206dd048bc3c2d1b84504b53c9468e99adfc16a1",
+    "integrity": "Published SHA256 and size verified",
+    "kind": "conda"
+  },
+  {
+    "path": "cache/conda/tzdata-2026e-h5d301ff_0.conda",
+    "source": "https://conda.anaconda.org/conda-forge/noarch/tzdata-2026e-h5d301ff_0.conda",
+    "bytes": 119208,
+    "sha256": "2b7ca858879f183ce2dcc65b300f48a0133d5430550f35b23d80d405a0788dbf",
+    "integrity": "Published SHA256 and size verified",
+    "kind": "conda"
+  },
+  {
+    "path": "cache/conda/wheel-0.48.0-pyhd8ed1ab_0.conda",
+    "source": "https://conda.anaconda.org/conda-forge/noarch/wheel-0.48.0-pyhd8ed1ab_0.conda",
+    "bytes": 34528,
+    "sha256": "ba64b29b6d418024cb565081a1799262cb2780d2534ff4c14f76aa858c4286cd",
+    "integrity": "Published SHA256 and size verified",
+    "kind": "conda"
+  },
+  {
+    "path": "cache/conda/zstd-1.5.7-hb78ec9c_7.conda",
+    "source": "https://conda.anaconda.org/conda-forge/linux-64/zstd-1.5.7-hb78ec9c_7.conda",
+    "bytes": 601301,
+    "sha256": "47d682b9f6d6ec9eb1a6e6c3e75ea6273e899e78fb7fc59f81d39745009fbc60",
+    "integrity": "Published SHA256 and size verified",
+    "kind": "conda"
+  },
+  {
+    "path": "cache/pip/http-v2/1/6/9/0/1/1690192613958cfa8dbed1aca8d2e6b7ce25f78cc22e17345fd29c31.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/84/ce/44a5a999eb7116516a8d4a08ab9fe14df773f0da4b243ceffe76b0afe54a/vllm-0.16.0-cp38-abi3-manylinux_2_31_x86_64.whl",
+    "filename": "vllm-0.16.0-cp38-abi3-manylinux_2_31_x86_64.whl",
+    "bytes": 508337437,
+    "sha256": "f066b2a2f8597a4a3ada8fbbfd122b59086864b2260ca42dc81bf9fb57af0c42",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/d/c/4/4/6/dc4467615eeac210e21c86fef4ea835b4cde4fd44aafdc379d46aef7.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/03/b8/e484ef633af3887baeeb4b6ad12743363af7cce68ae51e938e00aaa0529d/transformers-4.57.6-py3-none-any.whl",
+    "filename": "transformers-4.57.6-py3-none-any.whl",
+    "bytes": 11993498,
+    "sha256": "4c9e9de11333ddfe5114bc872c9f370509198acf0b87a832a0ab9458e2bd0550",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/4/c/d/4/f/4cd4f60ed3a52ae74c13270a9579ecd353959fe99840a00076876cd0.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/cb/bd/1a875e0d592d447cbc02805fd3fe0f497714d6a2583f59d14fa9ebad96eb/huggingface_hub-0.36.0-py3-none-any.whl",
+    "filename": "huggingface_hub-0.36.0-py3-none-any.whl",
+    "bytes": 566094,
+    "sha256": "7bcc9ad17d5b3f07b57c78e79d527102d08313caa278a641993acddcb894548d",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/8/4/7/5/5/847556818f70762ac1a463409a1b93b64b32103a632d1e388052fd04.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/56/be/76eaa36c9cd032d3b01b001e2c5a05943df75f26211f68fae79e62f87734/torch-2.9.1-cp311-cp311-manylinux_2_28_x86_64.whl",
+    "filename": "torch-2.9.1-cp311-cp311-manylinux_2_28_x86_64.whl",
+    "bytes": 899821446,
+    "sha256": "d033ff0ac3f5400df862a51bdde9bad83561f3739ea0046e68f5401ebfa67c1b",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/4/3/0/f/1/430f1921f128be2fe0441b7669e6c8db458208139269070102d17785.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/11/c9/1dfc3db98797b326f1d0c3f3bb61c83b167a813fc7eab6fcd2edb8c7eb9d/torchvision-0.24.1-cp311-cp311-manylinux_2_28_x86_64.whl",
+    "filename": "torchvision-0.24.1-cp311-cp311-manylinux_2_28_x86_64.whl",
+    "bytes": 8047682,
+    "sha256": "a0f106663e60332aa4fcb1ca2159ef8c3f2ed266b0e6df88de261048a840e0df",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/6/e/a/9/0/6ea90f0178b9230d55fc644852380696a242752a2a0484ce1e6c34f6.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/cb/6f/d8f1f36c9f63ddef78f00f8f8ddb9638128ceb5f6824c28bead5af48fc63/torchaudio-2.9.1-cp311-cp311-manylinux_2_28_x86_64.whl",
+    "filename": "torchaudio-2.9.1-cp311-cp311-manylinux_2_28_x86_64.whl",
+    "bytes": 2058677,
+    "sha256": "8327e21f51dced2b6de3ac6a63f04bae9be9bc213e151f85c76164568c7ebc3d",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/f/e/d/8/4/fed8440ee2b3ddf0900636ebcaf4294e519fcce4b985b53c594abffe.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/b9/8a/e85b79ee1c541f7bbf208fd7a6185c9b11e50c192b1071b0750db26b09e9/modelscope-1.40.2-py3-none-any.whl",
+    "filename": "modelscope-1.40.2-py3-none-any.whl",
+    "bytes": 6062299,
+    "sha256": "ea03e0ec4a73398a488d3d240cda4f0c5b62390377a134756d4074a3036cb909",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/4/2/3/d/5/423d53df6758c1af5da40c3564b22cbf4959fb34e8fa513804b83535.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/f9/57/8c53abf4b9664544f71f23dd7b0c6788a47f72a2f799e545b190f5f5057f/supervision-0.26.1-py3-none-any.whl",
+    "filename": "supervision-0.26.1-py3-none-any.whl",
+    "bytes": 207171,
+    "sha256": "43c55e2830f38f5750be7266208992dc16996da9c9478e067bc2617ebaf91c1a",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/7/6/b/2/7/76b27e349fb00452582b2dd54c4c6302c1f7640f0a4f4f2f5df0795a.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/1a/31/fc62b9fe8738d2693e18d99f040b219e26e8df894c10d065f27c6b4f07e3/av-16.1.0-cp311-cp311-manylinux_2_28_x86_64.whl",
+    "filename": "av-16.1.0-cp311-cp311-manylinux_2_28_x86_64.whl",
+    "bytes": 40846822,
+    "sha256": "c7f2bc703d0df260a1fdf4de4253c7f5500ca9fc57772ea241b0cb241bcf972e",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/c/f/6/3/e/cf63e7bfc83ed88f582ddee7f7c58551592118bde0e1589ef2b03724.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/bf/c9/63f8d545568d9ab91476b1818b4741f521646cbdd151c6efebf40d6de6f7/pandas-2.3.3-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl",
+    "filename": "pandas-2.3.3-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl",
+    "bytes": 12789281,
+    "sha256": "b98560e98cb334799c0b07ca7967ac361a47326e9b4e5a7dfb5ab2b1c9d35a1b",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/8/7/0/1/d/8701d12994369afc5bda50addc0978e710a34f39d3eb29a4b195b4bb.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/b3/dd/2238b898e51bd6d389b7389ffb20d7f4c10066d80351187ec8e303a5a475/numpy-2.2.6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+    "filename": "numpy-2.2.6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+    "bytes": 16821570,
+    "sha256": "ba10f8411898fc418a521833e014a77d3ca01c15b0c6cdcce6a0d2897e6dbbdf",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/c/3/0/f/3/c30f344efb52dd67d40638f7c5289670bff1f9032de12bc7bef05b4e.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/a3/dc/17031897dae0efacfea57dfd3a82fdd2a2aeb58e0ff71b77b87e44edc772/setuptools-80.9.0-py3-none-any.whl",
+    "filename": "setuptools-80.9.0-py3-none-any.whl",
+    "bytes": 1201486,
+    "sha256": "062d34222ad13e0cc312a4c02d73f059e86a4acbfbdea8f8f76b28c99f306922",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/d/a/9/f/a/da9fa9726b8cd404387e6f6fe976c39c26f556e6bd4fa746fa1574fa.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/9f/d2/c581486aa6c4fbd7394c23c47b83fa1a919d34194e16944241daf9e762dd/accelerate-1.12.0-py3-none-any.whl",
+    "filename": "accelerate-1.12.0-py3-none-any.whl",
+    "bytes": 380935,
+    "sha256": "3e2091cd341423207e2f084a6654b1efcd250dc326f2a37d6dde446e07cabb11",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/6/6/a/8/d/66a8d96353089c1aeaa76ca4864de2ffa4443b249be516a54ba5a20d.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/c4/43/80f67e0336cb2fc725f8e06f7fe35c1d0fe946f4d2b8b2175e797e07349e/qwen_vl_utils-0.0.14-py3-none-any.whl",
+    "filename": "qwen_vl_utils-0.0.14-py3-none-any.whl",
+    "bytes": 8120,
+    "sha256": "5e28657bfd031e56bd447c5901b58ddfc3835285ed100f4c56580e0ade054e96",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/e/7/6/c/0/e76c098471995613a1b6f7a847ffada74f941d5e48aeb7c5be1b776f.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/0b/b5/61ac2563c62490922b603c09113a083fd74af3630ec3931e769484d6dcb5/compressed_tensors-0.13.0-py3-none-any.whl",
+    "filename": "compressed_tensors-0.13.0-py3-none-any.whl",
+    "bytes": 192620,
+    "sha256": "3518799c9baf034eb642efb551db6b0537b8713d45a64fe4def26f7f8d6cabec",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/3/b/5/6/f/3b56fc83e329e41fcef90e37702358635de54079e3e6a6c1d6ce011e.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/cf/65/4df6936130b56e1429114e663e7c1576cf845f3aef1b2dd200c0a5d19dba/depyf-0.20.0-py3-none-any.whl",
+    "filename": "depyf-0.20.0-py3-none-any.whl",
+    "bytes": 39381,
+    "sha256": "d31effad4261cebecb58955d832e448ace88f432328f95f82fd99c30fd9308d4",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/1/6/6/b/f/166bf09485263e70ba9cba912180bd7adba91947e0ae28b7a8530ded.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/3f/27/4570e78fc0bf5ea0ca45eb1de3818a23787af9b390c0b0a0033a1b8236f9/diskcache-5.6.3-py3-none-any.whl",
+    "filename": "diskcache-5.6.3-py3-none-any.whl",
+    "bytes": 45550,
+    "sha256": "5e31b2d5fbad117cc363ebaf6b689474db18a1f6438bc82358b024abd4c2ca19",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/7/1/0/e/d/710eda715e34ae2f4e0affb0ef8f031af4fe4c2e894da100c2ab2f45.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/33/13/2d95248101d8cb978db9000a4dceafb5b122484a694b53e84df1ac2a7b3d/flashinfer_python-0.6.3-py3-none-any.whl",
+    "filename": "flashinfer_python-0.6.3-py3-none-any.whl",
+    "bytes": 7636254,
+    "sha256": "0fe2de934a4b3690c543dafb03f38d7bb4a762431abe8ae4f7292d6fef10c65d",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/4/3/1/9/d/4319d03cf2df0e9eec48bd76bf1d7ed05f7c396f7ba13e88f8a425a6.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/2d/00/d90b10b962b4277f5e64a78b6609968859ff86889f5b898c1a778c06ec00/lark-1.2.2-py3-none-any.whl",
+    "filename": "lark-1.2.2-py3-none-any.whl",
+    "bytes": 111036,
+    "sha256": "c2276486b02f0f1b90be155f2c8ba4a8e194d42775786db622faccd652d8e80c",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/3/3/5/1/b/3351b88f6b916a600c1740035e0808c79bd2650ca1aec13cff062a57.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/a0/ef/11292bb0b85cf4c93447cab5a29f64576ed14d3ab4280e35ddd23486594a/lm_format_enforcer-0.11.3-py3-none-any.whl",
+    "filename": "lm_format_enforcer-0.11.3-py3-none-any.whl",
+    "bytes": 45418,
+    "sha256": "cf586350875def1ae7a8fba84fcbbfc8371424b6c9d05c1fcba70aa233fbf06f",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/d/7/d/e/5/d7de558614d2f9a07d7a981945589d884881752bd5db38c53fbeecf2.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/97/c8/8740616c8436c86c1b9a62e72cb891177d2c34c2d24ddcde4c390371bf4c/numba-0.61.2-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+    "filename": "numba-0.61.2-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+    "bytes": 3829227,
+    "sha256": "3945615cd73c2c7eba2a85ccc9c1730c21cd3958bfcf5a44302abae0fb07bb60",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/9/8/6/3/9/986398c81b0ed93d231b5d920a00baa3f23345c7d1aa05634d03135f.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/dc/61/e24b560ab2e2eaeb3c839129175fb330dfcfc29e5203196e5541a4c44682/nvidia_cublas_cu12-12.8.4.1-py3-none-manylinux_2_27_x86_64.whl",
+    "filename": "nvidia_cublas_cu12-12.8.4.1-py3-none-manylinux_2_27_x86_64.whl",
+    "bytes": 594346921,
+    "sha256": "8ac4e771d5a348c551b2a426eda6193c19aa630236b418086020df5ba9667142",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/7/2/f/7/9/72f79b38c8f14c1237776cd1e73cd091e0c9b902ec5abf4a64adef82.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/f8/02/2adcaa145158bf1a8295d83591d22e4103dbfd821bcaf6f3f53151ca4ffa/nvidia_cuda_cupti_cu12-12.8.90-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+    "filename": "nvidia_cuda_cupti_cu12-12.8.90-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+    "bytes": 10248621,
+    "sha256": "ea0cb07ebda26bb9b29ba82cda34849e73c166c18162d3913575b0c9db9a6182",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/4/2/2/8/9/42289020419795e8618d2a125681a4eda0deed8a57cefdb8c3638eb9.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/05/6b/32f747947df2da6994e999492ab306a903659555dddc0fbdeb9d71f75e52/nvidia_cuda_nvrtc_cu12-12.8.93-py3-none-manylinux2010_x86_64.manylinux_2_12_x86_64.whl",
+    "filename": "nvidia_cuda_nvrtc_cu12-12.8.93-py3-none-manylinux2010_x86_64.manylinux_2_12_x86_64.whl",
+    "bytes": 88040029,
+    "sha256": "a7756528852ef889772a84c6cd89d41dfa74667e24cca16bb31f8f061e3e9994",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/3/6/9/9/b/3699b4fcf131cb11aa85b2a93f971ff8cf097be9a3f281b02da59753.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/0d/9b/a997b638fcd068ad6e4d53b8551a7d30fe8b404d6f1804abf1df69838932/nvidia_cuda_runtime_cu12-12.8.90-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+    "filename": "nvidia_cuda_runtime_cu12-12.8.90-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+    "bytes": 954765,
+    "sha256": "adade8dcbd0edf427b7204d480d6066d33902cab2a4707dcfc48a2d0fd44ab90",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/b/a/7/3/9/ba7396e2ae874289d8915a4cb62b7db38ee67887f247b6bb4dbc7366.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/ba/51/e123d997aa098c61d029f76663dedbfb9bc8dcf8c60cbd6adbe42f76d049/nvidia_cudnn_cu12-9.10.2.21-py3-none-manylinux_2_27_x86_64.whl",
+    "filename": "nvidia_cudnn_cu12-9.10.2.21-py3-none-manylinux_2_27_x86_64.whl",
+    "bytes": 706758467,
+    "sha256": "949452be657fa16687d0930933f032835951ef0892b37d2d53824d1a84dc97a8",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/2/5/d/4/4/25d4477ec405e0bb5587e659fdb39808000e7d2d2840ca8a73bb1042.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/1f/13/ee4e00f30e676b66ae65b4f08cb5bcbb8392c03f54f2d5413ea99a5d1c80/nvidia_cufft_cu12-11.3.3.83-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+    "filename": "nvidia_cufft_cu12-11.3.3.83-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+    "bytes": 193118695,
+    "sha256": "4d2dd21ec0b88cf61b62e6b43564355e5222e4a3fb394cac0db101f2dd0d4f74",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/4/7/b/a/2/47ba203b4e7fb1ab368947c52ead4b6765d64796326dd8be9568107e.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/bb/fe/1bcba1dfbfb8d01be8d93f07bfc502c93fa23afa6fd5ab3fc7c1df71038a/nvidia_cufile_cu12-1.13.1.3-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+    "filename": "nvidia_cufile_cu12-1.13.1.3-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+    "bytes": 1197834,
+    "sha256": "1d069003be650e131b21c932ec3d8969c1715379251f8d23a1860554b1cb24fc",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/1/7/b/0/7/17b07e322c3e29ff0402ebe034ba9d0c945e54351116f9c9a27e79b2.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/fb/aa/6584b56dc84ebe9cf93226a5cde4d99080c8e90ab40f0c27bda7a0f29aa1/nvidia_curand_cu12-10.3.9.90-py3-none-manylinux_2_27_x86_64.whl",
+    "filename": "nvidia_curand_cu12-10.3.9.90-py3-none-manylinux_2_27_x86_64.whl",
+    "bytes": 63619976,
+    "sha256": "b32331d4f4df5d6eefa0554c565b626c7216f87a06a4f56fab27c3b68a830ec9",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/2/3/1/0/c/2310c4d28bc2d7dda42a033f1dc9bd3bcdb2a87bf29cca6016893e9e.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/85/48/9a13d2975803e8cf2777d5ed57b87a0b6ca2cc795f9a4f59796a910bfb80/nvidia_cusolver_cu12-11.7.3.90-py3-none-manylinux_2_27_x86_64.whl",
+    "filename": "nvidia_cusolver_cu12-11.7.3.90-py3-none-manylinux_2_27_x86_64.whl",
+    "bytes": 267506905,
+    "sha256": "4376c11ad263152bd50ea295c05370360776f8c3427b30991df774f9fb26c450",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/6/e/5/0/4/6e50418e81c8448884d60a4a62ba96609404a432a62dff9cd97eb14b.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/c2/f5/e1854cb2f2bcd4280c44736c93550cc300ff4b8c95ebe370d0aa7d2b473d/nvidia_cusparse_cu12-12.5.8.93-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+    "filename": "nvidia_cusparse_cu12-12.5.8.93-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+    "bytes": 288216466,
+    "sha256": "1ec05d76bbbd8b61b06a80e1eaf8cf4959c3d4ce8e711b65ebd0443bb0ebb13b",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/d/7/e/1/6/d7e1637c63e4cc2d61bcea2eeb4e029c0cdfabebcadc068a9e6b7f40.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/56/79/12978b96bd44274fe38b5dde5cfb660b1d114f70a65ef962bcbbed99b549/nvidia_cusparselt_cu12-0.7.1-py3-none-manylinux2014_x86_64.whl",
+    "filename": "nvidia_cusparselt_cu12-0.7.1-py3-none-manylinux2014_x86_64.whl",
+    "bytes": 287193691,
+    "sha256": "f1bb701d6b930d5a7cea44c19ceb973311500847f81b634d802b7b539dc55623",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/a/9/0/1/5/a901564f8de91f321c4a0922ef90ce37d67cc7a4127404e415ba1082.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/6e/89/f7a07dc961b60645dbbf42e80f2bc85ade7feb9a491b11a1e973aa00071f/nvidia_nccl_cu12-2.27.5-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+    "filename": "nvidia_nccl_cu12-2.27.5-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+    "bytes": 322348229,
+    "sha256": "ad730cf15cb5d25fe849c6e6ca9eb5b76db16a80f13f425ac68d8e2e55624457",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/c/1/6/c/2/c16c2fd85f32ee05f0e312e5966629ae5575fd1cf2999bfa865ae20b.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/f6/74/86a07f1d0f42998ca31312f998bd3b9a7eff7f52378f4f270c8679c77fb9/nvidia_nvjitlink_cu12-12.8.93-py3-none-manylinux2010_x86_64.manylinux_2_12_x86_64.whl",
+    "filename": "nvidia_nvjitlink_cu12-12.8.93-py3-none-manylinux2010_x86_64.manylinux_2_12_x86_64.whl",
+    "bytes": 39254836,
+    "sha256": "81ff63371a7ebd6e6451970684f916be2eab07321b73c9d244dc2b4da7f73b88",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/5/6/c/2/5/56c25b0cc23401ff62e5e1356ee4f68938f5e3fa230b4a2bfce2c4c7.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/3b/6c/99acb2f9eb85c29fc6f3a7ac4dccfd992e22666dd08a642b303311326a97/nvidia_nvshmem_cu12-3.3.20-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+    "filename": "nvidia_nvshmem_cu12-3.3.20-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+    "bytes": 124657145,
+    "sha256": "d00f26d3f9b2e3c3065be895e3059d6479ea5c638a3f38c9fec49b1b9dd7c1e5",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/f/6/e/3/6/f6e361b32f4bd83bfa3863a3b33bbcc66e34d00924d9e6ba9ca68728.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/a2/eb/86626c1bbc2edb86323022371c39aa48df6fd8b0a1647bc274577f72e90b/nvidia_nvtx_cu12-12.8.90-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+    "filename": "nvidia_nvtx_cu12-12.8.90-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+    "bytes": 89954,
+    "sha256": "5b17e2001cc0d751a5bc2c6ec6d26ad95913324a4adb86788c944f8ce9ba441f",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/2/1/c/3/0/21c3002fa2c72697737c64e1526b0c54cf79a459a97c8f07aacc271b.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/4c/db/32c6e1170f139420e948fdd18a09a6175244bc0760dcf4dc2470e18411b9/outlines_core-0.2.11-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+    "filename": "outlines_core-0.2.11-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+    "bytes": 2289078,
+    "sha256": "132605b8dd1e3d1369da6a851992dd357f6376068292f6bd47caa7a28b794d19",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/9/c/a/9/6/9ca9625006d31297180a8a43f2f93ea0c481fcb6dac6eaf5e8474374.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/b0/72/ec90c3519eaf168f22cb1757ad412f3a2add4782ad3a92861c9ad135d886/triton-3.5.1-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+    "filename": "triton-3.5.1-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+    "bytes": 170425802,
+    "sha256": "61413522a48add32302353fdbaaf92daaaab06f6b5e3229940d21b5207f47579",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/1/9/a/3/c/19a3c7b8790f21b8f1e97eea585b376f6d320b928892736d6fa5e9ca.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/a3/a0/4ebc1b3f5af79a3f73d0566034758f3fbcd9c64174646314a9a6f7cc1d27/xgrammar-0.1.29-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+    "filename": "xgrammar-0.1.29-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+    "bytes": 34903461,
+    "sha256": "e27b50cf8c565845295a8263a4a0790c00a7c1fd783e76222fc0f575654d6f56",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/5/e/f/2/8/5ef28c025df7b1f26a15bd38e28d3dfb9e5757292ecd88c865bfe1c0.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/d9/a5/a123483862e34e6b4dbc9f793f3bc780eb69ebcdf3d726b055af2d6e2b07/apache_tvm_ffi-0.1.15.post2-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl",
+    "filename": "apache_tvm_ffi-0.1.15.post2-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl",
+    "bytes": 3347285,
+    "sha256": "8ecebe749834f6ac0f2693d5964acf9ac75d0bc26e6ba64c46eb7ab00ea50fac",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/5/d/d/3/3/5dd334e9d1d84cc2ec338c7ff2b9bb83f13cdedc37b20f39d99691c0.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/f8/1e/1e8ecc05ef034e9a95c18ed32d2ec07905a7cd2ca611a9d88e25ee1f4850/hf_xet-1.8.0-cp38-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+    "filename": "hf_xet-1.8.0-cp38-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+    "bytes": 4292483,
+    "sha256": "29dab7c904cd1914a0439c6e1306c12c7497c8bd32290fbe563ebf51ca4b6d6d",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/e/f/b/8/0/efb803693ee802745707a9d2db73060d72ad460cdfb3cfe4989568b3.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/83/a8/1ff2bedb8f9acb46a2d2d603415d272bb622c142ea86f5b95445cc6e366c/llguidance-1.3.0-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+    "filename": "llguidance-1.3.0-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+    "bytes": 3033133,
+    "sha256": "bc17e9dd602c3879bf91664a64bf72f54c74dbfbeb24ccfab6a5fe435b12f7aa",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/d/f/3/6/b/df36bc865dc29e21b37e9f2c0b5beba88d9ba28e4ddecef23ff262ab.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/99/fe/d030f1849ebb1f394bb3f7adad5e729b634fb100515594aca25c354ffc62/llvmlite-0.44.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+    "filename": "llvmlite-0.44.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+    "bytes": 42361858,
+    "sha256": "c5d22c3bfc842668168a786af4205ec8e3ad29fb1bc03fd11fd48460d0df64c1",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/c/3/2/e/1/c32e1ab03e4af23178e50bf304bc0bea67bd585899dff4e72d777657.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/07/ef/6eabeb251d2a0598cb5f9a274159e05ae07a1e3fe6a1473bf6035793252a/model_hosting_container_standards-0.1.16-py3-none-any.whl",
+    "filename": "model_hosting_container_standards-0.1.16-py3-none-any.whl",
+    "bytes": 125666,
+    "sha256": "47f4f65713120bc3a69feb022981a38db9e557aedf88dbd72077f20588caa12b",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/d/4/b/d/a/d4bda87d9d44b50df333347108564135dd1cb28999598d9721bc5cd1.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/2e/76/932be4b50ef6ccedf9d3c6639b056a967a86258c6d9200643f01269211ca/tokenizers-0.22.2-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+    "filename": "tokenizers-0.22.2-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+    "bytes": 3274982,
+    "sha256": "369cc9fc8cc10cb24143873a0d95438bb8ee257bb80c71989e3ee290e8d72c67",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/0/b/5/9/a/0b59ac4840fd75e9d81523bd8f6d9730034379938402b8eed187403e.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/42/74/2a2b22953de15c6c8a80debf26db3047e4e8a5a5db6dd7c2c6c01eec0605/aiohttp-3.14.5-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+    "filename": "aiohttp-3.14.5-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+    "bytes": 1929915,
+    "sha256": "50a195903119008fe9cc68710535eb37f556ffffd6a7759afe70a2c145587045",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/b/1/8/e/c/b18ec9dc965a8bcfa2286b0d205a2f6587a857671a8d6a5a9cb66ed9.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/d0/38/b8403d97ae5273002fa664c3c440c5cc186082fa0ba20fcc93885d13a686/multidict-7.2.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+    "filename": "multidict-7.2.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+    "bytes": 510054,
+    "sha256": "3b7542fad2706595c1b1853b46f2c3c4ae5cc5a6252b7225f294d607a29e1bdf",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/9/b/d/3/8/9bd385bfde5e35779b28658c85d4f48359cb443716121ffeed20277f.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/95/0c/a71501bbc1a674ff72c4d6c2b75f4d9a5af819f5244c3a7558080a8802c5/yarl-1.25.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+    "filename": "yarl-1.25.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+    "bytes": 117728,
+    "sha256": "d5add7b4ca7afeea91d52e4d4e4db3b1fe9885b71f07054560d8c4296b7441a2",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/7/a/d/b/7/7adb740950098dbf590edb39f1cd2760e8cca8ff75f58c82cc5c8ec3.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/71/43/1947f06babed6b3f1d7f38b0c767f52df66bfb2bc10b468c4a7de9eceff2/aiohappyeyeballs-2.7.1-py3-none-any.whl",
+    "filename": "aiohappyeyeballs-2.7.1-py3-none-any.whl",
+    "bytes": 15038,
+    "sha256": "9243213661e29250eb41368e5daa826fc017156c3b8a11440826b2e3ed376472",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/7/4/f/6/f/74f6f94dde30a296c5e882726c70c3ccf46a09e47e44d67b4266b3ad.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/fb/76/641ae371508676492379f16e2fa48f4e2c11741bd63c48be4b12a6b09cba/aiosignal-1.4.0-py3-none-any.whl",
+    "filename": "aiosignal-1.4.0-py3-none-any.whl",
+    "bytes": 7490,
+    "sha256": "053243f8b92b990551949e63930a839ff0cf0b0ebbe0597b0f3fb19e1a0fe82e",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/7/4/9/8/0/74980b897b8550c7ea9da0117890632474219f54da85e9a81ef5b6aa.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/3f/29/eb3558ab6bf252a07ac41c76ac5b0ea24a0aa0c23f87a40aaf31a5f8dba4/anthropic-2.3.0-py3-none-any.whl",
+    "filename": "anthropic-2.3.0-py3-none-any.whl",
+    "bytes": 2216980,
+    "sha256": "aa6a3984f9276f307933d42dc6f58b6efc821a5ecafbc8d1bb5993a066767622",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/d/2/3/d/8/d23d88c956e13f85e2f2ae5691f55595ad68291b626cb620d3daf71a.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/12/b8/4bd346e22b28902df4d651910f5242c28d84e4a5c2435ca5c3f797ed7e2e/anyio-4.15.1-py3-none-any.whl",
+    "filename": "anyio-4.15.1-py3-none-any.whl",
+    "bytes": 132079,
+    "sha256": "6152fdbbf9a77fdec97731721bebf7c4c44f7c29b424b0065826173efc7ed101",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/8/0/1/5/1/801512aa9dfa58310430ddf36001022a3bd2f4a853d24a1852b030a7.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/a7/5f/ed01f9a3cdffbd5a008556fc7b2a08ddb1cc6ace7effa7340604b1d16699/docstring_parser-0.18.0-py3-none-any.whl",
+    "filename": "docstring_parser-0.18.0-py3-none-any.whl",
+    "bytes": 22484,
+    "sha256": "b3fcbed555c47d8479be0796ef7e19c2670d428d72e96da63f3a40122860374b",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/a/1/6/2/7/a162710a91ef0ac8a9baf21c451a184f4d663345f7d355a0f802dd3e.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/7b/3d/2e4bc4fd1ef9770871669adb348d612a6e4786b303a23f9935b81c48dd60/httpx2-2.16.0-py3-none-any.whl",
+    "filename": "httpx2-2.16.0-py3-none-any.whl",
+    "bytes": 97880,
+    "sha256": "fd2c5d7909e8d86fe92d53020c310ca0e4e431b838c207c5754b9bbf0308d49a",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/e/f/b/3/9/efb398a7a9a982403b8e9481e26353c10bf7bafd4cc21095a629680d.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/af/c2/ce417c397afa5181f0e3c6ff01a4d01639414e1adef08730d97571297151/httpcore2-2.16.0-py3-none-any.whl",
+    "filename": "httpcore2-2.16.0-py3-none-any.whl",
+    "bytes": 85070,
+    "sha256": "5c4358319f2602d984ad93182c9fee5160f22e9da7babdda870a5e7c4e2dc34f",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/f/6/0/c/b/f60cbebfd967e2d51f45c984634687eed93a290b3b0ffdce9a1bdc69.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/85/93/f133c7b38cc1bc7516929e9d82a28caa6a4403b4d4c5c9c1d39170128dee/jiter-0.18.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+    "filename": "jiter-0.18.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+    "bytes": 337085,
+    "sha256": "55f808bce951fae459fc916359cc54097d386bef3e72265ddf02b39ba3275118",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/b/1/4/f/4/b14f44ddd98aa7a08bd3a1cd472fa7e20234aec04b91f232ff7ccd09.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/a9/2d/610db864d7513158cebb8f36cc88e67e73bd6c7aa1905ef18d89e1281c81/opentelemetry_api-1.45.2-py3-none-any.whl",
+    "filename": "opentelemetry_api-1.45.2-py3-none-any.whl",
+    "bytes": 60335,
+    "sha256": "2cbd737377e710ee740d261c94e93fa0f08e6d037c18f17513cc0a2d94479a34",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/0/0/b/8/5/00b85a9c3d74932080ebd648baf764cec7dfc778a48204c781448e77.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/97/01/c71a71258b58659c72504e5fd65b451f6e36e34dc931d0b237ded213c814/pydantic-2.14.2-py3-none-any.whl",
+    "filename": "pydantic-2.14.2-py3-none-any.whl",
+    "bytes": 490403,
+    "sha256": "7efbf7507b937931cd32a5755acb00ea1cf5ccb1d4e8067a5850d5069e382118",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/1/7/8/7/c/1787c93b685a15e411950ea782dbb9354774b72daa2c4ab16b1c826c.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/70/7d/22bd04c22adae266ae5e99e4c34bd882daf6c93c35bda2f9674421c1e7c3/pydantic_core-2.50.2-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+    "filename": "pydantic_core-2.50.2-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+    "bytes": 2236349,
+    "sha256": "86e7abd24a67f61a4bfe8df059b67a2bdd8bf33705178e98463195d140bd3780",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/e/8/5/2/1/e85213879ac51df9ba1a047e74fa4d9a3ba43dd1c24249dd784cdca1.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/e9/44/75a9c9421471a6c4805dbf2356f7c181a29c1879239abab1ea2cc8f38b40/sniffio-1.3.1-py3-none-any.whl",
+    "filename": "sniffio-1.3.1-py3-none-any.whl",
+    "bytes": 10235,
+    "sha256": "2f6da418d1f1e0fddd844478f41680e794e6051915791a034ff65e5f100525a2",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/1/0/0/1/a/1001a82df373a74ffeb2732326d91399a4bab29f4e470129577153e6.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/49/d3/b8441a820a491ddfc024b0b0cf0393375b75ea13866d9c66727e54c2fc80/typing_extensions-4.16.0-py3-none-any.whl",
+    "filename": "typing_extensions-4.16.0-py3-none-any.whl",
+    "bytes": 45571,
+    "sha256": "481caa481374e813c1b176ada14e97f1f67a4539ce9cfeb3f350d78d6370c2e8",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/1/c/c/3/1/1cc31ece7b27a96ebd987423fecf8e258e98357d88a59a275b41bf68.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/99/91/8acff4f5e50511b911bbccb72b8628a49c68ce14148cd9f6431094859a90/annotated_types-0.8.0-py3-none-any.whl",
+    "filename": "annotated_types-0.8.0-py3-none-any.whl",
+    "bytes": 13427,
+    "sha256": "f072f4d804ea359e4eaf198b1af7a8b0943881a87f31bb764f8bf219bb9419e0",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/1/b/3/5/7/1b357ff800d38af7931e2b5f122d07db37779ab0404aabce73902550.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/64/b4/17d4b0b2a2dc85a6df63d1157e028ed19f90d4cd97c36717afef2bc2f395/attrs-26.1.0-py3-none-any.whl",
+    "filename": "attrs-26.1.0-py3-none-any.whl",
+    "bytes": 67548,
+    "sha256": "c647aa4a12dfbad9333ca4e71fe62ddc36f4e63b2d260a37a8b83d2f043ac309",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/7/9/9/c/5/799c5ec71217f7183726b1774457c85371fa2162e23374da19af5bd8.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/07/6c/aa3f2f849e01cb6a001cd8554a88d4c77c5c1a31c95bdf1cf9301e6d9ef4/defusedxml-0.7.1-py2.py3-none-any.whl",
+    "filename": "defusedxml-0.7.1-py2.py3-none-any.whl",
+    "bytes": 25604,
+    "sha256": "a352e7e428770286cc899e2542b6cdaedb2b4953ff269a210103ec58f6198a61",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/1/4/a/b/0/14ab029476df110194a257f4c5891ff6780e8a5029966ed758f7ab51.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/b4/4f/3f2c25c9b43970b5e9a08beb5e04776247edea684ddc0930f4f02f0bb6cb/fastapi-0.162.0-py3-none-any.whl",
+    "filename": "fastapi-0.162.0-py3-none-any.whl",
+    "bytes": 148912,
+    "sha256": "3785963de305dd09912426cb81f2d230fce98ab3521cdfe97265c8d14983128c",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/f/8/4/d/7/f84d70fe76a851b57e0b4f77666d3ab03b0dbcacfcb54d756e992be9.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/3e/30/e900b21425a860e195f32e37657aa1f7c7f2b1bfb26f03ca209b90933c06/annotated_doc-0.0.5-py3-none-any.whl",
+    "filename": "annotated_doc-0.0.5-py3-none-any.whl",
+    "bytes": 5302,
+    "sha256": "117bac03a25ede5df5440e855b32d556049ca169ead221505badf432fed4b101",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/a/a/b/c/6/aabc67571b401e727d49f64fbada38d882e738cbf8aac911d5841eb9.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/2a/39/e50c7c3a983047577ee07d2a9e53faf5a69493943ec3f6a384bdc792deb2/httpx-0.28.1-py3-none-any.whl",
+    "filename": "httpx-0.28.1-py3-none-any.whl",
+    "bytes": 73517,
+    "sha256": "d909fcccc110f8c7faf814ca82a9a4d816bc5a6dbfea25d6591d6985b8ba59ad",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/1/4/f/f/7/14ff7d80f054baad6654d8407c789a743936ccdbe38d9883c976b2dd.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/7e/f5/f66802a942d491edb555dd61e3a9961140fd64c90bce1eafd741609d334d/httpcore-1.0.9-py3-none-any.whl",
+    "filename": "httpcore-1.0.9-py3-none-any.whl",
+    "bytes": 78784,
+    "sha256": "2d400746a40668fc9dec9810239072b40b4484b640a8c38fd654a024c7a1bf55",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/2/e/d/3/2/2ed32aec18e05bf723db80068a91af9fb1ea5910d661dc4d22b52588.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/de/15/545e2b6cf2e3be84bc1ed85613edd75b8aea69807a71c26f4ca6a9258e82/email_validator-2.3.0-py3-none-any.whl",
+    "filename": "email_validator-2.3.0-py3-none-any.whl",
+    "bytes": 35604,
+    "sha256": "80f13f623413e6b197ae73bb10bf4eb0908faf509ad8362c5edeb0be7fd450b4",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/3/c/6/d/8/3c6d8b8d5716927dec8d39bde2b9eb5976aaaaaf9bf76274a4de3682.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/61/55/f90405bbbbd3dd8f788e92cec2d39964f5c09783f0570fc35f3bb3381485/dnspython-2.9.1-py3-none-any.whl",
+    "filename": "dnspython-2.9.1-py3-none-any.whl",
+    "bytes": 360364,
+    "sha256": "7c81caf8de1ed57b8cfc7e0ad4f528a0b8ceace473c7eb946df195dc9def751f",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/3/2/5/b/5/325b5fe45557b380cf0e65ea77e682b64c8fd9e9243e082a033b1885.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/d5/53/56ae5ae17bb0a5d89d1d31e5320eb1865553ebbfbde91cdc4c221245f2a8/fastapi_cli-0.0.32-py3-none-any.whl",
+    "filename": "fastapi_cli-0.0.32-py3-none-any.whl",
+    "bytes": 14670,
+    "sha256": "8dcc286fa32f01bbd3f65dd09cfd5a2540ed5f2230b77db7fd30978d6165f3c4",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/d/b/d/a/4/dbda4fee33b917b3b266cf839467a13ef9568c1cbcccf3f6a1036e3e.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/30/96/0e527b3aa93c0ade8b4edc959eb064df49f816469d4781312374b4ce1bab/fastapi_cloud_cli-0.26.0-py3-none-any.whl",
+    "filename": "fastapi_cloud_cli-0.26.0-py3-none-any.whl",
+    "bytes": 108653,
+    "sha256": "94029f92f3dc4289b376e1213f0d6cc7c30d4f32de7e47b5effc6dc754ab9ce9",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/6/7/9/3/c/6793c1d428ed6f46220f68061bf4c1a714b304c95b035ad14c237fb0.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/72/15/504337e302d070bd2ff2f39418bb17d2ad73c662c403a4f37cb4e5c5b237/agent_detector-2.0.0-py3-none-any.whl",
+    "filename": "agent_detector-2.0.0-py3-none-any.whl",
+    "bytes": 9352,
+    "sha256": "22c6a1c9c23894a12f55aea625f060b8d3330fba774de72d02d5442bb580417f",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/7/9/3/0/7/793078c8df9cb9fb39c0e8ab3aaea2a0106a4416852ed0da2ac86984.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/61/fe/a245e1d579e7abf47208f7c1ce5684caa2cd956ede5ff646d66d0299d9e8/detect_installer-0.2.1-py3-none-any.whl",
+    "filename": "detect_installer-0.2.1-py3-none-any.whl",
+    "bytes": 5371,
+    "sha256": "87e2ce7d05cb108b178f8e45bb80d3d88c0cb4b397983345c18ad6562e02e620",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/9/f/6/6/7/9f66758f890b9dde5c7cc1cbda5141b1eb61a739b4d01bb21de73a9c.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/0b/4e/be067dce9da50815e1911684639d8404cd4d49352c9de1f9deb92417e574/fastar-0.12.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+    "filename": "fastar-0.12.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+    "bytes": 812845,
+    "sha256": "471a2f3c7295c296252463ae2eadd87f258dec33a7fec053a553c90930e03392",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/e/2/4/9/d/e249d2ae896e907658e0fff652a0b7ea796035e5a65c414fe38d259c.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/14/2d/2cf36eca330b7a97c0e9076e8fc4272127c29398fa2bb7b24d4321b8b476/filelock-4.2.5-py3-none-any.whl",
+    "filename": "filelock-4.2.5-py3-none-any.whl",
+    "bytes": 163877,
+    "sha256": "46ce42d27e5cdde09ee7197349663e97cb106679bd9e75db3a09679fbc7aa1a8",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/0/7/f/a/6/07fa669e55f07c9d82bff456edb45564c0e13cdb91c4f49c57d5d94e.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/11/b1/71a477adc7c36e5fb628245dfbdea2166feae310757dea848d02bd0689fd/frozenlist-1.8.0-cp311-cp311-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl",
+    "filename": "frozenlist-1.8.0-cp311-cp311-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl",
+    "bytes": 231067,
+    "sha256": "2552f44204b744fba866e573be4c1f9048d6a324dfe14475103fd51613eb1d1f",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/2/2/a/2/7/22a27efb75def38b1f06d8ddba9cc1e8d9e14796df93d2e1cdcb1230.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/6c/c0/a98505f18594f1bce828bb159cec0fcf9860562f1a2c85913409fc8f3d9e/fsspec-2026.9.0-py3-none-any.whl",
+    "filename": "fsspec-2026.9.0-py3-none-any.whl",
+    "bytes": 221738,
+    "sha256": "8dd6e646e99ea382bd85f97a45e6b526a442d79423a7dc673f1e2756d05fcb5f",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/9/c/7/b/7/9c7b75ab3eea01cbb90ee9be93abf30ac494eaacd5fad7fd60b5ba8e.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/b3/bb/d71d6da82763528c2c2ed6b59a9d6142c6595545a4c448e2085d155e88c2/gguf-0.19.0-py3-none-any.whl",
+    "filename": "gguf-0.19.0-py3-none-any.whl",
+    "bytes": 118475,
+    "sha256": "70bcd10edfe697fb2dad6e40af2234b9d8ece9a41a99761405121ebda1c3c1cd",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/5/5/9/d/f/559df78eaab69d875420dfddbca9a7a87ec29dfbe695968a386e8e7d.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/04/4b/29cac41a4d98d144bf5f6d33995617b185d14b22401f75ca86f384e87ff1/h11-0.16.0-py3-none-any.whl",
+    "filename": "h11-0.16.0-py3-none-any.whl",
+    "bytes": 37515,
+    "sha256": "63cf8bbe7522de3bf65932fda1d9c2772064ffb3dae62d55932da54b31cb6c86",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/9/9/1/7/c/9917c4ea248ab1505e4025736e89c999891ec00e97be145d4a4f8208.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/58/a2/bb081bab032533a855d44de1d56f8e8426114ff1ba5d1f07a438a0a654f8/idna-3.20-py3-none-any.whl",
+    "filename": "idna-3.20-py3-none-any.whl",
+    "bytes": 69583,
+    "sha256": "ab7ae7122974553370f0bdb919e1a960b2cd1bc1ef0276416d896db81c14582c",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/2/1/0/7/c/2107c1b8c54cb6f30b392408c63aabd8aaff8e86c808b983ba427570.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/c4/01/72d6472f80651673716d1deda2a5bbb633e563ecf94f4479da5519d69d25/interegular-0.3.3-py37-none-any.whl",
+    "filename": "interegular-0.3.3-py37-none-any.whl",
+    "bytes": 23635,
+    "sha256": "b0c07007d48c89d6d19f7204972d369b2a77222722e126b6aa63aa721dc3b19c",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/1/5/4/2/4/15424205845835a88eb988115c4cb76e3e8b4d5272aababd5895a343.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/62/a1/3d680cbfd5f4b8f15abc1d571870c5fc3e594bb582bc3b64ea099db13e56/jinja2-3.1.6-py3-none-any.whl",
+    "filename": "jinja2-3.1.6-py3-none-any.whl",
+    "bytes": 134899,
+    "sha256": "85ece4451f492d0c13c5dd7c13a64681a86afae63a5f347908daf103ce6d2f67",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/e/c/9/8/b/ec98b4fd2c509cf401624df9b4435d7f4d99096571f813ab03c38be6.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/81/a5/a513b76c139a3915b43404324e55c0b7979ae4f0d39eb6f075b0282e90a8/markupsafe-3.0.4-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+    "filename": "markupsafe-3.0.4-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+    "bytes": 22961,
+    "sha256": "6da83a088f8ef93b2d483a8232a4dbf4d69d3d8496b568a03c56becac43e1808",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/1/f/a/4/2/1fa42f3eba1ce408af2c40f0b6a706f5d541c58a1274e19140c80557.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/2e/a4/1ca765c63a60e3096ae2ad132eb25f6f7eab0377418cd0472808befd9665/matplotlib-3.11.2-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+    "filename": "matplotlib-3.11.2-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+    "bytes": 9854405,
+    "sha256": "07d9b9fa60cd4c393692f50d0bb03123242ddf61c99bb0e95e75feb354e7c1a8",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/9/a/5/1/9/9a519e702382aea7f7d3db52f74cdaf789d758f17c30ce6ee2f1b537.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/5f/4b/6157f24ca425b89fe2eb7e7be642375711ab671135be21e6faa100f7448c/contourpy-1.3.3-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+    "filename": "contourpy-1.3.3-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+    "bytes": 355238,
+    "sha256": "51e79c1f7470158e838808d4a996fa9bac72c498e93d8ebe5119bc1e6becb0db",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/0/3/4/4/7/0344711816d57886537d387c82cfd7fc5f29fdb37db9820e0b8f560b.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/e7/05/c19819d5e3d95294a6f5947fb9b9629efb316b96de511b418c53d245aae6/cycler-0.12.1-py3-none-any.whl",
+    "filename": "cycler-0.12.1-py3-none-any.whl",
+    "bytes": 8321,
+    "sha256": "85cef7cff222d8644161529808465972e51340599459b8ac3ccbac5a854e0d30",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/d/e/6/6/5/de665f5f979f9ef239deb48396d677bb5fcda16dea89a75c5ba454e7.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/00/01/e0f5b3d648ddd2eae35c4bcddcc2cffc059279e9d2cdb325bed10458f606/fonttools-4.68.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+    "filename": "fonttools-4.68.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+    "bytes": 5493829,
+    "sha256": "4b9c89b5876f1a74b1341632dfaf4c4c2be565d76c060445df401ebe7a4ceefa",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/5/2/f/c/5/52fc50bb538a2ee805d8e38225c2f3d1553cd9523e316975d2ceea0e.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/89/00/05c2d0369ac322d22d5c05f84b5c4a6856fa6207fbae42869108a28f0383/kiwisolver-1.5.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+    "filename": "kiwisolver-1.5.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+    "bytes": 1438206,
+    "sha256": "95a02752aa032eef4aed01cda6d9b687c669bd0396bf4519eef8bba22a286720",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/c/f/a/d/4/cfad426cbbd3604070fecc61e52e83a1afd8c44ce6f0cde213c652b4.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/f5/6a/41a967279c5ba1d17af0010479825b77e11f11d629c92c345a7d8eb77b7c/mistral_common-1.13.0-py3-none-any.whl",
+    "filename": "mistral_common-1.13.0-py3-none-any.whl",
+    "bytes": 6588499,
+    "sha256": "6304455b69ae9ca02cddb9bb3bb888ab8dcbe3945a3cafe3368897795611993d",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/5/c/5/f/d/5c5fded672ec257e8b899fe21124741c846450e80fd5b5a381cd7ddb.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/69/90/f63fb5873511e014207a475e2bb4e8b2e570d655b00ac19a9a0ca0a385ee/jsonschema-4.26.0-py3-none-any.whl",
+    "filename": "jsonschema-4.26.0-py3-none-any.whl",
+    "bytes": 90630,
+    "sha256": "d489f15263b8d200f8387e64b4c3a75f06629559fb73deb8fdfb525f2dab50ce",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/7/3/0/6/9/73069a329184a0960cfcb7308d2f32951a958b1cb0d5f2b98504d27c.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/41/45/1a4ed80516f02155c51f51e8cedb3c1902296743db0bbc66608a0db2814f/jsonschema_specifications-2025.9.1-py3-none-any.whl",
+    "filename": "jsonschema_specifications-2025.9.1-py3-none-any.whl",
+    "bytes": 18437,
+    "sha256": "98802fee3a11ee76ecaca44429fda8a41bff98b00a0f2838151b113f210cc6fe",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/d/e/b/6/0/deb60ac20cf196e818e0785044231ade06fd5632145486679f295490.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/f2/66/1ac2e7be583b2df1aff38f5ba896446eeff5e5ae66142e3c61263c077f54/modelscope_hub-0.6.1-py3-none-any.whl",
+    "filename": "modelscope_hub-0.6.1-py3-none-any.whl",
+    "bytes": 289627,
+    "sha256": "b1dfed21d24ae2ec7f9ada2ca12a463ab8a8fadf17b2101fdd14d61b1466788f",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/d/3/9/d/9/d39d9b17c1da73820d59a27f5bd124a40dcbcf5ab154925c94ffe612.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/d3/69/2c833a049475e0a3444e94c7d0aca0aa51d166374a449b09e92ac98138de/cryptography-50.0.2-cp311-abi3-manylinux_2_34_x86_64.whl",
+    "filename": "cryptography-50.0.2-cp311-abi3-manylinux_2_34_x86_64.whl",
+    "bytes": 4752576,
+    "sha256": "9dab55f57c74c3cad24c323bacbbd04be4705ba6eb0d92e920b1fc4837ed5079",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/b/8/e/1/1/b8e11ade1a4911e56cde70e88932bc5e095e6f11184f2af7367eb8b3.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/f7/a4/4399daaf8f7dfee9d7c3327fdb0426ee041cc63edc358b93911ceb2bfc7a/cffi-2.1.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+    "filename": "cffi-2.1.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+    "bytes": 217807,
+    "sha256": "34e261f78cb6ceaaa36f42f2613f4380d94d9c759a9c73c769ee6e0247364632",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/9/9/d/d/f/99ddf65827b7b1152723452ebd1d1733bab55e510623607d1961adea.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/9e/c9/b2622292ea83fbb4ec318f5b9ab867d0a28ab43c5717bb85b0a5f6b3b0a4/networkx-3.6.1-py3-none-any.whl",
+    "filename": "networkx-3.6.1-py3-none-any.whl",
+    "bytes": 2068504,
+    "sha256": "d47fbf302e7d9cbbb9e2555a0d267983d2aa476bac30e90dfbe5669bd57f3762",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/4/e/f/4/8/4ef480cfe6618a64d679bc883a5107e31948fec84569c6ff9e29c7bd.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/90/75/172dfdea9be008f3ecc538e15fd7caeaa038ec51a3488835271e936c6eaf/nvidia_cudnn_frontend-1.32.1-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+    "filename": "nvidia_cudnn_frontend-1.32.1-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+    "bytes": 11623160,
+    "sha256": "59a7dbf557ce88f4df76b62e54865936dfc1ae30cb54ce9f0baa6107d88c0b76",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/d/7/d/1/a/d7d1aa6a69372236386f249af44594f407f63fe01c70d6aedb4353e9.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/bd/ce/a590b929285faf0aa285c5ccee2b88e0b5259fb39a6326206e0f140ea3fc/nvidia_cutlass_dsl-4.8.1-py3-none-any.whl",
+    "filename": "nvidia_cutlass_dsl-4.8.1-py3-none-any.whl",
+    "bytes": 10510,
+    "sha256": "43ed46b21d151aa643c6765457c7310827b938c1cf45d5109a0152de4ef06227",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/2/c/9/e/7/2c9e78a39fb170ccc79e7af79e18a5a195a940498ef158c1c6b4c1a8.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/10/e5/ec9d372f2afab57a751df86e0fc1db88ddd69eecfb68adc12536deaf2854/nvidia_cutlass_dsl_libs_base-4.8.1-cp311-cp311-manylinux_2_28_x86_64.whl",
+    "filename": "nvidia_cutlass_dsl_libs_base-4.8.1-cp311-cp311-manylinux_2_28_x86_64.whl",
+    "bytes": 3051864,
+    "sha256": "04f60d4815d40b8588dc12bc58572923619f1b9547936195e80634a9468c0fb2",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/e/c/d/6/5/ecd657039eec40d6f3875e6d5731885d4bda818d272a162f8271ee96.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/6c/03/1c59e3caf7c8b5cae3ae4d1753201c7e64d36cdf182fb882e070b0f14a55/nvidia_cutlass_dsl_libs_core-4.8.1-py3-none-any.whl",
+    "filename": "nvidia_cutlass_dsl_libs_core-4.8.1-py3-none-any.whl",
+    "bytes": 1635096,
+    "sha256": "bacc6760e3286db447d45720d32ae58ac2e6cecade1152345ef784b2d5e44431",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/3/9/1/4/1/391413b72d94bf8fcbd4342456175d04f9eea73d7d974fd6d834bf95.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/16/92/20e21ebe7f59b014ce7ef0c8e2ab67e69abf4c7c90e9c0ff2f0f5ca09b7e/nvidia_cutlass_dsl_libs_cu12-4.8.1-cp311-cp311-manylinux_2_28_x86_64.whl",
+    "filename": "nvidia_cutlass_dsl_libs_cu12-4.8.1-cp311-cp311-manylinux_2_28_x86_64.whl",
+    "bytes": 91698156,
+    "sha256": "dfa8be20b257bfb50a8843928277176b69a58ec3a0fcf22d7d4825f2c383ed81",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/4/f/1/1/6/4f11650a0a313e4a1a9d0c207605229f69843f79fadfaf9459025029.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/97/36/3bfb7b74817a0a78f80340fae742a27d166e8fcdffa459b79d5be66e077a/cuda_bindings-13.4.4-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl",
+    "filename": "cuda_bindings-13.4.4-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl",
+    "bytes": 7160763,
+    "sha256": "e1cef1eaf5a08cc3bf3675ca9d3f97f3fc7085998556c848b4053e74ba4ba392",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/3/4/c/4/3/34c432278b0dae97a02750eb5ebbf7126a3d85e1da8ce64dd5e17430.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/3d/b1/88f9aa5052f6d69afc4507763517b84872a76d3f7644edddca8bb4e3729a/cuda_pathfinder-1.8.5-py3-none-any.whl",
+    "filename": "cuda_pathfinder-1.8.5-py3-none-any.whl",
+    "bytes": 62595,
+    "sha256": "16d1026fdd78ac0222b966441de53dec3f0dbe6b1e2c43d19d92eb29bfd81e67",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/8/c/c/f/6/8ccf6c7c72a1fc85a64fa60b7c145f7796a91d5e6e97fc0e91ef7e9c.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/14/c0/f574ca253fcf54267f7aefa4d5b9bb232579997bce4368d11d43b255732f/nvidia_cutlass_dsl_libs_cu13-4.8.1-cp311-cp311-manylinux_2_28_x86_64.whl",
+    "filename": "nvidia_cutlass_dsl_libs_cu13-4.8.1-cp311-cp311-manylinux_2_28_x86_64.whl",
+    "bytes": 91953025,
+    "sha256": "969cdb8ecfe8c8b5181001f7f48429f7dd531d43c6609ae58ebf8c928185cf4f",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/f/f/b/d/9/ffbd9b940cb42fd8f2523f5ea0ecfe82750b3725affc5aa253855fdf.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/c5/79/904afac12186d9ab9e3f731eb798e36dc0f5b991a557c4304b0a43e393c1/openai-3.42.0-py3-none-any.whl",
+    "filename": "openai-3.42.0-py3-none-any.whl",
+    "bytes": 2397860,
+    "sha256": "efb9d089ecf66c668289f647717389df98b40b954cd86d4fe54eddce39aabb3f",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/0/6/3/1/6/06316a438d3c174c74e095e110371f583c267e82c467f3a2b18f19f7.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/25/3f/1a192b93bb47c6b44cd98ba8cc1d3d2a9308f1bb700c3017e6352da11bda/openai_harmony-0.0.8-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+    "filename": "openai_harmony-0.0.8-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+    "bytes": 2953260,
+    "sha256": "c007d277218a50db8839e599ed78e0fffe5130f614c3f6d93ae257f282071a29",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/9/1/0/b/f/910bf12cd325a97358f29919b7c28107804d780999ce8dd1e7556750.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/cf/4c/c73f828fdbcd37eaf21d08fa852544a3ca7c2dbb3ea76873d64f2ea413d1/opencv_python-5.0.0.93-cp37-abi3-manylinux_2_28_x86_64.whl",
+    "filename": "opencv_python-5.0.0.93-cp37-abi3-manylinux_2_28_x86_64.whl",
+    "bytes": 73783032,
+    "sha256": "c8de2dec111122a02e8beb28e16c31904992dfd6186560b142a92c71403c1039",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/7/5/e/0/8/75e087a4bcdf6902ee7a08897dce7e3dfdbf47b050f5d3cae79ad0f3.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/9b/21/f6ef335f6e65724aa78b8d792b48d40a48c381715f1e62f5a5049e09d07e/opencv_python_headless-5.0.0.93-cp37-abi3-manylinux_2_28_x86_64.whl",
+    "filename": "opencv_python_headless-5.0.0.93-cp37-abi3-manylinux_2_28_x86_64.whl",
+    "bytes": 61204038,
+    "sha256": "ed709fdf9aa0bd1f2ed8549e71d19449b03a675bb581eb292285f6861953be37",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/e/4/7/7/0/e47708f052b6e7476da5c6f9f9f4176f74ca6b503c2812e03a63025b.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/32/65/f64d7d2450217e2989714e1dee15e19bf79a77a313387abac0cac77bc10e/opentelemetry_exporter_otlp_proto_http-1.45.2-py3-none-any.whl",
+    "filename": "opentelemetry_exporter_otlp_proto_http-1.45.2-py3-none-any.whl",
+    "bytes": 22180,
+    "sha256": "6e4d025138829d0ee57946930c2ccad6491ad4d92a958e9c7eea69278fe60cfc",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/1/d/1/0/2/1d10290f2be650b1b4ae65132e2a4353c258d629d44d55da32879e87.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/a1/b2/c622a101f31c0e6670b82f4264c4e77c161bce415bc6fc158fda0b82e218/opentelemetry_exporter_http_transport-0.66b2-py3-none-any.whl",
+    "filename": "opentelemetry_exporter_http_transport-0.66b2-py3-none-any.whl",
+    "bytes": 12154,
+    "sha256": "fd5f5b490c099acda1cd7b909d5e8981436bf18cc8c6098d302d114c271720e9",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/e/f/4/d/e/ef4de3054b1671ee178b4f2cb02c81cdd35905ee8416a2eede9f897e.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/a8/47/b3049e30b339c82e3c7ec1fc692185a5d5a3ba65a94c570bb39b2c0b8424/opentelemetry_exporter_otlp_common-0.66b2-py3-none-any.whl",
+    "filename": "opentelemetry_exporter_otlp_common-0.66b2-py3-none-any.whl",
+    "bytes": 12385,
+    "sha256": "ace86efb75489f925f1ef809856ae5f0c7db534e4afdc624530222228b1236a5",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/8/8/d/4/c/88d4cf2d33501aa9c0755d1467b08c1f6e91102493fe30cd0ecc02b9.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/e6/d6/0f30d38120a949aef70528f845bf539f80df62abb4b8e62fdf69c2b6df5a/opentelemetry_exporter_otlp_proto_common-1.45.2-py3-none-any.whl",
+    "filename": "opentelemetry_exporter_otlp_proto_common-1.45.2-py3-none-any.whl",
+    "bytes": 15392,
+    "sha256": "af483b24217028892f017096731b794b196b785025d2e6808874720fd0b05a80",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/2/5/2/d/8/252d8da4fa05c869333c1f9a22ae33c85afdb5c05c685d496dfc5b46.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/7e/0d/a0b8f2b9efe2ec1abdf639d3696db9b1563ebeb11d91aac08ba7341e9122/opentelemetry_proto-1.45.2-py3-none-any.whl",
+    "filename": "opentelemetry_proto-1.45.2-py3-none-any.whl",
+    "bytes": 72484,
+    "sha256": "03a7ca1b43f89fd5b965d5975902bb2515c0c86e2428b456836e9a6149c6235a",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/5/c/c/2/4/5cc2479a23048058c6b18fcf9e7fb3d7f67e1da78b0b04c1eeda8fd8.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/05/6d/78dc67a9e779e594b49bf62604034d3a6aa428a55afc729cafda4b7333e1/googleapis_common_protos-1.76.0-py3-none-any.whl",
+    "filename": "googleapis_common_protos-1.76.0-py3-none-any.whl",
+    "bytes": 307707,
+    "sha256": "59e13344a9f3651aa201a03e2bee815a3bf43a4baf1f9ff8a9b62a840ce25fac",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/b/4/1/2/1/b4121996bee37e03bfce4ffc9f6d601c52160174eaf851b81ebc951b.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/9f/a5/9a3b793ef48245f2336a16beb2324c2397dbb3f987cd68942f77cca06156/opentelemetry_sdk-1.45.2-py3-none-any.whl",
+    "filename": "opentelemetry_sdk-1.45.2-py3-none-any.whl",
+    "bytes": 141756,
+    "sha256": "ff974ea70ee4f1d51e2ec152db37c2b626c7bf82bb3f7d86114fd8704e7199c6",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/c/8/a/6/c/c8a6c3e1b087268d71b327fc7b444822f290163f36f30409290c219a.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/67/bd/6bf33ed31521c565931c037e9e81bac47c1acb000e850c6e24220e2a0c00/opentelemetry_semantic_conventions-0.66b2-py3-none-any.whl",
+    "filename": "opentelemetry_semantic_conventions-0.66b2-py3-none-any.whl",
+    "bytes": 206280,
+    "sha256": "4cbe61e5f9275d57ab31708446e7938ef4291ebbe6a7fca6f7a629c5acae87d8",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/9/1/c/a/d/91cad67447607ec6224e2c785ab1e370b32077cb8065ef1b7a467a35.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/db/f3/3996583dd2906297a637af12114deddf7658af6e683fedb83be061983fb5/protobuf-7.36.2-cp310-abi3-manylinux2014_x86_64.whl",
+    "filename": "protobuf-7.36.2-cp310-abi3-manylinux2014_x86_64.whl",
+    "bytes": 343223,
+    "sha256": "89f23aa53c24553a2416fd4fd1ec06f74fa42b14b546d8883128813f775bbfd2",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/c/d/d/5/2/cdd52f4265939853222d4e30df947e372c0a2172141553eee10cffab.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/a0/f4/c67b0b3f1b9245e8d266f0f112c500d50e5b4e83cb6f3b71b6528104182a/requests-2.34.2-py3-none-any.whl",
+    "filename": "requests-2.34.2-py3-none-any.whl",
+    "bytes": 73075,
+    "sha256": "2a0d60c172f83ac6ab31e4554906c0f3b3588d37b5cb939b1c061f4907e278e0",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/e/4/1/d/4/e41d471b9f508d685b18931f80116ab942b0d47127b5700c43f715c8.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/e4/ed/cf505d3011ffceb12c2067a7a5d3cfe92b875d4d44bb0ff0d69375e2c184/charset_normalizer-3.5.2-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+    "filename": "charset_normalizer-3.5.2-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+    "bytes": 269972,
+    "sha256": "211d5a3eb6af8f513b8d4ca19a8c1b7accab1b5f0d3175f9826b03c1a920dc1f",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/9/1/d/0/1/91d01b5aef41577df38977e36a4a8f82d9ea6e9aa47783c95019e083.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/92/9d/c4e665119135114480843e7ab388fa94d8480650450e6f8e26b70d323a4c/urllib3-2.8.0-py3-none-any.whl",
+    "filename": "urllib3-2.8.0-py3-none-any.whl",
+    "bytes": 135717,
+    "sha256": "0cf3cae568d36aa9576b28dfb35f11328f1cb974ca7647d9475ebb86c75ac6e3",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/b/b/e/1/8/bbe187ee3eab6d08a22ebb49ce482fb6d52010fc6c2387521397b8e2.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/32/d1/a3652fe2c19134d0d15922177821d863cbd7e842d53a21bbe7e8e3a1b5ac/certifi-2026.10.23-py3-none-any.whl",
+    "filename": "certifi-2026.10.23-py3-none-any.whl",
+    "bytes": 135082,
+    "sha256": "e9b54de76e530bb6cf0ccd036787103acb58fd42ba930ea8bf948ddbaa2f61d1",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/5/f/3/7/3/5f373938784c66e87dd06879ab0101b2775a3e380b52d87b73fb0814.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/36/46/f509b74787f40ce0627501089d630b2c741b63b244c1f40b640b3b01e181/pillow-13.0.0-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+    "filename": "pillow-13.0.0-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+    "bytes": 7140667,
+    "sha256": "a625df9a2a5597fa5e5266e01aefc82604bb85d291e3547981e863560d75da6c",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/0/4/1/d/1/041d113cae92effe659f0818d478c30d3f6fda88badc9303f9309eac.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/eb/a3/b69efbf4143b5b9859b977770bbbabcc2796b702fa69dc40271e45cd5a56/prometheus_client-0.26.0-py3-none-any.whl",
+    "filename": "prometheus_client-0.26.0-py3-none-any.whl",
+    "bytes": 64494,
+    "sha256": "fa93d06737aa02bacd05794768508bb97d2fbee28cb3bca04eaae92f0ca953d6",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/1/2/9/7/a/1297abe917513cc44fed75826ae5a5da8d20313d9a46683f156b5948.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/44/b9/91a2246e6cf01b7ccb14479803c8a50f9c258ae5c6a0f16ba3294820632b/prometheus_fastapi_instrumentator-8.1.0-py3-none-any.whl",
+    "filename": "prometheus_fastapi_instrumentator-8.1.0-py3-none-any.whl",
+    "bytes": 19649,
+    "sha256": "b9f40b2cff3f7891ca0610b3ae4fc6ec723fd326b04bb659819aaeb821a0fc7d",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/4/3/7/f/4/437f4db6877104f7b76879e3cf5dce3cfbb1e5b7a02760a4a50e9a1d.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/88/2e/947cfe02def9371c07cd5bf5b6b61c829e9aecb9904db02a66cfafbc1eec/starlette-1.10.0-py3-none-any.whl",
+    "filename": "starlette-1.10.0-py3-none-any.whl",
+    "bytes": 80571,
+    "sha256": "478c0ab3b4ced6e82719849c118fa406f0278a3499c1a898cd15cd31bdc38ce4",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/0/0/9/2/4/009245a7f31d08b3efb50641a73593e92594578251e3f659fc97dffa.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/c7/06/519a5ebb48b6f94beb48396e55c905f12246a25c3a3608a7ec7bceabf50e/propcache-0.5.4-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+    "filename": "propcache-0.5.4-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+    "bytes": 235381,
+    "sha256": "6e9368e87a3efc285e559131092c5db643eb8e56de4ee42064d5baec22ef2bb5",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/2/1/8/e/f/218ef5c3b20fde111d309a555cd567888196f44ce1f150f7fe455af6.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/17/c1/3226e6d7f5a4f736f38ac11a6fbb262d701889802595cdb0f53a885ac2e0/pydantic_extra_types-2.11.1-py3-none-any.whl",
+    "filename": "pydantic_extra_types-2.11.1-py3-none-any.whl",
+    "bytes": 79526,
+    "sha256": "1722ea2bddae5628ace25f2aa685b69978ef533123e5638cfbddb999e0100ec1",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/d/3/1/5/a/d315a5d3c56923e9e80e98000387dc899c9f331a75cad24050baff65.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/9c/42/7703bd45b62fecd44cd7d3495423097e2f7d28bc2e99e7c1af68892ab157/pycountry-26.2.16-py3-none-any.whl",
+    "filename": "pycountry-26.2.16-py3-none-any.whl",
+    "bytes": 8044600,
+    "sha256": "115c4baf7cceaa30f59a4694d79483c9167dbce7a9de4d3d571c5f3ea77c305a",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/c/6/2/7/4/c6274b4108e4c288157c43630b88bd5fe0edacb66f72b22615b494f5.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/39/88/4131c51ff87b7cd7f82a1194d0c0a2b7ca68c72d9da04c3b7e69ab91a79f/pydantic_settings-2.16.2-py3-none-any.whl",
+    "filename": "pydantic_settings-2.16.2-py3-none-any.whl",
+    "bytes": 81994,
+    "sha256": "8d523e5c129b097686bde019bd6109bff53f4c8c3f63f1ddf9933ffa42e5ab4f",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/7/a/f/4/5/7af453c86ad72d82cfafb98a85508f99770f64a8f5fb413df5dc1cc1.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/38/bb/d215ee7c73b61497b28a5503f9f53523f294fcc936762b7caf90e0c1c2b5/pyparsing-3.3.3-py3-none-any.whl",
+    "filename": "pyparsing-3.3.3-py3-none-any.whl",
+    "bytes": 126420,
+    "sha256": "ece8c00a69cf01b45d0b1dedabb469c90d8caf996d4fda40f147627a122849a4",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/f/d/e/5/a/fde5a07d81d816fdc5de5ee5eca4aa0febd7e7f8b375e5fdba248574.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/5a/17/cebee01d1c0c1441174cf0456ddc91b280d79acb65340c05e41d77866ee8/python_dateutil-3.0.0-py2.py3-none-any.whl",
+    "filename": "python_dateutil-3.0.0-py2.py3-none-any.whl",
+    "bytes": 94659,
+    "sha256": "3c79630202e4152c6add678446984236efe4f57e84d8e892aab0637bab82e9fd",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/a/a/6/d/3/aa6d3db34d6616ac89e8e1b33c2d417d3df8ce5c757eada3675b3c0b.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/60/d1/38f3a3405989a89ac18390803e70c6ad7c7760da4f9b83cbeca0c44a0c72/python_dotenv-1.2.4-py3-none-any.whl",
+    "filename": "python_dotenv-1.2.4-py3-none-any.whl",
+    "bytes": 23266,
+    "sha256": "42269a8a5b3fd54ffa6f3d84b18abed50064717576b4ecf03dc4a55d8aa04fdc",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/f/f/1/3/b/ff13b3736be6ed4904910b5483c0c0f2258555465acbdc62e4c48fc0.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/e1/04/e8135ebd1ad02c56ec633277529b2602ff99ff634be76cdba5744cf554fd/python_multipart-0.0.32-py3-none-any.whl",
+    "filename": "python_multipart-0.0.32-py3-none-any.whl",
+    "bytes": 30042,
+    "sha256": "ff6d3f776f16878c894e52e107296ffc890e913c611b1a4ec6c44e2821fe2e23",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/f/9/a/b/5/f9ab5ec23f737bd2fc2115b63936e60684d4473b5865826147267c3f.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/b6/25/564f3fc5b70c1398d706c51f2b1470d0ea0b1b2f96fee67877b6f5bdf3b6/pytz-2026.6-py2.py3-none-any.whl",
+    "filename": "pytz-2026.6-py2.py3-none-any.whl",
+    "bytes": 506321,
+    "sha256": "7fed3fee8fd6bd4a2b7b75a8d56021d0624127bf69bd5691f115db929ac570b3",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/5/6/7/1/d/5671d6b4d9936f987f178bccffdd6622edd2308a16ebb3bd167949da.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/71/60/917329f640924b18ff085ab889a11c763e0b573da888e8404ff486657602/pyyaml-6.0.3-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+    "filename": "pyyaml-6.0.3-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+    "bytes": 806638,
+    "sha256": "b8bb0864c5a28024fac8a632c443c87c5aa6f215c0b126c449ae1a150412f31d",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/a/0/1/0/b/a010bd264bcdf0cce2eb0448850d6882112dd7c5187106b119c52a06.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/50/b5/13657961a845e29c28a4e7ac4202999ec90b3bba1890a5469ce2ae90359d/pyzmq-27.2.0-cp311-cp311-manylinux_2_26_x86_64.manylinux_2_28_x86_64.whl",
+    "filename": "pyzmq-27.2.0-cp311-cp311-manylinux_2_26_x86_64.manylinux_2_28_x86_64.whl",
+    "bytes": 888465,
+    "sha256": "39755dc4a923021bd0677990ffdbc21cff0e1ee1cf07fe3817acea153ef4cb67",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/a/4/4/d/5/a44d54dce9f4a1d29894ba6b34ef2de42c915e3d3215b84998e02581.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/f6/63/fdacad6a6f5b0bf065efa9b9f083636feb15e1910bee3a865a0175294aea/ray-2.59.0-cp311-cp311-manylinux2014_x86_64.whl",
+    "filename": "ray-2.59.0-cp311-cp311-manylinux2014_x86_64.whl",
+    "bytes": 78796281,
+    "sha256": "645f4676ef6ff2ca8154e83edf0b38583d225b6c6fb83b6050ca1681dc3a8688",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/a/9/8/c/c/a98cc738f6184819015d872e4eed2b63d3f0cf8e44d0508dba265eeb.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/03/41/ed5517a107628f6f7f3a1f46f19de3aca979bd1fc95861cb56ce0e4bcc02/msgpack-1.2.4-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+    "filename": "msgpack-1.2.4-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+    "bytes": 480247,
+    "sha256": "a45ceb5f199d5e388f28b550ba881096a3740d4bda10e661d77f59d9a2e8187a",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/0/3/6/c/1/036c1e62ef44f855956200e7421d0868e5f00fe01d98ef98f0ddf85d.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/58/50/6c0d534c5f134586a8e1ba4e330569e32f057e33372ae556463212fb4cd3/click-8.5.0-py3-none-any.whl",
+    "filename": "click-8.5.0-py3-none-any.whl",
+    "bytes": 125251,
+    "sha256": "255bc9599cf7748b4b1a446ccc735421bd08a2ae529a8b88597d3de5664ee360",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/4/5/d/b/d/45dbdf0107036513d2db8fbdd5bc7cb492cc47b77cd944bff53bc4ad.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/2c/58/ca301544e1fa93ed4f80d724bf5b194f6e4b945841c5bfd555878eea9fcb/referencing-0.37.0-py3-none-any.whl",
+    "filename": "referencing-0.37.0-py3-none-any.whl",
+    "bytes": 26766,
+    "sha256": "381329a9f99628c9069361716891d34ad94af76e461dcb0335825aecc7692231",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/7/a/4/a/d/7a4ad244ce620a63cb45e2e77a503e073c9fb50da9ac22c79a7cca77.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/8a/70/aa08d1d2b294894b365e5f8ba5380fe3f8546acdb81f10639dfd74209c37/regex-2026.9.29-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+    "filename": "regex-2026.9.29-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+    "bytes": 804978,
+    "sha256": "612b709381c0355b70d89cdb51b7f670591ed5cbbc0e3b5337488019dc667b65",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/2/2/3/8/4/22384fab72c8757e3f0a12de3c507cd114cae041bf68970b04854e91.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/79/fc/7c296a563a893b0a23a73923ce27965ae15f658dcb58c0bcdd463e1671a2/rich_toolkit-0.20.6-py3-none-any.whl",
+    "filename": "rich_toolkit-0.20.6-py3-none-any.whl",
+    "bytes": 39466,
+    "sha256": "465453ba6f94f99401f59f79fb562827ba5f6b4d4759015d40019f5c67750262",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/b/e/9/6/9/be969fbc41505a925e8eaacab5cc75a4cba8dee2934ca82dcdf7a7c1.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/82/3b/64d4899d73f91ba49a8c18a8ff3f0ea8f1c1d75481760df8c68ef5235bf5/rich-15.0.0-py3-none-any.whl",
+    "filename": "rich-15.0.0-py3-none-any.whl",
+    "bytes": 310654,
+    "sha256": "33bd4ef74232fb73fe9279a257718407f169c09b78a87ad3d296f548e27de0bb",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/7/8/6/f/1/786f13d441f0acaeaac0b7f53db4587b0da044e1bb25f587ded905da.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/71/46/17f022dd3e953bf20a04a028a21ec746d942f8d2af30fa0f124fa0e6a684/pygments-2.21.0-py3-none-any.whl",
+    "filename": "pygments-2.21.0-py3-none-any.whl",
+    "bytes": 1250147,
+    "sha256": "2363c69b61c4a97c838da3b130dcd6468f4848992b21a82f2a63ec34377137d9",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/8/5/5/f/8/855f8e3ba34bf818a053962d9922d42adb9762167fa9cb509f44400a.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/b3/81/4da04ced5a082363ecfa159c010d200ecbd959ae410c10c0264a38cac0f5/markdown_it_py-4.2.0-py3-none-any.whl",
+    "filename": "markdown_it_py-4.2.0-py3-none-any.whl",
+    "bytes": 91687,
+    "sha256": "9f7ebbcd14fe59494226453aed97c1070d83f8d24b6fc3a3bcf9a38092641c4a",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/7/5/e/9/b/75e9b870d5e3250a7415f8807988e90c9462470b60405ceba7fef5fa.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/b3/38/89ba8ad64ae25be8de66a6d463314cf1eb366222074cfda9ee839c56a4b4/mdurl-0.1.2-py3-none-any.whl",
+    "filename": "mdurl-0.1.2-py3-none-any.whl",
+    "bytes": 9979,
+    "sha256": "84008a41e51615a49fc9966191ff91509e3c40b939176e643fd50a5c2196b8f8",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/4/8/1/7/f/4817ff0504ec6293dc63dec97ac83868d911467fc17f5b9a97279846.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/08/dc/dd73f3d47e3da48ff2535d24ee2dfda3ecacba9ad5f96b96a15860796041/rignore-0.8.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+    "filename": "rignore-0.8.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+    "bytes": 932629,
+    "sha256": "9869b618dc28104003292f26cad26a2d54f6a3941684f16fe9ff435b5df1b0c0",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/d/c/0/0/f/dc00f61d3fcafab60fc87dff5fd977c56896f5905c72eb1595356ecc.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/2d/5c/aac3b960fd55d37b49f77c0eebbe043eaf36762ebd48e7b46951e59c1c05/rpds_py-2026.9.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+    "filename": "rpds_py-2026.9.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+    "bytes": 375426,
+    "sha256": "136a1c3fe4402b7008bc81cb62ee538481795b61a7e83df88dff3b3f02b726ff",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/c/b/9/d/0/cb9d0226db639c50da4a0db5001bfab16d6559e61949efbb565e987c.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/28/50/f203ff3a3ddfe19308efc83c5a3a29ed02bf786732ec35e68bf9162f3365/safetensors-0.8.0-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+    "filename": "safetensors-0.8.0-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+    "bytes": 516040,
+    "sha256": "fd6f3f93c9a0a7cc2788ee63fb763353d4bd2e89b0751bc78fcf7dda00bea774",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/6/5/d/4/b/65d4b6d7159459f34871bd5b77542ececc75ec604c1b80c82b200819.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/09/7d/af933f0f6e0767995b4e2d705a0665e454d1c19402aa7e895de3951ebb04/scipy-1.17.1-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+    "filename": "scipy-1.17.1-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+    "bytes": 35349300,
+    "sha256": "43af8d1f3bea642559019edfe64e9b11192a8978efbd1539d7bc2aaa23d92de4",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/a/a/7/4/9/aa7493bce5082ed6a5419dae5c139cf69f88aebb28b8d563460fbdf2.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/b2/88/cabf98d017d7b940720e514e5f8ee02e3e6f7495caf93c30735a38387ec4/sentry_sdk-2.73.0-py3-none-any.whl",
+    "filename": "sentry_sdk-2.73.0-py3-none-any.whl",
+    "bytes": 549011,
+    "sha256": "0bcfa6928ea5adbb89591858b514d27adac27c7a3cccc31b20ed10e0b09eda9e",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/2/9/f/0/4/29f042b956a171a2ea7b7efb831178b1c6b8ea87b92662dea223c2c5.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/b7/ce/149a00dd41f10bc29e5921b496af8b574d8413afcd5e30dfa0ed46c2cc5e/six-1.17.0-py2.py3-none-any.whl",
+    "filename": "six-1.17.0-py2.py3-none-any.whl",
+    "bytes": 11050,
+    "sha256": "4721f391ed90541fddacab5acf947aa0d3dc7d27b2e1e8eda2be8970586c3274",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/8/f/0/b/e/8f0be036aa367cf3274c4087a631dc2f11b53959d355868d268540ab.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/0e/65/5e726c372da8a5e35022a94388b12252710aad0c2351699c3d76ae8dba78/supervisor-4.3.0-py2.py3-none-any.whl",
+    "filename": "supervisor-4.3.0-py2.py3-none-any.whl",
+    "bytes": 320736,
+    "sha256": "0bcb763fddafba410f35cbde226aa7f8514b9fb82eb05a0c85f6588d1c13f8db",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/8/6/7/d/8/867d843d85a8e6da02376bf3b7cebd20c90a4fc9d155b56e65dea1e0.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/a2/09/77d55d46fd61b4a135c444fc97158ef34a095e5681d0a6c10b75bf356191/sympy-1.14.0-py3-none-any.whl",
+    "filename": "sympy-1.14.0-py3-none-any.whl",
+    "bytes": 6299353,
+    "sha256": "e091cc3e99d2141a0ba2847328f5479b05d94a6635cb96148ccb3f34671bd8f5",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/2/3/d/a/5/23da5dd67b172890e503790e129205ab641dff01e17576ba7a6e1dbd.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/43/e3/7d92a15f894aa0c9c4b49b8ee9ac9850d6e63b03c9c32c0367a13ae62209/mpmath-1.3.0-py3-none-any.whl",
+    "filename": "mpmath-1.3.0-py3-none-any.whl",
+    "bytes": 536198,
+    "sha256": "a0b2b9fe80bbcd81a6647ff13108738cfb482d481d826cc0e02f5b35e5c88d2c",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/2/3/6/a/f/236af1361ecc395783e4f32914fda32689fb75e69253f666adca3b01.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/24/65/8c5dddd7cb67f6571d154a58d7c6e2f07da54bf84c49b6a1839965b7c35e/tiktoken-0.14.0-cp311-cp311-manylinux_2_28_x86_64.whl",
+    "filename": "tiktoken-0.14.0-cp311-cp311-manylinux_2_28_x86_64.whl",
+    "bytes": 1206378,
+    "sha256": "f5e7665f6624e052e5e7f6a36919ab69279decdc976d7b16b4fa15e1897d0513",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/c/4/5/6/0/c4560dbd02460dfcdd0e56ac8fbe09291aff2cf71ea4efdbddcb39c3.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/a7/03/921a3d3c75785aca9ebfbfcabfbc3a1be12e2ab5265deb026d55a5a3f83e/tqdm-4.70.1-py3-none-any.whl",
+    "filename": "tqdm-4.70.1-py3-none-any.whl",
+    "bytes": 80199,
+    "sha256": "c293e525e6fef9c20e8728fd4612df02a0aa31bb5fe91ecd93e123b1b7bffa73",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/b/a/5/2/4/ba5248412189b2ad550f3632bf5eed15ea0e0a996e75a8ac8bec702a.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/51/e9/3a7820be2bb0fe53b6bc9c3be26d3d1158004e4c3ab953aa6840b955b1e9/truststore-0.10.5-py3-none-any.whl",
+    "filename": "truststore-0.10.5-py3-none-any.whl",
+    "bytes": 19017,
+    "sha256": "9aaaedaefaf06d8b206278cf8b5012bc897f485a874503501e12d776df78951c",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/1/d/2/0/5/1d205263452a584be2396e266aa7ad13a1d460fdb35f765ba437c492.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/07/ea/2e31b67051e91a133189e9c000c222502ddc6969856416de0d095de4c0b0/typer-0.27.3-py3-none-any.whl",
+    "filename": "typer-0.27.3-py3-none-any.whl",
+    "bytes": 123312,
+    "sha256": "e50022f28b82a86313e54501317a1db64bf8f8d036ff8cfe5ca7e47675454aff",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/2/0/e/8/2/20e828d19af9ad66fd630a41e45c8b2df5b0396a7bb1efa1fa676add.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/e0/f9/0595336914c5619e5f28a1fb793285925a8cd4b432c9da0a987836c7f822/shellingham-1.5.4-py2.py3-none-any.whl",
+    "filename": "shellingham-1.5.4-py2.py3-none-any.whl",
+    "bytes": 9755,
+    "sha256": "7ecfff8f2fd72616f7481040475a65b2bf8af90a56c89140852d1120324e8686",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/f/9/f/e/f/f9fefda6d920cbc237dd272a554c6379692ab580795be46e1dfc051a.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/67/81/4add07e5172b7ac40d8ed5ff580409a7801a4fe26d529bdd915401dabfbe/typing_inspection-0.4.4-py3-none-any.whl",
+    "filename": "typing_inspection-0.4.4-py3-none-any.whl",
+    "bytes": 14750,
+    "sha256": "65b8397ba37ccbce054456aaccddfc91e6e3083c92824df348d96ca832f3f147",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/a/4/8/6/b/a486b422847c9f684df1923260e7d892f6a8013db9dbe5c02ade7c11.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/0a/66/9a06c2227fedfd4919f0eaaa8b94377d9730882a7e4f95823c9a331ab5e1/tzdata-2026.6-py2.py3-none-any.whl",
+    "filename": "tzdata-2026.6-py2.py3-none-any.whl",
+    "bytes": 348210,
+    "sha256": "0a10eec6e13ef16b627fabed9a5f2ba61a62b1c67f327305f4e7e412a70b4aec",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/7/6/6/8/2/76682aed40d2e6e94e5a837b796c5f1fb829572e8d5484b9e21bc739.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/38/0c/b54a4fdd7f90a3af8b02ebc9ce6712c2c208b7926a2f7bad95c33ebbe943/uvicorn-0.54.0-py3-none-any.whl",
+    "filename": "uvicorn-0.54.0-py3-none-any.whl",
+    "bytes": 87427,
+    "sha256": "505bdb0f318731d45f1f712071fc781a8981f6847a31c902c9f5e652d4f67faf",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/0/3/5/7/9/0357975bac9056ac02d19e523a07851ecd42a4a5ec48bea2fd320522.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/f7/0b/6498fe8218db1ed5f785010c303bfef50516d0988e64988bb8f9f59d70ab/httptools-0.9.0-cp311-cp311-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl",
+    "filename": "httptools-0.9.0-cp311-cp311-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl",
+    "bytes": 499139,
+    "sha256": "b68fb053b37c258a473ab67f4965c3b439500dc160fe364667035a6833eaf50a",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/a/e/2/1/3/ae2130889d420750170aa929616f50b7fcb75710b6a1992383dec4d5.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/16/fd/8cbf6124607863399008ae4b0d2bb50c22ed83526deec28dca08d635eb6d/uvloop-0.23.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+    "filename": "uvloop-0.23.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+    "bytes": 3956355,
+    "sha256": "ab17b3a8aa754be0de0e397f7b95f13b14e56f077a4c6ae295e3d4afd199b325",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/7/9/f/8/d/79f8d12e1d4d15850d0abdb5e4b50d76467ce37ba51625111419f5cb.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/8a/cf/e3ad894ed5909a7c44b0707e89bc25d19a3d78b3a7aec846119443b6ae56/watchfiles-1.3.0-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+    "filename": "watchfiles-1.3.0-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+    "bytes": 458353,
+    "sha256": "b5768b49e426fd5b550b012c866db347cdf15c398ef98dc557b6e6b72fa74cd1",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/d/8/4/9/b/d849bd4424a3e60f33475756724d7ee5cb13daf17c3fce0f5ab10f1b.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/57/70/80f870701f8610e88649d3cd173a0e7ce66433913da3683035a4370063ad/websockets-17.4-cp311-cp311-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl",
+    "filename": "websockets-17.4-cp311-cp311-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl",
+    "bytes": 226041,
+    "sha256": "cebad8f4796248b91fc2168515e507e5cb6b663a32befd09f3b1e7920acdcb1a",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/d/e/d/f/9/dedf9f0070b05feac28c811b2c1e38421dabf43060223f556311ed4b.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/c3/88/97eef84f48fa04fbd6750e62dcceafba6c63c81b7ac1420856c8dcc0a3f9/astor-0.8.1-py2.py3-none-any.whl",
+    "filename": "astor-0.8.1-py2.py3-none-any.whl",
+    "bytes": 27488,
+    "sha256": "070a54e890cefb5b3739d19f30f5a5ec840ffc9c50ffa7d23cc9fc1a38ebbfc5",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/c/7/9/8/3/c79838f1c1f8031c039ffadaf7888a7354be4edd29e6a4a66c6be8e4.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/4b/ff/2c518f72592dd3a707e5f1484af5b21554afd55148389739aa98d0c735b3/blake3-1.0.11-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+    "filename": "blake3-1.0.11-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+    "bytes": 385960,
+    "sha256": "fe624bb87ee53d9770bec087631d7fd8f01eab0128693b8fe6b884d8c2cf0989",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/6/6/7/4/f/6674fc842d76c2cb65c598c8b698da4cbe5916e623f733facebd4aa1.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/dc/68/211287b89b122a6842b3f078ffecc5a2abd3c0e4362748586f765e2fb3c5/cachetools-7.2.7-py3-none-any.whl",
+    "filename": "cachetools-7.2.7-py3-none-any.whl",
+    "bytes": 19654,
+    "sha256": "88e6b53373a96786d20894fed9ce623ae5b73cbc07421b7a73098db088be69ae",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/a/c/0/b/9/ac0b9b7dc3cf70c266ea0515a61e5c69067751255ffdde2f0e8df501.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/44/d3/9aecf0948c50e54302ae8859c85358a82310331ca00e210f8984760a2e3c/cbor2-6.1.5-cp311-cp311-manylinux_2_28_x86_64.whl",
+    "filename": "cbor2-6.1.5-cp311-cp311-manylinux_2_28_x86_64.whl",
+    "bytes": 467049,
+    "sha256": "dd3e4f08aaf25bca5db6274ac40e4d138b0e09890510c1fda20d5b7840e505fa",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/b/2/f/d/e/b2fde6c6f759192a24adc93155af08c6f4978103e7b0c2b494bb4be3.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/88/39/799be3f2f0f38cc727ee3b4f1445fe6d5e4133064ec2e4115069418a5bb6/cloudpickle-3.1.2-py3-none-any.whl",
+    "filename": "cloudpickle-3.1.2-py3-none-any.whl",
+    "bytes": 22228,
+    "sha256": "9acb47f6afd73f60dc1df93bb801b472f05ff42fa6c84167d25cb206be1fbf4a",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/6/0/a/1/5/60a154d2606e2739665cd2949b0e7e7e739eab7d55e3171ce871b559.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/d3/49/a83b7664151a7bdfb5d7ca7f29cef4eb5574a4cb8e1f9dfbae7fea372e4f/cupy_cuda12x-14.2.0-cp311-cp311-manylinux2014_x86_64.whl",
+    "filename": "cupy_cuda12x-14.2.0-cp311-cp311-manylinux2014_x86_64.whl",
+    "bytes": 136632369,
+    "sha256": "5fe2366cc5c61a7ee4a527ce1e8951cb89092d0fb0b5830623cf114d1942c585",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/e/a/4/4/4/ea4448adba5b0d1b13cfadaf2ad1aa8677782574510a473222d585fa.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/1e/77/dc8c558f7593132cf8fefec57c4f60c83b16941c574ac5f619abb3ae7933/dill-0.4.1-py3-none-any.whl",
+    "filename": "dill-0.4.1-py3-none-any.whl",
+    "bytes": 120019,
+    "sha256": "1e1ce33e978ae97fcfcff5638477032b801c46c7c65cf717f95fbc2248f79a9d",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/5/7/c/f/9/57cf99e22b49c52c5ae1a139c1f259c93cbe31a9c4f644d0a97b8bfb.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/2a/09/f8d8f8f31e4483c10a906437b4ce31bdf3d6d417b73fe33f1a8b59e34228/einops-0.8.2-py3-none-any.whl",
+    "filename": "einops-0.8.2-py3-none-any.whl",
+    "bytes": 65638,
+    "sha256": "54058201ac7087911181bfec4af6091bb59380360f069276601256a76af08193",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/1/3/d/f/2/13df2a78b755519d641df95d2b6d9420bb828fb342c7b7c64c242d1b.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/1a/4f/30f66cedfec6c03bc304b28fbe073ed53179cf37a511b8ee8e8e7e2d3f17/grpcio-1.85.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+    "filename": "grpcio-1.85.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+    "bytes": 7392335,
+    "sha256": "83aced2a1c05648cee0de34e531351118b14c58238f0a61b43559ac8851647a8",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/b/6/1/1/5/b6115bdecc3ca507537800a3f5aec18601034ff88d6be27ffcc7202e.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/d5/08/5dc0713f8b4250d4c2b01eace5572b89d6a3a8ec398cfb4834979d22c222/grpcio_reflection-1.85.1-py3-none-any.whl",
+    "filename": "grpcio_reflection-1.85.1-py3-none-any.whl",
+    "bytes": 22987,
+    "sha256": "476f98ec652a5d69f837781ef44c9ff65ebc116e58a6c1dc7712526ac071262a",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/0/1/f/f/9/01ff9f75382d8a5200bce61ecc8d828d5d2c17e1b1cb6495512fcca7.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/66/63/027e4f03328b9c7684b1b2a467d796a7381a48337f93b5747c2bb4f88cc4/ijson-3.6.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+    "filename": "ijson-3.6.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+    "bytes": 135574,
+    "sha256": "fa09fa38307b66c43efc98077f21e18e0af2fd192ff42130834cdcf4720424a6",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/0/b/b/b/2/0bbb2443ad24c9fd3e5df4cd47ff995727bfc7858b83fb21972107ed.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/14/2f/967ba146e6d58cf6a652da73885f52fc68001525b4197effc174321d70b4/jmespath-1.1.0-py3-none-any.whl",
+    "filename": "jmespath-1.1.0-py3-none-any.whl",
+    "bytes": 20419,
+    "sha256": "a5663118de4908c91729bea0acadca56526eb2698e83de10cd116ae0f4e97c64",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/b/e/4/3/a/be43a1a6b59d0869e821049f1ff7537385b735018bac98af3f3b59a3.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/0c/29/0348de65b8cc732daa3e33e67806420b2ae89bdce2b04af740289c5c6c8c/loguru-0.7.3-py3-none-any.whl",
+    "filename": "loguru-0.7.3-py3-none-any.whl",
+    "bytes": 61595,
+    "sha256": "31a33c10c8e1e10422bfd431aeb5d351c7cf7fa671e3c4df004162264b28220c",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/3/b/4/f/2/3b4f27ab8bfaaa417be99142e17d971b39194226d9ebd11c9f104b9f.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/20/d7/4a2878f128df729db3ca04e71bfce26405cc2e0c9ebe19c592feeb4c61b9/mcp-2.3.0-py3-none-any.whl",
+    "filename": "mcp-2.3.0-py3-none-any.whl",
+    "bytes": 368664,
+    "sha256": "dd0c44c089d16453e8ae31a3877a0054d7a2314caaa81f5e0541b9b1734b2377",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/7/0/4/9/e/7049ed2b88791a8e60821d2325d046ca1cc02dc0e901b399d656d4ae.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/ce/48/32583066b155bb5d4507e7887dc88ee23118cc4de8e2a12870c49719e2a8/mcp_types-2.3.0-py3-none-any.whl",
+    "filename": "mcp_types-2.3.0-py3-none-any.whl",
+    "bytes": 69108,
+    "sha256": "968efdbdaedfab06adae40d378a34395f1090c5921d4be3c9cde283aaf76d91d",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/8/9/f/3/d/89f3d958047a44d5bd2afd15ab6ef2e67c6169f838e62a71e8c8e1db.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/50/ca/44de4e75f8aadc457f0634be3b542815078ded46dca30efb960edeecad6e/pyjwt-2.15.1-py3-none-any.whl",
+    "filename": "pyjwt-2.15.1-py3-none-any.whl",
+    "bytes": 33860,
+    "sha256": "42d59d631f7768a1028a64c7ff581a9bf7519804daf91fc5b6c56e30eec5e193",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/5/0/4/b/b/504bbce6ee7ebb4c9e74bf0d2f2119a3ae1d00e1a4f8916f49619915.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/cf/49/35053078cdfcf639237e8bee6dc6f34f1b3a3cc8d01800a1e213e1660ff6/sse_starlette-3.6.0-py3-none-any.whl",
+    "filename": "sse_starlette-3.6.0-py3-none-any.whl",
+    "bytes": 17985,
+    "sha256": "e4dfa4d237d2712cb2b4d4918eda9b457cd6b44bbecdc838af75de836565bafd",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/5/e/a/9/f/5ea9f4fb764a212e66eb1835b869f0205d0858f7f20c2417dff6f43c.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/7b/e6/16ddb09185d79dc00177994cf0bdb1cd8e5cc44a1d1bfba61bdda5f382cb/msgspec-0.22.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+    "filename": "msgspec-0.22.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+    "bytes": 225251,
+    "sha256": "a6db3806b3b76ca78064255eac6fa101a8a64fe6f698d80fbaf81fdfa21217d4",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/3/2/2/e/a/322eadf7a77cdb78429979a62582b020d7cb858ba1840895e3ccff02.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/6e/53/ebfed7b689c338dd8ebeec9c0730c8d56821292f14e2536e5f3ef1a05744/ninja-1.13.2-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+    "filename": "ninja-1.13.2-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+    "bytes": 183365,
+    "sha256": "65a24341b5ac09fcadcc37082660be40a94174e51a937fabf6e2cae26225fa2c",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/8/0/3/8/f/8038f61d1e0fbbdc3d7642de6464d6bf9627293d0e496420e8673ea0.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/53/a1/1681dfa1c904d4e3e72e51b55a0ff012d50b766843ef832d584abe2113c6/nvidia_ml_py-13.615.71-py3-none-any.whl",
+    "filename": "nvidia_ml_py-13.615.71-py3-none-any.whl",
+    "bytes": 58132,
+    "sha256": "959bf4adf6fe1308e4bd739e722236b0d1ec8392e2cefad33ff70c311380b9b6",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/8/2/3/5/4/82354a34630f2698549b57f7cf001ae287e9cf0d70b43ad46fa4ea15.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/42/32/658973117bf0fd82a24abbfb94fe73a5e86216e49342985e10acce54775a/partial_json_parser-0.2.1.1.post7-py3-none-any.whl",
+    "filename": "partial_json_parser-0.2.1.1.post7-py3-none-any.whl",
+    "bytes": 10877,
+    "sha256": "145119e5eabcf80cbb13844a6b50a85c68bf99d376f8ed771e2a3c3b03e653ae",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/8/c/e/b/9/8ceb92e26ed38cc1dbd83dcd50a82c3366a54ee1ed5c71097b8b4a8d.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/b5/70/5d8df3b09e25bce090399cf48e452d25c935ab72dad19406c77f4e828045/psutil-7.2.2-cp36-abi3-manylinux2010_x86_64.manylinux_2_12_x86_64.manylinux_2_28_x86_64.whl",
+    "filename": "psutil-7.2.2-cp36-abi3-manylinux2010_x86_64.manylinux_2_12_x86_64.manylinux_2_28_x86_64.whl",
+    "bytes": 155560,
+    "sha256": "076a2d2f923fd4821644f5ba89f059523da90dc9014e85f8e45a5774ca5bc6f9",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/5/5/9/7/3/55973bcb5be4271c406037d2de1f6d3fde15ddd45a7e26af600db4d3.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/e0/a9/023730ba63db1e494a271cb018dcd361bd2c917ba7004c3e49d5daf795a2/py_cpuinfo-9.0.0-py3-none-any.whl",
+    "filename": "py_cpuinfo-9.0.0-py3-none-any.whl",
+    "bytes": 22335,
+    "sha256": "859625bc251f64e21f077d099d4162689c762b5d6a4c3c97553d56241c9674d5",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/f/e/4/9/c/fe49c64cd81459030c0c6ea3ccb1d14be65b799bd1a2ff1d0c527d10.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/83/90/3fcd7eb178db3001e9bce5963a997836843136cf994225b065dc6e23b4c3/pybase64-1.5.1-cp311-cp311-manylinux1_x86_64.manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_5_x86_64.whl",
+    "filename": "pybase64-1.5.1-cp311-cp311-manylinux1_x86_64.manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_5_x86_64.whl",
+    "bytes": 94204,
+    "sha256": "13cfb64d2a0a8e15b9196c8b1ad61d8adfd8ee68bf4ce749cbb3a313239fef3b",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/6/b/b/a/e/6bbae1184e2cb32bb623fa312a8562eb2980b35347b2469ff2da1097.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/b6/ae/315bbeee126a769cbde43cf4908acb4b40408d8bf8bbf334dd7368d8dadf/pycparser-3.12-py3-none-any.whl",
+    "filename": "pycparser-3.12-py3-none-any.whl",
+    "bytes": 62600,
+    "sha256": "a076f3f489b39b43ed13563a1dafe42447445bec2e294154ec5c57fcdda4c85e",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/e/f/8/8/6/ef886b1025ad6f7855379af465b137becd4369a1e932644379a2042a.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/dc/55/6467fde553886cb293e41538f3a8b4e4fd4688c6df242cf982162d8367fb/python_json_logger-4.2.0-py3-none-any.whl",
+    "filename": "python_json_logger-4.2.0-py3-none-any.whl",
+    "bytes": 14988,
+    "sha256": "158a52126fcd6869e09574d2b66272666f3dc8f468c62637ef9a1fa883719cb9",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/a/6/e/4/e/a6e4eb77f25637baf9a033ec8ff8db9197e1ce955ce2ff287703d6f6.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/06/5f/9117bf854aef817ad0d0ee9310eed0308a7e529e7eaf2e80ad9cd281ef82/sentencepiece-0.2.2-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+    "filename": "sentencepiece-0.2.2-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+    "bytes": 1394242,
+    "sha256": "1416b92f2f010333786fe6306ed2631121d5ea492219b0841e967b6765e64107",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/f/7/1/c/9/f71c9eb3175cb6d65b1a2d6da116838c244cd13c879eca03732d765e.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/2e/89/7a19bba7f4a354fc3499bf83614b27452232235b1d44191f46ff396051de/setproctitle-1.3.8-cp311-cp311-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl",
+    "filename": "setproctitle-1.3.8-cp311-cp311-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl",
+    "bytes": 32316,
+    "sha256": "1a6f6a3b2920f4362e8d924f9e5b084f0b2692a2c140e348abd2e3a07a1def73",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip/http-v2/1/6/b/c/0/16bc0776a842b3821cb10fadcf1966ad2491671da86dffdce53ad84b.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/99/55/db07de81b5c630da5cbf5c7df646580ca26dfaefa593667fc6f2fe016d2e/tabulate-0.10.0-py3-none-any.whl",
+    "filename": "tabulate-0.10.0-py3-none-any.whl",
+    "bytes": 39814,
+    "sha256": "f0b0622e567335c8fabaaa659f1b33bcb6ddfe2e496071b743aa113f8774f2d3",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "models/MASA/gdino_masa.pth",
+    "source": "https://huggingface.co/dereksiyuanli/masa/resolve/25ed372c47f2c46cf36fd446d1b657b656bc7ea9/gdino_masa.pth",
+    "bytes": 1091120775,
+    "sha256": "15f4380ae4b17ac98c80a9a56bf6e569bac5bc21592906ccd3945a97438424ad",
+    "integrity": "Published SHA256 verified on download completion",
+    "kind": "model"
+  },
+  {
+    "path": "models/MASA/bert-base-uncased/LICENSE",
+    "source": "https://modelscope.cn/api/v1/models/AI-ModelScope/bert-base-uncased/repo?Revision=e655d956b91d226a698bac3dee0acba528f76eaf&FilePath=LICENSE",
+    "resolved_url": "https://modelscope.cn/api/v1/models/AI-ModelScope/bert-base-uncased/repo?Revision=e655d956b91d226a698bac3dee0acba528f76eaf&FilePath=LICENSE",
+    "bytes": 11356,
+    "sha256": "43070e2d4e532684de521b885f385d0841030efa2b1a20bafb76133a5e1379c1",
+    "integrity": "Published SHA256 verified",
+    "kind": "model"
+  },
+  {
+    "path": "models/MASA/bert-base-uncased/config.json",
+    "source": "https://modelscope.cn/api/v1/models/AI-ModelScope/bert-base-uncased/repo?Revision=e655d956b91d226a698bac3dee0acba528f76eaf&FilePath=config.json",
+    "resolved_url": "https://modelscope.cn/api/v1/models/AI-ModelScope/bert-base-uncased/repo?Revision=e655d956b91d226a698bac3dee0acba528f76eaf&FilePath=config.json",
+    "bytes": 570,
+    "sha256": "7160e1553ad2ca51d8c1cb066be533db31826e12d173824c1bb0cb1a4f187d20",
+    "integrity": "Published SHA256 verified",
+    "kind": "model"
+  },
+  {
+    "path": "models/MASA/bert-base-uncased/model.safetensors",
+    "source": "https://modelscope.cn/api/v1/models/AI-ModelScope/bert-base-uncased/repo?Revision=e655d956b91d226a698bac3dee0acba528f76eaf&FilePath=model.safetensors",
+    "resolved_url": "https://cdn-lfs-cn-1.modelscope.cn/prod/lfs-objects/68/d4/5e234eb4a928074dfd868cead0219ab85354cc53d20e772753c6bb9169d3?filename=model.safetensors&namespace=AI-ModelScope&repository=bert-base-uncased&revision=e655d956b91d226a698bac3dee0acba528f76eaf&tag=model&auth_key=1793461820-61b2f61ebce84db2a173d382e2671d89-0-22eac659aa6f7cddce4ce0c0b4753f33",
+    "bytes": 440449768,
+    "sha256": "68d45e234eb4a928074dfd868cead0219ab85354cc53d20e772753c6bb9169d3",
+    "integrity": "Published SHA256 verified",
+    "kind": "model"
+  },
+  {
+    "path": "models/MASA/bert-base-uncased/tokenizer.json",
+    "source": "https://modelscope.cn/api/v1/models/AI-ModelScope/bert-base-uncased/repo?Revision=e655d956b91d226a698bac3dee0acba528f76eaf&FilePath=tokenizer.json",
+    "resolved_url": "https://modelscope.cn/api/v1/models/AI-ModelScope/bert-base-uncased/repo?Revision=e655d956b91d226a698bac3dee0acba528f76eaf&FilePath=tokenizer.json",
+    "bytes": 466062,
+    "sha256": "ce64fce797c24f68df90b40a3f74f579b336a493db14bd583fd520ea0d8c9a98",
+    "integrity": "Published SHA256 verified",
+    "kind": "model"
+  },
+  {
+    "path": "models/MASA/bert-base-uncased/tokenizer_config.json",
+    "source": "https://modelscope.cn/api/v1/models/AI-ModelScope/bert-base-uncased/repo?Revision=e655d956b91d226a698bac3dee0acba528f76eaf&FilePath=tokenizer_config.json",
+    "resolved_url": "https://modelscope.cn/api/v1/models/AI-ModelScope/bert-base-uncased/repo?Revision=e655d956b91d226a698bac3dee0acba528f76eaf&FilePath=tokenizer_config.json",
+    "bytes": 28,
+    "sha256": "53b6f42b8b8daddbdc6d3532c324187a92b46c1602bd6e8d4ad5a413b4fc90e1",
+    "integrity": "Published SHA256 verified",
+    "kind": "model"
+  },
+  {
+    "path": "models/MASA/bert-base-uncased/vocab.txt",
+    "source": "https://modelscope.cn/api/v1/models/AI-ModelScope/bert-base-uncased/repo?Revision=e655d956b91d226a698bac3dee0acba528f76eaf&FilePath=vocab.txt",
+    "resolved_url": "https://modelscope.cn/api/v1/models/AI-ModelScope/bert-base-uncased/repo?Revision=e655d956b91d226a698bac3dee0acba528f76eaf&FilePath=vocab.txt",
+    "bytes": 231508,
+    "sha256": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+    "integrity": "Published SHA256 verified",
+    "kind": "model"
+  },
+  {
+    "path": "cache/masa_wheels/torch-2.1.2+cu118-cp311-cp311-linux_x86_64.whl",
+    "source": "file:///data2/user/toc_phase0/cache/masa_wheels/torch-2.1.2%2Bcu118-cp311-cp311-linux_x86_64.whl",
+    "bytes": 2325933097,
+    "sha256": "051833f6174e672eb313ee1c70dbcaf97e558dc46237215407933d28f40bca85",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/masa_wheels/torchvision-0.16.2+cu118-cp311-cp311-linux_x86_64.whl",
+    "source": "file:///data2/user/toc_phase0/cache/masa_wheels/torchvision-0.16.2%2Bcu118-cp311-cp311-linux_x86_64.whl",
+    "bytes": 6102681,
+    "sha256": "9a784073e801c04066a5e4453306010b67bacfbff12bd57e5d65c1a638584a89",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/masa_wheels/torchaudio-2.1.2+cu118-cp311-cp311-linux_x86_64.whl",
+    "source": "file:///data2/user/toc_phase0/cache/masa_wheels/torchaudio-2.1.2%2Bcu118-cp311-cp311-linux_x86_64.whl",
+    "bytes": 3210220,
+    "sha256": "f762d7f7dbc2bc49cc53ab0830ae222485d54e34835db549a0d1ad40eb609af3",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/1/6/0/e/b/160eb7ce3fb2ac89380310299d610e33030e0911a03470c8b65476ff.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/3a/d0/edc009c27b406c4f9cbc79274d6e46d634d139075492ad055e3d68445925/numpy-1.26.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+    "bytes": 18252005,
+    "sha256": "666dbfb6ec68962c033a450943ded891bed2d54e6755e35e5835d63f4f6931d5",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/c/f/0/4/3/cf0430ebb0fdd72379345ec7ddcee306741d4683094fa0545f7db9e0.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/d2/05/e6600db80270777c4a64238a98d442f0fd07cc8915be2a1c16da7f2b9e74/sympy-1.12-py3-none-any.whl",
+    "bytes": 5742435,
+    "sha256": "c3588cd4295d0c0f603d0f2ae780587e64e2efeedb3521e46b9bb1d08d184fa5",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/5/f/d/c/0/5fdc072cf165ade4ef559c5144ef6d23d9431db22b356d68d15def05.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/5c/c1/54fffb2eb13d293d9a429fead3646752ea190de0229bcf3d591ba2481263/triton-2.1.0-0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+    "bytes": 89234153,
+    "sha256": "919b06453f0033ea52c13eaf7833de0e57db3178d23d4e04f9fc71c4f2c32bf8",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/6/8/7/d/6/687d65fb88b914d457589611c8acbc978c36c0c7157dce95cc3b9aae.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/13/f2/abeec3db71d221ccd3cd89d206be1fabf5a3ee7178862f5fba23a59607e0/mpmath-1.4.1-py3-none-any.whl",
+    "bytes": 567787,
+    "sha256": "dc4f0ea2304480d4a9a48a94c1020571558ade522b44a6912efac63a586e140f",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/5/f/3/7/3/5f373938784c66e87dd06879ab0101b2775a3e380b52d87b73fb0814.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/36/46/f509b74787f40ce0627501089d630b2c741b63b244c1f40b640b3b01e181/pillow-13.0.0-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+    "bytes": 7140667,
+    "sha256": "a625df9a2a5597fa5e5266e01aefc82604bb85d291e3547981e863560d75da6c",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/f/2/f/1/e/f2f1ec67d3dd849a6fca21b9fe551cdafb2820dcc2cb8cb0e5806ccc.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/b7/8d/3f849fcb79359259737bc2d8ddcaee6149ffb773239a260c9ff20179736f/filelock-4.2.6-py3-none-any.whl",
+    "bytes": 164378,
+    "sha256": "fd7d4fca497bf3e3d0945a13261f8e684f2aef12ce7cf76aef26e13bf7388b88",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/2/2/a/2/7/22a27efb75def38b1f06d8ddba9cc1e8d9e14796df93d2e1cdcb1230.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/6c/c0/a98505f18594f1bce828bb159cec0fcf9860562f1a2c85913409fc8f3d9e/fsspec-2026.9.0-py3-none-any.whl",
+    "bytes": 221738,
+    "sha256": "8dd6e646e99ea382bd85f97a45e6b526a442d79423a7dc673f1e2756d05fcb5f",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/1/5/4/2/4/15424205845835a88eb988115c4cb76e3e8b4d5272aababd5895a343.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/62/a1/3d680cbfd5f4b8f15abc1d571870c5fc3e594bb582bc3b64ea099db13e56/jinja2-3.1.6-py3-none-any.whl",
+    "bytes": 134899,
+    "sha256": "85ece4451f492d0c13c5dd7c13a64681a86afae63a5f347908daf103ce6d2f67",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/e/c/9/8/b/ec98b4fd2c509cf401624df9b4435d7f4d99096571f813ab03c38be6.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/81/a5/a513b76c139a3915b43404324e55c0b7979ae4f0d39eb6f075b0282e90a8/markupsafe-3.0.4-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+    "bytes": 22961,
+    "sha256": "6da83a088f8ef93b2d483a8232a4dbf4d69d3d8496b568a03c56becac43e1808",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/9/9/d/d/f/99ddf65827b7b1152723452ebd1d1733bab55e510623607d1961adea.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/9e/c9/b2622292ea83fbb4ec318f5b9ab867d0a28ab43c5717bb85b0a5f6b3b0a4/networkx-3.6.1-py3-none-any.whl",
+    "bytes": 2068504,
+    "sha256": "d47fbf302e7d9cbbb9e2555a0d267983d2aa476bac30e90dfbe5669bd57f3762",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/c/d/d/5/2/cdd52f4265939853222d4e30df947e372c0a2172141553eee10cffab.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/a0/f4/c67b0b3f1b9245e8d266f0f112c500d50e5b4e83cb6f3b71b6528104182a/requests-2.34.2-py3-none-any.whl",
+    "bytes": 73075,
+    "sha256": "2a0d60c172f83ac6ab31e4554906c0f3b3588d37b5cb939b1c061f4907e278e0",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/e/4/1/d/4/e41d471b9f508d685b18931f80116ab942b0d47127b5700c43f715c8.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/e4/ed/cf505d3011ffceb12c2067a7a5d3cfe92b875d4d44bb0ff0d69375e2c184/charset_normalizer-3.5.2-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+    "bytes": 269972,
+    "sha256": "211d5a3eb6af8f513b8d4ca19a8c1b7accab1b5f0d3175f9826b03c1a920dc1f",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/9/9/1/7/c/9917c4ea248ab1505e4025736e89c999891ec00e97be145d4a4f8208.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/58/a2/bb081bab032533a855d44de1d56f8e8426114ff1ba5d1f07a438a0a654f8/idna-3.20-py3-none-any.whl",
+    "bytes": 69583,
+    "sha256": "ab7ae7122974553370f0bdb919e1a960b2cd1bc1ef0276416d896db81c14582c",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/9/1/d/0/1/91d01b5aef41577df38977e36a4a8f82d9ea6e9aa47783c95019e083.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/92/9d/c4e665119135114480843e7ab388fa94d8480650450e6f8e26b70d323a4c/urllib3-2.8.0-py3-none-any.whl",
+    "bytes": 135717,
+    "sha256": "0cf3cae568d36aa9576b28dfb35f11328f1cb974ca7647d9475ebb86c75ac6e3",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/b/b/e/1/8/bbe187ee3eab6d08a22ebb49ce482fb6d52010fc6c2387521397b8e2.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/32/d1/a3652fe2c19134d0d15922177821d863cbd7e842d53a21bbe7e8e3a1b5ac/certifi-2026.10.23-py3-none-any.whl",
+    "bytes": 135082,
+    "sha256": "e9b54de76e530bb6cf0ccd036787103acb58fd42ba930ea8bf948ddbaa2f61d1",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/1/0/0/1/a/1001a82df373a74ffeb2732326d91399a4bab29f4e470129577153e6.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/49/d3/b8441a820a491ddfc024b0b0cf0393375b75ea13866d9c66727e54c2fc80/typing_extensions-4.16.0-py3-none-any.whl",
+    "bytes": 45571,
+    "sha256": "481caa481374e813c1b176ada14e97f1f67a4539ce9cfeb3f350d78d6370c2e8",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/b/b/0/c/8/bb0c8d50e89e31682e13d5c21fa1eb46b374ed351ba955c76e8f8b0f.body",
+    "source": "https://download.openmmlab.com/mmcv/dist/cu118/torch2.1.0/mmcv-2.1.0-cp311-cp311-manylinux1_x86_64.whl",
+    "bytes": 99353053,
+    "sha256": "f765bd9da2bae155715aa8da5d0b1bf9432cba3adc7eeacce7d21b7501ae4191",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/8/b/b/f/0/8bbf0c0a33c57fc8593f15c0f5433d707a90d19b8728e826095b0a79.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/98/8e/f98332248aad102511bea4ae19c0ddacd2f0a994f3ca4c82b7a369e0af8b/mmengine-0.10.7-py3-none-any.whl",
+    "bytes": 452720,
+    "sha256": "262ac976a925562f78cd5fd14dd1bc9b680ed0aa81f0d85b723ef782f99c54ee",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/c/a/8/e/6/ca8e6c5764f2a27d644fee0a0a648f71e9095e5b3ebd9701ae0ea0ae.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/02/c7/c2d91161c9b3e1c237ea00e9cefb7f4bfe2854769f56025db415b734aedb/mmdet-3.3.0-py3-none-any.whl",
+    "bytes": 2231444,
+    "sha256": "2e23e291281ac57e7dccf8678e957da45fbe560ce78a1f5ded6afeccd3730f17",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/a/b/8/9/e/ab89e77cec2f741d61c8e7d394167241f3623a2b9529739c0faeb455.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/b6/4d/fbe6d89fde59d8107f0a02816c4ac4542a8f9a85559fdf33c68282affcc1/transformers-4.38.2-py3-none-any.whl",
+    "bytes": 8544466,
+    "sha256": "c4029cb9f01b3dd335e52f364c52d2b37c65b4c78e02e6a08b1919c5c928573e",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/4/c/d/4/f/4cd4f60ed3a52ae74c13270a9579ecd353959fe99840a00076876cd0.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/cb/bd/1a875e0d592d447cbc02805fd3fe0f497714d6a2583f59d14fa9ebad96eb/huggingface_hub-0.36.0-py3-none-any.whl",
+    "bytes": 566094,
+    "sha256": "7bcc9ad17d5b3f07b57c78e79d527102d08313caa278a641993acddcb894548d",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/4/6/1/0/6/461067e3382a8d2d68c80502eb97397b38de0bdd8893108942fb45f7.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/3f/a4/d2537f47fd7fcfba966bd806e3ec18e7ee1681056d4b0a9c8d983983e4d5/opencv_python-4.10.0.84-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+    "bytes": 62548253,
+    "sha256": "9ace140fc6d647fbe1c692bcb2abce768973491222c067c131d80957c595b71f",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/4/2/3/d/5/423d53df6758c1af5da40c3564b22cbf4959fb34e8fa513804b83535.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/f9/57/8c53abf4b9664544f71f23dd7b0c6788a47f72a2f799e545b190f5f5057f/supervision-0.26.1-py3-none-any.whl",
+    "bytes": 207171,
+    "sha256": "43c55e2830f38f5750be7266208992dc16996da9c9478e067bc2617ebaf91c1a",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/c/0/4/9/c/c049cce5bb23f0934251a9c52326eeab48f2a24442af767cc03795e5.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/00/b3/95531cee452028869d0e08974561f83e9c256c98f62c7a45a51893a61c54/openmim-0.3.9-py2.py3-none-any.whl",
+    "bytes": 52660,
+    "sha256": "71581498b68767f8e1f340575b91c9994ccc93656901639f11300e46247da263",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/6/a/9/f/a/6a9fa5d0ecebefd6dc916cbfd998cea0e547757f250e9d2bc41d0920.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/c1/08/b3334d7b543ac10dcb129cef4f84723ab696725512f18d69ab3a784b0bf5/fairscale-0.4.13.tar.gz",
+    "bytes": 266261,
+    "sha256": "1b797825c427f5dba92253fd0d8daa574e8bd651a2423497775fab1b30cfb768",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/c/f/6/3/e/cf63e7bfc83ed88f582ddee7f7c58551592118bde0e1589ef2b03724.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/bf/c9/63f8d545568d9ab91476b1818b4741f521646cbdd151c6efebf40d6de6f7/pandas-2.3.3-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl",
+    "bytes": 12789281,
+    "sha256": "b98560e98cb334799c0b07ca7967ac361a47326e9b4e5a7dfb5ab2b1c9d35a1b",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/5/d/d/3/3/5dd334e9d1d84cc2ec338c7ff2b9bb83f13cdedc37b20f39d99691c0.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/f8/1e/1e8ecc05ef034e9a95c18ed32d2ec07905a7cd2ca611a9d88e25ee1f4850/hf_xet-1.8.0-cp38-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+    "bytes": 4292483,
+    "sha256": "29dab7c904cd1914a0439c6e1306c12c7497c8bd32290fbe563ebf51ca4b6d6d",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/e/8/5/d/0/e85d027fffccb38cbd6deaa86c49bdcf3475f7506fde0f670eba439d.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/15/0b/c09b2c0dc688c82adadaa0d5080983de3ce920f4a5cbadb7eaa5302ad251/tokenizers-0.15.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+    "bytes": 3577167,
+    "sha256": "ccd73a82751c523b3fc31ff8194702e4af4db21dc20e55b30ecc2079c5d43cb7",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/9/e/4/a/0/9e4a09be974eecd7a57bcd57e6c297ff8379782988670edfb9ea7f0e.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/a2/04/e7816813e409ca874ba2fcc35455db0e4130b79eb277e1f9edd270ca3c69/nltk-3.10.4-py3-none-any.whl",
+    "bytes": 1722994,
+    "sha256": "769ba5413f265b7d3e87cd163cc28efa01e29eeef8bb6080bc907949d9fcfb51",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/2/6/1/c/9/261c9e5615b1d4aee7200a0bcbb57236bfee5167bf924eff08287996.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/52/a0/c1f604538ff6db22a0690be2dc44ab59178e115f63c917794e529356ab23/h5py-3.16.0-cp311-cp311-manylinux_2_28_x86_64.whl",
+    "bytes": 5027150,
+    "sha256": "fb1720028d99040792bb2fb31facb8da44a6f29df7697e0b84f0d79aff2e9bd3",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/5/7/c/f/9/57cf99e22b49c52c5ae1a139c1f259c93cbe31a9c4f644d0a97b8bfb.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/2a/09/f8d8f8f31e4483c10a906437b4ce31bdf3d6d417b73fe33f1a8b59e34228/einops-0.8.2-py3-none-any.whl",
+    "bytes": 65638,
+    "sha256": "54058201ac7087911181bfec4af6091bb59380360f069276601256a76af08193",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/3/8/1/4/3/3814314820579b6130febca617cc514bd0ab40ebe8143fec3676f03f.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/83/11/00d3c3dfc25ad54e731d91449895a79e4bf2384dc3ac01809010ba88f6d5/seaborn-0.13.2-py3-none-any.whl",
+    "bytes": 294914,
+    "sha256": "636f8336facf092165e27924f223d3c62ca560b1f2bb5dff7ab7fad265361987",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/4/c/4/f/2/4c4f2b3b4a42aa43e596133720dec86e14d4a0cbc5a51db15a24d61b.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/72/b6/1992240ab48310b5360bfdd1d53163f43bb97d90dc5dc723c67d41c38e78/lvis-0.5.3-py3-none-any.whl",
+    "bytes": 14024,
+    "sha256": "4f07153330df342b3161fafb46641ce7c02864113a8ddf0d6ffab6b02407bef0",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/0/5/1/0/e/0510eb35be0916c0ab74535a0c82c2ac10b3afad001ee36197b15d6e.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/ab/6e/81d47999aebc1b155f81eca4477a616a70f238a2549848c38983f3c22a82/ftfy-6.3.1-py3-none-any.whl",
+    "bytes": 44821,
+    "sha256": "7c70eb532015cd2f9adb53f101fb6c7945988d023a085d127d1573dc49dd0083",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/7/a/4/a/d/7a4ad244ce620a63cb45e2e77a503e073c9fb50da9ac22c79a7cca77.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/8a/70/aa08d1d2b294894b365e5f8ba5380fe3f8546acdb81f10639dfd74209c37/regex-2026.9.29-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+    "bytes": 804978,
+    "sha256": "612b709381c0355b70d89cdb51b7f670591ed5cbbc0e3b5337488019dc667b65",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/3/7/b/e/0/37be03e12af5d3de3aa7c7b7685116fb62c83d12c1fb11e205f41cc4.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/34/70/7a12752784e57d8034a76c245c618a2f88a9d2463862b990f314aea7e5d6/pycocotools-2.0.11-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+    "bytes": 493172,
+    "sha256": "18ba75ff58cedb33a85ce2c18f1452f1fe20c9dd59925eec5300b2bf6205dbe1",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/0/3/4/4/7/0344711816d57886537d387c82cfd7fc5f29fdb37db9820e0b8f560b.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/e7/05/c19819d5e3d95294a6f5947fb9b9629efb316b96de511b418c53d245aae6/cycler-0.12.1-py3-none-any.whl",
+    "bytes": 8321,
+    "sha256": "85cef7cff222d8644161529808465972e51340599459b8ac3ccbac5a854e0d30",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/a/1/b/6/2/a1b627d9ed168adad5a6120a6d4347db07120952375b133561fe6410.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/3f/9b/dd726d11b2aff24f0c3fa68ce9e3934097a058aca471a8cc9888aeae5471/cython-3.3.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+    "bytes": 3479260,
+    "sha256": "e6035b5231a9316edc19d6415f4296fd1d0370e2a165a714b3edc167b9ca00e1",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/7/9/9/c/5/799c5ec71217f7183726b1774457c85371fa2162e23374da19af5bd8.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/07/6c/aa3f2f849e01cb6a001cd8554a88d4c77c5c1a31c95bdf1cf9301e6d9ef4/defusedxml-0.7.1-py2.py3-none-any.whl",
+    "bytes": 25604,
+    "sha256": "a352e7e428770286cc899e2542b6cdaedb2b4953ff269a210103ec58f6198a61",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/5/2/f/c/5/52fc50bb538a2ee805d8e38225c2f3d1553cd9523e316975d2ceea0e.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/89/00/05c2d0369ac322d22d5c05f84b5c4a6856fa6207fbae42869108a28f0383/kiwisolver-1.5.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+    "bytes": 1438206,
+    "sha256": "95a02752aa032eef4aed01cda6d9b687c669bd0396bf4519eef8bba22a286720",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/1/f/a/4/2/1fa42f3eba1ce408af2c40f0b6a706f5d541c58a1274e19140c80557.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/2e/a4/1ca765c63a60e3096ae2ad132eb25f6f7eab0377418cd0472808befd9665/matplotlib-3.11.2-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+    "bytes": 9854405,
+    "sha256": "07d9b9fa60cd4c393692f50d0bb03123242ddf61c99bb0e95e75feb354e7c1a8",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/9/a/5/1/9/9a519e702382aea7f7d3db52f74cdaf789d758f17c30ce6ee2f1b537.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/5f/4b/6157f24ca425b89fe2eb7e7be642375711ab671135be21e6faa100f7448c/contourpy-1.3.3-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+    "bytes": 355238,
+    "sha256": "51e79c1f7470158e838808d4a996fa9bac72c498e93d8ebe5119bc1e6becb0db",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/d/e/6/6/5/de665f5f979f9ef239deb48396d677bb5fcda16dea89a75c5ba454e7.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/00/01/e0f5b3d648ddd2eae35c4bcddcc2cffc059279e9d2cdb325bed10458f606/fonttools-4.68.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+    "bytes": 5493829,
+    "sha256": "4b9c89b5876f1a74b1341632dfaf4c4c2be565d76c060445df401ebe7a4ceefa",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/7/a/f/4/5/7af453c86ad72d82cfafb98a85508f99770f64a8f5fb413df5dc1cc1.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/38/bb/d215ee7c73b61497b28a5503f9f53523f294fcc936762b7caf90e0c1c2b5/pyparsing-3.3.3-py3-none-any.whl",
+    "bytes": 126420,
+    "sha256": "ece8c00a69cf01b45d0b1dedabb469c90d8caf996d4fda40f147627a122849a4",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/f/d/e/5/a/fde5a07d81d816fdc5de5ee5eca4aa0febd7e7f8b375e5fdba248574.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/5a/17/cebee01d1c0c1441174cf0456ddc91b280d79acb65340c05e41d77866ee8/python_dateutil-3.0.0-py2.py3-none-any.whl",
+    "bytes": 94659,
+    "sha256": "3c79630202e4152c6add678446984236efe4f57e84d8e892aab0637bab82e9fd",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/5/6/7/1/d/5671d6b4d9936f987f178bccffdd6622edd2308a16ebb3bd167949da.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/71/60/917329f640924b18ff085ab889a11c763e0b573da888e8404ff486657602/pyyaml-6.0.3-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+    "bytes": 806638,
+    "sha256": "b8bb0864c5a28024fac8a632c443c87c5aa6f215c0b126c449ae1a150412f31d",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/c/b/9/d/0/cb9d0226db639c50da4a0db5001bfab16d6559e61949efbb565e987c.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/28/50/f203ff3a3ddfe19308efc83c5a3a29ed02bf786732ec35e68bf9162f3365/safetensors-0.8.0-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+    "bytes": 516040,
+    "sha256": "fd6f3f93c9a0a7cc2788ee63fb763353d4bd2e89b0751bc78fcf7dda00bea774",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/6/5/d/4/b/65d4b6d7159459f34871bd5b77542ececc75ec604c1b80c82b200819.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/09/7d/af933f0f6e0767995b4e2d705a0665e454d1c19402aa7e895de3951ebb04/scipy-1.17.1-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+    "bytes": 35349300,
+    "sha256": "43af8d1f3bea642559019edfe64e9b11192a8978efbd1539d7bc2aaa23d92de4",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/2/9/f/0/4/29f042b956a171a2ea7b7efb831178b1c6b8ea87b92662dea223c2c5.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/b7/ce/149a00dd41f10bc29e5921b496af8b574d8413afcd5e30dfa0ed46c2cc5e/six-1.17.0-py2.py3-none-any.whl",
+    "bytes": 11050,
+    "sha256": "4721f391ed90541fddacab5acf947aa0d3dc7d27b2e1e8eda2be8970586c3274",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/a/4/8/6/b/a486b422847c9f684df1923260e7d892f6a8013db9dbe5c02ade7c11.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/0a/66/9a06c2227fedfd4919f0eaaa8b94377d9730882a7e4f95823c9a331ab5e1/tzdata-2026.6-py2.py3-none-any.whl",
+    "bytes": 348210,
+    "sha256": "0a10eec6e13ef16b627fabed9a5f2ba61a62b1c67f327305f4e7e412a70b4aec",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/a/9/0/a/e/a90ae8b33955a1239a2c31d923079be0703b51c417de4c5b16d4be73.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/6a/00/b08f23b7d7e1e14ce01419a467b583edbb93c6cdb8654e54a9cc579cd61f/addict-2.4.0-py3-none-any.whl",
+    "bytes": 3832,
+    "sha256": "249bb56bbfd3cdc2a004ea0ff4c2b6ddc84d53bc2194761636eb314d5cfa5dfc",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/0/3/6/c/1/036c1e62ef44f855956200e7421d0868e5f00fe01d98ef98f0ddf85d.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/58/50/6c0d534c5f134586a8e1ba4e330569e32f057e33372ae556463212fb4cd3/click-8.5.0-py3-none-any.whl",
+    "bytes": 125251,
+    "sha256": "255bc9599cf7748b4b1a446ccc735421bd08a2ae529a8b88597d3de5664ee360",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/5/d/4/0/f/5d40f5f78b4a8782a5e2256c6c278fced1556621b7e2f3540cf8b90e.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/d1/d6/3965ed04c63042e047cb6a3e6ed1a63a35087b6a609aa3a15ed8ac56c221/colorama-0.4.6-py2.py3-none-any.whl",
+    "bytes": 25335,
+    "sha256": "4f1d9991f5acc0ca119f9d443620b77f9d6b33703e51011c16baf57afb285fc6",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/2/4/6/8/0/24680210091d766733232f060b1c2c9452bb019407e6bd38fc7fe427.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/18/53/84099323c2ec4be98d935f63c033ac4151ee83836ca1050ede3b3aadf155/joblib-1.6.0-py3-none-any.whl",
+    "bytes": 306115,
+    "sha256": "3dbbf9f6e4b592a2357b854608e980fe6390d131d7a82f011a377ef2ebef7aba",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/b/2/f/d/e/b2fde6c6f759192a24adc93155af08c6f4978103e7b0c2b494bb4be3.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/88/39/799be3f2f0f38cc727ee3b4f1445fe6d5e4133064ec2e4115069418a5bb6/cloudpickle-3.1.2-py3-none-any.whl",
+    "bytes": 22228,
+    "sha256": "9acb47f6afd73f60dc1df93bb801b472f05ff42fa6c84167d25cb206be1fbf4a",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/1/1/6/4/1/11641edfe40e754e5fd6881571e762c62a41dcd0279834e7261e69c2.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/0f/a6/4d4cbbef704f186d143e2859296a610a355992e4eae71582bd598093b36a/model_index-0.1.11-py3-none-any.whl",
+    "bytes": 34393,
+    "sha256": "a2a4d4431cd44e571d31e223cc4b0432663a62689de453bdb666e56a514b0e07",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/c/9/5/7/c/c957ce374a0bea102187add456f85267a59d427f2b5110a8213842eb.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/fe/66/bcab3b677b71ad286b4e607e3427499537c76e13ad2e22584ba7a7d9882c/markdown-3.11.2-py3-none-any.whl",
+    "bytes": 114266,
+    "sha256": "f80390747a2a0ff2ba54da074ce4f862f72a6685f608cd2637b646a6d83993f5",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/2/c/7/7/b/2c77b8fc0fa8591d2f3b1b8dbd96a4b26619bf4031f666475b845ddb.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/10/82/28fa3a91b7c4852fbad9ad32c7b49e4b1e212ab7ccf7296736da0935070d/opendatalab-0.0.10-py3-none-any.whl",
+    "bytes": 29506,
+    "sha256": "b6a317785b7db418739933d4af6d981a0e45f6cf20a3e113bef63ed9b4488251",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/6/1/a/2/8/61a2808f8f1256a89c1361ea1421c4029e9da79e4fa347f6d3ca0722.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/b4/96/9328ab5187064f82af8843d8ee6be9bce9a1af0e5b9129d098555cf584f9/openxlab-0.1.3-py3-none-any.whl",
+    "bytes": 314531,
+    "sha256": "28bd36d225e6e92b25979de52b770fa477cc01180e2a0424c06e6ec8157dc57c",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/d/9/f/0/2/d9f02f44f0f80f25eb7b29270febbcb8037060213ac8e2419e57811b.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/8e/16/8f64922c8d7cd7ec193b145c9b11ad281064ff8604452ba19a6d5bbd7ed9/setuptools-60.2.0-py3-none-any.whl",
+    "bytes": 953071,
+    "sha256": "5c89b1a14a67ac5f0956f1cb0aeb7d1d3f4c8ba4e4e1ab7bf1af4933f9a2f0fe",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/b/9/6/5/9/b9659e6c0b9315404affb897cfb50d1ddfab9aad9bb5d15def9b9933.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/41/24/0b023b6537dfc9bae2c779353998e3e99ac7dfff4222fc6126650e93c3f3/filelock-3.14.0-py3-none-any.whl",
+    "bytes": 12001,
+    "sha256": "43339835842f110ca7ae60f1e1c160714c5a6afd15a2873419ab185334975c0f",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/c/f/b/c/5/cfbc5cd82d1199671ca1262ee9585914e2043bbdc41eb87a4ae1ea4f.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/86/e7/017f8a5948d70e130815eebd14c25dfad916bd574590f2d7e046f19eee3f/oss2-2.17.0.tar.gz",
+    "bytes": 259545,
+    "sha256": "da4489b89c76ec72c9dd4888bd2787c9e106cdd412cf6e14be00898e7dbcc859",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/2/b/3/1/b/2b31b86fe1e5991020f6c5c4bcf76e5a51509ace47a96be1b3e31b95.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/88/ef/eb23f262cca3c0c4eb7ab1933c3b1f03d021f2c48f54763065b6f0e321be/packaging-24.2-py3-none-any.whl",
+    "bytes": 65451,
+    "sha256": "09abb1bccd265c01f4a3aa3f7a7db064b36514d2cba19a2f694fe6150451a759",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/b/7/d/1/8/b7d18035a2dd142d8436ac6afb557aa5c6f31c665b00a8d432d844f3.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/3b/dd/9b84302ba85ac6d3d3042d3e8698374838bde1c386b4adb1223d7a0efd4e/pytz-2023.4-py2.py3-none-any.whl",
+    "bytes": 506530,
+    "sha256": "f90ef520d95e7c46951105338d918664ebfd6f1d995bd7d153127ce90efafa6a",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/e/0/6/6/6/e0666251756ea0b0ef31cf11365ea8853703d671217ed438c65195c6.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/d2/f4/274d1dbe96b41cf4e0efb70cbced278ffd61b5c7bb70338b62af94ccb25b/requests-2.28.2-py3-none-any.whl",
+    "bytes": 62822,
+    "sha256": "64299f4909223da747622c030b781c0d7811e359c37124b4bd368fb8c6518baa",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/0/f/8/8/b/0f88b190edd9edf02004a604b173955b36ceba54de9ce357239a35b9.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/fc/1e/482e5eec0b89b593e81d78f819a9412849814e22225842b598908e7ac560/rich-13.4.2-py3-none-any.whl",
+    "bytes": 239407,
+    "sha256": "8f87bc7ee54675732fa66a05ebfe489e27264caeeff3728c945d25971b6485ec",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/7/8/6/f/1/786f13d441f0acaeaac0b7f53db4587b0da044e1bb25f587ded905da.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/71/46/17f022dd3e953bf20a04a028a21ec746d942f8d2af30fa0f124fa0e6a684/pygments-2.21.0-py3-none-any.whl",
+    "bytes": 1250147,
+    "sha256": "2363c69b61c4a97c838da3b130dcd6468f4848992b21a82f2a63ec34377137d9",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/b/e/7/1/a/be71a80700da4d78965af46e6f864dc662018288b267076cebed2562.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/c0/ab/bd9ba7f84c509c8b377628bc66696d52623e30c6c0830db3c78748eec4b4/tqdm-4.65.2-py3-none-any.whl",
+    "bytes": 77079,
+    "sha256": "6c431f7dee4f57284c8f4bd2eb1d4af00d730d38cc6098bd79880bcbec676276",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/f/0/3/9/d/f039deaf7309e365da2afa6232e1bbb37c37408f6e8b187ff152cb74.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/33/cf/8435d5a7159e2a9c83a95896ed596f68cf798005fe107cc655b5c5c14704/urllib3-1.26.20-py2.py3-none-any.whl",
+    "bytes": 144225,
+    "sha256": "0ed14ccfbf1c30a9072c7ca157e4319b70d65f623e91e7b32fadb2853431016e",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/b/1/1/a/a/b11aa1cee1884c14e53e240dbabe2892eee85d68af1a6bfd8862df29.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/ea/38/eb3be49159d6442e68189f21a2205a199b51ca46cf42a3f874e695ff0ba9/aliyun_python_sdk_core-2.16.1-py3-none-any.whl",
+    "bytes": 521331,
+    "sha256": "0f25a6e8ec1ea29c76610278cff81cbff85149a6e692bf2398a6f9b77e5e7424",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/0/b/b/b/2/0bbb2443ad24c9fd3e5df4cd47ff995727bfc7858b83fb21972107ed.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/14/2f/967ba146e6d58cf6a652da73885f52fc68001525b4197effc174321d70b4/jmespath-1.1.0-py3-none-any.whl",
+    "bytes": 20419,
+    "sha256": "a5663118de4908c91729bea0acadca56526eb2698e83de10cd116ae0f4e97c64",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/5/4/c/3/1/54c31029f2d183a2204c04cd00a6395c3e4477aad3a460d8ae030efc.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/11/5c/0132193d7da2c735669a1ed103b142fd63c9455984d48c5a88a1a516efaa/aliyun_python_sdk_kms-2.16.5-py2.py3-none-any.whl",
+    "bytes": 99495,
+    "sha256": "24b6cdc4fd161d2942619479c8d050c63ea9cd22b044fe33b60bbb60153786f0",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/e/e/1/a/1/ee1a10dd14fe12c09e06a649d9736943f861cb663f47f0c6c6418c62.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/6b/b0/e595ce2a2527e169c3bcd6c33d2473c1918e0b7f6826a043ca1245dd4e5b/crcmod-1.7.tar.gz",
+    "bytes": 89670,
+    "sha256": "dc7051a0db5f2bd48665a990d3ec1cc305a466a77358ca4492826f41f283601e",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/d/3/9/d/9/d39d9b17c1da73820d59a27f5bd124a40dcbcf5ab154925c94ffe612.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/d3/69/2c833a049475e0a3444e94c7d0aca0aa51d166374a449b09e92ac98138de/cryptography-50.0.2-cp311-abi3-manylinux_2_34_x86_64.whl",
+    "bytes": 4752576,
+    "sha256": "9dab55f57c74c3cad24c323bacbbd04be4705ba6eb0d92e920b1fc4837ed5079",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/b/8/e/1/1/b8e11ade1a4911e56cde70e88932bc5e095e6f11184f2af7367eb8b3.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/f7/a4/4399daaf8f7dfee9d7c3327fdb0426ee041cc63edc358b93911ceb2bfc7a/cffi-2.1.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+    "bytes": 217807,
+    "sha256": "34e261f78cb6ceaaa36f42f2613f4380d94d9c759a9c73c769ee6e0247364632",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/8/5/5/f/8/855f8e3ba34bf818a053962d9922d42adb9762167fa9cb509f44400a.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/b3/81/4da04ced5a082363ecfa159c010d200ecbd959ae410c10c0264a38cac0f5/markdown_it_py-4.2.0-py3-none-any.whl",
+    "bytes": 91687,
+    "sha256": "9f7ebbcd14fe59494226453aed97c1070d83f8d24b6fc3a3bcf9a38092641c4a",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/7/5/e/9/b/75e9b870d5e3250a7415f8807988e90c9462470b60405ceba7fef5fa.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/b3/38/89ba8ad64ae25be8de66a6d463314cf1eb366222074cfda9ee839c56a4b4/mdurl-0.1.2-py3-none-any.whl",
+    "bytes": 9979,
+    "sha256": "84008a41e51615a49fc9966191ff91509e3c40b939176e643fd50a5c2196b8f8",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/d/4/f/3/5/d4f35b18869abc4f25fd620315ab34f9f9567fcf5f0d55d88a5fbad8.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/18/88/33df6b1176b63aed427745696d88ed38f7877104cf0f6004ee9ad600f897/pycryptodome-4.2.0-cp39-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+    "bytes": 2976488,
+    "sha256": "76777686de3a354c41710727988c2284448d5db9bd82e5ddb9a9b6710d17d9df",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/9/9/d/1/1/99d1197b7c354081c65b0686e58af3817b067a59bcc25644d8b1babc.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/33/55/af02708f230eb77084a299d7b08175cff006dea4f2721074b92cdb0296c0/ordered_set-4.1.0-py3-none-any.whl",
+    "bytes": 7634,
+    "sha256": "046e1132c71fcf3330438a539928932caf51ddbc582496833e23de611de14562",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/6/b/b/a/e/6bbae1184e2cb32bb623fa312a8562eb2980b35347b2469ff2da1097.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/b6/ae/315bbeee126a769cbde43cf4908acb4b40408d8bf8bbf334dd7368d8dadf/pycparser-3.12-py3-none-any.whl",
+    "bytes": 62600,
+    "sha256": "a076f3f489b39b43ed13563a1dafe42447445bec2e294154ec5c57fcdda4c85e",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/a/2/1/0/5/a21050cba4948a5e03ca6ed02444443817123fc32ae0a6bccd53f731.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/dc/20/56289b91914b62a0849de3c1efe5f0cfd5b5d7ba168568567900087615be/shapely-2.2.0-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl",
+    "bytes": 2307874,
+    "sha256": "5d61088e2ef71dafad0dd4fae8a521cc1f20da4a89d3096bab5b3260b39b3052",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/1/6/b/c/0/16bc0776a842b3821cb10fadcf1966ad2491671da86dffdce53ad84b.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/99/55/db07de81b5c630da5cbf5c7df646580ca26dfaefa593667fc6f2fe016d2e/tabulate-0.10.0-py3-none-any.whl",
+    "bytes": 39814,
+    "sha256": "f0b0622e567335c8fabaaa659f1b33bcb6ddfe2e496071b743aa113f8774f2d3",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/4/c/d/e/4/4cde48ba398c1b26d754192c3f4b7259b44363e05f86963c8c62f012.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/33/d1/8bb87d21e9aeb323cc03034f5eaf2c8f69841e40e4853c2627edf8111ed3/termcolor-3.3.0-py3-none-any.whl",
+    "bytes": 7734,
+    "sha256": "cf642efadaf0a8ebbbf4bc7a31cec2f9b5f21a9f726f4ccbb08192c9c26f43a5",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/b/a/e/b/e/baebef4e75d77ce0cb695171dfb8118c19b28edb973747eaf3d44645.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/c4/fb/ea621e0a19733e01fe4005d46087d383693c0f4a8f824b47d8d4122c87e0/terminaltables-3.1.10-py2.py3-none-any.whl",
+    "bytes": 15155,
+    "sha256": "e4fdc4179c9e4aab5f674d80f09d76fa436b96fdc698a8505e0a36bf0804a874",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/9/4/e/1/e/94e1e0f274c221c34d8570080a9b66b0aff9b08e4c7c2949f64d1275.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/fa/e8/0485850748dfdba9443f4151c7b2442cfa4987ba6cd871038eb5d6b8eca9/wcwidth-0.9.4-cp310-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+    "bytes": 785946,
+    "sha256": "b185c8b927b23af2721be1783499d1cfa5c028b098b0858951b4ae224477f1c2",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/5/f/9/0/8/5f908b25155dc8dc30ef587c755d3416c5fe2d13786c9d7b920cecb5.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/37/81/6acd6601f61e31cfb8729d3da6d5df966f80f374b78eff83760714487338/yapf-0.43.0-py3-none-any.whl",
+    "bytes": 256158,
+    "sha256": "224faffbc39c428cb095818cf6ef5511fdab6f7430a10783fdfb292ccf2852ca",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/7/e/9/0/6/7e9069393fa07e51f1dd38c7f34bd1f1b36704ae2af16b3da897e17c.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/0b/2d/98af31fdcd7c95c7114e2eb7c2eb0fa55d2a012c37ba4eb3722b7272abcb/platformdirs-4.14.2-py3-none-any.whl",
+    "bytes": 35291,
+    "sha256": "dc1f93390f2a9265e44e5afc8667ec7faf737739604e39bc538fec889720c36b",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/4/4/c/a/3/44ca36b991b7ded6edfe5e5264fd585efe60c87652720218e38b0427.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/16/ca/330c4f3bd983bb24ac12c7fd1e08c26c8aed70bc64498cf38c770321067f/pydantic-2.7.0-py3-none-any.whl",
+    "bytes": 407936,
+    "sha256": "9dee74a271705f14f9a1567671d144a851c675b072736f0a7b2608fd9e495352",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/2/1/3/0/c/2130c98be7bb78ee1353ac1b65530fef2286d54ef3ed50d93b65284b.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/b0/a5/5519e8416e85c58f0c06218310220acdd6c210d154e75da99ec4f5f0aca3/pydantic_core-2.18.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+    "bytes": 2052541,
+    "sha256": "68717c38a68e37af87c4da20e08f3e27d7e4212e99e96c3d875fbf3f4812abfc",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/8/9/4/5/b/8945bfdac17c46a5b9ce9807d3093549a6d092ea34fa91c92ece362d.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/1f/af/98b68b047c47d9430cb4c9ac899cf9d969de3936f888072991ea74da93a8/moviepy-0.2.3.5.tar.gz",
+    "bytes": 372996,
+    "sha256": "536ea61c2c7d276ee65daf2da8a1d2e34bbafd524d6e8a20fde38ce9bfbd2dcb",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/5/b/3/4/7/5b347e4983d5eed6b7b3508416677c2b7c0f6e1e6449c9ded073cb41.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/ed/1b/72a1821152d07cf1d8b6fce298aeb06a7eb90f4d6d41acec9861e7cc6df0/decorator-4.4.2-py2.py3-none-any.whl",
+    "bytes": 9239,
+    "sha256": "41fa54c2a0cc4ba648be4fd43cff00aedf5b9465c9bf18d64325bc225f08f760",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/b/3/3/f/0/b33f0bf79d2fe1d510be1d668132e62838ad4394ad01eb073f2a011d.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/7d/8a/3b7f62b9df56460959f1b9bef094248d2a4d7f393c5b0d2da8efcdf0e40e/imageio-2.38.1-py3-none-any.whl",
+    "bytes": 328389,
+    "sha256": "36d23eb7423d2fb63f637098758edb3d2df3687f7125e0a5ce8596572022dcf9",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/1/c/c/3/1/1cc31ece7b27a96ebd987423fecf8e258e98357d88a59a275b41bf68.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/99/91/8acff4f5e50511b911bbccb72b8628a49c68ce14148cd9f6431094859a90/annotated_types-0.8.0-py3-none-any.whl",
+    "bytes": 13427,
+    "sha256": "f072f4d804ea359e4eaf198b1af7a8b0943881a87f31bb764f8bf219bb9419e0",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/f/1/9/b/c/f19bc64457b6eaeccedb0dde1ff001bccb110951ea435acf3a143d07.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/96/b2/a7986c327f80aa6f1544f4cb8f2fa7da4e1fccd472379a21cad0508b8a0e/boto3-1.43.123-py3-none-any.whl",
+    "bytes": 140044,
+    "sha256": "d18d66e1e13faa0c25d0b1b8c5ce946e29fb5fc0b6456b655a93a678ff4cc313",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/c/6/e/3/e/c6e3e5fa1db3497d98a91e0eef6d231d86e1273e9d9de3377a0bef36.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/db/96/4f2dffd304425c07160ab2c12cb13322d852fd956fe9d4386228c93f02ea/botocore-1.43.123-py3-none-any.whl",
+    "bytes": 16185987,
+    "sha256": "e30580f9c1282c321529238ff8ff75066096a2adbd0a293c8ae592c21d1733a3",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/8/1/0/0/5/810053c900a58196d3541a08159ca8e69372d09bca30f63e39bd125a.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/ec/57/56b9bcc3c9c6a792fcbaf139543cee77261f3651ca9da0c93f5c1221264b/python_dateutil-2.9.0.post0-py2.py3-none-any.whl",
+    "bytes": 229892,
+    "sha256": "a8b2bc7bffae282281c8140a97d3aa9c14da0b136dfe83f850eea9a5f7470427",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/b/d/0/7/e/bd07e89c82a39cf2358fff19f020305617a43d42ce711fa22c2bb217.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/e2/a4/88f9e10498759121060b8050a1554753dfc04df39bbbcc7aad9ecc8d9440/s3transfer-0.19.3-py3-none-any.whl",
+    "bytes": 90252,
+    "sha256": "24eb7535804306355e31c952a90022bf5b2f9d760f9a11062c7493a217c08553",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/8/d/2/4/5/8d2459db47195a37f2298d6ab5591c5c168298252b3b6222846d2010.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/2f/d9/7b77e1e2db80b6f8133065ffbccdaa3c911df5f95a7af30829fcaa10a3d7/motmetrics-1.4.0-py3-none-any.whl",
+    "bytes": 161542,
+    "sha256": "cd4d691bd787360f1cd0a2127fe8a14d0646fb2912b344a9498719e132b25738",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/2/2/2/9/6/22296f209be0024bcf7dec7a3409efde2fc23d382393ce96ec1be2b5.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/38/34/98a2f52245f4d47be93b580dae5f9861ef58977d73a79eb47c58f1ad1f3a/xmltodict-1.0.4-py3-none-any.whl",
+    "bytes": 13580,
+    "sha256": "a4a00d300b0e1c59fc2bfccb53d7b2e88c32f200df138a0dd2229f842497026a",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/9/8/8/5/b/9885bd386202e9d21fe46bcf2c01c012632ec147add61aefc116077c.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/2e/0d/8630f13998638dc01e187fadd2e5c6d42d127d08aeb4943d231664d6e539/nanoid-2.0.0-py3-none-any.whl",
+    "bytes": 5844,
+    "sha256": "90aefa650e328cffb0893bbd4c236cfd44c48bc1f2d0b525ecc53c3187b653bb",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/2/d/5/3/e/2d53ea324d38cb95416e418d848632bed7e9b3be05223ead2434393b.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/ef/82/7a9d0550484a62c6da82858ee9419f3dd1ccc9aa1c26a1e43da3ecd20b0d/natsort-8.4.0-py3-none-any.whl",
+    "bytes": 38268,
+    "sha256": "4732914fb471f56b5cce04d7bae6f164a592c7712e1c85f9ef585e197299521c",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/4/b/a/a/f/4baaf17756e8af20c4182bc42eb9e9b18d8a5d26b6bd4899c41dc0ec.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/cc/0c/7cfda35338753113a01e8ba5b9e7736c5c66e6af3e548b5cdb16ffb75f6a/numba-0.68.1-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+    "bytes": 3836514,
+    "sha256": "58fe7a3810261cf13797d8aa94c018cfe91e1e8adf634df60eb60ef834f9367b",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/1/2/3/8/c/1238c206829122b85ec64169e204461535bf5f45440ece125373b180.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/59/b2/a5234f59ccf69cc90d29c62e01cacd1d60403fc5dfac77b38e019237d301/llvmlite-0.50.0-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+    "bytes": 59696588,
+    "sha256": "a6ffde00d4be8772a24e3e8b3af6bf86a79e7cf066d944ef56136b3957d707dc",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/8/1/5/a/0/815a0613faeb99e0b35a3607958b0b44e82f0778033b6d3108697384.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/22/22/1755bb4c7db15bb1ed63b4eb7a7fc133bf42a3f9cc806c0d5941e107ba90/plyfile-1.1.3-py3-none-any.whl",
+    "bytes": 36455,
+    "sha256": "581302f07b1c298431dcaa9038bba2ae80f3f7868b29ccb826a07bc4488ff38a",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/8/c/e/b/9/8ceb92e26ed38cc1dbd83dcd50a82c3366a54ee1ed5c71097b8b4a8d.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/b5/70/5d8df3b09e25bce090399cf48e452d25c935ab72dad19406c77f4e828045/psutil-7.2.2-cp36-abi3-manylinux2010_x86_64.manylinux_2_12_x86_64.manylinux_2_28_x86_64.whl",
+    "bytes": 155560,
+    "sha256": "076a2d2f923fd4821644f5ba89f059523da90dc9014e85f8e45a5774ca5bc6f9",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/d/7/2/9/9/d72993b2e06bc72b92f89c1a5cb959a0bd5f0d250a909fa22dfbdb23.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/44/6f/7120676b6d73228c96e17f1f794d8ab046fc910d781c8d151120c3f1569e/toml-0.10.2-py2.py3-none-any.whl",
+    "bytes": 16588,
+    "sha256": "806143ae5bfb6a3c6e736a764057db0e6a0e05e338b5630894a5f779cabb4f9b",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/2/1/f/9/5/21f956b9a8d3d26c17a920839289d2ab4a82506ec4a0278c93a7774e.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/38/4f/fe9a4d472aa867878ce3bb7efb16654c5d63672b86dc0e6e953a67018433/yacs-0.1.8-py3-none-any.whl",
+    "bytes": 14747,
+    "sha256": "99f893e30497a4b66842821bac316386f7bd5c4f47ad35c9073ef089aa33af32",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/pip_masa/http-v2/0/e/9/f/7/0e9f7989ee17e69cf1042f6c61ff525a01f3ce1c5a7df4797333296e.body",
+    "source": "https://pypi.tuna.tsinghua.edu.cn/packages/40/93/65c208f51895f74bbfea1423974c54fff1d1c4e9a97ebee1011b021554b8/youtube_dl-2021.12.17-py2.py3-none-any.whl",
+    "bytes": 1902317,
+    "sha256": "f1336d5de68647e0364a47b3c0712578e59ec76f02048ff5c50ef1c69d79cd55",
+    "integrity": "Cached archive SHA256 matches pip report",
+    "kind": "pip"
+  },
+  {
+    "path": "cache/masa_source_archives/openai_CLIP-d05afc436d78f1c48dc0dbf8e5980a9d471f35f6.zip",
+    "source": "https://codeload.github.com/openai/CLIP/zip/d05afc436d78f1c48dc0dbf8e5980a9d471f35f6",
+    "bytes": 4320082,
+    "sha256": "c665a33987c7365078c9988fdae5699026ec75cc4424bc0d59ab2599df22229a",
+    "integrity": "Local archive SHA256 recorded; pinned Git commit d05afc436d78f1c48dc0dbf8e5980a9d471f35f6",
+    "kind": "source"
+  },
+  {
+    "path": "cache/masa_source_archives/siyuanliii_TrackEval-c15c969ebca181d7787e1c0ad814012e934ba8b6.zip",
+    "source": "https://codeload.github.com/siyuanliii/TrackEval/zip/c15c969ebca181d7787e1c0ad814012e934ba8b6",
+    "bytes": 267795,
+    "sha256": "5e087bf1dda86e3a7a696f8c896a9d5b2ba0e907ce35d1b44f1f13ffdd805c71",
+    "integrity": "Local archive SHA256 recorded; pinned Git commit c15c969ebca181d7787e1c0ad814012e934ba8b6",
+    "kind": "source"
+  },
+  {
+    "path": "cache/masa_source_archives/SysCV_tet-a62a9c0affec3a97f2cd0263141c53bcfb9c79f7.zip",
+    "source": "https://codeload.github.com/SysCV/tet/zip/a62a9c0affec3a97f2cd0263141c53bcfb9c79f7",
+    "bytes": 1529685,
+    "sha256": "3a811f221d9584b45fe853ed1e69e24e46e2f14609d81fb6b451c5ff4727a863",
+    "integrity": "Local archive SHA256 recorded; pinned Git commit a62a9c0affec3a97f2cd0263141c53bcfb9c79f7",
+    "kind": "source"
+  },
+  {
+    "path": "upstream/masa_dependencies/scalabel-78b26be9800596a3c0c2a999f9e04deb8e3fc29a/.git/objects/pack/pack-4b4b7c776da6058bb9ead05f53fa3806ac398612.pack",
+    "source": "https://github.com/scalabel/scalabel.git",
+    "bytes": 12922008,
+    "sha256": "7afdc0025aeb7751aa64c0af7305f5f637d17c85375dda968ba2c5836d44312f",
+    "integrity": "git clone completed; pinned commit 78b26be9800596a3c0c2a999f9e04deb8e3fc29a; pack SHA256 recorded",
+    "kind": "source"
+  },
+  {
+    "path": "cache/masa_source_archives/TAO-Dataset_tao-a3a713c51e2fdeb3a106c34b06d889ea581150a7.zip",
+    "source": "https://codeload.github.com/TAO-Dataset/tao/zip/a3a713c51e2fdeb3a106c34b06d889ea581150a7",
+    "bytes": 133621,
+    "sha256": "3caf97e2fb8e2745e48a936f630f7c90d510146b167b829de0bdbbf7e7861004",
+    "integrity": "Local archive SHA256 recorded; pinned Git commit a3a713c51e2fdeb3a106c34b06d889ea581150a7",
+    "kind": "source"
+  },
+  {
+    "path": "cache/masa_source_archives/lvis-dataset_lvis-api-7d7f07def11da91f8b2710ce352c62a78fd5a7ad.zip",
+    "source": "https://codeload.github.com/lvis-dataset/lvis-api/zip/7d7f07def11da91f8b2710ce352c62a78fd5a7ad",
+    "bytes": 4506505,
+    "sha256": "0ea75cd4e41e7f87d09b7062ec6abe4985ec02ff96f757722807f454b0d1384f",
+    "integrity": "Local archive SHA256 recorded; pinned Git commit 7d7f07def11da91f8b2710ce352c62a78fd5a7ad",
+    "kind": "source"
+  },
+  {
+    "path": "upstream/masa/.git/objects/pack/pack-2752793c6c50c61fe78fe3a94c6dfc12a3bdd61a.pack",
+    "source": "https://github.com/siyuanliii/masa.git",
+    "bytes": 64093015,
+    "sha256": "86eba7d47678d32f08941ed30dc35d1ca7cb810a639cbd8f446254531340a4f8",
+    "integrity": "git clone completed; pinned commit c5472b9c7615f35abdf1188cb1a0c5408fe50d66; pack SHA256 recorded",
+    "kind": "source"
+  }
+]

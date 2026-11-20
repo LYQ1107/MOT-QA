@@ -1,0 +1,70 @@
+{
+  "unit_key": "dancetrack0005__id000",
+  "sequence": "dancetrack0005",
+  "gt_id": 0,
+  "phase": "generate",
+  "started_at": "2026-11-04T13:51:32.225953+00:00",
+  "completed_at": "2026-11-04T13:51:36.947488+00:00",
+  "seconds": 4.721574295312166,
+  "prompt_text": "The first image shows three crops of ONE target person at different times. The other image(s) show comparison people from the SAME video; every labeled tile is a different annotated person, shown in up to three crops. These comparison labels are anonymous bookkeeping labels, not appearance attributes.\nWrite one concise English noun phrase (at most 30 words), starting with \"the person\", describing the target using stable, clearly visible clothing, patterns, hair, or accessories. Prefer details that distinguish this person from comparison people. Do not mention actions, pose, scene location, time, spatial relation to others, gallery labels, or GT identity numbers. Visible garment lettering is allowed only if clearly legible. Do not infer colors/details hidden by another person. If no reliable description is possible, use an empty phrase. If a truthful description is shared by others, still provide it and set visually_distinct to false.\nReturn {\"phrase\":\"...\", \"supported_attributes\":[\"...\"], \"visually_distinct\":true, \"limitations\":\"...\"}. A description need not be unique; truthful uncertainty is preferred to invented uniqueness.\nThe target person is also included once among the comparison gallery tiles. Identify that repeated target visually; do not treat the repeated target tile as a different rival. Look for truthful stable appearance that distinguishes the target from OTHER people.",
+  "image_paths": [
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0005/id000_target.jpg",
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0005/generation_gallery_page00.jpg"
+  ],
+  "image_sha256": [
+    "2a31cbe7188b09b454c709b9c6df2221e8f08036ce98915b4a49d118af2ec6f9",
+    "b2af568f1704ad190f03d032ce4503a8c39556f78e5667fd00be325aa704df45"
+  ],
+  "response": {
+    "id": "chatcmpl-907ac9842e01cfef",
+    "object": "chat.completion",
+    "created": 1793800292,
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"phrase\": \"the person wearing a black crop top with a white graphic on the front and black pants\",\n  \"supported_attributes\": [\"black crop top\", \"white graphic on front\", \"black pants\"],\n  \"visually_distinct\": false,\n  \"limitations\": \"The black crop top with a white graphic is also worn by the person in P04, making this description not visually distinct from that individual.\"\n}",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 947,
+      "total_tokens": 1036,
+      "completion_tokens": 89,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "check": {
+    "valid": true,
+    "parsed": {
+      "phrase": "the person wearing a black crop top with a white graphic on the front and black pants",
+      "supported_attributes": [
+        "black crop top",
+        "white graphic on front",
+        "black pants"
+      ],
+      "visually_distinct": false,
+      "limitations": "The black crop top with a white graphic is also worn by the person in P04, making this description not visually distinct from that individual."
+    },
+    "phrase": "the person wearing a black crop top with a white graphic on the front and black pants",
+    "error": null
+  },
+  "inference_policy_sha256": "ea3ce06e83208db2fc1ed693ee2ac1b349f8ae344fcdc2cb0a22e30ef8df60e3"
+}

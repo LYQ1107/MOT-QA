@@ -1,0 +1,110 @@
+{
+  "qa_count": 2323,
+  "unique_videos": 1951,
+  "canonical_and_jsonl_fields_equal": true,
+  "missing_video_paths": [],
+  "dimensions": {
+    "event_existence": 219,
+    "event_count": 300,
+    "reappear_identity": 23,
+    "reappear_or_disappear": 134,
+    "cross_object_order": 187,
+    "event_ordering": 105,
+    "temporal_location": 587,
+    "duration_category": 312,
+    "conditional_state": 278,
+    "relative_spatial_change": 178
+  },
+  "formats": {
+    "sp": 563,
+    "numerical": 300,
+    "ordering_4": 53,
+    "ordering_3": 52,
+    "mcq_4": 1355
+  },
+  "five_tracking_dimensions_total": 749,
+  "top_level_fields": {
+    "qa_id": 2323,
+    "video_id": 2323,
+    "format": 2323,
+    "question": 2323,
+    "statement_A": 563,
+    "statement_B": 563,
+    "correct_answer": 2218,
+    "metadata": 2323,
+    "allowed_answers": 300,
+    "events": 105,
+    "correct_order": 105,
+    "option_A": 1355,
+    "option_B": 1355,
+    "option_C": 1355,
+    "option_D": 1355
+  },
+  "metadata_fields": {
+    "dim": 2323,
+    "tier": 2323,
+    "subject_label": 2323,
+    "hallucination": 2323,
+    "has_hallucination_distractor": 2323,
+    "semantic_ground_truth": 23,
+    "ground_truth_is_real": 23,
+    "repair_log": 100
+  },
+  "trajectory_related_field_names": {},
+  "all_item_field_paths": {
+    "qa_id": 2323,
+    "video_id": 2323,
+    "format": 2323,
+    "question": 2323,
+    "statement_A": 563,
+    "statement_B": 563,
+    "correct_answer": 2218,
+    "metadata": 2323,
+    "metadata.dim": 2323,
+    "metadata.tier": 2323,
+    "metadata.subject_label": 2323,
+    "metadata.hallucination": 2323,
+    "metadata.has_hallucination_distractor": 2323,
+    "allowed_answers": 300,
+    "metadata.semantic_ground_truth": 23,
+    "metadata.ground_truth_is_real": 23,
+    "events": 105,
+    "events[].label": 368,
+    "events[].event_text": 368,
+    "correct_order": 105,
+    "metadata.repair_log": 100,
+    "option_A": 1355,
+    "option_B": 1355,
+    "option_C": 1355,
+    "option_D": 1355
+  },
+  "source_counts": {
+    "perception_test": {
+      "qa_count": 825,
+      "video_count": 712,
+      "bytes": 11069725151
+    },
+    "charades": {
+      "qa_count": 1397,
+      "video_count": 1149,
+      "bytes": 2262462939
+    },
+    "mose": {
+      "qa_count": 87,
+      "video_count": 76,
+      "bytes": 1832594162
+    },
+    "ovis": {
+      "qa_count": 14,
+      "video_count": 14,
+      "bytes": 71134616
+    }
+  },
+  "video_files": 1951,
+  "video_bytes": 15235916868,
+  "hallucination_variants": {
+    "None": 1830,
+    "variant_a": 208,
+    "variant_b": 285
+  }
+}

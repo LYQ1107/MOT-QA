@@ -1,0 +1,75 @@
+{
+  "unit_key": "dancetrack0094__id006",
+  "sequence": "dancetrack0094",
+  "gt_id": 6,
+  "phase": "generate",
+  "started_at": "2026-11-04T14:00:59.253339+00:00",
+  "completed_at": "2026-11-04T14:01:08.090966+00:00",
+  "seconds": 8.83764554001391,
+  "prompt_text": "The first image shows three crops of ONE target person at different times. The other image(s) show comparison people from the SAME video; every labeled tile is a different annotated person, shown in up to three crops. These comparison labels are anonymous bookkeeping labels, not appearance attributes.\nWrite one concise English noun phrase (at most 30 words), starting with \"the person\", describing the target using stable, clearly visible clothing, patterns, hair, or accessories. Prefer details that distinguish this person from comparison people. Do not mention actions, pose, scene location, time, spatial relation to others, gallery labels, or GT identity numbers. Visible garment lettering is allowed only if clearly legible. Do not infer colors/details hidden by another person. If no reliable description is possible, use an empty phrase. If a truthful description is shared by others, still provide it and set visually_distinct to false.\nReturn {\"phrase\":\"...\", \"supported_attributes\":[\"...\"], \"visually_distinct\":true, \"limitations\":\"...\"}. A description need not be unique; truthful uncertainty is preferred to invented uniqueness.\nThe target person is also included once among the comparison gallery tiles. Identify that repeated target visually; do not treat the repeated target tile as a different rival. Look for truthful stable appearance that distinguishes the target from OTHER people.",
+  "image_paths": [
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0094/id006_target.jpg",
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0094/generation_gallery_page00.jpg",
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0094/generation_gallery_page01.jpg",
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0094/generation_gallery_page02.jpg"
+  ],
+  "image_sha256": [
+    "72bbc3ce19945e1047f491dbd6362e5866d34014027b759f62dc9d3b1a906a9c",
+    "7db22f3963198258121c825f490e19b28d982e1423b40ed05a729abeaf95d25c",
+    "4a17d78e5d3ad7801a08a39c1667de85adfd2b10f8e2867c413b8fe32997ec7b",
+    "7b6bda4edfc6f123a628021bc7f94a4bb0d696c3018b2e93b818d3c9d29a685f"
+  ],
+  "response": {
+    "id": "chatcmpl-b8c4232c8073e15e",
+    "object": "chat.completion",
+    "created": 1793800859,
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"phrase\": \"the person with a dark olive green long-sleeve top, dark brown pants, and white sneakers, wearing a black cap backwards\",\n  \"supported_attributes\": [\n    \"dark olive green long-sleeve top\",\n    \"dark brown pants\",\n    \"white sneakers\",\n    \"black cap worn backwards\"\n  ],\n  \"visually_distinct\": true,\n  \"limitations\": \"The black cap worn backwards is the most distinguishing feature, as other individuals wear similar clothing but without the cap. The cap is visible in all target views and in the repeated gallery tile P12, confirming identity. Other people in the gallery wear similar outfits but lack the cap or wear it differently.\"\n}",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 3507,
+      "total_tokens": 3653,
+      "completion_tokens": 146,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "check": {
+    "valid": true,
+    "parsed": {
+      "phrase": "the person with a dark olive green long-sleeve top, dark brown pants, and white sneakers, wearing a black cap backwards",
+      "supported_attributes": [
+        "dark olive green long-sleeve top",
+        "dark brown pants",
+        "white sneakers",
+        "black cap worn backwards"
+      ],
+      "visually_distinct": true,
+      "limitations": "The black cap worn backwards is the most distinguishing feature, as other individuals wear similar clothing but without the cap. The cap is visible in all target views and in the repeated gallery tile P12, confirming identity. Other people in the gallery wear similar outfits but lack the cap or wear it differently."
+    },
+    "phrase": "the person with a dark olive green long-sleeve top, dark brown pants, and white sneakers, wearing a black cap backwards",
+    "error": null
+  },
+  "inference_policy_sha256": "ea3ce06e83208db2fc1ed693ee2ac1b349f8ae344fcdc2cb0a22e30ef8df60e3"
+}

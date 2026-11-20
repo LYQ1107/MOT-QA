@@ -1,0 +1,71 @@
+{
+  "unit_key": "dancetrack0010__id004",
+  "sequence": "dancetrack0010",
+  "gt_id": 4,
+  "phase": "reference_instant_match",
+  "started_at": "2026-11-04T14:13:31.379179+00:00",
+  "completed_at": "2026-11-04T14:13:35.730656+00:00",
+  "seconds": 4.351509325671941,
+  "prompt_text": "At this reference instant, match the following appearance phrase to ALL visible people: \"the person with bright blonde hair wearing a black long-sleeve crop top and black pants with a small white logo on the chest\"\nThe first image is the full frame, with anonymous boxes and labels. The other image(s) are crops of EVERY GT-present person at this SAME instant. Read the central person in each crop; neighboring bodies may overlap. Labels are bookkeeping only. Do not use gallery order, location, pose, or box color as appearance attributes. Include ALL people satisfying the full appearance phrase in matches, and any plausible but obscured/unclear people in uncertain. A partly hidden target whose defining clothing cannot be seen is uncertain. No forced choice; none or several are valid outcomes. Omitted labels mean clear non-matches.\nReturn {\"matches\":[\"P01\"],\"uncertain\":[],\"reason\":\"brief visual explanation\"}. Valid labels: [\"P01\", \"P02\", \"P03\", \"P04\", \"P05\"].",
+  "image_paths": [
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0010/anchor_id004_f000293/full_frame.jpg",
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0010/anchor_id004_f000293/local_gallery_page00.jpg"
+  ],
+  "image_sha256": [
+    "f86574d6c7db072db2c50b26cd507c25f39a59aad86158938f1cfe59d98de31b",
+    "d9d8b70f3f73c3e6ab8dbfb3363e20084e6f3d825c67e2f586fc1299ee68b653"
+  ],
+  "response": {
+    "id": "chatcmpl-9b0b5c6cab9f0c26",
+    "object": "chat.completion",
+    "created": 1793801611,
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"matches\":[\"P03\"],\"uncertain\":[],\"reason\":\"P03 has bright blonde hair and is wearing a black long-sleeve crop top and black pants. The small white logo on the chest is not clearly visible, but the overall appearance matches the description. Other individuals do not have bright blonde hair or match the full clothing description.\"}",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 1486,
+      "total_tokens": 1558,
+      "completion_tokens": 72,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "check": {
+    "valid": true,
+    "parsed": {
+      "matches": [
+        "P03"
+      ],
+      "uncertain": [],
+      "reason": "P03 has bright blonde hair and is wearing a black long-sleeve crop top and black pants. The small white logo on the chest is not clearly visible, but the overall appearance matches the description. Other individuals do not have bright blonde hair or match the full clothing description."
+    },
+    "matched_gt_ids": [
+      4
+    ],
+    "uncertain_gt_ids": [],
+    "passed": true,
+    "error": null
+  },
+  "inference_policy_sha256": "ea3ce06e83208db2fc1ed693ee2ac1b349f8ae344fcdc2cb0a22e30ef8df60e3"
+}

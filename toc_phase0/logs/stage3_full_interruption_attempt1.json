@@ -1,0 +1,15 @@
+{
+  "status": "TERMINAL_SIGTERM_143",
+  "detected_at": "2026-11-01T15:18:01.600643+08:00",
+  "started_at": "2026-11-01T15:07:13.946699+08:00",
+  "detected_elapsed_upper_bound_s": 647.653944,
+  "terminal_exit_code": 143,
+  "valid_complete_videos": 38,
+  "traceback_seen": false,
+  "oom_seen": false,
+  "cause": "external SIGTERM source unknown; controller and owned workers have exited",
+  "recovery": "detached tmux batch with persistent step exit status; resume complete JSON units without changing protocol",
+  "observed_own_memory_peak_MiB": 2708,
+  "observed_shared_card_memory_peak_MiB": 18861,
+  "observed_runtime_to_last_monitor_s": 438.69
+}

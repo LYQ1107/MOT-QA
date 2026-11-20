@@ -1,0 +1,12 @@
+{
+  "condition": "D",
+  "decoding": "guided",
+  "completed_at": "2026-11-02T11:18:16.851074+08:00",
+  "predictions": 300,
+  "unique": 300,
+  "new_predictions": 300,
+  "elapsed_this_attempt_s": 309.844,
+  "output": "/data2/user/toc_phase0/results/stage4/guided_D_predictions.jsonl",
+  "sha256": "de221c8805eeb93afd856ced47c41be015ff12c9fbd9fe8527d77357c5ecbed9",
+  "parse_failures": 0
+}

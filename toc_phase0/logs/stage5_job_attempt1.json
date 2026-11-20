@@ -1,0 +1,16 @@
+{
+  "status": "FAILED",
+  "started_at": "2026-11-02T16:05:24.479845+08:00",
+  "controller_pid": 717013,
+  "attempt": 1,
+  "phase": "all",
+  "frozen_config_sha256": "7f0dbd16926026fa087ac4bb84fb1f3dce142ee903e5cf16c9e8eb1b7a62d93d",
+  "hypotheses_sha256": "985f7f38eb040db9f5088a8715bee579dad2b6fd46a983018a3a5222566c0c84",
+  "representation_manifest_sha256": "b97c39aa4574e8410051e61653c23808f3fb08ff36cb19ded57b0c67ff17829d",
+  "d_assignment_sha256": "5ffa173e7aefe6eef47903570c2dc839265eb9f9518cf4654bda37e0a152090c",
+  "stage": "preflight",
+  "updated_at": "2026-11-02T16:05:24.907359+08:00",
+  "error": "AssertionError('Two A800 need 65% total + 6GiB headroom each; foreign jobs untouched.\\n0, GPU-bf21a95d-d96d-9ec5-cb15-b0fb7ad50536, NVIDIA A800-SXM4-80GB, 81920, 80081, 100\\n1, GPU-f35654b3-bbf5-7303-cfcb-9bd5d3e16e69, NVIDIA A800-SXM4-80GB, 81920, 80383, 100\\n2, GPU-c2484ded-5f87-237c-bbf0-d23fcb74fdb2, NVIDIA A800-SXM4-80GB, 81920, 64079, 99\\n3, GPU-6cb11599-704e-c3aa-9e28-5f15faa25c7c, NVIDIA A800-SXM4-80GB, 81920, 63941, 99\\n4, GPU-44f62835-4095-23ec-d3dd-5af16a00705c, NVIDIA A800-SXM4-80GB, 81920, 10030, 100\\n5, GPU-c6523d98-cb2d-95ed-4cb2-a84936acceb6, NVIDIA A800-SXM4-80GB, 81920, 22676, 100\\n6, GPU-883c8be3-25b0-3d19-6fa8-4c2e335e67d2, NVIDIA A800-SXM4-80GB, 81920, 29015, 97\\n7, GPU-0322c0e7-ffbf-e068-5bdd-587b8216a9d9, NVIDIA A800-SXM4-80GB, 81920, 23028, 100\\n')",
+  "traceback": "Traceback (most recent call last):\n  File \"/data2/user/toc_phase0/src/run_stage5_inference.py\", line 130, in main\n    devices=allocation(attempt);servers=start_servers(devices,attempt)\n            ^^^^^^^^^^^^^^^^^^^\n  File \"/data2/user/toc_phase0/src/stage5_server.py\", line 55, in allocation\n    assert len(available) >= 2, f'Two A800 need 65% total + 6GiB headroom each; foreign jobs untouched.\\n{snapshot}'\n           ^^^^^^^^^^^^^^^^^^^\nAssertionError: Two A800 need 65% total + 6GiB headroom each; foreign jobs untouched.\n0, GPU-bf21a95d-d96d-9ec5-cb15-b0fb7ad50536, NVIDIA A800-SXM4-80GB, 81920, 80081, 100\n1, GPU-f35654b3-bbf5-7303-cfcb-9bd5d3e16e69, NVIDIA A800-SXM4-80GB, 81920, 80383, 100\n2, GPU-c2484ded-5f87-237c-bbf0-d23fcb74fdb2, NVIDIA A800-SXM4-80GB, 81920, 64079, 99\n3, GPU-6cb11599-704e-c3aa-9e28-5f15faa25c7c, NVIDIA A800-SXM4-80GB, 81920, 63941, 99\n4, GPU-44f62835-4095-23ec-d3dd-5af16a00705c, NVIDIA A800-SXM4-80GB, 81920, 10030, 100\n5, GPU-c6523d98-cb2d-95ed-4cb2-a84936acceb6, NVIDIA A800-SXM4-80GB, 81920, 22676, 100\n6, GPU-883c8be3-25b0-3d19-6fa8-4c2e335e67d2, NVIDIA A800-SXM4-80GB, 81920, 29015, 97\n7, GPU-0322c0e7-ffbf-e068-5bdd-587b8216a9d9, NVIDIA A800-SXM4-80GB, 81920, 23028, 100\n\n",
+  "elapsed_s": 1.848
+}

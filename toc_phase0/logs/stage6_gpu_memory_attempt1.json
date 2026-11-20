@@ -1,0 +1,10 @@
+{
+  "GPU-0322c0e7-ffbf-e068-5bdd-587b8216a9d9": {
+    "own_peak_MiB": 0,
+    "total_peak_MiB": 66384.625
+  },
+  "GPU-883c8be3-25b0-3d19-6fa8-4c2e335e67d2": {
+    "own_peak_MiB": 20004.0,
+    "total_peak_MiB": 39784.1875
+  }
+}

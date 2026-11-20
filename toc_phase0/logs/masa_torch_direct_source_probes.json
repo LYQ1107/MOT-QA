@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://mirrors.aliyun.com/pytorch-wheels/cu118/torch-2.1.2%2Bcu118-cp311-cp311-linux_x86_64.whl",
+    "error": "URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)>",
+    "elapsed_s": 5.028
+  },
+  {
+    "url": "https://mirror.sjtu.edu.cn/pytorch-wheels/cu118/torch-2.1.2%2Bcu118-cp311-cp311-linux_x86_64.whl",
+    "status": 206,
+    "bytes": 1048576,
+    "zip_magic": true,
+    "content_range": "bytes 0-1048575/2325933097",
+    "content_type": "application/octet-stream",
+    "elapsed_s": 0.722
+  },
+  {
+    "url": "https://mirrors.ustc.edu.cn/pytorch/whl/cu118/torch-2.1.2%2Bcu118-cp311-cp311-linux_x86_64.whl",
+    "error": "HTTPError: HTTP Error 404: Not Found",
+    "elapsed_s": 0.287
+  },
+  {
+    "url": "https://download-r2.pytorch.org/whl/cu118/torch-2.1.2%2Bcu118-cp311-cp311-linux_x86_64.whl",
+    "status": 206,
+    "bytes": 1048576,
+    "zip_magic": true,
+    "content_range": "bytes 0-1048575/2325933097",
+    "content_type": "binary/octet-stream",
+    "elapsed_s": 6.381
+  }
+]

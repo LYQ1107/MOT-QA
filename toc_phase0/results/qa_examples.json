@@ -1,0 +1,75 @@
+[
+  {
+    "qa_id": "42fbdd45fe59",
+    "video_id": "charades_16D5O",
+    "format": "mcq_4",
+    "question": "When in the video does white plate first get fully hidden?",
+    "option_A": "beginning",
+    "option_B": "late",
+    "option_C": "there is no sandwich on plate in this video",
+    "option_D": "end",
+    "correct_answer": "A",
+    "metadata": {
+      "dim": "temporal_location",
+      "tier": "tier1",
+      "subject_label": "white plate",
+      "hallucination": null,
+      "has_hallucination_distractor": true
+    },
+    "video_path": "videos/charades_16D5O.mp4"
+  },
+  {
+    "qa_id": "306b3b6b5877",
+    "video_id": "charades_VYMZC",
+    "format": "numerical",
+    "question": "How many times does green dress get fully hidden in the video?",
+    "correct_answer": "4",
+    "allowed_answers": [
+      "2",
+      "3",
+      "4",
+      "5 or more"
+    ],
+    "metadata": {
+      "dim": "event_count",
+      "tier": "tier2",
+      "subject_label": "green dress",
+      "hallucination": null,
+      "has_hallucination_distractor": false
+    },
+    "video_path": "videos/charades_VYMZC.mp4"
+  },
+  {
+    "qa_id": "c0e538203735",
+    "video_id": "charades_X0VAO",
+    "format": "ordering_3",
+    "question": "Put the following events for orange tablecloth in order from earliest to latest.",
+    "events": [
+      {
+        "label": "A",
+        "event_text": "it disappears for good"
+      },
+      {
+        "label": "B",
+        "event_text": "it gets partly hidden"
+      },
+      {
+        "label": "C",
+        "event_text": "it leaves the frame"
+      }
+    ],
+    "correct_order": [
+      "B",
+      "A",
+      "C"
+    ],
+    "metadata": {
+      "dim": "event_ordering",
+      "tier": "tier2",
+      "subject_label": "orange tablecloth",
+      "hallucination": null,
+      "has_hallucination_distractor": false
+    },
+    "video_path": "videos/charades_X0VAO.mp4"
+  }
+]

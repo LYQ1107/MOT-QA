@@ -1,0 +1,166 @@
+{
+  "created_at": "2026-11-04T09:53:15.331848+08:00",
+  "split": "development only",
+  "selection": "TwoR/D and twoCount examples with frozen-rule agreement, plus oneXOrder with directly ordered observed events; chosen without test outcomes.",
+  "image_policy": "Text-only complete demonstrations, actual unchanged offline tool facts; no additional demonstration images",
+  "examples": [
+    {
+      "qa_id": "13a41b8c6b50",
+      "video_id": "charades_3L3LC",
+      "family": "RD",
+      "answer": "A",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Development demonstration.\nQuestion: Before red fire extinguisher comes back into view, was it fully blocked or did it leave the frame?\nOptions:\nA. red fire extinguisher was fully blocked before coming back\nB. red fire extinguisher left the frame before coming back\n\nThink briefly, then give your final answer on the last line as \"Answer: X\", where X is A or B."
+        },
+        {
+          "role": "assistant",
+          "content": "<tool_call>{\"name\": \"events\", \"arguments\": {\"object\": \"red fire extinguisher\"}}</tool_call>"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "text",
+              "text": "[Tracking events] query=\"red fire extinguisher\"  video_length=30.6s  tracker_fps=5\nfirst appears at 3.8s at (0.48, 0.27)\ndisappears at 4.0s; last position (0.48, 0.27); within 0.05 of frame edge: no\nreappears at 5.2s at (0.24, 0.83)\nlast seen at 30.4s at (0.14, 0.79)\nNote: Representative native track IDs: 6; stitched using the frozen geometric rule.\nNote: 11 additional short, low-confidence, or lower-ranked tracks were omitted.\n"
+            }
+          ]
+        },
+        {
+          "role": "assistant",
+          "content": "The extinguisher disappears at4.0s away from the edge and reappears at5.2s. This supports full blockage, optionA.\nAnswer: A"
+        }
+      ]
+    },
+    {
+      "qa_id": "13ad81807fa0",
+      "video_id": "perception_test_video_3593",
+      "family": "RD",
+      "answer": "B",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Development demonstration.\nQuestion: When the yellow plastic cup disappears, does it get fully blocked or leave the frame?\nOptions:\nA. yellow plastic cup left the frame\nB. yellow plastic cup got fully blocked\n\nThink briefly, then give your final answer on the last line as \"Answer: X\", where X is A or B."
+        },
+        {
+          "role": "assistant",
+          "content": "<tool_call>{\"name\": \"events\", \"arguments\": {\"object\": \"yellow plastic cup\"}}</tool_call>"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "text",
+              "text": "[Tracking events] query=\"yellow plastic cup\"  video_length=35.0s  tracker_fps=5\nfirst appears at 0.0s at (0.45, 0.74)\ndisappears at 0.4s; last position (0.46, 0.73); within 0.05 of frame edge: no\nreappears at 0.8s at (0.46, 0.70)\ndisappears at 7.8s; last position (0.44, 0.74); within 0.05 of frame edge: no\nreappears at 8.2s at (0.44, 0.74)\ndisappears at 9.0s; last position (0.44, 0.74); within 0.05 of frame edge: no\nreappears at 13.6s at (0.63, 0.74)\ndisappears at 16.4s; last position (0.63, 0.74); within 0.05 of frame edge: no\nreappears at 17.4s at (0.65, 0.74)\ndisappears at 26.4s; last position (0.64, 0.74); within 0.05 of frame edge: no\nreappears at 27.2s at (0.63, 0.74)\nlast seen at 34.8s at (0.63, 0.74)\nNote: Representative native track IDs: 29, 1; stitched using the frozen geometric rule.\nNote: 39 additional short, low-confidence, or lower-ranked tracks were omitted.\n"
+            }
+          ]
+        },
+        {
+          "role": "assistant",
+          "content": "The cup has several disappearances, each marked away from the edge. Full blockage corresponds to optionB.\nAnswer: B"
+        }
+      ]
+    },
+    {
+      "qa_id": "aa9f2d427438",
+      "video_id": "perception_test_video_7380",
+      "family": "XOrder",
+      "answer": "A",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Development demonstration.\nQuestion: Which event happens first in the video?\nOptions:\nA. hand enters the frame before notebook gets fully hidden\nB. notebook gets fully hidden before hand enters the frame\n\nThink briefly, then give your final answer on the last line as \"Answer: X\", where X is A or B."
+        },
+        {
+          "role": "assistant",
+          "content": "<tool_call>{\"name\": \"events\", \"arguments\": {\"object\": \"hand\"}}</tool_call>"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "text",
+              "text": "[Tracking events] query=\"hand\"  video_length=20.8s  tracker_fps=5\nfirst appears at 1.6s at (0.45, 0.19)\ndisappears at 2.0s; last position (0.48, 0.19); within 0.05 of frame edge: no\nreappears at 3.4s at (0.61, 0.14)\ndisappears at 3.8s; last position (0.60, 0.12); within 0.05 of frame edge: no\nreappears at 5.4s at (0.72, 0.14)\ndisappears at 5.8s; last position (0.74, 0.16); within 0.05 of frame edge: no\nreappears at 8.8s at (0.84, 0.09)\ndisappears at 9.0s; last position (0.84, 0.09); within 0.05 of frame edge: no\nreappears at 9.8s at (0.83, 0.16)\nlast seen at 12.6s at (0.84, 0.17)\ndisappears at 12.8s; last position (0.84, 0.17); within 0.05 of frame edge: no\nNote: Representative native track IDs: 16; stitched using the frozen geometric rule.\nNote: 37 additional short, low-confidence, or lower-ranked tracks were omitted.\n"
+            }
+          ]
+        },
+        {
+          "role": "assistant",
+          "content": "<tool_call>{\"name\": \"events\", \"arguments\": {\"object\": \"notebook\"}}</tool_call>"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "text",
+              "text": "[Tracking events] query=\"notebook\"  video_length=20.8s  tracker_fps=5\nfirst appears at 5.8s at (0.69, 0.26)\ndisappears at 6.0s; last position (0.69, 0.26); within 0.05 of frame edge: no\nreappears at 9.2s at (0.84, 0.35)\ndisappears at 10.4s; last position (0.84, 0.33); within 0.05 of frame edge: no\nreappears at 10.8s at (0.84, 0.33)\ndisappears at 11.0s; last position (0.84, 0.33); within 0.05 of frame edge: no\nreappears at 11.4s at (0.84, 0.33)\ndisappears at 11.6s; last position (0.84, 0.33); within 0.05 of frame edge: no\nreappears at 12.2s at (0.84, 0.35)\ndisappears at 13.0s; last position (0.84, 0.36); within 0.05 of frame edge: no\nreappears at 13.4s at (0.85, 0.38)\ndisappears at 13.6s; last position (0.85, 0.38); within 0.05 of frame edge: no\nreappears at 15.0s at (0.84, 0.37)\ndisappears at 17.4s; last position (0.85, 0.36); within 0.05 of frame edge: no\nreappears at 17.8s at (0.86, 0.36)\ndisappears at 19.0s; last position (0.84, 0.36); within 0.05 of frame edge: no\nreappears at 19.6s at (0.84, 0.36)\ndisappears at 19.8s; last position (0.84, 0.36); within 0.05 of frame edge: no\nreappears at 20.2s at (0.84, 0.36)\nlast seen at 20.4s at (0.84, 0.36)\nNote: Representative native track IDs: 37; stitched using the frozen geometric rule.\nNote: 13 additional short, low-confidence, or lower-ranked tracks were omitted.\n"
+            }
+          ]
+        },
+        {
+          "role": "assistant",
+          "content": "The hand first appears at1.6s; the notebook first disappears at6.0s. The hand event is earlier, optionA.\nAnswer: A"
+        }
+      ]
+    },
+    {
+      "qa_id": "1297862b34c8",
+      "video_id": "perception_test_video_1568",
+      "family": "Count",
+      "answer": "2",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Development demonstration.\nQuestion: How many times does the white crackled mug come back into view in the video?\nOptions:\n\n\nThink briefly, then give your final answer on the last line as \"Answer: N\", where N is one of 2, 3, 4, or \"5 or more\"."
+        },
+        {
+          "role": "assistant",
+          "content": "<tool_call>{\"name\": \"events\", \"arguments\": {\"object\": \"white crackled mug\"}}</tool_call>"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "text",
+              "text": "[Tracking events] query=\"white crackled mug\"  video_length=26.4s  tracker_fps=5\nfirst appears at 0.0s at (0.84, 0.66)\ndisappears at 5.8s; last position (0.84, 0.69); within 0.05 of frame edge: no\nreappears at 6.8s at (0.84, 0.69)\ndisappears at 7.0s; last position (0.84, 0.69); within 0.05 of frame edge: no\nreappears at 7.4s at (0.84, 0.66)\nlast seen at 10.6s at (0.86, 0.50)\ndisappears at 10.8s; last position (0.86, 0.50); within 0.05 of frame edge: no\nNote: Representative native track IDs: 1, 24; stitched using the frozen geometric rule.\nNote: 36 additional short, low-confidence, or lower-ranked tracks were omitted.\n"
+            }
+          ]
+        },
+        {
+          "role": "assistant",
+          "content": "The mug reappears at6.8s and7.4s. These are two returns; its initial appearance is not a return.\nAnswer: 2"
+        }
+      ]
+    },
+    {
+      "qa_id": "3afb8d11cee9",
+      "video_id": "perception_test_video_10998",
+      "family": "Count",
+      "answer": "5 or more",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Development demonstration.\nQuestion: How many times does the green knife get fully hidden in the video?\nOptions:\n\n\nThink briefly, then give your final answer on the last line as \"Answer: N\", where N is one of 2, 3, 4, or \"5 or more\"."
+        },
+        {
+          "role": "assistant",
+          "content": "<tool_call>{\"name\": \"events\", \"arguments\": {\"object\": \"green knife\"}}</tool_call>"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "text",
+              "text": "[Tracking events] query=\"green knife\"  video_length=27.2s  tracker_fps=5\nfirst appears at 0.0s at (0.43, 0.29)\ndisappears at 6.0s; last position (0.46, 0.30); within 0.05 of frame edge: no\nreappears at 11.0s at (0.45, 0.29)\ndisappears at 11.4s; last position (0.46, 0.29); within 0.05 of frame edge: no\nreappears at 12.8s at (0.44, 0.31)\ndisappears at 14.2s; last position (0.46, 0.32); within 0.05 of frame edge: no\nreappears at 14.6s at (0.46, 0.32)\ndisappears at 15.4s; last position (0.45, 0.32); within 0.05 of frame edge: no\nreappears at 17.8s at (0.47, 0.33)\ndisappears at 18.0s; last position (0.47, 0.33); within 0.05 of frame edge: no\nreappears at 22.4s at (0.45, 0.33)\nlast seen at 27.0s at (0.46, 0.35)\nNote: Representative native track IDs: 0, 143; stitched using the frozen geometric rule.\nNote: 50 additional short, low-confidence, or lower-ranked tracks were omitted.\n"
+            }
+          ]
+        },
+        {
+          "role": "assistant",
+          "content": "There are five disappearance entries away from the frame edge, at6.0,11.4,14.2,15.4 and18.0s. This maps to the legal value5 or more.\nAnswer: 5 or more"
+        }
+      ]
+    }
+  ]
+}

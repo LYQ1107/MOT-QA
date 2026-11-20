@@ -1,0 +1,865 @@
+{
+  "processed_at": "2026-11-05T20:19:13.383225+08:00",
+  "source_sha256": "4b0bb0e654910673b8fe6467c4d463f381212e88783017eb255f727d0ff2a778",
+  "user_followup_verbatim": "剩下的我没有写的也都是同样的问题",
+  "changes": [
+    {
+      "index": 33,
+      "review_id": "refreview_cc154d6ef1388255",
+      "rule": "user_bulk_followup_supplies_missing_failure_reason",
+      "before": {
+        "verdict": "fail",
+        "note": ""
+      },
+      "after": {
+        "verdict": "fail",
+        "note": "描述过于笼统，多人符合，无法唯一指认"
+      }
+    },
+    {
+      "index": 38,
+      "review_id": "refreview_e5bba8b9f36da8b2",
+      "rule": "user_bulk_followup_for_unselected_rows",
+      "before": {
+        "verdict": null,
+        "note": "不唯一"
+      },
+      "after": {
+        "verdict": "fail",
+        "note": "不唯一"
+      }
+    },
+    {
+      "index": 62,
+      "review_id": "refreview_dafd5162cbf13048",
+      "rule": "user_explicit_ambiguity_note_and_single_person_criterion",
+      "before": {
+        "verdict": "pass",
+        "note": "描述过于笼统，多人符合，无法唯一指认"
+      },
+      "after": {
+        "verdict": "fail",
+        "note": "描述过于笼统，多人符合，无法唯一指认"
+      }
+    },
+    {
+      "index": 64,
+      "review_id": "refreview_3c61c9183dfbb700",
+      "rule": "user_explicit_ambiguity_note_and_single_person_criterion",
+      "before": {
+        "verdict": "pass",
+        "note": "描述过于笼统，多人符合，无法唯一指认"
+      },
+      "after": {
+        "verdict": "fail",
+        "note": "描述过于笼统，多人符合，无法唯一指认"
+      }
+    },
+    {
+      "index": 68,
+      "review_id": "refreview_18a1a5fdcbdd109c",
+      "rule": "user_explicit_ambiguity_note_and_single_person_criterion",
+      "before": {
+        "verdict": "pass",
+        "note": "描述过于笼统，多人符合，无法唯一指认"
+      },
+      "after": {
+        "verdict": "fail",
+        "note": "描述过于笼统，多人符合，无法唯一指认"
+      }
+    },
+    {
+      "index": 94,
+      "review_id": "refreview_a680e662cd157926",
+      "rule": "user_bulk_followup_supplies_missing_failure_reason",
+      "before": {
+        "verdict": "fail",
+        "note": ""
+      },
+      "after": {
+        "verdict": "fail",
+        "note": "描述过于笼统，多人符合，无法唯一指认"
+      }
+    },
+    {
+      "index": 95,
+      "review_id": "refreview_51edd2a5199803fd",
+      "rule": "user_bulk_followup_supplies_missing_failure_reason",
+      "before": {
+        "verdict": "fail",
+        "note": ""
+      },
+      "after": {
+        "verdict": "fail",
+        "note": "描述过于笼统，多人符合，无法唯一指认"
+      }
+    },
+    {
+      "index": 96,
+      "review_id": "refreview_08ec5f06b521b6bf",
+      "rule": "user_bulk_followup_supplies_missing_failure_reason",
+      "before": {
+        "verdict": "fail",
+        "note": ""
+      },
+      "after": {
+        "verdict": "fail",
+        "note": "描述过于笼统，多人符合，无法唯一指认"
+      }
+    },
+    {
+      "index": 97,
+      "review_id": "refreview_cee36bb652ba19a7",
+      "rule": "user_bulk_followup_supplies_missing_failure_reason",
+      "before": {
+        "verdict": "fail",
+        "note": ""
+      },
+      "after": {
+        "verdict": "fail",
+        "note": "描述过于笼统，多人符合，无法唯一指认"
+      }
+    },
+    {
+      "index": 98,
+      "review_id": "refreview_8f5c331ffc951ebb",
+      "rule": "user_bulk_followup_for_unselected_rows",
+      "before": {
+        "verdict": null,
+        "note": ""
+      },
+      "after": {
+        "verdict": "fail",
+        "note": "描述过于笼统，多人符合，无法唯一指认"
+      }
+    },
+    {
+      "index": 99,
+      "review_id": "refreview_7541ba62f72ac53b",
+      "rule": "user_bulk_followup_for_unselected_rows",
+      "before": {
+        "verdict": null,
+        "note": ""
+      },
+      "after": {
+        "verdict": "fail",
+        "note": "描述过于笼统，多人符合，无法唯一指认"
+      }
+    },
+    {
+      "index": 100,
+      "review_id": "refreview_078aa7d802f6cc10",
+      "rule": "user_bulk_followup_for_unselected_rows",
+      "before": {
+        "verdict": null,
+        "note": ""
+      },
+      "after": {
+        "verdict": "fail",
+        "note": "描述过于笼统，多人符合，无法唯一指认"
+      }
+    },
+    {
+      "index": 101,
+      "review_id": "refreview_94bec6074339d081",
+      "rule": "user_bulk_followup_for_unselected_rows",
+      "before": {
+        "verdict": null,
+        "note": ""
+      },
+      "after": {
+        "verdict": "fail",
+        "note": "描述过于笼统，多人符合，无法唯一指认"
+      }
+    },
+    {
+      "index": 102,
+      "review_id": "refreview_70ece1eb4b76b18d",
+      "rule": "user_bulk_followup_for_unselected_rows",
+      "before": {
+        "verdict": null,
+        "note": ""
+      },
+      "after": {
+        "verdict": "fail",
+        "note": "描述过于笼统，多人符合，无法唯一指认"
+      }
+    },
+    {
+      "index": 103,
+      "review_id": "refreview_e75621a0953abbad",
+      "rule": "user_bulk_followup_for_unselected_rows",
+      "before": {
+        "verdict": null,
+        "note": ""
+      },
+      "after": {
+        "verdict": "fail",
+        "note": "描述过于笼统，多人符合，无法唯一指认"
+      }
+    },
+    {
+      "index": 104,
+      "review_id": "refreview_02bcf5ffedb38d98",
+      "rule": "user_bulk_followup_for_unselected_rows",
+      "before": {
+        "verdict": null,
+        "note": ""
+      },
+      "after": {
+        "verdict": "fail",
+        "note": "描述过于笼统，多人符合，无法唯一指认"
+      }
+    },
+    {
+      "index": 105,
+      "review_id": "refreview_73d1ab0bb953fad7",
+      "rule": "user_bulk_followup_for_unselected_rows",
+      "before": {
+        "verdict": null,
+        "note": ""
+      },
+      "after": {
+        "verdict": "fail",
+        "note": "描述过于笼统，多人符合，无法唯一指认"
+      }
+    },
+    {
+      "index": 106,
+      "review_id": "refreview_b4acdfb8f1a90a31",
+      "rule": "user_bulk_followup_for_unselected_rows",
+      "before": {
+        "verdict": null,
+        "note": ""
+      },
+      "after": {
+        "verdict": "fail",
+        "note": "描述过于笼统，多人符合，无法唯一指认"
+      }
+    },
+    {
+      "index": 107,
+      "review_id": "refreview_0c902ca50c85e91f",
+      "rule": "user_bulk_followup_for_unselected_rows",
+      "before": {
+        "verdict": null,
+        "note": ""
+      },
+      "after": {
+        "verdict": "fail",
+        "note": "描述过于笼统，多人符合，无法唯一指认"
+      }
+    },
+    {
+      "index": 108,
+      "review_id": "refreview_ae099c80d87d1c51",
+      "rule": "user_bulk_followup_for_unselected_rows",
+      "before": {
+        "verdict": null,
+        "note": ""
+      },
+      "after": {
+        "verdict": "fail",
+        "note": "描述过于笼统，多人符合，无法唯一指认"
+      }
+    },
+    {
+      "index": 109,
+      "review_id": "refreview_3fb80565978723e4",
+      "rule": "user_bulk_followup_for_unselected_rows",
+      "before": {
+        "verdict": null,
+        "note": ""
+      },
+      "after": {
+        "verdict": "fail",
+        "note": "描述过于笼统，多人符合，无法唯一指认"
+      }
+    },
+    {
+      "index": 110,
+      "review_id": "refreview_0e5e5a5761252f61",
+      "rule": "user_bulk_followup_for_unselected_rows",
+      "before": {
+        "verdict": null,
+        "note": ""
+      },
+      "after": {
+        "verdict": "fail",
+        "note": "描述过于笼统，多人符合，无法唯一指认"
+      }
+    },
+    {
+      "index": 111,
+      "review_id": "refreview_96584a09db6f38e1",
+      "rule": "user_bulk_followup_for_unselected_rows",
+      "before": {
+        "verdict": null,
+        "note": ""
+      },
+      "after": {
+        "verdict": "fail",
+        "note": "描述过于笼统，多人符合，无法唯一指认"
+      }
+    },
+    {
+      "index": 112,
+      "review_id": "refreview_efab2520f1f761ba",
+      "rule": "user_bulk_followup_for_unselected_rows",
+      "before": {
+        "verdict": null,
+        "note": ""
+      },
+      "after": {
+        "verdict": "fail",
+        "note": "描述过于笼统，多人符合，无法唯一指认"
+      }
+    },
+    {
+      "index": 113,
+      "review_id": "refreview_d2441c0266cb6f20",
+      "rule": "user_bulk_followup_for_unselected_rows",
+      "before": {
+        "verdict": null,
+        "note": ""
+      },
+      "after": {
+        "verdict": "fail",
+        "note": "描述过于笼统，多人符合，无法唯一指认"
+      }
+    },
+    {
+      "index": 114,
+      "review_id": "refreview_c175ad368fdce387",
+      "rule": "user_bulk_followup_for_unselected_rows",
+      "before": {
+        "verdict": null,
+        "note": ""
+      },
+      "after": {
+        "verdict": "fail",
+        "note": "描述过于笼统，多人符合，无法唯一指认"
+      }
+    },
+    {
+      "index": 115,
+      "review_id": "refreview_9255e88f0ab91e26",
+      "rule": "user_bulk_followup_for_unselected_rows",
+      "before": {
+        "verdict": null,
+        "note": ""
+      },
+      "after": {
+        "verdict": "fail",
+        "note": "描述过于笼统，多人符合，无法唯一指认"
+      }
+    },
+    {
+      "index": 116,
+      "review_id": "refreview_252729b6effcac9f",
+      "rule": "user_bulk_followup_for_unselected_rows",
+      "before": {
+        "verdict": null,
+        "note": ""
+      },
+      "after": {
+        "verdict": "fail",
+        "note": "描述过于笼统，多人符合，无法唯一指认"
+      }
+    },
+    {
+      "index": 117,
+      "review_id": "refreview_787e7986390f9cb7",
+      "rule": "user_bulk_followup_for_unselected_rows",
+      "before": {
+        "verdict": null,
+        "note": ""
+      },
+      "after": {
+        "verdict": "fail",
+        "note": "描述过于笼统，多人符合，无法唯一指认"
+      }
+    },
+    {
+      "index": 118,
+      "review_id": "refreview_1aac08e0a4450d81",
+      "rule": "user_bulk_followup_for_unselected_rows",
+      "before": {
+        "verdict": null,
+        "note": ""
+      },
+      "after": {
+        "verdict": "fail",
+        "note": "描述过于笼统，多人符合，无法唯一指认"
+      }
+    },
+    {
+      "index": 119,
+      "review_id": "refreview_5ec535b414939092",
+      "rule": "user_bulk_followup_for_unselected_rows",
+      "before": {
+        "verdict": null,
+        "note": ""
+      },
+      "after": {
+        "verdict": "fail",
+        "note": "描述过于笼统，多人符合，无法唯一指认"
+      }
+    },
+    {
+      "index": 120,
+      "review_id": "refreview_31da03f1fa5c7e6b",
+      "rule": "user_bulk_followup_for_unselected_rows",
+      "before": {
+        "verdict": null,
+        "note": ""
+      },
+      "after": {
+        "verdict": "fail",
+        "note": "描述过于笼统，多人符合，无法唯一指认"
+      }
+    },
+    {
+      "index": 121,
+      "review_id": "refreview_0347699260e9fe06",
+      "rule": "user_bulk_followup_for_unselected_rows",
+      "before": {
+        "verdict": null,
+        "note": ""
+      },
+      "after": {
+        "verdict": "fail",
+        "note": "描述过于笼统，多人符合，无法唯一指认"
+      }
+    },
+    {
+      "index": 122,
+      "review_id": "refreview_142eb1342cc2368f",
+      "rule": "user_bulk_followup_for_unselected_rows",
+      "before": {
+        "verdict": null,
+        "note": ""
+      },
+      "after": {
+        "verdict": "fail",
+        "note": "描述过于笼统，多人符合，无法唯一指认"
+      }
+    },
+    {
+      "index": 123,
+      "review_id": "refreview_6050cf0d2aab2959",
+      "rule": "user_bulk_followup_for_unselected_rows",
+      "before": {
+        "verdict": null,
+        "note": ""
+      },
+      "after": {
+        "verdict": "fail",
+        "note": "描述过于笼统，多人符合，无法唯一指认"
+      }
+    },
+    {
+      "index": 124,
+      "review_id": "refreview_117f4dc452347f44",
+      "rule": "user_bulk_followup_for_unselected_rows",
+      "before": {
+        "verdict": null,
+        "note": ""
+      },
+      "after": {
+        "verdict": "fail",
+        "note": "描述过于笼统，多人符合，无法唯一指认"
+      }
+    },
+    {
+      "index": 125,
+      "review_id": "refreview_1fd2e6ca20c2bb6c",
+      "rule": "user_bulk_followup_for_unselected_rows",
+      "before": {
+        "verdict": null,
+        "note": ""
+      },
+      "after": {
+        "verdict": "fail",
+        "note": "描述过于笼统，多人符合，无法唯一指认"
+      }
+    },
+    {
+      "index": 126,
+      "review_id": "refreview_b8cb761190122e9a",
+      "rule": "user_bulk_followup_for_unselected_rows",
+      "before": {
+        "verdict": null,
+        "note": ""
+      },
+      "after": {
+        "verdict": "fail",
+        "note": "描述过于笼统，多人符合，无法唯一指认"
+      }
+    },
+    {
+      "index": 127,
+      "review_id": "refreview_6fece6e7c2f25897",
+      "rule": "user_bulk_followup_for_unselected_rows",
+      "before": {
+        "verdict": null,
+        "note": ""
+      },
+      "after": {
+        "verdict": "fail",
+        "note": "描述过于笼统，多人符合，无法唯一指认"
+      }
+    },
+    {
+      "index": 128,
+      "review_id": "refreview_10160b97c16342c5",
+      "rule": "user_bulk_followup_for_unselected_rows",
+      "before": {
+        "verdict": null,
+        "note": ""
+      },
+      "after": {
+        "verdict": "fail",
+        "note": "描述过于笼统，多人符合，无法唯一指认"
+      }
+    },
+    {
+      "index": 129,
+      "review_id": "refreview_0876f80c1b1fdfea",
+      "rule": "user_bulk_followup_for_unselected_rows",
+      "before": {
+        "verdict": null,
+        "note": ""
+      },
+      "after": {
+        "verdict": "fail",
+        "note": "描述过于笼统，多人符合，无法唯一指认"
+      }
+    },
+    {
+      "index": 130,
+      "review_id": "refreview_fee6022544221e94",
+      "rule": "user_bulk_followup_for_unselected_rows",
+      "before": {
+        "verdict": null,
+        "note": ""
+      },
+      "after": {
+        "verdict": "fail",
+        "note": "描述过于笼统，多人符合，无法唯一指认"
+      }
+    },
+    {
+      "index": 131,
+      "review_id": "refreview_77b78d65f25160d3",
+      "rule": "user_bulk_followup_for_unselected_rows",
+      "before": {
+        "verdict": null,
+        "note": ""
+      },
+      "after": {
+        "verdict": "fail",
+        "note": "描述过于笼统，多人符合，无法唯一指认"
+      }
+    },
+    {
+      "index": 132,
+      "review_id": "refreview_540b68b03e1c4282",
+      "rule": "user_bulk_followup_for_unselected_rows",
+      "before": {
+        "verdict": null,
+        "note": ""
+      },
+      "after": {
+        "verdict": "fail",
+        "note": "描述过于笼统，多人符合，无法唯一指认"
+      }
+    },
+    {
+      "index": 133,
+      "review_id": "refreview_a4b25e5ff2de8118",
+      "rule": "user_bulk_followup_for_unselected_rows",
+      "before": {
+        "verdict": null,
+        "note": ""
+      },
+      "after": {
+        "verdict": "fail",
+        "note": "描述过于笼统，多人符合，无法唯一指认"
+      }
+    },
+    {
+      "index": 134,
+      "review_id": "refreview_ce2051b32a89595d",
+      "rule": "user_bulk_followup_for_unselected_rows",
+      "before": {
+        "verdict": null,
+        "note": ""
+      },
+      "after": {
+        "verdict": "fail",
+        "note": "描述过于笼统，多人符合，无法唯一指认"
+      }
+    },
+    {
+      "index": 135,
+      "review_id": "refreview_d5a0b2a4922523f2",
+      "rule": "user_bulk_followup_for_unselected_rows",
+      "before": {
+        "verdict": null,
+        "note": ""
+      },
+      "after": {
+        "verdict": "fail",
+        "note": "描述过于笼统，多人符合，无法唯一指认"
+      }
+    },
+    {
+      "index": 136,
+      "review_id": "refreview_18fa788c955f2c0b",
+      "rule": "user_bulk_followup_for_unselected_rows",
+      "before": {
+        "verdict": null,
+        "note": ""
+      },
+      "after": {
+        "verdict": "fail",
+        "note": "描述过于笼统，多人符合，无法唯一指认"
+      }
+    },
+    {
+      "index": 137,
+      "review_id": "refreview_645fa75623fc3ea7",
+      "rule": "user_bulk_followup_for_unselected_rows",
+      "before": {
+        "verdict": null,
+        "note": ""
+      },
+      "after": {
+        "verdict": "fail",
+        "note": "描述过于笼统，多人符合，无法唯一指认"
+      }
+    },
+    {
+      "index": 138,
+      "review_id": "refreview_097d23ccc4f039fd",
+      "rule": "user_bulk_followup_for_unselected_rows",
+      "before": {
+        "verdict": null,
+        "note": ""
+      },
+      "after": {
+        "verdict": "fail",
+        "note": "描述过于笼统，多人符合，无法唯一指认"
+      }
+    },
+    {
+      "index": 139,
+      "review_id": "refreview_20fbb1cdd4a23712",
+      "rule": "user_bulk_followup_for_unselected_rows",
+      "before": {
+        "verdict": null,
+        "note": ""
+      },
+      "after": {
+        "verdict": "fail",
+        "note": "描述过于笼统，多人符合，无法唯一指认"
+      }
+    },
+    {
+      "index": 140,
+      "review_id": "refreview_b80702799dd69185",
+      "rule": "user_bulk_followup_for_unselected_rows",
+      "before": {
+        "verdict": null,
+        "note": ""
+      },
+      "after": {
+        "verdict": "fail",
+        "note": "描述过于笼统，多人符合，无法唯一指认"
+      }
+    },
+    {
+      "index": 141,
+      "review_id": "refreview_3173927a64050358",
+      "rule": "user_bulk_followup_for_unselected_rows",
+      "before": {
+        "verdict": null,
+        "note": ""
+      },
+      "after": {
+        "verdict": "fail",
+        "note": "描述过于笼统，多人符合，无法唯一指认"
+      }
+    },
+    {
+      "index": 142,
+      "review_id": "refreview_e459616713457b2e",
+      "rule": "user_bulk_followup_for_unselected_rows",
+      "before": {
+        "verdict": null,
+        "note": ""
+      },
+      "after": {
+        "verdict": "fail",
+        "note": "描述过于笼统，多人符合，无法唯一指认"
+      }
+    },
+    {
+      "index": 143,
+      "review_id": "refreview_b93689a3860bac2d",
+      "rule": "user_bulk_followup_for_unselected_rows",
+      "before": {
+        "verdict": null,
+        "note": ""
+      },
+      "after": {
+        "verdict": "fail",
+        "note": "描述过于笼统，多人符合，无法唯一指认"
+      }
+    },
+    {
+      "index": 144,
+      "review_id": "refreview_b28dd0f9a53c1e31",
+      "rule": "user_bulk_followup_for_unselected_rows",
+      "before": {
+        "verdict": null,
+        "note": ""
+      },
+      "after": {
+        "verdict": "fail",
+        "note": "描述过于笼统，多人符合，无法唯一指认"
+      }
+    },
+    {
+      "index": 145,
+      "review_id": "refreview_4c07a146dfbed742",
+      "rule": "user_bulk_followup_for_unselected_rows",
+      "before": {
+        "verdict": null,
+        "note": ""
+      },
+      "after": {
+        "verdict": "fail",
+        "note": "描述过于笼统，多人符合，无法唯一指认"
+      }
+    },
+    {
+      "index": 146,
+      "review_id": "refreview_28b2fdf79917dfa8",
+      "rule": "user_bulk_followup_for_unselected_rows",
+      "before": {
+        "verdict": null,
+        "note": ""
+      },
+      "after": {
+        "verdict": "fail",
+        "note": "描述过于笼统，多人符合，无法唯一指认"
+      }
+    },
+    {
+      "index": 147,
+      "review_id": "refreview_854804c9b1a1d090",
+      "rule": "user_bulk_followup_for_unselected_rows",
+      "before": {
+        "verdict": null,
+        "note": ""
+      },
+      "after": {
+        "verdict": "fail",
+        "note": "描述过于笼统，多人符合，无法唯一指认"
+      }
+    },
+    {
+      "index": 148,
+      "review_id": "refreview_6c361fd62d1a3a9a",
+      "rule": "user_bulk_followup_for_unselected_rows",
+      "before": {
+        "verdict": null,
+        "note": ""
+      },
+      "after": {
+        "verdict": "fail",
+        "note": "描述过于笼统，多人符合，无法唯一指认"
+      }
+    },
+    {
+      "index": 149,
+      "review_id": "refreview_72b1d4809c5c671c",
+      "rule": "user_bulk_followup_for_unselected_rows",
+      "before": {
+        "verdict": null,
+        "note": ""
+      },
+      "after": {
+        "verdict": "fail",
+        "note": "描述过于笼统，多人符合，无法唯一指认"
+      }
+    },
+    {
+      "index": 150,
+      "review_id": "refreview_8af8ddce2bf29f4e",
+      "rule": "user_bulk_followup_for_unselected_rows",
+      "before": {
+        "verdict": null,
+        "note": ""
+      },
+      "after": {
+        "verdict": "fail",
+        "note": "描述过于笼统，多人符合，无法唯一指认"
+      }
+    },
+    {
+      "index": 151,
+      "review_id": "refreview_238eb4206d55812c",
+      "rule": "user_bulk_followup_for_unselected_rows",
+      "before": {
+        "verdict": null,
+        "note": ""
+      },
+      "after": {
+        "verdict": "fail",
+        "note": "描述过于笼统，多人符合，无法唯一指认"
+      }
+    },
+    {
+      "index": 152,
+      "review_id": "refreview_5a5f6cb735f0eee0",
+      "rule": "user_bulk_followup_for_unselected_rows",
+      "before": {
+        "verdict": null,
+        "note": ""
+      },
+      "after": {
+        "verdict": "fail",
+        "note": "描述过于笼统，多人符合，无法唯一指认"
+      }
+    },
+    {
+      "index": 153,
+      "review_id": "refreview_096f1dd5ce3593a9",
+      "rule": "user_bulk_followup_for_unselected_rows",
+      "before": {
+        "verdict": null,
+        "note": ""
+      },
+      "after": {
+        "verdict": "fail",
+        "note": "描述过于笼统，多人符合，无法唯一指认"
+      }
+    },
+    {
+      "index": 154,
+      "review_id": "refreview_373dcc06ed2bdd1f",
+      "rule": "user_bulk_followup_for_unselected_rows",
+      "before": {
+        "verdict": null,
+        "note": ""
+      },
+      "after": {
+        "verdict": "fail",
+        "note": "描述过于笼统，多人符合，无法唯一指认"
+      }
+    }
+  ]
+}

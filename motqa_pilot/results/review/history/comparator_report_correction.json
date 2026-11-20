@@ -1,0 +1,7 @@
+{
+  "at": "2026-11-04T23:34:34.893974+08:00",
+  "reason": "Correct preparation report shorthand: two anchors have0 and1 other visible people, rather than1 each. Actual manifest, images, page, selection and user state unchanged.",
+  "prior_report_sha256": "fadf8b492946b1e96a166e6434b563901e8ddd2011e7c3cdeddc90c952bfc911",
+  "prior_zip_sha256": "a07472ab417899c9fb943c66558bc261768ddfecbda7cd35a8175188bb87e6b9",
+  "final_zip_sha256": "8910a8828b9864d7d6e53f42f0ca76da28814953ee39ec6a16892e903963a84f"
+}

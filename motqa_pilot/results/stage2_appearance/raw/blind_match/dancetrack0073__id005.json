@@ -1,0 +1,97 @@
+{
+  "unit_key": "dancetrack0073__id005",
+  "sequence": "dancetrack0073",
+  "gt_id": 5,
+  "phase": "blind_match",
+  "started_at": "2026-11-04T14:08:27.418880+00:00",
+  "completed_at": "2026-11-04T14:08:36.607273+00:00",
+  "seconds": 9.188425256405026,
+  "prompt_text": "Match this appearance phrase against ALL anonymous person tiles in the image(s): \"the person in a black short-sleeve t-shirt and black pants with a high ponytail\"\nEvery labeled tile is one different person from the same video; its two crops are held-out views. Labels and tile order do not reveal the intended target. A phrase may match none, one, or several people. Include ALL people who visibly satisfy the whole phrase in matches. Include in uncertain any plausible person for whom the views do not resolve an attribute, instead of assuming that person is a non-match. Do not pick a best match when several fit. A location or action does not distinguish appearance. Omitted labels mean clear non-matches.\nReturn {\"matches\":[\"P01\"],\"uncertain\":[],\"reason\":\"brief visual explanation\"}. Valid labels: [\"P01\", \"P02\", \"P03\", \"P04\", \"P05\", \"P06\", \"P07\", \"P08\", \"P09\", \"P10\", \"P11\", \"P12\", \"P13\", \"P14\"].",
+  "image_paths": [
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0073/heldout_gallery_page00.jpg",
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0073/heldout_gallery_page01.jpg"
+  ],
+  "image_sha256": [
+    "521cf513dc07f08ab8f8a600314aff2fd41b955958320c6a4cef109cbd905043",
+    "891a036352fa6119a458f0f0960c61a8dbdf9a0120cd8df4485fcd3d6b32195a"
+  ],
+  "response": {
+    "id": "chatcmpl-81a96540e5f36b1d",
+    "object": "chat.completion",
+    "created": 1793801307,
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"matches\":[\"P01\",\"P02\",\"P03\",\"P04\",\"P05\",\"P06\",\"P07\",\"P08\",\"P09\",\"P10\",\"P11\",\"P12\",\"P13\",\"P14\"],\"uncertain\":[],\"reason\":\"All individuals in the image tiles are wearing black short-sleeve t-shirts and black pants. The high ponytail is visible in multiple tiles for P01, P02, P03, P04, P05, P06, P07, P08, P09, P10, P11, P12, P13, and P14. Since all people visibly satisfy the full description, they are all included in matches.\"}",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 1439,
+      "total_tokens": 1608,
+      "completion_tokens": 169,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "check": {
+    "valid": true,
+    "parsed": {
+      "matches": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10",
+        "P11",
+        "P12",
+        "P13",
+        "P14"
+      ],
+      "uncertain": [],
+      "reason": "All individuals in the image tiles are wearing black short-sleeve t-shirts and black pants. The high ponytail is visible in multiple tiles for P01, P02, P03, P04, P05, P06, P07, P08, P09, P10, P11, P12, P13, and P14. Since all people visibly satisfy the full description, they are all included in matches."
+    },
+    "matched_gt_ids": [
+      13,
+      12,
+      3,
+      10,
+      2,
+      7,
+      0,
+      4,
+      1,
+      5,
+      6,
+      8,
+      9,
+      11
+    ],
+    "uncertain_gt_ids": [],
+    "passed": false,
+    "error": null
+  },
+  "inference_policy_sha256": "ea3ce06e83208db2fc1ed693ee2ac1b349f8ae344fcdc2cb0a22e30ef8df60e3"
+}

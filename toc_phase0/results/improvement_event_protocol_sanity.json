@@ -1,0 +1,63 @@
+{
+  "checked_at": "2026-11-01T19:07:57.386826+08:00",
+  "test_answers_or_labels_read": false,
+  "checks": [
+    {
+      "name": "one_absent_sample",
+      "status": "PASS",
+      "events": {
+        "fully_hidden": [],
+        "comes_back_into_view": [],
+        "leaves_frame": [],
+        "disappears": [],
+        "disappears_for_good": [],
+        "enters_frame": [],
+        "first_shows_up": [
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "two_absent_samples",
+      "status": "PASS",
+      "events": {
+        "fully_hidden": [
+          1.0
+        ],
+        "comes_back_into_view": [
+          1.6666666666666667
+        ],
+        "leaves_frame": [],
+        "disappears": [
+          1.0
+        ],
+        "disappears_for_good": [],
+        "enters_frame": [],
+        "first_shows_up": [
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "single_visible_blip_not_a_return",
+      "status": "PASS",
+      "events": {
+        "fully_hidden": [
+          1.0
+        ],
+        "comes_back_into_view": [
+          2.6666666666666665
+        ],
+        "leaves_frame": [],
+        "disappears": [
+          1.0
+        ],
+        "disappears_for_good": [],
+        "enters_frame": [],
+        "first_shows_up": [
+          0.0
+        ]
+      }
+    }
+  ]
+}

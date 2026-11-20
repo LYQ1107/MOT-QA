@@ -1,0 +1,749 @@
+{"qa_id": "306b3b6b5877", "model": "MASA_rule", "format": "numerical", "raw_response": "3", "extracted_answer": "3", "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 3}
+{"qa_id": "fd121af8b866", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "e1113ed4bdfd", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "no observed disappearance/reappearance gap"}
+{"qa_id": "912974a8d310", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "no disappearance event observed"}
+{"qa_id": "637b10b97536", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "39e4b6ca2eab", "model": "MASA_rule", "format": "sp", "raw_response": "A", "extracted_answer": "A", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "f13903352ab3", "model": "MASA_rule", "format": "numerical", "raw_response": "5 or more", "extracted_answer": "5 or more", "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 8}
+{"qa_id": "72003818feab", "model": "MASA_rule", "format": "sp", "raw_response": "A", "extracted_answer": "A", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "b13e3c617734", "model": "MASA_rule", "format": "numerical", "raw_response": "3", "extracted_answer": "3", "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 3}
+{"qa_id": "7c9f8a2deb5a", "model": "MASA_rule", "format": "sp", "raw_response": "B", "extracted_answer": "B", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "5118b23e48d1", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "f69bd688d550", "model": "MASA_rule", "format": "ordering_4", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "c0e538203735", "model": "MASA_rule", "format": "ordering_3", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "e9e4171e81d7", "model": "MASA_rule", "format": "sp", "raw_response": "A", "extracted_answer": "A", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "e8bbfbb73ffc", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "e6bb2181a161", "model": "MASA_rule", "format": "sp", "raw_response": "A", "extracted_answer": "A", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "6ff6b9bf50ae", "model": "MASA_rule", "format": "sp", "raw_response": "B", "extracted_answer": "B", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "9bec647a1462", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "068106fc0838", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "d754da662fdd", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "f90f9583aca4", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "no observed disappearance/reappearance gap"}
+{"qa_id": "6c86816279d7", "model": "MASA_rule", "format": "ordering_3", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "eda382abac12", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "f2c405a59d03", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "35fa9bd5bb69", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "a2d9b8f8eaf8", "model": "MASA_rule", "format": "ordering_4", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "e38b0509fd49", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "9e4b3b397bf2", "model": "MASA_rule", "format": "sp", "raw_response": "B", "extracted_answer": "B", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "f3444d13f6db", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "d0e3e04ec6db", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "5a4f17bd1bd4", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "7a368e283b2d", "model": "MASA_rule", "format": "sp", "raw_response": "B", "extracted_answer": "B", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "ecf43beb0173", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "no observed disappearance/reappearance gap"}
+{"qa_id": "9f16296d2ad9", "model": "MASA_rule", "format": "sp", "raw_response": "B", "extracted_answer": "B", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "0190d0cf2c4a", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "no disappearance event observed"}
+{"qa_id": "3e3b3b797c90", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "244a03c5d934", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "3c860821f0fa", "model": "MASA_rule", "format": "ordering_4", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "at least one requested event was not observed"}
+{"qa_id": "aad61a79b530", "model": "MASA_rule", "format": "numerical", "raw_response": "1", "extracted_answer": null, "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 1}
+{"qa_id": "64059a22a232", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "cd58e49a3daa", "model": "MASA_rule", "format": "sp", "raw_response": "A", "extracted_answer": "A", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "c6b08d647eeb", "model": "MASA_rule", "format": "ordering_3", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "c9467b76f345", "model": "MASA_rule", "format": "sp", "raw_response": "A", "extracted_answer": "A", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "4cfc5513567b", "model": "MASA_rule", "format": "numerical", "raw_response": "4", "extracted_answer": "4", "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 4}
+{"qa_id": "2092db8de444", "model": "MASA_rule", "format": "ordering_3", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "087a4a8a2507", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "b3a7aa28c2b1", "model": "MASA_rule", "format": "sp", "raw_response": "B", "extracted_answer": "B", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "38f3e37f9491", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "f2f0ca1236e2", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "410a4ffa8071", "model": "MASA_rule", "format": "ordering_4", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "at least one requested event was not observed"}
+{"qa_id": "406726a06e80", "model": "MASA_rule", "format": "sp", "raw_response": "B", "extracted_answer": "B", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "c28aba38998b", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "473e00adafd7", "model": "MASA_rule", "format": "numerical", "raw_response": "2", "extracted_answer": "2", "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 2}
+{"qa_id": "cc54aea3162c", "model": "MASA_rule", "format": "numerical", "raw_response": "3", "extracted_answer": "3", "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 3}
+{"qa_id": "e381e304a359", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "no observed disappearance/reappearance gap"}
+{"qa_id": "817c973dfc2e", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "baed0a163ae1", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "e4cfec18ab03", "model": "MASA_rule", "format": "ordering_3", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "20618ad0b147", "model": "MASA_rule", "format": "ordering_4", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "5eda20dbe3b4", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "05e65d76463f", "model": "MASA_rule", "format": "numerical", "raw_response": "5 or more", "extracted_answer": "5 or more", "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 7}
+{"qa_id": "6eb374c995b4", "model": "MASA_rule", "format": "numerical", "raw_response": "5 or more", "extracted_answer": "5 or more", "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 8}
+{"qa_id": "9cb289a97b8a", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "a263c917735a", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "922fe7d37efb", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "8ebdde6fc68e", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "a cross-object event was not observed"}
+{"qa_id": "5d6529738f63", "model": "MASA_rule", "format": "sp", "raw_response": "A", "extracted_answer": "A", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "493f7288fc97", "model": "MASA_rule", "format": "ordering_4", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "b272e8759d22", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "no observed disappearance/reappearance gap"}
+{"qa_id": "49659fe18b86", "model": "MASA_rule", "format": "sp", "raw_response": "B", "extracted_answer": "B", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "35d99fd3d86a", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "f6f105d654cf", "model": "MASA_rule", "format": "ordering_3", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "at least one requested event was not observed"}
+{"qa_id": "e648662c049d", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "6289767bb622", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "e77aa63dab18", "model": "MASA_rule", "format": "ordering_3", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "at least one requested event was not observed"}
+{"qa_id": "a0065696e668", "model": "MASA_rule", "format": "sp", "raw_response": "B", "extracted_answer": "B", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "11db2343c407", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "33e9ee85ff87", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "40c8a8899957", "model": "MASA_rule", "format": "ordering_4", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "90d54482df4b", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "f7eb00cf9383", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "ed232e200a58", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "no observed disappearance/reappearance gap"}
+{"qa_id": "efd1f0f61fbd", "model": "MASA_rule", "format": "ordering_3", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "712260bf1958", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "775223ef09cb", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "614c247d2e06", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "1e17312b10c1", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "5065b7936486", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "c9c9b6f9e6c7", "model": "MASA_rule", "format": "numerical", "raw_response": "5 or more", "extracted_answer": "5 or more", "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 7}
+{"qa_id": "41b71b1ff744", "model": "MASA_rule", "format": "numerical", "raw_response": "2", "extracted_answer": "2", "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 2}
+{"qa_id": "ce78c6eb3fe1", "model": "MASA_rule", "format": "sp", "raw_response": "A", "extracted_answer": "A", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "1b423d5f0441", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "0759cb9bb6cd", "model": "MASA_rule", "format": "ordering_3", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "f6db37251836", "model": "MASA_rule", "format": "sp", "raw_response": "B", "extracted_answer": "B", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "46d5db724a2d", "model": "MASA_rule", "format": "sp", "raw_response": "A", "extracted_answer": "A", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "48b3bdea5cd6", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "a1a6fa838b5e", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "e0708a5f429f", "model": "MASA_rule", "format": "ordering_4", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "dd00093fb9f2", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "32e6a8cce4fd", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "5c88dc973cc9", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "no disappearance event observed"}
+{"qa_id": "c7616ea16ebd", "model": "MASA_rule", "format": "ordering_4", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "c2574c3e6d43", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "cc8066db36a6", "model": "MASA_rule", "format": "numerical", "raw_response": "2", "extracted_answer": "2", "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 2}
+{"qa_id": "b2df05809e9b", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "64cc5254725b", "model": "MASA_rule", "format": "sp", "raw_response": "B", "extracted_answer": "B", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "e9efdea942b1", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "a66221b831fe", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "f5c165c5de20", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "41b092d6d108", "model": "MASA_rule", "format": "numerical", "raw_response": "0", "extracted_answer": null, "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 0}
+{"qa_id": "6ef19196ce44", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "5fb424697d23", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "fad7617f06d0", "model": "MASA_rule", "format": "numerical", "raw_response": "1", "extracted_answer": null, "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 1}
+{"qa_id": "c54586ea15fd", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "no observed disappearance/reappearance gap"}
+{"qa_id": "2c2b1d82edf3", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "no disappearance event observed"}
+{"qa_id": "9e5c44170f80", "model": "MASA_rule", "format": "sp", "raw_response": "B", "extracted_answer": "B", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "ee4d5546df01", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "no observed disappearance/reappearance gap"}
+{"qa_id": "6fa95513346d", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "ce456b677fd5", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "0893a25082de", "model": "MASA_rule", "format": "sp", "raw_response": "A", "extracted_answer": "A", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "9bf91548f358", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "24cd69603707", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "998a1297d525", "model": "MASA_rule", "format": "numerical", "raw_response": "5 or more", "extracted_answer": "5 or more", "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 6}
+{"qa_id": "29614708f97c", "model": "MASA_rule", "format": "ordering_4", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "at least one requested event was not observed"}
+{"qa_id": "d39ea5abede5", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "35e1be5c9e71", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "64385fff656a", "model": "MASA_rule", "format": "sp", "raw_response": "B", "extracted_answer": "B", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "edaadd40ee46", "model": "MASA_rule", "format": "sp", "raw_response": "B", "extracted_answer": "B", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "4c7a14e86d78", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "507101ea6e79", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "aa880ade2cff", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "3cc17e3bc31f", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "f1cee1c62996", "model": "MASA_rule", "format": "numerical", "raw_response": "2", "extracted_answer": "2", "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 2}
+{"qa_id": "ad8e898830eb", "model": "MASA_rule", "format": "sp", "raw_response": "A", "extracted_answer": "A", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "4c9082a77916", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "f2f4ab6e819a", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "eaead7ee9248", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "02d9ae720ba9", "model": "MASA_rule", "format": "ordering_4", "raw_response": "B, C, D, A", "extracted_answer": ["B", "C", "D", "A"], "error": null, "covered": true, "reason": "rule computed", "event_times": [[17.8, "B"], [20.4, "C"], [24.4, "D"], [25.2, "A"]]}
+{"qa_id": "2e3ed9b80f69", "model": "MASA_rule", "format": "numerical", "raw_response": "0", "extracted_answer": null, "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 0}
+{"qa_id": "ee134dc18780", "model": "MASA_rule", "format": "numerical", "raw_response": "5 or more", "extracted_answer": "5 or more", "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 6}
+{"qa_id": "3d83bd30542e", "model": "MASA_rule", "format": "ordering_4", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "at least one requested event was not observed"}
+{"qa_id": "9e86b0cbce7f", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "80de61955323", "model": "MASA_rule", "format": "numerical", "raw_response": "0", "extracted_answer": null, "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 0}
+{"qa_id": "9e409446f0d2", "model": "MASA_rule", "format": "sp", "raw_response": "B", "extracted_answer": "B", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "8ca7d26ca10f", "model": "MASA_rule", "format": "sp", "raw_response": "A", "extracted_answer": "A", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "e72268209e78", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "279badfc2fdb", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "f192c6ea9cc5", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "a cross-object event was not observed"}
+{"qa_id": "61c15be6be29", "model": "MASA_rule", "format": "ordering_4", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "3301d3ea65a8", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "no observed disappearance/reappearance gap"}
+{"qa_id": "cc2ad769b645", "model": "MASA_rule", "format": "ordering_3", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "52a7d4ebb1be", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "7e1384c66b0b", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "no observed disappearance/reappearance gap"}
+{"qa_id": "064cb90e6389", "model": "MASA_rule", "format": "ordering_3", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "e8ce11c154dd", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "638b779d37c6", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "b1a819deb3b8", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "2e595b32b2e6", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "no disappearance event observed"}
+{"qa_id": "91ec9ffa0ef9", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "38f7094160be", "model": "MASA_rule", "format": "numerical", "raw_response": "1", "extracted_answer": null, "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 1}
+{"qa_id": "1f16de08e889", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "aaf185604082", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "b4c8fd9e163b", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "b86bd035e102", "model": "MASA_rule", "format": "numerical", "raw_response": "3", "extracted_answer": "3", "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 3}
+{"qa_id": "0e9001a3b829", "model": "MASA_rule", "format": "ordering_3", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "fdc20dc15669", "model": "MASA_rule", "format": "numerical", "raw_response": "5 or more", "extracted_answer": "5 or more", "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 12}
+{"qa_id": "2989e2d7de3d", "model": "MASA_rule", "format": "ordering_4", "raw_response": "B, C, D, A", "extracted_answer": ["B", "C", "D", "A"], "error": null, "covered": true, "reason": "rule computed", "event_times": [[2.6, "B"], [4.2, "C"], [19.0, "D"], [27.599999999999998, "A"]]}
+{"qa_id": "df24461110a3", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "174566649511", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "ad94a1545092", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "576d2206cf11", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "8f371502728a", "model": "MASA_rule", "format": "sp", "raw_response": "B", "extracted_answer": "B", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "c9172dfae676", "model": "MASA_rule", "format": "numerical", "raw_response": "0", "extracted_answer": null, "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 0}
+{"qa_id": "b435e43623cd", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "f9ab1de16734", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "1b1f653650f9", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "38ca321b15d2", "model": "MASA_rule", "format": "ordering_4", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "c3dfa6fd780d", "model": "MASA_rule", "format": "sp", "raw_response": "A", "extracted_answer": "A", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "db6d62738250", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "no disappearance event observed"}
+{"qa_id": "3aea61053429", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "f6b59401d5e6", "model": "MASA_rule", "format": "ordering_4", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "7b6137d3786f", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "no disappearance event observed"}
+{"qa_id": "0e3fab1c4df1", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "7701856a4c94", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "15f31e2572de", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "601cc4c6cc8f", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "20e82782d18b", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "3f8c860b9ad6", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "d8ab5e9d3df9", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "0fce3444c9c7", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "53ce9e69bf88", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "9f9ca17f22be", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "939a669a0713", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "59d033e42aa7", "model": "MASA_rule", "format": "ordering_3", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "0bfdc4f94796", "model": "MASA_rule", "format": "ordering_3", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "at least one requested event was not observed"}
+{"qa_id": "39829d3712a6", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "ca07dbf8359f", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "6cdafa9cf1fd", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "a cross-object event was not observed"}
+{"qa_id": "bdd73e29f8e7", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "a cross-object event was not observed"}
+{"qa_id": "1c1bf92db462", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "13a41b8c6b50", "model": "MASA_rule", "format": "sp", "raw_response": "A", "extracted_answer": "A", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "7dcaa19f4a42", "model": "MASA_rule", "format": "ordering_4", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "at least one requested event was not observed"}
+{"qa_id": "8855613117cc", "model": "MASA_rule", "format": "numerical", "raw_response": "3", "extracted_answer": "3", "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 3}
+{"qa_id": "86ff4a0f2cba", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "0ef023cdb6f2", "model": "MASA_rule", "format": "numerical", "raw_response": "4", "extracted_answer": "4", "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 4}
+{"qa_id": "c12ea5f8262a", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "e17508487853", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "67b7fcd55020", "model": "MASA_rule", "format": "ordering_3", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "at least one requested event was not observed"}
+{"qa_id": "bb92eacb40c6", "model": "MASA_rule", "format": "numerical", "raw_response": "1", "extracted_answer": null, "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 1}
+{"qa_id": "cfc2cfd2abcb", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "1c1f2c3175be", "model": "MASA_rule", "format": "sp", "raw_response": "A", "extracted_answer": "A", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "387c432723bf", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "a cross-object event was not observed"}
+{"qa_id": "7f9ebd763fa7", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "710807ec1130", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "3484d0bf89d5", "model": "MASA_rule", "format": "sp", "raw_response": "A", "extracted_answer": "A", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "1cd0cf28703f", "model": "MASA_rule", "format": "sp", "raw_response": "A", "extracted_answer": "A", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "e8d8911789a9", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "2e16ccb4c8da", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "0baf6491b598", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "6c80cb6cec94", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "139b17cdf632", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "53647348bd55", "model": "MASA_rule", "format": "sp", "raw_response": "A", "extracted_answer": "A", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "e268d11bbeff", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "74dd998dce76", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "6d500a2cf1e9", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "f1dcabafeefd", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "0e9e33c81d1d", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "no disappearance event observed"}
+{"qa_id": "46f7b599730b", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "a cross-object event was not observed"}
+{"qa_id": "e28143b52d91", "model": "MASA_rule", "format": "sp", "raw_response": "A", "extracted_answer": "A", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "292a9865c751", "model": "MASA_rule", "format": "numerical", "raw_response": "0", "extracted_answer": null, "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 0}
+{"qa_id": "120825200c3f", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "d6cb083659f7", "model": "MASA_rule", "format": "sp", "raw_response": "A", "extracted_answer": "A", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "aa95129776c4", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "no disappearance event observed"}
+{"qa_id": "90d708e859f9", "model": "MASA_rule", "format": "ordering_4", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "at least one requested event was not observed"}
+{"qa_id": "8c547a7c18ff", "model": "MASA_rule", "format": "sp", "raw_response": "A", "extracted_answer": "A", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "1ac388273259", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "67db44a4d3e4", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "a6cad908c3c7", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "3850789009dc", "model": "MASA_rule", "format": "sp", "raw_response": "A", "extracted_answer": "A", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "982263a379f8", "model": "MASA_rule", "format": "ordering_3", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "8c0e59a15019", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "38fe51cbf9fe", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "599944b9cd39", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "803549452aa8", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "093589b84207", "model": "MASA_rule", "format": "sp", "raw_response": "A", "extracted_answer": "A", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "a289a0914aff", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "253669f7544a", "model": "MASA_rule", "format": "ordering_3", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "fcba45c6843c", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "4313f3d7d450", "model": "MASA_rule", "format": "sp", "raw_response": "B", "extracted_answer": "B", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "f6ce39a8381c", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "23b114b9d6f7", "model": "MASA_rule", "format": "numerical", "raw_response": "5 or more", "extracted_answer": "5 or more", "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 10}
+{"qa_id": "24773ab677ad", "model": "MASA_rule", "format": "sp", "raw_response": "B", "extracted_answer": "B", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "3078022e3939", "model": "MASA_rule", "format": "numerical", "raw_response": "3", "extracted_answer": "3", "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 3}
+{"qa_id": "26eb74bfda76", "model": "MASA_rule", "format": "ordering_4", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "d997a3c85a53", "model": "MASA_rule", "format": "sp", "raw_response": "B", "extracted_answer": "B", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "77ade1dad943", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "0abb99e6a10a", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "83986244196e", "model": "MASA_rule", "format": "sp", "raw_response": "B", "extracted_answer": "B", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "79e261e5e3d2", "model": "MASA_rule", "format": "sp", "raw_response": "A", "extracted_answer": "A", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "46f603ad2aba", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "d4d1c0d7c4ba", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "63acab31636a", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "71059f033aa6", "model": "MASA_rule", "format": "numerical", "raw_response": "5 or more", "extracted_answer": "5 or more", "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 6}
+{"qa_id": "7d04803f98c0", "model": "MASA_rule", "format": "sp", "raw_response": "B", "extracted_answer": "B", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "3afb8d11cee9", "model": "MASA_rule", "format": "numerical", "raw_response": "5 or more", "extracted_answer": "5 or more", "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 10}
+{"qa_id": "3520414b37c5", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "7cabca0d8f0e", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "81713877817e", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "362c97c30ef8", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "1e1c2ae1c7d6", "model": "MASA_rule", "format": "numerical", "raw_response": "2", "extracted_answer": "2", "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 2}
+{"qa_id": "1297862b34c8", "model": "MASA_rule", "format": "numerical", "raw_response": "2", "extracted_answer": "2", "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 2}
+{"qa_id": "c4ddf8a8ed26", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "d6dc07be09df", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "932fc9216a1a", "model": "MASA_rule", "format": "sp", "raw_response": "B", "extracted_answer": "B", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "910c203320e7", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "862550f41656", "model": "MASA_rule", "format": "sp", "raw_response": "B", "extracted_answer": "B", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "73409fad889f", "model": "MASA_rule", "format": "ordering_3", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "3b47b91a8409", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "15359fdfbefe", "model": "MASA_rule", "format": "numerical", "raw_response": "3", "extracted_answer": "3", "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 3}
+{"qa_id": "42a3529598cd", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "c90d84123c08", "model": "MASA_rule", "format": "ordering_3", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "b97864e1b5ba", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "1fee389d677f", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "a cross-object event was not observed"}
+{"qa_id": "d663925de846", "model": "MASA_rule", "format": "ordering_3", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "16f94195d2e3", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "bcc67d46d84a", "model": "MASA_rule", "format": "numerical", "raw_response": "0", "extracted_answer": null, "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 0}
+{"qa_id": "1e62a18493ca", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "53a3eb67757d", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "3cbdef8cb838", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "637304fdb2fa", "model": "MASA_rule", "format": "numerical", "raw_response": "1", "extracted_answer": null, "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 1}
+{"qa_id": "60a2141634eb", "model": "MASA_rule", "format": "numerical", "raw_response": "3", "extracted_answer": "3", "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 3}
+{"qa_id": "f1fcd6bfb421", "model": "MASA_rule", "format": "sp", "raw_response": "A", "extracted_answer": "A", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "a098744c4c21", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "82b6b8904003", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "868fc635a146", "model": "MASA_rule", "format": "numerical", "raw_response": "1", "extracted_answer": null, "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 1}
+{"qa_id": "af7bb93e2a8e", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "d5664374c2fe", "model": "MASA_rule", "format": "sp", "raw_response": "A", "extracted_answer": "A", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "8702085e38ee", "model": "MASA_rule", "format": "numerical", "raw_response": "0", "extracted_answer": null, "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 0}
+{"qa_id": "f8307447538d", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "f196efbdf7bf", "model": "MASA_rule", "format": "numerical", "raw_response": "4", "extracted_answer": "4", "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 4}
+{"qa_id": "c0a6f88dff62", "model": "MASA_rule", "format": "sp", "raw_response": "B", "extracted_answer": "B", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "b39c68bdc6ce", "model": "MASA_rule", "format": "numerical", "raw_response": "5 or more", "extracted_answer": "5 or more", "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 6}
+{"qa_id": "623d0795d174", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "no disappearance event observed"}
+{"qa_id": "1bd3c7640e1b", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "83710b7c7993", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "no disappearance event observed"}
+{"qa_id": "bb50078097d3", "model": "MASA_rule", "format": "sp", "raw_response": "B", "extracted_answer": "B", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "ba52a9507bf1", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "7d73a701e7a6", "model": "MASA_rule", "format": "ordering_4", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "6069d87b5be0", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "324b69d04f07", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "a cross-object event was not observed"}
+{"qa_id": "8f0b5e6fb678", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "b5786fadc3ec", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "f98e61d0194e", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "f334a003ff45", "model": "MASA_rule", "format": "numerical", "raw_response": "4", "extracted_answer": "4", "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 4}
+{"qa_id": "5c92e154093b", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "no observed disappearance/reappearance gap"}
+{"qa_id": "e258822dd00a", "model": "MASA_rule", "format": "ordering_4", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "78f5ef111f70", "model": "MASA_rule", "format": "sp", "raw_response": "A", "extracted_answer": "A", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "8868afe2cfc9", "model": "MASA_rule", "format": "numerical", "raw_response": "2", "extracted_answer": "2", "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 2}
+{"qa_id": "bafa2f95fa6f", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "22cd8d7961ed", "model": "MASA_rule", "format": "sp", "raw_response": "B", "extracted_answer": "B", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "1d43cc9574ce", "model": "MASA_rule", "format": "ordering_4", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "7e33774b4d4e", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "d694bbfeca75", "model": "MASA_rule", "format": "sp", "raw_response": "A", "extracted_answer": "A", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "0eaf0f9a69cf", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "7fc4d8860d7e", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "no observed disappearance/reappearance gap"}
+{"qa_id": "ba2435eaa18b", "model": "MASA_rule", "format": "numerical", "raw_response": "3", "extracted_answer": "3", "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 3}
+{"qa_id": "d3309fe979f8", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "2d440264b7c2", "model": "MASA_rule", "format": "sp", "raw_response": "B", "extracted_answer": "B", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "ae848dcc0da3", "model": "MASA_rule", "format": "ordering_4", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "cb0e5f0058c4", "model": "MASA_rule", "format": "ordering_4", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "f91ed1475652", "model": "MASA_rule", "format": "ordering_4", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "9e6ee9ae67c5", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "e83008801159", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "e32727d13887", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "b43f33798bce", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "6fa89f92d40a", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "0ff6c332876f", "model": "MASA_rule", "format": "numerical", "raw_response": "4", "extracted_answer": "4", "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 4}
+{"qa_id": "01bd8703e42a", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "59acfe54c0a3", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "872572c376b5", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "a cross-object event was not observed"}
+{"qa_id": "1e24b82d15aa", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "no observed disappearance/reappearance gap"}
+{"qa_id": "983afa3f9ddb", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "0adf492d0dfd", "model": "MASA_rule", "format": "ordering_3", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "e74e88a44365", "model": "MASA_rule", "format": "numerical", "raw_response": "3", "extracted_answer": "3", "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 3}
+{"qa_id": "f2459fce3f36", "model": "MASA_rule", "format": "numerical", "raw_response": "3", "extracted_answer": "3", "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 3}
+{"qa_id": "0866a68d4c5c", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "16d4258d42db", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "no observed disappearance/reappearance gap"}
+{"qa_id": "55958cc80029", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "60d15aad057e", "model": "MASA_rule", "format": "ordering_4", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "at least one requested event was not observed"}
+{"qa_id": "13b4b9c339ff", "model": "MASA_rule", "format": "sp", "raw_response": "A", "extracted_answer": "A", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "182c9fb2d168", "model": "MASA_rule", "format": "sp", "raw_response": "A", "extracted_answer": "A", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "2240937e99d8", "model": "MASA_rule", "format": "numerical", "raw_response": "2", "extracted_answer": "2", "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 2}
+{"qa_id": "c41b99ad7fc0", "model": "MASA_rule", "format": "numerical", "raw_response": "2", "extracted_answer": "2", "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 2}
+{"qa_id": "da93465f6c98", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "d6612ec78f3f", "model": "MASA_rule", "format": "sp", "raw_response": "B", "extracted_answer": "B", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "d230ded2d8dc", "model": "MASA_rule", "format": "sp", "raw_response": "A", "extracted_answer": "A", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "5d2e57aa8606", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "5b87ec205b5a", "model": "MASA_rule", "format": "numerical", "raw_response": "0", "extracted_answer": null, "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 0}
+{"qa_id": "1ba7f910ff5e", "model": "MASA_rule", "format": "numerical", "raw_response": "1", "extracted_answer": null, "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 1}
+{"qa_id": "67b94c1ccd75", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "aa28ef614c28", "model": "MASA_rule", "format": "ordering_3", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "cc5a935697ca", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "d51859b306f4", "model": "MASA_rule", "format": "ordering_3", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "d8272b6a8f8f", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "c97135d67122", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "cross-object event timestamps tied"}
+{"qa_id": "a77b0193c8c5", "model": "MASA_rule", "format": "ordering_3", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "a716cc35fb7c", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "no disappearance event observed"}
+{"qa_id": "7fa797891ee6", "model": "MASA_rule", "format": "ordering_4", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "bead183a585f", "model": "MASA_rule", "format": "numerical", "raw_response": "5 or more", "extracted_answer": "5 or more", "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 15}
+{"qa_id": "95f58b2e8f71", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "3f564caa139b", "model": "MASA_rule", "format": "numerical", "raw_response": "0", "extracted_answer": null, "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 0}
+{"qa_id": "8c8330a7347d", "model": "MASA_rule", "format": "ordering_3", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "b458a1690694", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "e4e6803a2beb", "model": "MASA_rule", "format": "ordering_3", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "744469c01f94", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "b0d318814a8b", "model": "MASA_rule", "format": "ordering_3", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "597711ab10de", "model": "MASA_rule", "format": "numerical", "raw_response": "1", "extracted_answer": null, "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 1}
+{"qa_id": "38341887d62b", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "520729a46d04", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "f40b299cb7a1", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "b230b339ed75", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "9a0919b7f7c7", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "b7c0103e8449", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "4d84ab2836ff", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "no disappearance event observed"}
+{"qa_id": "85d2ff87acc2", "model": "MASA_rule", "format": "ordering_3", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "85802e3d63f4", "model": "MASA_rule", "format": "ordering_4", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "at least one requested event was not observed"}
+{"qa_id": "bdb5e905f6a4", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "757370c61467", "model": "MASA_rule", "format": "sp", "raw_response": "B", "extracted_answer": "B", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "f3dd33830122", "model": "MASA_rule", "format": "sp", "raw_response": "B", "extracted_answer": "B", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "9aa5d7538a3a", "model": "MASA_rule", "format": "numerical", "raw_response": "5 or more", "extracted_answer": "5 or more", "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 6}
+{"qa_id": "35cd30876c5c", "model": "MASA_rule", "format": "ordering_3", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "8249e51cfa39", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "0d2e76cc29b5", "model": "MASA_rule", "format": "ordering_3", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "c9f6e70b8f10", "model": "MASA_rule", "format": "ordering_3", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "d6ca723faa05", "model": "MASA_rule", "format": "sp", "raw_response": "B", "extracted_answer": "B", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "96b30141876f", "model": "MASA_rule", "format": "ordering_3", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "7734fd7e1bad", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "38f0d143eb08", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "no observed disappearance/reappearance gap"}
+{"qa_id": "8fa255afa125", "model": "MASA_rule", "format": "ordering_4", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "13357e2b139e", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "no disappearance event observed"}
+{"qa_id": "1299999226de", "model": "MASA_rule", "format": "sp", "raw_response": "A", "extracted_answer": "A", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "ea41f6ab8bb3", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "a202ba91895f", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "no disappearance event observed"}
+{"qa_id": "03e3a0783fc4", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "98c060ef4a07", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "1924c14f48a6", "model": "MASA_rule", "format": "sp", "raw_response": "B", "extracted_answer": "B", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "6da766e057d5", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "6a30c8123d53", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "88c3a64b933d", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "acafadfc87b8", "model": "MASA_rule", "format": "ordering_4", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "event timestamps tied at 5 fps"}
+{"qa_id": "c05529df5cf5", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "ebec301e15d6", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "2c02461a2357", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "no observed disappearance/reappearance gap"}
+{"qa_id": "ceefa6bb9e59", "model": "MASA_rule", "format": "sp", "raw_response": "A", "extracted_answer": "A", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "36cf64e4197c", "model": "MASA_rule", "format": "numerical", "raw_response": "5 or more", "extracted_answer": "5 or more", "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 8}
+{"qa_id": "bdb0fb8d4d60", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "no observed disappearance/reappearance gap"}
+{"qa_id": "e5aee2867f4b", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "c35ccbc77330", "model": "MASA_rule", "format": "ordering_4", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "4750572c484e", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "6242d1b61501", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "ed5664b30137", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "e5e754e5867d", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "93df3f813ae9", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "4468cdcbe0f3", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "ed922c12f6ba", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "159ef612d3ef", "model": "MASA_rule", "format": "sp", "raw_response": "B", "extracted_answer": "B", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "f58dfcc9d523", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "a71607250f80", "model": "MASA_rule", "format": "numerical", "raw_response": "5 or more", "extracted_answer": "5 or more", "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 5}
+{"qa_id": "b9333e85930e", "model": "MASA_rule", "format": "sp", "raw_response": "A", "extracted_answer": "A", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "773478469360", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "b3abf19c7faa", "model": "MASA_rule", "format": "numerical", "raw_response": "1", "extracted_answer": null, "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 1}
+{"qa_id": "7ac6526085a8", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "9baf77ce996d", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "3aa2a9a5f31e", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "a cross-object event was not observed"}
+{"qa_id": "cba467a5d9fa", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "15554ceb91bf", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "98ea35d9d5c6", "model": "MASA_rule", "format": "sp", "raw_response": "A", "extracted_answer": "A", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "47bad465fbc3", "model": "MASA_rule", "format": "numerical", "raw_response": "3", "extracted_answer": "3", "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 3}
+{"qa_id": "b562fea79ce0", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "no disappearance event observed"}
+{"qa_id": "66a6044629c9", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "a40deae8074c", "model": "MASA_rule", "format": "ordering_3", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "c3264f9f4b0c", "model": "MASA_rule", "format": "ordering_4", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "befb2e0548fb", "model": "MASA_rule", "format": "numerical", "raw_response": "2", "extracted_answer": "2", "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 2}
+{"qa_id": "9843e3b7bb1a", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "0e31f0501a4b", "model": "MASA_rule", "format": "ordering_3", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "e1e9c0d59e4d", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "06a3cd7ce9e0", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "no disappearance event observed"}
+{"qa_id": "66f32c0dc5b3", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "1d9dc2a81f99", "model": "MASA_rule", "format": "ordering_4", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "at least one requested event was not observed"}
+{"qa_id": "7af8bd00687e", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "2bdb56ca2910", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "120b8c0c180e", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "787554b00cf5", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "eb920b020281", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "640c47330a0f", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "f8d95e8bfed5", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "8ab83f3f80eb", "model": "MASA_rule", "format": "ordering_4", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "324a59b08b0f", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "972cd673bf73", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "0e166ddb30b0", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "6a0976d64399", "model": "MASA_rule", "format": "numerical", "raw_response": "3", "extracted_answer": "3", "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 3}
+{"qa_id": "7366e977e6b3", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "2aeb90329fad", "model": "MASA_rule", "format": "ordering_4", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "at least one requested event was not observed"}
+{"qa_id": "46a32b161117", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "a8a8c7f5cb89", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "aa9f2d427438", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "a cross-object event was not observed"}
+{"qa_id": "9d152c058707", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "78d1daa3ce8d", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "8cbced1e8d19", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "3980f024897d", "model": "MASA_rule", "format": "numerical", "raw_response": "4", "extracted_answer": "4", "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 4}
+{"qa_id": "5c8d8ad6682c", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "4d8170824a73", "model": "MASA_rule", "format": "sp", "raw_response": "B", "extracted_answer": "B", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "1826ee37c8b4", "model": "MASA_rule", "format": "sp", "raw_response": "A", "extracted_answer": "A", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "7a34438d40bd", "model": "MASA_rule", "format": "sp", "raw_response": "B", "extracted_answer": "B", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "4ca964fecb49", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "a4b88edb2b8f", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "no disappearance event observed"}
+{"qa_id": "61bb0d18192b", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "a cross-object event was not observed"}
+{"qa_id": "cb8a34b31b11", "model": "MASA_rule", "format": "ordering_4", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "40383484284a", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "no disappearance event observed"}
+{"qa_id": "6e5a5abef084", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "80e39d6def14", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "6fd4107b2c04", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "bed60ac52b99", "model": "MASA_rule", "format": "sp", "raw_response": "B", "extracted_answer": "B", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "95a96c7e0f2c", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "c6070c3beddc", "model": "MASA_rule", "format": "numerical", "raw_response": "5 or more", "extracted_answer": "5 or more", "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 8}
+{"qa_id": "1323da821116", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "fa4aa6466535", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "2bc39a5ff94a", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "3473dec5db8a", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "864b3faf850b", "model": "MASA_rule", "format": "numerical", "raw_response": "0", "extracted_answer": null, "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 0}
+{"qa_id": "88c62f804109", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "584579bf320f", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "b25ce0fe6cf5", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "no observed disappearance/reappearance gap"}
+{"qa_id": "3eabdaba2d90", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "0c6cad2f5eca", "model": "MASA_rule", "format": "numerical", "raw_response": "5 or more", "extracted_answer": "5 or more", "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 6}
+{"qa_id": "cc02df154bdc", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "0f868943c6b8", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "no disappearance event observed"}
+{"qa_id": "99a1a01ccde6", "model": "MASA_rule", "format": "sp", "raw_response": "A", "extracted_answer": "A", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "0eeb7a9a4848", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "a215e50360be", "model": "MASA_rule", "format": "numerical", "raw_response": "5 or more", "extracted_answer": "5 or more", "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 5}
+{"qa_id": "6681ff5dc867", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "d69bd17512b5", "model": "MASA_rule", "format": "sp", "raw_response": "B", "extracted_answer": "B", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "a0e2de384a2f", "model": "MASA_rule", "format": "numerical", "raw_response": "0", "extracted_answer": null, "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 0}
+{"qa_id": "868fd4ea5b23", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "c96e4442290e", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "f7e01e1dd82d", "model": "MASA_rule", "format": "ordering_4", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "be2ec485b257", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "8a27448d838a", "model": "MASA_rule", "format": "ordering_3", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "976bcc3f2d32", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "a cross-object event was not observed"}
+{"qa_id": "694252028fa7", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "2b28e75d65b1", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "5dc26fa4056a", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "4e24f7f1b218", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "dbf8572d26b1", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "78c99ec329c4", "model": "MASA_rule", "format": "sp", "raw_response": "A", "extracted_answer": "A", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "8d67d8c08937", "model": "MASA_rule", "format": "ordering_3", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "c934a2d7ae57", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "b80950bf2d58", "model": "MASA_rule", "format": "numerical", "raw_response": "5 or more", "extracted_answer": "5 or more", "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 5}
+{"qa_id": "8e2cb6cbf96b", "model": "MASA_rule", "format": "sp", "raw_response": "A", "extracted_answer": "A", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "ec19d83823fe", "model": "MASA_rule", "format": "numerical", "raw_response": "4", "extracted_answer": "4", "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 4}
+{"qa_id": "eafba5543f5b", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "a cross-object event was not observed"}
+{"qa_id": "a560e4aecadc", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "2812f5f6f6c7", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "8c489aafe4bb", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "6f5daf002bdc", "model": "MASA_rule", "format": "sp", "raw_response": "B", "extracted_answer": "B", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "2465b40da486", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "no observed disappearance/reappearance gap"}
+{"qa_id": "6cca465a0da2", "model": "MASA_rule", "format": "numerical", "raw_response": "3", "extracted_answer": "3", "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 3}
+{"qa_id": "f5d86d1c164f", "model": "MASA_rule", "format": "sp", "raw_response": "B", "extracted_answer": "B", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "cf10a8b552c0", "model": "MASA_rule", "format": "ordering_4", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "at least one requested event was not observed"}
+{"qa_id": "32119de6d447", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "no observed disappearance/reappearance gap"}
+{"qa_id": "a0ecf0276945", "model": "MASA_rule", "format": "ordering_4", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "a9e789af44b0", "model": "MASA_rule", "format": "sp", "raw_response": "A", "extracted_answer": "A", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "2175d655dec0", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "a cross-object event was not observed"}
+{"qa_id": "ce1f0cf00c1a", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "debe408b5d9a", "model": "MASA_rule", "format": "sp", "raw_response": "A", "extracted_answer": "A", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "c5d7c178cb3e", "model": "MASA_rule", "format": "sp", "raw_response": "B", "extracted_answer": "B", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "ef5beb6477fe", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "96ea6e9620a3", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "5d35b80f555d", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "no observed disappearance/reappearance gap"}
+{"qa_id": "8fd70226c28b", "model": "MASA_rule", "format": "numerical", "raw_response": "2", "extracted_answer": "2", "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 2}
+{"qa_id": "8476aa62d5ef", "model": "MASA_rule", "format": "ordering_3", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "90427baf38a5", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "b1a097cdc558", "model": "MASA_rule", "format": "numerical", "raw_response": "2", "extracted_answer": "2", "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 2}
+{"qa_id": "ce5408ca650d", "model": "MASA_rule", "format": "numerical", "raw_response": "2", "extracted_answer": "2", "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 2}
+{"qa_id": "38d03b8e4fa7", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "a cross-object event was not observed"}
+{"qa_id": "72fd7960830a", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "0002f24829a4", "model": "MASA_rule", "format": "ordering_4", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "92c1d693a460", "model": "MASA_rule", "format": "sp", "raw_response": "A", "extracted_answer": "A", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "51aea7835501", "model": "MASA_rule", "format": "ordering_3", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "at least one requested event was not observed"}
+{"qa_id": "d046d1ca132f", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "48ce57a894da", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "c670580944d1", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "no disappearance event observed"}
+{"qa_id": "33b2d3491f22", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "125cbc704801", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "e7110fb2f9d3", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "7057213cb667", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "ba99898a6474", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "e632157faf80", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "b3de549746f5", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "4d86b5a8f9e8", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "038f40b3aba3", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "02c6e7fb0c96", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "02e5bf5f7a8b", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "5c977ce4c903", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "657faa58fd39", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "08b887d08161", "model": "MASA_rule", "format": "numerical", "raw_response": "2", "extracted_answer": "2", "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 2}
+{"qa_id": "b2673a068d5d", "model": "MASA_rule", "format": "numerical", "raw_response": "4", "extracted_answer": "4", "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 4}
+{"qa_id": "b4da574efdfc", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "a01908ac4f2e", "model": "MASA_rule", "format": "numerical", "raw_response": "5 or more", "extracted_answer": "5 or more", "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 8}
+{"qa_id": "249a574204b2", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "33c22e72b672", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "474636895005", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "no disappearance event observed"}
+{"qa_id": "3a4d09c7aa6d", "model": "MASA_rule", "format": "sp", "raw_response": "B", "extracted_answer": "B", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "50f49a2c202f", "model": "MASA_rule", "format": "sp", "raw_response": "B", "extracted_answer": "B", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "46b07245afc8", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "2d60b5a05f2b", "model": "MASA_rule", "format": "sp", "raw_response": "B", "extracted_answer": "B", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "5a11fa97ff61", "model": "MASA_rule", "format": "numerical", "raw_response": "1", "extracted_answer": null, "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 1}
+{"qa_id": "22a3a66a2703", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "3cc4b6a2cf1b", "model": "MASA_rule", "format": "ordering_3", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "ff8c8f93f7e4", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "0ac845085db5", "model": "MASA_rule", "format": "numerical", "raw_response": "4", "extracted_answer": "4", "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 4}
+{"qa_id": "a1a0445a8cae", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "493b75dca0e1", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "f4dec629fe25", "model": "MASA_rule", "format": "numerical", "raw_response": "0", "extracted_answer": null, "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 0}
+{"qa_id": "7450921603f8", "model": "MASA_rule", "format": "numerical", "raw_response": "3", "extracted_answer": "3", "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 3}
+{"qa_id": "39e8c9fc268a", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "4637ebfddf83", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "no disappearance event observed"}
+{"qa_id": "69c4803ac4ee", "model": "MASA_rule", "format": "ordering_4", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "a55d47c8e367", "model": "MASA_rule", "format": "sp", "raw_response": "A", "extracted_answer": "A", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "e2da2f6a54c4", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "61fe126ac78a", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "7ca9235d412b", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "no observed disappearance/reappearance gap"}
+{"qa_id": "f94c0b450522", "model": "MASA_rule", "format": "ordering_4", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "at least one requested event was not observed"}
+{"qa_id": "f1ae58eeab7f", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "4c99920c2628", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "db99554df15b", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "6234bd941fba", "model": "MASA_rule", "format": "sp", "raw_response": "A", "extracted_answer": "A", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "2393dd7ba785", "model": "MASA_rule", "format": "ordering_4", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "e7e56536fe04", "model": "MASA_rule", "format": "numerical", "raw_response": "1", "extracted_answer": null, "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 1}
+{"qa_id": "7bfbb54ba3a8", "model": "MASA_rule", "format": "ordering_3", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "2683b0ff6699", "model": "MASA_rule", "format": "sp", "raw_response": "B", "extracted_answer": "B", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "fa28e1396163", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "69636187aaae", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "d012ce349622", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "no disappearance event observed"}
+{"qa_id": "9c3eb2c7688d", "model": "MASA_rule", "format": "sp", "raw_response": "A", "extracted_answer": "A", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "3e540ca9f752", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "6be607028e2a", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "afd393dc6074", "model": "MASA_rule", "format": "sp", "raw_response": "A", "extracted_answer": "A", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "e9810004db27", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "fadc08b73f50", "model": "MASA_rule", "format": "numerical", "raw_response": "4", "extracted_answer": "4", "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 4}
+{"qa_id": "5e04f6d50d47", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "a cross-object event was not observed"}
+{"qa_id": "63f7dfe03858", "model": "MASA_rule", "format": "numerical", "raw_response": "4", "extracted_answer": "4", "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 4}
+{"qa_id": "a4495c2d02d4", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "09f5094808ca", "model": "MASA_rule", "format": "numerical", "raw_response": "5 or more", "extracted_answer": "5 or more", "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 6}
+{"qa_id": "5f102bd2f014", "model": "MASA_rule", "format": "sp", "raw_response": "A", "extracted_answer": "A", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "1bc39a39d493", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "a cross-object event was not observed"}
+{"qa_id": "13ad81807fa0", "model": "MASA_rule", "format": "sp", "raw_response": "B", "extracted_answer": "B", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "09ecc5ba1b9b", "model": "MASA_rule", "format": "sp", "raw_response": "B", "extracted_answer": "B", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "2f22330b5c1d", "model": "MASA_rule", "format": "ordering_4", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "8bf86f62ecea", "model": "MASA_rule", "format": "sp", "raw_response": "B", "extracted_answer": "B", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "988a479814c6", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "05c3f3343d9f", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "4d2346a545bf", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "3309ea33d1de", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "a cross-object event was not observed"}
+{"qa_id": "b0f584526d88", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "1e127320a187", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "f1b10d1d8690", "model": "MASA_rule", "format": "sp", "raw_response": "B", "extracted_answer": "B", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "32933837ab5e", "model": "MASA_rule", "format": "ordering_3", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "5b168d83b941", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "494c05ca5eeb", "model": "MASA_rule", "format": "ordering_4", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "178a97c34031", "model": "MASA_rule", "format": "sp", "raw_response": "B", "extracted_answer": "B", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "c0aa0fe0ae91", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "a cross-object event was not observed"}
+{"qa_id": "fbfe42c0d021", "model": "MASA_rule", "format": "numerical", "raw_response": "2", "extracted_answer": "2", "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 2}
+{"qa_id": "f18d0beedb14", "model": "MASA_rule", "format": "ordering_3", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "2f1a2cc072dd", "model": "MASA_rule", "format": "sp", "raw_response": "B", "extracted_answer": "B", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "173fde2d9a1b", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "7fe0dd3f3666", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "a2a4df623fbf", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "a cross-object event was not observed"}
+{"qa_id": "2c04c91f35a0", "model": "MASA_rule", "format": "ordering_3", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "a825988d6dc3", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "75ea549ab20f", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "770e009a71c5", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "b24abdfeaef1", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "946e7e1fc0c3", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "29f9e68fae50", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "db414913f5c7", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "89a32ab8d387", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "4daadb0c5ad4", "model": "MASA_rule", "format": "ordering_3", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "8701cafcd47b", "model": "MASA_rule", "format": "numerical", "raw_response": "5 or more", "extracted_answer": "5 or more", "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 7}
+{"qa_id": "b1feddade6c7", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "no disappearance event observed"}
+{"qa_id": "fe2bb63cd75b", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "no disappearance event observed"}
+{"qa_id": "78d54a64758f", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "no observed disappearance/reappearance gap"}
+{"qa_id": "cfe74981cedf", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "3e66aa3181fe", "model": "MASA_rule", "format": "ordering_4", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "bbd62db9f9eb", "model": "MASA_rule", "format": "sp", "raw_response": "B", "extracted_answer": "B", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "ff569d6320f5", "model": "MASA_rule", "format": "sp", "raw_response": "B", "extracted_answer": "B", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "43997ce38432", "model": "MASA_rule", "format": "ordering_3", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "fafe75526a5b", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "120548d7e666", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "7ae834c61a18", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "298c2a249578", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "no disappearance event observed"}
+{"qa_id": "f1e351a86297", "model": "MASA_rule", "format": "numerical", "raw_response": "4", "extracted_answer": "4", "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 4}
+{"qa_id": "128d74ab4e21", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "no disappearance event observed"}
+{"qa_id": "5f4bfd9dda3e", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "no disappearance event observed"}
+{"qa_id": "d79f1e112da3", "model": "MASA_rule", "format": "sp", "raw_response": "A", "extracted_answer": "A", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "6112a54064ef", "model": "MASA_rule", "format": "sp", "raw_response": "B", "extracted_answer": "B", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "d791676e882d", "model": "MASA_rule", "format": "numerical", "raw_response": "5 or more", "extracted_answer": "5 or more", "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 5}
+{"qa_id": "600ccf0b1ae9", "model": "MASA_rule", "format": "sp", "raw_response": "B", "extracted_answer": "B", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "5f961f928575", "model": "MASA_rule", "format": "ordering_3", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "59ac26d139e9", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "no disappearance event observed"}
+{"qa_id": "e2e81f57d5f1", "model": "MASA_rule", "format": "numerical", "raw_response": "2", "extracted_answer": "2", "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 2}
+{"qa_id": "aa3a997a1f73", "model": "MASA_rule", "format": "numerical", "raw_response": "3", "extracted_answer": "3", "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 3}
+{"qa_id": "86ce640b3234", "model": "MASA_rule", "format": "sp", "raw_response": "B", "extracted_answer": "B", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "7764f07301a8", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "a cross-object event was not observed"}
+{"qa_id": "c6a59720d730", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "65f9e4f5ff2b", "model": "MASA_rule", "format": "numerical", "raw_response": "0", "extracted_answer": null, "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 0}
+{"qa_id": "443deece9c97", "model": "MASA_rule", "format": "ordering_3", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "48aba2c6fd8e", "model": "MASA_rule", "format": "sp", "raw_response": "B", "extracted_answer": "B", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "96d8212c8bd3", "model": "MASA_rule", "format": "ordering_4", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "d89b7b491879", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "d8349ee8dadb", "model": "MASA_rule", "format": "ordering_4", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "061682ce31ac", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "no disappearance event observed"}
+{"qa_id": "d078dc629a33", "model": "MASA_rule", "format": "ordering_3", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "767869a3a83c", "model": "MASA_rule", "format": "ordering_3", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "5fb397a43554", "model": "MASA_rule", "format": "numerical", "raw_response": "5 or more", "extracted_answer": "5 or more", "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 5}
+{"qa_id": "12c70baa67ab", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "e7361cdbf797", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "f9c76022d937", "model": "MASA_rule", "format": "numerical", "raw_response": "5 or more", "extracted_answer": "5 or more", "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 7}
+{"qa_id": "2d2659ac32aa", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "6d192d2a46f4", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "273577c22f43", "model": "MASA_rule", "format": "ordering_3", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "2ef03425bdbe", "model": "MASA_rule", "format": "sp", "raw_response": "B", "extracted_answer": "B", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "c6104a071c0e", "model": "MASA_rule", "format": "ordering_4", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "50bc451496fd", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "816aafd9767f", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "75ac27d0b7d0", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "6a3feca9fa03", "model": "MASA_rule", "format": "numerical", "raw_response": "2", "extracted_answer": "2", "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 2}
+{"qa_id": "4253aef9fdcf", "model": "MASA_rule", "format": "ordering_4", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "4c9a8b752468", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "f18edb142c36", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "821c34f1ce82", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "5446efc3b40b", "model": "MASA_rule", "format": "numerical", "raw_response": "2", "extracted_answer": "2", "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 2}
+{"qa_id": "962edfacaaf4", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "a cross-object event was not observed"}
+{"qa_id": "63b5ad032654", "model": "MASA_rule", "format": "sp", "raw_response": "B", "extracted_answer": "B", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "350e3bee0919", "model": "MASA_rule", "format": "numerical", "raw_response": "1", "extracted_answer": null, "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 1}
+{"qa_id": "7528426b76f2", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "a cross-object event was not observed"}
+{"qa_id": "e21bb335af7c", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "a cross-object event was not observed"}
+{"qa_id": "ffb1c23e35b4", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "a cross-object event was not observed"}
+{"qa_id": "394f1da7db8c", "model": "MASA_rule", "format": "ordering_4", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "ff845ac983d2", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "da02e4c84205", "model": "MASA_rule", "format": "ordering_4", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "a08786ffb3bf", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "a cross-object event was not observed"}
+{"qa_id": "a98f4767efa4", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "728f755b9cef", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "6679bac90bd4", "model": "MASA_rule", "format": "numerical", "raw_response": "2", "extracted_answer": "2", "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 2}
+{"qa_id": "7e079c49def8", "model": "MASA_rule", "format": "numerical", "raw_response": "5 or more", "extracted_answer": "5 or more", "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 5}
+{"qa_id": "7be04f0440e6", "model": "MASA_rule", "format": "sp", "raw_response": "B", "extracted_answer": "B", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "df1690e14607", "model": "MASA_rule", "format": "ordering_3", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "at least one requested event was not observed"}
+{"qa_id": "7a717127f3be", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "afe37e724bd4", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "f7af63b0ffe3", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "d9dc98852400", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "34fdc230d264", "model": "MASA_rule", "format": "numerical", "raw_response": "0", "extracted_answer": null, "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 0}
+{"qa_id": "ac1c44179121", "model": "MASA_rule", "format": "sp", "raw_response": "B", "extracted_answer": "B", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "617c64a60245", "model": "MASA_rule", "format": "numerical", "raw_response": "5 or more", "extracted_answer": "5 or more", "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 10}
+{"qa_id": "9274862e5321", "model": "MASA_rule", "format": "ordering_4", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "at least one requested event was not observed"}
+{"qa_id": "3730ed20f379", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "5db6b68286c7", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "5669cf7a2de7", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "20c7636a71a1", "model": "MASA_rule", "format": "sp", "raw_response": "A", "extracted_answer": "A", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "9888afd6d432", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "504663bac5a0", "model": "MASA_rule", "format": "numerical", "raw_response": "4", "extracted_answer": "4", "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 4}
+{"qa_id": "edce70a443f3", "model": "MASA_rule", "format": "numerical", "raw_response": "5 or more", "extracted_answer": "5 or more", "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 5}
+{"qa_id": "3dd298aa19bc", "model": "MASA_rule", "format": "ordering_3", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "at least one requested event was not observed"}
+{"qa_id": "b0826b43eb3c", "model": "MASA_rule", "format": "sp", "raw_response": "A", "extracted_answer": "A", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "9d99ed3cfaf9", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "d549ee7443b0", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "c99c41e3c9e7", "model": "MASA_rule", "format": "sp", "raw_response": "A", "extracted_answer": "A", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "b7b457d6cea9", "model": "MASA_rule", "format": "numerical", "raw_response": "4", "extracted_answer": "4", "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 4}
+{"qa_id": "66dd19caa6fe", "model": "MASA_rule", "format": "numerical", "raw_response": "5 or more", "extracted_answer": "5 or more", "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 5}
+{"qa_id": "bb4ff66c7939", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "no disappearance event observed"}
+{"qa_id": "00ce8068b953", "model": "MASA_rule", "format": "numerical", "raw_response": "3", "extracted_answer": "3", "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 3}
+{"qa_id": "5f2a0c2e75e4", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "2d90e1a956e4", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "f9a3e25607c0", "model": "MASA_rule", "format": "numerical", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: changes_abruptly"}
+{"qa_id": "6dc05876f34e", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "41bde4f8aab0", "model": "MASA_rule", "format": "sp", "raw_response": "B", "extracted_answer": "B", "error": null, "covered": true, "reason": "rule computed"}
+{"qa_id": "882e15381c1f", "model": "MASA_rule", "format": "sp", "raw_response": null, "extracted_answer": null, "error": null, "covered": false, "reason": "unsupported event type: partly_hidden"}
+{"qa_id": "3afa66911c2b", "model": "MASA_rule", "format": "numerical", "raw_response": "2", "extracted_answer": "2", "error": null, "covered": true, "reason": "rule computed", "raw_rule_count": 2}

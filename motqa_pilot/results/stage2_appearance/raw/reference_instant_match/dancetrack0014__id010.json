@@ -1,0 +1,73 @@
+{
+  "unit_key": "dancetrack0014__id010",
+  "sequence": "dancetrack0014",
+  "gt_id": 10,
+  "phase": "reference_instant_match",
+  "started_at": "2026-11-04T14:13:43.852291+00:00",
+  "completed_at": "2026-11-04T14:13:52.581239+00:00",
+  "seconds": 8.728965170215815,
+  "prompt_text": "At this reference instant, match the following appearance phrase to ALL visible people: \"the person with short reddish-brown hair wearing a purple crop top and white shorts\"\nThe first image is the full frame, with anonymous boxes and labels. The other image(s) are crops of EVERY GT-present person at this SAME instant. Read the central person in each crop; neighboring bodies may overlap. Labels are bookkeeping only. Do not use gallery order, location, pose, or box color as appearance attributes. Include ALL people satisfying the full appearance phrase in matches, and any plausible but obscured/unclear people in uncertain. A partly hidden target whose defining clothing cannot be seen is uncertain. No forced choice; none or several are valid outcomes. Omitted labels mean clear non-matches.\nReturn {\"matches\":[\"P01\"],\"uncertain\":[],\"reason\":\"brief visual explanation\"}. Valid labels: [\"P01\", \"P02\", \"P03\", \"P04\", \"P05\", \"P06\", \"P07\", \"P08\", \"P09\", \"P10\", \"P11\", \"P12\"].",
+  "image_paths": [
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0014/anchor_id010_f000904/full_frame.jpg",
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0014/anchor_id010_f000904/local_gallery_page00.jpg"
+  ],
+  "image_sha256": [
+    "c46249bdde0041576b6916ee9d134f8719e8168a87705b76c7f54897a8ee4c00",
+    "cf779559721c6f7adc8838940d3bad7f6e7b747e5858b8f1a66d1dd28d36c3d6"
+  ],
+  "response": {
+    "id": "chatcmpl-a3b0e18dec601005",
+    "object": "chat.completion",
+    "created": 1793801623,
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"matches\":[\"P02\",\"P04\"],\"uncertain\":[],\"reason\":\"P02 and P04 both have short reddish-brown hair and are wearing a purple crop top with white shorts. Other individuals either have different hair color (e.g., P03, P05, P11, P12 have darker or longer hair), different clothing (e.g., P03 has white top and purple pants, P05 has purple pants, P07 has a purple vest over white top), or are obscured (e.g., P01, P06, P09, P10). P08 has long hair and a white skirt, not matching the description. Thus, only P02 and P04 fully match the appearance phrase.\"}",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 1674,
+      "total_tokens": 1840,
+      "completion_tokens": 166,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "check": {
+    "valid": true,
+    "parsed": {
+      "matches": [
+        "P02",
+        "P04"
+      ],
+      "uncertain": [],
+      "reason": "P02 and P04 both have short reddish-brown hair and are wearing a purple crop top with white shorts. Other individuals either have different hair color (e.g., P03, P05, P11, P12 have darker or longer hair), different clothing (e.g., P03 has white top and purple pants, P05 has purple pants, P07 has a purple vest over white top), or are obscured (e.g., P01, P06, P09, P10). P08 has long hair and a white skirt, not matching the description. Thus, only P02 and P04 fully match the appearance phrase."
+    },
+    "matched_gt_ids": [
+      10,
+      5
+    ],
+    "uncertain_gt_ids": [],
+    "passed": false,
+    "error": null
+  },
+  "inference_policy_sha256": "ea3ce06e83208db2fc1ed693ee2ac1b349f8ae344fcdc2cb0a22e30ef8df60e3"
+}

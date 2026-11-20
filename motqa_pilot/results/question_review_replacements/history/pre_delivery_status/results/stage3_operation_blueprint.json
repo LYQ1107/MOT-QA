@@ -1,0 +1,122 @@
+{
+  "generated_at": "2026-11-05T14:51:50.278205+08:00",
+  "status": "USER_DESIGN_REVIEW_RECEIVED_17_PASS_3_CAMERA_REVISION",
+  "purpose": "20 GT-bound questions are available for user review of task design. Full approximately900-question batch still pending.",
+  "locked_config_sha256": "b75ddac560bb71629e37120f97f0c5e23c4b8dddb052e9605d2d750a8fd85166",
+  "actual_candidate_count": 20,
+  "candidate_target_n_approx": 900,
+  "operations": [
+    {
+      "operation": "O1",
+      "name": "状态读取",
+      "question_template": "Where is [ref] at [t_q]: left, center, or right of the frame?",
+      "gt_computation": "Read the target center region at t_q; exclude ambiguous region boundaries.",
+      "target_limit": "At most15% of all candidates."
+    },
+    {
+      "operation": "O2",
+      "name": "相对关系",
+      "question_template": "Do [ref A] and [ref B] swap their left-right order between [t_start] and [t_end]?",
+      "gt_computation": "Use the two GT identities and their left-right signs around eligible overlap/crossing episodes."
+    },
+    {
+      "operation": "O3",
+      "name": "离开与重现",
+      "question_template": "After [ref] becomes occluded around [t_gap], in which time segment does the person reappear?",
+      "gt_computation": "Use the same-ID visible intervals and locked gap/edge definitions; apply dataset-specific identity restrictions."
+    },
+    {
+      "operation": "O4",
+      "name": "去重计数",
+      "question_template": "How many different people does [ref] cross paths with between [t_start] and [t_end]?",
+      "gt_computation": "Count distinct other eligible GT identities with qualifying crossing events, not crossing occurrences.",
+      "MOT17_restriction": "Do not use this natural-person interaction-count template for MOT17; only approved within_id first-entry-window counting there, without exit/re-entry dedup."
+    },
+    {
+      "operation": "O5",
+      "name": "比较排序",
+      "question_template": "Order [ref A], [ref B], and [ref C] by when they first appear in the specified interval.",
+      "gt_computation": "Sort first-visible times of the specified identities; ties/ambiguity need a fixed pre-generation policy. Other approved subtype compares screen-space path length."
+    },
+    {
+      "operation": "O6",
+      "name": "交互",
+      "question_template": "In which time segment are [ref A] and [ref B] closest together in the image?",
+      "gt_computation": "Use the two GT center trajectories on jointly visible frames; compare screen-space distance over the stated interval, not inferred world-space distance."
+    },
+    {
+      "operation": "O7",
+      "name": "虚假前提",
+      "question_template": "Where does [ref] go after leaving the frame for the second time in the stated interval?",
+      "gt_computation": "First verify that the presupposed second event exists under the locked event definition. If absent use This never happens; otherwise derive the applicable trajectory fact.",
+      "target_limit": "False-premise items10–15%; the same rejection phrase also appears as a distractor in normal items."
+    },
+    {
+      "operation": "composition",
+      "name": "组合题",
+      "question_template": "Among the people who cross paths with [ref], how many later leave the frame?",
+      "gt_computation": "First select identities by interaction, then apply the later event predicate and distinct-identity count. Respect each participating operation’s dataset restrictions.",
+      "target_n_approx": 100,
+      "split_role": "held_out_composition",
+      "training_policy": "These operation combinations must not appear in future training data."
+    }
+  ],
+  "review_workflow": [
+    {
+      "step": 1,
+      "deliverable": "Current reference review",
+      "user_checks": [
+        "Appearance wording truthful",
+        "Unique target at exact reference instant"
+      ],
+      "status": "User review reconciled with bulk follow-up:51pass/101fail/2uncertain, no pending rows.",
+      "result": "results/review/reference_review_result_final.json"
+    },
+    {
+      "step": 2,
+      "deliverable": "Generate complete candidate QA after user review upload",
+      "user_sees": [
+        "Reference frame(s)",
+        "Question and options",
+        "GT answer",
+        "Relevant frames and GT event/time evidence"
+      ],
+      "sample_n": 20,
+      "reference_stratification": {
+        "box": 8,
+        "event": 5,
+        "appearance": 4,
+        "position": 3
+      },
+      "operations": "Include O1–O7 and composition in the complete-QA review, subject to available valid candidates.",
+      "user_checks": [
+        "Wording unambiguous and answerable",
+        "GT-derived answer correct",
+        "Temporal identity association required",
+        "Confusion option reflects following another person"
+      ],
+      "status": "User reviewed all20:17pass/3uncertain. Three moving-camera cumulative-distance questions require replacement; full batch remains pending."
+    },
+    {
+      "step": 3,
+      "deliverable": "After filtering, user reviews10% stratified by dataset",
+      "user_checks": [
+        "Reference validity",
+        "Answer correctness",
+        "Temporal reasoning validity"
+      ]
+    }
+  ],
+  "generation_gate_unchanged": "No actual QA generation until user-uploaded reference_review_result.json.",
+  "no_locked_artifacts_changed": true,
+  "review_gate_satisfied_at": "2026-11-05T20:19:13.383225+08:00",
+  "full_batch_candidate_count": 0,
+  "design_review_delivery": "/home/user/motqa_pilot/results/question_review/delivery_receipt.json",
+  "accepted_design_count": 17,
+  "camera_motion_held_indices": [
+    4,
+    5,
+    17
+  ],
+  "camera_motion_addendum": "results/question_review/camera_motion_design_addendum_v1.json"
+}

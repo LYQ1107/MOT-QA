@@ -1,0 +1,71 @@
+{
+  "unit_key": "dancetrack0097__id000",
+  "sequence": "dancetrack0097",
+  "gt_id": 0,
+  "phase": "generate",
+  "started_at": "2026-11-04T14:01:47.711715+00:00",
+  "completed_at": "2026-11-04T14:01:56.470768+00:00",
+  "seconds": 8.759086754638702,
+  "prompt_text": "The first image shows three crops of ONE target person at different times. The other image(s) show comparison people from the SAME video; every labeled tile is a different annotated person, shown in up to three crops. These comparison labels are anonymous bookkeeping labels, not appearance attributes.\nWrite one concise English noun phrase (at most 30 words), starting with \"the person\", describing the target using stable, clearly visible clothing, patterns, hair, or accessories. Prefer details that distinguish this person from comparison people. Do not mention actions, pose, scene location, time, spatial relation to others, gallery labels, or GT identity numbers. Visible garment lettering is allowed only if clearly legible. Do not infer colors/details hidden by another person. If no reliable description is possible, use an empty phrase. If a truthful description is shared by others, still provide it and set visually_distinct to false.\nReturn {\"phrase\":\"...\", \"supported_attributes\":[\"...\"], \"visually_distinct\":true, \"limitations\":\"...\"}. A description need not be unique; truthful uncertainty is preferred to invented uniqueness.\nThe target person is also included once among the comparison gallery tiles. Identify that repeated target visually; do not treat the repeated target tile as a different rival. Look for truthful stable appearance that distinguishes the target from OTHER people.",
+  "image_paths": [
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0097/id000_target.jpg",
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0097/generation_gallery_page00.jpg"
+  ],
+  "image_sha256": [
+    "63f53046ad75e1c12417e62b62352c24fc4cc8d1499bd99c043ad435045f5155",
+    "8129b88a6be6e63c8caa96183de893f4df7a46bdfaca382463a5e241f9cbff48"
+  ],
+  "response": {
+    "id": "chatcmpl-819071db29fc3eb3",
+    "object": "chat.completion",
+    "created": 1793800907,
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"phrase\": \"the person with shoulder-length dark hair wearing a black cropped jacket and flared black pants with black heeled sandals\",\n  \"supported_attributes\": [\n    \"shoulder-length dark hair\",\n    \"black cropped jacket\",\n    \"flared black pants\",\n    \"black heeled sandals\"\n  ],\n  \"visually_distinct\": true,\n  \"limitations\": \"The target's outfit is similar to others in the gallery, but the combination of the cropped jacket, flared pants, and specific hairstyle distinguishes them. The person in P02 has a similar outfit but with a different hairstyle (bangs and slightly longer hair), and the person in P03 has a blazer and straighter hair. The target's hair is consistently shoulder-length with a slight wave and no bangs, which is a key differentiator.\"\n}",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 947,
+      "total_tokens": 1122,
+      "completion_tokens": 175,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "check": {
+    "valid": true,
+    "parsed": {
+      "phrase": "the person with shoulder-length dark hair wearing a black cropped jacket and flared black pants with black heeled sandals",
+      "supported_attributes": [
+        "shoulder-length dark hair",
+        "black cropped jacket",
+        "flared black pants",
+        "black heeled sandals"
+      ],
+      "visually_distinct": true,
+      "limitations": "The target's outfit is similar to others in the gallery, but the combination of the cropped jacket, flared pants, and specific hairstyle distinguishes them. The person in P02 has a similar outfit but with a different hairstyle (bangs and slightly longer hair), and the person in P03 has a blazer and straighter hair. The target's hair is consistently shoulder-length with a slight wave and no bangs, which is a key differentiator."
+    },
+    "phrase": "the person with shoulder-length dark hair wearing a black cropped jacket and flared black pants with black heeled sandals",
+    "error": null
+  },
+  "inference_policy_sha256": "ea3ce06e83208db2fc1ed693ee2ac1b349f8ae344fcdc2cb0a22e30ef8df60e3"
+}

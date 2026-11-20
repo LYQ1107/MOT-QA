@@ -1,0 +1,33 @@
+{
+  "completed_at": "2026-11-04T13:10:41.452269+08:00",
+  "protocol_sha256": "75ece92dde21c2b64d9110d0c31a44b467432fc1b44c12a8946930901790b44b",
+  "cases": [
+    {
+      "case": "synthetic_0000",
+      "hf_answer": "B",
+      "vllm_answer": "B",
+      "full_text_identical": true,
+      "hf_tokens": 39,
+      "vllm_tokens": 39
+    },
+    {
+      "case": "synthetic_1400",
+      "hf_answer": "2",
+      "vllm_answer": "2",
+      "full_text_identical": true,
+      "hf_tokens": 37,
+      "vllm_tokens": 37
+    },
+    {
+      "case": "dev_13a41b8c6b50",
+      "hf_answer": "B",
+      "vllm_answer": "B",
+      "full_text_identical": true,
+      "hf_tokens": 42,
+      "vllm_tokens": 42
+    }
+  ],
+  "elapsed_s": 55.99707698915154,
+  "main_predictions_changed": false,
+  "training_repeated": false
+}

@@ -1,0 +1,9 @@
+{
+  "at": "2026-11-02T16:12:50.921699+08:00",
+  "change": "Operational allocation headroom6GiB to5.5GiB only",
+  "server_arguments_changed": false,
+  "model_gpu_memory_utilization": 0.65,
+  "tracking_or_representation_or_parser_changed": false,
+  "reason": "Second candidate had5996MiB beyond the fixed budget; original6144MiB guard was148MiB stricter than available memory.",
+  "no_predictions_before_change": true
+}

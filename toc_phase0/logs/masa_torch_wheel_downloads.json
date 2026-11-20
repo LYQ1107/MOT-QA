@@ -1,0 +1,32 @@
+[
+  {
+    "path": "/data2/user/toc_phase0/cache/masa_wheels/torch-2.1.2+cu118-cp311-cp311-linux_x86_64.whl",
+    "source": "https://mirror.sjtu.edu.cn/pytorch-wheels/cu118/torch-2.1.2%2Bcu118-cp311-cp311-linux_x86_64.whl",
+    "official_url": "https://download-r2.pytorch.org/whl/cu118/torch-2.1.2%2Bcu118-cp311-cp311-linux_x86_64.whl",
+    "bytes": 2325933097,
+    "sha256": "051833f6174e672eb313ee1c70dbcaf97e558dc46237215407933d28f40bca85",
+    "integrity": "Official PyTorch index SHA256 verified",
+    "initial_valid_prefix_bytes": 780437675,
+    "initial_prefix_source": "https://download-r2.pytorch.org/whl/cu118/torch-2.1.2%2Bcu118-cp311-cp311-linux_x86_64.whl"
+  },
+  {
+    "path": "/data2/user/toc_phase0/cache/masa_wheels/torchvision-0.16.2+cu118-cp311-cp311-linux_x86_64.whl",
+    "source": "https://mirror.sjtu.edu.cn/pytorch-wheels/cu118/torchvision-0.16.2%2Bcu118-cp311-cp311-linux_x86_64.whl",
+    "official_url": "https://download-r2.pytorch.org/whl/cu118/torchvision-0.16.2%2Bcu118-cp311-cp311-linux_x86_64.whl",
+    "bytes": 6102681,
+    "sha256": "9a784073e801c04066a5e4453306010b67bacfbff12bd57e5d65c1a638584a89",
+    "integrity": "Official PyTorch index SHA256 verified",
+    "initial_valid_prefix_bytes": 0,
+    "initial_prefix_source": null
+  },
+  {
+    "path": "/data2/user/toc_phase0/cache/masa_wheels/torchaudio-2.1.2+cu118-cp311-cp311-linux_x86_64.whl",
+    "source": "https://mirror.sjtu.edu.cn/pytorch-wheels/cu118/torchaudio-2.1.2%2Bcu118-cp311-cp311-linux_x86_64.whl",
+    "official_url": "https://download-r2.pytorch.org/whl/cu118/torchaudio-2.1.2%2Bcu118-cp311-cp311-linux_x86_64.whl",
+    "bytes": 3210220,
+    "sha256": "f762d7f7dbc2bc49cc53ab0830ae222485d54e34835db549a0d1ad40eb609af3",
+    "integrity": "Official PyTorch index SHA256 verified",
+    "initial_valid_prefix_bytes": 0,
+    "initial_prefix_source": null
+  }
+]

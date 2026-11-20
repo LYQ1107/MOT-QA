@@ -1,0 +1,71 @@
+{
+  "created_at": "2026-11-04T17:06:31.583610+08:00",
+  "before_any_stage7_inference": true,
+  "project_root": "/data2/user/toc_phase0",
+  "seed": 42,
+  "hypotheses": [
+    {
+      "id": "H12",
+      "statement": "With only the complete-JSON-to-EOS parser repair, T1 exceeds reused T-none on test trackable251.",
+      "criterion": "positive accuracy delta, exact two-sided McNemar p<0.05, paired bootstrap95% lower bound>0",
+      "reference_correct": 73,
+      "reference_n": 251
+    }
+  ],
+  "primary_scope": "test trackable251",
+  "supplemental_scope": "test all602, each dimension and main-four231",
+  "statistics": {
+    "mcnemar": "exact two-sided conditional binomial on discordant correctness",
+    "bootstrap": "question-level paired percentile95%CI,1000 resamples, numpy default_rng42, sorted qa_id within scope",
+    "alpha": 0.05,
+    "multiplicity": "single primary H12; comparisons against majority and route and per-dimension comparisons reported descriptively"
+  },
+  "secondary_comparisons": [
+    "T1_fixed vs development-majority blind baseline on identical questions",
+    "T1_fixed vs frozen-rule/official-A routing baseline on identical questions",
+    "T1_fixed vs original Stage6 T1 (interface diagnosis only)"
+  ],
+  "parser_fix": "Retain original closed-tag parser. Additionally accept exactly one complete name/arguments JSON object after a single <tool_call> ending at message EOS, allowing any preceding reasoning as for closed tags. No trailing text, partial JSON or multiple objects recovered.",
+  "unchanged": {
+    "frozen_config_sha256": "7f0dbd16926026fa087ac4bb84fb1f3dce142ee903e5cf16c9e8eb1b7a62d93d",
+    "split_sha256": "e1d87675aca7e69d57a5ac99dc7ecdedaf8ca8c4efb1588bb86f42066fce80b3",
+    "trackable_sha256": "4a4d1fdbb57158696986a99130d0a4e2ba27a51c73776c813347829d4b9a2593",
+    "demonstrations_sha256": "69a8c4697c0916aa177c131db45c6f7575408418e3690b25f2c417970961e33c",
+    "T1_prompts_sha256": "4a2017b9bd597496889e28d620a39e35a2bd185ec726570cb70b3c0cefb303d1",
+    "final_answer_parser_sha256": "8482b37d0136fd2966bea5d727d239b536c79cfe181238eab24ec8dcdeb5fdd3"
+  },
+  "conditional_controls": {
+    "gate": "Run T-ph and T-sh iff repaired T1 has strictly more than73 correct on test trackable251; significance not required for this gate.",
+    "controls": "Identical T1 demonstrations and repaired parser; placeholder vs exact Stage4D facts; test all602.",
+    "decision_lock": "Save observed counts and prediction SHA before any control inference."
+  },
+  "count_diagnosis": "Keep Stage6 corrected final-field-only guidance for242 test counting questions for T1 and triggered controls. It is auxiliary, not used forH12 or the control gate.",
+  "generation": {
+    "total_tokens": 2048,
+    "max_calls": 4,
+    "max_turns": 5,
+    "temperature": 0,
+    "seed": 42
+  },
+  "server": {
+    "max_model_len": 65536,
+    "max_num_seqs": 8,
+    "max_num_batched_tokens": 32768,
+    "gpu_memory_utilization": 0.65,
+    "dtype": "bfloat16",
+    "seed": 42,
+    "tensor_parallel_size": 1,
+    "enforce_eager": true,
+    "image_limit": 40,
+    "width": 720,
+    "height": 720,
+    "video_limit": 0,
+    "generation_config": "auto; base checkpoint repetition_penalty1.05 unchanged",
+    "trained_evaluation": "Same server flags; add only LoRA loading flags required for rank8 adapter. Stage5B-events exact prompts,1024token max."
+  },
+  "same_32_frames_and_timestamps": true,
+  "no_new_tracking": true,
+  "no_new_training": true,
+  "information_diagnostics": "All label/trajectory associations and recall analyses are post-hoc; no tracking, rule or model parameters selected from them.",
+  "stop_after_report": true
+}

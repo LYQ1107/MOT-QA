@@ -1,0 +1,73 @@
+{
+  "unit_key": "dancetrack0041__id000",
+  "sequence": "dancetrack0041",
+  "gt_id": 0,
+  "phase": "generate",
+  "started_at": "2026-11-04T13:55:03.131550+00:00",
+  "completed_at": "2026-11-04T13:55:11.088384+00:00",
+  "seconds": 7.9568681181408465,
+  "prompt_text": "The first image shows three crops of ONE target person at different times. The other image(s) show comparison people from the SAME video; every labeled tile is a different annotated person, shown in up to three crops. These comparison labels are anonymous bookkeeping labels, not appearance attributes.\nWrite one concise English noun phrase (at most 30 words), starting with \"the person\", describing the target using stable, clearly visible clothing, patterns, hair, or accessories. Prefer details that distinguish this person from comparison people. Do not mention actions, pose, scene location, time, spatial relation to others, gallery labels, or GT identity numbers. Visible garment lettering is allowed only if clearly legible. Do not infer colors/details hidden by another person. If no reliable description is possible, use an empty phrase. If a truthful description is shared by others, still provide it and set visually_distinct to false.\nReturn {\"phrase\":\"...\", \"supported_attributes\":[\"...\"], \"visually_distinct\":true, \"limitations\":\"...\"}. A description need not be unique; truthful uncertainty is preferred to invented uniqueness.\nThe target person is also included once among the comparison gallery tiles. Identify that repeated target visually; do not treat the repeated target tile as a different rival. Look for truthful stable appearance that distinguishes the target from OTHER people.",
+  "image_paths": [
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0041/id000_target.jpg",
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0041/generation_gallery_page00.jpg",
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0041/generation_gallery_page01.jpg"
+  ],
+  "image_sha256": [
+    "e0247fe215efebf907d84076b0f800f06216e890159bdb8aa9d63cfd1a73c5dd",
+    "225c50bf7a24394eb74ad86d9cab8d932ece5dc9e461a6098b5ac66cb81212c4",
+    "db0dc500113a4896510242f7cf107b445fb4cad4c5ad9099b2662ee070549e7e"
+  ],
+  "response": {
+    "id": "chatcmpl-a84e6ec9dad194ba",
+    "object": "chat.completion",
+    "created": 1793800503,
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"phrase\": \"the person wearing a black top with a red band, black wide-leg pants, bright pink shoes, and a large silver circular accessory hanging from the waist\",\n  \"supported_attributes\": [\n    \"black top with red band\",\n    \"black wide-leg pants\",\n    \"bright pink shoes\",\n    \"large silver circular accessory hanging from waist\"\n  ],\n  \"visually_distinct\": false,\n  \"limitations\": \"The described outfit and accessories are shared by multiple individuals in the gallery, making the person not visually distinct from others.\"\n}",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 3379,
+      "total_tokens": 3494,
+      "completion_tokens": 115,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "check": {
+    "valid": true,
+    "parsed": {
+      "phrase": "the person wearing a black top with a red band, black wide-leg pants, bright pink shoes, and a large silver circular accessory hanging from the waist",
+      "supported_attributes": [
+        "black top with red band",
+        "black wide-leg pants",
+        "bright pink shoes",
+        "large silver circular accessory hanging from waist"
+      ],
+      "visually_distinct": false,
+      "limitations": "The described outfit and accessories are shared by multiple individuals in the gallery, making the person not visually distinct from others."
+    },
+    "phrase": "the person wearing a black top with a red band, black wide-leg pants, bright pink shoes, and a large silver circular accessory hanging from the waist",
+    "error": null
+  },
+  "inference_policy_sha256": "ea3ce06e83208db2fc1ed693ee2ac1b349f8ae344fcdc2cb0a22e30ef8df60e3"
+}

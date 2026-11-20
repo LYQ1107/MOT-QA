@@ -1,0 +1,27 @@
+{
+  "source": "https://arxiv.org/html/2605.09904v2",
+  "model": "Qwen2.5-VL-7B",
+  "frames": 32,
+  "table_2": {
+    "overall": 27.0,
+    "event_existence": 40.6,
+    "event_count": 0.7,
+    "reappear_identity": 95.7,
+    "reappear_or_disappear": 38.8,
+    "cross_object_order": 43.3,
+    "event_ordering": 14.3,
+    "temporal_location": 25.9,
+    "duration_category": 15.1,
+    "conditional_state": 43.9,
+    "relative_spatial_change": 25.8,
+    "hda": 35.3
+  },
+  "table_6_formats": {
+    "mcq_4": 27.1,
+    "sp": 43.3,
+    "numerical": 0.7,
+    "ordering_3": 25.0,
+    "ordering_4": 3.8
+  },
+  "table_6_tiers": {"1": 25.8, "2": 16.2, "3": 43.7}
+}

@@ -1,0 +1,32 @@
+{
+  "status": "STAGE_ONE_CPU_ENVIRONMENT_CHECKS_PASSED",
+  "versions": {
+    "python": "3.11.18",
+    "torch": "2.9.1",
+    "torchvision": "0.24.1",
+    "vllm": "0.16.0",
+    "transformers": "4.57.6",
+    "av": "16.1.0",
+    "supervision": "0.26.1",
+    "modelscope": "1.40.2",
+    "huggingface_hub": "0.36.0",
+    "pandas": "2.3.3",
+    "numpy": "2.2.6",
+    "accelerate": "1.12.0"
+  },
+  "torch_cuda_build": "12.8",
+  "cuda_visible_devices": "",
+  "cuda_device_count": 0,
+  "vllm_qwen_architecture_supported": true,
+  "vllm_cuda_extension_imported": true,
+  "qwen_model_class": "Qwen2_5_VLForConditionalGeneration",
+  "qwen_config_type": "Qwen2_5_VLConfig",
+  "qwen_processor_type": "Qwen2_5_VLProcessor",
+  "qwen_shards": 5,
+  "qwen_tensor_keys": 729,
+  "dino_model_type": "GroundingDinoForObjectDetection",
+  "dino_processor_type": "GroundingDinoProcessor",
+  "dino_parameters": 232313216,
+  "bytetrack_frame_rate": 5,
+  "gpu_inference_run": false
+}

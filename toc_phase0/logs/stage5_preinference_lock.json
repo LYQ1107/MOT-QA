@@ -1,0 +1,73 @@
+{
+  "locked_at": "2026-11-02T16:02:50.106920+08:00",
+  "no_stage5_inference_at_lock": true,
+  "frozen_config_sha256": "7f0dbd16926026fa087ac4bb84fb1f3dce142ee903e5cf16c9e8eb1b7a62d93d",
+  "source_sha256": {
+    "stage5_common.py": "8482b37d0136fd2966bea5d727d239b536c79cfe181238eab24ec8dcdeb5fdd3",
+    "stage5_representations.py": "ad18460cfe999718b77f25e665ad9d1c995a460bf2f4fdbc9eaabbdb995eb666"
+  },
+  "artifacts": [
+    {
+      "path": "/data2/user/toc_phase0/results/stage5_hypotheses_preregistered.json",
+      "sha256": "985f7f38eb040db9f5088a8715bee579dad2b6fd46a983018a3a5222566c0c84",
+      "locked_at": "2026-11-02T16:02:33.691392+08:00"
+    },
+    {
+      "path": "/data2/user/toc_phase0/results/stage5_representations_locked.json",
+      "sha256": "b97c39aa4574e8410051e61653c23808f3fb08ff36cb19ded57b0c67ff17829d",
+      "locked_at": "2026-11-02T16:02:34.852143+08:00"
+    },
+    {
+      "path": "/data2/user/toc_phase0/results/stage5/prompts/reasoning/A.jsonl",
+      "sha256": "081a1816d94218fa4aa0e71500ec6f59e3c5e53ccea1432fe92403bd4549d937"
+    },
+    {
+      "path": "/data2/user/toc_phase0/results/stage5/prompts/reasoning/B.jsonl",
+      "sha256": "d2a6ff9d3b66feacec523987a028aa900334b3ff750b02829a4638c8a4e689c8"
+    },
+    {
+      "path": "/data2/user/toc_phase0/results/stage5/prompts/reasoning/C.jsonl",
+      "sha256": "d7e8832bd430f32e0b77b1f7bd4b62b063cd35936db2134c2a15b79914f23f49"
+    },
+    {
+      "path": "/data2/user/toc_phase0/results/stage5/prompts/reasoning/D.jsonl",
+      "sha256": "beee955cf61f68bf947109c0847705205d0ea5d80777e8d2b2868b0849fd39c8"
+    },
+    {
+      "path": "/data2/user/toc_phase0/results/stage5/prompts/reasoning/B-main.jsonl",
+      "sha256": "6863fe820921de0843f17e3a899e18436dbd46523e75b9002d02476251fdfee0"
+    },
+    {
+      "path": "/data2/user/toc_phase0/results/stage5/prompts/reasoning/B-events.jsonl",
+      "sha256": "2c856e3ec6aed787dc7340bb6f8ddb39b50b0d1833bb76698c1e76ab604d609c"
+    },
+    {
+      "path": "/data2/user/toc_phase0/results/stage5/prompts/official/B-main.jsonl",
+      "sha256": "df407dd646ef9da4ac54309e0fcf2da37ed94620e0277cc03748098ca956b141"
+    },
+    {
+      "path": "/data2/user/toc_phase0/results/stage5/prompts/official/B-events.jsonl",
+      "sha256": "4d0165e0ad2754b8752c29dd22a88b8381014e0d637af29e81a4a1301910414b"
+    },
+    {
+      "path": "/data2/user/toc_phase0/results/stage5_input_lengths_locked.json",
+      "sha256": "1d21984a8af379aee6dc897516829b7801d06f54ef440dbf58dd8c83ef541120",
+      "locked_at": "2026-11-02T16:02:50.090282+08:00"
+    },
+    {
+      "path": "/data2/user/toc_phase0/results/stage5_full_frame_track_descriptives.json",
+      "sha256": "c4ff7113eb1e004da78e7bef7a50defd73295968f731643e7e9dde79d30f4dd8",
+      "locked_at": "2026-11-02T16:02:50.098605+08:00"
+    },
+    {
+      "path": "/data2/user/toc_phase0/results/stage5_stage4_reuse_locked.json",
+      "sha256": "88f9c0b9714a48f63bc1a6dbf5f3f582ad200584d8533cfcbecca93cd7866b21",
+      "locked_at": "2026-11-02T16:02:50.106520+08:00"
+    },
+    {
+      "path": "/data2/user/toc_phase0/results/stage5_protocol_locked.json",
+      "sha256": "a2eece5c9d585de95bd9ba47f0d286f2e0bd762a47159039c33d300300f1f969",
+      "locked_at": "2026-11-02T16:02:50.106844+08:00"
+    }
+  ]
+}

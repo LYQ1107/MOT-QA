@@ -1,0 +1,165 @@
+{
+  "status": "PASS",
+  "reviewed_at": "2026-11-02T21:34:52.726880+08:00",
+  "main_new_requests": 5992,
+  "official_new_guided": 600,
+  "reasoning_corrected_guided": 1800,
+  "initial_reasoning_guided_archived": 1800,
+  "physical_new_predictions_total": 10192,
+  "reused_stage4": 4196,
+  "final_comparison_matrix": 12588,
+  "additional_archived_implementation_diagnostic": 1800,
+  "missing": 0,
+  "duplicates_per_protocol": 0,
+  "original_implementation": {
+    "constraint_violations": 1,
+    "truncated": 1131,
+    "records_preserved": true,
+    "one_completion_token_usage_unavailable": true
+  },
+  "corrected_guided": {
+    "A": {
+      "total": 300,
+      "missing": 0,
+      "duplicate": 0,
+      "sha256": "1386a257a5428e316ee785ab1baca23067139b4b9c6f40edc3325ff841d0d418",
+      "parse_failures": 10,
+      "truncated": 10,
+      "max_tokens": 1024,
+      "input_token_matches": 300
+    },
+    "B": {
+      "total": 300,
+      "missing": 0,
+      "duplicate": 0,
+      "sha256": "a93fa90b929fe0e78547b08bf20d4ac8beda851832087bbc7916ae8360341cf3",
+      "parse_failures": 2,
+      "truncated": 2,
+      "max_tokens": 1024,
+      "input_token_matches": 300
+    },
+    "C": {
+      "total": 300,
+      "missing": 0,
+      "duplicate": 0,
+      "sha256": "d3e3e75ea1227541447e820a85518b2aeff9a9d17b60120c530e5fec03529884",
+      "parse_failures": 0,
+      "truncated": 0,
+      "max_tokens": 1024,
+      "input_token_matches": 300
+    },
+    "D": {
+      "total": 300,
+      "missing": 0,
+      "duplicate": 0,
+      "sha256": "21c4692ad9fb8aceb9bb0e206800a9cf9db64216d0db4e67fccf495586a31854",
+      "parse_failures": 0,
+      "truncated": 0,
+      "max_tokens": 1024,
+      "input_token_matches": 300
+    },
+    "B-main": {
+      "total": 300,
+      "missing": 0,
+      "duplicate": 0,
+      "sha256": "f7f1521ba75dc1d492d2f190600d45365dcfdb24ed9a5b5a91a12b576a39c868",
+      "parse_failures": 6,
+      "truncated": 6,
+      "max_tokens": 1024,
+      "input_token_matches": 300
+    },
+    "B-events": {
+      "total": 300,
+      "missing": 0,
+      "duplicate": 0,
+      "sha256": "db25f3db7d7b10262c0006f3322bcf2006969afb47706065f744a2133efa17f2",
+      "parse_failures": 1,
+      "truncated": 1,
+      "max_tokens": 1024,
+      "input_token_matches": 300
+    }
+  },
+  "immutable_hypotheses_sha256": "985f7f38eb040db9f5088a8715bee579dad2b6fd46a983018a3a5222566c0c84",
+  "frozen_config_sha256": "7f0dbd16926026fa087ac4bb84fb1f3dce142ee903e5cf16c9e8eb1b7a62d93d",
+  "guided_correction_protocol_sha256": "a850b394a5ece1a115ddd8a59e4e35c4519d9c8c3f70c924cf726d862ab55efe",
+  "manual_review_complete": true,
+  "server_checks": [
+    {
+      "runtime": "/data2/user/toc_phase0/logs/stage5_runtime_attempt3.json",
+      "slot": 0,
+      "gpu": 4,
+      "uuid": "GPU-44f62835-4095-23ec-d3dd-5af16a00705c",
+      "arguments_equal_stage4": true
+    },
+    {
+      "runtime": "/data2/user/toc_phase0/logs/stage5_runtime_attempt3.json",
+      "slot": 1,
+      "gpu": 5,
+      "uuid": "GPU-c6523d98-cb2d-95ed-4cb2-a84936acceb6",
+      "arguments_equal_stage4": true
+    },
+    {
+      "runtime": "/data2/user/toc_phase0/logs/stage5_runtime_attempt4.json",
+      "slot": 0,
+      "gpu": 4,
+      "uuid": "GPU-44f62835-4095-23ec-d3dd-5af16a00705c",
+      "arguments_equal_stage4": true
+    },
+    {
+      "runtime": "/data2/user/toc_phase0/logs/stage5_runtime_attempt4.json",
+      "slot": 1,
+      "gpu": 6,
+      "uuid": "GPU-883c8be3-25b0-3d19-6fa8-4c2e335e67d2",
+      "arguments_equal_stage4": true
+    },
+    {
+      "runtime": "/data2/user/toc_phase0/logs/stage5_guided_v2_runtime_attempt1.json",
+      "slot": 0,
+      "gpu": 6,
+      "uuid": "GPU-883c8be3-25b0-3d19-6fa8-4c2e335e67d2",
+      "arguments_equal_stage4": true
+    },
+    {
+      "runtime": "/data2/user/toc_phase0/logs/stage5_guided_v2_runtime_attempt1.json",
+      "slot": 1,
+      "gpu": 4,
+      "uuid": "GPU-44f62835-4095-23ec-d3dd-5af16a00705c",
+      "arguments_equal_stage4": true
+    }
+  ],
+  "remaining_owned_server_or_engine_pids": [],
+  "total_since_preregistration_s": 19939.035888,
+  "jobs": [
+    {
+      "path": "/data2/user/toc_phase0/logs/stage5_job_attempt1.json",
+      "status": "FAILED",
+      "elapsed_s": 1.848,
+      "started_at": "2026-11-02T16:05:24.479845+08:00"
+    },
+    {
+      "path": "/data2/user/toc_phase0/logs/stage5_job_attempt2.json",
+      "status": "FAILED",
+      "elapsed_s": 296.426,
+      "started_at": "2026-11-02T16:07:50.665555+08:00"
+    },
+    {
+      "path": "/data2/user/toc_phase0/logs/stage5_job_attempt3.json",
+      "status": "FAILED",
+      "elapsed_s": 7402.837,
+      "started_at": "2026-11-02T16:12:52.325731+08:00"
+    },
+    {
+      "path": "/data2/user/toc_phase0/logs/stage5_job_attempt4.json",
+      "status": "COMPLETE",
+      "elapsed_s": 9102.884,
+      "started_at": "2026-11-02T18:22:20.203750+08:00"
+    },
+    {
+      "path": "/data2/user/toc_phase0/logs/stage5_guided_v2_job_attempt1.json",
+      "status": "COMPLETE",
+      "elapsed_s": 1977.464,
+      "started_at": "2026-11-02T21:01:37.744803+08:00"
+    }
+  ],
+  "more_inference_scheduled": false
+}

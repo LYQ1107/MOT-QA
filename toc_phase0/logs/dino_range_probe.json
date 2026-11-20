@@ -1,0 +1,9 @@
+{
+  "source": "https://huggingface.co/IDEA-Research/grounding-dino-base/resolve/12bdfa3120f3e7ec7b434d90674b3396eccf88eb/model.safetensors",
+  "offset": 83886080,
+  "requested_end": 84934655,
+  "status": 206,
+  "content_range": "bytes 83886080-84934655/933400872",
+  "bytes": 1048576,
+  "sha256": "aef30feb4098a483641256159a35879de2e6e1fc66bed604376a19634a679c14"
+}

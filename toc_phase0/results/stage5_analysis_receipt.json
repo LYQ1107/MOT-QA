@@ -1,0 +1,181 @@
+{
+  "status": "ANALYZED_PENDING_10_EXAMPLE_MANUAL_REVIEW",
+  "at": "2026-11-02T20:54:18.887613+08:00",
+  "hypotheses": {
+    "H6": {
+      "conclusion": "supported",
+      "comparison": {
+        "n": 251,
+        "reference_correct": 58,
+        "other_correct": 80,
+        "reference_accuracy": 0.23107569721115537,
+        "other_accuracy": 0.3187250996015936,
+        "other_correct_reference_wrong": 40,
+        "other_wrong_reference_correct": 18,
+        "both_correct": 40,
+        "both_wrong": 153,
+        "effect_pp": 8.764940239043826,
+        "ci95_pp": [
+          3.1772908366533867,
+          14.741035856573706
+        ],
+        "mcnemar_exact_two_sided_p": 0.005354859650800294,
+        "bootstrap_resamples": 1000,
+        "bootstrap_seed": 42,
+        "resampling_unit": "question"
+      }
+    },
+    "H7": {
+      "official": {
+        "observed_monotonic": false,
+        "conclusion": "inconclusive",
+        "comparisons": {
+          "main_minus_B": {
+            "n": 101,
+            "reference_correct": 37,
+            "other_correct": 34,
+            "reference_accuracy": 0.36633663366336633,
+            "other_accuracy": 0.33663366336633666,
+            "other_correct_reference_wrong": 1,
+            "other_wrong_reference_correct": 4,
+            "both_correct": 33,
+            "both_wrong": 63,
+            "effect_pp": -2.9702970297029703,
+            "ci95_pp": [
+              -7.920792079207921,
+              0.9900990099009901
+            ],
+            "mcnemar_exact_two_sided_p": 0.375,
+            "bootstrap_resamples": 1000,
+            "bootstrap_seed": 42,
+            "resampling_unit": "question",
+            "holm_four_H7_p": 0.75
+          },
+          "events_minus_main": {
+            "n": 101,
+            "reference_correct": 34,
+            "other_correct": 36,
+            "reference_accuracy": 0.33663366336633666,
+            "other_accuracy": 0.3564356435643564,
+            "other_correct_reference_wrong": 3,
+            "other_wrong_reference_correct": 1,
+            "both_correct": 33,
+            "both_wrong": 64,
+            "effect_pp": 1.9801980198019802,
+            "ci95_pp": [
+              -1.9801980198019802,
+              5.9405940594059405
+            ],
+            "mcnemar_exact_two_sided_p": 0.625,
+            "bootstrap_resamples": 1000,
+            "bootstrap_seed": 42,
+            "resampling_unit": "question",
+            "holm_four_H7_p": 0.75
+          }
+        }
+      },
+      "reasoning": {
+        "observed_monotonic": false,
+        "conclusion": "contradicted",
+        "comparisons": {
+          "main_minus_B": {
+            "n": 101,
+            "reference_correct": 30,
+            "other_correct": 15,
+            "reference_accuracy": 0.297029702970297,
+            "other_accuracy": 0.1485148514851485,
+            "other_correct_reference_wrong": 3,
+            "other_wrong_reference_correct": 18,
+            "both_correct": 12,
+            "both_wrong": 68,
+            "effect_pp": -14.85148514851485,
+            "ci95_pp": [
+              -22.772277227722775,
+              -6.9306930693069315
+            ],
+            "mcnemar_exact_two_sided_p": 0.0014896392822265625,
+            "bootstrap_resamples": 1000,
+            "bootstrap_seed": 42,
+            "resampling_unit": "question",
+            "holm_four_H7_p": 0.00595855712890625
+          },
+          "events_minus_main": {
+            "n": 101,
+            "reference_correct": 15,
+            "other_correct": 29,
+            "reference_accuracy": 0.1485148514851485,
+            "other_accuracy": 0.2871287128712871,
+            "other_correct_reference_wrong": 17,
+            "other_wrong_reference_correct": 3,
+            "both_correct": 12,
+            "both_wrong": 69,
+            "effect_pp": 13.861386138613863,
+            "ci95_pp": [
+              5.9405940594059405,
+              21.782178217821784
+            ],
+            "mcnemar_exact_two_sided_p": 0.0025768280029296875,
+            "bootstrap_resamples": 1000,
+            "bootstrap_seed": 42,
+            "resampling_unit": "question",
+            "holm_four_H7_p": 0.0077304840087890625
+          }
+        }
+      }
+    },
+    "H8": {
+      "official": {
+        "observed_at_least_rule": false,
+        "conclusion": "inconclusive_noninferiority",
+        "comparison": {
+          "n": 101,
+          "reference_correct": 51,
+          "other_correct": 36,
+          "reference_accuracy": 0.504950495049505,
+          "other_accuracy": 0.3564356435643564,
+          "other_correct_reference_wrong": 31,
+          "other_wrong_reference_correct": 46,
+          "both_correct": 5,
+          "both_wrong": 19,
+          "effect_pp": -14.85148514851485,
+          "ci95_pp": [
+            -31.683168316831683,
+            0.9900990099009901
+          ],
+          "mcnemar_exact_two_sided_p": 0.11001559898513334,
+          "bootstrap_resamples": 1000,
+          "bootstrap_seed": 42,
+          "resampling_unit": "question"
+        }
+      },
+      "reasoning": {
+        "observed_at_least_rule": false,
+        "conclusion": "contradicted",
+        "comparison": {
+          "n": 101,
+          "reference_correct": 51,
+          "other_correct": 29,
+          "reference_accuracy": 0.504950495049505,
+          "other_accuracy": 0.2871287128712871,
+          "other_correct_reference_wrong": 26,
+          "other_wrong_reference_correct": 48,
+          "both_correct": 3,
+          "both_wrong": 24,
+          "effect_pp": -21.782178217821784,
+          "ci95_pp": [
+            -37.648514851485146,
+            -6.9059405940594285
+          ],
+          "mcnemar_exact_two_sided_p": 0.014079981429530049,
+          "bootstrap_resamples": 1000,
+          "bootstrap_seed": 42,
+          "resampling_unit": "question"
+        }
+      }
+    }
+  },
+  "new_predictions": 8392,
+  "reused_predictions": 4196,
+  "report": "/data2/user/toc_phase0/results/stage5_report.md",
+  "examples": 10
+}

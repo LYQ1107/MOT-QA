@@ -1,0 +1,23 @@
+{
+  "recorded_at": "2026-11-05T22:48:17.134427+08:00",
+  "seed": 42,
+  "scope": "Three new O5 temporal-order designs replace original4/5/17;17human-passed designs remain byte-identical.",
+  "source_hashes": {
+    "/home/user/motqa_pilot/data/question_review_candidates_20.jsonl": "e092f59020a4a6cd3b5765b33a9bcbc278c0edf3a1a64296979513350e1d2a2d",
+    "/home/user/motqa_pilot/data/question_review_user_passed_17.jsonl": "34553bc09aa3952376d89fe2123f027794a54706fcc89e2020aefde6e86ad96d",
+    "/home/user/motqa_pilot/results/generation_config_locked.json": "b75ddac560bb71629e37120f97f0c5e23c4b8dddb052e9605d2d750a8fd85166"
+  },
+  "event": "first reappearance within the explicit query interval after an absence strictly longer than1second",
+  "return_order_min_separation_s": 0.8,
+  "reference_to_query_start_min_s": 3,
+  "maximum_event_pair_separation_s": 12,
+  "maximum_reference_to_query_end_s": 24,
+  "box_gates": "unchanged frozen box-reference geometry",
+  "human_appearance": "only passed exact phrase/identity/reference instant",
+  "identity_scope": "DanceTrack/MOT17 use internal occlusion returns only; SportsMOT uses publisher same-ID returns, with no cause question",
+  "answer": "compare first eligible reappearance source-frame indices; no path length, speed, homography or physical distance estimated",
+  "human_verdict_for_new_questions": null,
+  "full900_completed": false,
+  "new_model_calls": 0,
+  "new_tracker_runs": 0
+}

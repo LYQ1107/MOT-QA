@@ -1,0 +1,11 @@
+{
+  "server_pid": 2047692,
+  "stage": "reference_instant_match",
+  "updated_at": "2026-11-04T14:14:25.797814+00:00",
+  "total_units": 32,
+  "completed_units": 32,
+  "status": "INFERENCE_COMPLETE_STOPPED_BEFORE_STAGE3",
+  "seconds": 1454.2674208641984,
+  "server_terminated": true,
+  "completed_at": "2026-11-04T14:14:25.797768+00:00"
+}

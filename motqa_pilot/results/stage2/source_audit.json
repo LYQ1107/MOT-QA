@@ -1,0 +1,2319 @@
+{
+  "seed": 42,
+  "sequence_checks": [
+    {
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0001",
+      "tracks": 7,
+      "presence_rows": 4912,
+      "visible_rows": 4912
+    },
+    {
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0002",
+      "tracks": 8,
+      "presence_rows": 9257,
+      "visible_rows": 9257
+    },
+    {
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0006",
+      "tracks": 9,
+      "presence_rows": 10559,
+      "visible_rows": 10559
+    },
+    {
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0008",
+      "tracks": 8,
+      "presence_rows": 6850,
+      "visible_rows": 6850
+    },
+    {
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0012",
+      "tracks": 12,
+      "presence_rows": 13032,
+      "visible_rows": 13032
+    },
+    {
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0015",
+      "tracks": 9,
+      "presence_rows": 10720,
+      "visible_rows": 10720
+    },
+    {
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0016",
+      "tracks": 6,
+      "presence_rows": 12613,
+      "visible_rows": 12613
+    },
+    {
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0020",
+      "tracks": 40,
+      "presence_rows": 20174,
+      "visible_rows": 20174
+    },
+    {
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0023",
+      "tracks": 9,
+      "presence_rows": 13025,
+      "visible_rows": 13025
+    },
+    {
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0024",
+      "tracks": 6,
+      "presence_rows": 4512,
+      "visible_rows": 4512
+    },
+    {
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0027",
+      "tracks": 13,
+      "presence_rows": 3445,
+      "visible_rows": 3445
+    },
+    {
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0029",
+      "tracks": 7,
+      "presence_rows": 7886,
+      "visible_rows": 7886
+    },
+    {
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0032",
+      "tracks": 6,
+      "presence_rows": 3360,
+      "visible_rows": 3360
+    },
+    {
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0033",
+      "tracks": 8,
+      "presence_rows": 6237,
+      "visible_rows": 6237
+    },
+    {
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0037",
+      "tracks": 7,
+      "presence_rows": 8305,
+      "visible_rows": 8305
+    },
+    {
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0039",
+      "tracks": 5,
+      "presence_rows": 6092,
+      "visible_rows": 6092
+    },
+    {
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0044",
+      "tracks": 13,
+      "presence_rows": 13389,
+      "visible_rows": 13389
+    },
+    {
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0045",
+      "tracks": 14,
+      "presence_rows": 15830,
+      "visible_rows": 15830
+    },
+    {
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0049",
+      "tracks": 8,
+      "presence_rows": 9502,
+      "visible_rows": 9502
+    },
+    {
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0051",
+      "tracks": 9,
+      "presence_rows": 10808,
+      "visible_rows": 10808
+    },
+    {
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0052",
+      "tracks": 4,
+      "presence_rows": 4462,
+      "visible_rows": 4462
+    },
+    {
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0053",
+      "tracks": 5,
+      "presence_rows": 5954,
+      "visible_rows": 5954
+    },
+    {
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0055",
+      "tracks": 5,
+      "presence_rows": 5820,
+      "visible_rows": 5820
+    },
+    {
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0057",
+      "tracks": 6,
+      "presence_rows": 3004,
+      "visible_rows": 3004
+    },
+    {
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0061",
+      "tracks": 5,
+      "presence_rows": 6015,
+      "visible_rows": 6015
+    },
+    {
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0062",
+      "tracks": 6,
+      "presence_rows": 6227,
+      "visible_rows": 6227
+    },
+    {
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0066",
+      "tracks": 5,
+      "presence_rows": 6010,
+      "visible_rows": 6010
+    },
+    {
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0068",
+      "tracks": 5,
+      "presence_rows": 6002,
+      "visible_rows": 6002
+    },
+    {
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0069",
+      "tracks": 6,
+      "presence_rows": 8259,
+      "visible_rows": 8259
+    },
+    {
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0072",
+      "tracks": 5,
+      "presence_rows": 5905,
+      "visible_rows": 5905
+    },
+    {
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0074",
+      "tracks": 5,
+      "presence_rows": 5304,
+      "visible_rows": 5304
+    },
+    {
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0075",
+      "tracks": 7,
+      "presence_rows": 5442,
+      "visible_rows": 5442
+    },
+    {
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0080",
+      "tracks": 16,
+      "presence_rows": 12040,
+      "visible_rows": 12040
+    },
+    {
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0082",
+      "tracks": 24,
+      "presence_rows": 12370,
+      "visible_rows": 12370
+    },
+    {
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0083",
+      "tracks": 25,
+      "presence_rows": 14994,
+      "visible_rows": 14994
+    },
+    {
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0086",
+      "tracks": 16,
+      "presence_rows": 9496,
+      "visible_rows": 9496
+    },
+    {
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0087",
+      "tracks": 11,
+      "presence_rows": 10699,
+      "visible_rows": 10699
+    },
+    {
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0096",
+      "tracks": 40,
+      "presence_rows": 15787,
+      "visible_rows": 15787
+    },
+    {
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0098",
+      "tracks": 8,
+      "presence_rows": 8426,
+      "visible_rows": 8426
+    },
+    {
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0099",
+      "tracks": 11,
+      "presence_rows": 6206,
+      "visible_rows": 6206
+    },
+    {
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0004",
+      "tracks": 4,
+      "presence_rows": 4586,
+      "visible_rows": 4586
+    },
+    {
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0005",
+      "tracks": 4,
+      "presence_rows": 4739,
+      "visible_rows": 4739
+    },
+    {
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0007",
+      "tracks": 8,
+      "presence_rows": 9471,
+      "visible_rows": 9471
+    },
+    {
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0010",
+      "tracks": 6,
+      "presence_rows": 7029,
+      "visible_rows": 7029
+    },
+    {
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0014",
+      "tracks": 12,
+      "presence_rows": 12655,
+      "visible_rows": 12655
+    },
+    {
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0018",
+      "tracks": 8,
+      "presence_rows": 2935,
+      "visible_rows": 2935
+    },
+    {
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0019",
+      "tracks": 7,
+      "presence_rows": 16504,
+      "visible_rows": 16504
+    },
+    {
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0025",
+      "tracks": 9,
+      "presence_rows": 7079,
+      "visible_rows": 7079
+    },
+    {
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0026",
+      "tracks": 19,
+      "presence_rows": 3993,
+      "visible_rows": 3993
+    },
+    {
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0030",
+      "tracks": 6,
+      "presence_rows": 7572,
+      "visible_rows": 7572
+    },
+    {
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0034",
+      "tracks": 14,
+      "presence_rows": 11142,
+      "visible_rows": 11142
+    },
+    {
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0035",
+      "tracks": 8,
+      "presence_rows": 5263,
+      "visible_rows": 5263
+    },
+    {
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0041",
+      "tracks": 22,
+      "presence_rows": 16738,
+      "visible_rows": 16738
+    },
+    {
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0043",
+      "tracks": 14,
+      "presence_rows": 1675,
+      "visible_rows": 1675
+    },
+    {
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0047",
+      "tracks": 8,
+      "presence_rows": 9410,
+      "visible_rows": 9410
+    },
+    {
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0058",
+      "tracks": 7,
+      "presence_rows": 11050,
+      "visible_rows": 11050
+    },
+    {
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0063",
+      "tracks": 8,
+      "presence_rows": 7614,
+      "visible_rows": 7614
+    },
+    {
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0065",
+      "tracks": 5,
+      "presence_rows": 3505,
+      "visible_rows": 3505
+    },
+    {
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0073",
+      "tracks": 14,
+      "presence_rows": 8470,
+      "visible_rows": 8470
+    },
+    {
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0077",
+      "tracks": 9,
+      "presence_rows": 10827,
+      "visible_rows": 10827
+    },
+    {
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0079",
+      "tracks": 18,
+      "presence_rows": 14523,
+      "visible_rows": 14523
+    },
+    {
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0081",
+      "tracks": 20,
+      "presence_rows": 18809,
+      "visible_rows": 18809
+    },
+    {
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0090",
+      "tracks": 14,
+      "presence_rows": 13142,
+      "visible_rows": 13142
+    },
+    {
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0094",
+      "tracks": 25,
+      "presence_rows": 11749,
+      "visible_rows": 11749
+    },
+    {
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0097",
+      "tracks": 4,
+      "presence_rows": 4668,
+      "visible_rows": 4668
+    },
+    {
+      "dataset": "MOT17",
+      "sequence": "MOT17-02-FRCNN",
+      "tracks": 62,
+      "presence_rows": 18581,
+      "visible_rows": 9393
+    },
+    {
+      "dataset": "MOT17",
+      "sequence": "MOT17-04-FRCNN",
+      "tracks": 83,
+      "presence_rows": 47557,
+      "visible_rows": 39821
+    },
+    {
+      "dataset": "MOT17",
+      "sequence": "MOT17-05-FRCNN",
+      "tracks": 133,
+      "presence_rows": 6917,
+      "visible_rows": 4767
+    },
+    {
+      "dataset": "MOT17",
+      "sequence": "MOT17-09-FRCNN",
+      "tracks": 26,
+      "presence_rows": 5325,
+      "visible_rows": 3745
+    },
+    {
+      "dataset": "MOT17",
+      "sequence": "MOT17-10-FRCNN",
+      "tracks": 57,
+      "presence_rows": 12839,
+      "visible_rows": 10560
+    },
+    {
+      "dataset": "MOT17",
+      "sequence": "MOT17-11-FRCNN",
+      "tracks": 75,
+      "presence_rows": 9436,
+      "visible_rows": 7518
+    },
+    {
+      "dataset": "MOT17",
+      "sequence": "MOT17-13-FRCNN",
+      "tracks": 110,
+      "presence_rows": 11642,
+      "visible_rows": 10024
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_-6Os86HzwCs_c001",
+      "tracks": 10,
+      "presence_rows": 8074,
+      "visible_rows": 8074
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_-6Os86HzwCs_c003",
+      "tracks": 10,
+      "presence_rows": 3692,
+      "visible_rows": 3692
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_-6Os86HzwCs_c007",
+      "tracks": 10,
+      "presence_rows": 5227,
+      "visible_rows": 5227
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_-6Os86HzwCs_c009",
+      "tracks": 10,
+      "presence_rows": 4991,
+      "visible_rows": 4991
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_1LwtoLPw2TU_c006",
+      "tracks": 12,
+      "presence_rows": 3175,
+      "visible_rows": 3175
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_1LwtoLPw2TU_c012",
+      "tracks": 12,
+      "presence_rows": 2933,
+      "visible_rows": 2933
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_1LwtoLPw2TU_c014",
+      "tracks": 12,
+      "presence_rows": 6525,
+      "visible_rows": 6525
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_1LwtoLPw2TU_c016",
+      "tracks": 12,
+      "presence_rows": 3407,
+      "visible_rows": 3407
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_1yHWGw8DH4A_c029",
+      "tracks": 22,
+      "presence_rows": 9989,
+      "visible_rows": 9989
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_1yHWGw8DH4A_c047",
+      "tracks": 21,
+      "presence_rows": 6135,
+      "visible_rows": 6135
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_1yHWGw8DH4A_c077",
+      "tracks": 22,
+      "presence_rows": 16229,
+      "visible_rows": 16229
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_1yHWGw8DH4A_c601",
+      "tracks": 18,
+      "presence_rows": 6834,
+      "visible_rows": 6834
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_1yHWGw8DH4A_c609",
+      "tracks": 21,
+      "presence_rows": 7364,
+      "visible_rows": 7364
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_1yHWGw8DH4A_c610",
+      "tracks": 18,
+      "presence_rows": 7254,
+      "visible_rows": 7254
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_2j7kLB-vEEk_c001",
+      "tracks": 10,
+      "presence_rows": 7323,
+      "visible_rows": 7323
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_2j7kLB-vEEk_c002",
+      "tracks": 10,
+      "presence_rows": 10746,
+      "visible_rows": 10746
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_2j7kLB-vEEk_c005",
+      "tracks": 10,
+      "presence_rows": 9320,
+      "visible_rows": 9320
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_2j7kLB-vEEk_c007",
+      "tracks": 10,
+      "presence_rows": 6274,
+      "visible_rows": 6274
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_2j7kLB-vEEk_c009",
+      "tracks": 10,
+      "presence_rows": 15130,
+      "visible_rows": 15130
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_2j7kLB-vEEk_c010",
+      "tracks": 10,
+      "presence_rows": 5715,
+      "visible_rows": 5715
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_4LXTUim5anY_c002",
+      "tracks": 10,
+      "presence_rows": 7696,
+      "visible_rows": 7696
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_4LXTUim5anY_c003",
+      "tracks": 10,
+      "presence_rows": 6425,
+      "visible_rows": 6425
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_4LXTUim5anY_c010",
+      "tracks": 10,
+      "presence_rows": 4820,
+      "visible_rows": 4820
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_4LXTUim5anY_c012",
+      "tracks": 10,
+      "presence_rows": 6791,
+      "visible_rows": 6791
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_4LXTUim5anY_c013",
+      "tracks": 10,
+      "presence_rows": 6624,
+      "visible_rows": 6624
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_ApPxnw_Jffg_c001",
+      "tracks": 12,
+      "presence_rows": 2338,
+      "visible_rows": 2338
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_ApPxnw_Jffg_c002",
+      "tracks": 12,
+      "presence_rows": 2904,
+      "visible_rows": 2904
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_ApPxnw_Jffg_c009",
+      "tracks": 12,
+      "presence_rows": 6874,
+      "visible_rows": 6874
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_ApPxnw_Jffg_c015",
+      "tracks": 12,
+      "presence_rows": 2452,
+      "visible_rows": 2452
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_ApPxnw_Jffg_c016",
+      "tracks": 12,
+      "presence_rows": 3922,
+      "visible_rows": 3922
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_CW0mQbgYIF4_c004",
+      "tracks": 12,
+      "presence_rows": 4494,
+      "visible_rows": 4494
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_CW0mQbgYIF4_c005",
+      "tracks": 12,
+      "presence_rows": 5462,
+      "visible_rows": 5462
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_CW0mQbgYIF4_c006",
+      "tracks": 12,
+      "presence_rows": 2819,
+      "visible_rows": 2819
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_Dk3EpDDa3o0_c002",
+      "tracks": 12,
+      "presence_rows": 2845,
+      "visible_rows": 2845
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_Dk3EpDDa3o0_c007",
+      "tracks": 12,
+      "presence_rows": 5271,
+      "visible_rows": 5271
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_HdiyOtliFiw_c003",
+      "tracks": 21,
+      "presence_rows": 11518,
+      "visible_rows": 11518
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_HdiyOtliFiw_c004",
+      "tracks": 20,
+      "presence_rows": 13273,
+      "visible_rows": 13273
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_HdiyOtliFiw_c008",
+      "tracks": 21,
+      "presence_rows": 7800,
+      "visible_rows": 7800
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_HdiyOtliFiw_c010",
+      "tracks": 21,
+      "presence_rows": 14356,
+      "visible_rows": 14356
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_HdiyOtliFiw_c602",
+      "tracks": 21,
+      "presence_rows": 5183,
+      "visible_rows": 5183
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_dChHNGIfm4Y_c003",
+      "tracks": 12,
+      "presence_rows": 3082,
+      "visible_rows": 3082
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_gQNyhv8y0QY_c003",
+      "tracks": 20,
+      "presence_rows": 7537,
+      "visible_rows": 7537
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_gQNyhv8y0QY_c012",
+      "tracks": 21,
+      "presence_rows": 14150,
+      "visible_rows": 14150
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_gQNyhv8y0QY_c013",
+      "tracks": 20,
+      "presence_rows": 10557,
+      "visible_rows": 10557
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_iIxMOsCGH58_c013",
+      "tracks": 22,
+      "presence_rows": 7049,
+      "visible_rows": 7049
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_00HRwkvvjtQ_c001",
+      "tracks": 10,
+      "presence_rows": 11276,
+      "visible_rows": 11276
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_00HRwkvvjtQ_c003",
+      "tracks": 10,
+      "presence_rows": 11183,
+      "visible_rows": 11183
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_00HRwkvvjtQ_c005",
+      "tracks": 10,
+      "presence_rows": 5442,
+      "visible_rows": 5442
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_00HRwkvvjtQ_c007",
+      "tracks": 10,
+      "presence_rows": 6458,
+      "visible_rows": 6458
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_00HRwkvvjtQ_c008",
+      "tracks": 10,
+      "presence_rows": 9538,
+      "visible_rows": 9538
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_00HRwkvvjtQ_c011",
+      "tracks": 10,
+      "presence_rows": 6981,
+      "visible_rows": 6981
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_0kUtTtmLaJA_c004",
+      "tracks": 12,
+      "presence_rows": 6265,
+      "visible_rows": 6265
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_0kUtTtmLaJA_c005",
+      "tracks": 12,
+      "presence_rows": 3881,
+      "visible_rows": 3881
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_0kUtTtmLaJA_c006",
+      "tracks": 12,
+      "presence_rows": 3705,
+      "visible_rows": 3705
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_0kUtTtmLaJA_c007",
+      "tracks": 12,
+      "presence_rows": 3006,
+      "visible_rows": 3006
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_0kUtTtmLaJA_c008",
+      "tracks": 12,
+      "presence_rows": 3011,
+      "visible_rows": 3011
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_0kUtTtmLaJA_c010",
+      "tracks": 12,
+      "presence_rows": 3056,
+      "visible_rows": 3056
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_2QhNRucNC7E_c017",
+      "tracks": 21,
+      "presence_rows": 6622,
+      "visible_rows": 6622
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_4-EmEtrturE_c009",
+      "tracks": 12,
+      "presence_rows": 2785,
+      "visible_rows": 2785
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_4r8QL_wglzQ_c001",
+      "tracks": 10,
+      "presence_rows": 8183,
+      "visible_rows": 8183
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_5ekaksddqrc_c001",
+      "tracks": 10,
+      "presence_rows": 5115,
+      "visible_rows": 5115
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_5ekaksddqrc_c002",
+      "tracks": 10,
+      "presence_rows": 5737,
+      "visible_rows": 5737
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_5ekaksddqrc_c003",
+      "tracks": 10,
+      "presence_rows": 11800,
+      "visible_rows": 11800
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_5ekaksddqrc_c004",
+      "tracks": 10,
+      "presence_rows": 7753,
+      "visible_rows": 7753
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_5ekaksddqrc_c005",
+      "tracks": 10,
+      "presence_rows": 9383,
+      "visible_rows": 9383
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_9MHDmAMxO5I_c002",
+      "tracks": 12,
+      "presence_rows": 2642,
+      "visible_rows": 2642
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_9MHDmAMxO5I_c003",
+      "tracks": 12,
+      "presence_rows": 2441,
+      "visible_rows": 2441
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_9MHDmAMxO5I_c004",
+      "tracks": 12,
+      "presence_rows": 5103,
+      "visible_rows": 5103
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_9MHDmAMxO5I_c006",
+      "tracks": 12,
+      "presence_rows": 2601,
+      "visible_rows": 2601
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_9MHDmAMxO5I_c009",
+      "tracks": 12,
+      "presence_rows": 5596,
+      "visible_rows": 5596
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_BgwzTUxJaeU_c008",
+      "tracks": 10,
+      "presence_rows": 4475,
+      "visible_rows": 4475
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_BgwzTUxJaeU_c012",
+      "tracks": 10,
+      "presence_rows": 5801,
+      "visible_rows": 5801
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_BgwzTUxJaeU_c014",
+      "tracks": 10,
+      "presence_rows": 9700,
+      "visible_rows": 9700
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_G-vNjfx1GGc_c004",
+      "tracks": 20,
+      "presence_rows": 8137,
+      "visible_rows": 8137
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_G-vNjfx1GGc_c008",
+      "tracks": 20,
+      "presence_rows": 4573,
+      "visible_rows": 4573
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_G-vNjfx1GGc_c600",
+      "tracks": 19,
+      "presence_rows": 5462,
+      "visible_rows": 5462
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_G-vNjfx1GGc_c601",
+      "tracks": 20,
+      "presence_rows": 5554,
+      "visible_rows": 5554
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_ITo3sCnpw_k_c007",
+      "tracks": 21,
+      "presence_rows": 9780,
+      "visible_rows": 9780
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_ITo3sCnpw_k_c010",
+      "tracks": 20,
+      "presence_rows": 7705,
+      "visible_rows": 7705
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_ITo3sCnpw_k_c011",
+      "tracks": 22,
+      "presence_rows": 9736,
+      "visible_rows": 9736
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_ITo3sCnpw_k_c012",
+      "tracks": 21,
+      "presence_rows": 10832,
+      "visible_rows": 10832
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_cC2mHWqMcjk_c007",
+      "tracks": 12,
+      "presence_rows": 7877,
+      "visible_rows": 7877
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_cC2mHWqMcjk_c008",
+      "tracks": 12,
+      "presence_rows": 2787,
+      "visible_rows": 2787
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_cC2mHWqMcjk_c009",
+      "tracks": 12,
+      "presence_rows": 4877,
+      "visible_rows": 4877
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_dw7LOz17Omg_c053",
+      "tracks": 21,
+      "presence_rows": 8829,
+      "visible_rows": 8829
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_dw7LOz17Omg_c067",
+      "tracks": 22,
+      "presence_rows": 6959,
+      "visible_rows": 6959
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_i2_L4qquVg0_c006",
+      "tracks": 22,
+      "presence_rows": 11900,
+      "visible_rows": 11900
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_i2_L4qquVg0_c007",
+      "tracks": 21,
+      "presence_rows": 4828,
+      "visible_rows": 4828
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_i2_L4qquVg0_c009",
+      "tracks": 20,
+      "presence_rows": 7936,
+      "visible_rows": 7936
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_i2_L4qquVg0_c010",
+      "tracks": 21,
+      "presence_rows": 8262,
+      "visible_rows": 8262
+    }
+  ],
+  "raw_reference_checks": [
+    {
+      "ref_id": "bb1767f2c70b134e7eca",
+      "dataset": "DanceTrack",
+      "type": "appearance",
+      "sequence": "dancetrack0058",
+      "frame": 1404,
+      "source_check": "PASS"
+    },
+    {
+      "ref_id": "99de62b4e6d2dc29137f",
+      "dataset": "DanceTrack",
+      "type": "appearance",
+      "sequence": "dancetrack0014",
+      "frame": 411,
+      "source_check": "PASS"
+    },
+    {
+      "ref_id": "348c8d651a688964f74a",
+      "dataset": "DanceTrack",
+      "type": "appearance",
+      "sequence": "dancetrack0005",
+      "frame": 588,
+      "source_check": "PASS"
+    },
+    {
+      "ref_id": "78dd5d9e6fa2ff850ba9",
+      "dataset": "DanceTrack",
+      "type": "appearance",
+      "sequence": "dancetrack0014",
+      "frame": 1103,
+      "source_check": "PASS"
+    },
+    {
+      "ref_id": "0b1f1eede975c0743796",
+      "dataset": "DanceTrack",
+      "type": "appearance",
+      "sequence": "dancetrack0014",
+      "frame": 602,
+      "source_check": "PASS"
+    },
+    {
+      "ref_id": "981e39ba8d65b294aeef",
+      "dataset": "DanceTrack",
+      "type": "appearance",
+      "sequence": "dancetrack0014",
+      "frame": 532,
+      "source_check": "PASS"
+    },
+    {
+      "ref_id": "46d452d07c295c5865c1",
+      "dataset": "DanceTrack",
+      "type": "appearance",
+      "sequence": "dancetrack0014",
+      "frame": 980,
+      "source_check": "PASS"
+    },
+    {
+      "ref_id": "fba8c7027f4ae5343ba3",
+      "dataset": "DanceTrack",
+      "type": "appearance",
+      "sequence": "dancetrack0005",
+      "frame": 690,
+      "source_check": "PASS"
+    },
+    {
+      "ref_id": "1e9ffb73ce277878a732",
+      "dataset": "DanceTrack",
+      "type": "appearance",
+      "sequence": "dancetrack0014",
+      "frame": 327,
+      "source_check": "PASS"
+    },
+    {
+      "ref_id": "08b2a5a105811f57b2fd",
+      "dataset": "DanceTrack",
+      "type": "appearance",
+      "sequence": "dancetrack0014",
+      "frame": 365,
+      "source_check": "PASS"
+    },
+    {
+      "ref_id": "6786029692b9cbfbf84a",
+      "dataset": "DanceTrack",
+      "type": "event",
+      "sequence": "dancetrack0079",
+      "frame": 869,
+      "source_check": "PASS",
+      "ref_id_before_time_display_fix": "8aa0be431ea15259e07a"
+    },
+    {
+      "ref_id": "b210827b0827d1ac7b24",
+      "dataset": "DanceTrack",
+      "type": "event",
+      "sequence": "dancetrack0026",
+      "frame": 64,
+      "source_check": "PASS",
+      "ref_id_before_time_display_fix": "d94aa2ee3985a23ae57b"
+    },
+    {
+      "ref_id": "bf3254a4db58f6b25a69",
+      "dataset": "DanceTrack",
+      "type": "event",
+      "sequence": "dancetrack0019",
+      "frame": 836,
+      "source_check": "PASS",
+      "ref_id_before_time_display_fix": "31b5fcd91620cf011c8b"
+    },
+    {
+      "ref_id": "608f176b5ea5058f255f",
+      "dataset": "DanceTrack",
+      "type": "event",
+      "sequence": "dancetrack0043",
+      "frame": 154,
+      "source_check": "PASS",
+      "ref_id_before_time_display_fix": "9f515629a96c8348d65f"
+    },
+    {
+      "ref_id": "b10a51f656e5cb634f81",
+      "dataset": "DanceTrack",
+      "type": "event",
+      "sequence": "dancetrack0081",
+      "frame": 774,
+      "source_check": "PASS",
+      "ref_id_before_time_display_fix": "db4150386aa6f30774c5"
+    },
+    {
+      "ref_id": "58b8049a8c5593c91ebc",
+      "dataset": "DanceTrack",
+      "type": "event",
+      "sequence": "dancetrack0014",
+      "frame": 1053,
+      "source_check": "PASS",
+      "ref_id_before_time_display_fix": "500a064bf6b972ee659e"
+    },
+    {
+      "ref_id": "c1f42583eff06020e93d",
+      "dataset": "DanceTrack",
+      "type": "event",
+      "sequence": "dancetrack0034",
+      "frame": 742,
+      "source_check": "PASS",
+      "ref_id_before_time_display_fix": "c33dc175604831198fb5"
+    },
+    {
+      "ref_id": "a7163573d4f1ead33b6e",
+      "dataset": "DanceTrack",
+      "type": "event",
+      "sequence": "dancetrack0034",
+      "frame": 488,
+      "source_check": "PASS",
+      "ref_id_before_time_display_fix": "13b65a18463faec2b1d6"
+    },
+    {
+      "ref_id": "d19c4b57ff7641ca1138",
+      "dataset": "DanceTrack",
+      "type": "event",
+      "sequence": "dancetrack0041",
+      "frame": 77,
+      "source_check": "PASS",
+      "ref_id_before_time_display_fix": "0f5d0760ea1677fd2f6c"
+    },
+    {
+      "ref_id": "e6fd673dfae9b71db990",
+      "dataset": "DanceTrack",
+      "type": "event",
+      "sequence": "dancetrack0090",
+      "frame": 886,
+      "source_check": "PASS",
+      "ref_id_before_time_display_fix": "8850b714ece57e68576e"
+    },
+    {
+      "ref_id": "f43a5116eed7d02ee949",
+      "dataset": "DanceTrack",
+      "type": "position",
+      "sequence": "dancetrack0063",
+      "frame": 771,
+      "source_check": "PASS",
+      "ref_id_before_time_display_fix": "57460435099212f52c48"
+    },
+    {
+      "ref_id": "54a313ff4ffa797573c5",
+      "dataset": "DanceTrack",
+      "type": "position",
+      "sequence": "dancetrack0065",
+      "frame": 615,
+      "source_check": "PASS",
+      "ref_id_before_time_display_fix": "a0ee78a75ee32ac1ec30"
+    },
+    {
+      "ref_id": "31b83fed5a8be1794696",
+      "dataset": "DanceTrack",
+      "type": "position",
+      "sequence": "dancetrack0019",
+      "frame": 2363,
+      "source_check": "PASS",
+      "ref_id_before_time_display_fix": "969fe5fe19ae90ecf0fb"
+    },
+    {
+      "ref_id": "964f468f147ab8e32ac4",
+      "dataset": "DanceTrack",
+      "type": "position",
+      "sequence": "dancetrack0034",
+      "frame": 505,
+      "source_check": "PASS",
+      "ref_id_before_time_display_fix": "73a03e57204e2004f3eb"
+    },
+    {
+      "ref_id": "3ff80a5f360c36cb2355",
+      "dataset": "DanceTrack",
+      "type": "position",
+      "sequence": "dancetrack0026",
+      "frame": 224,
+      "source_check": "PASS",
+      "ref_id_before_time_display_fix": "0c54a08f56388bdce894"
+    },
+    {
+      "ref_id": "2f5561d41c83c00413e9",
+      "dataset": "DanceTrack",
+      "type": "position",
+      "sequence": "dancetrack0014",
+      "frame": 403,
+      "source_check": "PASS",
+      "ref_id_before_time_display_fix": "9c879bef8b209694cd44"
+    },
+    {
+      "ref_id": "389357fc586372f69cf0",
+      "dataset": "DanceTrack",
+      "type": "position",
+      "sequence": "dancetrack0047",
+      "frame": 1032,
+      "source_check": "PASS",
+      "ref_id_before_time_display_fix": "256710bb03339e3e1e24"
+    },
+    {
+      "ref_id": "ff37af7a7e99e4a2e08a",
+      "dataset": "DanceTrack",
+      "type": "position",
+      "sequence": "dancetrack0090",
+      "frame": 300,
+      "source_check": "PASS",
+      "ref_id_before_time_display_fix": "f7c4a72abfba52402796"
+    },
+    {
+      "ref_id": "aa7ed2cc361b9296b437",
+      "dataset": "DanceTrack",
+      "type": "position",
+      "sequence": "dancetrack0094",
+      "frame": 41,
+      "source_check": "PASS",
+      "ref_id_before_time_display_fix": "d044795d5576d25ee351"
+    },
+    {
+      "ref_id": "8c6c99ba0476fb16ed79",
+      "dataset": "DanceTrack",
+      "type": "position",
+      "sequence": "dancetrack0005",
+      "frame": 489,
+      "source_check": "PASS",
+      "ref_id_before_time_display_fix": "007908c0271e535c6727"
+    },
+    {
+      "ref_id": "1d12bce3197f08f8013c",
+      "dataset": "SportsMOT",
+      "type": "appearance",
+      "sequence": "v_i2_L4qquVg0_c010",
+      "frame": 37,
+      "source_check": "PASS"
+    },
+    {
+      "ref_id": "a94e1ce6c89667ebed11",
+      "dataset": "SportsMOT",
+      "type": "appearance",
+      "sequence": "v_9MHDmAMxO5I_c006",
+      "frame": 65,
+      "source_check": "PASS"
+    },
+    {
+      "ref_id": "acded9a14e83ce43b12a",
+      "dataset": "SportsMOT",
+      "type": "appearance",
+      "sequence": "v_cC2mHWqMcjk_c007",
+      "frame": 476,
+      "source_check": "PASS"
+    },
+    {
+      "ref_id": "360b1bba161f95ed43cf",
+      "dataset": "SportsMOT",
+      "type": "appearance",
+      "sequence": "v_9MHDmAMxO5I_c003",
+      "frame": 95,
+      "source_check": "PASS"
+    },
+    {
+      "ref_id": "740006e6fa9af6d8abd0",
+      "dataset": "SportsMOT",
+      "type": "appearance",
+      "sequence": "v_cC2mHWqMcjk_c007",
+      "frame": 318,
+      "source_check": "PASS"
+    },
+    {
+      "ref_id": "b002eb0bba8c9fcdbe03",
+      "dataset": "SportsMOT",
+      "type": "appearance",
+      "sequence": "v_cC2mHWqMcjk_c007",
+      "frame": 476,
+      "source_check": "PASS"
+    },
+    {
+      "ref_id": "cc90f1a0c7898953ac00",
+      "dataset": "SportsMOT",
+      "type": "appearance",
+      "sequence": "v_9MHDmAMxO5I_c004",
+      "frame": 19,
+      "source_check": "PASS"
+    },
+    {
+      "ref_id": "d92f48425627375281e4",
+      "dataset": "SportsMOT",
+      "type": "appearance",
+      "sequence": "v_i2_L4qquVg0_c007",
+      "frame": 71,
+      "source_check": "PASS"
+    },
+    {
+      "ref_id": "8d0fa5754bd3d1178ddd",
+      "dataset": "SportsMOT",
+      "type": "appearance",
+      "sequence": "v_0kUtTtmLaJA_c007",
+      "frame": 99,
+      "source_check": "PASS"
+    },
+    {
+      "ref_id": "97c5c995a15d6ce6c058",
+      "dataset": "SportsMOT",
+      "type": "appearance",
+      "sequence": "v_i2_L4qquVg0_c007",
+      "frame": 62,
+      "source_check": "PASS"
+    },
+    {
+      "ref_id": "fa3a472eace84b33a9d0",
+      "dataset": "SportsMOT",
+      "type": "event",
+      "sequence": "v_cC2mHWqMcjk_c008",
+      "frame": 160,
+      "source_check": "PASS",
+      "ref_id_before_time_display_fix": "1cf94ca620cc5431604e"
+    },
+    {
+      "ref_id": "a0b43fb601b9ce9203bb",
+      "dataset": "SportsMOT",
+      "type": "event",
+      "sequence": "v_i2_L4qquVg0_c006",
+      "frame": 296,
+      "source_check": "PASS",
+      "ref_id_before_time_display_fix": "27bcbf9ca568b83a80f6"
+    },
+    {
+      "ref_id": "617d797316823b4ee44d",
+      "dataset": "SportsMOT",
+      "type": "event",
+      "sequence": "v_4r8QL_wglzQ_c001",
+      "frame": 503,
+      "source_check": "PASS",
+      "ref_id_before_time_display_fix": "6af9b16bdc70d9280d29"
+    },
+    {
+      "ref_id": "55315568ebe8638ded3c",
+      "dataset": "SportsMOT",
+      "type": "event",
+      "sequence": "v_ITo3sCnpw_k_c012",
+      "frame": 810,
+      "source_check": "PASS",
+      "ref_id_before_time_display_fix": "87519557abeadd7c77fb"
+    },
+    {
+      "ref_id": "f0e34830ab18b8d10710",
+      "dataset": "SportsMOT",
+      "type": "event",
+      "sequence": "v_i2_L4qquVg0_c009",
+      "frame": 262,
+      "source_check": "PASS",
+      "ref_id_before_time_display_fix": "384a7e8b18598afb8aa7"
+    },
+    {
+      "ref_id": "6336bc2cc59b2bb4af74",
+      "dataset": "SportsMOT",
+      "type": "event",
+      "sequence": "v_ITo3sCnpw_k_c012",
+      "frame": 615,
+      "source_check": "PASS",
+      "ref_id_before_time_display_fix": "92758600b3cdf1d35ed7"
+    },
+    {
+      "ref_id": "9e4a279ed828e3bd106e",
+      "dataset": "SportsMOT",
+      "type": "event",
+      "sequence": "v_G-vNjfx1GGc_c008",
+      "frame": 72,
+      "source_check": "PASS",
+      "ref_id_before_time_display_fix": "911b0724020822a4fae8"
+    },
+    {
+      "ref_id": "7b6c3b52331ab10d9613",
+      "dataset": "SportsMOT",
+      "type": "event",
+      "sequence": "v_0kUtTtmLaJA_c010",
+      "frame": 70,
+      "source_check": "PASS",
+      "ref_id_before_time_display_fix": "f0bdde1d9373da3c1337"
+    },
+    {
+      "ref_id": "503aa3d42452eae45416",
+      "dataset": "SportsMOT",
+      "type": "event",
+      "sequence": "v_ITo3sCnpw_k_c010",
+      "frame": 324,
+      "source_check": "PASS",
+      "ref_id_before_time_display_fix": "9ce98ab8f6c79fb9d244"
+    },
+    {
+      "ref_id": "34692a7d20a0b0386c4a",
+      "dataset": "SportsMOT",
+      "type": "event",
+      "sequence": "v_9MHDmAMxO5I_c004",
+      "frame": 348,
+      "source_check": "PASS",
+      "ref_id_before_time_display_fix": "9713ec371bf768ca58a8"
+    },
+    {
+      "ref_id": "b8c85b4ecc49324b4abd",
+      "dataset": "SportsMOT",
+      "type": "position",
+      "sequence": "v_ITo3sCnpw_k_c007",
+      "frame": 144,
+      "source_check": "PASS",
+      "ref_id_before_time_display_fix": "15a2e7180fa256071f75"
+    },
+    {
+      "ref_id": "7ddbfed579337c35d4fd",
+      "dataset": "SportsMOT",
+      "type": "position",
+      "sequence": "v_5ekaksddqrc_c002",
+      "frame": 251,
+      "source_check": "PASS",
+      "ref_id_before_time_display_fix": "03a4c5bc4eb2dd2ceb81"
+    },
+    {
+      "ref_id": "e821038ab250ad5344e9",
+      "dataset": "SportsMOT",
+      "type": "position",
+      "sequence": "v_00HRwkvvjtQ_c001",
+      "frame": 659,
+      "source_check": "PASS",
+      "ref_id_before_time_display_fix": "74fecbaf0e4b7bb9fb27"
+    },
+    {
+      "ref_id": "ed0dc039ba111098088d",
+      "dataset": "SportsMOT",
+      "type": "position",
+      "sequence": "v_0kUtTtmLaJA_c010",
+      "frame": 88,
+      "source_check": "PASS",
+      "ref_id_before_time_display_fix": "b9e1236a6dd22e586cea"
+    },
+    {
+      "ref_id": "b564389aba40d1ea90cc",
+      "dataset": "SportsMOT",
+      "type": "position",
+      "sequence": "v_4r8QL_wglzQ_c001",
+      "frame": 24,
+      "source_check": "PASS",
+      "ref_id_before_time_display_fix": "db44e47e0188054bd0f9"
+    },
+    {
+      "ref_id": "617b1234a0bddd639d39",
+      "dataset": "SportsMOT",
+      "type": "position",
+      "sequence": "v_0kUtTtmLaJA_c004",
+      "frame": 380,
+      "source_check": "PASS",
+      "ref_id_before_time_display_fix": "2c40d9335503da20d2b6"
+    },
+    {
+      "ref_id": "33a138341084bafcbccd",
+      "dataset": "SportsMOT",
+      "type": "position",
+      "sequence": "v_G-vNjfx1GGc_c601",
+      "frame": 205,
+      "source_check": "PASS",
+      "ref_id_before_time_display_fix": "952b186583bc08fbaf02"
+    },
+    {
+      "ref_id": "114be73a72f693ad3da2",
+      "dataset": "SportsMOT",
+      "type": "position",
+      "sequence": "v_cC2mHWqMcjk_c009",
+      "frame": 28,
+      "source_check": "PASS",
+      "ref_id_before_time_display_fix": "bf260fb73d99e9c7b54e"
+    },
+    {
+      "ref_id": "fd47a39fc4762cacb37d",
+      "dataset": "SportsMOT",
+      "type": "position",
+      "sequence": "v_cC2mHWqMcjk_c007",
+      "frame": 223,
+      "source_check": "PASS",
+      "ref_id_before_time_display_fix": "6c0ee241959a00138844"
+    },
+    {
+      "ref_id": "2096643a64a984e8e7a6",
+      "dataset": "SportsMOT",
+      "type": "position",
+      "sequence": "v_cC2mHWqMcjk_c007",
+      "frame": 554,
+      "source_check": "PASS",
+      "ref_id_before_time_display_fix": "740999f3934af2ff6fc2"
+    },
+    {
+      "ref_id": "7006eae667283775d8af",
+      "dataset": "MOT17",
+      "type": "appearance",
+      "sequence": "MOT17-05-FRCNN",
+      "frame": 769,
+      "source_check": "PASS"
+    },
+    {
+      "ref_id": "57f194ffdf49a7c4cdd7",
+      "dataset": "MOT17",
+      "type": "appearance",
+      "sequence": "MOT17-10-FRCNN",
+      "frame": 630,
+      "source_check": "PASS"
+    },
+    {
+      "ref_id": "db6657fe705ce26e9c7b",
+      "dataset": "MOT17",
+      "type": "appearance",
+      "sequence": "MOT17-05-FRCNN",
+      "frame": 774,
+      "source_check": "PASS"
+    },
+    {
+      "ref_id": "31b02e5681f674943ca1",
+      "dataset": "MOT17",
+      "type": "appearance",
+      "sequence": "MOT17-02-FRCNN",
+      "frame": 405,
+      "source_check": "PASS"
+    },
+    {
+      "ref_id": "3aa2f5a7cc8d5bfd6695",
+      "dataset": "MOT17",
+      "type": "appearance",
+      "sequence": "MOT17-05-FRCNN",
+      "frame": 449,
+      "source_check": "PASS"
+    },
+    {
+      "ref_id": "7232e1948116c62a8a93",
+      "dataset": "MOT17",
+      "type": "appearance",
+      "sequence": "MOT17-04-FRCNN",
+      "frame": 706,
+      "source_check": "PASS"
+    },
+    {
+      "ref_id": "8fd923b94e25509ccc10",
+      "dataset": "MOT17",
+      "type": "appearance",
+      "sequence": "MOT17-13-FRCNN",
+      "frame": 427,
+      "source_check": "PASS"
+    },
+    {
+      "ref_id": "564d778ca696d247ca88",
+      "dataset": "MOT17",
+      "type": "appearance",
+      "sequence": "MOT17-05-FRCNN",
+      "frame": 776,
+      "source_check": "PASS"
+    },
+    {
+      "ref_id": "769fb016120c41640a6a",
+      "dataset": "MOT17",
+      "type": "appearance",
+      "sequence": "MOT17-02-FRCNN",
+      "frame": 472,
+      "source_check": "PASS"
+    },
+    {
+      "ref_id": "1811aa94173bc76ae228",
+      "dataset": "MOT17",
+      "type": "appearance",
+      "sequence": "MOT17-10-FRCNN",
+      "frame": 350,
+      "source_check": "PASS"
+    },
+    {
+      "ref_id": "54d56822bb3bcfc10b54",
+      "dataset": "MOT17",
+      "type": "event",
+      "sequence": "MOT17-05-FRCNN",
+      "frame": 505,
+      "source_check": "PASS",
+      "ref_id_before_time_display_fix": "ecddecbb771ee266c204"
+    },
+    {
+      "ref_id": "5a9ee228276ed84c8ec3",
+      "dataset": "MOT17",
+      "type": "event",
+      "sequence": "MOT17-05-FRCNN",
+      "frame": 516,
+      "source_check": "PASS",
+      "ref_id_before_time_display_fix": "ef7f86200c4c6f8b0434"
+    },
+    {
+      "ref_id": "88b08e869b41d880064c",
+      "dataset": "MOT17",
+      "type": "event",
+      "sequence": "MOT17-04-FRCNN",
+      "frame": 694,
+      "source_check": "PASS",
+      "ref_id_before_time_display_fix": "392c7f75f6d77dfcccc2"
+    },
+    {
+      "ref_id": "3b6620dc8dfa1f8537d9",
+      "dataset": "MOT17",
+      "type": "event",
+      "sequence": "MOT17-13-FRCNN",
+      "frame": 539,
+      "source_check": "PASS",
+      "ref_id_before_time_display_fix": "fb07b3267fac97323d20"
+    },
+    {
+      "ref_id": "6e713d85b104d78c3c67",
+      "dataset": "MOT17",
+      "type": "event",
+      "sequence": "MOT17-04-FRCNN",
+      "frame": 800,
+      "source_check": "PASS",
+      "ref_id_before_time_display_fix": "eac2f508c6ed124020d7"
+    },
+    {
+      "ref_id": "b3805f9477c7fc14b846",
+      "dataset": "MOT17",
+      "type": "event",
+      "sequence": "MOT17-09-FRCNN",
+      "frame": 411,
+      "source_check": "PASS",
+      "ref_id_before_time_display_fix": "bb8d08484c546b6aaa81"
+    },
+    {
+      "ref_id": "99785c5e20536db51619",
+      "dataset": "MOT17",
+      "type": "event",
+      "sequence": "MOT17-05-FRCNN",
+      "frame": 517,
+      "source_check": "PASS",
+      "ref_id_before_time_display_fix": "16a58c1e062407e273d1"
+    },
+    {
+      "ref_id": "ffcf5c9bde8818116502",
+      "dataset": "MOT17",
+      "type": "event",
+      "sequence": "MOT17-05-FRCNN",
+      "frame": 740,
+      "source_check": "PASS",
+      "ref_id_before_time_display_fix": "c89ad77f6050a20e4763"
+    },
+    {
+      "ref_id": "e924b066f082147807f6",
+      "dataset": "MOT17",
+      "type": "event",
+      "sequence": "MOT17-04-FRCNN",
+      "frame": 870,
+      "source_check": "PASS",
+      "ref_id_before_time_display_fix": "fecc0d0edf2e46e65102"
+    },
+    {
+      "ref_id": "435f0df37ddc6a6c62c9",
+      "dataset": "MOT17",
+      "type": "event",
+      "sequence": "MOT17-02-FRCNN",
+      "frame": 427,
+      "source_check": "PASS",
+      "ref_id_before_time_display_fix": "3cc77fb722bead6010f7"
+    },
+    {
+      "ref_id": "0d36e79f50f89bb57762",
+      "dataset": "MOT17",
+      "type": "position",
+      "sequence": "MOT17-11-FRCNN",
+      "frame": 568,
+      "source_check": "PASS",
+      "ref_id_before_time_display_fix": "36dde3885f3e329a2e95"
+    },
+    {
+      "ref_id": "899b3e18f6d23dd5a69d",
+      "dataset": "MOT17",
+      "type": "position",
+      "sequence": "MOT17-05-FRCNN",
+      "frame": 813,
+      "source_check": "PASS",
+      "ref_id_before_time_display_fix": "2ba79f5a506b2ab64d63"
+    },
+    {
+      "ref_id": "3042864324a1f887c340",
+      "dataset": "MOT17",
+      "type": "position",
+      "sequence": "MOT17-10-FRCNN",
+      "frame": 427,
+      "source_check": "PASS",
+      "ref_id_before_time_display_fix": "1497e4cc90de2550dd24"
+    },
+    {
+      "ref_id": "8886c32c6f875d6914df",
+      "dataset": "MOT17",
+      "type": "position",
+      "sequence": "MOT17-09-FRCNN",
+      "frame": 476,
+      "source_check": "PASS",
+      "ref_id_before_time_display_fix": "0aa7d2cc499e8503729e"
+    },
+    {
+      "ref_id": "2d646bdd0dfd14dc2800",
+      "dataset": "MOT17",
+      "type": "position",
+      "sequence": "MOT17-13-FRCNN",
+      "frame": 594,
+      "source_check": "PASS",
+      "ref_id_before_time_display_fix": "8783036fa0d1b40a82b8"
+    },
+    {
+      "ref_id": "d0bf44ee5ef17d8a09d3",
+      "dataset": "MOT17",
+      "type": "position",
+      "sequence": "MOT17-05-FRCNN",
+      "frame": 794,
+      "source_check": "PASS",
+      "ref_id_before_time_display_fix": "0a5b4d0bfe8edd5abb7a"
+    },
+    {
+      "ref_id": "c454ebbabacec8408cfa",
+      "dataset": "MOT17",
+      "type": "position",
+      "sequence": "MOT17-09-FRCNN",
+      "frame": 461,
+      "source_check": "PASS",
+      "ref_id_before_time_display_fix": "3a98a5e0232417bd7921"
+    },
+    {
+      "ref_id": "dff6f76625c76505d837",
+      "dataset": "MOT17",
+      "type": "position",
+      "sequence": "MOT17-13-FRCNN",
+      "frame": 384,
+      "source_check": "PASS",
+      "ref_id_before_time_display_fix": "f2fede46148e23c58e99"
+    },
+    {
+      "ref_id": "1be17d09cfa360f7a1ca",
+      "dataset": "MOT17",
+      "type": "position",
+      "sequence": "MOT17-10-FRCNN",
+      "frame": 644,
+      "source_check": "PASS",
+      "ref_id_before_time_display_fix": "124d9bd4a14a381efd51"
+    },
+    {
+      "ref_id": "818e096787a5fff6e83b",
+      "dataset": "MOT17",
+      "type": "position",
+      "sequence": "MOT17-05-FRCNN",
+      "frame": 508,
+      "source_check": "PASS",
+      "ref_id_before_time_display_fix": "afda6a534fe320d38f8d"
+    }
+  ],
+  "raw_crossing_checks": [
+    {
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0044",
+      "gt_ids": [
+        0,
+        8
+      ],
+      "frames": [
+        1013,
+        1025
+      ],
+      "check": "PASS"
+    },
+    {
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0079",
+      "gt_ids": [
+        2,
+        5
+      ],
+      "frames": [
+        63,
+        89
+      ],
+      "check": "PASS"
+    },
+    {
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0080",
+      "gt_ids": [
+        4,
+        14
+      ],
+      "frames": [
+        674,
+        687
+      ],
+      "check": "PASS"
+    },
+    {
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0081",
+      "gt_ids": [
+        2,
+        18
+      ],
+      "frames": [
+        961,
+        975
+      ],
+      "check": "PASS"
+    },
+    {
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0020",
+      "gt_ids": [
+        18,
+        19
+      ],
+      "frames": [
+        137,
+        148
+      ],
+      "check": "PASS"
+    },
+    {
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0005",
+      "gt_ids": [
+        2,
+        3
+      ],
+      "frames": [
+        587,
+        597
+      ],
+      "check": "PASS"
+    },
+    {
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0096",
+      "gt_ids": [
+        28,
+        29
+      ],
+      "frames": [
+        204,
+        227
+      ],
+      "check": "PASS"
+    },
+    {
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0099",
+      "gt_ids": [
+        7,
+        10
+      ],
+      "frames": [
+        285,
+        381
+      ],
+      "check": "PASS"
+    },
+    {
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0072",
+      "gt_ids": [
+        0,
+        2
+      ],
+      "frames": [
+        454,
+        459
+      ],
+      "check": "PASS"
+    },
+    {
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0019",
+      "gt_ids": [
+        5,
+        6
+      ],
+      "frames": [
+        2057,
+        2061
+      ],
+      "check": "PASS"
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_4LXTUim5anY_c010",
+      "gt_ids": [
+        4,
+        7
+      ],
+      "frames": [
+        197,
+        212
+      ],
+      "check": "PASS"
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_2QhNRucNC7E_c017",
+      "gt_ids": [
+        5,
+        13
+      ],
+      "frames": [
+        56,
+        60
+      ],
+      "check": "PASS"
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_1yHWGw8DH4A_c601",
+      "gt_ids": [
+        4,
+        5
+      ],
+      "frames": [
+        74,
+        127
+      ],
+      "check": "PASS"
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_2j7kLB-vEEk_c001",
+      "gt_ids": [
+        6,
+        7
+      ],
+      "frames": [
+        342,
+        352
+      ],
+      "check": "PASS"
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_00HRwkvvjtQ_c008",
+      "gt_ids": [
+        8,
+        9
+      ],
+      "frames": [
+        445,
+        457
+      ],
+      "check": "PASS"
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_00HRwkvvjtQ_c007",
+      "gt_ids": [
+        7,
+        8
+      ],
+      "frames": [
+        544,
+        552
+      ],
+      "check": "PASS"
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_cC2mHWqMcjk_c007",
+      "gt_ids": [
+        7,
+        8
+      ],
+      "frames": [
+        413,
+        419
+      ],
+      "check": "PASS"
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_cC2mHWqMcjk_c008",
+      "gt_ids": [
+        6,
+        11
+      ],
+      "frames": [
+        161,
+        166
+      ],
+      "check": "PASS"
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_4LXTUim5anY_c010",
+      "gt_ids": [
+        3,
+        4
+      ],
+      "frames": [
+        94,
+        98
+      ],
+      "check": "PASS"
+    },
+    {
+      "dataset": "SportsMOT",
+      "sequence": "v_4LXTUim5anY_c012",
+      "gt_ids": [
+        3,
+        7
+      ],
+      "frames": [
+        549,
+        625
+      ],
+      "check": "PASS"
+    },
+    {
+      "dataset": "MOT17",
+      "sequence": "MOT17-04-FRCNN",
+      "gt_ids": [
+        84,
+        89
+      ],
+      "frames": [
+        44,
+        68
+      ],
+      "check": "PASS"
+    },
+    {
+      "dataset": "MOT17",
+      "sequence": "MOT17-04-FRCNN",
+      "gt_ids": [
+        66,
+        86
+      ],
+      "frames": [
+        165,
+        391
+      ],
+      "check": "PASS"
+    },
+    {
+      "dataset": "MOT17",
+      "sequence": "MOT17-04-FRCNN",
+      "gt_ids": [
+        83,
+        99
+      ],
+      "frames": [
+        305,
+        346
+      ],
+      "check": "PASS"
+    },
+    {
+      "dataset": "MOT17",
+      "sequence": "MOT17-04-FRCNN",
+      "gt_ids": [
+        87,
+        90
+      ],
+      "frames": [
+        486,
+        623
+      ],
+      "check": "PASS"
+    },
+    {
+      "dataset": "MOT17",
+      "sequence": "MOT17-04-FRCNN",
+      "gt_ids": [
+        3,
+        82
+      ],
+      "frames": [
+        342,
+        364
+      ],
+      "check": "PASS"
+    },
+    {
+      "dataset": "MOT17",
+      "sequence": "MOT17-04-FRCNN",
+      "gt_ids": [
+        3,
+        83
+      ],
+      "frames": [
+        327,
+        346
+      ],
+      "check": "PASS"
+    },
+    {
+      "dataset": "MOT17",
+      "sequence": "MOT17-04-FRCNN",
+      "gt_ids": [
+        69,
+        132
+      ],
+      "frames": [
+        983,
+        1009
+      ],
+      "check": "PASS"
+    },
+    {
+      "dataset": "MOT17",
+      "sequence": "MOT17-04-FRCNN",
+      "gt_ids": [
+        87,
+        98
+      ],
+      "frames": [
+        209,
+        259
+      ],
+      "check": "PASS"
+    },
+    {
+      "dataset": "MOT17",
+      "sequence": "MOT17-04-FRCNN",
+      "gt_ids": [
+        66,
+        67
+      ],
+      "frames": [
+        4,
+        35
+      ],
+      "check": "PASS"
+    },
+    {
+      "dataset": "MOT17",
+      "sequence": "MOT17-04-FRCNN",
+      "gt_ids": [
+        69,
+        134
+      ],
+      "frames": [
+        1021,
+        1038
+      ],
+      "check": "PASS"
+    }
+  ],
+  "stage1_snapshot_unchanged": true,
+  "all_passed": true,
+  "final_time_display_checks": {
+    "event_frame_and_uniqueness_matches": 352,
+    "position_nearest_frame_matches": 2344
+  }
+}

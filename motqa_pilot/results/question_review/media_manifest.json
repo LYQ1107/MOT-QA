@@ -1,0 +1,1066 @@
+{
+  "motqa_precheck_02": {
+    "qa_id": "motqa_precheck_02",
+    "references": [
+      {
+        "role": "A",
+        "type": "box",
+        "text_zh": "10.760 秒参考帧中红框标出的人",
+        "text": "the person marked with the red box at 10.760 s",
+        "time_s": 10.76,
+        "image": "media/motqa_precheck_02/reference_A.jpg",
+        "image_is_question_input": true
+      },
+      {
+        "role": "B",
+        "type": "box",
+        "text_zh": "10.760 秒参考帧中红框标出的人",
+        "text": "the person marked with the red box at 10.760 s",
+        "time_s": 10.76,
+        "image": "media/motqa_precheck_02/reference_B.jpg",
+        "image_is_question_input": true
+      }
+    ],
+    "frames": [
+      {
+        "frame": 270,
+        "time_s": 10.76,
+        "image": "media/motqa_precheck_02/frame_000270.jpg"
+      },
+      {
+        "frame": 345,
+        "time_s": 13.76,
+        "image": "media/motqa_precheck_02/frame_000345.jpg"
+      },
+      {
+        "frame": 370,
+        "time_s": 14.76,
+        "image": "media/motqa_precheck_02/frame_000370.jpg"
+      }
+    ],
+    "raw_clip": "media/motqa_precheck_02/clip_original.mp4",
+    "gt_clip": "media/motqa_precheck_02/clip_gt_audit.mp4",
+    "clip_start_s": 8.76,
+    "clip_end_s": 16.76,
+    "clip_fps": 10,
+    "encoded_frame_count": 81,
+    "size": [
+      960,
+      540
+    ]
+  },
+  "motqa_precheck_03": {
+    "qa_id": "motqa_precheck_03",
+    "references": [
+      {
+        "role": "A",
+        "type": "box",
+        "text_zh": "12.033 秒参考帧中红框标出的人",
+        "text": "the person marked with the red box at 12.033 s",
+        "time_s": 12.033333333333333,
+        "image": "media/motqa_precheck_03/reference_A.jpg",
+        "image_is_question_input": true
+      },
+      {
+        "role": "B",
+        "type": "box",
+        "text_zh": "12.033 秒参考帧中红框标出的人",
+        "text": "the person marked with the red box at 12.033 s",
+        "time_s": 12.033333333333333,
+        "image": "media/motqa_precheck_03/reference_B.jpg",
+        "image_is_question_input": true
+      }
+    ],
+    "frames": [
+      {
+        "frame": 362,
+        "time_s": 12.033333333333333,
+        "image": "media/motqa_precheck_03/frame_000362.jpg"
+      },
+      {
+        "frame": 452,
+        "time_s": 15.033333333333333,
+        "image": "media/motqa_precheck_03/frame_000452.jpg"
+      },
+      {
+        "frame": 542,
+        "time_s": 18.033333333333335,
+        "image": "media/motqa_precheck_03/frame_000542.jpg"
+      }
+    ],
+    "raw_clip": "media/motqa_precheck_03/clip_original.mp4",
+    "gt_clip": "media/motqa_precheck_03/clip_gt_audit.mp4",
+    "clip_start_s": 10.033333333333333,
+    "clip_end_s": 19.966666666666665,
+    "clip_fps": 10,
+    "encoded_frame_count": 101,
+    "size": [
+      960,
+      540
+    ]
+  },
+  "motqa_precheck_01": {
+    "qa_id": "motqa_precheck_01",
+    "references": [
+      {
+        "role": "A",
+        "type": "box",
+        "text_zh": "58.400 秒参考帧中红框标出的人",
+        "text": "the person marked with the red box at 58.400 s",
+        "time_s": 58.4,
+        "image": "media/motqa_precheck_01/reference_A.jpg",
+        "image_is_question_input": true
+      },
+      {
+        "role": "B",
+        "type": "box",
+        "text_zh": "58.400 秒参考帧中红框标出的人",
+        "text": "the person marked with the red box at 58.400 s",
+        "time_s": 58.4,
+        "image": "media/motqa_precheck_01/reference_B.jpg",
+        "image_is_question_input": true
+      }
+    ],
+    "frames": [
+      {
+        "frame": 1169,
+        "time_s": 58.4,
+        "image": "media/motqa_precheck_01/frame_001169.jpg"
+      },
+      {
+        "frame": 1229,
+        "time_s": 61.4,
+        "image": "media/motqa_precheck_01/frame_001229.jpg"
+      },
+      {
+        "frame": 1429,
+        "time_s": 71.4,
+        "image": "media/motqa_precheck_01/frame_001429.jpg"
+      }
+    ],
+    "raw_clip": "media/motqa_precheck_01/clip_original.mp4",
+    "gt_clip": "media/motqa_precheck_01/clip_gt_audit.mp4",
+    "clip_start_s": 56.4,
+    "clip_end_s": 73.4,
+    "clip_fps": 10,
+    "encoded_frame_count": 171,
+    "size": [
+      960,
+      540
+    ]
+  },
+  "motqa_precheck_04": {
+    "qa_id": "motqa_precheck_04",
+    "references": [
+      {
+        "role": "A",
+        "type": "box",
+        "text_zh": "58.400 秒参考帧中红框标出的人",
+        "text": "the person marked with the red box at 58.400 s",
+        "time_s": 58.4,
+        "image": "media/motqa_precheck_04/reference_A.jpg",
+        "image_is_question_input": true
+      },
+      {
+        "role": "B",
+        "type": "box",
+        "text_zh": "58.400 秒参考帧中红框标出的人",
+        "text": "the person marked with the red box at 58.400 s",
+        "time_s": 58.4,
+        "image": "media/motqa_precheck_04/reference_B.jpg",
+        "image_is_question_input": true
+      },
+      {
+        "role": "C",
+        "type": "box",
+        "text_zh": "58.400 秒参考帧中红框标出的人",
+        "text": "the person marked with the red box at 58.400 s",
+        "time_s": 58.4,
+        "image": "media/motqa_precheck_04/reference_C.jpg",
+        "image_is_question_input": true
+      },
+      {
+        "role": "D",
+        "type": "box",
+        "text_zh": "58.400 秒参考帧中红框标出的人",
+        "text": "the person marked with the red box at 58.400 s",
+        "time_s": 58.4,
+        "image": "media/motqa_precheck_04/reference_D.jpg",
+        "image_is_question_input": true
+      }
+    ],
+    "frames": [
+      {
+        "frame": 1169,
+        "time_s": 58.4,
+        "image": "media/motqa_precheck_04/frame_001169.jpg"
+      },
+      {
+        "frame": 1229,
+        "time_s": 61.4,
+        "image": "media/motqa_precheck_04/frame_001229.jpg"
+      },
+      {
+        "frame": 1469,
+        "time_s": 73.4,
+        "image": "media/motqa_precheck_04/frame_001469.jpg"
+      }
+    ],
+    "raw_clip": "media/motqa_precheck_04/clip_original.mp4",
+    "gt_clip": "media/motqa_precheck_04/clip_gt_audit.mp4",
+    "clip_start_s": 56.4,
+    "clip_end_s": 75.4,
+    "clip_fps": 10,
+    "encoded_frame_count": 191,
+    "size": [
+      960,
+      540
+    ]
+  },
+  "motqa_precheck_06": {
+    "qa_id": "motqa_precheck_06",
+    "references": [
+      {
+        "role": "A",
+        "type": "box",
+        "text_zh": "6.640 秒参考帧中红框标出的人",
+        "text": "the person marked with the red box at 6.640 s",
+        "time_s": 6.64,
+        "image": "media/motqa_precheck_06/reference_A.jpg",
+        "image_is_question_input": true
+      },
+      {
+        "role": "B",
+        "type": "box",
+        "text_zh": "6.640 秒参考帧中红框标出的人",
+        "text": "the person marked with the red box at 6.640 s",
+        "time_s": 6.64,
+        "image": "media/motqa_precheck_06/reference_B.jpg",
+        "image_is_question_input": true
+      }
+    ],
+    "frames": [
+      {
+        "frame": 167,
+        "time_s": 6.64,
+        "image": "media/motqa_precheck_06/frame_000167.jpg"
+      },
+      {
+        "frame": 242,
+        "time_s": 9.64,
+        "image": "media/motqa_precheck_06/frame_000242.jpg"
+      },
+      {
+        "frame": 267,
+        "time_s": 10.64,
+        "image": "media/motqa_precheck_06/frame_000267.jpg"
+      }
+    ],
+    "raw_clip": "media/motqa_precheck_06/clip_original.mp4",
+    "gt_clip": "media/motqa_precheck_06/clip_gt_audit.mp4",
+    "clip_start_s": 4.64,
+    "clip_end_s": 12.64,
+    "clip_fps": 10,
+    "encoded_frame_count": 81,
+    "size": [
+      960,
+      540
+    ]
+  },
+  "motqa_precheck_05": {
+    "qa_id": "motqa_precheck_05",
+    "references": [
+      {
+        "role": "A",
+        "type": "box",
+        "text_zh": "16.333 秒参考帧中红框标出的人",
+        "text": "the person marked with the red box at 16.333 s",
+        "time_s": 16.333333333333332,
+        "image": "media/motqa_precheck_05/reference_A.jpg",
+        "image_is_question_input": true
+      },
+      {
+        "role": "B",
+        "type": "box",
+        "text_zh": "16.333 秒参考帧中红框标出的人",
+        "text": "the person marked with the red box at 16.333 s",
+        "time_s": 16.333333333333332,
+        "image": "media/motqa_precheck_05/reference_B.jpg",
+        "image_is_question_input": true
+      },
+      {
+        "role": "C",
+        "type": "box",
+        "text_zh": "16.333 秒参考帧中红框标出的人",
+        "text": "the person marked with the red box at 16.333 s",
+        "time_s": 16.333333333333332,
+        "image": "media/motqa_precheck_05/reference_C.jpg",
+        "image_is_question_input": true
+      },
+      {
+        "role": "D",
+        "type": "box",
+        "text_zh": "16.333 秒参考帧中红框标出的人",
+        "text": "the person marked with the red box at 16.333 s",
+        "time_s": 16.333333333333332,
+        "image": "media/motqa_precheck_05/reference_D.jpg",
+        "image_is_question_input": true
+      }
+    ],
+    "frames": [
+      {
+        "frame": 491,
+        "time_s": 16.333333333333332,
+        "image": "media/motqa_precheck_05/frame_000491.jpg"
+      },
+      {
+        "frame": 581,
+        "time_s": 19.333333333333332,
+        "image": "media/motqa_precheck_05/frame_000581.jpg"
+      },
+      {
+        "frame": 761,
+        "time_s": 25.333333333333332,
+        "image": "media/motqa_precheck_05/frame_000761.jpg"
+      }
+    ],
+    "raw_clip": "media/motqa_precheck_05/clip_original.mp4",
+    "gt_clip": "media/motqa_precheck_05/clip_gt_audit.mp4",
+    "clip_start_s": 15.0,
+    "clip_end_s": 27.333333333333332,
+    "clip_fps": 10,
+    "encoded_frame_count": 125,
+    "size": [
+      960,
+      540
+    ]
+  },
+  "motqa_precheck_08": {
+    "qa_id": "motqa_precheck_08",
+    "references": [
+      {
+        "role": "A",
+        "type": "box",
+        "text_zh": "12.033 秒参考帧中红框标出的人",
+        "text": "the person marked with the red box at 12.033 s",
+        "time_s": 12.033333333333333,
+        "image": "media/motqa_precheck_08/reference_A.jpg",
+        "image_is_question_input": true
+      },
+      {
+        "role": "B",
+        "type": "box",
+        "text_zh": "12.033 秒参考帧中红框标出的人",
+        "text": "the person marked with the red box at 12.033 s",
+        "time_s": 12.033333333333333,
+        "image": "media/motqa_precheck_08/reference_B.jpg",
+        "image_is_question_input": true
+      }
+    ],
+    "frames": [
+      {
+        "frame": 362,
+        "time_s": 12.033333333333333,
+        "image": "media/motqa_precheck_08/frame_000362.jpg"
+      },
+      {
+        "frame": 452,
+        "time_s": 15.033333333333333,
+        "image": "media/motqa_precheck_08/frame_000452.jpg"
+      },
+      {
+        "frame": 542,
+        "time_s": 18.033333333333335,
+        "image": "media/motqa_precheck_08/frame_000542.jpg"
+      }
+    ],
+    "raw_clip": "media/motqa_precheck_08/clip_original.mp4",
+    "gt_clip": "media/motqa_precheck_08/clip_gt_audit.mp4",
+    "clip_start_s": 10.033333333333333,
+    "clip_end_s": 19.966666666666665,
+    "clip_fps": 10,
+    "encoded_frame_count": 101,
+    "size": [
+      960,
+      540
+    ]
+  },
+  "motqa_precheck_07": {
+    "qa_id": "motqa_precheck_07",
+    "references": [
+      {
+        "role": "A",
+        "type": "box",
+        "text_zh": "58.400 秒参考帧中红框标出的人",
+        "text": "the person marked with the red box at 58.400 s",
+        "time_s": 58.4,
+        "image": "media/motqa_precheck_07/reference_A.jpg",
+        "image_is_question_input": true
+      }
+    ],
+    "frames": [
+      {
+        "frame": 1169,
+        "time_s": 58.4,
+        "image": "media/motqa_precheck_07/frame_001169.jpg"
+      },
+      {
+        "frame": 1229,
+        "time_s": 61.4,
+        "image": "media/motqa_precheck_07/frame_001229.jpg"
+      },
+      {
+        "frame": 1264,
+        "time_s": 63.15,
+        "image": "media/motqa_precheck_07/frame_001264.jpg"
+      },
+      {
+        "frame": 1321,
+        "time_s": 66.0,
+        "image": "media/motqa_precheck_07/frame_001321.jpg"
+      },
+      {
+        "frame": 1364,
+        "time_s": 68.15,
+        "image": "media/motqa_precheck_07/frame_001364.jpg"
+      },
+      {
+        "frame": 1383,
+        "time_s": 69.1,
+        "image": "media/motqa_precheck_07/frame_001383.jpg"
+      },
+      {
+        "frame": 1489,
+        "time_s": 74.4,
+        "image": "media/motqa_precheck_07/frame_001489.jpg"
+      }
+    ],
+    "raw_clip": "media/motqa_precheck_07/clip_original.mp4",
+    "gt_clip": "media/motqa_precheck_07/clip_gt_audit.mp4",
+    "clip_start_s": 56.4,
+    "clip_end_s": 76.4,
+    "clip_fps": 10,
+    "encoded_frame_count": 201,
+    "size": [
+      960,
+      540
+    ]
+  },
+  "motqa_precheck_09": {
+    "qa_id": "motqa_precheck_09",
+    "references": [
+      {
+        "role": "A",
+        "type": "event",
+        "text_zh": "在 36.200 秒附近重新出现的人",
+        "text": "the person who comes back into view at around 36.200 s",
+        "time_s": 36.2,
+        "image": "media/motqa_precheck_09/reference_A.jpg",
+        "image_is_question_input": false
+      }
+    ],
+    "frames": [
+      {
+        "frame": 725,
+        "time_s": 36.2,
+        "image": "media/motqa_precheck_09/frame_000725.jpg"
+      },
+      {
+        "frame": 785,
+        "time_s": 39.2,
+        "image": "media/motqa_precheck_09/frame_000785.jpg"
+      },
+      {
+        "frame": 796,
+        "time_s": 39.75,
+        "image": "media/motqa_precheck_09/frame_000796.jpg"
+      },
+      {
+        "frame": 797,
+        "time_s": 39.8,
+        "image": "media/motqa_precheck_09/frame_000797.jpg"
+      },
+      {
+        "frame": 820,
+        "time_s": 40.95,
+        "image": "media/motqa_precheck_09/frame_000820.jpg"
+      },
+      {
+        "frame": 1005,
+        "time_s": 50.2,
+        "image": "media/motqa_precheck_09/frame_001005.jpg"
+      }
+    ],
+    "raw_clip": "media/motqa_precheck_09/clip_original.mp4",
+    "gt_clip": "media/motqa_precheck_09/clip_gt_audit.mp4",
+    "clip_start_s": 34.2,
+    "clip_end_s": 52.2,
+    "clip_fps": 10,
+    "encoded_frame_count": 181,
+    "size": [
+      960,
+      540
+    ]
+  },
+  "motqa_precheck_10": {
+    "qa_id": "motqa_precheck_10",
+    "references": [
+      {
+        "role": "A",
+        "type": "event",
+        "text_zh": "在 18.000 秒附近重新出现的人",
+        "text": "the person who comes back into view at around 18.000 s",
+        "time_s": 18.0,
+        "image": "media/motqa_precheck_10/reference_A.jpg",
+        "image_is_question_input": false
+      }
+    ],
+    "frames": [
+      {
+        "frame": 361,
+        "time_s": 18.0,
+        "image": "media/motqa_precheck_10/frame_000361.jpg"
+      },
+      {
+        "frame": 421,
+        "time_s": 21.0,
+        "image": "media/motqa_precheck_10/frame_000421.jpg"
+      },
+      {
+        "frame": 547,
+        "time_s": 27.3,
+        "image": "media/motqa_precheck_10/frame_000547.jpg"
+      },
+      {
+        "frame": 548,
+        "time_s": 27.35,
+        "image": "media/motqa_precheck_10/frame_000548.jpg"
+      },
+      {
+        "frame": 601,
+        "time_s": 30.0,
+        "image": "media/motqa_precheck_10/frame_000601.jpg"
+      }
+    ],
+    "raw_clip": "media/motqa_precheck_10/clip_original.mp4",
+    "gt_clip": "media/motqa_precheck_10/clip_gt_audit.mp4",
+    "clip_start_s": 16.0,
+    "clip_end_s": 32.0,
+    "clip_fps": 10,
+    "encoded_frame_count": 161,
+    "size": [
+      960,
+      540
+    ]
+  },
+  "motqa_precheck_11": {
+    "qa_id": "motqa_precheck_11",
+    "references": [
+      {
+        "role": "A",
+        "type": "event",
+        "text_zh": "在 5.760 秒附近重新出现的人",
+        "text": "the person who comes back into view at around 5.760 s",
+        "time_s": 5.76,
+        "image": "media/motqa_precheck_11/reference_A.jpg",
+        "image_is_question_input": false
+      }
+    ],
+    "frames": [
+      {
+        "frame": 145,
+        "time_s": 5.76,
+        "image": "media/motqa_precheck_11/frame_000145.jpg"
+      },
+      {
+        "frame": 220,
+        "time_s": 8.76,
+        "image": "media/motqa_precheck_11/frame_000220.jpg"
+      },
+      {
+        "frame": 291,
+        "time_s": 11.6,
+        "image": "media/motqa_precheck_11/frame_000291.jpg"
+      },
+      {
+        "frame": 328,
+        "time_s": 13.08,
+        "image": "media/motqa_precheck_11/frame_000328.jpg"
+      },
+      {
+        "frame": 424,
+        "time_s": 16.92,
+        "image": "media/motqa_precheck_11/frame_000424.jpg"
+      },
+      {
+        "frame": 458,
+        "time_s": 18.28,
+        "image": "media/motqa_precheck_11/frame_000458.jpg"
+      },
+      {
+        "frame": 570,
+        "time_s": 22.76,
+        "image": "media/motqa_precheck_11/frame_000570.jpg"
+      }
+    ],
+    "raw_clip": "media/motqa_precheck_11/clip_original.mp4",
+    "gt_clip": "media/motqa_precheck_11/clip_gt_audit.mp4",
+    "clip_start_s": 3.76,
+    "clip_end_s": 24.76,
+    "clip_fps": 10,
+    "encoded_frame_count": 211,
+    "size": [
+      960,
+      540
+    ]
+  },
+  "motqa_precheck_12": {
+    "qa_id": "motqa_precheck_12",
+    "references": [
+      {
+        "role": "A",
+        "type": "event",
+        "text_zh": "在 0.440 秒附近消失在画面边缘的人",
+        "text": "the person who leaves the frame near the left edge at around 0.440 s",
+        "time_s": 0.4,
+        "image": "media/motqa_precheck_12/reference_A.jpg",
+        "image_is_question_input": false
+      }
+    ],
+    "frames": [
+      {
+        "frame": 11,
+        "time_s": 0.4,
+        "image": "media/motqa_precheck_12/frame_000011.jpg"
+      },
+      {
+        "frame": 86,
+        "time_s": 3.4,
+        "image": "media/motqa_precheck_12/frame_000086.jpg"
+      },
+      {
+        "frame": 436,
+        "time_s": 17.4,
+        "image": "media/motqa_precheck_12/frame_000436.jpg"
+      }
+    ],
+    "raw_clip": "media/motqa_precheck_12/clip_original.mp4",
+    "gt_clip": "media/motqa_precheck_12/clip_gt_audit.mp4",
+    "clip_start_s": 0.0,
+    "clip_end_s": 19.4,
+    "clip_fps": 10,
+    "encoded_frame_count": 195,
+    "size": [
+      960,
+      540
+    ]
+  },
+  "motqa_precheck_13": {
+    "qa_id": "motqa_precheck_13",
+    "references": [
+      {
+        "role": "A",
+        "type": "event",
+        "text_zh": "在 10.067 秒附近进入画面的人",
+        "text": "the person who enters the frame from the left at around 10.067 s",
+        "time_s": 10.066666666666666,
+        "image": "media/motqa_precheck_13/reference_A.jpg",
+        "image_is_question_input": false
+      },
+      {
+        "role": "B",
+        "type": "box",
+        "text_zh": "10.067 秒参考帧中红框标出的人",
+        "text": "the person marked with the red box at 10.067 s",
+        "time_s": 10.066666666666666,
+        "image": "media/motqa_precheck_13/reference_B.jpg",
+        "image_is_question_input": true
+      }
+    ],
+    "frames": [
+      {
+        "frame": 303,
+        "time_s": 10.066666666666666,
+        "image": "media/motqa_precheck_13/frame_000303.jpg"
+      },
+      {
+        "frame": 393,
+        "time_s": 13.066666666666666,
+        "image": "media/motqa_precheck_13/frame_000393.jpg"
+      },
+      {
+        "frame": 402,
+        "time_s": 13.366666666666667,
+        "image": "media/motqa_precheck_13/frame_000402.jpg"
+      },
+      {
+        "frame": 573,
+        "time_s": 19.066666666666666,
+        "image": "media/motqa_precheck_13/frame_000573.jpg"
+      }
+    ],
+    "raw_clip": "media/motqa_precheck_13/clip_original.mp4",
+    "gt_clip": "media/motqa_precheck_13/clip_gt_audit.mp4",
+    "clip_start_s": 10.0,
+    "clip_end_s": 19.966666666666665,
+    "clip_fps": 10,
+    "encoded_frame_count": 101,
+    "size": [
+      960,
+      540
+    ]
+  },
+  "motqa_precheck_14": {
+    "qa_id": "motqa_precheck_14",
+    "references": [
+      {
+        "role": "A",
+        "type": "appearance",
+        "text_zh": "全身穿黑色衣服、正在跳舞的人",
+        "text": "dancing person dressed all in black",
+        "time_s": 36.85,
+        "image": "media/motqa_precheck_14/reference_A.jpg",
+        "image_is_question_input": false
+      }
+    ],
+    "frames": [
+      {
+        "frame": 738,
+        "time_s": 36.85,
+        "image": "media/motqa_precheck_14/frame_000738.jpg"
+      },
+      {
+        "frame": 798,
+        "time_s": 39.85,
+        "image": "media/motqa_precheck_14/frame_000798.jpg"
+      },
+      {
+        "frame": 878,
+        "time_s": 43.85,
+        "image": "media/motqa_precheck_14/frame_000878.jpg"
+      }
+    ],
+    "raw_clip": "media/motqa_precheck_14/clip_original.mp4",
+    "gt_clip": "media/motqa_precheck_14/clip_gt_audit.mp4",
+    "clip_start_s": 34.85,
+    "clip_end_s": 45.85,
+    "clip_fps": 10,
+    "encoded_frame_count": 111,
+    "size": [
+      960,
+      540
+    ]
+  },
+  "motqa_precheck_15": {
+    "qa_id": "motqa_precheck_15",
+    "references": [
+      {
+        "role": "A",
+        "type": "appearance",
+        "text_zh": "左侧队伍中穿蓝色衣服的排球运动员",
+        "text": "The volleyball player in the left-side team wearing blue clothes.",
+        "time_s": 9.28,
+        "image": "media/motqa_precheck_15/reference_A.jpg",
+        "image_is_question_input": false
+      }
+    ],
+    "frames": [
+      {
+        "frame": 233,
+        "time_s": 9.28,
+        "image": "media/motqa_precheck_15/frame_000233.jpg"
+      },
+      {
+        "frame": 308,
+        "time_s": 12.28,
+        "image": "media/motqa_precheck_15/frame_000308.jpg"
+      },
+      {
+        "frame": 483,
+        "time_s": 19.28,
+        "image": "media/motqa_precheck_15/frame_000483.jpg"
+      }
+    ],
+    "raw_clip": "media/motqa_precheck_15/clip_original.mp4",
+    "gt_clip": "media/motqa_precheck_15/clip_gt_audit.mp4",
+    "clip_start_s": 7.28,
+    "clip_end_s": 20.24,
+    "clip_fps": 10,
+    "encoded_frame_count": 131,
+    "size": [
+      960,
+      540
+    ]
+  },
+  "motqa_precheck_19": {
+    "qa_id": "motqa_precheck_19",
+    "references": [
+      {
+        "role": "A",
+        "type": "position",
+        "text_zh": "9.120 秒时画面中最靠左的人",
+        "text": "the leftmost person at 9.120 s",
+        "time_s": 9.12,
+        "image": "media/motqa_precheck_19/reference_A.jpg",
+        "image_is_question_input": false
+      }
+    ],
+    "frames": [
+      {
+        "frame": 229,
+        "time_s": 9.12,
+        "image": "media/motqa_precheck_19/frame_000229.jpg"
+      },
+      {
+        "frame": 304,
+        "time_s": 12.12,
+        "image": "media/motqa_precheck_19/frame_000304.jpg"
+      },
+      {
+        "frame": 360,
+        "time_s": 14.36,
+        "image": "media/motqa_precheck_19/frame_000360.jpg"
+      },
+      {
+        "frame": 379,
+        "time_s": 15.12,
+        "image": "media/motqa_precheck_19/frame_000379.jpg"
+      }
+    ],
+    "raw_clip": "media/motqa_precheck_19/clip_original.mp4",
+    "gt_clip": "media/motqa_precheck_19/clip_gt_audit.mp4",
+    "clip_start_s": 7.12,
+    "clip_end_s": 17.12,
+    "clip_fps": 10,
+    "encoded_frame_count": 101,
+    "size": [
+      960,
+      540
+    ]
+  },
+  "motqa_precheck_16": {
+    "qa_id": "motqa_precheck_16",
+    "references": [
+      {
+        "role": "A",
+        "type": "appearance",
+        "text_zh": "全身穿黑色衣服、正在跳舞的人",
+        "text": "dancing person dressed all in black",
+        "time_s": 36.85,
+        "image": "media/motqa_precheck_16/reference_A.jpg",
+        "image_is_question_input": false
+      },
+      {
+        "role": "B",
+        "type": "box",
+        "text_zh": "36.850 秒参考帧中红框标出的人",
+        "text": "the person marked with the red box at 36.850 s",
+        "time_s": 36.85,
+        "image": "media/motqa_precheck_16/reference_B.jpg",
+        "image_is_question_input": true
+      }
+    ],
+    "frames": [
+      {
+        "frame": 738,
+        "time_s": 36.85,
+        "image": "media/motqa_precheck_16/frame_000738.jpg"
+      },
+      {
+        "frame": 798,
+        "time_s": 39.85,
+        "image": "media/motqa_precheck_16/frame_000798.jpg"
+      },
+      {
+        "frame": 975,
+        "time_s": 48.7,
+        "image": "media/motqa_precheck_16/frame_000975.jpg"
+      },
+      {
+        "frame": 1058,
+        "time_s": 52.85,
+        "image": "media/motqa_precheck_16/frame_001058.jpg"
+      }
+    ],
+    "raw_clip": "media/motqa_precheck_16/clip_original.mp4",
+    "gt_clip": "media/motqa_precheck_16/clip_gt_audit.mp4",
+    "clip_start_s": 34.85,
+    "clip_end_s": 54.85,
+    "clip_fps": 10,
+    "encoded_frame_count": 201,
+    "size": [
+      960,
+      540
+    ]
+  },
+  "motqa_precheck_17": {
+    "qa_id": "motqa_precheck_17",
+    "references": [
+      {
+        "role": "A",
+        "type": "appearance",
+        "text_zh": "穿黑色衣服的足球运动员",
+        "text": "soccer player in black",
+        "time_s": 2.96,
+        "image": "media/motqa_precheck_17/reference_A.jpg",
+        "image_is_question_input": false
+      },
+      {
+        "role": "B",
+        "type": "box",
+        "text_zh": "2.960 秒参考帧中红框标出的人",
+        "text": "the person marked with the red box at 2.960 s",
+        "time_s": 2.96,
+        "image": "media/motqa_precheck_17/reference_B.jpg",
+        "image_is_question_input": true
+      },
+      {
+        "role": "C",
+        "type": "box",
+        "text_zh": "2.960 秒参考帧中红框标出的人",
+        "text": "the person marked with the red box at 2.960 s",
+        "time_s": 2.96,
+        "image": "media/motqa_precheck_17/reference_C.jpg",
+        "image_is_question_input": true
+      },
+      {
+        "role": "D",
+        "type": "box",
+        "text_zh": "2.960 秒参考帧中红框标出的人",
+        "text": "the person marked with the red box at 2.960 s",
+        "time_s": 2.96,
+        "image": "media/motqa_precheck_17/reference_D.jpg",
+        "image_is_question_input": true
+      }
+    ],
+    "frames": [
+      {
+        "frame": 75,
+        "time_s": 2.96,
+        "image": "media/motqa_precheck_17/frame_000075.jpg"
+      },
+      {
+        "frame": 150,
+        "time_s": 5.96,
+        "image": "media/motqa_precheck_17/frame_000150.jpg"
+      },
+      {
+        "frame": 500,
+        "time_s": 19.96,
+        "image": "media/motqa_precheck_17/frame_000500.jpg"
+      }
+    ],
+    "raw_clip": "media/motqa_precheck_17/clip_original.mp4",
+    "gt_clip": "media/motqa_precheck_17/clip_gt_audit.mp4",
+    "clip_start_s": 0.96,
+    "clip_end_s": 21.96,
+    "clip_fps": 10,
+    "encoded_frame_count": 211,
+    "size": [
+      960,
+      540
+    ]
+  },
+  "motqa_precheck_18": {
+    "qa_id": "motqa_precheck_18",
+    "references": [
+      {
+        "role": "A",
+        "type": "position",
+        "text_zh": "0.350 秒时画面中最靠右的人",
+        "text": "the rightmost person at 0.350 s",
+        "time_s": 0.35,
+        "image": "media/motqa_precheck_18/reference_A.jpg",
+        "image_is_question_input": false
+      }
+    ],
+    "frames": [
+      {
+        "frame": 8,
+        "time_s": 0.35,
+        "image": "media/motqa_precheck_18/frame_000008.jpg"
+      },
+      {
+        "frame": 68,
+        "time_s": 3.35,
+        "image": "media/motqa_precheck_18/frame_000068.jpg"
+      },
+      {
+        "frame": 328,
+        "time_s": 16.35,
+        "image": "media/motqa_precheck_18/frame_000328.jpg"
+      }
+    ],
+    "raw_clip": "media/motqa_precheck_18/clip_original.mp4",
+    "gt_clip": "media/motqa_precheck_18/clip_gt_audit.mp4",
+    "clip_start_s": 0.0,
+    "clip_end_s": 18.35,
+    "clip_fps": 10,
+    "encoded_frame_count": 185,
+    "size": [
+      960,
+      540
+    ]
+  },
+  "motqa_precheck_20": {
+    "qa_id": "motqa_precheck_20",
+    "references": [
+      {
+        "role": "A",
+        "type": "position",
+        "text_zh": "17.600 秒时画面中最靠左的人",
+        "text": "the leftmost person at 17.600 s",
+        "time_s": 17.6,
+        "image": "media/motqa_precheck_20/reference_A.jpg",
+        "image_is_question_input": false
+      }
+    ],
+    "frames": [
+      {
+        "frame": 441,
+        "time_s": 17.6,
+        "image": "media/motqa_precheck_20/frame_000441.jpg"
+      },
+      {
+        "frame": 516,
+        "time_s": 20.6,
+        "image": "media/motqa_precheck_20/frame_000516.jpg"
+      },
+      {
+        "frame": 594,
+        "time_s": 23.72,
+        "image": "media/motqa_precheck_20/frame_000594.jpg"
+      },
+      {
+        "frame": 596,
+        "time_s": 23.8,
+        "image": "media/motqa_precheck_20/frame_000596.jpg"
+      },
+      {
+        "frame": 648,
+        "time_s": 25.88,
+        "image": "media/motqa_precheck_20/frame_000648.jpg"
+      },
+      {
+        "frame": 664,
+        "time_s": 26.52,
+        "image": "media/motqa_precheck_20/frame_000664.jpg"
+      },
+      {
+        "frame": 741,
+        "time_s": 29.6,
+        "image": "media/motqa_precheck_20/frame_000741.jpg"
+      }
+    ],
+    "raw_clip": "media/motqa_precheck_20/clip_original.mp4",
+    "gt_clip": "media/motqa_precheck_20/clip_gt_audit.mp4",
+    "clip_start_s": 15.6,
+    "clip_end_s": 31.0,
+    "clip_fps": 10,
+    "encoded_frame_count": 155,
+    "size": [
+      960,
+      540
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "path": "logs/masa_hf_info.json",
+    "source": "https://huggingface.co/api/models/dereksiyuanli/masa?blobs=true",
+    "resolved_url": "https://huggingface.co/api/models/dereksiyuanli/masa?blobs=true",
+    "bytes": 3484,
+    "sha256": "376f3510ec10ff4d133dd7f2cc23dd4b0b036429bd2956848075d0616fe1cd32",
+    "integrity": "Local SHA256 recorded; no independent digest"
+  }
+]

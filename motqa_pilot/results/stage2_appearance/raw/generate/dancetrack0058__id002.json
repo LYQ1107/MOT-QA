@@ -1,0 +1,71 @@
+{
+  "unit_key": "dancetrack0058__id002",
+  "sequence": "dancetrack0058",
+  "gt_id": 2,
+  "phase": "generate",
+  "started_at": "2026-11-04T13:56:55.797323+00:00",
+  "completed_at": "2026-11-04T13:57:03.559324+00:00",
+  "seconds": 7.762031608726829,
+  "prompt_text": "The first image shows three crops of ONE target person at different times. The other image(s) show comparison people from the SAME video; every labeled tile is a different annotated person, shown in up to three crops. These comparison labels are anonymous bookkeeping labels, not appearance attributes.\nWrite one concise English noun phrase (at most 30 words), starting with \"the person\", describing the target using stable, clearly visible clothing, patterns, hair, or accessories. Prefer details that distinguish this person from comparison people. Do not mention actions, pose, scene location, time, spatial relation to others, gallery labels, or GT identity numbers. Visible garment lettering is allowed only if clearly legible. Do not infer colors/details hidden by another person. If no reliable description is possible, use an empty phrase. If a truthful description is shared by others, still provide it and set visually_distinct to false.\nReturn {\"phrase\":\"...\", \"supported_attributes\":[\"...\"], \"visually_distinct\":true, \"limitations\":\"...\"}. A description need not be unique; truthful uncertainty is preferred to invented uniqueness.\nThe target person is also included once among the comparison gallery tiles. Identify that repeated target visually; do not treat the repeated target tile as a different rival. Look for truthful stable appearance that distinguishes the target from OTHER people.",
+  "image_paths": [
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0058/id002_target.jpg",
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0058/generation_gallery_page00.jpg"
+  ],
+  "image_sha256": [
+    "5bc4c90831c184692301d519fd05f3310470424b9e298df13f6869b6c7238002",
+    "cc01a2bcb47a1c692cd7f58978e37a022f3454b04fd6c30ac6d931fa1f00ecbd"
+  ],
+  "response": {
+    "id": "chatcmpl-b1f014a96fad68ca",
+    "object": "chat.completion",
+    "created": 1793800615,
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"phrase\": \"the person with short dark hair wearing a maroon jacket over a cream t-shirt with 'FG' printed on it and ripped light blue jeans\",\n  \"supported_attributes\": [\n    \"short dark hair\",\n    \"maroon jacket\",\n    \"cream t-shirt with 'FG' printed on it\",\n    \"ripped light blue jeans\"\n  ],\n  \"visually_distinct\": true,\n  \"limitations\": \"The combination of the maroon jacket, cream t-shirt with visible 'FG' lettering, and ripped light blue jeans is not seen on any other person in the comparison gallery, making this description visually distinct.\"\n}",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 1433,
+      "total_tokens": 1567,
+      "completion_tokens": 134,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "check": {
+    "valid": true,
+    "parsed": {
+      "phrase": "the person with short dark hair wearing a maroon jacket over a cream t-shirt with 'FG' printed on it and ripped light blue jeans",
+      "supported_attributes": [
+        "short dark hair",
+        "maroon jacket",
+        "cream t-shirt with 'FG' printed on it",
+        "ripped light blue jeans"
+      ],
+      "visually_distinct": true,
+      "limitations": "The combination of the maroon jacket, cream t-shirt with visible 'FG' lettering, and ripped light blue jeans is not seen on any other person in the comparison gallery, making this description visually distinct."
+    },
+    "phrase": "the person with short dark hair wearing a maroon jacket over a cream t-shirt with 'FG' printed on it and ripped light blue jeans",
+    "error": null
+  },
+  "inference_policy_sha256": "ea3ce06e83208db2fc1ed693ee2ac1b349f8ae344fcdc2cb0a22e30ef8df60e3"
+}

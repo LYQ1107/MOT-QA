@@ -1,0 +1,70 @@
+{
+  "unit_key": "dancetrack0007__id001",
+  "sequence": "dancetrack0007",
+  "gt_id": 1,
+  "phase": "generate",
+  "started_at": "2026-11-04T13:51:39.897780+00:00",
+  "completed_at": "2026-11-04T13:51:47.028536+00:00",
+  "seconds": 7.130789625924081,
+  "prompt_text": "The first image shows three crops of ONE target person at different times. The other image(s) show comparison people from the SAME video; every labeled tile is a different annotated person, shown in up to three crops. These comparison labels are anonymous bookkeeping labels, not appearance attributes.\nWrite one concise English noun phrase (at most 30 words), starting with \"the person\", describing the target using stable, clearly visible clothing, patterns, hair, or accessories. Prefer details that distinguish this person from comparison people. Do not mention actions, pose, scene location, time, spatial relation to others, gallery labels, or GT identity numbers. Visible garment lettering is allowed only if clearly legible. Do not infer colors/details hidden by another person. If no reliable description is possible, use an empty phrase. If a truthful description is shared by others, still provide it and set visually_distinct to false.\nReturn {\"phrase\":\"...\", \"supported_attributes\":[\"...\"], \"visually_distinct\":true, \"limitations\":\"...\"}. A description need not be unique; truthful uncertainty is preferred to invented uniqueness.\nThe target person is also included once among the comparison gallery tiles. Identify that repeated target visually; do not treat the repeated target tile as a different rival. Look for truthful stable appearance that distinguishes the target from OTHER people.",
+  "image_paths": [
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0007/id001_target.jpg",
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0007/generation_gallery_page00.jpg"
+  ],
+  "image_sha256": [
+    "044e437c46132a8a73285e004cadeecccc14a68f3f7197d9168b9077fddf5529",
+    "110ba3fe7aea1a9740f8db934c2faa25f918d6b6f335bbebbcd1bd7f7f5f1fdf"
+  ],
+  "response": {
+    "id": "chatcmpl-8e132820cc1ce5bd",
+    "object": "chat.completion",
+    "created": 1793800299,
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"phrase\": \"the person with long dark hair wearing a white turtleneck crop top and white loose-fitting pants\",\n  \"supported_attributes\": [\"long dark hair\", \"white turtleneck crop top\", \"white loose-fitting pants\"],\n  \"visually_distinct\": false,\n  \"limitations\": \"The outfit is shared by multiple people in the gallery, including P01, P02, P05, P06, P07, and P08, making the description not visually distinct. The target is visually identical to P05, P06, and others in the gallery.\"\n}",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 1433,
+      "total_tokens": 1565,
+      "completion_tokens": 132,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "check": {
+    "valid": true,
+    "parsed": {
+      "phrase": "the person with long dark hair wearing a white turtleneck crop top and white loose-fitting pants",
+      "supported_attributes": [
+        "long dark hair",
+        "white turtleneck crop top",
+        "white loose-fitting pants"
+      ],
+      "visually_distinct": false,
+      "limitations": "The outfit is shared by multiple people in the gallery, including P01, P02, P05, P06, P07, and P08, making the description not visually distinct. The target is visually identical to P05, P06, and others in the gallery."
+    },
+    "phrase": "the person with long dark hair wearing a white turtleneck crop top and white loose-fitting pants",
+    "error": null
+  },
+  "inference_policy_sha256": "ea3ce06e83208db2fc1ed693ee2ac1b349f8ae344fcdc2cb0a22e30ef8df60e3"
+}

@@ -1,0 +1,22 @@
+{
+  "recorded_at": "2026-11-06T20:42:45.443884+08:00",
+  "status": "REVISION_COMPLETE_WAIT_USER_READABILITY_REVIEW12",
+  "report": "/home/user/motqa_pilot/results/stage3_readability_v3_report.md",
+  "report_sha256": "f00b604a90f3b72eef6468e1c08358f53c071426d69a939a9e23feef05e88376",
+  "candidate_file": "/home/user/motqa_pilot/data/candidates_readability_v3.jsonl",
+  "candidate_sha256": "473ffd08e31ddeaa286cda833b1631b1f4923a284ffd2aa735232f3e15a7251c",
+  "rules_sha256": "99a50a13b7613992dfe1d323330474281419c0274c012dace62de018e6e69dc5",
+  "review_zip_sha256": "f21796802499f27bac83039296afd94a2aa5537521c0a6cf828de46e0fbe30ec",
+  "review_zip": "/home/user/motqa_pilot/results/motqa_readability_v3_review12_zh.zip",
+  "manual_review_required": 12,
+  "original_human_choices_preserved": true,
+  "filtering_executed": false,
+  "stage5_executed": false,
+  "preserved_source_files": {
+    "/home/user/motqa_pilot/data/candidates.jsonl": "f99e302cfa2b6abcb7d283789b8d350a3576b8e5b81650e00c80e8397f752edc",
+    "/home/user/motqa_pilot/results/generation_config_locked.json": "0ce27a335341974f84ab638e5244b45a7b5cfd9dea7436604c85be07613776f4",
+    "/home/user/motqa_pilot/results/visibility_convention.json": "ab72163cdc2ba92a4dfe78bb1970fc4d7ea08974f035c9cd72b33eadc7721c98",
+    "/home/user/motqa_pilot/results/templates_locked.json": "77a2cc0672de63b566e371211f77483dedb4fb8f0c8007bbcfd75cfaf27f178e",
+    "/home/user/motqa_pilot/data/question_review_user_passed_20.jsonl": "452cbd881bdcd2b6540dbb274e5f4fc56a9a1e3f14fdb009b2efcb188af1225d"
+  }
+}

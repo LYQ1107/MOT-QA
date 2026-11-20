@@ -1,0 +1,856 @@
+{
+  "generated_at": "2026-11-01T14:21:19.402178+08:00",
+  "offline_diagnostic_only": true,
+  "annotation_files_modified": false,
+  "truth_metadata_used_in_prompts": false,
+  "numerical_prompt": {
+    "system": "You are a video understanding model. Follow output format exactly.",
+    "user_template": "You will see a video and a counting question. Output ONLY a single integer (e.g., 2, 3, 4) or the phrase \"5 or more\". No other words.\n\nQuestion: {question}\nAnswer:",
+    "interpretation": "2, 3, 4 are examples (e.g.), not an exclusive list; 0/1 are not expressly forbidden in the prompt although the official parser rejects them",
+    "stage2_raw_exact_legal": 8,
+    "stage2_parser_valid": 10,
+    "total": 300
+  },
+  "reid": {
+    "qa_count": 23,
+    "correspondence": [
+      {
+        "correct_answer": "A",
+        "semantic_ground_truth": "different",
+        "ground_truth_is_real": false,
+        "count": 5
+      },
+      {
+        "correct_answer": "A",
+        "semantic_ground_truth": "same",
+        "ground_truth_is_real": true,
+        "count": 6
+      },
+      {
+        "correct_answer": "B",
+        "semantic_ground_truth": "different",
+        "ground_truth_is_real": false,
+        "count": 5
+      },
+      {
+        "correct_answer": "B",
+        "semantic_ground_truth": "same",
+        "ground_truth_is_real": true,
+        "count": 7
+      }
+    ],
+    "semantic_field_matches_correct_option": 23,
+    "repair_items": 0,
+    "repair_entries": 0,
+    "hypothetical_scoring": {
+      "published_labels": {
+        "correct": 12,
+        "total": 23,
+        "accuracy_percent": 52.17391304347826
+      },
+      "all_semantically_same": {
+        "correct": 22,
+        "total": 23,
+        "accuracy_percent": 95.65217391304348
+      },
+      "all_semantically_different": {
+        "correct": 1,
+        "total": 23,
+        "accuracy_percent": 4.3478260869565215
+      },
+      "metadata_semantic_ground_truth": {
+        "correct": 12,
+        "total": 23,
+        "accuracy_percent": 52.17391304347826
+      },
+      "published_labels_flag_true": {
+        "correct": 12,
+        "total": 13,
+        "accuracy_percent": 92.3076923076923
+      },
+      "published_labels_flag_false": {
+        "correct": 0,
+        "total": 10,
+        "accuracy_percent": 0.0
+      }
+    },
+    "rows": [
+      {
+        "qa_id": "e1113ed4bdfd",
+        "correct_answer": "B",
+        "correct_option_meaning": "different",
+        "semantic_ground_truth": "different",
+        "ground_truth_is_real": false,
+        "repair_log": [],
+        "raw_response": "A",
+        "prediction_meaning": "same",
+        "correct": false
+      },
+      {
+        "qa_id": "f90f9583aca4",
+        "correct_answer": "B",
+        "correct_option_meaning": "same",
+        "semantic_ground_truth": "same",
+        "ground_truth_is_real": true,
+        "repair_log": [],
+        "raw_response": "B",
+        "prediction_meaning": "same",
+        "correct": true
+      },
+      {
+        "qa_id": "ecf43beb0173",
+        "correct_answer": "A",
+        "correct_option_meaning": "same",
+        "semantic_ground_truth": "same",
+        "ground_truth_is_real": true,
+        "repair_log": [],
+        "raw_response": "A",
+        "prediction_meaning": "same",
+        "correct": true
+      },
+      {
+        "qa_id": "e381e304a359",
+        "correct_answer": "B",
+        "correct_option_meaning": "different",
+        "semantic_ground_truth": "different",
+        "ground_truth_is_real": false,
+        "repair_log": [],
+        "raw_response": "A",
+        "prediction_meaning": "same",
+        "correct": false
+      },
+      {
+        "qa_id": "b272e8759d22",
+        "correct_answer": "A",
+        "correct_option_meaning": "different",
+        "semantic_ground_truth": "different",
+        "ground_truth_is_real": false,
+        "repair_log": [],
+        "raw_response": "B",
+        "prediction_meaning": "same",
+        "correct": false
+      },
+      {
+        "qa_id": "ed232e200a58",
+        "correct_answer": "A",
+        "correct_option_meaning": "same",
+        "semantic_ground_truth": "same",
+        "ground_truth_is_real": true,
+        "repair_log": [],
+        "raw_response": "B",
+        "prediction_meaning": "different",
+        "correct": false
+      },
+      {
+        "qa_id": "c54586ea15fd",
+        "correct_answer": "B",
+        "correct_option_meaning": "same",
+        "semantic_ground_truth": "same",
+        "ground_truth_is_real": true,
+        "repair_log": [],
+        "raw_response": "B",
+        "prediction_meaning": "same",
+        "correct": true
+      },
+      {
+        "qa_id": "ee4d5546df01",
+        "correct_answer": "B",
+        "correct_option_meaning": "different",
+        "semantic_ground_truth": "different",
+        "ground_truth_is_real": false,
+        "repair_log": [],
+        "raw_response": "A",
+        "prediction_meaning": "same",
+        "correct": false
+      },
+      {
+        "qa_id": "3301d3ea65a8",
+        "correct_answer": "B",
+        "correct_option_meaning": "different",
+        "semantic_ground_truth": "different",
+        "ground_truth_is_real": false,
+        "repair_log": [],
+        "raw_response": "A",
+        "prediction_meaning": "same",
+        "correct": false
+      },
+      {
+        "qa_id": "7e1384c66b0b",
+        "correct_answer": "B",
+        "correct_option_meaning": "same",
+        "semantic_ground_truth": "same",
+        "ground_truth_is_real": true,
+        "repair_log": [],
+        "raw_response": "B",
+        "prediction_meaning": "same",
+        "correct": true
+      },
+      {
+        "qa_id": "5c92e154093b",
+        "correct_answer": "A",
+        "correct_option_meaning": "different",
+        "semantic_ground_truth": "different",
+        "ground_truth_is_real": false,
+        "repair_log": [],
+        "raw_response": "B",
+        "prediction_meaning": "same",
+        "correct": false
+      },
+      {
+        "qa_id": "7fc4d8860d7e",
+        "correct_answer": "A",
+        "correct_option_meaning": "different",
+        "semantic_ground_truth": "different",
+        "ground_truth_is_real": false,
+        "repair_log": [],
+        "raw_response": "B",
+        "prediction_meaning": "same",
+        "correct": false
+      },
+      {
+        "qa_id": "1e24b82d15aa",
+        "correct_answer": "B",
+        "correct_option_meaning": "same",
+        "semantic_ground_truth": "same",
+        "ground_truth_is_real": true,
+        "repair_log": [],
+        "raw_response": "B",
+        "prediction_meaning": "same",
+        "correct": true
+      },
+      {
+        "qa_id": "16d4258d42db",
+        "correct_answer": "A",
+        "correct_option_meaning": "same",
+        "semantic_ground_truth": "same",
+        "ground_truth_is_real": true,
+        "repair_log": [],
+        "raw_response": "A",
+        "prediction_meaning": "same",
+        "correct": true
+      },
+      {
+        "qa_id": "38f0d143eb08",
+        "correct_answer": "A",
+        "correct_option_meaning": "same",
+        "semantic_ground_truth": "same",
+        "ground_truth_is_real": true,
+        "repair_log": [],
+        "raw_response": "A",
+        "prediction_meaning": "same",
+        "correct": true
+      },
+      {
+        "qa_id": "2c02461a2357",
+        "correct_answer": "A",
+        "correct_option_meaning": "same",
+        "semantic_ground_truth": "same",
+        "ground_truth_is_real": true,
+        "repair_log": [],
+        "raw_response": "A",
+        "prediction_meaning": "same",
+        "correct": true
+      },
+      {
+        "qa_id": "bdb0fb8d4d60",
+        "correct_answer": "A",
+        "correct_option_meaning": "same",
+        "semantic_ground_truth": "same",
+        "ground_truth_is_real": true,
+        "repair_log": [],
+        "raw_response": "A",
+        "prediction_meaning": "same",
+        "correct": true
+      },
+      {
+        "qa_id": "b25ce0fe6cf5",
+        "correct_answer": "B",
+        "correct_option_meaning": "same",
+        "semantic_ground_truth": "same",
+        "ground_truth_is_real": true,
+        "repair_log": [],
+        "raw_response": "B",
+        "prediction_meaning": "same",
+        "correct": true
+      },
+      {
+        "qa_id": "2465b40da486",
+        "correct_answer": "A",
+        "correct_option_meaning": "different",
+        "semantic_ground_truth": "different",
+        "ground_truth_is_real": false,
+        "repair_log": [],
+        "raw_response": "B",
+        "prediction_meaning": "same",
+        "correct": false
+      },
+      {
+        "qa_id": "32119de6d447",
+        "correct_answer": "B",
+        "correct_option_meaning": "same",
+        "semantic_ground_truth": "same",
+        "ground_truth_is_real": true,
+        "repair_log": [],
+        "raw_response": "B",
+        "prediction_meaning": "same",
+        "correct": true
+      },
+      {
+        "qa_id": "5d35b80f555d",
+        "correct_answer": "B",
+        "correct_option_meaning": "different",
+        "semantic_ground_truth": "different",
+        "ground_truth_is_real": false,
+        "repair_log": [],
+        "raw_response": "A",
+        "prediction_meaning": "same",
+        "correct": false
+      },
+      {
+        "qa_id": "7ca9235d412b",
+        "correct_answer": "A",
+        "correct_option_meaning": "different",
+        "semantic_ground_truth": "different",
+        "ground_truth_is_real": false,
+        "repair_log": [],
+        "raw_response": "B",
+        "prediction_meaning": "same",
+        "correct": false
+      },
+      {
+        "qa_id": "78d54a64758f",
+        "correct_answer": "B",
+        "correct_option_meaning": "same",
+        "semantic_ground_truth": "same",
+        "ground_truth_is_real": true,
+        "repair_log": [],
+        "raw_response": "B",
+        "prediction_meaning": "same",
+        "correct": true
+      }
+    ],
+    "conclusion": "All-same counterfactual yields 22/23=95.65%, numerically explaining the paper value, but does not establish which labels the paper actually used. Published labels and main scores remain unchanged."
+  },
+  "all_repairs": {
+    "item_count": 100,
+    "entry_count": 100,
+    "by_dimension": {
+      "event_existence": 26,
+      "reappear_or_disappear": 21,
+      "cross_object_order": 20,
+      "temporal_location": 16,
+      "duration_category": 7,
+      "relative_spatial_change": 4,
+      "conditional_state": 6
+    },
+    "by_change": {
+      "A2: SP A↔B flipped to balance": 67,
+      "A4: MCQ_4 A↔D swap": 14,
+      "A4: MCQ_4 A↔C swap": 13,
+      "A4: MCQ_4 A↔B swap": 5,
+      "A1: lowercased 'd' → 'D'": 1
+    },
+    "rows": [
+      {
+        "qa_id": "8781a1f78561",
+        "dimension": "event_existence",
+        "change": "A2: SP A↔B flipped to balance"
+      },
+      {
+        "qa_id": "406726a06e80",
+        "dimension": "reappear_or_disappear",
+        "change": "A2: SP A↔B flipped to balance"
+      },
+      {
+        "qa_id": "db3e37f95830",
+        "dimension": "event_existence",
+        "change": "A2: SP A↔B flipped to balance"
+      },
+      {
+        "qa_id": "e6a2ae5be220",
+        "dimension": "event_existence",
+        "change": "A2: SP A↔B flipped to balance"
+      },
+      {
+        "qa_id": "c86bcc72cfd7",
+        "dimension": "event_existence",
+        "change": "A2: SP A↔B flipped to balance"
+      },
+      {
+        "qa_id": "64cc5254725b",
+        "dimension": "cross_object_order",
+        "change": "A2: SP A↔B flipped to balance"
+      },
+      {
+        "qa_id": "5eabb6b33d6b",
+        "dimension": "event_existence",
+        "change": "A2: SP A↔B flipped to balance"
+      },
+      {
+        "qa_id": "80abea9907cd",
+        "dimension": "event_existence",
+        "change": "A2: SP A↔B flipped to balance"
+      },
+      {
+        "qa_id": "6cdafa9cf1fd",
+        "dimension": "cross_object_order",
+        "change": "A2: SP A↔B flipped to balance"
+      },
+      {
+        "qa_id": "4990d7c70df1",
+        "dimension": "event_existence",
+        "change": "A2: SP A↔B flipped to balance"
+      },
+      {
+        "qa_id": "de40eb9b7994",
+        "dimension": "temporal_location",
+        "change": "A4: MCQ_4 A↔D swap"
+      },
+      {
+        "qa_id": "88717492c5f0",
+        "dimension": "temporal_location",
+        "change": "A4: MCQ_4 A↔C swap"
+      },
+      {
+        "qa_id": "c0a6f88dff62",
+        "dimension": "reappear_or_disappear",
+        "change": "A2: SP A↔B flipped to balance"
+      },
+      {
+        "qa_id": "bb50078097d3",
+        "dimension": "cross_object_order",
+        "change": "A2: SP A↔B flipped to balance"
+      },
+      {
+        "qa_id": "2d440264b7c2",
+        "dimension": "reappear_or_disappear",
+        "change": "A2: SP A↔B flipped to balance"
+      },
+      {
+        "qa_id": "4db4009565f5",
+        "dimension": "temporal_location",
+        "change": "A4: MCQ_4 A↔B swap"
+      },
+      {
+        "qa_id": "6fa89f92d40a",
+        "dimension": "cross_object_order",
+        "change": "A2: SP A↔B flipped to balance"
+      },
+      {
+        "qa_id": "b924b5d139c0",
+        "dimension": "event_existence",
+        "change": "A2: SP A↔B flipped to balance"
+      },
+      {
+        "qa_id": "73984ca724de",
+        "dimension": "duration_category",
+        "change": "A4: MCQ_4 A↔D swap"
+      },
+      {
+        "qa_id": "744469c01f94",
+        "dimension": "cross_object_order",
+        "change": "A2: SP A↔B flipped to balance"
+      },
+      {
+        "qa_id": "f3dd33830122",
+        "dimension": "reappear_or_disappear",
+        "change": "A2: SP A↔B flipped to balance"
+      },
+      {
+        "qa_id": "4333468fddfc",
+        "dimension": "event_existence",
+        "change": "A2: SP A↔B flipped to balance"
+      },
+      {
+        "qa_id": "999add1629a9",
+        "dimension": "event_existence",
+        "change": "A2: SP A↔B flipped to balance"
+      },
+      {
+        "qa_id": "01407ca9f7da",
+        "dimension": "relative_spatial_change",
+        "change": "A4: MCQ_4 A↔C swap"
+      },
+      {
+        "qa_id": "02906967f661",
+        "dimension": "event_existence",
+        "change": "A2: SP A↔B flipped to balance"
+      },
+      {
+        "qa_id": "434c104dda08",
+        "dimension": "temporal_location",
+        "change": "A4: MCQ_4 A↔D swap"
+      },
+      {
+        "qa_id": "93df3f813ae9",
+        "dimension": "cross_object_order",
+        "change": "A2: SP A↔B flipped to balance"
+      },
+      {
+        "qa_id": "f58dfcc9d523",
+        "dimension": "cross_object_order",
+        "change": "A2: SP A↔B flipped to balance"
+      },
+      {
+        "qa_id": "3aa2a9a5f31e",
+        "dimension": "cross_object_order",
+        "change": "A2: SP A↔B flipped to balance"
+      },
+      {
+        "qa_id": "640c47330a0f",
+        "dimension": "cross_object_order",
+        "change": "A2: SP A↔B flipped to balance"
+      },
+      {
+        "qa_id": "86749133b5fe",
+        "dimension": "relative_spatial_change",
+        "change": "A4: MCQ_4 A↔D swap"
+      },
+      {
+        "qa_id": "5c8d8ad6682c",
+        "dimension": "cross_object_order",
+        "change": "A2: SP A↔B flipped to balance"
+      },
+      {
+        "qa_id": "a4b88edb2b8f",
+        "dimension": "reappear_or_disappear",
+        "change": "A2: SP A↔B flipped to balance"
+      },
+      {
+        "qa_id": "61bb0d18192b",
+        "dimension": "cross_object_order",
+        "change": "A2: SP A↔B flipped to balance"
+      },
+      {
+        "qa_id": "770859562db6",
+        "dimension": "event_existence",
+        "change": "A2: SP A↔B flipped to balance"
+      },
+      {
+        "qa_id": "95a96c7e0f2c",
+        "dimension": "cross_object_order",
+        "change": "A2: SP A↔B flipped to balance"
+      },
+      {
+        "qa_id": "5b67fd29dcd5",
+        "dimension": "relative_spatial_change",
+        "change": "A4: MCQ_4 A↔C swap"
+      },
+      {
+        "qa_id": "6fba2aee7c00",
+        "dimension": "event_existence",
+        "change": "A2: SP A↔B flipped to balance"
+      },
+      {
+        "qa_id": "d73a18afd375",
+        "dimension": "temporal_location",
+        "change": "A4: MCQ_4 A↔C swap"
+      },
+      {
+        "qa_id": "bdc303c2ccd4",
+        "dimension": "event_existence",
+        "change": "A2: SP A↔B flipped to balance"
+      },
+      {
+        "qa_id": "8e2cb6cbf96b",
+        "dimension": "reappear_or_disappear",
+        "change": "A2: SP A↔B flipped to balance"
+      },
+      {
+        "qa_id": "eafba5543f5b",
+        "dimension": "cross_object_order",
+        "change": "A2: SP A↔B flipped to balance"
+      },
+      {
+        "qa_id": "2812f5f6f6c7",
+        "dimension": "cross_object_order",
+        "change": "A2: SP A↔B flipped to balance"
+      },
+      {
+        "qa_id": "6afe3a344262",
+        "dimension": "event_existence",
+        "change": "A2: SP A↔B flipped to balance"
+      },
+      {
+        "qa_id": "5036005b261b",
+        "dimension": "conditional_state",
+        "change": "A4: MCQ_4 A↔D swap"
+      },
+      {
+        "qa_id": "9f0b40b546a3",
+        "dimension": "event_existence",
+        "change": "A2: SP A↔B flipped to balance"
+      },
+      {
+        "qa_id": "2175d655dec0",
+        "dimension": "cross_object_order",
+        "change": "A2: SP A↔B flipped to balance"
+      },
+      {
+        "qa_id": "24021e8567d5",
+        "dimension": "conditional_state",
+        "change": "A4: MCQ_4 A↔B swap"
+      },
+      {
+        "qa_id": "426444080002",
+        "dimension": "event_existence",
+        "change": "A2: SP A↔B flipped to balance"
+      },
+      {
+        "qa_id": "a9ddd964bf4e",
+        "dimension": "event_existence",
+        "change": "A2: SP A↔B flipped to balance"
+      },
+      {
+        "qa_id": "e62f343a24a8",
+        "dimension": "temporal_location",
+        "change": "A4: MCQ_4 A↔D swap"
+      },
+      {
+        "qa_id": "76861dcd688e",
+        "dimension": "temporal_location",
+        "change": "A4: MCQ_4 A↔D swap"
+      },
+      {
+        "qa_id": "474636895005",
+        "dimension": "reappear_or_disappear",
+        "change": "A2: SP A↔B flipped to balance"
+      },
+      {
+        "qa_id": "913ab5f30be7",
+        "dimension": "duration_category",
+        "change": "A4: MCQ_4 A↔C swap"
+      },
+      {
+        "qa_id": "6662b78403b8",
+        "dimension": "event_existence",
+        "change": "A2: SP A↔B flipped to balance"
+      },
+      {
+        "qa_id": "833f252f7235",
+        "dimension": "duration_category",
+        "change": "A4: MCQ_4 A↔B swap"
+      },
+      {
+        "qa_id": "400bdbc14d1b",
+        "dimension": "event_existence",
+        "change": "A2: SP A↔B flipped to balance"
+      },
+      {
+        "qa_id": "4637ebfddf83",
+        "dimension": "reappear_or_disappear",
+        "change": "A2: SP A↔B flipped to balance"
+      },
+      {
+        "qa_id": "2683b0ff6699",
+        "dimension": "reappear_or_disappear",
+        "change": "A2: SP A↔B flipped to balance"
+      },
+      {
+        "qa_id": "4d25fd7b8ac0",
+        "dimension": "duration_category",
+        "change": "A4: MCQ_4 A↔D swap"
+      },
+      {
+        "qa_id": "8bf86f62ecea",
+        "dimension": "reappear_or_disappear",
+        "change": "A2: SP A↔B flipped to balance"
+      },
+      {
+        "qa_id": "ad5d70da12ac",
+        "dimension": "event_existence",
+        "change": "A2: SP A↔B flipped to balance"
+      },
+      {
+        "qa_id": "3309ea33d1de",
+        "dimension": "cross_object_order",
+        "change": "A2: SP A↔B flipped to balance"
+      },
+      {
+        "qa_id": "f1b10d1d8690",
+        "dimension": "reappear_or_disappear",
+        "change": "A2: SP A↔B flipped to balance"
+      },
+      {
+        "qa_id": "178a97c34031",
+        "dimension": "reappear_or_disappear",
+        "change": "A2: SP A↔B flipped to balance"
+      },
+      {
+        "qa_id": "d7aee607ec68",
+        "dimension": "duration_category",
+        "change": "A4: MCQ_4 A↔C swap"
+      },
+      {
+        "qa_id": "a2a4df623fbf",
+        "dimension": "cross_object_order",
+        "change": "A2: SP A↔B flipped to balance"
+      },
+      {
+        "qa_id": "3b7a1b61a7d1",
+        "dimension": "temporal_location",
+        "change": "A4: MCQ_4 A↔D swap"
+      },
+      {
+        "qa_id": "36f1680c6a01",
+        "dimension": "event_existence",
+        "change": "A2: SP A↔B flipped to balance"
+      },
+      {
+        "qa_id": "b1feddade6c7",
+        "dimension": "reappear_or_disappear",
+        "change": "A2: SP A↔B flipped to balance"
+      },
+      {
+        "qa_id": "d9a0f6bf69d3",
+        "dimension": "temporal_location",
+        "change": "A4: MCQ_4 A↔D swap"
+      },
+      {
+        "qa_id": "a870c55cfcea",
+        "dimension": "conditional_state",
+        "change": "A4: MCQ_4 A↔C swap"
+      },
+      {
+        "qa_id": "18c3d9e8243f",
+        "dimension": "relative_spatial_change",
+        "change": "A4: MCQ_4 A↔C swap"
+      },
+      {
+        "qa_id": "c846d37054d1",
+        "dimension": "event_existence",
+        "change": "A2: SP A↔B flipped to balance"
+      },
+      {
+        "qa_id": "bbd62db9f9eb",
+        "dimension": "reappear_or_disappear",
+        "change": "A2: SP A↔B flipped to balance"
+      },
+      {
+        "qa_id": "ff569d6320f5",
+        "dimension": "reappear_or_disappear",
+        "change": "A2: SP A↔B flipped to balance"
+      },
+      {
+        "qa_id": "f12903aa3660",
+        "dimension": "conditional_state",
+        "change": "A4: MCQ_4 A↔B swap"
+      },
+      {
+        "qa_id": "5f4bfd9dda3e",
+        "dimension": "reappear_or_disappear",
+        "change": "A2: SP A↔B flipped to balance"
+      },
+      {
+        "qa_id": "8bb2c8da3caf",
+        "dimension": "temporal_location",
+        "change": "A4: MCQ_4 A↔D swap"
+      },
+      {
+        "qa_id": "d79f1e112da3",
+        "dimension": "reappear_or_disappear",
+        "change": "A2: SP A↔B flipped to balance"
+      },
+      {
+        "qa_id": "4a4620fa3d1a",
+        "dimension": "temporal_location",
+        "change": "A4: MCQ_4 A↔C swap"
+      },
+      {
+        "qa_id": "a376b146eb8a",
+        "dimension": "event_existence",
+        "change": "A2: SP A↔B flipped to balance"
+      },
+      {
+        "qa_id": "3313e5211913",
+        "dimension": "duration_category",
+        "change": "A4: MCQ_4 A↔C swap"
+      },
+      {
+        "qa_id": "eb3daa3bc030",
+        "dimension": "event_existence",
+        "change": "A2: SP A↔B flipped to balance"
+      },
+      {
+        "qa_id": "3b794111fd92",
+        "dimension": "event_existence",
+        "change": "A2: SP A↔B flipped to balance"
+      },
+      {
+        "qa_id": "48aba2c6fd8e",
+        "dimension": "reappear_or_disappear",
+        "change": "A2: SP A↔B flipped to balance"
+      },
+      {
+        "qa_id": "12c70baa67ab",
+        "dimension": "cross_object_order",
+        "change": "A2: SP A↔B flipped to balance"
+      },
+      {
+        "qa_id": "6d192d2a46f4",
+        "dimension": "cross_object_order",
+        "change": "A2: SP A↔B flipped to balance"
+      },
+      {
+        "qa_id": "2ef03425bdbe",
+        "dimension": "reappear_or_disappear",
+        "change": "A2: SP A↔B flipped to balance"
+      },
+      {
+        "qa_id": "df116e653394",
+        "dimension": "temporal_location",
+        "change": "A4: MCQ_4 A↔C swap"
+      },
+      {
+        "qa_id": "dc8327695f0d",
+        "dimension": "conditional_state",
+        "change": "A1: lowercased 'd' → 'D'"
+      },
+      {
+        "qa_id": "16aeec5e06b9",
+        "dimension": "conditional_state",
+        "change": "A4: MCQ_4 A↔D swap"
+      },
+      {
+        "qa_id": "d9dc98852400",
+        "dimension": "cross_object_order",
+        "change": "A2: SP A↔B flipped to balance"
+      },
+      {
+        "qa_id": "70b2b36c0c78",
+        "dimension": "temporal_location",
+        "change": "A4: MCQ_4 A↔D swap"
+      },
+      {
+        "qa_id": "ac1c44179121",
+        "dimension": "reappear_or_disappear",
+        "change": "A2: SP A↔B flipped to balance"
+      },
+      {
+        "qa_id": "b0826b43eb3c",
+        "dimension": "reappear_or_disappear",
+        "change": "A2: SP A↔B flipped to balance"
+      },
+      {
+        "qa_id": "0492e51c352e",
+        "dimension": "duration_category",
+        "change": "A4: MCQ_4 A↔C swap"
+      },
+      {
+        "qa_id": "b5ec0f991672",
+        "dimension": "temporal_location",
+        "change": "A4: MCQ_4 A↔D swap"
+      },
+      {
+        "qa_id": "6d37f0d0704c",
+        "dimension": "temporal_location",
+        "change": "A4: MCQ_4 A↔C swap"
+      },
+      {
+        "qa_id": "f83953a488ac",
+        "dimension": "temporal_location",
+        "change": "A4: MCQ_4 A↔B swap"
+      }
+    ]
+  }
+}

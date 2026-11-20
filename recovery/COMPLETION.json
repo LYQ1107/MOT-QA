@@ -1,0 +1,18 @@
+{
+  "status": "CODE_AND_DATA_ACCESS_RESTORED",
+  "date": "2026-11-20",
+  "local_projects": [
+    "/data3/liuyeqiang/toc_phase0",
+    "/data3/liuyeqiang/motqa_pilot"
+  ],
+  "restored_files": 11848,
+  "restored_bytes": 426340954,
+  "conversation_turns": 562,
+  "toc_video_files": 1951,
+  "motqa_gt_paths": 176,
+  "motqa_archive_sha256": "2871eb1f6bfdd0c750271538b10644da7d17e52b728aa4e3fd2a585c9cacd18c",
+  "motqa_nas_asset_links": 17362,
+  "gpu_environments_rebuilt": false,
+  "new_experiments_run": false,
+  "research_resume_point": "MOT-QA v3: 900 candidates; waiting for human review of 12 readability examples before filtering and GT-controlled inference"
+}

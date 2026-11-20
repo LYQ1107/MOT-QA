@@ -1,0 +1,34 @@
+{
+  "created_at": "2026-11-04T17:06:31.595307+08:00",
+  "before_any_stage7_inference": true,
+  "hypotheses": {
+    "path": "/data2/user/toc_phase0/results/stage7_hypotheses_preregistered.json",
+    "sha256": "c92df38d6869dbcb3b8cc0ae80113cf98523b18014a46edc0ca7f15181115829",
+    "locked_at": "2026-11-04T17:06:31.595221+08:00"
+  },
+  "offline_parser_audit": {
+    "path": "/data2/user/toc_phase0/results/stage7_parser_offline_audit_locked.json",
+    "sha256": "2f5c836461b60aa9968c113fe7518cbc24514b6ebb1e7dd04ddb02f798e48746",
+    "locked_at": "2026-11-04T17:06:31.583484+08:00"
+  },
+  "stage6_protocol_sha256": "3b15efad09ef2913ff7ed2a8db3f9a37705f95deb03a4017cdb5bcf66c21504e",
+  "T1_prompt_path": "/data2/user/toc_phase0/results/stage6/prompts/T1.jsonl",
+  "T1_prompt_sha256": "4a2017b9bd597496889e28d620a39e35a2bd185ec726570cb70b3c0cefb303d1",
+  "demonstrations_sha256": "69a8c4697c0916aa177c131db45c6f7575408418e3690b25f2c417970961e33c",
+  "majority_baselines_sha256": "8a0df47dfcb49d913c225f9bed05d9b2ce77cf57395e63f67fce9c917261ed49",
+  "primary_T_none_path": "/data2/user/toc_phase0/results/stage6/main_T-none_predictions.jsonl",
+  "primary_T_none_sha256": "b549356c9b49e53325f9997457de8c3a3255398c3a44adfcfbc6a251b3836cd3",
+  "stage6_T1_sha256": "32bc72b74b0af05fc1e2b7a040e3238e27e0486a64802dcffa8a81dbf9709166",
+  "reuse": "Invoke unchanged Stage6 infer_tools with only parser and destination/protocol metadata overrides; same tools, messages, sampling, budget and final-answer parser.",
+  "source_sha256": {
+    "stage7_parser.py": "b5bd800a8a996387a4a7010df84d4a30c321d283275991e704a0d654153c1260",
+    "run_stage7.py": "a203821f0e2316fd9d3bd69efbeb567a7f4cb220961781ca0571e1099e05ad06",
+    "stage6_common.py": "d3b191597719b3d71ecd8057e8e3231e99da89ca4e1e129586a8f470e1ec74b9",
+    "stage6_tools.py": "5ebed0b6ae2b9e3dd7e1e6334b413ad6c4fe8a465d8a4e548adf407660d47c4f",
+    "run_stage6.py": "661303812e35872fc8bbe78ad5548ebb3b789a968e1038db1f8e9106295c07f2",
+    "stage6_runtime.py": "a4f8b15d4d492d6dc5a5c8c30eb5cf0e819e11b72db9594e5fdc44c6a347cf10",
+    "stage6_final_field_guidance.py": "301b14c767ca01a751c9cfa7ca163ea3e4819b59c405dd0a75a68401b32d82e7"
+  },
+  "final_field_guidance_sha256": "a06952e83c73a19d62bb8a6695305dd83610ddbb0b3a9e0e5a30d46933e1431f",
+  "allocation": "One A800 with enough free memory for unchanged65% server reservation+5.5GiB; prefer fewer processes, then lower utilization; leave all foreign jobs running."
+}

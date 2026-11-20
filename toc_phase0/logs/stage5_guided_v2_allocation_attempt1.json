@@ -1,0 +1,30 @@
+{
+  "checked_at": "2026-11-02T21:01:38.164554+08:00",
+  "selected": [
+    {
+      "physical_index": 6,
+      "uuid": "GPU-883c8be3-25b0-3d19-6fa8-4c2e335e67d2",
+      "name": "NVIDIA A800-SXM4-80GB",
+      "initial_used_MiB": 16183,
+      "initial_free_MiB": 65737,
+      "reserved_budget_MiB": 53248,
+      "existing_process_count": 1,
+      "initial_utilization": 4
+    },
+    {
+      "physical_index": 4,
+      "uuid": "GPU-44f62835-4095-23ec-d3dd-5af16a00705c",
+      "name": "NVIDIA A800-SXM4-80GB",
+      "initial_used_MiB": 7585,
+      "initial_free_MiB": 74335,
+      "reserved_budget_MiB": 53248,
+      "existing_process_count": 1,
+      "initial_utilization": 36
+    }
+  ],
+  "full_snapshot": "0, GPU-bf21a95d-d96d-9ec5-cb15-b0fb7ad50536, NVIDIA A800-SXM4-80GB, 81920, 68968, 92\n1, GPU-f35654b3-bbf5-7303-cfcb-9bd5d3e16e69, NVIDIA A800-SXM4-80GB, 81920, 69336, 100\n2, GPU-c2484ded-5f87-237c-bbf0-d23fcb74fdb2, NVIDIA A800-SXM4-80GB, 81920, 72668, 100\n3, GPU-6cb11599-704e-c3aa-9e28-5f15faa25c7c, NVIDIA A800-SXM4-80GB, 81920, 72668, 100\n4, GPU-44f62835-4095-23ec-d3dd-5af16a00705c, NVIDIA A800-SXM4-80GB, 81920, 7585, 36\n5, GPU-c6523d98-cb2d-95ed-4cb2-a84936acceb6, NVIDIA A800-SXM4-80GB, 81920, 8087, 82\n6, GPU-883c8be3-25b0-3d19-6fa8-4c2e335e67d2, NVIDIA A800-SXM4-80GB, 81920, 16183, 4\n7, GPU-0322c0e7-ffbf-e068-5bdd-587b8216a9d9, NVIDIA A800-SXM4-80GB, 81920, 24082, 100\n",
+  "compute_processes": "GPU-bf21a95d-d96d-9ec5-cb15-b0fb7ad50536, 922852, 68798\nGPU-f35654b3-bbf5-7303-cfcb-9bd5d3e16e69, 922853, 69166\nGPU-c2484ded-5f87-237c-bbf0-d23fcb74fdb2, 890278, 3566\nGPU-c2484ded-5f87-237c-bbf0-d23fcb74fdb2, 922854, 68926\nGPU-6cb11599-704e-c3aa-9e28-5f15faa25c7c, 890273, 3566\nGPU-6cb11599-704e-c3aa-9e28-5f15faa25c7c, 922855, 68926\nGPU-44f62835-4095-23ec-d3dd-5af16a00705c, 1070422, 7572\nGPU-c6523d98-cb2d-95ed-4cb2-a84936acceb6, 890276, 3566\nGPU-c6523d98-cb2d-95ed-4cb2-a84936acceb6, 1150039, 4506\nGPU-883c8be3-25b0-3d19-6fa8-4c2e335e67d2, 499953, 16174\nGPU-0322c0e7-ffbf-e068-5bdd-587b8216a9d9, 809058, 13078\nGPU-0322c0e7-ffbf-e068-5bdd-587b8216a9d9, 890277, 3566\nGPU-0322c0e7-ffbf-e068-5bdd-587b8216a9d9, 1040789, 7394\n",
+  "sharing_user_authorized": true,
+  "selection": "memory fits, then fewer processes, lower utilization, more free memory",
+  "gpu_count": 2
+}

@@ -1,0 +1,27 @@
+{
+  "n": 900,
+  "operations": {
+    "O4": 105,
+    "composition": 100,
+    "O7": 110,
+    "O8": 135,
+    "O2": 90,
+    "O6": 100,
+    "O1": 60,
+    "O5": 100,
+    "O3": 100
+  },
+  "datasets": {
+    "DanceTrack": 360,
+    "MOT17": 135,
+    "SportsMOT": 405
+  },
+  "references": {
+    "box": 476,
+    "appearance": 64,
+    "event": 225,
+    "position": 135
+  },
+  "retained_original_pool_ids": 647,
+  "preserved_reviewed": 9
+}

@@ -1,0 +1,37 @@
+{
+  "diagnostic_only": true,
+  "success": true,
+  "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "violations": [
+    {
+      "name": "operation O6",
+      "lower_shortfall": 26.000000000000004,
+      "upper_excess": 0.0
+    },
+    {
+      "name": "dataset MOT17",
+      "lower_shortfall": 26.0,
+      "upper_excess": 0.0
+    },
+    {
+      "name": "majority cap ('earliest_return_person', 'multiple_choice', 'MOT17')3",
+      "lower_shortfall": 0.0,
+      "upper_excess": 12.500000000000005
+    },
+    {
+      "name": "O7 50/50 MOT17",
+      "lower_shortfall": 0.0,
+      "upper_excess": 0.9999999999999993
+    },
+    {
+      "name": "O7 positive region MOT171",
+      "lower_shortfall": 0.33333333333333376,
+      "upper_excess": 0.0
+    },
+    {
+      "name": "majority cap ('cross_time', 'multiple_choice', 'MOT17')3",
+      "lower_shortfall": 0.0,
+      "upper_excess": 5.199999999999999
+    }
+  ]
+}

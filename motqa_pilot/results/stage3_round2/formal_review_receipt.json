@@ -1,0 +1,17 @@
+{
+  "packet_id": "motqa_round2_formal20_1e38560f221ddaaa",
+  "sample_n": 20,
+  "strata": {
+    "box": 8,
+    "event": 5,
+    "appearance": 4,
+    "position": 3
+  },
+  "seed": 42,
+  "sampling": "without replacement within reference type; no model outcomes or answer labels used",
+  "page": "/home/user/motqa_pilot/results/stage3_round2/review/打开正式候选抽查20题.html",
+  "zip": "/home/user/motqa_pilot/results/motqa_round2_formal_sample20_zh.zip",
+  "zip_bytes": 103644273,
+  "zip_sha256": "452d76e63073af6986f21373c1365965c12a98cf23a9f21bb30a148730cc3010",
+  "export_filename": "stage3_candidate_review_result.json"
+}

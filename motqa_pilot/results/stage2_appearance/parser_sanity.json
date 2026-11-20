@@ -1,0 +1,134 @@
+{
+  "at": "2026-11-04T13:35:59.612273+00:00",
+  "scope": "targeted uniqueness/unknown-label/invalid-JSON checks, no model inference",
+  "all_passed": true,
+  "match_cases": [
+    {
+      "case": "correct_unique",
+      "expected_pass": true,
+      "result": {
+        "valid": true,
+        "parsed": {
+          "matches": [
+            "P02"
+          ],
+          "uncertain": []
+        },
+        "matched_gt_ids": [
+          27
+        ],
+        "uncertain_gt_ids": [],
+        "passed": true,
+        "error": null
+      }
+    },
+    {
+      "case": "multiple_match",
+      "expected_pass": false,
+      "result": {
+        "valid": true,
+        "parsed": {
+          "matches": [
+            "P01",
+            "P02"
+          ],
+          "uncertain": []
+        },
+        "matched_gt_ids": [
+          12,
+          27
+        ],
+        "uncertain_gt_ids": [],
+        "passed": false,
+        "error": null
+      }
+    },
+    {
+      "case": "plausible_rival",
+      "expected_pass": false,
+      "result": {
+        "valid": true,
+        "parsed": {
+          "matches": [
+            "P02"
+          ],
+          "uncertain": [
+            "P01"
+          ]
+        },
+        "matched_gt_ids": [
+          27
+        ],
+        "uncertain_gt_ids": [
+          12
+        ],
+        "passed": false,
+        "error": null
+      }
+    },
+    {
+      "case": "wrong_unique",
+      "expected_pass": false,
+      "result": {
+        "valid": true,
+        "parsed": {
+          "matches": [
+            "P01"
+          ],
+          "uncertain": []
+        },
+        "matched_gt_ids": [
+          12
+        ],
+        "uncertain_gt_ids": [],
+        "passed": false,
+        "error": null
+      }
+    },
+    {
+      "case": "unknown_label",
+      "expected_pass": false,
+      "result": {
+        "valid": false,
+        "parsed": null,
+        "matched_gt_ids": [],
+        "uncertain_gt_ids": [],
+        "passed": false,
+        "error": ""
+      }
+    },
+    {
+      "case": "invalid_json",
+      "expected_pass": false,
+      "result": {
+        "valid": false,
+        "parsed": null,
+        "matched_gt_ids": [],
+        "uncertain_gt_ids": [],
+        "passed": false,
+        "error": "Expecting ',' delimiter: line 1 column 34 (char 33)"
+      }
+    }
+  ],
+  "phrase_cases": [
+    {
+      "valid": true,
+      "parsed": {
+        "phrase": "the person wearing a red shirt and black trousers",
+        "supported_attributes": [
+          "red shirt"
+        ],
+        "visually_distinct": true,
+        "limitations": ""
+      },
+      "phrase": "the person wearing a red shirt and black trousers",
+      "error": null
+    },
+    {
+      "valid": false,
+      "parsed": null,
+      "phrase": null,
+      "error": "label/location phrase"
+    }
+  ]
+}

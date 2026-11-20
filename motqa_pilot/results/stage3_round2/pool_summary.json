@@ -1,0 +1,20 @@
+{
+  "count": 38216,
+  "operations": {
+    "O7": 5077,
+    "O8": 2650,
+    "O4": 5860,
+    "O6": 3800,
+    "O2": 6110,
+    "composition": 2904,
+    "O5": 2965,
+    "O1": 6178,
+    "O3": 2672
+  },
+  "reference_types": {
+    "box": 20116,
+    "position": 12954,
+    "appearance": 1179,
+    "event": 3967
+  }
+}

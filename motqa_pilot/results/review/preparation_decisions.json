@@ -1,0 +1,10 @@
+{
+  "at": "2026-11-04T23:07:46.563889+08:00",
+  "visibility_old_sha256": "5036847dc051cca1645df5f3303159bc6435a048206d747729c410b6f4725b35",
+  "visibility_locked_sha256": "ab72163cdc2ba92a4dfe78bb1970fc4d7ea08974f035c9cd72b33eadc7721c98",
+  "config_sha256": "3e0323e71367fbc696ab164febd14ebc8961247d4ffd34285195eff2bd466428",
+  "source_original_task_sha256": "9e98a764323689e21cc5531d6d36a1ddff678a0f88b2b81df6ca700cec651acb",
+  "authorization": "User Stage 2 decisions and Stage 3 adjustment, received in this turn.",
+  "history": "/home/user/motqa_pilot/results/review/history",
+  "qa_generated": 0
+}

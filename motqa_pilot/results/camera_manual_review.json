@@ -1,0 +1,57 @@
+[
+  {
+    "sequence": "dancetrack0015",
+    "before": "unresolved",
+    "after": "static",
+    "confidence": "medium",
+    "rationale": "Featureless white studio. Left-wall fixture and room edges stay fixed in six distributed frames; changing dancer scale alone is not camera motion.",
+    "montage": "/home/user/motqa_pilot/results/camera_review/dancetrack0015.jpg",
+    "montage_sha256": "b91a3c34d3f70d8bcc27fcce178953a5685c634ba348b6c8e3a7d044f06a2c00",
+    "reviewed_at": "2026-11-04T20:10:51.099571+08:00",
+    "reviewer": "Codex visual inspection"
+  },
+  {
+    "sequence": "dancetrack0044",
+    "before": "unresolved",
+    "after": "moving",
+    "confidence": "high",
+    "rationale": "Blue-screen boundary and stage framing shift with pans/zoom over the clip.",
+    "montage": "/home/user/motqa_pilot/results/camera_review/dancetrack0044.jpg",
+    "montage_sha256": "78787d42dae45694c69c2b9ab2b380a6ed13fab78c3a1648e6d5b731ce101dae",
+    "reviewed_at": "2026-11-04T20:10:51.099571+08:00",
+    "reviewer": "Codex visual inspection"
+  },
+  {
+    "sequence": "dancetrack0005",
+    "before": "unresolved",
+    "after": "moving",
+    "confidence": "high",
+    "rationale": "Camera moves toward/away from dancers and changes floor/wall perspective and ceiling framing.",
+    "montage": "/home/user/motqa_pilot/results/camera_review/dancetrack0005.jpg",
+    "montage_sha256": "b7f2632c97510342d74ee4727708c993b33c97dc69f08745a6e5cfb09f93b143",
+    "reviewed_at": "2026-11-04T20:10:51.099571+08:00",
+    "reviewer": "Codex visual inspection"
+  },
+  {
+    "sequence": "dancetrack0034",
+    "before": "unresolved",
+    "after": "moving",
+    "confidence": "high",
+    "rationale": "Stage floor and left wall framing shift, with changes in camera tilt/zoom.",
+    "montage": "/home/user/motqa_pilot/results/camera_review/dancetrack0034.jpg",
+    "montage_sha256": "52bacc0102b8f1dc5f3c1ecff582b32c5d5df604bd29a2a1a84f999085568d6a",
+    "reviewed_at": "2026-11-04T20:10:51.099571+08:00",
+    "reviewer": "Codex visual inspection"
+  },
+  {
+    "sequence": "dancetrack0063",
+    "before": "unresolved",
+    "after": "moving",
+    "confidence": "high",
+    "rationale": "Curtain/floor boundary and overhead basketball-board framing shift, consistent with tilt/zoom.",
+    "montage": "/home/user/motqa_pilot/results/camera_review/dancetrack0063.jpg",
+    "montage_sha256": "33ccb75f62282e77b5cbfe156f362e579e72219a1b561e5d6a95d360c10e6139",
+    "reviewed_at": "2026-11-04T20:10:51.099571+08:00",
+    "reviewer": "Codex visual inspection"
+  }
+]

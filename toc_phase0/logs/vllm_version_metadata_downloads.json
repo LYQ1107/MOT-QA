@@ -1,0 +1,34 @@
+[
+  {
+    "path": "logs/pypi_vllm_0.17.1.json",
+    "source": "https://pypi.org/pypi/vllm/0.17.1/json",
+    "resolved_url": "https://pypi.org/pypi/vllm/0.17.1/json",
+    "bytes": 433251,
+    "sha256": "4fe4ca56c4c78aad7559b4a71f0a32190e6306e012186be036c97829f1963177",
+    "integrity": "Local SHA256 recorded; no independent digest"
+  },
+  {
+    "path": "logs/pypi_vllm_0.15.1.json",
+    "source": "https://pypi.org/pypi/vllm/0.15.1/json",
+    "resolved_url": "https://pypi.org/pypi/vllm/0.15.1/json",
+    "bytes": 394688,
+    "sha256": "6f6532c2b7d0c6eaa48468310f874ef3d61d9d622807e3c7c7999bf3d15fa8a7",
+    "integrity": "Local SHA256 recorded; no independent digest"
+  },
+  {
+    "path": "logs/pypi_vllm_0.14.1.json",
+    "source": "https://pypi.org/pypi/vllm/0.14.1/json",
+    "resolved_url": "https://pypi.org/pypi/vllm/0.14.1/json",
+    "bytes": 390242,
+    "sha256": "3031ce3737212d6b745d1333d7752c5b7f37d34394debae2c68fe294243ebcc8",
+    "integrity": "Local SHA256 recorded; no independent digest"
+  },
+  {
+    "path": "logs/pypi_vllm_0.16.0.json",
+    "source": "https://pypi.org/pypi/vllm/0.16.0/json",
+    "resolved_url": "https://pypi.org/pypi/vllm/0.16.0/json",
+    "bytes": 416616,
+    "sha256": "6a342178358bbd260d4c53a026b0e7a432ed48928a30d6e8c5a0e50dedbff0cc",
+    "integrity": "Local SHA256 recorded; no independent digest"
+  }
+]

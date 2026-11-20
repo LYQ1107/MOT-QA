@@ -1,0 +1,71 @@
+{
+  "unit_key": "dancetrack0097__id001",
+  "sequence": "dancetrack0097",
+  "gt_id": 1,
+  "phase": "reference_instant_match",
+  "started_at": "2026-11-04T14:14:12.465007+00:00",
+  "completed_at": "2026-11-04T14:14:17.160551+00:00",
+  "seconds": 4.6955750761553645,
+  "prompt_text": "At this reference instant, match the following appearance phrase to ALL visible people: \"the person with long dark hair, glasses, a black cropped top, black blazer, and black flared pants\"\nThe first image is the full frame, with anonymous boxes and labels. The other image(s) are crops of EVERY GT-present person at this SAME instant. Read the central person in each crop; neighboring bodies may overlap. Labels are bookkeeping only. Do not use gallery order, location, pose, or box color as appearance attributes. Include ALL people satisfying the full appearance phrase in matches, and any plausible but obscured/unclear people in uncertain. A partly hidden target whose defining clothing cannot be seen is uncertain. No forced choice; none or several are valid outcomes. Omitted labels mean clear non-matches.\nReturn {\"matches\":[\"P01\"],\"uncertain\":[],\"reason\":\"brief visual explanation\"}. Valid labels: [\"P01\", \"P02\", \"P03\"].",
+  "image_paths": [
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0097/anchor_id001_f000426/full_frame.jpg",
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0097/anchor_id001_f000426/local_gallery_page00.jpg"
+  ],
+  "image_sha256": [
+    "97a421498ed305d367acc5b9100cf15b04740123cadfb691f1823f55a7dfbf77",
+    "48d6468ded788ec651a39050b83e94569a3eff7d007d3398924d09b488b20a30"
+  ],
+  "response": {
+    "id": "chatcmpl-a1d4b36c76ac1d7a",
+    "object": "chat.completion",
+    "created": 1793801652,
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"matches\":[\"P01\"],\"uncertain\":[],\"reason\":\"P01 has long dark hair, glasses, a black cropped top, black blazer, and black flared pants, matching all specified attributes. P02 and P03 have short dark hair and no glasses, and their tops appear to be long-sleeved black shirts or blazers without visible crop, so they do not match the full description.\"}",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 1275,
+      "total_tokens": 1363,
+      "completion_tokens": 88,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "check": {
+    "valid": true,
+    "parsed": {
+      "matches": [
+        "P01"
+      ],
+      "uncertain": [],
+      "reason": "P01 has long dark hair, glasses, a black cropped top, black blazer, and black flared pants, matching all specified attributes. P02 and P03 have short dark hair and no glasses, and their tops appear to be long-sleeved black shirts or blazers without visible crop, so they do not match the full description."
+    },
+    "matched_gt_ids": [
+      1
+    ],
+    "uncertain_gt_ids": [],
+    "passed": true,
+    "error": null
+  },
+  "inference_policy_sha256": "ea3ce06e83208db2fc1ed693ee2ac1b349f8ae344fcdc2cb0a22e30ef8df60e3"
+}

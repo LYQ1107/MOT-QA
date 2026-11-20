@@ -1,0 +1,85 @@
+{
+  "created_at": "2026-11-02T16:02:50.106592+08:00",
+  "current_user_authorization": "User approved Stage4 main and authorized brief-reasoning and representation gradient diagnostics.",
+  "project_root": "/data2/user/toc_phase0",
+  "conditions": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "B-main",
+    "B-events"
+  ],
+  "total_questions": 749,
+  "numerical_questions": 300,
+  "main_test_questions": 602,
+  "main_test_trackable_questions": 251,
+  "checkpoint": "/data2/user/toc_phase0/models/Qwen2.5-VL-7B-Instruct",
+  "official_code_commit": "e4a10bc1fd31ec1af9482bcfc827e41f2fac769a",
+  "format": "Official build_prompt unchanged; same index/fps timestamps after images; evidence immediately before Question:. A empty, B v1, C omitted, D locked wrong timelines.",
+  "temperature": 0,
+  "seed": 42,
+  "normal_max_tokens": 64,
+  "ordering_max_tokens": 256,
+  "parser": "Official answer_extractor.extract, no fallback",
+  "scorer": "Official compute_metrics.is_correct; every expected QA required; invalid parses wrong",
+  "max_model_len": 65536,
+  "dtype": "bfloat16",
+  "tensor_parallel_size": 1,
+  "gpu_memory_utilization": 0.65,
+  "max_num_seqs": 8,
+  "max_num_batched_tokens": 32768,
+  "enforce_eager": true,
+  "generation_config": "auto (original checkpoint default repetition_penalty 1.05)",
+  "multimodal_limits": {
+    "image": {
+      "count": 32,
+      "width": 720,
+      "height": 720
+    },
+    "video": 0
+  },
+  "mm_processor_overrides": null,
+  "image_caching": "Reuse official original JPEG bytes, no resize or reencoding; verify image manifest before inference.",
+  "gpu_policy": "Two A800 instances; may share when memory fits, prefer fewer foreign processes. Numeric CUDA_VISIBLE_DEVICES and PCI_BUS_ID with UUID check. Never stop foreign jobs.",
+  "endpoint_shards": "Sorted all 749 qa_id alternating slots; same slot for that QA in every condition and decoding run.",
+  "request_concurrency_per_endpoint": 4,
+  "guided_choice_adapter": "vLLM0.16 structured_outputs.choice = [2,3,4,5 or more] strings; identical main messages, temperature, seed, token budget; numerical-only separate predictions.",
+  "run_order": "Official new B-main/B-events raw and guided, then reasoning six conditions raw and guided. Each condition is a separate resumable unit; one shared server configuration throughout.",
+  "frozen_config_sha256": "7f0dbd16926026fa087ac4bb84fb1f3dce142ee903e5cf16c9e8eb1b7a62d93d",
+  "frozen_authorization_snapshot_note": "frozen_config_v1.stage_four_inference_authorized=false describes pre-approval history; file is immutable, current authorization is above.",
+  "supplemental_template_started": false,
+  "B2_started": false,
+  "reasoning_max_tokens": 1024,
+  "official_max_tokens": "64/256 as Stage4",
+  "numerical_guidance": {
+    "user_confirmed": "Preserve reasoning and constrain only final answer; total1024 tokens.",
+    "reasoning_backend": "structured_outputs.regex",
+    "regex": "[\\s\\S]*\\nAnswer: (2|3|4|5 or more)",
+    "reasoning_semantics": "Free reasoning prefix; EOS allowed only after a final newline Answer: with legal number. Token-limit truncations remain failures, not retried or dropped.",
+    "official_backend": "structured_outputs.choice",
+    "choices": [
+      "2",
+      "3",
+      "4",
+      "5 or more"
+    ]
+  },
+  "reasoning_parser": {
+    "rule": "Require the final nonempty line to match case-sensitive Answer: <value>. No fallback to earlier lines or reasoning. sp/mcq require exact legal uppercase letter; numerical exact2/3/4/5 or more; ordering exact complete permutation of its labels separated by commas. Parse failure wrong.",
+    "source_sha256": "8482b37d0136fd2966bea5d727d239b536c79cfe181238eab24ec8dcdeb5fdd3",
+    "max_tokens": 1024
+  },
+  "new_requests": {
+    "reasoning_main": 4494,
+    "official_main": 1498,
+    "reasoning_guided": 1800,
+    "official_guided": 600,
+    "total": 8392
+  },
+  "server_configuration": "Exactly Stage4; all model/engine arguments unchanged, numeric CUDA masks chosen at launch.",
+  "prior_A_route": "Frozen rule if covered, otherwise current template A; official uses saved Stage4 A, reasoning uses new reasoning A.",
+  "final_line_guidance": "Single call regex, retaining free-form reasoning and restricting only final Answer value.",
+  "representation_parameters_updated": false,
+  "tracking_rerun": false
+}

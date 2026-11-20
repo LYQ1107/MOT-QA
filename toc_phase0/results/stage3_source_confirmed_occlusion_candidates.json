@@ -1,0 +1,254 @@
+{
+  "registered_at": "2026-11-01T15:39:21.760695+08:00",
+  "method": "source-only visual review at 5 fps; annotate physical occlusion candidates before looking at their tracker outputs or correctness labels; ambiguous complete-vs-partial cases excluded from main new-ID ratio",
+  "video_sample": "10 targeted fully_hidden numerical videos, seed42; see stage3_occlusion_audit_selection.json",
+  "video_sample_size": 10,
+  "source_confirmed_candidates": 17,
+  "videos_with_candidates": 3,
+  "brief_occlusions_note": "many lemon occlusions are only one sampled frame; report those separately from longer occlusions. The required >0.5s visible-gap serializer may merge these short absences; registration/format unchanged.",
+  "comparison_rule": "only compare IDs when before/after boxes can both be visually matched to the intended object; report tracking failures/ambiguities separately rather than count as preserved identity",
+  "rows": [
+    {
+      "event_id": "lemon_01",
+      "video_id": "perception_test_video_10599",
+      "query": "yellow lemon",
+      "before_frame": 0,
+      "verified_hidden_first_frame": 2,
+      "verified_hidden_last_frame": 7,
+      "after_frame": 8,
+      "physical_occlusion": "foreground hand covers the stationary lemon; yellow target absent in verified frames and visible before/after",
+      "source_crop_pages": [
+        "/data2/user/toc_phase0/results/stage3_visualizations/source_crops/perception_test_video_10599_crop00.jpg"
+      ],
+      "identity_result": "PENDING_TRACK_REVIEW"
+    },
+    {
+      "event_id": "lemon_02",
+      "video_id": "perception_test_video_10599",
+      "query": "yellow lemon",
+      "before_frame": 15,
+      "verified_hidden_first_frame": 16,
+      "verified_hidden_last_frame": 16,
+      "after_frame": 17,
+      "physical_occlusion": "foreground hand covers the stationary lemon; yellow target absent in verified frames and visible before/after",
+      "source_crop_pages": [
+        "/data2/user/toc_phase0/results/stage3_visualizations/source_crops/perception_test_video_10599_crop00.jpg"
+      ],
+      "identity_result": "PENDING_TRACK_REVIEW"
+    },
+    {
+      "event_id": "lemon_03",
+      "video_id": "perception_test_video_10599",
+      "query": "yellow lemon",
+      "before_frame": 22,
+      "verified_hidden_first_frame": 24,
+      "verified_hidden_last_frame": 24,
+      "after_frame": 25,
+      "physical_occlusion": "foreground hand covers the stationary lemon; yellow target absent in verified frames and visible before/after",
+      "source_crop_pages": [
+        "/data2/user/toc_phase0/results/stage3_visualizations/source_crops/perception_test_video_10599_crop00.jpg",
+        "/data2/user/toc_phase0/results/stage3_visualizations/source_crops/perception_test_video_10599_crop01.jpg"
+      ],
+      "identity_result": "PENDING_TRACK_REVIEW"
+    },
+    {
+      "event_id": "lemon_04",
+      "video_id": "perception_test_video_10599",
+      "query": "yellow lemon",
+      "before_frame": 39,
+      "verified_hidden_first_frame": 42,
+      "verified_hidden_last_frame": 42,
+      "after_frame": 43,
+      "physical_occlusion": "foreground hand covers the stationary lemon; yellow target absent in verified frames and visible before/after",
+      "source_crop_pages": [
+        "/data2/user/toc_phase0/results/stage3_visualizations/source_crops/perception_test_video_10599_crop01.jpg"
+      ],
+      "identity_result": "PENDING_TRACK_REVIEW"
+    },
+    {
+      "event_id": "lemon_05",
+      "video_id": "perception_test_video_10599",
+      "query": "yellow lemon",
+      "before_frame": 47,
+      "verified_hidden_first_frame": 48,
+      "verified_hidden_last_frame": 48,
+      "after_frame": 49,
+      "physical_occlusion": "foreground hand covers the stationary lemon; yellow target absent in verified frames and visible before/after",
+      "source_crop_pages": [
+        "/data2/user/toc_phase0/results/stage3_visualizations/source_crops/perception_test_video_10599_crop01.jpg",
+        "/data2/user/toc_phase0/results/stage3_visualizations/source_crops/perception_test_video_10599_crop02.jpg"
+      ],
+      "identity_result": "PENDING_TRACK_REVIEW"
+    },
+    {
+      "event_id": "lemon_06",
+      "video_id": "perception_test_video_10599",
+      "query": "yellow lemon",
+      "before_frame": 74,
+      "verified_hidden_first_frame": 75,
+      "verified_hidden_last_frame": 75,
+      "after_frame": 76,
+      "physical_occlusion": "foreground hand covers the stationary lemon; yellow target absent in verified frames and visible before/after",
+      "source_crop_pages": [
+        "/data2/user/toc_phase0/results/stage3_visualizations/source_crops/perception_test_video_10599_crop03.jpg"
+      ],
+      "identity_result": "PENDING_TRACK_REVIEW"
+    },
+    {
+      "event_id": "lemon_07",
+      "video_id": "perception_test_video_10599",
+      "query": "yellow lemon",
+      "before_frame": 79,
+      "verified_hidden_first_frame": 80,
+      "verified_hidden_last_frame": 80,
+      "after_frame": 82,
+      "physical_occlusion": "foreground hand covers the stationary lemon; yellow target absent in verified frames and visible before/after",
+      "source_crop_pages": [
+        "/data2/user/toc_phase0/results/stage3_visualizations/source_crops/perception_test_video_10599_crop03.jpg"
+      ],
+      "identity_result": "PENDING_TRACK_REVIEW"
+    },
+    {
+      "event_id": "lemon_08",
+      "video_id": "perception_test_video_10599",
+      "query": "yellow lemon",
+      "before_frame": 85,
+      "verified_hidden_first_frame": 86,
+      "verified_hidden_last_frame": 86,
+      "after_frame": 87,
+      "physical_occlusion": "foreground hand covers the stationary lemon; yellow target absent in verified frames and visible before/after",
+      "source_crop_pages": [
+        "/data2/user/toc_phase0/results/stage3_visualizations/source_crops/perception_test_video_10599_crop03.jpg"
+      ],
+      "identity_result": "PENDING_TRACK_REVIEW"
+    },
+    {
+      "event_id": "lemon_09",
+      "video_id": "perception_test_video_10599",
+      "query": "yellow lemon",
+      "before_frame": 96,
+      "verified_hidden_first_frame": 97,
+      "verified_hidden_last_frame": 97,
+      "after_frame": 98,
+      "physical_occlusion": "foreground hand covers the stationary lemon; yellow target absent in verified frames and visible before/after",
+      "source_crop_pages": [
+        "/data2/user/toc_phase0/results/stage3_visualizations/source_crops/perception_test_video_10599_crop04.jpg"
+      ],
+      "identity_result": "PENDING_TRACK_REVIEW"
+    },
+    {
+      "event_id": "lemon_10",
+      "video_id": "perception_test_video_10599",
+      "query": "yellow lemon",
+      "before_frame": 99,
+      "verified_hidden_first_frame": 100,
+      "verified_hidden_last_frame": 100,
+      "after_frame": 102,
+      "physical_occlusion": "foreground hand covers the stationary lemon; yellow target absent in verified frames and visible before/after",
+      "source_crop_pages": [
+        "/data2/user/toc_phase0/results/stage3_visualizations/source_crops/perception_test_video_10599_crop04.jpg"
+      ],
+      "identity_result": "PENDING_TRACK_REVIEW"
+    },
+    {
+      "event_id": "lemon_11",
+      "video_id": "perception_test_video_10599",
+      "query": "yellow lemon",
+      "before_frame": 104,
+      "verified_hidden_first_frame": 105,
+      "verified_hidden_last_frame": 107,
+      "after_frame": 108,
+      "physical_occlusion": "foreground hand covers the stationary lemon; yellow target absent in verified frames and visible before/after",
+      "source_crop_pages": [
+        "/data2/user/toc_phase0/results/stage3_visualizations/source_crops/perception_test_video_10599_crop04.jpg"
+      ],
+      "identity_result": "PENDING_TRACK_REVIEW"
+    },
+    {
+      "event_id": "lemon_12",
+      "video_id": "perception_test_video_10599",
+      "query": "yellow lemon",
+      "before_frame": 109,
+      "verified_hidden_first_frame": 110,
+      "verified_hidden_last_frame": 110,
+      "after_frame": 111,
+      "physical_occlusion": "foreground hand covers the stationary lemon; yellow target absent in verified frames and visible before/after",
+      "source_crop_pages": [
+        "/data2/user/toc_phase0/results/stage3_visualizations/source_crops/perception_test_video_10599_crop04.jpg"
+      ],
+      "identity_result": "PENDING_TRACK_REVIEW"
+    },
+    {
+      "event_id": "lemon_13",
+      "video_id": "perception_test_video_10599",
+      "query": "yellow lemon",
+      "before_frame": 115,
+      "verified_hidden_first_frame": 116,
+      "verified_hidden_last_frame": 116,
+      "after_frame": 117,
+      "physical_occlusion": "foreground hand covers the stationary lemon; yellow target absent in verified frames and visible before/after",
+      "source_crop_pages": [
+        "/data2/user/toc_phase0/results/stage3_visualizations/source_crops/perception_test_video_10599_crop04.jpg"
+      ],
+      "identity_result": "PENDING_TRACK_REVIEW"
+    },
+    {
+      "event_id": "lemon_14",
+      "video_id": "perception_test_video_10599",
+      "query": "yellow lemon",
+      "before_frame": 119,
+      "verified_hidden_first_frame": 120,
+      "verified_hidden_last_frame": 120,
+      "after_frame": 121,
+      "physical_occlusion": "foreground hand covers the stationary lemon; yellow target absent in verified frames and visible before/after",
+      "source_crop_pages": [
+        "/data2/user/toc_phase0/results/stage3_visualizations/source_crops/perception_test_video_10599_crop04.jpg",
+        "/data2/user/toc_phase0/results/stage3_visualizations/source_crops/perception_test_video_10599_crop05.jpg"
+      ],
+      "identity_result": "PENDING_TRACK_REVIEW"
+    },
+    {
+      "event_id": "lemon_15",
+      "video_id": "perception_test_video_10599",
+      "query": "yellow lemon",
+      "before_frame": 122,
+      "verified_hidden_first_frame": 123,
+      "verified_hidden_last_frame": 123,
+      "after_frame": 124,
+      "physical_occlusion": "foreground hand covers the stationary lemon; yellow target absent in verified frames and visible before/after",
+      "source_crop_pages": [
+        "/data2/user/toc_phase0/results/stage3_visualizations/source_crops/perception_test_video_10599_crop05.jpg"
+      ],
+      "identity_result": "PENDING_TRACK_REVIEW"
+    },
+    {
+      "event_id": "cup_body_01",
+      "video_id": "charades_E184J",
+      "query": "white cup",
+      "before_frame": 19,
+      "verified_hidden_first_frame": 27,
+      "verified_hidden_last_frame": 32,
+      "after_frame": 35,
+      "physical_occlusion": "cup held at chest becomes hidden behind torso during turn, then exposed on turn back",
+      "source_crop_pages": [
+        "/data2/user/toc_phase0/results/stage3_visualizations/source_crops/charades_E184J_crop00.jpg"
+      ],
+      "identity_result": "PENDING_TRACK_REVIEW"
+    },
+    {
+      "event_id": "phone_hand_clothes_01",
+      "video_id": "charades_YJV7W",
+      "query": "cell phone",
+      "before_frame": 45,
+      "verified_hidden_first_frame": 50,
+      "verified_hidden_last_frame": 62,
+      "after_frame": 65,
+      "physical_occlusion": "phone covered by hand/clothing during dressing, before screen is exposed again",
+      "source_crop_pages": [
+        "/data2/user/toc_phase0/results/stage3_visualizations/source_crops/charades_YJV7W_crop00.jpg",
+        "/data2/user/toc_phase0/results/stage3_visualizations/source_crops/charades_YJV7W_crop01.jpg"
+      ],
+      "identity_result": "PENDING_TRACK_REVIEW"
+    }
+  ]
+}

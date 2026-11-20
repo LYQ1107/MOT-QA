@@ -1,0 +1,38 @@
+{
+  "at": "2026-11-04T13:34:44.975536+00:00",
+  "unit_key": "dancetrack0094__id011",
+  "selection": "largest compressed-JPEG generation image bytes; no model inference",
+  "image_count": 4,
+  "image_paths": [
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0094/id011_target.jpg",
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0094/generation_gallery_page00.jpg",
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0094/generation_gallery_page01.jpg",
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0094/generation_gallery_page02.jpg"
+  ],
+  "input_token_count": 3462,
+  "image_grid_thw": [
+    [
+      1,
+      18,
+      28
+    ],
+    [
+      1,
+      54,
+      108
+    ],
+    [
+      1,
+      54,
+      108
+    ],
+    [
+      1,
+      18,
+      28
+    ]
+  ],
+  "fits_context_with_512_tokens": true,
+  "seconds": 0.11926495470106602,
+  "transformers": "4.57.6"
+}

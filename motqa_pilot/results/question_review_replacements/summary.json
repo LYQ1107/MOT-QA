@@ -1,0 +1,18 @@
+{
+  "generated_at": "2026-11-05T22:52:06.125560+08:00",
+  "count": 3,
+  "questions": "/home/user/motqa_pilot/data/question_review_temporal_replacements_3.jsonl",
+  "questions_sha256": "58f30e0865ccca20975e382ec4333bafcce0272419950829a6e25727754fa2ff",
+  "replacement_for_indices": [
+    4,
+    5,
+    17
+  ],
+  "operation": "O5 temporal reappearance order",
+  "accepted17_unchanged": true,
+  "max_combined_target_identity_reuse": 3,
+  "combined20_confusion_coverage": 0.85,
+  "new_model_calls": 0,
+  "new_tracker_runs": 0,
+  "full900_completed": false
+}

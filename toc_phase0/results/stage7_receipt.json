@@ -1,0 +1,37 @@
+{
+  "status": "STAGE7_COMPLETE_STOPPED",
+  "completed_at": "2026-11-04T18:53:28.193734+08:00",
+  "hypothesis": {
+    "id": "H12",
+    "conclusion": "supported",
+    "comparison": "repairedT1 minus reusedT-none",
+    "n": 251,
+    "reference_correct": 73,
+    "other_correct": 98,
+    "reference_accuracy": 0.2908366533864542,
+    "other_accuracy": 0.3904382470119522,
+    "other_correct_reference_wrong": 58,
+    "other_wrong_reference_correct": 33,
+    "both_correct": 40,
+    "both_wrong": 120,
+    "effect_pp": 9.9601593625498,
+    "ci95_pp": [
+      2.788844621513944,
+      16.743027888446203
+    ],
+    "mcnemar_exact_two_sided_p": 0.011456340539425666,
+    "bootstrap_resamples": 1000,
+    "bootstrap_seed": 42,
+    "resampling_unit": "question"
+  },
+  "integrity": "/data2/user/toc_phase0/results/stage7_integrity.json",
+  "report": "/data2/user/toc_phase0/results/stage7_report.md",
+  "new_predictions": 2532,
+  "all_task_gpu_memory_released": true,
+  "elapsed_s": 6375.087691,
+  "final_review_at": "2026-11-04T18:59:07.834887+08:00",
+  "manual_review_records": 18,
+  "total_elapsed_through_review_s": 6756.251277,
+  "report_sha256": "7b8ac71e5ab65d3d5bbd426439e256f26a1bcc17e2f21060fdf150e12f84f663",
+  "no_new_training_or_data_building": true
+}

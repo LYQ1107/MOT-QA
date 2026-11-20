@@ -1,0 +1,65 @@
+{
+  "generated_at": "2026-11-04T20:20:26.124241+08:00",
+  "project_root": "/home/user/motqa_pilot",
+  "original_sources_read_only": true,
+  "local_search_roots": [
+    "/data0",
+    "/data1",
+    "/data2",
+    "/data3",
+    "/home/user",
+    "/mnt"
+  ],
+  "local_search_max_depth": 5,
+  "canonical_roots": {
+    "DanceTrack": "/data2/user/LocateMOT/data/DanceTrack",
+    "SportsMOT": "/data2/user/LocateMOT_FullDataV2_spill/datasets/SportsMOT",
+    "MOT17": "/data2/user/LocateMOT/data/MOT17/MOT17",
+    "LaMOT_archive": "/data2/user/TTA-RMOT-assets/flexhook/lamot_20261101/lamot_github/LaMOT-main.zip",
+    "LaMOT_complete_copy": "/home/user/motqa_pilot/sources/LaMOT-5300242c06381c8d5ad36865dd88f4b62c2482bc",
+    "Refer-Dance": "/data2/user/TTA-RMOT-assets/flexhook/refer-dance-official/Refer-Dance"
+  },
+  "official_repositories": {
+    "dancetrack": {
+      "repository": "https://github.com/DanceTrack/DanceTrack",
+      "revision": "44057dcc07e4bf6bcad2e6888c9d83ec63d4b1a3",
+      "tree_truncated": false,
+      "files": 329
+    },
+    "sportsmot": {
+      "repository": "https://github.com/MCG-NJU/SportsMOT",
+      "revision": "b06cfb4aacb0bb16c5778ac4ddb0d70ec6835444",
+      "tree_truncated": false,
+      "files": 448
+    },
+    "lamot": {
+      "repository": "https://github.com/Nathan-Li123/LaMOT",
+      "revision": "5300242c06381c8d5ad36865dd88f4b62c2482bc",
+      "tree_truncated": false,
+      "files": 7584
+    },
+    "ikun": {
+      "repository": "https://github.com/dyhBUPT/iKUN",
+      "revision": "4db56bfaec703590e0fdfd1684d9769467a67e05",
+      "tree_truncated": false,
+      "files": 13
+    }
+  },
+  "missing_local": [
+    {
+      "dataset": "DanceTrack",
+      "split": "test",
+      "sequences": 35,
+      "public_gt": false,
+      "reason": "private GT; not eligible for this pilot; official sequence map inventoried, frames not downloaded"
+    },
+    {
+      "dataset": "SportsMOT",
+      "split": "test",
+      "sequences": 150,
+      "public_gt": false,
+      "reason": "private GT; not eligible for this pilot; official publication inventoried, frames not downloaded"
+    }
+  ],
+  "checksum_scope": "archive bytes fully hashed; local frames verified against release paths/sizes, not every pixel; every GT and language JSON hashed"
+}

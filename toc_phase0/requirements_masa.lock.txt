@@ -1,0 +1,112 @@
+addict==2.4.0
+aliyun-python-sdk-core==2.16.1
+aliyun-python-sdk-kms==2.16.5
+annotated-types==0.8.0
+boto3==1.43.123
+botocore==1.43.123
+certifi==2026.10.23
+cffi==2.1.1
+charset-normalizer==3.5.2
+click==8.5.0
+clip @ file:///data2/user/toc_phase0/upstream/masa_dependencies/CLIP-d05afc436d78f1c48dc0dbf8e5980a9d471f35f6
+cloudpickle==3.1.2
+colorama==0.4.6
+contourpy==1.3.3
+crcmod==1.7
+cryptography==50.0.2
+cycler==0.12.1
+Cython==3.3.0
+decorator==4.4.2
+defusedxml==0.7.1
+einops==0.8.2
+fairscale==0.4.13
+filelock==3.14.0
+fonttools==4.68.0
+fsspec==2026.9.0
+ftfy==6.3.1
+h5py==3.16.0
+hf-xet==1.8.0
+huggingface-hub==0.36.0
+idna==3.20
+ImageIO==2.38.1
+Jinja2==3.1.6
+jmespath==1.1.0
+joblib==1.6.0
+kiwisolver==1.5.1
+llvmlite==0.50.0
+lvis @ file:///data2/user/toc_phase0/upstream/masa_dependencies/lvis-api-7d7f07def11da91f8b2710ce352c62a78fd5a7ad
+Markdown==3.11.2
+markdown-it-py==4.2.0
+MarkupSafe==3.0.4
+matplotlib==3.11.2
+mdurl==0.1.2
+mmcv @ https://download.openmmlab.com/mmcv/dist/cu118/torch2.1.0/mmcv-2.1.0-cp311-cp311-manylinux1_x86_64.whl#sha256=f765bd9da2bae155715aa8da5d0b1bf9432cba3adc7eeacce7d21b7501ae4191
+mmdet==3.3.0
+mmengine==0.10.7
+model-index==0.1.11
+motmetrics==1.4.0
+moviepy==0.2.3.5
+mpmath==1.4.1
+nanoid==2.0.0
+natsort==8.4.0
+networkx==3.6.1
+nltk==3.10.4
+numba==0.68.1
+numpy==1.26.4
+opencv-python==4.10.0.84
+opendatalab==0.0.10
+openmim==0.3.9
+openxlab==0.1.3
+ordered-set==4.1.0
+oss2==2.17.0
+packaging==24.2
+pandas==2.3.3
+pillow==13.0.0
+platformdirs==4.14.2
+plyfile==1.1.3
+psutil==7.2.2
+pycocotools==2.0.11
+pycparser==3.12
+pycryptodome==4.2.0
+pydantic==2.7.0
+pydantic_core==2.18.1
+Pygments==2.21.0
+pyparsing==3.3.3
+python-dateutil==2.9.0.post0
+pytz==2023.4
+PyYAML==6.0.3
+regex==2026.9.29
+requests==2.28.2
+rich==13.4.2
+s3transfer==0.19.3
+safetensors==0.8.0
+scalabel @ file:///data2/user/toc_phase0/upstream/masa_dependencies/scalabel-78b26be9800596a3c0c2a999f9e04deb8e3fc29a
+scipy==1.17.1
+script-utils @ git+https://github.com/achalddave/python-script-utils.git@26dcd3b0c3487f46d31b4997c824e43a1ec5c897
+seaborn==0.13.2
+shapely==2.2.0
+six==1.17.0
+supervision==0.26.1
+sympy==1.12
+tabulate==0.10.0
+tao @ file:///data2/user/toc_phase0/upstream/masa_dependencies/tao-a3a713c51e2fdeb3a106c34b06d889ea581150a7
+termcolor==3.3.0
+terminaltables==3.1.10
+teta @ file:///data2/user/toc_phase0/upstream/masa_dependencies/tet-a62a9c0affec3a97f2cd0263141c53bcfb9c79f7/teta
+tokenizers==0.15.2
+toml==0.10.2
+torch @ file:///data2/user/toc_phase0/cache/masa_wheels/torch-2.1.2%2Bcu118-cp311-cp311-linux_x86_64.whl#sha256=051833f6174e672eb313ee1c70dbcaf97e558dc46237215407933d28f40bca85
+torchaudio @ file:///data2/user/toc_phase0/cache/masa_wheels/torchaudio-2.1.2%2Bcu118-cp311-cp311-linux_x86_64.whl#sha256=f762d7f7dbc2bc49cc53ab0830ae222485d54e34835db549a0d1ad40eb609af3
+torchvision @ file:///data2/user/toc_phase0/cache/masa_wheels/torchvision-0.16.2%2Bcu118-cp311-cp311-linux_x86_64.whl#sha256=9a784073e801c04066a5e4453306010b67bacfbff12bd57e5d65c1a638584a89
+tqdm==4.65.2
+trackeval @ file:///data2/user/toc_phase0/upstream/masa_dependencies/TrackEval-c15c969ebca181d7787e1c0ad814012e934ba8b6
+transformers==4.38.2
+triton==2.1.0
+typing_extensions==4.16.0
+tzdata==2026.6
+urllib3==1.26.20
+wcwidth==0.9.4
+xmltodict==1.0.4
+yacs==0.1.8
+yapf==0.43.0
+youtube-dl==2021.12.17

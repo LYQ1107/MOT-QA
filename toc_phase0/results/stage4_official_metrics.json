@@ -1,0 +1,482 @@
+{
+  "A": {
+    "model": "A",
+    "n_total": 749,
+    "n_scored": 749,
+    "n_missing_preds": 0,
+    "n_invalid_extraction": 137,
+    "invalid_rate": 0.1829105473965287,
+    "overall": 0.3190921228304406,
+    "macro_dim": 0.3711937975119256,
+    "tier_weighted": 0.23260909281214914,
+    "hda": null,
+    "per_dim": {
+      "event_ordering": 0.1523809523809524,
+      "event_count": 0.22666666666666666,
+      "reappear_or_disappear": 0.40298507462686567,
+      "cross_object_order": 0.46524064171123,
+      "reappear_identity": 0.6086956521739131
+    },
+    "per_dim_counts": {
+      "event_ordering": {
+        "correct": 16,
+        "total": 105
+      },
+      "event_count": {
+        "correct": 68,
+        "total": 300
+      },
+      "reappear_or_disappear": {
+        "correct": 54,
+        "total": 134
+      },
+      "cross_object_order": {
+        "correct": 87,
+        "total": 187
+      },
+      "reappear_identity": {
+        "correct": 14,
+        "total": 23
+      }
+    },
+    "per_tier": {
+      "tier2": 0.2704626334519573,
+      "tier3": 0.46524064171123
+    },
+    "per_tier_counts": {
+      "tier2": {
+        "correct": 152,
+        "total": 562
+      },
+      "tier3": {
+        "correct": 87,
+        "total": 187
+      }
+    },
+    "per_format": {
+      "ordering_4": 0.05660377358490566,
+      "numerical": 0.22666666666666666,
+      "sp": 0.45058139534883723,
+      "ordering_3": 0.25
+    },
+    "per_format_counts": {
+      "ordering_4": {
+        "correct": 3,
+        "total": 53
+      },
+      "numerical": {
+        "correct": 68,
+        "total": 300
+      },
+      "sp": {
+        "correct": 155,
+        "total": 344
+      },
+      "ordering_3": {
+        "correct": 13,
+        "total": 52
+      }
+    },
+    "per_source": {
+      "charades": 0.30580357142857145,
+      "perception": 0.3333333333333333,
+      "mose": 0.5714285714285714
+    },
+    "per_source_counts": {
+      "charades": {
+        "correct": 137,
+        "total": 448
+      },
+      "perception": {
+        "correct": 98,
+        "total": 294
+      },
+      "mose": {
+        "correct": 4,
+        "total": 7
+      }
+    },
+    "hallucination_buckets": {
+      "clean": {
+        "correct": 239,
+        "total": 749,
+        "accuracy": 0.3190921228304406
+      },
+      "variant_a": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": 0.0
+      },
+      "variant_b": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": 0.0
+      },
+      "distractor_only": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": 0.0
+      }
+    }
+  },
+  "B": {
+    "model": "B",
+    "n_total": 749,
+    "n_scored": 749,
+    "n_missing_preds": 0,
+    "n_invalid_extraction": 44,
+    "invalid_rate": 0.05874499332443257,
+    "overall": 0.3391188251001335,
+    "macro_dim": 0.35285002099477036,
+    "tier_weighted": 0.2383682227339334,
+    "hda": null,
+    "per_dim": {
+      "event_ordering": 0.13333333333333333,
+      "event_count": 0.3466666666666667,
+      "reappear_or_disappear": 0.35074626865671643,
+      "cross_object_order": 0.4117647058823529,
+      "reappear_identity": 0.5217391304347826
+    },
+    "per_dim_counts": {
+      "event_ordering": {
+        "correct": 14,
+        "total": 105
+      },
+      "event_count": {
+        "correct": 104,
+        "total": 300
+      },
+      "reappear_or_disappear": {
+        "correct": 47,
+        "total": 134
+      },
+      "cross_object_order": {
+        "correct": 77,
+        "total": 187
+      },
+      "reappear_identity": {
+        "correct": 12,
+        "total": 23
+      }
+    },
+    "per_tier": {
+      "tier2": 0.31494661921708184,
+      "tier3": 0.4117647058823529
+    },
+    "per_tier_counts": {
+      "tier2": {
+        "correct": 177,
+        "total": 562
+      },
+      "tier3": {
+        "correct": 77,
+        "total": 187
+      }
+    },
+    "per_format": {
+      "ordering_4": 0.07547169811320754,
+      "numerical": 0.3466666666666667,
+      "sp": 0.3953488372093023,
+      "ordering_3": 0.19230769230769232
+    },
+    "per_format_counts": {
+      "ordering_4": {
+        "correct": 4,
+        "total": 53
+      },
+      "numerical": {
+        "correct": 104,
+        "total": 300
+      },
+      "sp": {
+        "correct": 136,
+        "total": 344
+      },
+      "ordering_3": {
+        "correct": 10,
+        "total": 52
+      }
+    },
+    "per_source": {
+      "charades": 0.36160714285714285,
+      "perception": 0.29591836734693877,
+      "mose": 0.7142857142857143
+    },
+    "per_source_counts": {
+      "charades": {
+        "correct": 162,
+        "total": 448
+      },
+      "perception": {
+        "correct": 87,
+        "total": 294
+      },
+      "mose": {
+        "correct": 5,
+        "total": 7
+      }
+    },
+    "hallucination_buckets": {
+      "clean": {
+        "correct": 254,
+        "total": 749,
+        "accuracy": 0.3391188251001335
+      },
+      "variant_a": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": 0.0
+      },
+      "variant_b": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": 0.0
+      },
+      "distractor_only": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": 0.0
+      }
+    }
+  },
+  "C": {
+    "model": "C",
+    "n_total": 749,
+    "n_scored": 749,
+    "n_missing_preds": 0,
+    "n_invalid_extraction": 116,
+    "invalid_rate": 0.1548731642189586,
+    "overall": 0.3391188251001335,
+    "macro_dim": 0.3824009321975501,
+    "tier_weighted": 0.24580128266123658,
+    "hda": null,
+    "per_dim": {
+      "event_ordering": 0.17142857142857143,
+      "event_count": 0.27,
+      "reappear_or_disappear": 0.3805970149253731,
+      "cross_object_order": 0.48128342245989303,
+      "reappear_identity": 0.6086956521739131
+    },
+    "per_dim_counts": {
+      "event_ordering": {
+        "correct": 18,
+        "total": 105
+      },
+      "event_count": {
+        "correct": 81,
+        "total": 300
+      },
+      "reappear_or_disappear": {
+        "correct": 51,
+        "total": 134
+      },
+      "cross_object_order": {
+        "correct": 90,
+        "total": 187
+      },
+      "reappear_identity": {
+        "correct": 14,
+        "total": 23
+      }
+    },
+    "per_tier": {
+      "tier2": 0.2918149466192171,
+      "tier3": 0.48128342245989303
+    },
+    "per_tier_counts": {
+      "tier2": {
+        "correct": 164,
+        "total": 562
+      },
+      "tier3": {
+        "correct": 90,
+        "total": 187
+      }
+    },
+    "per_format": {
+      "ordering_4": 0.07547169811320754,
+      "numerical": 0.27,
+      "sp": 0.45058139534883723,
+      "ordering_3": 0.2692307692307692
+    },
+    "per_format_counts": {
+      "ordering_4": {
+        "correct": 4,
+        "total": 53
+      },
+      "numerical": {
+        "correct": 81,
+        "total": 300
+      },
+      "sp": {
+        "correct": 155,
+        "total": 344
+      },
+      "ordering_3": {
+        "correct": 14,
+        "total": 52
+      }
+    },
+    "per_source": {
+      "charades": 0.328125,
+      "perception": 0.35034013605442177,
+      "mose": 0.5714285714285714
+    },
+    "per_source_counts": {
+      "charades": {
+        "correct": 147,
+        "total": 448
+      },
+      "perception": {
+        "correct": 103,
+        "total": 294
+      },
+      "mose": {
+        "correct": 4,
+        "total": 7
+      }
+    },
+    "hallucination_buckets": {
+      "clean": {
+        "correct": 254,
+        "total": 749,
+        "accuracy": 0.3391188251001335
+      },
+      "variant_a": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": 0.0
+      },
+      "variant_b": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": 0.0
+      },
+      "distractor_only": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": 0.0
+      }
+    }
+  },
+  "D": {
+    "model": "D",
+    "n_total": 749,
+    "n_scored": 749,
+    "n_missing_preds": 0,
+    "n_invalid_extraction": 49,
+    "invalid_rate": 0.06542056074766354,
+    "overall": 0.3444592790387183,
+    "macro_dim": 0.36597215800956684,
+    "tier_weighted": 0.2442875901573829,
+    "hda": null,
+    "per_dim": {
+      "event_ordering": 0.14285714285714285,
+      "event_count": 0.34,
+      "reappear_or_disappear": 0.34328358208955223,
+      "cross_object_order": 0.4385026737967914,
+      "reappear_identity": 0.5652173913043478
+    },
+    "per_dim_counts": {
+      "event_ordering": {
+        "correct": 15,
+        "total": 105
+      },
+      "event_count": {
+        "correct": 102,
+        "total": 300
+      },
+      "reappear_or_disappear": {
+        "correct": 46,
+        "total": 134
+      },
+      "cross_object_order": {
+        "correct": 82,
+        "total": 187
+      },
+      "reappear_identity": {
+        "correct": 13,
+        "total": 23
+      }
+    },
+    "per_tier": {
+      "tier2": 0.31316725978647686,
+      "tier3": 0.4385026737967914
+    },
+    "per_tier_counts": {
+      "tier2": {
+        "correct": 176,
+        "total": 562
+      },
+      "tier3": {
+        "correct": 82,
+        "total": 187
+      }
+    },
+    "per_format": {
+      "ordering_4": 0.07547169811320754,
+      "numerical": 0.34,
+      "sp": 0.40988372093023256,
+      "ordering_3": 0.21153846153846154
+    },
+    "per_format_counts": {
+      "ordering_4": {
+        "correct": 4,
+        "total": 53
+      },
+      "numerical": {
+        "correct": 102,
+        "total": 300
+      },
+      "sp": {
+        "correct": 141,
+        "total": 344
+      },
+      "ordering_3": {
+        "correct": 11,
+        "total": 52
+      }
+    },
+    "per_source": {
+      "charades": 0.36160714285714285,
+      "perception": 0.30952380952380953,
+      "mose": 0.7142857142857143
+    },
+    "per_source_counts": {
+      "charades": {
+        "correct": 162,
+        "total": 448
+      },
+      "perception": {
+        "correct": 91,
+        "total": 294
+      },
+      "mose": {
+        "correct": 5,
+        "total": 7
+      }
+    },
+    "hallucination_buckets": {
+      "clean": {
+        "correct": 258,
+        "total": 749,
+        "accuracy": 0.3444592790387183
+      },
+      "variant_a": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": 0.0
+      },
+      "variant_b": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": 0.0
+      },
+      "distractor_only": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": 0.0
+      }
+    }
+  }
+}

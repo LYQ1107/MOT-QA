@@ -1,0 +1,3190 @@
+{
+  "created_at": "2026-11-04T17:38:23.502321+08:00",
+  "posthoc": true,
+  "no_new_model_inference": true,
+  "no_tuning": true,
+  "frozen_config_sha256": "7f0dbd16926026fa087ac4bb84fb1f3dce142ee903e5cf16c9e8eb1b7a62d93d",
+  "split_sha256": "e1d87675aca7e69d57a5ac99dc7ecdedaf8ca8c4efb1588bb86f42066fce80b3",
+  "majority_baseline_sha256": "8a0df47dfcb49d913c225f9bed05d9b2ce77cf57395e63f67fce9c917261ed49",
+  "development_caveat": "Development was used to tune v1 and to choose the majority class; development metrics are descriptive, not held-out evidence.",
+  "inference_caveat": "Covered subsets are selected by frozen rules; association/accuracy on them does not imply full-benchmark utility or tracker perfection. Tests are post-hoc, question-level, unadjusted.",
+  "covered_rule_diagnostics": {
+    "dev": {
+      "event_count": {
+        "total": 58,
+        "covered": 25,
+        "coverage": 0.43103448275862066,
+        "frozen_rule": {
+          "n": 25,
+          "correct": 10,
+          "accuracy": 0.4,
+          "balanced_accuracy": 0.359375,
+          "kappa": 0.22360248447204972,
+          "truth_rows": [
+            "2",
+            "3",
+            "4",
+            "5 or more"
+          ],
+          "prediction_columns": [
+            "2",
+            "3",
+            "4",
+            "5 or more",
+            "0",
+            "1"
+          ],
+          "confusion_matrix": {
+            "2": {
+              "2": 7,
+              "3": 1,
+              "4": 1,
+              "5 or more": 1,
+              "0": 1,
+              "1": 5
+            },
+            "3": {
+              "2": 0,
+              "3": 1,
+              "4": 0,
+              "5 or more": 1,
+              "0": 0,
+              "1": 1
+            },
+            "4": {
+              "2": 0,
+              "3": 1,
+              "4": 0,
+              "5 or more": 2,
+              "0": 0,
+              "1": 0
+            },
+            "5 or more": {
+              "2": 0,
+              "3": 0,
+              "4": 0,
+              "5 or more": 2,
+              "0": 0,
+              "1": 1
+            }
+          },
+          "per_class_recall": {
+            "2": 0.4375,
+            "3": 0.3333333333333333,
+            "4": 0.0,
+            "5 or more": 0.6666666666666666
+          },
+          "true_distribution": {
+            "2": 16,
+            "5 or more": 3,
+            "4": 3,
+            "3": 3
+          },
+          "predicted_distribution": {
+            "1": 7,
+            "2": 7,
+            "5 or more": 6,
+            "4": 1,
+            "0": 1,
+            "3": 3
+          },
+          "metrics_note": "Balanced accuracy averages recalls over true classes present; 0/1/invalid outputs remain errors. Kappa includes their prediction marginals; no legal-answer filtering."
+        },
+        "majority_blind": {
+          "n": 25,
+          "correct": 16,
+          "accuracy": 0.64,
+          "balanced_accuracy": 0.25,
+          "kappa": 0.0,
+          "truth_rows": [
+            "2",
+            "3",
+            "4",
+            "5 or more"
+          ],
+          "prediction_columns": [
+            "2",
+            "3",
+            "4",
+            "5 or more"
+          ],
+          "confusion_matrix": {
+            "2": {
+              "2": 16,
+              "3": 0,
+              "4": 0,
+              "5 or more": 0
+            },
+            "3": {
+              "2": 3,
+              "3": 0,
+              "4": 0,
+              "5 or more": 0
+            },
+            "4": {
+              "2": 3,
+              "3": 0,
+              "4": 0,
+              "5 or more": 0
+            },
+            "5 or more": {
+              "2": 3,
+              "3": 0,
+              "4": 0,
+              "5 or more": 0
+            }
+          },
+          "per_class_recall": {
+            "2": 1.0,
+            "3": 0.0,
+            "4": 0.0,
+            "5 or more": 0.0
+          },
+          "true_distribution": {
+            "2": 16,
+            "5 or more": 3,
+            "4": 3,
+            "3": 3
+          },
+          "predicted_distribution": {
+            "2": 25
+          },
+          "metrics_note": "Balanced accuracy averages recalls over true classes present; 0/1/invalid outputs remain errors. Kappa includes their prediction marginals; no legal-answer filtering."
+        },
+        "rule_minus_development_majority": {
+          "n": 25,
+          "reference_correct": 16,
+          "other_correct": 10,
+          "reference_accuracy": 0.64,
+          "other_accuracy": 0.4,
+          "other_correct_reference_wrong": 3,
+          "other_wrong_reference_correct": 9,
+          "both_correct": 7,
+          "both_wrong": 6,
+          "effect_pp": -24.0,
+          "ci95_pp": [
+            -52.0,
+            4.0
+          ],
+          "mcnemar_exact_two_sided_p": 0.14599609375,
+          "bootstrap_resamples": 1000,
+          "bootstrap_seed": 42,
+          "resampling_unit": "question"
+        },
+        "covered_development_prior": {
+          "n": 25,
+          "class_counts": {
+            "2": 16,
+            "5 or more": 3,
+            "4": 3,
+            "3": 3
+          },
+          "selected_class": "2",
+          "ties": "lexicographic class order"
+        },
+        "covered_dev_majority_blind": {
+          "n": 25,
+          "correct": 16,
+          "accuracy": 0.64,
+          "balanced_accuracy": 0.25,
+          "kappa": 0.0,
+          "truth_rows": [
+            "2",
+            "3",
+            "4",
+            "5 or more"
+          ],
+          "prediction_columns": [
+            "2",
+            "3",
+            "4",
+            "5 or more"
+          ],
+          "confusion_matrix": {
+            "2": {
+              "2": 16,
+              "3": 0,
+              "4": 0,
+              "5 or more": 0
+            },
+            "3": {
+              "2": 3,
+              "3": 0,
+              "4": 0,
+              "5 or more": 0
+            },
+            "4": {
+              "2": 3,
+              "3": 0,
+              "4": 0,
+              "5 or more": 0
+            },
+            "5 or more": {
+              "2": 3,
+              "3": 0,
+              "4": 0,
+              "5 or more": 0
+            }
+          },
+          "per_class_recall": {
+            "2": 1.0,
+            "3": 0.0,
+            "4": 0.0,
+            "5 or more": 0.0
+          },
+          "true_distribution": {
+            "2": 16,
+            "5 or more": 3,
+            "4": 3,
+            "3": 3
+          },
+          "predicted_distribution": {
+            "2": 25
+          },
+          "metrics_note": "Balanced accuracy averages recalls over true classes present; 0/1/invalid outputs remain errors. Kappa includes their prediction marginals; no legal-answer filtering."
+        },
+        "rule_minus_covered_dev_majority": {
+          "n": 25,
+          "reference_correct": 16,
+          "other_correct": 10,
+          "reference_accuracy": 0.64,
+          "other_accuracy": 0.4,
+          "other_correct_reference_wrong": 3,
+          "other_wrong_reference_correct": 9,
+          "both_correct": 7,
+          "both_wrong": 6,
+          "effect_pp": -24.0,
+          "ci95_pp": [
+            -52.0,
+            4.0
+          ],
+          "mcnemar_exact_two_sided_p": 0.14599609375,
+          "bootstrap_resamples": 1000,
+          "bootstrap_seed": 42,
+          "resampling_unit": "question"
+        }
+      },
+      "reappear_or_disappear": {
+        "total": 33,
+        "covered": 27,
+        "coverage": 0.8181818181818182,
+        "frozen_rule": {
+          "n": 27,
+          "correct": 20,
+          "accuracy": 0.7407407407407407,
+          "balanced_accuracy": 0.5,
+          "kappa": 0.0,
+          "truth_rows": [
+            "fully_hidden",
+            "leaves_frame"
+          ],
+          "prediction_columns": [
+            "fully_hidden",
+            "leaves_frame"
+          ],
+          "confusion_matrix": {
+            "fully_hidden": {
+              "fully_hidden": 20,
+              "leaves_frame": 0
+            },
+            "leaves_frame": {
+              "fully_hidden": 7,
+              "leaves_frame": 0
+            }
+          },
+          "per_class_recall": {
+            "fully_hidden": 1.0,
+            "leaves_frame": 0.0
+          },
+          "true_distribution": {
+            "fully_hidden": 20,
+            "leaves_frame": 7
+          },
+          "predicted_distribution": {
+            "fully_hidden": 27
+          },
+          "metrics_note": "Balanced accuracy averages recalls over true classes present; 0/1/invalid outputs remain errors. Kappa includes their prediction marginals; no legal-answer filtering."
+        },
+        "majority_blind": {
+          "n": 27,
+          "correct": 20,
+          "accuracy": 0.7407407407407407,
+          "balanced_accuracy": 0.5,
+          "kappa": 0.0,
+          "truth_rows": [
+            "fully_hidden",
+            "leaves_frame"
+          ],
+          "prediction_columns": [
+            "fully_hidden",
+            "leaves_frame"
+          ],
+          "confusion_matrix": {
+            "fully_hidden": {
+              "fully_hidden": 20,
+              "leaves_frame": 0
+            },
+            "leaves_frame": {
+              "fully_hidden": 7,
+              "leaves_frame": 0
+            }
+          },
+          "per_class_recall": {
+            "fully_hidden": 1.0,
+            "leaves_frame": 0.0
+          },
+          "true_distribution": {
+            "fully_hidden": 20,
+            "leaves_frame": 7
+          },
+          "predicted_distribution": {
+            "fully_hidden": 27
+          },
+          "metrics_note": "Balanced accuracy averages recalls over true classes present; 0/1/invalid outputs remain errors. Kappa includes their prediction marginals; no legal-answer filtering."
+        },
+        "rule_minus_development_majority": {
+          "n": 27,
+          "reference_correct": 20,
+          "other_correct": 20,
+          "reference_accuracy": 0.7407407407407407,
+          "other_accuracy": 0.7407407407407407,
+          "other_correct_reference_wrong": 0,
+          "other_wrong_reference_correct": 0,
+          "both_correct": 20,
+          "both_wrong": 7,
+          "effect_pp": 0.0,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "mcnemar_exact_two_sided_p": 1.0,
+          "bootstrap_resamples": 1000,
+          "bootstrap_seed": 42,
+          "resampling_unit": "question"
+        },
+        "covered_development_prior": {
+          "n": 27,
+          "class_counts": {
+            "fully_hidden": 20,
+            "leaves_frame": 7
+          },
+          "selected_class": "fully_hidden",
+          "ties": "lexicographic class order"
+        },
+        "covered_dev_majority_blind": {
+          "n": 27,
+          "correct": 20,
+          "accuracy": 0.7407407407407407,
+          "balanced_accuracy": 0.5,
+          "kappa": 0.0,
+          "truth_rows": [
+            "fully_hidden",
+            "leaves_frame"
+          ],
+          "prediction_columns": [
+            "fully_hidden",
+            "leaves_frame"
+          ],
+          "confusion_matrix": {
+            "fully_hidden": {
+              "fully_hidden": 20,
+              "leaves_frame": 0
+            },
+            "leaves_frame": {
+              "fully_hidden": 7,
+              "leaves_frame": 0
+            }
+          },
+          "per_class_recall": {
+            "fully_hidden": 1.0,
+            "leaves_frame": 0.0
+          },
+          "true_distribution": {
+            "fully_hidden": 20,
+            "leaves_frame": 7
+          },
+          "predicted_distribution": {
+            "fully_hidden": 27
+          },
+          "metrics_note": "Balanced accuracy averages recalls over true classes present; 0/1/invalid outputs remain errors. Kappa includes their prediction marginals; no legal-answer filtering."
+        },
+        "rule_minus_covered_dev_majority": {
+          "n": 27,
+          "reference_correct": 20,
+          "other_correct": 20,
+          "reference_accuracy": 0.7407407407407407,
+          "other_accuracy": 0.7407407407407407,
+          "other_correct_reference_wrong": 0,
+          "other_wrong_reference_correct": 0,
+          "both_correct": 20,
+          "both_wrong": 7,
+          "effect_pp": 0.0,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "mcnemar_exact_two_sided_p": 1.0,
+          "bootstrap_resamples": 1000,
+          "bootstrap_seed": 42,
+          "resampling_unit": "question"
+        },
+        "edge_table": {
+          "rows": [
+            "not_near_edge",
+            "near_edge"
+          ],
+          "columns": [
+            "fully_hidden",
+            "leaves_frame"
+          ],
+          "counts": [
+            [
+              20,
+              7
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        "fisher_exact_two_sided_p": 1.0,
+        "fisher_odds_ratio": "nan",
+        "feature_selection": "Exactly first frozen-rule gap; Before questions exclude terminal gap; original edge center margin0.05"
+      },
+      "cross_object_order": {
+        "total": 37,
+        "covered": 0,
+        "coverage": 0.0,
+        "frozen_rule": {
+          "n": 0,
+          "status": "not_computable_empty_covered_subset",
+          "accuracy": null,
+          "balanced_accuracy": null,
+          "kappa": null
+        },
+        "majority_blind": {
+          "n": 0,
+          "status": "not_computable_empty_covered_subset",
+          "accuracy": null,
+          "balanced_accuracy": null,
+          "kappa": null
+        },
+        "rule_minus_development_majority": null,
+        "covered_development_prior": {
+          "n": 0,
+          "class_counts": {},
+          "selected_class": null,
+          "ties": "lexicographic class order"
+        }
+      }
+    },
+    "test": {
+      "event_count": {
+        "total": 242,
+        "covered": 81,
+        "coverage": 0.3347107438016529,
+        "frozen_rule": {
+          "n": 81,
+          "correct": 18,
+          "accuracy": 0.2222222222222222,
+          "balanced_accuracy": 0.2398313492063492,
+          "kappa": 0.07888086642599275,
+          "truth_rows": [
+            "2",
+            "3",
+            "4",
+            "5 or more"
+          ],
+          "prediction_columns": [
+            "2",
+            "3",
+            "4",
+            "5 or more",
+            "0",
+            "1"
+          ],
+          "confusion_matrix": {
+            "2": {
+              "2": 10,
+              "3": 3,
+              "4": 2,
+              "5 or more": 3,
+              "0": 9,
+              "1": 5
+            },
+            "3": {
+              "2": 5,
+              "3": 1,
+              "4": 3,
+              "5 or more": 6,
+              "0": 9,
+              "1": 4
+            },
+            "4": {
+              "2": 0,
+              "3": 3,
+              "4": 1,
+              "5 or more": 2,
+              "0": 1,
+              "1": 2
+            },
+            "5 or more": {
+              "2": 1,
+              "3": 1,
+              "4": 3,
+              "5 or more": 6,
+              "0": 1,
+              "1": 0
+            }
+          },
+          "per_class_recall": {
+            "2": 0.3125,
+            "3": 0.03571428571428571,
+            "4": 0.1111111111111111,
+            "5 or more": 0.5
+          },
+          "true_distribution": {
+            "3": 28,
+            "2": 32,
+            "4": 9,
+            "5 or more": 12
+          },
+          "predicted_distribution": {
+            "5 or more": 17,
+            "2": 16,
+            "4": 9,
+            "1": 11,
+            "0": 20,
+            "3": 8
+          },
+          "metrics_note": "Balanced accuracy averages recalls over true classes present; 0/1/invalid outputs remain errors. Kappa includes their prediction marginals; no legal-answer filtering."
+        },
+        "majority_blind": {
+          "n": 81,
+          "correct": 32,
+          "accuracy": 0.3950617283950617,
+          "balanced_accuracy": 0.25,
+          "kappa": 0.0,
+          "truth_rows": [
+            "2",
+            "3",
+            "4",
+            "5 or more"
+          ],
+          "prediction_columns": [
+            "2",
+            "3",
+            "4",
+            "5 or more"
+          ],
+          "confusion_matrix": {
+            "2": {
+              "2": 32,
+              "3": 0,
+              "4": 0,
+              "5 or more": 0
+            },
+            "3": {
+              "2": 28,
+              "3": 0,
+              "4": 0,
+              "5 or more": 0
+            },
+            "4": {
+              "2": 9,
+              "3": 0,
+              "4": 0,
+              "5 or more": 0
+            },
+            "5 or more": {
+              "2": 12,
+              "3": 0,
+              "4": 0,
+              "5 or more": 0
+            }
+          },
+          "per_class_recall": {
+            "2": 1.0,
+            "3": 0.0,
+            "4": 0.0,
+            "5 or more": 0.0
+          },
+          "true_distribution": {
+            "3": 28,
+            "2": 32,
+            "4": 9,
+            "5 or more": 12
+          },
+          "predicted_distribution": {
+            "2": 81
+          },
+          "metrics_note": "Balanced accuracy averages recalls over true classes present; 0/1/invalid outputs remain errors. Kappa includes their prediction marginals; no legal-answer filtering."
+        },
+        "rule_minus_development_majority": {
+          "n": 81,
+          "reference_correct": 32,
+          "other_correct": 18,
+          "reference_accuracy": 0.3950617283950617,
+          "other_accuracy": 0.2222222222222222,
+          "other_correct_reference_wrong": 8,
+          "other_wrong_reference_correct": 22,
+          "both_correct": 10,
+          "both_wrong": 41,
+          "effect_pp": -17.28395061728395,
+          "ci95_pp": [
+            -28.39506172839506,
+            -4.938271604938271
+          ],
+          "mcnemar_exact_two_sided_p": 0.016124801710247997,
+          "bootstrap_resamples": 1000,
+          "bootstrap_seed": 42,
+          "resampling_unit": "question"
+        },
+        "covered_development_prior": {
+          "n": 25,
+          "class_counts": {
+            "2": 16,
+            "5 or more": 3,
+            "4": 3,
+            "3": 3
+          },
+          "selected_class": "2",
+          "ties": "lexicographic class order"
+        },
+        "covered_dev_majority_blind": {
+          "n": 81,
+          "correct": 32,
+          "accuracy": 0.3950617283950617,
+          "balanced_accuracy": 0.25,
+          "kappa": 0.0,
+          "truth_rows": [
+            "2",
+            "3",
+            "4",
+            "5 or more"
+          ],
+          "prediction_columns": [
+            "2",
+            "3",
+            "4",
+            "5 or more"
+          ],
+          "confusion_matrix": {
+            "2": {
+              "2": 32,
+              "3": 0,
+              "4": 0,
+              "5 or more": 0
+            },
+            "3": {
+              "2": 28,
+              "3": 0,
+              "4": 0,
+              "5 or more": 0
+            },
+            "4": {
+              "2": 9,
+              "3": 0,
+              "4": 0,
+              "5 or more": 0
+            },
+            "5 or more": {
+              "2": 12,
+              "3": 0,
+              "4": 0,
+              "5 or more": 0
+            }
+          },
+          "per_class_recall": {
+            "2": 1.0,
+            "3": 0.0,
+            "4": 0.0,
+            "5 or more": 0.0
+          },
+          "true_distribution": {
+            "3": 28,
+            "2": 32,
+            "4": 9,
+            "5 or more": 12
+          },
+          "predicted_distribution": {
+            "2": 81
+          },
+          "metrics_note": "Balanced accuracy averages recalls over true classes present; 0/1/invalid outputs remain errors. Kappa includes their prediction marginals; no legal-answer filtering."
+        },
+        "rule_minus_covered_dev_majority": {
+          "n": 81,
+          "reference_correct": 32,
+          "other_correct": 18,
+          "reference_accuracy": 0.3950617283950617,
+          "other_accuracy": 0.2222222222222222,
+          "other_correct_reference_wrong": 8,
+          "other_wrong_reference_correct": 22,
+          "both_correct": 10,
+          "both_wrong": 41,
+          "effect_pp": -17.28395061728395,
+          "ci95_pp": [
+            -28.39506172839506,
+            -4.938271604938271
+          ],
+          "mcnemar_exact_two_sided_p": 0.016124801710247997,
+          "bootstrap_resamples": 1000,
+          "bootstrap_seed": 42,
+          "resampling_unit": "question"
+        }
+      },
+      "reappear_or_disappear": {
+        "total": 101,
+        "covered": 75,
+        "coverage": 0.7425742574257426,
+        "frozen_rule": {
+          "n": 75,
+          "correct": 51,
+          "accuracy": 0.68,
+          "balanced_accuracy": 0.5441176470588235,
+          "kappa": 0.10714285714285741,
+          "truth_rows": [
+            "fully_hidden",
+            "leaves_frame"
+          ],
+          "prediction_columns": [
+            "fully_hidden",
+            "leaves_frame"
+          ],
+          "confusion_matrix": {
+            "fully_hidden": {
+              "fully_hidden": 47,
+              "leaves_frame": 4
+            },
+            "leaves_frame": {
+              "fully_hidden": 20,
+              "leaves_frame": 4
+            }
+          },
+          "per_class_recall": {
+            "fully_hidden": 0.9215686274509803,
+            "leaves_frame": 0.16666666666666666
+          },
+          "true_distribution": {
+            "fully_hidden": 51,
+            "leaves_frame": 24
+          },
+          "predicted_distribution": {
+            "fully_hidden": 67,
+            "leaves_frame": 8
+          },
+          "metrics_note": "Balanced accuracy averages recalls over true classes present; 0/1/invalid outputs remain errors. Kappa includes their prediction marginals; no legal-answer filtering."
+        },
+        "majority_blind": {
+          "n": 75,
+          "correct": 51,
+          "accuracy": 0.68,
+          "balanced_accuracy": 0.5,
+          "kappa": 0.0,
+          "truth_rows": [
+            "fully_hidden",
+            "leaves_frame"
+          ],
+          "prediction_columns": [
+            "fully_hidden",
+            "leaves_frame"
+          ],
+          "confusion_matrix": {
+            "fully_hidden": {
+              "fully_hidden": 51,
+              "leaves_frame": 0
+            },
+            "leaves_frame": {
+              "fully_hidden": 24,
+              "leaves_frame": 0
+            }
+          },
+          "per_class_recall": {
+            "fully_hidden": 1.0,
+            "leaves_frame": 0.0
+          },
+          "true_distribution": {
+            "fully_hidden": 51,
+            "leaves_frame": 24
+          },
+          "predicted_distribution": {
+            "fully_hidden": 75
+          },
+          "metrics_note": "Balanced accuracy averages recalls over true classes present; 0/1/invalid outputs remain errors. Kappa includes their prediction marginals; no legal-answer filtering."
+        },
+        "rule_minus_development_majority": {
+          "n": 75,
+          "reference_correct": 51,
+          "other_correct": 51,
+          "reference_accuracy": 0.68,
+          "other_accuracy": 0.68,
+          "other_correct_reference_wrong": 4,
+          "other_wrong_reference_correct": 4,
+          "both_correct": 47,
+          "both_wrong": 20,
+          "effect_pp": 0.0,
+          "ci95_pp": [
+            -6.666666666666667,
+            8.0
+          ],
+          "mcnemar_exact_two_sided_p": 1.0,
+          "bootstrap_resamples": 1000,
+          "bootstrap_seed": 42,
+          "resampling_unit": "question"
+        },
+        "covered_development_prior": {
+          "n": 27,
+          "class_counts": {
+            "fully_hidden": 20,
+            "leaves_frame": 7
+          },
+          "selected_class": "fully_hidden",
+          "ties": "lexicographic class order"
+        },
+        "covered_dev_majority_blind": {
+          "n": 75,
+          "correct": 51,
+          "accuracy": 0.68,
+          "balanced_accuracy": 0.5,
+          "kappa": 0.0,
+          "truth_rows": [
+            "fully_hidden",
+            "leaves_frame"
+          ],
+          "prediction_columns": [
+            "fully_hidden",
+            "leaves_frame"
+          ],
+          "confusion_matrix": {
+            "fully_hidden": {
+              "fully_hidden": 51,
+              "leaves_frame": 0
+            },
+            "leaves_frame": {
+              "fully_hidden": 24,
+              "leaves_frame": 0
+            }
+          },
+          "per_class_recall": {
+            "fully_hidden": 1.0,
+            "leaves_frame": 0.0
+          },
+          "true_distribution": {
+            "fully_hidden": 51,
+            "leaves_frame": 24
+          },
+          "predicted_distribution": {
+            "fully_hidden": 75
+          },
+          "metrics_note": "Balanced accuracy averages recalls over true classes present; 0/1/invalid outputs remain errors. Kappa includes their prediction marginals; no legal-answer filtering."
+        },
+        "rule_minus_covered_dev_majority": {
+          "n": 75,
+          "reference_correct": 51,
+          "other_correct": 51,
+          "reference_accuracy": 0.68,
+          "other_accuracy": 0.68,
+          "other_correct_reference_wrong": 4,
+          "other_wrong_reference_correct": 4,
+          "both_correct": 47,
+          "both_wrong": 20,
+          "effect_pp": 0.0,
+          "ci95_pp": [
+            -6.666666666666667,
+            8.0
+          ],
+          "mcnemar_exact_two_sided_p": 1.0,
+          "bootstrap_resamples": 1000,
+          "bootstrap_seed": 42,
+          "resampling_unit": "question"
+        },
+        "edge_table": {
+          "rows": [
+            "not_near_edge",
+            "near_edge"
+          ],
+          "columns": [
+            "fully_hidden",
+            "leaves_frame"
+          ],
+          "counts": [
+            [
+              47,
+              20
+            ],
+            [
+              4,
+              4
+            ]
+          ]
+        },
+        "fisher_exact_two_sided_p": 0.2588660433537917,
+        "fisher_odds_ratio": 2.35,
+        "feature_selection": "Exactly first frozen-rule gap; Before questions exclude terminal gap; original edge center margin0.05"
+      },
+      "cross_object_order": {
+        "total": 150,
+        "covered": 9,
+        "coverage": 0.06,
+        "frozen_rule": {
+          "n": 9,
+          "correct": 7,
+          "accuracy": 0.7777777777777778,
+          "balanced_accuracy": 0.75,
+          "kappa": 0.5263157894736842,
+          "truth_rows": [
+            "A",
+            "B"
+          ],
+          "prediction_columns": [
+            "A",
+            "B"
+          ],
+          "confusion_matrix": {
+            "A": {
+              "A": 2,
+              "B": 2
+            },
+            "B": {
+              "A": 0,
+              "B": 5
+            }
+          },
+          "per_class_recall": {
+            "A": 0.5,
+            "B": 1.0
+          },
+          "true_distribution": {
+            "A": 4,
+            "B": 5
+          },
+          "predicted_distribution": {
+            "A": 2,
+            "B": 7
+          },
+          "metrics_note": "Balanced accuracy averages recalls over true classes present; 0/1/invalid outputs remain errors. Kappa includes their prediction marginals; no legal-answer filtering."
+        },
+        "majority_blind": {
+          "n": 9,
+          "correct": 5,
+          "accuracy": 0.5555555555555556,
+          "balanced_accuracy": 0.5,
+          "kappa": 0.0,
+          "truth_rows": [
+            "A",
+            "B"
+          ],
+          "prediction_columns": [
+            "A",
+            "B"
+          ],
+          "confusion_matrix": {
+            "A": {
+              "A": 0,
+              "B": 4
+            },
+            "B": {
+              "A": 0,
+              "B": 5
+            }
+          },
+          "per_class_recall": {
+            "A": 0.0,
+            "B": 1.0
+          },
+          "true_distribution": {
+            "A": 4,
+            "B": 5
+          },
+          "predicted_distribution": {
+            "B": 9
+          },
+          "metrics_note": "Balanced accuracy averages recalls over true classes present; 0/1/invalid outputs remain errors. Kappa includes their prediction marginals; no legal-answer filtering."
+        },
+        "rule_minus_development_majority": {
+          "n": 9,
+          "reference_correct": 5,
+          "other_correct": 7,
+          "reference_accuracy": 0.5555555555555556,
+          "other_accuracy": 0.7777777777777778,
+          "other_correct_reference_wrong": 2,
+          "other_wrong_reference_correct": 0,
+          "both_correct": 5,
+          "both_wrong": 2,
+          "effect_pp": 22.22222222222222,
+          "ci95_pp": [
+            0.0,
+            55.55555555555556
+          ],
+          "mcnemar_exact_two_sided_p": 0.5,
+          "bootstrap_resamples": 1000,
+          "bootstrap_seed": 42,
+          "resampling_unit": "question"
+        },
+        "covered_development_prior": {
+          "n": 0,
+          "class_counts": {},
+          "selected_class": null,
+          "ties": "lexicographic class order"
+        }
+      }
+    }
+  },
+  "RD_model_class_recalls": {
+    "dev": {
+      "official_A": {
+        "n": 33,
+        "correct": 15,
+        "accuracy": 0.45454545454545453,
+        "balanced_accuracy": 0.5555555555555556,
+        "kappa": 0.07476635514018692,
+        "truth_rows": [
+          "fully_hidden",
+          "leaves_frame"
+        ],
+        "prediction_columns": [
+          "fully_hidden",
+          "leaves_frame"
+        ],
+        "confusion_matrix": {
+          "fully_hidden": {
+            "fully_hidden": 8,
+            "leaves_frame": 16
+          },
+          "leaves_frame": {
+            "fully_hidden": 2,
+            "leaves_frame": 7
+          }
+        },
+        "per_class_recall": {
+          "fully_hidden": 0.3333333333333333,
+          "leaves_frame": 0.7777777777777778
+        },
+        "true_distribution": {
+          "leaves_frame": 9,
+          "fully_hidden": 24
+        },
+        "predicted_distribution": {
+          "leaves_frame": 23,
+          "fully_hidden": 10
+        },
+        "metrics_note": "Balanced accuracy averages recalls over true classes present; 0/1/invalid outputs remain errors. Kappa includes their prediction marginals; no legal-answer filtering."
+      },
+      "official_B": {
+        "n": 33,
+        "correct": 10,
+        "accuracy": 0.30303030303030304,
+        "balanced_accuracy": 0.5208333333333334,
+        "kappa": 0.02316602316602317,
+        "truth_rows": [
+          "fully_hidden",
+          "leaves_frame"
+        ],
+        "prediction_columns": [
+          "fully_hidden",
+          "leaves_frame"
+        ],
+        "confusion_matrix": {
+          "fully_hidden": {
+            "fully_hidden": 1,
+            "leaves_frame": 23
+          },
+          "leaves_frame": {
+            "fully_hidden": 0,
+            "leaves_frame": 9
+          }
+        },
+        "per_class_recall": {
+          "fully_hidden": 0.041666666666666664,
+          "leaves_frame": 1.0
+        },
+        "true_distribution": {
+          "leaves_frame": 9,
+          "fully_hidden": 24
+        },
+        "predicted_distribution": {
+          "leaves_frame": 32,
+          "fully_hidden": 1
+        },
+        "metrics_note": "Balanced accuracy averages recalls over true classes present; 0/1/invalid outputs remain errors. Kappa includes their prediction marginals; no legal-answer filtering."
+      },
+      "official_B-events": {
+        "n": 33,
+        "correct": 12,
+        "accuracy": 0.36363636363636365,
+        "balanced_accuracy": 0.5625,
+        "kappa": 0.07228915662650603,
+        "truth_rows": [
+          "fully_hidden",
+          "leaves_frame"
+        ],
+        "prediction_columns": [
+          "fully_hidden",
+          "leaves_frame"
+        ],
+        "confusion_matrix": {
+          "fully_hidden": {
+            "fully_hidden": 3,
+            "leaves_frame": 21
+          },
+          "leaves_frame": {
+            "fully_hidden": 0,
+            "leaves_frame": 9
+          }
+        },
+        "per_class_recall": {
+          "fully_hidden": 0.125,
+          "leaves_frame": 1.0
+        },
+        "true_distribution": {
+          "leaves_frame": 9,
+          "fully_hidden": 24
+        },
+        "predicted_distribution": {
+          "leaves_frame": 30,
+          "fully_hidden": 3
+        },
+        "metrics_note": "Balanced accuracy averages recalls over true classes present; 0/1/invalid outputs remain errors. Kappa includes their prediction marginals; no legal-answer filtering."
+      },
+      "reasoning_B-events": {
+        "n": 33,
+        "correct": 10,
+        "accuracy": 0.30303030303030304,
+        "balanced_accuracy": 0.4861111111111111,
+        "kappa": 0.062962962962963,
+        "truth_rows": [
+          "fully_hidden",
+          "leaves_frame"
+        ],
+        "prediction_columns": [
+          "fully_hidden",
+          "leaves_frame",
+          "invalid"
+        ],
+        "confusion_matrix": {
+          "fully_hidden": {
+            "fully_hidden": 2,
+            "leaves_frame": 15,
+            "invalid": 7
+          },
+          "leaves_frame": {
+            "fully_hidden": 1,
+            "leaves_frame": 8,
+            "invalid": 0
+          }
+        },
+        "per_class_recall": {
+          "fully_hidden": 0.08333333333333333,
+          "leaves_frame": 0.8888888888888888
+        },
+        "true_distribution": {
+          "leaves_frame": 9,
+          "fully_hidden": 24
+        },
+        "predicted_distribution": {
+          "leaves_frame": 23,
+          "invalid": 7,
+          "fully_hidden": 3
+        },
+        "metrics_note": "Balanced accuracy averages recalls over true classes present; 0/1/invalid outputs remain errors. Kappa includes their prediction marginals; no legal-answer filtering."
+      },
+      "LoRA_reasoning_B-events": {
+        "n": 33,
+        "status": "not_evaluated_in_this_split; no new inference",
+        "missing": 33
+      }
+    },
+    "test": {
+      "official_A": {
+        "n": 101,
+        "correct": 39,
+        "accuracy": 0.38613861386138615,
+        "balanced_accuracy": 0.4583333333333333,
+        "kappa": -0.06351902173913043,
+        "truth_rows": [
+          "fully_hidden",
+          "leaves_frame"
+        ],
+        "prediction_columns": [
+          "fully_hidden",
+          "leaves_frame"
+        ],
+        "confusion_matrix": {
+          "fully_hidden": {
+            "fully_hidden": 17,
+            "leaves_frame": 51
+          },
+          "leaves_frame": {
+            "fully_hidden": 11,
+            "leaves_frame": 22
+          }
+        },
+        "per_class_recall": {
+          "fully_hidden": 0.25,
+          "leaves_frame": 0.6666666666666666
+        },
+        "true_distribution": {
+          "fully_hidden": 68,
+          "leaves_frame": 33
+        },
+        "predicted_distribution": {
+          "fully_hidden": 28,
+          "leaves_frame": 73
+        },
+        "metrics_note": "Balanced accuracy averages recalls over true classes present; 0/1/invalid outputs remain errors. Kappa includes their prediction marginals; no legal-answer filtering."
+      },
+      "official_B": {
+        "n": 101,
+        "correct": 37,
+        "accuracy": 0.36633663366336633,
+        "balanced_accuracy": 0.5294117647058824,
+        "kappa": 0.03923900118906066,
+        "truth_rows": [
+          "fully_hidden",
+          "leaves_frame"
+        ],
+        "prediction_columns": [
+          "fully_hidden",
+          "leaves_frame"
+        ],
+        "confusion_matrix": {
+          "fully_hidden": {
+            "fully_hidden": 4,
+            "leaves_frame": 64
+          },
+          "leaves_frame": {
+            "fully_hidden": 0,
+            "leaves_frame": 33
+          }
+        },
+        "per_class_recall": {
+          "fully_hidden": 0.058823529411764705,
+          "leaves_frame": 1.0
+        },
+        "true_distribution": {
+          "fully_hidden": 68,
+          "leaves_frame": 33
+        },
+        "predicted_distribution": {
+          "leaves_frame": 97,
+          "fully_hidden": 4
+        },
+        "metrics_note": "Balanced accuracy averages recalls over true classes present; 0/1/invalid outputs remain errors. Kappa includes their prediction marginals; no legal-answer filtering."
+      },
+      "official_B-events": {
+        "n": 101,
+        "correct": 36,
+        "accuracy": 0.3564356435643564,
+        "balanced_accuracy": 0.5142602495543672,
+        "kappa": 0.01912445838936202,
+        "truth_rows": [
+          "fully_hidden",
+          "leaves_frame"
+        ],
+        "prediction_columns": [
+          "fully_hidden",
+          "leaves_frame"
+        ],
+        "confusion_matrix": {
+          "fully_hidden": {
+            "fully_hidden": 4,
+            "leaves_frame": 64
+          },
+          "leaves_frame": {
+            "fully_hidden": 1,
+            "leaves_frame": 32
+          }
+        },
+        "per_class_recall": {
+          "fully_hidden": 0.058823529411764705,
+          "leaves_frame": 0.9696969696969697
+        },
+        "true_distribution": {
+          "fully_hidden": 68,
+          "leaves_frame": 33
+        },
+        "predicted_distribution": {
+          "leaves_frame": 96,
+          "fully_hidden": 5
+        },
+        "metrics_note": "Balanced accuracy averages recalls over true classes present; 0/1/invalid outputs remain errors. Kappa includes their prediction marginals; no legal-answer filtering."
+      },
+      "reasoning_B-events": {
+        "n": 101,
+        "correct": 29,
+        "accuracy": 0.2871287128712871,
+        "balanced_accuracy": 0.40040106951871657,
+        "kappa": 0.028197247093411724,
+        "truth_rows": [
+          "fully_hidden",
+          "leaves_frame"
+        ],
+        "prediction_columns": [
+          "fully_hidden",
+          "leaves_frame",
+          "invalid"
+        ],
+        "confusion_matrix": {
+          "fully_hidden": {
+            "fully_hidden": 5,
+            "leaves_frame": 46,
+            "invalid": 17
+          },
+          "leaves_frame": {
+            "fully_hidden": 1,
+            "leaves_frame": 24,
+            "invalid": 8
+          }
+        },
+        "per_class_recall": {
+          "fully_hidden": 0.07352941176470588,
+          "leaves_frame": 0.7272727272727273
+        },
+        "true_distribution": {
+          "fully_hidden": 68,
+          "leaves_frame": 33
+        },
+        "predicted_distribution": {
+          "leaves_frame": 70,
+          "invalid": 25,
+          "fully_hidden": 6
+        },
+        "metrics_note": "Balanced accuracy averages recalls over true classes present; 0/1/invalid outputs remain errors. Kappa includes their prediction marginals; no legal-answer filtering."
+      },
+      "LoRA_reasoning_B-events": {
+        "n": 101,
+        "correct": 40,
+        "accuracy": 0.39603960396039606,
+        "balanced_accuracy": 0.4266934046345811,
+        "kappa": 0.057374541003672,
+        "truth_rows": [
+          "fully_hidden",
+          "leaves_frame"
+        ],
+        "prediction_columns": [
+          "fully_hidden",
+          "leaves_frame",
+          "invalid"
+        ],
+        "confusion_matrix": {
+          "fully_hidden": {
+            "fully_hidden": 23,
+            "leaves_frame": 24,
+            "invalid": 21
+          },
+          "leaves_frame": {
+            "fully_hidden": 11,
+            "leaves_frame": 17,
+            "invalid": 5
+          }
+        },
+        "per_class_recall": {
+          "fully_hidden": 0.3382352941176471,
+          "leaves_frame": 0.5151515151515151
+        },
+        "true_distribution": {
+          "fully_hidden": 68,
+          "leaves_frame": 33
+        },
+        "predicted_distribution": {
+          "leaves_frame": 41,
+          "fully_hidden": 34,
+          "invalid": 26
+        },
+        "metrics_note": "Balanced accuracy averages recalls over true classes present; 0/1/invalid outputs remain errors. Kappa includes their prediction marginals; no legal-answer filtering."
+      }
+    }
+  },
+  "RD_edge_records": [
+    {
+      "scope": "dev",
+      "qa_id": "13a41b8c6b50",
+      "video_id": "charades_3L3LC",
+      "query": "red fire extinguisher",
+      "before_timestamp": 3.8,
+      "before_box_xyxy": [
+        225.25,
+        63.5,
+        233.625,
+        84.5
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "fully_hidden",
+      "terminal": false
+    },
+    {
+      "scope": "dev",
+      "qa_id": "13ad81807fa0",
+      "video_id": "perception_test_video_3593",
+      "query": "yellow plastic cup",
+      "before_timestamp": 0.2,
+      "before_box_xyxy": [
+        702.0,
+        646.0,
+        1047.0,
+        934.0
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "fully_hidden",
+      "terminal": false
+    },
+    {
+      "scope": "dev",
+      "qa_id": "159ef612d3ef",
+      "video_id": "charades_1440M",
+      "query": "white pillow",
+      "before_timestamp": 1.4,
+      "before_box_xyxy": [
+        47.6875,
+        67.75,
+        176.75,
+        478.75
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "leaves_frame",
+      "terminal": false
+    },
+    {
+      "scope": "dev",
+      "qa_id": "2d60b5a05f2b",
+      "video_id": "charades_94HB1",
+      "query": "blue plastic chair",
+      "before_timestamp": 1.6,
+      "before_box_xyxy": [
+        0.05859375,
+        35.65625,
+        174.125,
+        270.0
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "leaves_frame",
+      "terminal": false
+    },
+    {
+      "scope": "dev",
+      "qa_id": "3850789009dc",
+      "video_id": "charades_B6HUA",
+      "query": "black phone",
+      "before_timestamp": 3.8,
+      "before_box_xyxy": [
+        208.125,
+        132.375,
+        235.625,
+        177.375
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "leaves_frame",
+      "terminal": false
+    },
+    {
+      "scope": "dev",
+      "qa_id": "406726a06e80",
+      "video_id": "perception_test_video_5320",
+      "query": "book on patterned cloth",
+      "before_timestamp": 3.4,
+      "before_box_xyxy": [
+        422.0,
+        195.875,
+        944.0,
+        1051.0
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "fully_hidden",
+      "terminal": false
+    },
+    {
+      "scope": "dev",
+      "qa_id": "5d6529738f63",
+      "video_id": "charades_6G96Q",
+      "query": "wooden cabinets",
+      "before_timestamp": 33.6,
+      "before_box_xyxy": [
+        73.125,
+        181.875,
+        155.75,
+        269.75
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "fully_hidden",
+      "terminal": false
+    },
+    {
+      "scope": "dev",
+      "qa_id": "5f102bd2f014",
+      "video_id": "charades_VMI2D",
+      "query": "blue mop handle",
+      "before_timestamp": 3.0,
+      "before_box_xyxy": [
+        228.375,
+        32.0,
+        359.75,
+        479.5
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "fully_hidden",
+      "terminal": false
+    },
+    {
+      "scope": "dev",
+      "qa_id": "623d0795d174",
+      "video_id": "perception_test_video_4744",
+      "query": "key ring",
+      "before_timestamp": 19.4,
+      "before_box_xyxy": [
+        929.0,
+        396.25,
+        993.5,
+        436.5
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "fully_hidden",
+      "terminal": false
+    },
+    {
+      "scope": "dev",
+      "qa_id": "757370c61467",
+      "video_id": "perception_test_video_10287",
+      "query": "blue marker pen",
+      "before_timestamp": 20.8,
+      "before_box_xyxy": [
+        1623.0,
+        338.0,
+        1891.0,
+        983.0
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "fully_hidden",
+      "terminal": false
+    },
+    {
+      "scope": "dev",
+      "qa_id": "8c547a7c18ff",
+      "video_id": "charades_GBD1Y",
+      "query": "hanging clothes",
+      "before_timestamp": 14.2,
+      "before_box_xyxy": [
+        11.078125,
+        1.0546875,
+        245.5,
+        477.5
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "fully_hidden",
+      "terminal": false
+    },
+    {
+      "scope": "dev",
+      "qa_id": "8ca7d26ca10f",
+      "video_id": "perception_test_video_5503",
+      "query": "hand",
+      "before_timestamp": 6.8,
+      "before_box_xyxy": [
+        1106.0,
+        460.5,
+        1370.0,
+        678.5
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "leaves_frame",
+      "terminal": false
+    },
+    {
+      "scope": "dev",
+      "qa_id": "8f371502728a",
+      "video_id": "charades_9S0QC",
+      "query": "green patterned mat",
+      "before_timestamp": 7.6,
+      "before_box_xyxy": [
+        0.1171875,
+        64.0,
+        472.75,
+        269.75
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "leaves_frame",
+      "terminal": false
+    },
+    {
+      "scope": "dev",
+      "qa_id": "92c1d693a460",
+      "video_id": "perception_test_video_2749",
+      "query": "bread slice",
+      "before_timestamp": 2.6,
+      "before_box_xyxy": [
+        711.5,
+        233.125,
+        1202.0,
+        465.25
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "fully_hidden",
+      "terminal": false
+    },
+    {
+      "scope": "dev",
+      "qa_id": "9c3eb2c7688d",
+      "video_id": "perception_test_video_5280",
+      "query": "knife",
+      "before_timestamp": 6.6,
+      "before_box_xyxy": [
+        1293.0,
+        360.25,
+        1496.0,
+        754.5
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "fully_hidden",
+      "terminal": false
+    },
+    {
+      "scope": "dev",
+      "qa_id": "9e409446f0d2",
+      "video_id": "perception_test_video_6062",
+      "query": "scissors",
+      "before_timestamp": 11.8,
+      "before_box_xyxy": [
+        810.5,
+        633.5,
+        881.0,
+        668.5
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "fully_hidden",
+      "terminal": true
+    },
+    {
+      "scope": "dev",
+      "qa_id": "9e4b3b397bf2",
+      "video_id": "charades_U588C",
+      "query": "palm tree leaves",
+      "before_timestamp": 4.2,
+      "before_box_xyxy": [
+        0.234375,
+        0.17578125,
+        147.125,
+        140.375
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "fully_hidden",
+      "terminal": false
+    },
+    {
+      "scope": "dev",
+      "qa_id": "a55d47c8e367",
+      "video_id": "perception_test_video_3076",
+      "query": "husky dog",
+      "before_timestamp": 5.8,
+      "before_box_xyxy": [
+        1097.0,
+        342.25,
+        1273.0,
+        717.0
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "fully_hidden",
+      "terminal": false
+    },
+    {
+      "scope": "dev",
+      "qa_id": "ac1c44179121",
+      "video_id": "perception_test_video_373",
+      "query": "black wallet",
+      "before_timestamp": 0.8,
+      "before_box_xyxy": [
+        707.0,
+        572.0,
+        995.0,
+        793.5
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "fully_hidden",
+      "terminal": false
+    },
+    {
+      "scope": "dev",
+      "qa_id": "afd393dc6074",
+      "video_id": "charades_PKEZI",
+      "query": "flower vase",
+      "before_timestamp": 27.0,
+      "before_box_xyxy": [
+        0.0,
+        126.8125,
+        251.625,
+        355.5
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "leaves_frame",
+      "terminal": true
+    },
+    {
+      "scope": "dev",
+      "qa_id": "c99c41e3c9e7",
+      "video_id": "charades_GGAN0",
+      "query": "wooden cabinet",
+      "before_timestamp": 9.0,
+      "before_box_xyxy": [
+        18.96875,
+        129.375,
+        73.4375,
+        231.5
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "fully_hidden",
+      "terminal": false
+    },
+    {
+      "scope": "dev",
+      "qa_id": "cd58e49a3daa",
+      "video_id": "charades_DVT6L",
+      "query": "towel ring",
+      "before_timestamp": 2.6,
+      "before_box_xyxy": [
+        129.0,
+        211.0,
+        244.125,
+        439.25
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "fully_hidden",
+      "terminal": false
+    },
+    {
+      "scope": "dev",
+      "qa_id": "d230ded2d8dc",
+      "video_id": "charades_COFJV",
+      "query": "black pants",
+      "before_timestamp": 4.2,
+      "before_box_xyxy": [
+        105.125,
+        177.0,
+        222.375,
+        374.75
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "fully_hidden",
+      "terminal": false
+    },
+    {
+      "scope": "dev",
+      "qa_id": "d6612ec78f3f",
+      "video_id": "perception_test_video_7778",
+      "query": "black cable",
+      "before_timestamp": 8.0,
+      "before_box_xyxy": [
+        191.25,
+        123.9375,
+        778.5,
+        565.5
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "fully_hidden",
+      "terminal": true
+    },
+    {
+      "scope": "dev",
+      "qa_id": "d6ca723faa05",
+      "video_id": "perception_test_video_8582",
+      "query": "plastic jug",
+      "before_timestamp": 4.6,
+      "before_box_xyxy": [
+        447.5,
+        0.59375,
+        747.5,
+        192.75
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "fully_hidden",
+      "terminal": false
+    },
+    {
+      "scope": "dev",
+      "qa_id": "f3dd33830122",
+      "video_id": "perception_test_video_612",
+      "query": "hand",
+      "before_timestamp": 18.8,
+      "before_box_xyxy": [
+        870.0,
+        71.875,
+        891.0,
+        179.25
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "fully_hidden",
+      "terminal": true
+    },
+    {
+      "scope": "dev",
+      "qa_id": "f5d86d1c164f",
+      "video_id": "charades_JKWJ6",
+      "query": "television",
+      "before_timestamp": 13.6,
+      "before_box_xyxy": [
+        121.6875,
+        26.4375,
+        217.5,
+        109.0625
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "leaves_frame",
+      "terminal": false
+    },
+    {
+      "scope": "test",
+      "qa_id": "0893a25082de",
+      "video_id": "perception_test_video_10764",
+      "query": "ring",
+      "before_timestamp": 13.2,
+      "before_box_xyxy": [
+        963.0,
+        550.5,
+        987.5,
+        595.5
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "fully_hidden",
+      "terminal": false
+    },
+    {
+      "scope": "test",
+      "qa_id": "093589b84207",
+      "video_id": "perception_test_video_9981",
+      "query": "glass cup",
+      "before_timestamp": 5.8,
+      "before_box_xyxy": [
+        849.0,
+        518.0,
+        1084.0,
+        795.0
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "fully_hidden",
+      "terminal": false
+    },
+    {
+      "scope": "test",
+      "qa_id": "09ecc5ba1b9b",
+      "video_id": "perception_test_video_8872",
+      "query": "black leather couch",
+      "before_timestamp": 4.8,
+      "before_box_xyxy": [
+        1.25,
+        27.234375,
+        876.5,
+        490.0
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "fully_hidden",
+      "terminal": false
+    },
+    {
+      "scope": "test",
+      "qa_id": "1299999226de",
+      "video_id": "perception_test_video_6013",
+      "query": "tomato slices",
+      "before_timestamp": 28.2,
+      "before_box_xyxy": [
+        269.25,
+        271.25,
+        431.75,
+        398.5
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "fully_hidden",
+      "terminal": false
+    },
+    {
+      "scope": "test",
+      "qa_id": "13b4b9c339ff",
+      "video_id": "charades_44Q8A",
+      "query": "white mug",
+      "before_timestamp": 24.6,
+      "before_box_xyxy": [
+        283.75,
+        123.75,
+        303.0,
+        144.75
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "fully_hidden",
+      "terminal": false
+    },
+    {
+      "scope": "test",
+      "qa_id": "178a97c34031",
+      "video_id": "charades_BYSQ7",
+      "query": "white door",
+      "before_timestamp": 25.0,
+      "before_box_xyxy": [
+        111.875,
+        169.625,
+        177.0,
+        356.25
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "fully_hidden",
+      "terminal": false
+    },
+    {
+      "scope": "test",
+      "qa_id": "1826ee37c8b4",
+      "video_id": "perception_test_video_5549",
+      "query": "small eye drop bottle",
+      "before_timestamp": 9.0,
+      "before_box_xyxy": [
+        576.5,
+        668.5,
+        666.5,
+        921.5
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "fully_hidden",
+      "terminal": true
+    },
+    {
+      "scope": "test",
+      "qa_id": "182c9fb2d168",
+      "video_id": "charades_FDU31",
+      "query": "white trash can",
+      "before_timestamp": 0.2,
+      "before_box_xyxy": [
+        18.46875,
+        275.75,
+        109.8125,
+        383.5
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "fully_hidden",
+      "terminal": false
+    },
+    {
+      "scope": "test",
+      "qa_id": "1924c14f48a6",
+      "video_id": "charades_FRSBQ",
+      "query": "red patterned curtain",
+      "before_timestamp": 6.6,
+      "before_box_xyxy": [
+        240.5,
+        0.9375,
+        360.0,
+        338.5
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "leaves_frame",
+      "terminal": false
+    },
+    {
+      "scope": "test",
+      "qa_id": "1c1f2c3175be",
+      "video_id": "perception_test_video_1296",
+      "query": "red packet",
+      "before_timestamp": 19.8,
+      "before_box_xyxy": [
+        230.375,
+        116.0625,
+        469.25,
+        443.25
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "fully_hidden",
+      "terminal": false
+    },
+    {
+      "scope": "test",
+      "qa_id": "20c7636a71a1",
+      "video_id": "charades_XHQT1",
+      "query": "black bag",
+      "before_timestamp": 0.8,
+      "before_box_xyxy": [
+        400.25,
+        93.25,
+        464.75,
+        309.25
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "fully_hidden",
+      "terminal": false
+    },
+    {
+      "scope": "test",
+      "qa_id": "22cd8d7961ed",
+      "video_id": "charades_WJ13E",
+      "query": "soap bottle",
+      "before_timestamp": 1.6,
+      "before_box_xyxy": [
+        459.25,
+        195.5,
+        480.0,
+        240.75
+      ],
+      "near_edge": true,
+      "rule_class": "leaves_frame",
+      "truth_class": "fully_hidden",
+      "terminal": false
+    },
+    {
+      "scope": "test",
+      "qa_id": "24773ab677ad",
+      "video_id": "charades_Y4IIO",
+      "query": "microwave",
+      "before_timestamp": 19.0,
+      "before_box_xyxy": [
+        187.0,
+        323.5,
+        236.25,
+        374.0
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "fully_hidden",
+      "terminal": false
+    },
+    {
+      "scope": "test",
+      "qa_id": "2683b0ff6699",
+      "video_id": "perception_test_video_3495",
+      "query": "red remote control",
+      "before_timestamp": 4.2,
+      "before_box_xyxy": [
+        24.84375,
+        529.5,
+        456.25,
+        600.5
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "fully_hidden",
+      "terminal": true
+    },
+    {
+      "scope": "test",
+      "qa_id": "2d440264b7c2",
+      "video_id": "perception_test_video_5504",
+      "query": "arugula",
+      "before_timestamp": 2.8,
+      "before_box_xyxy": [
+        900.0,
+        565.5,
+        1345.0,
+        783.5
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "fully_hidden",
+      "terminal": false
+    },
+    {
+      "scope": "test",
+      "qa_id": "2ef03425bdbe",
+      "video_id": "perception_test_video_9818",
+      "query": "white mug",
+      "before_timestamp": 3.4,
+      "before_box_xyxy": [
+        990.0,
+        321.75,
+        1140.0,
+        533.5
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "fully_hidden",
+      "terminal": false
+    },
+    {
+      "scope": "test",
+      "qa_id": "39e4b6ca2eab",
+      "video_id": "perception_test_video_802",
+      "query": "red wallet",
+      "before_timestamp": 7.6,
+      "before_box_xyxy": [
+        765.0,
+        85.9375,
+        1068.0,
+        467.25
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "fully_hidden",
+      "terminal": false
+    },
+    {
+      "scope": "test",
+      "qa_id": "41bde4f8aab0",
+      "video_id": "perception_test_video_6912",
+      "query": "eggshell",
+      "before_timestamp": 20.8,
+      "before_box_xyxy": [
+        125.9375,
+        360.0,
+        280.75,
+        500.5
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "fully_hidden",
+      "terminal": false
+    },
+    {
+      "scope": "test",
+      "qa_id": "4313f3d7d450",
+      "video_id": "perception_test_video_4227",
+      "query": "red fingernails",
+      "before_timestamp": 5.2,
+      "before_box_xyxy": [
+        497.25,
+        2.63671875,
+        1567.0,
+        967.0
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "fully_hidden",
+      "terminal": false
+    },
+    {
+      "scope": "test",
+      "qa_id": "46d5db724a2d",
+      "video_id": "charades_G6LYD",
+      "query": "wall outlet",
+      "before_timestamp": 14.8,
+      "before_box_xyxy": [
+        96.75,
+        0.0,
+        125.0,
+        3.10546875
+      ],
+      "near_edge": true,
+      "rule_class": "leaves_frame",
+      "truth_class": "leaves_frame",
+      "terminal": false
+    },
+    {
+      "scope": "test",
+      "qa_id": "48aba2c6fd8e",
+      "video_id": "charades_O5TU5",
+      "query": "picture frame",
+      "before_timestamp": 2.4,
+      "before_box_xyxy": [
+        267.5,
+        27.71875,
+        295.5,
+        69.75
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "fully_hidden",
+      "terminal": false
+    },
+    {
+      "scope": "test",
+      "qa_id": "49659fe18b86",
+      "video_id": "perception_test_video_11424",
+      "query": "blue plastic cap",
+      "before_timestamp": 4.6,
+      "before_box_xyxy": [
+        393.25,
+        46.96875,
+        437.5,
+        87.9375
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "fully_hidden",
+      "terminal": false
+    },
+    {
+      "scope": "test",
+      "qa_id": "4d8170824a73",
+      "video_id": "charades_40NIM",
+      "query": "black wardrobe",
+      "before_timestamp": 17.6,
+      "before_box_xyxy": [
+        0.06591796875,
+        76.3125,
+        120.875,
+        409.75
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "leaves_frame",
+      "terminal": false
+    },
+    {
+      "scope": "test",
+      "qa_id": "53647348bd55",
+      "video_id": "perception_test_video_4679",
+      "query": "tomato slices",
+      "before_timestamp": 5.2,
+      "before_box_xyxy": [
+        1492.0,
+        633.0,
+        1773.0,
+        758.5
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "fully_hidden",
+      "terminal": false
+    },
+    {
+      "scope": "test",
+      "qa_id": "6112a54064ef",
+      "video_id": "perception_test_video_9180",
+      "query": "white plastic lid",
+      "before_timestamp": 1.6,
+      "before_box_xyxy": [
+        1138.0,
+        437.0,
+        1337.0,
+        516.0
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "fully_hidden",
+      "terminal": false
+    },
+    {
+      "scope": "test",
+      "qa_id": "6234bd941fba",
+      "video_id": "charades_WMBOO",
+      "query": "gold bracelet",
+      "before_timestamp": 2.8,
+      "before_box_xyxy": [
+        0.0,
+        0.0,
+        292.5,
+        270.0
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "fully_hidden",
+      "terminal": false
+    },
+    {
+      "scope": "test",
+      "qa_id": "63b5ad032654",
+      "video_id": "perception_test_video_11423",
+      "query": "metal spoon",
+      "before_timestamp": 15.2,
+      "before_box_xyxy": [
+        1339.0,
+        144.875,
+        1496.0,
+        202.375
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "leaves_frame",
+      "terminal": false
+    },
+    {
+      "scope": "test",
+      "qa_id": "64385fff656a",
+      "video_id": "charades_UUF84",
+      "query": "black tv",
+      "before_timestamp": 4.8,
+      "before_box_xyxy": [
+        0.05859375,
+        0.0,
+        121.9375,
+        73.75
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "leaves_frame",
+      "terminal": false
+    },
+    {
+      "scope": "test",
+      "qa_id": "6f5daf002bdc",
+      "video_id": "charades_SWIQN",
+      "query": "dark curtain",
+      "before_timestamp": 1.8,
+      "before_box_xyxy": [
+        459.5,
+        0.0,
+        480.0,
+        270.0
+      ],
+      "near_edge": true,
+      "rule_class": "leaves_frame",
+      "truth_class": "fully_hidden",
+      "terminal": false
+    },
+    {
+      "scope": "test",
+      "qa_id": "6ff6b9bf50ae",
+      "video_id": "charades_GXZHG",
+      "query": "black chair",
+      "before_timestamp": 3.8,
+      "before_box_xyxy": [
+        133.125,
+        150.0,
+        269.75,
+        384.25
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "fully_hidden",
+      "terminal": false
+    },
+    {
+      "scope": "test",
+      "qa_id": "72003818feab",
+      "video_id": "charades_LKNZD",
+      "query": "metal water pot",
+      "before_timestamp": 16.8,
+      "before_box_xyxy": [
+        253.875,
+        253.5,
+        298.25,
+        270.0
+      ],
+      "near_edge": true,
+      "rule_class": "leaves_frame",
+      "truth_class": "fully_hidden",
+      "terminal": false
+    },
+    {
+      "scope": "test",
+      "qa_id": "78c99ec329c4",
+      "video_id": "charades_DZDD2",
+      "query": "brown shoes",
+      "before_timestamp": 1.4,
+      "before_box_xyxy": [
+        296.25,
+        235.875,
+        409.75,
+        269.75
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "fully_hidden",
+      "terminal": false
+    },
+    {
+      "scope": "test",
+      "qa_id": "78f5ef111f70",
+      "video_id": "charades_XJFMW",
+      "query": "decorative mat",
+      "before_timestamp": 2.2,
+      "before_box_xyxy": [
+        1.1875,
+        458.75,
+        269.75,
+        480.0
+      ],
+      "near_edge": true,
+      "rule_class": "leaves_frame",
+      "truth_class": "leaves_frame",
+      "terminal": false
+    },
+    {
+      "scope": "test",
+      "qa_id": "79e261e5e3d2",
+      "video_id": "charades_D260T",
+      "query": "white shelves",
+      "before_timestamp": 13.6,
+      "before_box_xyxy": [
+        0.0,
+        0.0,
+        300.75,
+        136.75
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "fully_hidden",
+      "terminal": false
+    },
+    {
+      "scope": "test",
+      "qa_id": "7a368e283b2d",
+      "video_id": "charades_GMPHO",
+      "query": "wooden closet door",
+      "before_timestamp": 3.2,
+      "before_box_xyxy": [
+        227.75,
+        22.5,
+        295.5,
+        435.5
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "fully_hidden",
+      "terminal": false
+    },
+    {
+      "scope": "test",
+      "qa_id": "7be04f0440e6",
+      "video_id": "charades_C83CH",
+      "query": "green hoodie",
+      "before_timestamp": 4.0,
+      "before_box_xyxy": [
+        197.5,
+        0.32958984375,
+        316.25,
+        269.75
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "fully_hidden",
+      "terminal": false
+    },
+    {
+      "scope": "test",
+      "qa_id": "7c9f8a2deb5a",
+      "video_id": "mose_62pqsed8",
+      "query": "hand",
+      "before_timestamp": 11.2,
+      "before_box_xyxy": [
+        679.5,
+        28.671875,
+        809.5,
+        180.875
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "leaves_frame",
+      "terminal": false
+    },
+    {
+      "scope": "test",
+      "qa_id": "7d04803f98c0",
+      "video_id": "charades_SPJVR",
+      "query": "red chair",
+      "before_timestamp": 9.8,
+      "before_box_xyxy": [
+        338.5,
+        215.0,
+        474.25,
+        359.75
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "leaves_frame",
+      "terminal": false
+    },
+    {
+      "scope": "test",
+      "qa_id": "83986244196e",
+      "video_id": "charades_JCLES",
+      "query": "white wall",
+      "before_timestamp": 9.6,
+      "before_box_xyxy": [
+        256.0,
+        0.058624267578125,
+        392.0,
+        96.125
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "leaves_frame",
+      "terminal": false
+    },
+    {
+      "scope": "test",
+      "qa_id": "862550f41656",
+      "video_id": "perception_test_video_225",
+      "query": "white paper",
+      "before_timestamp": 14.2,
+      "before_box_xyxy": [
+        354.5,
+        418.0,
+        541.5,
+        495.75
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "fully_hidden",
+      "terminal": false
+    },
+    {
+      "scope": "test",
+      "qa_id": "86ce640b3234",
+      "video_id": "charades_VJ0LT",
+      "query": "wooden cabinet",
+      "before_timestamp": 22.8,
+      "before_box_xyxy": [
+        185.875,
+        36.1875,
+        320.0,
+        328.25
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "leaves_frame",
+      "terminal": false
+    },
+    {
+      "scope": "test",
+      "qa_id": "8bf86f62ecea",
+      "video_id": "perception_test_video_6795",
+      "query": "bread slice",
+      "before_timestamp": 16.8,
+      "before_box_xyxy": [
+        1153.0,
+        235.25,
+        1312.0,
+        399.25
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "fully_hidden",
+      "terminal": false
+    },
+    {
+      "scope": "test",
+      "qa_id": "8e2cb6cbf96b",
+      "video_id": "charades_KZTDH",
+      "query": "wooden cabinet",
+      "before_timestamp": 23.8,
+      "before_box_xyxy": [
+        222.0,
+        1.7802734375,
+        296.0,
+        143.0
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "leaves_frame",
+      "terminal": false
+    },
+    {
+      "scope": "test",
+      "qa_id": "932fc9216a1a",
+      "video_id": "charades_X95FK",
+      "query": "black shorts with stripes",
+      "before_timestamp": 12.6,
+      "before_box_xyxy": [
+        60.125,
+        288.5,
+        206.25,
+        408.0
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "fully_hidden",
+      "terminal": false
+    },
+    {
+      "scope": "test",
+      "qa_id": "98ea35d9d5c6",
+      "video_id": "charades_I1CS8",
+      "query": "silver faucet",
+      "before_timestamp": 3.6,
+      "before_box_xyxy": [
+        216.875,
+        232.625,
+        373.5,
+        316.25
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "leaves_frame",
+      "terminal": false
+    },
+    {
+      "scope": "test",
+      "qa_id": "99a1a01ccde6",
+      "video_id": "charades_D8OSC",
+      "query": "light switch",
+      "before_timestamp": 18.2,
+      "before_box_xyxy": [
+        278.0,
+        67.1875,
+        288.75,
+        88.0625
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "fully_hidden",
+      "terminal": false
+    },
+    {
+      "scope": "test",
+      "qa_id": "9e5c44170f80",
+      "video_id": "charades_1SKLG",
+      "query": "white towel",
+      "before_timestamp": 2.0,
+      "before_box_xyxy": [
+        100.125,
+        0.0,
+        320.0,
+        479.5
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "leaves_frame",
+      "terminal": false
+    },
+    {
+      "scope": "test",
+      "qa_id": "9f16296d2ad9",
+      "video_id": "charades_7FQ5Q",
+      "query": "pink wall",
+      "before_timestamp": 10.0,
+      "before_box_xyxy": [
+        92.375,
+        0.0,
+        480.0,
+        270.0
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "leaves_frame",
+      "terminal": false
+    },
+    {
+      "scope": "test",
+      "qa_id": "a0065696e668",
+      "video_id": "charades_G5LEA",
+      "query": "wooden cabinet",
+      "before_timestamp": 7.4,
+      "before_box_xyxy": [
+        182.875,
+        64.8125,
+        351.25,
+        224.25
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "leaves_frame",
+      "terminal": false
+    },
+    {
+      "scope": "test",
+      "qa_id": "a9e789af44b0",
+      "video_id": "charades_N67PL",
+      "query": "metal plate",
+      "before_timestamp": 25.8,
+      "before_box_xyxy": [
+        144.125,
+        251.375,
+        239.25,
+        270.0
+      ],
+      "near_edge": true,
+      "rule_class": "leaves_frame",
+      "truth_class": "leaves_frame",
+      "terminal": true
+    },
+    {
+      "scope": "test",
+      "qa_id": "ad8e898830eb",
+      "video_id": "charades_9AC1T",
+      "query": "old man in red coat",
+      "before_timestamp": 3.4,
+      "before_box_xyxy": [
+        186.25,
+        143.75,
+        301.0,
+        419.5
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "fully_hidden",
+      "terminal": false
+    },
+    {
+      "scope": "test",
+      "qa_id": "b0826b43eb3c",
+      "video_id": "charades_M0KTN",
+      "query": "plaid shorts",
+      "before_timestamp": 1.2,
+      "before_box_xyxy": [
+        0.1318359375,
+        216.625,
+        183.75,
+        391.5
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "leaves_frame",
+      "terminal": false
+    },
+    {
+      "scope": "test",
+      "qa_id": "b3a7aa28c2b1",
+      "video_id": "charades_BWZL2",
+      "query": "yellow plastic bag",
+      "before_timestamp": 5.8,
+      "before_box_xyxy": [
+        358.75,
+        143.5,
+        369.0,
+        176.75
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "fully_hidden",
+      "terminal": false
+    },
+    {
+      "scope": "test",
+      "qa_id": "b9333e85930e",
+      "video_id": "charades_CS01T",
+      "query": "hand",
+      "before_timestamp": 0.6,
+      "before_box_xyxy": [
+        157.125,
+        0.0,
+        322.5,
+        269.75
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "fully_hidden",
+      "terminal": false
+    },
+    {
+      "scope": "test",
+      "qa_id": "bbd62db9f9eb",
+      "video_id": "perception_test_video_11415",
+      "query": "green fruit",
+      "before_timestamp": 14.4,
+      "before_box_xyxy": [
+        1068.0,
+        144.0,
+        1176.0,
+        218.625
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "fully_hidden",
+      "terminal": true
+    },
+    {
+      "scope": "test",
+      "qa_id": "c0a6f88dff62",
+      "video_id": "perception_test_video_6015",
+      "query": "white kotex package",
+      "before_timestamp": 7.4,
+      "before_box_xyxy": [
+        497.25,
+        188.875,
+        1050.0,
+        740.5
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "fully_hidden",
+      "terminal": false
+    },
+    {
+      "scope": "test",
+      "qa_id": "c3dfa6fd780d",
+      "video_id": "charades_WNSGZ",
+      "query": "mirror",
+      "before_timestamp": 8.8,
+      "before_box_xyxy": [
+        0.0,
+        0.0,
+        480.0,
+        270.0
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "fully_hidden",
+      "terminal": false
+    },
+    {
+      "scope": "test",
+      "qa_id": "c5d7c178cb3e",
+      "video_id": "charades_Y4MW3",
+      "query": "laptop",
+      "before_timestamp": 2.6,
+      "before_box_xyxy": [
+        0.0292816162109375,
+        235.125,
+        74.0,
+        318.0
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "leaves_frame",
+      "terminal": false
+    },
+    {
+      "scope": "test",
+      "qa_id": "c9467b76f345",
+      "video_id": "perception_test_video_3316",
+      "query": "yellow paper",
+      "before_timestamp": 2.6,
+      "before_box_xyxy": [
+        503.75,
+        454.25,
+        875.0,
+        631.0
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "fully_hidden",
+      "terminal": false
+    },
+    {
+      "scope": "test",
+      "qa_id": "ce78c6eb3fe1",
+      "video_id": "charades_M2T77",
+      "query": "white plastic chair",
+      "before_timestamp": 5.8,
+      "before_box_xyxy": [
+        48.6875,
+        160.0,
+        118.1875,
+        269.75
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "fully_hidden",
+      "terminal": false
+    },
+    {
+      "scope": "test",
+      "qa_id": "d5664374c2fe",
+      "video_id": "charades_DM2XL",
+      "query": "white railing",
+      "before_timestamp": 5.4,
+      "before_box_xyxy": [
+        69.75,
+        114.875,
+        269.75,
+        478.75
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "leaves_frame",
+      "terminal": false
+    },
+    {
+      "scope": "test",
+      "qa_id": "d694bbfeca75",
+      "video_id": "charades_UY08H",
+      "query": "paint can",
+      "before_timestamp": 1.0,
+      "before_box_xyxy": [
+        333.75,
+        210.25,
+        363.75,
+        246.375
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "fully_hidden",
+      "terminal": false
+    },
+    {
+      "scope": "test",
+      "qa_id": "d69bd17512b5",
+      "video_id": "perception_test_video_11514",
+      "query": "green toothbrush",
+      "before_timestamp": 7.8,
+      "before_box_xyxy": [
+        1105.0,
+        654.0,
+        1177.0,
+        690.0
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "fully_hidden",
+      "terminal": false
+    },
+    {
+      "scope": "test",
+      "qa_id": "d6cb083659f7",
+      "video_id": "perception_test_video_6751",
+      "query": "battery",
+      "before_timestamp": 2.8,
+      "before_box_xyxy": [
+        1178.0,
+        528.0,
+        1918.0,
+        947.5
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "fully_hidden",
+      "terminal": false
+    },
+    {
+      "scope": "test",
+      "qa_id": "d79f1e112da3",
+      "video_id": "charades_D0Q6H",
+      "query": "black shoe rack",
+      "before_timestamp": 5.8,
+      "before_box_xyxy": [
+        0.0,
+        52.03125,
+        199.125,
+        269.5
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "leaves_frame",
+      "terminal": false
+    },
+    {
+      "scope": "test",
+      "qa_id": "d997a3c85a53",
+      "video_id": "mose_f9oeua6y",
+      "query": "hand",
+      "before_timestamp": 0.4,
+      "before_box_xyxy": [
+        1285.0,
+        274.75,
+        1494.0,
+        605.0
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "fully_hidden",
+      "terminal": false
+    },
+    {
+      "scope": "test",
+      "qa_id": "debe408b5d9a",
+      "video_id": "charades_8DL54",
+      "query": "orange bucket",
+      "before_timestamp": 7.0,
+      "before_box_xyxy": [
+        302.75,
+        226.125,
+        320.5,
+        290.5
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "fully_hidden",
+      "terminal": false
+    },
+    {
+      "scope": "test",
+      "qa_id": "e28143b52d91",
+      "video_id": "charades_NLXQE",
+      "query": "silver pot",
+      "before_timestamp": 6.6,
+      "before_box_xyxy": [
+        0.0,
+        195.875,
+        17.671875,
+        227.5
+      ],
+      "near_edge": true,
+      "rule_class": "leaves_frame",
+      "truth_class": "fully_hidden",
+      "terminal": false
+    },
+    {
+      "scope": "test",
+      "qa_id": "e6bb2181a161",
+      "video_id": "perception_test_video_9435",
+      "query": "glass bottle",
+      "before_timestamp": 5.0,
+      "before_box_xyxy": [
+        1378.0,
+        257.25,
+        1725.0,
+        442.75
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "leaves_frame",
+      "terminal": false
+    },
+    {
+      "scope": "test",
+      "qa_id": "edaadd40ee46",
+      "video_id": "charades_ZS9IX",
+      "query": "white door",
+      "before_timestamp": 17.4,
+      "before_box_xyxy": [
+        159.125,
+        0.1318359375,
+        363.0,
+        199.5
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "leaves_frame",
+      "terminal": false
+    },
+    {
+      "scope": "test",
+      "qa_id": "f1b10d1d8690",
+      "video_id": "charades_3P8NL",
+      "query": "hand",
+      "before_timestamp": 10.0,
+      "before_box_xyxy": [
+        218.5,
+        47.65625,
+        443.0,
+        204.75
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "fully_hidden",
+      "terminal": false
+    },
+    {
+      "scope": "test",
+      "qa_id": "f1fcd6bfb421",
+      "video_id": "charades_G6K7T",
+      "query": "metal pot",
+      "before_timestamp": 17.4,
+      "before_box_xyxy": [
+        0.0,
+        269.5,
+        139.25,
+        297.0
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "fully_hidden",
+      "terminal": false
+    },
+    {
+      "scope": "test",
+      "qa_id": "f6db37251836",
+      "video_id": "perception_test_video_4564",
+      "query": "white shirt",
+      "before_timestamp": 6.8,
+      "before_box_xyxy": [
+        1.5625,
+        0.703125,
+        949.0,
+        582.5
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "leaves_frame",
+      "terminal": false
+    },
+    {
+      "scope": "test",
+      "qa_id": "fe2bb63cd75b",
+      "video_id": "charades_78FJX",
+      "query": "glasses",
+      "before_timestamp": 4.0,
+      "before_box_xyxy": [
+        0.0,
+        126.3125,
+        12.4453125,
+        171.375
+      ],
+      "near_edge": true,
+      "rule_class": "leaves_frame",
+      "truth_class": "leaves_frame",
+      "terminal": false
+    },
+    {
+      "scope": "test",
+      "qa_id": "ff569d6320f5",
+      "video_id": "perception_test_video_9148",
+      "query": "yellow highlighter",
+      "before_timestamp": 7.4,
+      "before_box_xyxy": [
+        472.5,
+        458.75,
+        582.0,
+        608.0
+      ],
+      "near_edge": false,
+      "rule_class": "fully_hidden",
+      "truth_class": "fully_hidden",
+      "terminal": false
+    }
+  ],
+  "RD_routing_prior_decomposition": {
+    "dev": {
+      "rule_covered": {
+        "n": 27,
+        "official_A": 12,
+        "frozen_rule": 20,
+        "majority_blind": 20,
+        "route": 20
+      },
+      "rule_uncovered": {
+        "n": 6,
+        "official_A": 3,
+        "frozen_rule": 0,
+        "majority_blind": 4,
+        "route": 3
+      },
+      "all": {
+        "n": 33,
+        "official_A": 15,
+        "frozen_rule": 20,
+        "majority_blind": 24,
+        "route": 23
+      }
+    },
+    "test": {
+      "rule_covered": {
+        "n": 75,
+        "official_A": 27,
+        "frozen_rule": 51,
+        "majority_blind": 51,
+        "route": 51
+      },
+      "rule_uncovered": {
+        "n": 26,
+        "official_A": 12,
+        "frozen_rule": 0,
+        "majority_blind": 17,
+        "route": 12
+      },
+      "all": {
+        "n": 101,
+        "official_A": 39,
+        "frozen_rule": 51,
+        "majority_blind": 68,
+        "route": 63
+      }
+    }
+  },
+  "source_prediction_sha256": {
+    "official_A": "70eb8a7338b42a2621a57ece63308a9cf8efb0b5f148c87a80376e0ccead0b05",
+    "official_B": "b1f0468be15c7b1418155718337a3d8a9823df06cc225ad1f8a3eb4c7a2f9a7b",
+    "official_B-events": "0c2b8c4898688301bfc682f1f5b0794312e858411b0901d7b01e2aefed94a1c1",
+    "reasoning_B-events": "e91a63ab17126eaeef93d2f9f3ddfc54994fe26e4d5ee1e98eecf1d8b2d6c6bc",
+    "LoRA_reasoning_B-events": "fa9b23afcbe8f8a305d880458a216180a4f05d284767ffe633c65bd54a974742"
+  }
+}

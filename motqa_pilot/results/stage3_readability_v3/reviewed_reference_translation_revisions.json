@@ -1,0 +1,7 @@
+{
+  "qa_ids": [
+    "motqa_pilot_r2_0169",
+    "motqa_pilot_r2_0653"
+  ],
+  "reason": "Preserve original user decisions, but a changed event-reference translation requires revision rather than claiming unchanged."
+}

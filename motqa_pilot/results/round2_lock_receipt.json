@@ -1,0 +1,24 @@
+{
+  "created_at": "2026-11-05T23:37:55.994864+08:00",
+  "hashes": {
+    "results/generation_config_locked.json": "0ce27a335341974f84ab638e5244b45a7b5cfd9dea7436604c85be07613776f4",
+    "results/templates_locked.json": "77a2cc0672de63b566e371211f77483dedb4fb8f0c8007bbcfd75cfaf27f178e",
+    "results/stage5_criteria_locked.json": "a0fafa07aa60df8452f476b753da2711082758458541ae0214b5f5596f0925ec"
+  },
+  "previous_config_sha256": "b75ddac560bb71629e37120f97f0c5e23c4b8dddb052e9605d2d750a8fd85166",
+  "pre_generation_template_addition": {
+    "at": "2026-11-05T23:44:48.335270+08:00",
+    "reason": "Add dedicated O6+O1 composition wording; do not reuse the crossing-time question for a region answer. No candidates generated yet.",
+    "previous_sha256": "7134164f10ee7abe90a342d8fa800bb4902bde7963d71c9887b5b6ef80d244a8"
+  },
+  "optional_crop_template_addition": {
+    "at": "2026-11-05T23:48:15.553964+08:00",
+    "previous_sha256": "4cafae51f60fd92f8ce62e99f0cdc5683b02f9e4795a3da190ba8589380ad4e8",
+    "scope": "Lock optional crop-answer wording before constructing optional candidates; existing numeric/box candidate templates unchanged."
+  },
+  "cross_frequency_addition": {
+    "at": "2026-11-06T00:18:58.927791+08:00",
+    "reason": "Implement the O6 crossing-frequency subtype already specified by the original task; no thresholds changed. Point queries must not inherit the4s interval requirement.",
+    "previous_sha256": "2c3a1e9f549b0c245e8bf3d669e08e7500d54437b1b2e30b8e460bab2897de3e"
+  }
+}

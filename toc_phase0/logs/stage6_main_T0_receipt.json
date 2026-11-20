@@ -1,0 +1,10 @@
+{
+  "completed_at": "2026-11-04T10:53:31.596206+08:00",
+  "condition": "T0",
+  "mode": "main",
+  "predictions": 602,
+  "new_predictions": 602,
+  "elapsed_s": 1225.382,
+  "output": "/data2/user/toc_phase0/results/stage6/main_T0_predictions.jsonl",
+  "sha256": "e04474a819033acc0b61189869327fcbfa54c217a687c74b28c152d73e94a3ad"
+}

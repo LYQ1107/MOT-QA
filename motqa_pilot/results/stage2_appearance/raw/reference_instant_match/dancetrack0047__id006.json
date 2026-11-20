@@ -1,0 +1,71 @@
+{
+  "unit_key": "dancetrack0047__id006",
+  "sequence": "dancetrack0047",
+  "gt_id": 6,
+  "phase": "reference_instant_match",
+  "started_at": "2026-11-04T14:13:52.583299+00:00",
+  "completed_at": "2026-11-04T14:14:01.611321+00:00",
+  "seconds": 9.02803887007758,
+  "prompt_text": "At this reference instant, match the following appearance phrase to ALL visible people: \"the person with long dark hair in a low ponytail wearing a black leotard with a sheer mesh overlay and a flared skirt\"\nThe first image is the full frame, with anonymous boxes and labels. The other image(s) are crops of EVERY GT-present person at this SAME instant. Read the central person in each crop; neighboring bodies may overlap. Labels are bookkeeping only. Do not use gallery order, location, pose, or box color as appearance attributes. Include ALL people satisfying the full appearance phrase in matches, and any plausible but obscured/unclear people in uncertain. A partly hidden target whose defining clothing cannot be seen is uncertain. No forced choice; none or several are valid outcomes. Omitted labels mean clear non-matches.\nReturn {\"matches\":[\"P01\"],\"uncertain\":[],\"reason\":\"brief visual explanation\"}. Valid labels: [\"P01\", \"P02\", \"P03\", \"P04\", \"P05\", \"P06\", \"P07\", \"P08\"].",
+  "image_paths": [
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0047/anchor_id006_f000368/full_frame.jpg",
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0047/anchor_id006_f000368/local_gallery_page00.jpg"
+  ],
+  "image_sha256": [
+    "6875f0b14fa86b6329a8f042a449f471346e557eebf08721fdcd2d3fd0364f6b",
+    "2cef145ee00b6865a7ef541eabfe334440de605fd093615590e134cffb63f8ac"
+  ],
+  "response": {
+    "id": "chatcmpl-acb26906ae8af71c",
+    "object": "chat.completion",
+    "created": 1793801632,
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"matches\":[\"P05\"],\"uncertain\":[],\"reason\":\"P05 has long dark hair in a low ponytail and is wearing a black leotard with a sheer mesh overlay and a flared skirt. All other individuals either have different hairstyles (e.g., P01, P02, P03, P04, P06, P07, P08 have shorter or differently styled hair) or their outfits lack the specified sheer mesh overlay and flared skirt combination. P08 is partially obscured but appears to have a similar outfit, but the hair is not clearly in a low ponytail and the mesh overlay is not clearly visible, so she is not included. P05 is the only one who fully matches all specified appearance features.\"}",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 1502,
+      "total_tokens": 1663,
+      "completion_tokens": 161,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "check": {
+    "valid": true,
+    "parsed": {
+      "matches": [
+        "P05"
+      ],
+      "uncertain": [],
+      "reason": "P05 has long dark hair in a low ponytail and is wearing a black leotard with a sheer mesh overlay and a flared skirt. All other individuals either have different hairstyles (e.g., P01, P02, P03, P04, P06, P07, P08 have shorter or differently styled hair) or their outfits lack the specified sheer mesh overlay and flared skirt combination. P08 is partially obscured but appears to have a similar outfit, but the hair is not clearly in a low ponytail and the mesh overlay is not clearly visible, so she is not included. P05 is the only one who fully matches all specified appearance features."
+    },
+    "matched_gt_ids": [
+      7
+    ],
+    "uncertain_gt_ids": [],
+    "passed": false,
+    "error": null
+  },
+  "inference_policy_sha256": "ea3ce06e83208db2fc1ed693ee2ac1b349f8ae344fcdc2cb0a22e30ef8df60e3"
+}

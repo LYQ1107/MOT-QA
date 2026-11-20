@@ -1,0 +1,4649 @@
+{
+  "measured_at": "2026-11-01T18:25:03.403066+08:00",
+  "definition": "same native MASA track ID observed under multiple query labels in one video; labels may occur at different frames; not a ground-truth identity-switch rate",
+  "raw_all_scores": {
+    "ids": 6751,
+    "videos": 198
+  },
+  "score_at_least_0_2": {
+    "ids": 579,
+    "videos": 120
+  },
+  "rows_filtered": [
+    {
+      "video_id": "charades_06NUT",
+      "track_id": 10,
+      "queries": [
+        "black rug",
+        "tv stand"
+      ]
+    },
+    {
+      "video_id": "charades_06NUT",
+      "track_id": 13,
+      "queries": [
+        "black rug",
+        "tv stand"
+      ]
+    },
+    {
+      "video_id": "charades_06NUT",
+      "track_id": 20,
+      "queries": [
+        "black rug",
+        "tv stand"
+      ]
+    },
+    {
+      "video_id": "charades_06NUT",
+      "track_id": 25,
+      "queries": [
+        "black rug",
+        "tv stand"
+      ]
+    },
+    {
+      "video_id": "charades_06NUT",
+      "track_id": 67,
+      "queries": [
+        "black rug",
+        "tv stand"
+      ]
+    },
+    {
+      "video_id": "charades_0OUEP",
+      "track_id": 1,
+      "queries": [
+        "man in pink shorts",
+        "woman in patterned dress"
+      ]
+    },
+    {
+      "video_id": "charades_11TTU",
+      "track_id": 2,
+      "queries": [
+        "tulip bouquet",
+        "wooden chair"
+      ]
+    },
+    {
+      "video_id": "charades_11TTU",
+      "track_id": 4,
+      "queries": [
+        "tulip bouquet",
+        "wooden chair"
+      ]
+    },
+    {
+      "video_id": "charades_15OH5",
+      "track_id": 0,
+      "queries": [
+        "pink loofah",
+        "pink towel"
+      ]
+    },
+    {
+      "video_id": "charades_15OH5",
+      "track_id": 1,
+      "queries": [
+        "pink loofah",
+        "pink towel"
+      ]
+    },
+    {
+      "video_id": "charades_15OH5",
+      "track_id": 6,
+      "queries": [
+        "pink loofah",
+        "pink towel"
+      ]
+    },
+    {
+      "video_id": "charades_15OH5",
+      "track_id": 21,
+      "queries": [
+        "pink loofah",
+        "pink towel"
+      ]
+    },
+    {
+      "video_id": "charades_15OH5",
+      "track_id": 26,
+      "queries": [
+        "pink loofah",
+        "pink towel"
+      ]
+    },
+    {
+      "video_id": "charades_15OH5",
+      "track_id": 35,
+      "queries": [
+        "pink loofah",
+        "pink towel"
+      ]
+    },
+    {
+      "video_id": "charades_15OH5",
+      "track_id": 46,
+      "queries": [
+        "pink loofah",
+        "pink towel"
+      ]
+    },
+    {
+      "video_id": "charades_15OH5",
+      "track_id": 48,
+      "queries": [
+        "pink loofah",
+        "pink towel"
+      ]
+    },
+    {
+      "video_id": "charades_15OH5",
+      "track_id": 51,
+      "queries": [
+        "pink loofah",
+        "pink towel"
+      ]
+    },
+    {
+      "video_id": "charades_19PNV",
+      "track_id": 2,
+      "queries": [
+        "toilet",
+        "wooden door"
+      ]
+    },
+    {
+      "video_id": "charades_19PNV",
+      "track_id": 7,
+      "queries": [
+        "toilet",
+        "wooden door"
+      ]
+    },
+    {
+      "video_id": "charades_1GQ73",
+      "track_id": 1,
+      "queries": [
+        "white door",
+        "wooden door frame"
+      ]
+    },
+    {
+      "video_id": "charades_1GQ73",
+      "track_id": 30,
+      "queries": [
+        "white door",
+        "wooden door frame"
+      ]
+    },
+    {
+      "video_id": "charades_2SIO0",
+      "track_id": 6,
+      "queries": [
+        "hanging clothes",
+        "white bedsheet"
+      ]
+    },
+    {
+      "video_id": "charades_2SIO0",
+      "track_id": 13,
+      "queries": [
+        "hanging clothes",
+        "white bedsheet"
+      ]
+    },
+    {
+      "video_id": "charades_2SIO0",
+      "track_id": 32,
+      "queries": [
+        "hanging clothes",
+        "white bedsheet"
+      ]
+    },
+    {
+      "video_id": "charades_2SIO0",
+      "track_id": 33,
+      "queries": [
+        "hanging clothes",
+        "white bedsheet"
+      ]
+    },
+    {
+      "video_id": "charades_2SIO0",
+      "track_id": 35,
+      "queries": [
+        "hanging clothes",
+        "white bedsheet"
+      ]
+    },
+    {
+      "video_id": "charades_2SIO0",
+      "track_id": 41,
+      "queries": [
+        "hanging clothes",
+        "white bedsheet"
+      ]
+    },
+    {
+      "video_id": "charades_2SIO0",
+      "track_id": 46,
+      "queries": [
+        "hanging clothes",
+        "white bedsheet"
+      ]
+    },
+    {
+      "video_id": "charades_2SIO0",
+      "track_id": 48,
+      "queries": [
+        "hanging clothes",
+        "white bedsheet"
+      ]
+    },
+    {
+      "video_id": "charades_2SIO0",
+      "track_id": 50,
+      "queries": [
+        "hanging clothes",
+        "white bedsheet"
+      ]
+    },
+    {
+      "video_id": "charades_2SIO0",
+      "track_id": 66,
+      "queries": [
+        "hanging clothes",
+        "white bedsheet"
+      ]
+    },
+    {
+      "video_id": "charades_2SIO0",
+      "track_id": 72,
+      "queries": [
+        "hanging clothes",
+        "white bedsheet"
+      ]
+    },
+    {
+      "video_id": "charades_2U903",
+      "track_id": 0,
+      "queries": [
+        "curtain",
+        "green dress on hanger"
+      ]
+    },
+    {
+      "video_id": "charades_2U903",
+      "track_id": 19,
+      "queries": [
+        "curtain",
+        "green dress on hanger"
+      ]
+    },
+    {
+      "video_id": "charades_2U903",
+      "track_id": 22,
+      "queries": [
+        "curtain",
+        "green dress on hanger"
+      ]
+    },
+    {
+      "video_id": "charades_2XXH8",
+      "track_id": 3,
+      "queries": [
+        "framed picture",
+        "wall-mounted light"
+      ]
+    },
+    {
+      "video_id": "charades_3FEYY",
+      "track_id": 0,
+      "queries": [
+        "black pants",
+        "red towel"
+      ]
+    },
+    {
+      "video_id": "charades_3FEYY",
+      "track_id": 7,
+      "queries": [
+        "black pants",
+        "red towel"
+      ]
+    },
+    {
+      "video_id": "charades_3FEYY",
+      "track_id": 16,
+      "queries": [
+        "black pants",
+        "red towel"
+      ]
+    },
+    {
+      "video_id": "charades_3HOJR",
+      "track_id": 0,
+      "queries": [
+        "gold watch",
+        "mickey mouse figurine"
+      ]
+    },
+    {
+      "video_id": "charades_3HOJR",
+      "track_id": 2,
+      "queries": [
+        "gold watch",
+        "mickey mouse figurine"
+      ]
+    },
+    {
+      "video_id": "charades_3HOJR",
+      "track_id": 5,
+      "queries": [
+        "gold watch",
+        "mickey mouse figurine"
+      ]
+    },
+    {
+      "video_id": "charades_3HOJR",
+      "track_id": 11,
+      "queries": [
+        "gold watch",
+        "mickey mouse figurine"
+      ]
+    },
+    {
+      "video_id": "charades_3HOJR",
+      "track_id": 24,
+      "queries": [
+        "gold watch",
+        "mickey mouse figurine"
+      ]
+    },
+    {
+      "video_id": "charades_3HOJR",
+      "track_id": 32,
+      "queries": [
+        "gold watch",
+        "mickey mouse figurine"
+      ]
+    },
+    {
+      "video_id": "charades_3HOJR",
+      "track_id": 33,
+      "queries": [
+        "gold watch",
+        "mickey mouse figurine"
+      ]
+    },
+    {
+      "video_id": "charades_3HOJR",
+      "track_id": 45,
+      "queries": [
+        "gold watch",
+        "mickey mouse figurine"
+      ]
+    },
+    {
+      "video_id": "charades_3HOJR",
+      "track_id": 71,
+      "queries": [
+        "gold watch",
+        "mickey mouse figurine"
+      ]
+    },
+    {
+      "video_id": "charades_3HOJR",
+      "track_id": 88,
+      "queries": [
+        "gold watch",
+        "mickey mouse figurine"
+      ]
+    },
+    {
+      "video_id": "charades_3LN8C",
+      "track_id": 0,
+      "queries": [
+        "man in black hoodie",
+        "wooden staircase railing"
+      ]
+    },
+    {
+      "video_id": "charades_3LN8C",
+      "track_id": 2,
+      "queries": [
+        "man in black hoodie",
+        "wooden staircase railing"
+      ]
+    },
+    {
+      "video_id": "charades_3LN8C",
+      "track_id": 15,
+      "queries": [
+        "man in black hoodie",
+        "wooden staircase railing"
+      ]
+    },
+    {
+      "video_id": "charades_40NIM",
+      "track_id": 2,
+      "queries": [
+        "black wardrobe",
+        "wooden door"
+      ]
+    },
+    {
+      "video_id": "charades_40NIM",
+      "track_id": 6,
+      "queries": [
+        "black wardrobe",
+        "wooden door"
+      ]
+    },
+    {
+      "video_id": "charades_40NIM",
+      "track_id": 9,
+      "queries": [
+        "black wardrobe",
+        "wooden door"
+      ]
+    },
+    {
+      "video_id": "charades_40NIM",
+      "track_id": 10,
+      "queries": [
+        "black wardrobe",
+        "wooden door"
+      ]
+    },
+    {
+      "video_id": "charades_40NIM",
+      "track_id": 13,
+      "queries": [
+        "black wardrobe",
+        "wooden door"
+      ]
+    },
+    {
+      "video_id": "charades_40NIM",
+      "track_id": 14,
+      "queries": [
+        "black wardrobe",
+        "wooden door"
+      ]
+    },
+    {
+      "video_id": "charades_40NIM",
+      "track_id": 22,
+      "queries": [
+        "black wardrobe",
+        "wooden door"
+      ]
+    },
+    {
+      "video_id": "charades_40NIM",
+      "track_id": 23,
+      "queries": [
+        "black wardrobe",
+        "wooden door"
+      ]
+    },
+    {
+      "video_id": "charades_40NIM",
+      "track_id": 38,
+      "queries": [
+        "black wardrobe",
+        "wooden door"
+      ]
+    },
+    {
+      "video_id": "charades_40NIM",
+      "track_id": 39,
+      "queries": [
+        "black wardrobe",
+        "wooden door"
+      ]
+    },
+    {
+      "video_id": "charades_40NIM",
+      "track_id": 50,
+      "queries": [
+        "black wardrobe",
+        "wooden door"
+      ]
+    },
+    {
+      "video_id": "charades_40NIM",
+      "track_id": 68,
+      "queries": [
+        "black wardrobe",
+        "wooden door"
+      ]
+    },
+    {
+      "video_id": "charades_40NIM",
+      "track_id": 69,
+      "queries": [
+        "black wardrobe",
+        "wooden door"
+      ]
+    },
+    {
+      "video_id": "charades_40NIM",
+      "track_id": 71,
+      "queries": [
+        "black wardrobe",
+        "wooden door"
+      ]
+    },
+    {
+      "video_id": "charades_40NIM",
+      "track_id": 73,
+      "queries": [
+        "black wardrobe",
+        "wooden door"
+      ]
+    },
+    {
+      "video_id": "charades_40NIM",
+      "track_id": 109,
+      "queries": [
+        "black wardrobe",
+        "wooden door"
+      ]
+    },
+    {
+      "video_id": "charades_40NIM",
+      "track_id": 111,
+      "queries": [
+        "black wardrobe",
+        "wooden door"
+      ]
+    },
+    {
+      "video_id": "charades_40NIM",
+      "track_id": 136,
+      "queries": [
+        "black wardrobe",
+        "wooden door"
+      ]
+    },
+    {
+      "video_id": "charades_40NIM",
+      "track_id": 140,
+      "queries": [
+        "black wardrobe",
+        "wooden door"
+      ]
+    },
+    {
+      "video_id": "charades_40NIM",
+      "track_id": 141,
+      "queries": [
+        "black wardrobe",
+        "wooden door"
+      ]
+    },
+    {
+      "video_id": "charades_40NIM",
+      "track_id": 142,
+      "queries": [
+        "black wardrobe",
+        "wooden door"
+      ]
+    },
+    {
+      "video_id": "charades_40NIM",
+      "track_id": 145,
+      "queries": [
+        "black wardrobe",
+        "wooden door"
+      ]
+    },
+    {
+      "video_id": "charades_4ALLQ",
+      "track_id": 0,
+      "queries": [
+        "large plant",
+        "wooden cabinet"
+      ]
+    },
+    {
+      "video_id": "charades_4ALLQ",
+      "track_id": 9,
+      "queries": [
+        "large plant",
+        "wooden cabinet"
+      ]
+    },
+    {
+      "video_id": "charades_4ALLQ",
+      "track_id": 13,
+      "queries": [
+        "large plant",
+        "wooden cabinet"
+      ]
+    },
+    {
+      "video_id": "charades_4ALLQ",
+      "track_id": 23,
+      "queries": [
+        "large plant",
+        "wooden cabinet"
+      ]
+    },
+    {
+      "video_id": "charades_4ALLQ",
+      "track_id": 24,
+      "queries": [
+        "large plant",
+        "wooden cabinet"
+      ]
+    },
+    {
+      "video_id": "charades_4ALLQ",
+      "track_id": 25,
+      "queries": [
+        "large plant",
+        "wooden cabinet"
+      ]
+    },
+    {
+      "video_id": "charades_4ALLQ",
+      "track_id": 52,
+      "queries": [
+        "large plant",
+        "wooden cabinet"
+      ]
+    },
+    {
+      "video_id": "charades_5VINT",
+      "track_id": 1,
+      "queries": [
+        "white curtain",
+        "wooden bed"
+      ]
+    },
+    {
+      "video_id": "charades_5VINT",
+      "track_id": 8,
+      "queries": [
+        "white curtain",
+        "wooden bed"
+      ]
+    },
+    {
+      "video_id": "charades_5VINT",
+      "track_id": 9,
+      "queries": [
+        "white curtain",
+        "wooden bed"
+      ]
+    },
+    {
+      "video_id": "charades_5VINT",
+      "track_id": 10,
+      "queries": [
+        "white curtain",
+        "wooden bed"
+      ]
+    },
+    {
+      "video_id": "charades_7326A",
+      "track_id": 1,
+      "queries": [
+        "laptop",
+        "television"
+      ]
+    },
+    {
+      "video_id": "charades_7326A",
+      "track_id": 5,
+      "queries": [
+        "laptop",
+        "television"
+      ]
+    },
+    {
+      "video_id": "charades_7326A",
+      "track_id": 13,
+      "queries": [
+        "laptop",
+        "television"
+      ]
+    },
+    {
+      "video_id": "charades_8MLCU",
+      "track_id": 18,
+      "queries": [
+        "man in white shirt",
+        "refrigerator"
+      ]
+    },
+    {
+      "video_id": "charades_8MLCU",
+      "track_id": 27,
+      "queries": [
+        "man in white shirt",
+        "refrigerator"
+      ]
+    },
+    {
+      "video_id": "charades_8MLCU",
+      "track_id": 40,
+      "queries": [
+        "man in white shirt",
+        "refrigerator"
+      ]
+    },
+    {
+      "video_id": "charades_8MLCU",
+      "track_id": 44,
+      "queries": [
+        "man in white shirt",
+        "refrigerator"
+      ]
+    },
+    {
+      "video_id": "charades_8MLCU",
+      "track_id": 50,
+      "queries": [
+        "man in white shirt",
+        "refrigerator"
+      ]
+    },
+    {
+      "video_id": "charades_8MLCU",
+      "track_id": 55,
+      "queries": [
+        "man in white shirt",
+        "refrigerator"
+      ]
+    },
+    {
+      "video_id": "charades_8MLCU",
+      "track_id": 57,
+      "queries": [
+        "man in white shirt",
+        "refrigerator"
+      ]
+    },
+    {
+      "video_id": "charades_8MLCU",
+      "track_id": 66,
+      "queries": [
+        "man in white shirt",
+        "refrigerator"
+      ]
+    },
+    {
+      "video_id": "charades_8MLCU",
+      "track_id": 87,
+      "queries": [
+        "man in white shirt",
+        "refrigerator"
+      ]
+    },
+    {
+      "video_id": "charades_9BPW6",
+      "track_id": 3,
+      "queries": [
+        "man in plaid shirt",
+        "orange shawl"
+      ]
+    },
+    {
+      "video_id": "charades_9BPW6",
+      "track_id": 5,
+      "queries": [
+        "man in plaid shirt",
+        "orange shawl"
+      ]
+    },
+    {
+      "video_id": "charades_AEHBG",
+      "track_id": 71,
+      "queries": [
+        "blue folding chair",
+        "disney character wall hanging"
+      ]
+    },
+    {
+      "video_id": "charades_AEHBG",
+      "track_id": 75,
+      "queries": [
+        "blue folding chair",
+        "disney character wall hanging"
+      ]
+    },
+    {
+      "video_id": "charades_AXS82",
+      "track_id": 11,
+      "queries": [
+        "paper towel roll",
+        "stove"
+      ]
+    },
+    {
+      "video_id": "charades_BE43L",
+      "track_id": 1,
+      "queries": [
+        "white door",
+        "wooden cabinet"
+      ]
+    },
+    {
+      "video_id": "charades_BE43L",
+      "track_id": 8,
+      "queries": [
+        "white door",
+        "wooden cabinet"
+      ]
+    },
+    {
+      "video_id": "charades_BUL4V",
+      "track_id": 39,
+      "queries": [
+        "blue chair",
+        "boy in blue shirt"
+      ]
+    },
+    {
+      "video_id": "charades_BUL4V",
+      "track_id": 40,
+      "queries": [
+        "blue chair",
+        "boy in blue shirt"
+      ]
+    },
+    {
+      "video_id": "charades_BUL4V",
+      "track_id": 74,
+      "queries": [
+        "blue chair",
+        "boy in blue shirt"
+      ]
+    },
+    {
+      "video_id": "charades_BUL4V",
+      "track_id": 92,
+      "queries": [
+        "blue chair",
+        "boy in blue shirt"
+      ]
+    },
+    {
+      "video_id": "charades_BUL4V",
+      "track_id": 96,
+      "queries": [
+        "blue chair",
+        "boy in blue shirt"
+      ]
+    },
+    {
+      "video_id": "charades_BYSQ7",
+      "track_id": 15,
+      "queries": [
+        "man in red shirt",
+        "white door"
+      ]
+    },
+    {
+      "video_id": "charades_BYSQ7",
+      "track_id": 16,
+      "queries": [
+        "man in red shirt",
+        "white door"
+      ]
+    },
+    {
+      "video_id": "charades_BYSQ7",
+      "track_id": 19,
+      "queries": [
+        "man in red shirt",
+        "white door"
+      ]
+    },
+    {
+      "video_id": "charades_C83CH",
+      "track_id": 0,
+      "queries": [
+        "green hoodie",
+        "shirtless man"
+      ]
+    },
+    {
+      "video_id": "charades_C83CH",
+      "track_id": 2,
+      "queries": [
+        "green hoodie",
+        "shirtless man"
+      ]
+    },
+    {
+      "video_id": "charades_CMD0M",
+      "track_id": 0,
+      "queries": [
+        "hammer",
+        "pliers"
+      ]
+    },
+    {
+      "video_id": "charades_CMD0M",
+      "track_id": 3,
+      "queries": [
+        "hammer",
+        "pliers"
+      ]
+    },
+    {
+      "video_id": "charades_CMD0M",
+      "track_id": 5,
+      "queries": [
+        "hammer",
+        "pliers"
+      ]
+    },
+    {
+      "video_id": "charades_CMD0M",
+      "track_id": 7,
+      "queries": [
+        "hammer",
+        "pliers"
+      ]
+    },
+    {
+      "video_id": "charades_CMD0M",
+      "track_id": 8,
+      "queries": [
+        "hammer",
+        "pliers"
+      ]
+    },
+    {
+      "video_id": "charades_CMD0M",
+      "track_id": 40,
+      "queries": [
+        "hammer",
+        "pliers"
+      ]
+    },
+    {
+      "video_id": "charades_CMD0M",
+      "track_id": 42,
+      "queries": [
+        "hammer",
+        "pliers"
+      ]
+    },
+    {
+      "video_id": "charades_CMD0M",
+      "track_id": 51,
+      "queries": [
+        "hammer",
+        "pliers"
+      ]
+    },
+    {
+      "video_id": "charades_CZO8C",
+      "track_id": 8,
+      "queries": [
+        "white cabinet",
+        "white refrigerator"
+      ]
+    },
+    {
+      "video_id": "charades_CZO8C",
+      "track_id": 20,
+      "queries": [
+        "white cabinet",
+        "white refrigerator"
+      ]
+    },
+    {
+      "video_id": "charades_CZO8C",
+      "track_id": 29,
+      "queries": [
+        "white cabinet",
+        "white refrigerator"
+      ]
+    },
+    {
+      "video_id": "charades_CZO8C",
+      "track_id": 31,
+      "queries": [
+        "white cabinet",
+        "white refrigerator"
+      ]
+    },
+    {
+      "video_id": "charades_CZO8C",
+      "track_id": 40,
+      "queries": [
+        "white cabinet",
+        "white refrigerator"
+      ]
+    },
+    {
+      "video_id": "charades_CZO8C",
+      "track_id": 43,
+      "queries": [
+        "white cabinet",
+        "white refrigerator"
+      ]
+    },
+    {
+      "video_id": "charades_CZO8C",
+      "track_id": 47,
+      "queries": [
+        "white cabinet",
+        "white refrigerator"
+      ]
+    },
+    {
+      "video_id": "charades_CZO8C",
+      "track_id": 50,
+      "queries": [
+        "white cabinet",
+        "white refrigerator"
+      ]
+    },
+    {
+      "video_id": "charades_D0Q6H",
+      "track_id": 5,
+      "queries": [
+        "black shoe rack",
+        "pink and black shoes"
+      ]
+    },
+    {
+      "video_id": "charades_D0Q6H",
+      "track_id": 11,
+      "queries": [
+        "black shoe rack",
+        "pink and black shoes"
+      ]
+    },
+    {
+      "video_id": "charades_D0Q6H",
+      "track_id": 15,
+      "queries": [
+        "black shoe rack",
+        "pink and black shoes"
+      ]
+    },
+    {
+      "video_id": "charades_DHVYY",
+      "track_id": 0,
+      "queries": [
+        "beige shirt",
+        "black pants"
+      ]
+    },
+    {
+      "video_id": "charades_DHVYY",
+      "track_id": 1,
+      "queries": [
+        "beige shirt",
+        "black pants"
+      ]
+    },
+    {
+      "video_id": "charades_DHVYY",
+      "track_id": 3,
+      "queries": [
+        "beige shirt",
+        "black pants"
+      ]
+    },
+    {
+      "video_id": "charades_DHVYY",
+      "track_id": 6,
+      "queries": [
+        "beige shirt",
+        "black pants"
+      ]
+    },
+    {
+      "video_id": "charades_DHVYY",
+      "track_id": 11,
+      "queries": [
+        "beige shirt",
+        "black pants"
+      ]
+    },
+    {
+      "video_id": "charades_DZDD2",
+      "track_id": 6,
+      "queries": [
+        "brown shoes",
+        "white door"
+      ]
+    },
+    {
+      "video_id": "charades_DZDD2",
+      "track_id": 17,
+      "queries": [
+        "brown shoes",
+        "white door"
+      ]
+    },
+    {
+      "video_id": "charades_DZDD2",
+      "track_id": 31,
+      "queries": [
+        "brown shoes",
+        "red fire extinguisher"
+      ]
+    },
+    {
+      "video_id": "charades_DZDD2",
+      "track_id": 47,
+      "queries": [
+        "brown shoes",
+        "white door"
+      ]
+    },
+    {
+      "video_id": "charades_DZDD2",
+      "track_id": 59,
+      "queries": [
+        "brown shoes",
+        "white door"
+      ]
+    },
+    {
+      "video_id": "charades_FDU31",
+      "track_id": 4,
+      "queries": [
+        "white trash can",
+        "wooden chair",
+        "wooden table"
+      ]
+    },
+    {
+      "video_id": "charades_FDU31",
+      "track_id": 6,
+      "queries": [
+        "wooden chair",
+        "wooden table"
+      ]
+    },
+    {
+      "video_id": "charades_FDU31",
+      "track_id": 35,
+      "queries": [
+        "wooden chair",
+        "wooden table"
+      ]
+    },
+    {
+      "video_id": "charades_FNBYE",
+      "track_id": 1,
+      "queries": [
+        "cardboard box",
+        "red cup"
+      ]
+    },
+    {
+      "video_id": "charades_FNBYE",
+      "track_id": 26,
+      "queries": [
+        "cardboard box",
+        "red cup"
+      ]
+    },
+    {
+      "video_id": "charades_FNBYE",
+      "track_id": 42,
+      "queries": [
+        "cardboard box",
+        "red cup"
+      ]
+    },
+    {
+      "video_id": "charades_FNBYE",
+      "track_id": 44,
+      "queries": [
+        "cardboard box",
+        "red cup"
+      ]
+    },
+    {
+      "video_id": "charades_FNBYE",
+      "track_id": 49,
+      "queries": [
+        "cardboard box",
+        "red cup"
+      ]
+    },
+    {
+      "video_id": "charades_FNBYE",
+      "track_id": 72,
+      "queries": [
+        "cardboard box",
+        "red cup"
+      ]
+    },
+    {
+      "video_id": "charades_FSWT4",
+      "track_id": 16,
+      "queries": [
+        "arm",
+        "woman in white jacket"
+      ]
+    },
+    {
+      "video_id": "charades_H59EA",
+      "track_id": 13,
+      "queries": [
+        "door",
+        "plaid cloth"
+      ]
+    },
+    {
+      "video_id": "charades_H59EA",
+      "track_id": 19,
+      "queries": [
+        "door",
+        "plaid cloth"
+      ]
+    },
+    {
+      "video_id": "charades_H59EA",
+      "track_id": 25,
+      "queries": [
+        "door",
+        "plaid cloth"
+      ]
+    },
+    {
+      "video_id": "charades_H59EA",
+      "track_id": 43,
+      "queries": [
+        "door",
+        "plaid cloth"
+      ]
+    },
+    {
+      "video_id": "charades_H9V9I",
+      "track_id": 7,
+      "queries": [
+        "laptop computer",
+        "microwave oven"
+      ]
+    },
+    {
+      "video_id": "charades_HIJBX",
+      "track_id": 43,
+      "queries": [
+        "bottle",
+        "laptop"
+      ]
+    },
+    {
+      "video_id": "charades_HIO3X",
+      "track_id": 10,
+      "queries": [
+        "orange bottle",
+        "white toilet"
+      ]
+    },
+    {
+      "video_id": "charades_HIO3X",
+      "track_id": 11,
+      "queries": [
+        "orange bottle",
+        "white toilet"
+      ]
+    },
+    {
+      "video_id": "charades_HIO3X",
+      "track_id": 20,
+      "queries": [
+        "orange bottle",
+        "white toilet"
+      ]
+    },
+    {
+      "video_id": "charades_HIO3X",
+      "track_id": 28,
+      "queries": [
+        "orange bottle",
+        "white toilet"
+      ]
+    },
+    {
+      "video_id": "charades_HIO3X",
+      "track_id": 32,
+      "queries": [
+        "orange bottle",
+        "white toilet"
+      ]
+    },
+    {
+      "video_id": "charades_HIO3X",
+      "track_id": 36,
+      "queries": [
+        "orange bottle",
+        "white toilet"
+      ]
+    },
+    {
+      "video_id": "charades_HIO3X",
+      "track_id": 38,
+      "queries": [
+        "orange bottle",
+        "white toilet"
+      ]
+    },
+    {
+      "video_id": "charades_HIO3X",
+      "track_id": 39,
+      "queries": [
+        "orange bottle",
+        "white toilet"
+      ]
+    },
+    {
+      "video_id": "charades_HIO3X",
+      "track_id": 40,
+      "queries": [
+        "orange bottle",
+        "white toilet"
+      ]
+    },
+    {
+      "video_id": "charades_HIO3X",
+      "track_id": 51,
+      "queries": [
+        "orange bottle",
+        "white toilet"
+      ]
+    },
+    {
+      "video_id": "charades_HIO3X",
+      "track_id": 52,
+      "queries": [
+        "orange bottle",
+        "white toilet"
+      ]
+    },
+    {
+      "video_id": "charades_HJ2JO",
+      "track_id": 10,
+      "queries": [
+        "refrigerator",
+        "wooden chair"
+      ]
+    },
+    {
+      "video_id": "charades_I562C",
+      "track_id": 8,
+      "queries": [
+        "green plant",
+        "red bag"
+      ]
+    },
+    {
+      "video_id": "charades_I5PU9",
+      "track_id": 1,
+      "queries": [
+        "headphones",
+        "man in black shirt"
+      ]
+    },
+    {
+      "video_id": "charades_I5PU9",
+      "track_id": 22,
+      "queries": [
+        "headphones",
+        "man in black shirt"
+      ]
+    },
+    {
+      "video_id": "charades_I5PU9",
+      "track_id": 36,
+      "queries": [
+        "headphones",
+        "man in black shirt"
+      ]
+    },
+    {
+      "video_id": "charades_I5PU9",
+      "track_id": 77,
+      "queries": [
+        "headphones",
+        "man in black shirt"
+      ]
+    },
+    {
+      "video_id": "charades_I5Q2Z",
+      "track_id": 0,
+      "queries": [
+        "purple container",
+        "white cup"
+      ]
+    },
+    {
+      "video_id": "charades_I5Q2Z",
+      "track_id": 1,
+      "queries": [
+        "purple container",
+        "white cup"
+      ]
+    },
+    {
+      "video_id": "charades_I5Q2Z",
+      "track_id": 2,
+      "queries": [
+        "purple container",
+        "white cup"
+      ]
+    },
+    {
+      "video_id": "charades_I5Q2Z",
+      "track_id": 4,
+      "queries": [
+        "purple container",
+        "white cup"
+      ]
+    },
+    {
+      "video_id": "charades_I5Q2Z",
+      "track_id": 5,
+      "queries": [
+        "purple container",
+        "white cup"
+      ]
+    },
+    {
+      "video_id": "charades_I5Q2Z",
+      "track_id": 16,
+      "queries": [
+        "purple container",
+        "white cup"
+      ]
+    },
+    {
+      "video_id": "charades_I5Q2Z",
+      "track_id": 17,
+      "queries": [
+        "purple container",
+        "white cup"
+      ]
+    },
+    {
+      "video_id": "charades_I5Q2Z",
+      "track_id": 19,
+      "queries": [
+        "purple container",
+        "white cup"
+      ]
+    },
+    {
+      "video_id": "charades_I5Q2Z",
+      "track_id": 34,
+      "queries": [
+        "purple container",
+        "white cup"
+      ]
+    },
+    {
+      "video_id": "charades_I5Q2Z",
+      "track_id": 42,
+      "queries": [
+        "purple container",
+        "white cup"
+      ]
+    },
+    {
+      "video_id": "charades_I5Q2Z",
+      "track_id": 45,
+      "queries": [
+        "purple container",
+        "white cup"
+      ]
+    },
+    {
+      "video_id": "charades_I5Q2Z",
+      "track_id": 46,
+      "queries": [
+        "purple container",
+        "white cup"
+      ]
+    },
+    {
+      "video_id": "charades_I5Q2Z",
+      "track_id": 47,
+      "queries": [
+        "purple container",
+        "white cup"
+      ]
+    },
+    {
+      "video_id": "charades_IZTHW",
+      "track_id": 0,
+      "queries": [
+        "framed picture",
+        "white cloth"
+      ]
+    },
+    {
+      "video_id": "charades_IZTHW",
+      "track_id": 16,
+      "queries": [
+        "framed picture",
+        "white cloth"
+      ]
+    },
+    {
+      "video_id": "charades_IZTHW",
+      "track_id": 28,
+      "queries": [
+        "framed picture",
+        "white cloth"
+      ]
+    },
+    {
+      "video_id": "charades_IZTHW",
+      "track_id": 50,
+      "queries": [
+        "framed picture",
+        "white cloth"
+      ]
+    },
+    {
+      "video_id": "charades_J1RLO",
+      "track_id": 1,
+      "queries": [
+        "red chair",
+        "wooden door"
+      ]
+    },
+    {
+      "video_id": "charades_J1RLO",
+      "track_id": 25,
+      "queries": [
+        "red chair",
+        "wooden door"
+      ]
+    },
+    {
+      "video_id": "charades_J1RLO",
+      "track_id": 35,
+      "queries": [
+        "red chair",
+        "wooden door"
+      ]
+    },
+    {
+      "video_id": "charades_J1RLO",
+      "track_id": 38,
+      "queries": [
+        "red chair",
+        "wooden door"
+      ]
+    },
+    {
+      "video_id": "charades_J1RLO",
+      "track_id": 75,
+      "queries": [
+        "red chair",
+        "wooden door"
+      ]
+    },
+    {
+      "video_id": "charades_J1RLO",
+      "track_id": 112,
+      "queries": [
+        "red chair",
+        "wooden door"
+      ]
+    },
+    {
+      "video_id": "charades_J1RLO",
+      "track_id": 151,
+      "queries": [
+        "red chair",
+        "wooden door"
+      ]
+    },
+    {
+      "video_id": "charades_KPNJ5",
+      "track_id": 22,
+      "queries": [
+        "woman in pink sweater",
+        "wooden shelf"
+      ]
+    },
+    {
+      "video_id": "charades_KZS5M",
+      "track_id": 1,
+      "queries": [
+        "television screen",
+        "wooden door"
+      ]
+    },
+    {
+      "video_id": "charades_KZS5M",
+      "track_id": 6,
+      "queries": [
+        "television screen",
+        "wooden door"
+      ]
+    },
+    {
+      "video_id": "charades_KZS5M",
+      "track_id": 36,
+      "queries": [
+        "television screen",
+        "wooden door"
+      ]
+    },
+    {
+      "video_id": "charades_KZS5M",
+      "track_id": 48,
+      "queries": [
+        "television screen",
+        "wooden door"
+      ]
+    },
+    {
+      "video_id": "charades_KZS5M",
+      "track_id": 52,
+      "queries": [
+        "television screen",
+        "wooden door"
+      ]
+    },
+    {
+      "video_id": "charades_KZS5M",
+      "track_id": 76,
+      "queries": [
+        "television screen",
+        "wooden door"
+      ]
+    },
+    {
+      "video_id": "charades_KZS5M",
+      "track_id": 97,
+      "queries": [
+        "television screen",
+        "wooden door"
+      ]
+    },
+    {
+      "video_id": "charades_LG73V",
+      "track_id": 3,
+      "queries": [
+        "black cat",
+        "curtain"
+      ]
+    },
+    {
+      "video_id": "charades_LG73V",
+      "track_id": 26,
+      "queries": [
+        "black cat",
+        "curtain"
+      ]
+    },
+    {
+      "video_id": "charades_LLLXJ",
+      "track_id": 25,
+      "queries": [
+        "woman in red hoodie",
+        "wooden table"
+      ]
+    },
+    {
+      "video_id": "charades_N30A9",
+      "track_id": 3,
+      "queries": [
+        "coffee maker",
+        "white stove"
+      ]
+    },
+    {
+      "video_id": "charades_NCBNH",
+      "track_id": 1,
+      "queries": [
+        "white mug",
+        "white towel"
+      ]
+    },
+    {
+      "video_id": "charades_NCBNH",
+      "track_id": 4,
+      "queries": [
+        "white mug",
+        "white towel"
+      ]
+    },
+    {
+      "video_id": "charades_NCBNH",
+      "track_id": 15,
+      "queries": [
+        "white mug",
+        "white towel"
+      ]
+    },
+    {
+      "video_id": "charades_NCBNH",
+      "track_id": 21,
+      "queries": [
+        "white mug",
+        "white towel"
+      ]
+    },
+    {
+      "video_id": "charades_NHB5N",
+      "track_id": 13,
+      "queries": [
+        "black computer mouse",
+        "white pillow"
+      ]
+    },
+    {
+      "video_id": "charades_NHB5N",
+      "track_id": 25,
+      "queries": [
+        "black computer mouse",
+        "white pillow"
+      ]
+    },
+    {
+      "video_id": "charades_NHB5N",
+      "track_id": 45,
+      "queries": [
+        "black computer mouse",
+        "white pillow"
+      ]
+    },
+    {
+      "video_id": "charades_O6V4U",
+      "track_id": 9,
+      "queries": [
+        "man in dark shirt",
+        "red bucket"
+      ]
+    },
+    {
+      "video_id": "charades_O6V4U",
+      "track_id": 60,
+      "queries": [
+        "man in dark shirt",
+        "red bucket"
+      ]
+    },
+    {
+      "video_id": "charades_OA6XR",
+      "track_id": 14,
+      "queries": [
+        "red curtain",
+        "wooden bench"
+      ]
+    },
+    {
+      "video_id": "charades_OA6XR",
+      "track_id": 73,
+      "queries": [
+        "red curtain",
+        "wooden bench"
+      ]
+    },
+    {
+      "video_id": "charades_OA6XR",
+      "track_id": 74,
+      "queries": [
+        "red curtain",
+        "wooden bench"
+      ]
+    },
+    {
+      "video_id": "charades_ONA0S",
+      "track_id": 27,
+      "queries": [
+        "door handle",
+        "wooden bench"
+      ]
+    },
+    {
+      "video_id": "charades_ONA0S",
+      "track_id": 90,
+      "queries": [
+        "door handle",
+        "wooden bench"
+      ]
+    },
+    {
+      "video_id": "charades_OOKN5",
+      "track_id": 116,
+      "queries": [
+        "toilet tank",
+        "white t-shirt"
+      ]
+    },
+    {
+      "video_id": "charades_P3XT7",
+      "track_id": 3,
+      "queries": [
+        "black remote",
+        "red cup"
+      ]
+    },
+    {
+      "video_id": "charades_P3XT7",
+      "track_id": 4,
+      "queries": [
+        "black remote",
+        "red cup"
+      ]
+    },
+    {
+      "video_id": "charades_P3XT7",
+      "track_id": 7,
+      "queries": [
+        "black remote",
+        "red cup"
+      ]
+    },
+    {
+      "video_id": "charades_P3XT7",
+      "track_id": 19,
+      "queries": [
+        "black remote",
+        "red cup"
+      ]
+    },
+    {
+      "video_id": "charades_P3XT7",
+      "track_id": 33,
+      "queries": [
+        "black remote",
+        "red cup"
+      ]
+    },
+    {
+      "video_id": "charades_P3XT7",
+      "track_id": 41,
+      "queries": [
+        "black remote",
+        "red cup"
+      ]
+    },
+    {
+      "video_id": "charades_QLGHA",
+      "track_id": 29,
+      "queries": [
+        "wooden broom",
+        "yellow container"
+      ]
+    },
+    {
+      "video_id": "charades_R5IQ5",
+      "track_id": 20,
+      "queries": [
+        "black tv",
+        "clear drinking glass"
+      ]
+    },
+    {
+      "video_id": "charades_R9TL9",
+      "track_id": 3,
+      "queries": [
+        "picture frame",
+        "wooden wardrobe"
+      ]
+    },
+    {
+      "video_id": "charades_R9TL9",
+      "track_id": 13,
+      "queries": [
+        "picture frame",
+        "wooden wardrobe"
+      ]
+    },
+    {
+      "video_id": "charades_RG0KS",
+      "track_id": 1,
+      "queries": [
+        "blue and white box",
+        "man in black jacket"
+      ]
+    },
+    {
+      "video_id": "charades_RXF2Q",
+      "track_id": 32,
+      "queries": [
+        "clothes hanging",
+        "white electrical outlet"
+      ]
+    },
+    {
+      "video_id": "charades_S7JTZ",
+      "track_id": 1,
+      "queries": [
+        "black pants",
+        "wooden cabinet"
+      ]
+    },
+    {
+      "video_id": "charades_S7JTZ",
+      "track_id": 2,
+      "queries": [
+        "black pants",
+        "wooden cabinet"
+      ]
+    },
+    {
+      "video_id": "charades_S7JTZ",
+      "track_id": 3,
+      "queries": [
+        "black pants",
+        "wooden cabinet"
+      ]
+    },
+    {
+      "video_id": "charades_S7JTZ",
+      "track_id": 11,
+      "queries": [
+        "black pants",
+        "wooden cabinet"
+      ]
+    },
+    {
+      "video_id": "charades_S7JTZ",
+      "track_id": 26,
+      "queries": [
+        "black pants",
+        "wooden cabinet"
+      ]
+    },
+    {
+      "video_id": "charades_TYYZK",
+      "track_id": 0,
+      "queries": [
+        "boy with red backpack",
+        "yellow shirt"
+      ]
+    },
+    {
+      "video_id": "charades_TYYZK",
+      "track_id": 23,
+      "queries": [
+        "boy with red backpack",
+        "yellow shirt"
+      ]
+    },
+    {
+      "video_id": "charades_U588C",
+      "track_id": 0,
+      "queries": [
+        "palm tree",
+        "palm tree leaves"
+      ]
+    },
+    {
+      "video_id": "charades_U588C",
+      "track_id": 2,
+      "queries": [
+        "palm tree",
+        "palm tree leaves"
+      ]
+    },
+    {
+      "video_id": "charades_U588C",
+      "track_id": 6,
+      "queries": [
+        "palm tree",
+        "palm tree leaves"
+      ]
+    },
+    {
+      "video_id": "charades_U588C",
+      "track_id": 28,
+      "queries": [
+        "palm tree",
+        "palm tree leaves"
+      ]
+    },
+    {
+      "video_id": "charades_U588C",
+      "track_id": 32,
+      "queries": [
+        "palm tree",
+        "palm tree leaves"
+      ]
+    },
+    {
+      "video_id": "charades_U588C",
+      "track_id": 37,
+      "queries": [
+        "palm tree",
+        "palm tree leaves"
+      ]
+    },
+    {
+      "video_id": "charades_U588C",
+      "track_id": 39,
+      "queries": [
+        "palm tree",
+        "palm tree leaves"
+      ]
+    },
+    {
+      "video_id": "charades_U588C",
+      "track_id": 40,
+      "queries": [
+        "palm tree",
+        "palm tree leaves"
+      ]
+    },
+    {
+      "video_id": "charades_U588C",
+      "track_id": 42,
+      "queries": [
+        "palm tree",
+        "palm tree leaves"
+      ]
+    },
+    {
+      "video_id": "charades_U588C",
+      "track_id": 58,
+      "queries": [
+        "palm tree",
+        "palm tree leaves"
+      ]
+    },
+    {
+      "video_id": "charades_U588C",
+      "track_id": 78,
+      "queries": [
+        "palm tree",
+        "palm tree leaves"
+      ]
+    },
+    {
+      "video_id": "charades_U588C",
+      "track_id": 79,
+      "queries": [
+        "palm tree",
+        "palm tree leaves"
+      ]
+    },
+    {
+      "video_id": "charades_U588C",
+      "track_id": 86,
+      "queries": [
+        "palm tree",
+        "palm tree leaves"
+      ]
+    },
+    {
+      "video_id": "charades_U588C",
+      "track_id": 98,
+      "queries": [
+        "palm tree",
+        "palm tree leaves"
+      ]
+    },
+    {
+      "video_id": "charades_U588C",
+      "track_id": 100,
+      "queries": [
+        "palm tree",
+        "palm tree leaves"
+      ]
+    },
+    {
+      "video_id": "charades_U588C",
+      "track_id": 183,
+      "queries": [
+        "palm tree",
+        "palm tree leaves"
+      ]
+    },
+    {
+      "video_id": "charades_U588C",
+      "track_id": 184,
+      "queries": [
+        "palm tree",
+        "palm tree leaves"
+      ]
+    },
+    {
+      "video_id": "charades_U588C",
+      "track_id": 207,
+      "queries": [
+        "palm tree",
+        "palm tree leaves"
+      ]
+    },
+    {
+      "video_id": "charades_U588C",
+      "track_id": 208,
+      "queries": [
+        "palm tree",
+        "palm tree leaves"
+      ]
+    },
+    {
+      "video_id": "charades_U588C",
+      "track_id": 211,
+      "queries": [
+        "palm tree",
+        "palm tree leaves"
+      ]
+    },
+    {
+      "video_id": "charades_U588C",
+      "track_id": 219,
+      "queries": [
+        "palm tree",
+        "palm tree leaves"
+      ]
+    },
+    {
+      "video_id": "charades_U588C",
+      "track_id": 221,
+      "queries": [
+        "palm tree",
+        "palm tree leaves"
+      ]
+    },
+    {
+      "video_id": "charades_U588C",
+      "track_id": 223,
+      "queries": [
+        "palm tree",
+        "palm tree leaves"
+      ]
+    },
+    {
+      "video_id": "charades_U588C",
+      "track_id": 224,
+      "queries": [
+        "palm tree",
+        "palm tree leaves"
+      ]
+    },
+    {
+      "video_id": "charades_U588C",
+      "track_id": 226,
+      "queries": [
+        "palm tree",
+        "palm tree leaves"
+      ]
+    },
+    {
+      "video_id": "charades_U896B",
+      "track_id": 3,
+      "queries": [
+        "glasses",
+        "red scarf"
+      ]
+    },
+    {
+      "video_id": "charades_U896B",
+      "track_id": 6,
+      "queries": [
+        "glasses",
+        "red scarf"
+      ]
+    },
+    {
+      "video_id": "charades_U896B",
+      "track_id": 22,
+      "queries": [
+        "glasses",
+        "red scarf"
+      ]
+    },
+    {
+      "video_id": "charades_U896B",
+      "track_id": 23,
+      "queries": [
+        "glasses",
+        "red scarf"
+      ]
+    },
+    {
+      "video_id": "charades_U896B",
+      "track_id": 36,
+      "queries": [
+        "glasses",
+        "red scarf"
+      ]
+    },
+    {
+      "video_id": "charades_U896B",
+      "track_id": 50,
+      "queries": [
+        "glasses",
+        "red scarf"
+      ]
+    },
+    {
+      "video_id": "charades_UY08H",
+      "track_id": 0,
+      "queries": [
+        "paint can",
+        "white bucket"
+      ]
+    },
+    {
+      "video_id": "charades_UY08H",
+      "track_id": 2,
+      "queries": [
+        "paint can",
+        "white bucket"
+      ]
+    },
+    {
+      "video_id": "charades_UY08H",
+      "track_id": 10,
+      "queries": [
+        "paint can",
+        "white bucket"
+      ]
+    },
+    {
+      "video_id": "charades_UY08H",
+      "track_id": 20,
+      "queries": [
+        "paint can",
+        "white bucket"
+      ]
+    },
+    {
+      "video_id": "charades_V1WN7",
+      "track_id": 0,
+      "queries": [
+        "white pillow",
+        "woman with glasses"
+      ]
+    },
+    {
+      "video_id": "charades_V1WN7",
+      "track_id": 23,
+      "queries": [
+        "white pillow",
+        "woman with glasses"
+      ]
+    },
+    {
+      "video_id": "charades_VA7IT",
+      "track_id": 32,
+      "queries": [
+        "red boxing gloves",
+        "white tower fan"
+      ]
+    },
+    {
+      "video_id": "charades_VA7IT",
+      "track_id": 42,
+      "queries": [
+        "red boxing gloves",
+        "white tower fan"
+      ]
+    },
+    {
+      "video_id": "charades_X9ULK",
+      "track_id": 0,
+      "queries": [
+        "mirror",
+        "white sink"
+      ]
+    },
+    {
+      "video_id": "charades_X9ULK",
+      "track_id": 14,
+      "queries": [
+        "mirror",
+        "white sink"
+      ]
+    },
+    {
+      "video_id": "charades_XF41L",
+      "track_id": 2,
+      "queries": [
+        "mirror",
+        "red curtains"
+      ]
+    },
+    {
+      "video_id": "charades_XF41L",
+      "track_id": 5,
+      "queries": [
+        "mirror",
+        "red curtains"
+      ]
+    },
+    {
+      "video_id": "charades_XF41L",
+      "track_id": 9,
+      "queries": [
+        "mirror",
+        "red curtains"
+      ]
+    },
+    {
+      "video_id": "charades_XF41L",
+      "track_id": 11,
+      "queries": [
+        "mirror",
+        "red curtains"
+      ]
+    },
+    {
+      "video_id": "charades_XF41L",
+      "track_id": 17,
+      "queries": [
+        "mirror",
+        "red curtains"
+      ]
+    },
+    {
+      "video_id": "charades_XF41L",
+      "track_id": 51,
+      "queries": [
+        "mirror",
+        "red curtains"
+      ]
+    },
+    {
+      "video_id": "charades_XF41L",
+      "track_id": 53,
+      "queries": [
+        "mirror",
+        "red curtains"
+      ]
+    },
+    {
+      "video_id": "charades_XRR22",
+      "track_id": 0,
+      "queries": [
+        "plaid shorts",
+        "wooden window frame"
+      ]
+    },
+    {
+      "video_id": "charades_XRR22",
+      "track_id": 12,
+      "queries": [
+        "plaid shorts",
+        "wooden window frame"
+      ]
+    },
+    {
+      "video_id": "charades_XRR22",
+      "track_id": 13,
+      "queries": [
+        "plaid shorts",
+        "wooden window frame"
+      ]
+    },
+    {
+      "video_id": "charades_XRR22",
+      "track_id": 34,
+      "queries": [
+        "plaid shorts",
+        "wooden window frame"
+      ]
+    },
+    {
+      "video_id": "charades_XRR22",
+      "track_id": 39,
+      "queries": [
+        "plaid shorts",
+        "wooden window frame"
+      ]
+    },
+    {
+      "video_id": "charades_XRR22",
+      "track_id": 43,
+      "queries": [
+        "plaid shorts",
+        "wooden window frame"
+      ]
+    },
+    {
+      "video_id": "charades_XRR22",
+      "track_id": 61,
+      "queries": [
+        "plaid shorts",
+        "wooden window frame"
+      ]
+    },
+    {
+      "video_id": "charades_XRR22",
+      "track_id": 66,
+      "queries": [
+        "plaid shorts",
+        "wooden window frame"
+      ]
+    },
+    {
+      "video_id": "charades_XRR22",
+      "track_id": 82,
+      "queries": [
+        "plaid shorts",
+        "wooden window frame"
+      ]
+    },
+    {
+      "video_id": "charades_XRR22",
+      "track_id": 131,
+      "queries": [
+        "plaid shorts",
+        "wooden window frame"
+      ]
+    },
+    {
+      "video_id": "charades_XRR22",
+      "track_id": 202,
+      "queries": [
+        "plaid shorts",
+        "wooden window frame"
+      ]
+    },
+    {
+      "video_id": "charades_XRR22",
+      "track_id": 336,
+      "queries": [
+        "plaid shorts",
+        "wooden window frame"
+      ]
+    },
+    {
+      "video_id": "charades_XRR22",
+      "track_id": 342,
+      "queries": [
+        "plaid shorts",
+        "wooden window frame"
+      ]
+    },
+    {
+      "video_id": "charades_XRR22",
+      "track_id": 356,
+      "queries": [
+        "plaid shorts",
+        "wooden window frame"
+      ]
+    },
+    {
+      "video_id": "charades_XRR22",
+      "track_id": 371,
+      "queries": [
+        "plaid shorts",
+        "wooden window frame"
+      ]
+    },
+    {
+      "video_id": "charades_XRR22",
+      "track_id": 381,
+      "queries": [
+        "plaid shorts",
+        "wooden window frame"
+      ]
+    },
+    {
+      "video_id": "charades_Y50QF",
+      "track_id": 1,
+      "queries": [
+        "black laptop",
+        "red cup"
+      ]
+    },
+    {
+      "video_id": "charades_Y50QF",
+      "track_id": 9,
+      "queries": [
+        "black laptop",
+        "red cup"
+      ]
+    },
+    {
+      "video_id": "charades_Y50QF",
+      "track_id": 10,
+      "queries": [
+        "black laptop",
+        "red cup"
+      ]
+    },
+    {
+      "video_id": "charades_Y50QF",
+      "track_id": 20,
+      "queries": [
+        "black laptop",
+        "red cup"
+      ]
+    },
+    {
+      "video_id": "charades_Y50QF",
+      "track_id": 21,
+      "queries": [
+        "black laptop",
+        "red cup"
+      ]
+    },
+    {
+      "video_id": "charades_Y50QF",
+      "track_id": 65,
+      "queries": [
+        "black laptop",
+        "red cup"
+      ]
+    },
+    {
+      "video_id": "charades_Y50QF",
+      "track_id": 67,
+      "queries": [
+        "black laptop",
+        "red cup"
+      ]
+    },
+    {
+      "video_id": "charades_Y50QF",
+      "track_id": 109,
+      "queries": [
+        "black laptop",
+        "red cup"
+      ]
+    },
+    {
+      "video_id": "charades_Y50QF",
+      "track_id": 111,
+      "queries": [
+        "black laptop",
+        "red cup"
+      ]
+    },
+    {
+      "video_id": "charades_Y50QF",
+      "track_id": 132,
+      "queries": [
+        "black laptop",
+        "red cup"
+      ]
+    },
+    {
+      "video_id": "charades_Y50QF",
+      "track_id": 152,
+      "queries": [
+        "black laptop",
+        "red cup"
+      ]
+    },
+    {
+      "video_id": "charades_Y50QF",
+      "track_id": 153,
+      "queries": [
+        "black laptop",
+        "red cup"
+      ]
+    },
+    {
+      "video_id": "charades_Y50QF",
+      "track_id": 189,
+      "queries": [
+        "black laptop",
+        "red cup"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_1049",
+      "track_id": 3,
+      "queries": [
+        "black mug",
+        "white ceramic plate"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_1049",
+      "track_id": 10,
+      "queries": [
+        "black mug",
+        "white ceramic plate"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_1049",
+      "track_id": 13,
+      "queries": [
+        "black mug",
+        "white ceramic plate"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_1049",
+      "track_id": 19,
+      "queries": [
+        "black mug",
+        "white ceramic plate"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_1049",
+      "track_id": 22,
+      "queries": [
+        "black mug",
+        "white ceramic plate"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_1049",
+      "track_id": 23,
+      "queries": [
+        "black mug",
+        "white ceramic plate"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_1049",
+      "track_id": 35,
+      "queries": [
+        "black mug",
+        "white ceramic plate"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_1049",
+      "track_id": 36,
+      "queries": [
+        "black mug",
+        "white ceramic plate"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_1049",
+      "track_id": 38,
+      "queries": [
+        "black mug",
+        "white ceramic plate"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_1049",
+      "track_id": 71,
+      "queries": [
+        "black mug",
+        "white ceramic plate"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_1049",
+      "track_id": 72,
+      "queries": [
+        "black mug",
+        "white ceramic plate"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_1049",
+      "track_id": 73,
+      "queries": [
+        "black mug",
+        "white ceramic plate"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_10814",
+      "track_id": 1,
+      "queries": [
+        "flower bouquet",
+        "woman in floral shirt"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_10814",
+      "track_id": 58,
+      "queries": [
+        "flower bouquet",
+        "woman in floral shirt"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_10851",
+      "track_id": 0,
+      "queries": [
+        "wooden chair",
+        "wooden frame"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_10851",
+      "track_id": 2,
+      "queries": [
+        "wooden chair",
+        "wooden frame"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_10851",
+      "track_id": 7,
+      "queries": [
+        "wooden chair",
+        "wooden frame"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_10851",
+      "track_id": 10,
+      "queries": [
+        "wooden chair",
+        "wooden frame"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_10851",
+      "track_id": 22,
+      "queries": [
+        "wooden chair",
+        "wooden frame"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_10851",
+      "track_id": 29,
+      "queries": [
+        "wooden chair",
+        "wooden frame"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_10851",
+      "track_id": 32,
+      "queries": [
+        "wooden chair",
+        "wooden frame"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_10851",
+      "track_id": 44,
+      "queries": [
+        "wooden chair",
+        "wooden frame"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_10851",
+      "track_id": 47,
+      "queries": [
+        "wooden chair",
+        "wooden frame"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_10851",
+      "track_id": 49,
+      "queries": [
+        "wooden chair",
+        "wooden frame"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_10920",
+      "track_id": 32,
+      "queries": [
+        "black bag",
+        "red cloth"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_10920",
+      "track_id": 57,
+      "queries": [
+        "black bag",
+        "red cloth"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_10920",
+      "track_id": 64,
+      "queries": [
+        "black bag",
+        "red cloth"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_11242",
+      "track_id": 13,
+      "queries": [
+        "blue water bottle",
+        "hands"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_11242",
+      "track_id": 16,
+      "queries": [
+        "blue water bottle",
+        "hands"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_11514",
+      "track_id": 2,
+      "queries": [
+        "blue pen",
+        "green toothbrush"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_11514",
+      "track_id": 40,
+      "queries": [
+        "clear water bottle",
+        "green toothbrush"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_11514",
+      "track_id": 46,
+      "queries": [
+        "blue pen",
+        "clear water bottle"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_11514",
+      "track_id": 62,
+      "queries": [
+        "blue pen",
+        "clear water bottle"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_11514",
+      "track_id": 68,
+      "queries": [
+        "clear water bottle",
+        "green toothbrush"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_11514",
+      "track_id": 81,
+      "queries": [
+        "blue pen",
+        "green toothbrush"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_11514",
+      "track_id": 82,
+      "queries": [
+        "blue pen",
+        "clear water bottle"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_11514",
+      "track_id": 99,
+      "queries": [
+        "blue pen",
+        "clear water bottle"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_11514",
+      "track_id": 100,
+      "queries": [
+        "blue pen",
+        "clear water bottle"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_11514",
+      "track_id": 113,
+      "queries": [
+        "blue pen",
+        "clear water bottle"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_11514",
+      "track_id": 114,
+      "queries": [
+        "blue pen",
+        "clear water bottle"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_1486",
+      "track_id": 5,
+      "queries": [
+        "blue sofa",
+        "small monitor"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_1486",
+      "track_id": 19,
+      "queries": [
+        "blue sofa",
+        "small monitor"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_1564",
+      "track_id": 1,
+      "queries": [
+        "orange bowl",
+        "white bowl"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_1564",
+      "track_id": 3,
+      "queries": [
+        "orange bowl",
+        "white bowl"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_1564",
+      "track_id": 4,
+      "queries": [
+        "orange bowl",
+        "white bowl"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_1564",
+      "track_id": 15,
+      "queries": [
+        "orange bowl",
+        "white bowl"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_1564",
+      "track_id": 18,
+      "queries": [
+        "orange bowl",
+        "white bowl"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_1564",
+      "track_id": 19,
+      "queries": [
+        "orange bowl",
+        "white bowl"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_1564",
+      "track_id": 22,
+      "queries": [
+        "orange bowl",
+        "white bowl"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_1564",
+      "track_id": 23,
+      "queries": [
+        "orange bowl",
+        "white bowl"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_1564",
+      "track_id": 25,
+      "queries": [
+        "orange bowl",
+        "white bowl"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_1564",
+      "track_id": 27,
+      "queries": [
+        "orange bowl",
+        "white bowl"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_1564",
+      "track_id": 64,
+      "queries": [
+        "orange bowl",
+        "white bowl"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_1564",
+      "track_id": 66,
+      "queries": [
+        "orange bowl",
+        "white bowl"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_1564",
+      "track_id": 90,
+      "queries": [
+        "orange bowl",
+        "white bowl"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_1564",
+      "track_id": 97,
+      "queries": [
+        "orange bowl",
+        "white bowl"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_1564",
+      "track_id": 101,
+      "queries": [
+        "orange bowl",
+        "white bowl"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_1564",
+      "track_id": 102,
+      "queries": [
+        "orange bowl",
+        "white bowl"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_1564",
+      "track_id": 104,
+      "queries": [
+        "orange bowl",
+        "white bowl"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_1564",
+      "track_id": 153,
+      "queries": [
+        "orange bowl",
+        "white bowl"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_1568",
+      "track_id": 21,
+      "queries": [
+        "patterned fabric",
+        "white crackled mug"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_1568",
+      "track_id": 37,
+      "queries": [
+        "patterned fabric",
+        "white crackled mug"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_1568",
+      "track_id": 47,
+      "queries": [
+        "patterned fabric",
+        "white crackled mug"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_1747",
+      "track_id": 0,
+      "queries": [
+        "red ball",
+        "red sneakers"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_1747",
+      "track_id": 3,
+      "queries": [
+        "red ball",
+        "red sneakers"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_1747",
+      "track_id": 4,
+      "queries": [
+        "red ball",
+        "red sneakers"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_1747",
+      "track_id": 6,
+      "queries": [
+        "red ball",
+        "red sneakers"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_1747",
+      "track_id": 17,
+      "queries": [
+        "red ball",
+        "red sneakers"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_1747",
+      "track_id": 20,
+      "queries": [
+        "red ball",
+        "red sneakers"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_1747",
+      "track_id": 21,
+      "queries": [
+        "red ball",
+        "red sneakers"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_1747",
+      "track_id": 33,
+      "queries": [
+        "red ball",
+        "red sneakers"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_1747",
+      "track_id": 34,
+      "queries": [
+        "red ball",
+        "red sneakers"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_1747",
+      "track_id": 36,
+      "queries": [
+        "red ball",
+        "red sneakers"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_1747",
+      "track_id": 37,
+      "queries": [
+        "red ball",
+        "red sneakers"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_1747",
+      "track_id": 55,
+      "queries": [
+        "red ball",
+        "red sneakers"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_1747",
+      "track_id": 57,
+      "queries": [
+        "red ball",
+        "red sneakers"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_1747",
+      "track_id": 60,
+      "queries": [
+        "red ball",
+        "red sneakers"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_1747",
+      "track_id": 61,
+      "queries": [
+        "red ball",
+        "red sneakers"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_1747",
+      "track_id": 62,
+      "queries": [
+        "red ball",
+        "red sneakers"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_1747",
+      "track_id": 63,
+      "queries": [
+        "red ball",
+        "red sneakers"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_1747",
+      "track_id": 66,
+      "queries": [
+        "red ball",
+        "red sneakers"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_1747",
+      "track_id": 67,
+      "queries": [
+        "red ball",
+        "red sneakers"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_1747",
+      "track_id": 69,
+      "queries": [
+        "red ball",
+        "red sneakers"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_1747",
+      "track_id": 70,
+      "queries": [
+        "red ball",
+        "red sneakers"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_1747",
+      "track_id": 73,
+      "queries": [
+        "red ball",
+        "red sneakers"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_1991",
+      "track_id": 2,
+      "queries": [
+        "black stand",
+        "white mug"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_204",
+      "track_id": 1,
+      "queries": [
+        "lined paper",
+        "orange bowl"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_204",
+      "track_id": 7,
+      "queries": [
+        "lined paper",
+        "orange bowl"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_2378",
+      "track_id": 6,
+      "queries": [
+        "brown chair",
+        "white paper"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_2378",
+      "track_id": 41,
+      "queries": [
+        "brown chair",
+        "white paper"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_2553",
+      "track_id": 69,
+      "queries": [
+        "metal pot",
+        "silver spoon"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_2688",
+      "track_id": 3,
+      "queries": [
+        "glass jar",
+        "paper towel roll"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_2688",
+      "track_id": 4,
+      "queries": [
+        "glass jar",
+        "paper towel roll"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_2688",
+      "track_id": 6,
+      "queries": [
+        "glass jar",
+        "paper towel roll"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_2688",
+      "track_id": 7,
+      "queries": [
+        "glass jar",
+        "paper towel roll"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_2688",
+      "track_id": 8,
+      "queries": [
+        "glass jar",
+        "paper towel roll"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_2688",
+      "track_id": 18,
+      "queries": [
+        "glass jar",
+        "paper towel roll"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_2688",
+      "track_id": 29,
+      "queries": [
+        "glass jar",
+        "paper towel roll"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_2688",
+      "track_id": 34,
+      "queries": [
+        "glass jar",
+        "paper towel roll"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_2688",
+      "track_id": 38,
+      "queries": [
+        "glass jar",
+        "paper towel roll"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_2688",
+      "track_id": 48,
+      "queries": [
+        "glass jar",
+        "paper towel roll"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_2688",
+      "track_id": 49,
+      "queries": [
+        "glass jar",
+        "paper towel roll"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_2688",
+      "track_id": 78,
+      "queries": [
+        "glass jar",
+        "paper towel roll"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_2688",
+      "track_id": 97,
+      "queries": [
+        "glass jar",
+        "paper towel roll"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_2793",
+      "track_id": 15,
+      "queries": [
+        "hand",
+        "paper"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_2793",
+      "track_id": 20,
+      "queries": [
+        "hand",
+        "paper"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_2793",
+      "track_id": 24,
+      "queries": [
+        "hand",
+        "paper"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_2793",
+      "track_id": 34,
+      "queries": [
+        "hand",
+        "paper"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_2819",
+      "track_id": 44,
+      "queries": [
+        "coins",
+        "knife"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_2819",
+      "track_id": 49,
+      "queries": [
+        "coins",
+        "knife"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_2819",
+      "track_id": 81,
+      "queries": [
+        "coins",
+        "knife"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_3348",
+      "track_id": 2,
+      "queries": [
+        "metal spoon",
+        "white mug"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_3348",
+      "track_id": 11,
+      "queries": [
+        "metal spoon",
+        "white mug"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_3348",
+      "track_id": 12,
+      "queries": [
+        "metal spoon",
+        "white mug"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_3348",
+      "track_id": 14,
+      "queries": [
+        "metal spoon",
+        "white mug"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_3348",
+      "track_id": 24,
+      "queries": [
+        "metal spoon",
+        "white mug"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_3348",
+      "track_id": 27,
+      "queries": [
+        "metal spoon",
+        "white mug"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_3348",
+      "track_id": 28,
+      "queries": [
+        "metal spoon",
+        "white mug"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_3348",
+      "track_id": 124,
+      "queries": [
+        "metal spoon",
+        "white mug"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_3798",
+      "track_id": 38,
+      "queries": [
+        "black laptop",
+        "computer mouse"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_3798",
+      "track_id": 53,
+      "queries": [
+        "black laptop",
+        "computer mouse"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_3798",
+      "track_id": 60,
+      "queries": [
+        "black laptop",
+        "computer mouse"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_3798",
+      "track_id": 63,
+      "queries": [
+        "black laptop",
+        "computer mouse"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_3798",
+      "track_id": 70,
+      "queries": [
+        "black laptop",
+        "computer mouse"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_3798",
+      "track_id": 74,
+      "queries": [
+        "black laptop",
+        "computer mouse"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_3987",
+      "track_id": 32,
+      "queries": [
+        "bread slice",
+        "lettuce leaf"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_3987",
+      "track_id": 64,
+      "queries": [
+        "bread slice",
+        "lettuce leaf"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_3987",
+      "track_id": 66,
+      "queries": [
+        "bread slice",
+        "lettuce leaf"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_3987",
+      "track_id": 67,
+      "queries": [
+        "bread slice",
+        "lettuce leaf"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_3987",
+      "track_id": 70,
+      "queries": [
+        "bread slice",
+        "lettuce leaf"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_4253",
+      "track_id": 2,
+      "queries": [
+        "green bowl",
+        "metal thermos"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_4253",
+      "track_id": 3,
+      "queries": [
+        "green bowl",
+        "metal thermos"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_4253",
+      "track_id": 4,
+      "queries": [
+        "green bowl",
+        "metal thermos"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_4253",
+      "track_id": 14,
+      "queries": [
+        "green bowl",
+        "metal thermos"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_4253",
+      "track_id": 16,
+      "queries": [
+        "green bowl",
+        "metal thermos"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_4253",
+      "track_id": 17,
+      "queries": [
+        "green bowl",
+        "metal thermos"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_4253",
+      "track_id": 59,
+      "queries": [
+        "green bowl",
+        "metal thermos"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_4253",
+      "track_id": 60,
+      "queries": [
+        "green bowl",
+        "metal thermos"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_4253",
+      "track_id": 102,
+      "queries": [
+        "green bowl",
+        "metal thermos"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_4253",
+      "track_id": 103,
+      "queries": [
+        "green bowl",
+        "metal thermos"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_4499",
+      "track_id": 2,
+      "queries": [
+        "colorful plate",
+        "lined paper",
+        "orange bowl"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_4499",
+      "track_id": 7,
+      "queries": [
+        "colorful plate",
+        "lined paper",
+        "orange bowl"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_4499",
+      "track_id": 18,
+      "queries": [
+        "colorful plate",
+        "orange bowl"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_4499",
+      "track_id": 19,
+      "queries": [
+        "colorful plate",
+        "orange bowl"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_4499",
+      "track_id": 23,
+      "queries": [
+        "colorful plate",
+        "lined paper"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_4499",
+      "track_id": 26,
+      "queries": [
+        "colorful plate",
+        "orange bowl"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_4499",
+      "track_id": 34,
+      "queries": [
+        "colorful plate",
+        "orange bowl"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_4499",
+      "track_id": 39,
+      "queries": [
+        "colorful plate",
+        "orange bowl"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_4499",
+      "track_id": 40,
+      "queries": [
+        "colorful plate",
+        "orange bowl"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_4499",
+      "track_id": 71,
+      "queries": [
+        "colorful plate",
+        "orange bowl"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_4609",
+      "track_id": 72,
+      "queries": [
+        "hand with red nail polish",
+        "white game controller"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_4930",
+      "track_id": 3,
+      "queries": [
+        "black computer mouse",
+        "green notebook"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_4930",
+      "track_id": 18,
+      "queries": [
+        "black computer mouse",
+        "green notebook"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_5001",
+      "track_id": 41,
+      "queries": [
+        "green potted plant",
+        "metal cup"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_5001",
+      "track_id": 44,
+      "queries": [
+        "green potted plant",
+        "metal cup"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_5001",
+      "track_id": 75,
+      "queries": [
+        "green potted plant",
+        "metal cup"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_5212",
+      "track_id": 4,
+      "queries": [
+        "black pen",
+        "brown notebook"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_5212",
+      "track_id": 6,
+      "queries": [
+        "black pen",
+        "brown notebook"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_5212",
+      "track_id": 11,
+      "queries": [
+        "black pen",
+        "brown notebook"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_5212",
+      "track_id": 22,
+      "queries": [
+        "black pen",
+        "brown notebook"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_5212",
+      "track_id": 45,
+      "queries": [
+        "black pen",
+        "brown notebook"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_5234",
+      "track_id": 71,
+      "queries": [
+        "knife",
+        "potted plant"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_5254",
+      "track_id": 21,
+      "queries": [
+        "barbie sticker",
+        "clear plastic cup"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_5281",
+      "track_id": 60,
+      "queries": [
+        "blue pen",
+        "person in striped shirt"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_5281",
+      "track_id": 188,
+      "queries": [
+        "blue pen",
+        "person in striped shirt"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_5492",
+      "track_id": 24,
+      "queries": [
+        "dell logo",
+        "glass bowl"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_5766",
+      "track_id": 34,
+      "queries": [
+        "black mug",
+        "wooden chair"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_5766",
+      "track_id": 46,
+      "queries": [
+        "black mug",
+        "wooden chair"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_5766",
+      "track_id": 74,
+      "queries": [
+        "black mug",
+        "wooden chair"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_5766",
+      "track_id": 88,
+      "queries": [
+        "black mug",
+        "wooden chair"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_5766",
+      "track_id": 92,
+      "queries": [
+        "black mug",
+        "wooden chair"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_5766",
+      "track_id": 94,
+      "queries": [
+        "black mug",
+        "wooden chair"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_5766",
+      "track_id": 95,
+      "queries": [
+        "black mug",
+        "wooden chair"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_5766",
+      "track_id": 96,
+      "queries": [
+        "black mug",
+        "wooden chair"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_6037",
+      "track_id": 1,
+      "queries": [
+        "white bowl",
+        "white egg"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_6037",
+      "track_id": 3,
+      "queries": [
+        "white bowl",
+        "white egg"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_6037",
+      "track_id": 4,
+      "queries": [
+        "white bowl",
+        "white egg"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_6037",
+      "track_id": 10,
+      "queries": [
+        "white bowl",
+        "white egg"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_6037",
+      "track_id": 15,
+      "queries": [
+        "white bowl",
+        "white egg"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_6148",
+      "track_id": 0,
+      "queries": [
+        "black adidas sneakers",
+        "white adidas sneaker"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_6148",
+      "track_id": 15,
+      "queries": [
+        "black adidas sneakers",
+        "white adidas sneaker"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_6148",
+      "track_id": 26,
+      "queries": [
+        "black adidas sneakers",
+        "white adidas sneaker"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_6148",
+      "track_id": 45,
+      "queries": [
+        "black adidas sneakers",
+        "white adidas sneaker"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_6148",
+      "track_id": 59,
+      "queries": [
+        "black adidas sneakers",
+        "white adidas sneaker"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_6148",
+      "track_id": 72,
+      "queries": [
+        "black adidas sneakers",
+        "white adidas sneaker"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_6148",
+      "track_id": 84,
+      "queries": [
+        "black adidas sneakers",
+        "white adidas sneaker"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_6148",
+      "track_id": 85,
+      "queries": [
+        "black adidas sneakers",
+        "white adidas sneaker"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_6148",
+      "track_id": 91,
+      "queries": [
+        "black adidas sneakers",
+        "white adidas sneaker"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_6148",
+      "track_id": 148,
+      "queries": [
+        "black adidas sneakers",
+        "white adidas sneaker"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_6148",
+      "track_id": 189,
+      "queries": [
+        "black adidas sneakers",
+        "white adidas sneaker"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_6227",
+      "track_id": 15,
+      "queries": [
+        "black mug",
+        "white marker"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_6227",
+      "track_id": 67,
+      "queries": [
+        "black mug",
+        "white marker"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_6227",
+      "track_id": 132,
+      "queries": [
+        "black mug",
+        "white marker"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_6232",
+      "track_id": 4,
+      "queries": [
+        "milk carton",
+        "salt shaker"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_6302",
+      "track_id": 2,
+      "queries": [
+        "glass",
+        "knife"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_6366",
+      "track_id": 2,
+      "queries": [
+        "lettuce leaf",
+        "white mug"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_6366",
+      "track_id": 6,
+      "queries": [
+        "lettuce leaf",
+        "white mug"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_6366",
+      "track_id": 31,
+      "queries": [
+        "lettuce leaf",
+        "white mug"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_6366",
+      "track_id": 32,
+      "queries": [
+        "lettuce leaf",
+        "white mug"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_6366",
+      "track_id": 34,
+      "queries": [
+        "lettuce leaf",
+        "white mug"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_6391",
+      "track_id": 236,
+      "queries": [
+        "glass",
+        "watch"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_6741",
+      "track_id": 8,
+      "queries": [
+        "silver spoon",
+        "white egg"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_6741",
+      "track_id": 9,
+      "queries": [
+        "silver spoon",
+        "white egg"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_6741",
+      "track_id": 17,
+      "queries": [
+        "silver spoon",
+        "white egg"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_6741",
+      "track_id": 20,
+      "queries": [
+        "silver spoon",
+        "white egg"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_6741",
+      "track_id": 22,
+      "queries": [
+        "silver spoon",
+        "white egg"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_6741",
+      "track_id": 57,
+      "queries": [
+        "silver spoon",
+        "white egg"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_6741",
+      "track_id": 66,
+      "queries": [
+        "silver spoon",
+        "white egg"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_6741",
+      "track_id": 93,
+      "queries": [
+        "silver spoon",
+        "white egg"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_6741",
+      "track_id": 146,
+      "queries": [
+        "silver spoon",
+        "white egg"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_6741",
+      "track_id": 147,
+      "queries": [
+        "silver spoon",
+        "white egg"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_6741",
+      "track_id": 171,
+      "queries": [
+        "silver spoon",
+        "white egg"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_6745",
+      "track_id": 27,
+      "queries": [
+        "black bag",
+        "purple stuffed toy"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_6745",
+      "track_id": 38,
+      "queries": [
+        "black bag",
+        "purple stuffed toy"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_6745",
+      "track_id": 113,
+      "queries": [
+        "black bag",
+        "purple stuffed toy"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_7380",
+      "track_id": 36,
+      "queries": [
+        "hand",
+        "notebook"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_7414",
+      "track_id": 7,
+      "queries": [
+        "brown medicine bottle",
+        "white bottle cap"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_7414",
+      "track_id": 11,
+      "queries": [
+        "brown medicine bottle",
+        "white bottle cap"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_7414",
+      "track_id": 18,
+      "queries": [
+        "brown medicine bottle",
+        "white bottle cap"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_7414",
+      "track_id": 23,
+      "queries": [
+        "brown medicine bottle",
+        "white bottle cap"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_7414",
+      "track_id": 27,
+      "queries": [
+        "brown medicine bottle",
+        "white bottle cap"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_7414",
+      "track_id": 29,
+      "queries": [
+        "brown medicine bottle",
+        "white bottle cap"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_7414",
+      "track_id": 37,
+      "queries": [
+        "brown medicine bottle",
+        "white bottle cap"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_7801",
+      "track_id": 26,
+      "queries": [
+        "blue handled knife",
+        "metal spoon"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_8100",
+      "track_id": 3,
+      "queries": [
+        "purple spray can",
+        "wooden cup"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_8100",
+      "track_id": 25,
+      "queries": [
+        "purple spray can",
+        "wooden cup"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_8100",
+      "track_id": 34,
+      "queries": [
+        "purple spray can",
+        "wooden cup"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_8100",
+      "track_id": 54,
+      "queries": [
+        "purple spray can",
+        "wooden cup"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_8100",
+      "track_id": 55,
+      "queries": [
+        "purple spray can",
+        "wooden cup"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_8100",
+      "track_id": 57,
+      "queries": [
+        "purple spray can",
+        "wooden cup"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_8100",
+      "track_id": 93,
+      "queries": [
+        "purple spray can",
+        "wooden cup"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_8100",
+      "track_id": 104,
+      "queries": [
+        "purple spray can",
+        "wooden cup"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_8100",
+      "track_id": 129,
+      "queries": [
+        "purple spray can",
+        "wooden cup"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_8100",
+      "track_id": 130,
+      "queries": [
+        "purple spray can",
+        "wooden cup"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_8100",
+      "track_id": 131,
+      "queries": [
+        "purple spray can",
+        "wooden cup"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_8100",
+      "track_id": 199,
+      "queries": [
+        "purple spray can",
+        "wooden cup"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_8100",
+      "track_id": 235,
+      "queries": [
+        "purple spray can",
+        "wooden cup"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_8100",
+      "track_id": 236,
+      "queries": [
+        "purple spray can",
+        "wooden cup"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_8100",
+      "track_id": 274,
+      "queries": [
+        "purple spray can",
+        "wooden cup"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_8100",
+      "track_id": 276,
+      "queries": [
+        "purple spray can",
+        "wooden cup"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_8100",
+      "track_id": 298,
+      "queries": [
+        "purple spray can",
+        "wooden cup"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_8100",
+      "track_id": 317,
+      "queries": [
+        "purple spray can",
+        "wooden cup"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_8100",
+      "track_id": 333,
+      "queries": [
+        "purple spray can",
+        "wooden cup"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_8100",
+      "track_id": 345,
+      "queries": [
+        "purple spray can",
+        "wooden cup"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_8100",
+      "track_id": 354,
+      "queries": [
+        "purple spray can",
+        "wooden cup"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_8100",
+      "track_id": 355,
+      "queries": [
+        "purple spray can",
+        "wooden cup"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_8100",
+      "track_id": 363,
+      "queries": [
+        "purple spray can",
+        "wooden cup"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_8582",
+      "track_id": 15,
+      "queries": [
+        "blue jeans",
+        "plastic jug"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_9091",
+      "track_id": 15,
+      "queries": [
+        "wooden cabinet",
+        "wooden lamp"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_9148",
+      "track_id": 0,
+      "queries": [
+        "green book",
+        "yellow highlighter"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_9148",
+      "track_id": 2,
+      "queries": [
+        "green book",
+        "yellow highlighter"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_9148",
+      "track_id": 3,
+      "queries": [
+        "green book",
+        "yellow highlighter"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_9148",
+      "track_id": 28,
+      "queries": [
+        "green book",
+        "yellow highlighter"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_9456",
+      "track_id": 2,
+      "queries": [
+        "white mug",
+        "white paper"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_9768",
+      "track_id": 43,
+      "queries": [
+        "banana",
+        "white paper"
+      ]
+    },
+    {
+      "video_id": "perception_test_video_9823",
+      "track_id": 24,
+      "queries": [
+        "action figure in bowl",
+        "wooden table"
+      ]
+    }
+  ]
+}

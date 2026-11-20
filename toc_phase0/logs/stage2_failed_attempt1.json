@@ -1,0 +1,8 @@
+{
+  "status": "STARTUP_FAILED_BEFORE_ANY_REQUEST",
+  "attempt": 1,
+  "root_cause": "vLLM 0.16 device_id_to_physical_device_id int() rejects GPU UUID CUDA_VISIBLE_DEVICES",
+  "fix": "numeric physical indices with PCI_BUS_ID ordering; actual CUDA UUID checked on both selected devices (optional GPU- prefix normalized)",
+  "elapsed_s": 15.039,
+  "predictions_created": 0
+}

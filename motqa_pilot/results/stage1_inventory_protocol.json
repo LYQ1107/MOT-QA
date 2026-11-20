@@ -1,0 +1,37 @@
+{
+  "stage": 1,
+  "seed": 42,
+  "scope": "inventory only; no questions, tracker, training or model inference",
+  "raw_data_read_only": true,
+  "mot17_canonical_detector": "FRCNN",
+  "mot17_duplicate_video_key": "MOT17-NN",
+  "description_normalization": "Unicode casefold, trim and collapse whitespace; no semantic rewriting",
+  "description_dedup_keys": [
+    "normalized text globally",
+    "dataset + sequence + normalized text"
+  ],
+  "description_target_definition": "union of original GT IDs across nonempty annotated frames; also report frame-wise mean",
+  "camera": {
+    "method": "GT-masked background Shi-Tomasi + forward/backward LK + partial affine RANSAC",
+    "pairs_per_sequence": 12,
+    "pair_interval_s": 0.2,
+    "resize_width": 640,
+    "gt_mask_padding_px_resized": 5,
+    "max_corners": 800,
+    "quality_level": 0.01,
+    "min_feature_distance_px": 7,
+    "forward_backward_error_px": 1.5,
+    "min_tracks": 20,
+    "min_ransac_inlier_fraction": 0.5,
+    "ransac_reprojection_px": 2.0,
+    "min_valid_pairs": 4,
+    "motion_unit": "affine grid displacement / image diagonal / elapsed seconds",
+    "moving_if_median_at_least": 0.005,
+    "moving_if_p90_at_least": 0.015,
+    "mot17_final_labels": "official paper Table 9; estimator retained for comparison",
+    "unknown_policy": "record unresolved and inspect a montage; never silently force a bin"
+  },
+  "image_verification": "count all frame names; sizes for every image; dimensions and SHA256 first/middle/last; motion frames decoded",
+  "checksum_scope": "complete archive SHA256; every GT/seqinfo/expression SHA256; image-tree manifest hashes paths+sizes, not pixels",
+  "generated_at": "2026-11-04T20:03:50.800959+08:00"
+}

@@ -1,0 +1,11 @@
+{
+  "server_pid": 2045756,
+  "stage": "server_startup",
+  "updated_at": "2026-11-04T13:48:49.198728+00:00",
+  "error": "AssertionError('vLLM server exited; inspect logs/appearance_vllm.log')",
+  "traceback": "Traceback (most recent call last):\n  File \"/home/user/motqa_pilot/src/appearance_infer.py\", line 274, in main\n    wait_ready(process)\n  File \"/home/user/motqa_pilot/src/appearance_infer.py\", line 179, in wait_ready\n    assert process.poll() is None,'vLLM server exited; inspect logs/appearance_vllm.log'\n           ^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: vLLM server exited; inspect logs/appearance_vllm.log\n",
+  "status": "FAILED",
+  "seconds": 19.92197973607108,
+  "server_terminated": true,
+  "completed_at": "2026-11-04T13:48:49.198697+00:00"
+}

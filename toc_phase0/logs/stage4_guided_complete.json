@@ -1,0 +1,13 @@
+{
+  "completed_at": "2026-11-02T11:18:16.854615+08:00",
+  "conditions": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "predictions_per_condition": 300,
+  "protocol": "official main format",
+  "hypotheses_sha256": "477e2e8136a01bd1d11825bf315fc135c4351b9d9dc49b18f266d36ce6fdd197",
+  "d_assignment_sha256": "5ffa173e7aefe6eef47903570c2dc839265eb9f9518cf4654bda37e0a152090c"
+}

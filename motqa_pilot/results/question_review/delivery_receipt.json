@@ -1,0 +1,46 @@
+{
+  "finished_at": "2026-11-05T21:06:19.330687+08:00",
+  "packet_id": "motqa_fullquestion20_e092f59020a4a6cd",
+  "count": 20,
+  "page": "/home/user/motqa_pilot/results/question_review/打开完整题审阅.html",
+  "html_bytes": 99900,
+  "zip": "/home/user/motqa_pilot/results/motqa_complete_question_review_20_zh_v1.zip",
+  "zip_bytes": 81705184,
+  "zip_sha256": "70e90d896d2f1248499abe05b2e110f9df09ae91cdf25a0bd25202654cf3f57a",
+  "video_files": 40,
+  "questions_sha256": "e092f59020a4a6cd3b5765b33a9bcbc278c0edf3a1a64296979513350e1d2a2d",
+  "new_tracker_runs": 0,
+  "new_model_calls": 0,
+  "full900_completed": false,
+  "status": "USER_REVIEW_RECEIVED_17_PASS_3_REVISION_REQUIRED",
+  "browser_check": "/home/user/motqa_pilot/results/question_review/browser_check/browser_check_result.json",
+  "browser_check_status": "PASSED",
+  "raw_GT_answer_audit": "/home/user/motqa_pilot/results/question_review/raw_gt_answer_audit.json",
+  "original_GT_answers_verified": 20,
+  "actual_user_question_review_received": true,
+  "review_export_filename": "question_review_result.json",
+  "full_batch_pending": [
+    "approximately900 candidates",
+    "global and within-dataset semantic answer balancing",
+    "public visual-feature appearance_similarity",
+    "formal filtering and final release"
+  ],
+  "user_review_received_at": "2026-11-05T22:39:22.055552+08:00",
+  "user_review_original": "/home/user/motqa_pilot/results/question_review/user_submissions/20261105_question_review_result_6e3c7d5452bc.json",
+  "user_review_summary": "/home/user/motqa_pilot/results/question_review/user_question_review_import_summary.json",
+  "user_review_counts": {
+    "total": 20,
+    "pass": 17,
+    "fail": 0,
+    "uncertain": 3,
+    "pending": 0
+  },
+  "camera_motion_revision_required_indices": [
+    4,
+    5,
+    17
+  ],
+  "replacement_delivery": "/home/user/motqa_pilot/results/question_review_replacements/delivery_receipt.json",
+  "replacement_review_status": "USER_CHAT_APPROVED_ALL3_REPLACEMENTS",
+  "combined_accepted_design_count": 20
+}

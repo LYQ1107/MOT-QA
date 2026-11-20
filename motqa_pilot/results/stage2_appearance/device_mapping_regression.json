@@ -1,0 +1,9 @@
+{
+  "at": "2026-11-04T13:50:11.319189+00:00",
+  "cuda_visible_devices": "0,1",
+  "exit_code": 0,
+  "stdout": "_ModelInfo(architecture='Qwen3VLForConditionalGeneration', is_text_generation_model=True, is_pooling_model=False, attn_type='decoder', default_seq_pooling_type='LAST', default_tok_pooling_type='ALL', supports_cross_encoding=False, supports_late_interaction=False, supports_multimodal=True, supports_multimodal_raw_input_only=False, requires_raw_input_tokens=False, supports_multimodal_encoder_tp_data=True, supports_pp=True, has_inner_state=False, is_attention_free=False, is_hybrid=False, has_noops=False, supports_mamba_prefix_caching=False, supports_transcription=False, supports_transcription_only=False)\n",
+  "stderr": "",
+  "runner_sha256": "f868eef2b010e1a038321acd824eca4d7b2da9499289b0a9df54241a2f40c510",
+  "change": "UUID CVD replaced by physical indices; model/prompt/acceptance unchanged"
+}

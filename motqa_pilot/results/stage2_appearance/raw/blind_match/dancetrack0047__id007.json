@@ -1,0 +1,73 @@
+{
+  "unit_key": "dancetrack0047__id007",
+  "sequence": "dancetrack0047",
+  "gt_id": 7,
+  "phase": "blind_match",
+  "started_at": "2026-11-04T14:07:42.059616+00:00",
+  "completed_at": "2026-11-04T14:07:50.088976+00:00",
+  "seconds": 8.029392476659268,
+  "prompt_text": "Match this appearance phrase against ALL anonymous person tiles in the image(s): \"the person with a black leotard featuring a sheer mesh panel across the chest and a high neckline, with dark hair pulled back in a tight bun\"\nEvery labeled tile is one different person from the same video; its two crops are held-out views. Labels and tile order do not reveal the intended target. A phrase may match none, one, or several people. Include ALL people who visibly satisfy the whole phrase in matches. Include in uncertain any plausible person for whom the views do not resolve an attribute, instead of assuming that person is a non-match. Do not pick a best match when several fit. A location or action does not distinguish appearance. Omitted labels mean clear non-matches.\nReturn {\"matches\":[\"P01\"],\"uncertain\":[],\"reason\":\"brief visual explanation\"}. Valid labels: [\"P01\", \"P02\", \"P03\", \"P04\", \"P05\", \"P06\", \"P07\", \"P08\"].",
+  "image_paths": [
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0047/heldout_gallery_page00.jpg"
+  ],
+  "image_sha256": [
+    "ab303b4d764dfd2fa17b9eb5c1e8bc206fe59fbd413ba4dfc994a085249a9916"
+  ],
+  "response": {
+    "id": "chatcmpl-b4bef614d52deb6c",
+    "object": "chat.completion",
+    "created": 1793801262,
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"matches\":[\"P05\",\"P07\",\"P08\"],\"uncertain\":[],\"reason\":\"P05, P07, and P08 all show a black leotard with a sheer mesh panel across the chest and a high neckline, and dark hair pulled back in a tight bun. The front views of these individuals clearly display the mesh panel and high neckline, and their hair is consistently styled in a tight bun. Other individuals either lack the mesh panel (e.g., P01, P02, P03, P04, P06) or have different hair styles (e.g., P06 has a ponytail, P02 has a bun but no clear mesh panel).\"}",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 932,
+      "total_tokens": 1083,
+      "completion_tokens": 151,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "check": {
+    "valid": true,
+    "parsed": {
+      "matches": [
+        "P05",
+        "P07",
+        "P08"
+      ],
+      "uncertain": [],
+      "reason": "P05, P07, and P08 all show a black leotard with a sheer mesh panel across the chest and a high neckline, and dark hair pulled back in a tight bun. The front views of these individuals clearly display the mesh panel and high neckline, and their hair is consistently styled in a tight bun. Other individuals either lack the mesh panel (e.g., P01, P02, P03, P04, P06) or have different hair styles (e.g., P06 has a ponytail, P02 has a bun but no clear mesh panel)."
+    },
+    "matched_gt_ids": [
+      0,
+      3,
+      4
+    ],
+    "uncertain_gt_ids": [],
+    "passed": false,
+    "error": null
+  },
+  "inference_policy_sha256": "ea3ce06e83208db2fc1ed693ee2ac1b349f8ae344fcdc2cb0a22e30ef8df60e3"
+}

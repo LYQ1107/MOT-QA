@@ -1,0 +1,24 @@
+{
+  "at": "2026-11-04T14:19:04.220087+00:00",
+  "timing": "POST_HOC_AFTER_MODEL_INFERENCE; before inspecting these extra cases",
+  "reason": "Locked sample of9 automatic pass cases revealed repeated same-model attribute errors (hat type, attribute attachment, neckwear/headpiece), so inspect the remaining16 automatic candidates; no new inference or acceptance-rule tuning",
+  "units": [
+    "dancetrack0007__id003",
+    "dancetrack0010__id000",
+    "dancetrack0010__id004",
+    "dancetrack0010__id005",
+    "dancetrack0014__id003",
+    "dancetrack0014__id005",
+    "dancetrack0014__id008",
+    "dancetrack0058__id000",
+    "dancetrack0058__id004",
+    "dancetrack0058__id005",
+    "dancetrack0058__id006",
+    "dancetrack0079__id001",
+    "dancetrack0079__id005",
+    "dancetrack0079__id016",
+    "dancetrack0097__id001",
+    "dancetrack0097__id003"
+  ],
+  "automatic_results_unchanged": true
+}

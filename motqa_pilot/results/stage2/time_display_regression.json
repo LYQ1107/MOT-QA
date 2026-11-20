@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "references": 3180,
+  "changed_text_reference_ids": 2696,
+  "initial_audit": "time_display_audit_initial.json",
+  "checks": {
+    "event_frame_and_uniqueness_matches": 352,
+    "position_nearest_frame_matches": 2344
+  },
+  "underlying_reference_frames_and_facts_changed": false,
+  "protocol_sha256": "9cd02c044233521c1e846a28d1cca4449f0aebd92ef581ca4bf5ae649597aa79"
+}

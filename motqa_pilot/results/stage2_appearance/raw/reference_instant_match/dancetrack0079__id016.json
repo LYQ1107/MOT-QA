@@ -1,0 +1,71 @@
+{
+  "unit_key": "dancetrack0079__id016",
+  "sequence": "dancetrack0079",
+  "gt_id": 16,
+  "phase": "reference_instant_match",
+  "started_at": "2026-11-04T14:14:11.921839+00:00",
+  "completed_at": "2026-11-04T14:14:18.832535+00:00",
+  "seconds": 6.910729365888983,
+  "prompt_text": "At this reference instant, match the following appearance phrase to ALL visible people: \"the person wearing a yellow jacket over a black-and-white checkered shirt and black pants\"\nThe first image is the full frame, with anonymous boxes and labels. The other image(s) are crops of EVERY GT-present person at this SAME instant. Read the central person in each crop; neighboring bodies may overlap. Labels are bookkeeping only. Do not use gallery order, location, pose, or box color as appearance attributes. Include ALL people satisfying the full appearance phrase in matches, and any plausible but obscured/unclear people in uncertain. A partly hidden target whose defining clothing cannot be seen is uncertain. No forced choice; none or several are valid outcomes. Omitted labels mean clear non-matches.\nReturn {\"matches\":[\"P01\"],\"uncertain\":[],\"reason\":\"brief visual explanation\"}. Valid labels: [\"P01\", \"P02\", \"P03\", \"P04\", \"P05\", \"P06\", \"P07\", \"P08\", \"P09\", \"P10\"].",
+  "image_paths": [
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0079/anchor_id016_f000962/full_frame.jpg",
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0079/anchor_id016_f000962/local_gallery_page00.jpg"
+  ],
+  "image_sha256": [
+    "2703be96e5f749233408c9896343124ecc6388b4e15c41c2c17202304c87cd9c",
+    "e5eebda7f18e1b429b68e27c76af3d8c6b60861f23a99e53b5198a35c9bb393a"
+  ],
+  "response": {
+    "id": "chatcmpl-a81b024394ee468e",
+    "object": "chat.completion",
+    "created": 1793801652,
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"matches\":[\"P08\"],\"uncertain\":[],\"reason\":\"Only P08 is clearly wearing a yellow jacket over a black-and-white checkered shirt and black pants. Other individuals wear yellow tops, but none have the specific layered outfit described. P01 and P05 wear checkered shirts but not under a yellow jacket. P02 and P06 wear yellow tops with checkered bottoms, not shirts. P07 wears a yellow t-shirt, not a jacket. P03, P04, P09, P10 are in black outfits without yellow jackets.\"}",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 1664,
+      "total_tokens": 1788,
+      "completion_tokens": 124,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "check": {
+    "valid": true,
+    "parsed": {
+      "matches": [
+        "P08"
+      ],
+      "uncertain": [],
+      "reason": "Only P08 is clearly wearing a yellow jacket over a black-and-white checkered shirt and black pants. Other individuals wear yellow tops, but none have the specific layered outfit described. P01 and P05 wear checkered shirts but not under a yellow jacket. P02 and P06 wear yellow tops with checkered bottoms, not shirts. P07 wears a yellow t-shirt, not a jacket. P03, P04, P09, P10 are in black outfits without yellow jackets."
+    },
+    "matched_gt_ids": [
+      16
+    ],
+    "uncertain_gt_ids": [],
+    "passed": true,
+    "error": null
+  },
+  "inference_policy_sha256": "ea3ce06e83208db2fc1ed693ee2ac1b349f8ae344fcdc2cb0a22e30ef8df60e3"
+}

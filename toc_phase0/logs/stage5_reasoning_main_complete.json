@@ -1,0 +1,14 @@
+{
+  "completed_at": "2026-11-02T18:23:07.107321+08:00",
+  "template": "reasoning",
+  "decoding": "main",
+  "conditions": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "B-main",
+    "B-events"
+  ],
+  "predictions_per_condition": 749
+}

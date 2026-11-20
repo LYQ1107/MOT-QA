@@ -1,0 +1,110 @@
+{
+  "at": "2026-11-04T14:32:33.329013+00:00",
+  "flagged_cases": [
+    {
+      "index": 4,
+      "verdict": "needs_review",
+      "observation": "P04确有黑色短款连帽上衣、黑裤及亮绿鞋，身份指向较清楚；粉红绳在裤腰位置，短语“hoodie with a pink drawstring”可能把裤腰绳归到连帽上衣，需修订或用户确认后使用，不自动改写。",
+      "unit_key": "dancetrack0010__id003"
+    },
+    {
+      "index": 6,
+      "verdict": "needs_review",
+      "observation": "P07戴的是有前伸帽檐的棒球帽，非描述中的bucket hat；黄色衣饰和深色衣裤可见。同一模型的生成和两轮验证重复了帽型误认，不按原句直接采用。",
+      "unit_key": "dancetrack0018__id004"
+    },
+    {
+      "index": 12,
+      "verdict": "needs_review",
+      "observation": "P02有显著红色高束/蓬起的头发或装饰，其他人无同样红色外观，可区分身份；但现有像素不足以支持把它明确称为feathered headpiece，材质/类别推断过度，标疑而不改成另一个未经核实的描述。",
+      "unit_key": "dancetrack0035__id007"
+    },
+    {
+      "index": 21,
+      "verdict": "needs_review",
+      "observation": "P08的黑T恤、黑短裤白色棋盘格裤脚可见；帽子可见黄色前标，帽檐看起来为深色，未支持yellow brim。身份组合有辨识度，但颜色所在部位被错误描述。",
+      "unit_key": "dancetrack0079__id003"
+    },
+    {
+      "index": 25,
+      "verdict": "needs_review",
+      "observation": "P03为长黑发、黑西装裤与外套、黑高跟鞋；颈部可见白领/白衬衫配深色细带，无法确认white bow tie。模型把白色领部与领结混称；该属性不够准确，需用户核查后采用。",
+      "unit_key": "dancetrack0097__id002"
+    },
+    {
+      "index": 30,
+      "verdict": "model_match_disagreement",
+      "observation": "目标P02在生成图与校验图中呈较明显的深红长发和白色短装，而P01发色更深；模型反而只选P01，疑似发色/身份匹配错误造成假拒绝。保留拒绝结果，不擅自提升为通过或改GT，供用户复核。",
+      "unit_key": "dancetrack0004__id002"
+    },
+    {
+      "extra_index": 6,
+      "verdict": "needs_review",
+      "observation": "红发、浅紫短上衣与白短裤符合目标，发顶更像高发髻/团状盘发，生成图不能支持明确的high ponytail；发型类别需用户复核。",
+      "unit_key": "dancetrack0014__id005"
+    },
+    {
+      "extra_index": 7,
+      "verdict": "needs_review",
+      "observation": "白百褶裙、紫短上衣与白长袖外层可见；胸前深色条更像垂下的头发/细带，不能确认black tie。原句包含未获支持的颈部饰物，暂不直接采用。",
+      "unit_key": "dancetrack0014__id008"
+    },
+    {
+      "extra_index": 15,
+      "verdict": "needs_review",
+      "observation": "长发、眼镜、黑西装外套和长裤可见，但内层胸前有明显白色衬衫/白领配深色细带，不能确认另有black cropped top。眼镜能指向目标，但原句的内搭颜色/类别需核查。",
+      "unit_key": "dancetrack0097__id001"
+    }
+  ],
+  "auto_pass_cases_flagged": [
+    {
+      "index": 4,
+      "verdict": "needs_review",
+      "observation": "P04确有黑色短款连帽上衣、黑裤及亮绿鞋，身份指向较清楚；粉红绳在裤腰位置，短语“hoodie with a pink drawstring”可能把裤腰绳归到连帽上衣，需修订或用户确认后使用，不自动改写。",
+      "unit_key": "dancetrack0010__id003"
+    },
+    {
+      "index": 6,
+      "verdict": "needs_review",
+      "observation": "P07戴的是有前伸帽檐的棒球帽，非描述中的bucket hat；黄色衣饰和深色衣裤可见。同一模型的生成和两轮验证重复了帽型误认，不按原句直接采用。",
+      "unit_key": "dancetrack0018__id004"
+    },
+    {
+      "index": 12,
+      "verdict": "needs_review",
+      "observation": "P02有显著红色高束/蓬起的头发或装饰，其他人无同样红色外观，可区分身份；但现有像素不足以支持把它明确称为feathered headpiece，材质/类别推断过度，标疑而不改成另一个未经核实的描述。",
+      "unit_key": "dancetrack0035__id007"
+    },
+    {
+      "index": 21,
+      "verdict": "needs_review",
+      "observation": "P08的黑T恤、黑短裤白色棋盘格裤脚可见；帽子可见黄色前标，帽檐看起来为深色，未支持yellow brim。身份组合有辨识度，但颜色所在部位被错误描述。",
+      "unit_key": "dancetrack0079__id003"
+    },
+    {
+      "index": 25,
+      "verdict": "needs_review",
+      "observation": "P03为长黑发、黑西装裤与外套、黑高跟鞋；颈部可见白领/白衬衫配深色细带，无法确认white bow tie。模型把白色领部与领结混称；该属性不够准确，需用户核查后采用。",
+      "unit_key": "dancetrack0097__id002"
+    },
+    {
+      "extra_index": 6,
+      "verdict": "needs_review",
+      "observation": "红发、浅紫短上衣与白短裤符合目标，发顶更像高发髻/团状盘发，生成图不能支持明确的high ponytail；发型类别需用户复核。",
+      "unit_key": "dancetrack0014__id005"
+    },
+    {
+      "extra_index": 7,
+      "verdict": "needs_review",
+      "observation": "白百褶裙、紫短上衣与白长袖外层可见；胸前深色条更像垂下的头发/细带，不能确认black tie。原句包含未获支持的颈部饰物，暂不直接采用。",
+      "unit_key": "dancetrack0014__id008"
+    },
+    {
+      "extra_index": 15,
+      "verdict": "needs_review",
+      "observation": "长发、眼镜、黑西装外套和长裤可见，但内层胸前有明显白色衬衫/白领配深色细带，不能确认另有black cropped top。眼镜能指向目标，但原句的内搭颜色/类别需核查。",
+      "unit_key": "dancetrack0097__id001"
+    }
+  ],
+  "handling": "Automated results and frozen rules retained. Flagged automatic candidates require human resolution before later QA use; do not silently repair GT or descriptions."
+}

@@ -1,0 +1,17 @@
+{
+  "at": "2026-11-04T14:32:32.989103+00:00",
+  "locked_review_cases": 30,
+  "posthoc_additional_review_cases": 16,
+  "total_agent_review_cases": 46,
+  "all_25_automatic_candidates_reviewed": true,
+  "automatic_pass_count_unchanged": 25,
+  "agent_cleared_candidate_IDs": 17,
+  "agent_cleared_candidate_videos": 7,
+  "auto_pass_needs_review": 8,
+  "agent_cleared_newly_covered_IDs": 10,
+  "old_annotation_plus_agent_cleared_union_IDs": 31,
+  "old_annotation_plus_agent_cleared_union_videos": 9,
+  "user_human_approval": false,
+  "posthoc_reason": "Locked sample of9 automatic pass cases revealed repeated same-model attribute errors (hat type, attribute attachment, neckwear/headpiece), so inspect the remaining16 automatic candidates; no new inference or acceptance-rule tuning",
+  "warning": "The original30 sample remains unchanged. The extra16 are post-hoc. No model inference, prompt/threshold changes, automatic-score changes, or description repairs. Agent-cleared is still a candidate, not a final QA or final human-certified annotation."
+}

@@ -1,0 +1,114 @@
+{
+  "qa_count": 749,
+  "main_qa_count": 726,
+  "video_count": 689,
+  "main_video_count": 669,
+  "unique_video_query_pairs": 899,
+  "queries_per_video": {
+    "1": 489,
+    "2": 190,
+    "3": 10
+  },
+  "empty_extractions": [],
+  "event_type_dimension_counts": {
+    "fully_hidden": {
+      "event_count": 36,
+      "reappear_or_disappear": 134,
+      "cross_object_order": 63,
+      "event_ordering": 74
+    },
+    "changes_abruptly": {
+      "event_count": 126
+    },
+    "comes_back_into_view": {
+      "reappear_identity": 23,
+      "reappear_or_disappear": 68,
+      "event_count": 70,
+      "event_ordering": 83,
+      "cross_object_order": 8
+    },
+    "leaves_frame": {
+      "reappear_or_disappear": 134,
+      "event_ordering": 56,
+      "cross_object_order": 48
+    },
+    "disappears": {
+      "reappear_or_disappear": 66,
+      "event_ordering": 31,
+      "cross_object_order": 2
+    },
+    "partly_hidden": {
+      "cross_object_order": 149,
+      "event_ordering": 82,
+      "event_count": 68
+    },
+    "enters_frame": {
+      "event_ordering": 29,
+      "cross_object_order": 27
+    },
+    "first_shows_up": {
+      "event_ordering": 13,
+      "cross_object_order": 24
+    }
+  },
+  "trackable_count": 324,
+  "trackable_main_count": 301,
+  "trackable_per_dimension": {
+    "event_count": 106,
+    "reappear_identity": 23,
+    "reappear_or_disappear": 134,
+    "event_ordering": 23,
+    "cross_object_order": 38
+  },
+  "extraction_matched": 746,
+  "extraction_evaluated": 749,
+  "extraction_mismatches": [
+    {
+      "qa_id": "c4ddf8a8ed26",
+      "dimension": "event_count",
+      "hallucination": null,
+      "subject_label": "woman with blue hair",
+      "predicted": [
+        "woman with purple hair"
+      ],
+      "all_metadata_subjects_matched": false,
+      "matched_subjects": 0,
+      "metadata_subjects": 1,
+      "cross_object_two_targets": null
+    },
+    {
+      "qa_id": "8c489aafe4bb",
+      "dimension": "event_count",
+      "hallucination": null,
+      "subject_label": "brown ceramic mugs",
+      "predicted": [
+        "brown ceramic mug"
+      ],
+      "all_metadata_subjects_matched": false,
+      "matched_subjects": 0,
+      "metadata_subjects": 1,
+      "cross_object_two_targets": null
+    },
+    {
+      "qa_id": "ef5beb6477fe",
+      "dimension": "cross_object_order",
+      "hallucination": null,
+      "subject_label": "glass",
+      "predicted": [
+        "phone",
+        "wooden chair"
+      ],
+      "all_metadata_subjects_matched": false,
+      "matched_subjects": 0,
+      "metadata_subjects": 1,
+      "cross_object_two_targets": true
+    }
+  ],
+  "hallucination_evaluation": {
+    "None": {
+      "matched": 746,
+      "total": 749
+    }
+  },
+  "cross_object_evaluation_note": "subject_label names one anchor in this release; anchor recall is evaluable, complete two-object precision is not an independent ground-truth metric"
+}

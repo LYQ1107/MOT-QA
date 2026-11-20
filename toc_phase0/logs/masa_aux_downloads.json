@@ -1,0 +1,66 @@
+[
+  {
+    "path": "cache/masa_source_archives/TAO-Dataset_tao-a3a713c51e2fdeb3a106c34b06d889ea581150a7.zip",
+    "source": "https://codeload.github.com/TAO-Dataset/tao/zip/a3a713c51e2fdeb3a106c34b06d889ea581150a7",
+    "resolved_url": "https://codeload.github.com/TAO-Dataset/tao/zip/a3a713c51e2fdeb3a106c34b06d889ea581150a7",
+    "bytes": 133621,
+    "sha256": "3caf97e2fb8e2745e48a936f630f7c90d510146b167b829de0bdbbf7e7861004",
+    "integrity": "Local SHA256 recorded; no independent digest"
+  },
+  {
+    "path": "cache/masa_source_archives/lvis-dataset_lvis-api-7d7f07def11da91f8b2710ce352c62a78fd5a7ad.zip",
+    "source": "https://codeload.github.com/lvis-dataset/lvis-api/zip/7d7f07def11da91f8b2710ce352c62a78fd5a7ad",
+    "resolved_url": "https://codeload.github.com/lvis-dataset/lvis-api/zip/7d7f07def11da91f8b2710ce352c62a78fd5a7ad",
+    "bytes": 4506505,
+    "sha256": "0ea75cd4e41e7f87d09b7062ec6abe4985ec02ff96f757722807f454b0d1384f",
+    "integrity": "Local SHA256 recorded; no independent digest"
+  },
+  {
+    "path": "models/MASA/bert-base-uncased/LICENSE",
+    "source": "https://modelscope.cn/api/v1/models/AI-ModelScope/bert-base-uncased/repo?Revision=e655d956b91d226a698bac3dee0acba528f76eaf&FilePath=LICENSE",
+    "resolved_url": "https://modelscope.cn/api/v1/models/AI-ModelScope/bert-base-uncased/repo?Revision=e655d956b91d226a698bac3dee0acba528f76eaf&FilePath=LICENSE",
+    "bytes": 11356,
+    "sha256": "43070e2d4e532684de521b885f385d0841030efa2b1a20bafb76133a5e1379c1",
+    "integrity": "Published SHA256 verified"
+  },
+  {
+    "path": "models/MASA/bert-base-uncased/config.json",
+    "source": "https://modelscope.cn/api/v1/models/AI-ModelScope/bert-base-uncased/repo?Revision=e655d956b91d226a698bac3dee0acba528f76eaf&FilePath=config.json",
+    "resolved_url": "https://modelscope.cn/api/v1/models/AI-ModelScope/bert-base-uncased/repo?Revision=e655d956b91d226a698bac3dee0acba528f76eaf&FilePath=config.json",
+    "bytes": 570,
+    "sha256": "7160e1553ad2ca51d8c1cb066be533db31826e12d173824c1bb0cb1a4f187d20",
+    "integrity": "Published SHA256 verified"
+  },
+  {
+    "path": "models/MASA/bert-base-uncased/model.safetensors",
+    "source": "https://modelscope.cn/api/v1/models/AI-ModelScope/bert-base-uncased/repo?Revision=e655d956b91d226a698bac3dee0acba528f76eaf&FilePath=model.safetensors",
+    "resolved_url": "https://cdn-lfs-cn-1.modelscope.cn/prod/lfs-objects/68/d4/5e234eb4a928074dfd868cead0219ab85354cc53d20e772753c6bb9169d3?filename=model.safetensors&namespace=AI-ModelScope&repository=bert-base-uncased&revision=e655d956b91d226a698bac3dee0acba528f76eaf&tag=model&auth_key=1793461820-61b2f61ebce84db2a173d382e2671d89-0-22eac659aa6f7cddce4ce0c0b4753f33",
+    "bytes": 440449768,
+    "sha256": "68d45e234eb4a928074dfd868cead0219ab85354cc53d20e772753c6bb9169d3",
+    "integrity": "Published SHA256 verified"
+  },
+  {
+    "path": "models/MASA/bert-base-uncased/tokenizer.json",
+    "source": "https://modelscope.cn/api/v1/models/AI-ModelScope/bert-base-uncased/repo?Revision=e655d956b91d226a698bac3dee0acba528f76eaf&FilePath=tokenizer.json",
+    "resolved_url": "https://modelscope.cn/api/v1/models/AI-ModelScope/bert-base-uncased/repo?Revision=e655d956b91d226a698bac3dee0acba528f76eaf&FilePath=tokenizer.json",
+    "bytes": 466062,
+    "sha256": "ce64fce797c24f68df90b40a3f74f579b336a493db14bd583fd520ea0d8c9a98",
+    "integrity": "Published SHA256 verified"
+  },
+  {
+    "path": "models/MASA/bert-base-uncased/tokenizer_config.json",
+    "source": "https://modelscope.cn/api/v1/models/AI-ModelScope/bert-base-uncased/repo?Revision=e655d956b91d226a698bac3dee0acba528f76eaf&FilePath=tokenizer_config.json",
+    "resolved_url": "https://modelscope.cn/api/v1/models/AI-ModelScope/bert-base-uncased/repo?Revision=e655d956b91d226a698bac3dee0acba528f76eaf&FilePath=tokenizer_config.json",
+    "bytes": 28,
+    "sha256": "53b6f42b8b8daddbdc6d3532c324187a92b46c1602bd6e8d4ad5a413b4fc90e1",
+    "integrity": "Published SHA256 verified"
+  },
+  {
+    "path": "models/MASA/bert-base-uncased/vocab.txt",
+    "source": "https://modelscope.cn/api/v1/models/AI-ModelScope/bert-base-uncased/repo?Revision=e655d956b91d226a698bac3dee0acba528f76eaf&FilePath=vocab.txt",
+    "resolved_url": "https://modelscope.cn/api/v1/models/AI-ModelScope/bert-base-uncased/repo?Revision=e655d956b91d226a698bac3dee0acba528f76eaf&FilePath=vocab.txt",
+    "bytes": 231508,
+    "sha256": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+    "integrity": "Published SHA256 verified"
+  }
+]

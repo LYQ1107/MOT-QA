@@ -1,0 +1,883 @@
+{
+  "status": "STAGE2_COMPLETE_STOPPED_APPEARANCE_GAP_REVIEW",
+  "completed_at": "2026-11-04T21:07:48.708299+08:00",
+  "project_root": "/home/user/motqa_pilot",
+  "gt_sequences": 162,
+  "eligible_videos": 77,
+  "gt_ids": 2518,
+  "valid_gt_rows": 1294527,
+  "reference_intervals": 3180,
+  "qa_generated": 0,
+  "model_calls": 0,
+  "tracker_runs": 0,
+  "training": false,
+  "gpu_used": false,
+  "raw_sources_modified": false,
+  "visibility_threshold": 0.25,
+  "visibility_status": "PROVISIONAL_PENDING_STAGE2_REVIEW",
+  "tracker_train_tune_overlap": "PENDING_TRACKER_SELECTION_AND_AUDIT",
+  "user_decision_needed": [
+    "confirm visibility convention",
+    "authorize optional VLM descriptions or restrict reference resources"
+  ],
+  "artifacts": {
+    "results/stage2/appearance_coverage_by_sequence.csv": {
+      "bytes": 8537,
+      "sha256": "1708fc438f0dbc410d0db866694a0f06f49bb8b5531d45854cf26a393d8b0c30"
+    },
+    "results/stage2/appearance_coverage_by_sequence.json": {
+      "bytes": 37592,
+      "sha256": "7d3ce1139088a24080b7ef4e0f53fa1eb3afca9a386f94d89ecf56024928240b"
+    },
+    "results/stage2/appearance_diagnostics.jsonl": {
+      "bytes": 2252324,
+      "sha256": "dddd8769ed9b6c0c0c9036973859ea8b0a7679f9cd5449e3be72d647332fc048"
+    },
+    "results/stage2/appearance_gaps.json": {
+      "bytes": 1159,
+      "sha256": "79aee0f14f91f899386eb04bfe5dd5f029a937f6d0506ce22f64bf0628ed1c13"
+    },
+    "results/stage2/compute_receipt.json": {
+      "bytes": 292,
+      "sha256": "8e591be167530becdb134b40fd0c46e2ee28e79b5ca7d59ea2e670681528cfc1"
+    },
+    "results/stage2/dataset_summary.json": {
+      "bytes": 6224,
+      "sha256": "0552818957c82a401338e062f0ba95fd0fc414df604fda9d3169d991efc2cc59"
+    },
+    "results/stage2/identity_applicability.json": {
+      "bytes": 576,
+      "sha256": "ad02bc84fe6f5f04c5e4df5d8e7deb3f49bc746f1404945e60dd02df4db62ac4"
+    },
+    "results/stage2/overlap_events.jsonl": {
+      "bytes": 10413098,
+      "sha256": "d7835787acb65aa4143ae288e8b32225ec97c7769ae8516e239c8f7b85d6db14"
+    },
+    "results/stage2/pilot/appearance_diagnostics.jsonl": {
+      "bytes": 21812,
+      "sha256": "49b194af659579c9ce48846d9f5372beeef043b3a46f8ce90a2336f1e64f2a2f"
+    },
+    "results/stage2/pilot/basic_checks.json": {
+      "bytes": 565,
+      "sha256": "195707446d5b88957a1ce529413b3b36354cdd69f81f421f6e2fd4139cc2f477"
+    },
+    "results/stage2/pilot/compute_receipt.json": {
+      "bytes": 289,
+      "sha256": "998c0b4b478707e8b61f4564fec9a0966d7b721a3a4400f64ee65e06fedeb388"
+    },
+    "results/stage2/pilot/overlap_events.jsonl": {
+      "bytes": 174243,
+      "sha256": "115a3c6801fe402937473994795b77fa9d0e9c1142d47e802e9ba5ec2d4face3"
+    },
+    "results/stage2/pilot/point_events.jsonl": {
+      "bytes": 98951,
+      "sha256": "6eb76896cb7768d4fa39294f25a295d4f03b061ba12a27d76261feaa266d70b4"
+    },
+    "results/stage2/pilot/reference_resources.jsonl": {
+      "bytes": 54033,
+      "sha256": "ab48834113a4bb327fba03975f02cca835df931a35a49cc86ca59bcc78afcc2e"
+    },
+    "results/stage2/pilot/sequence_metadata.json": {
+      "bytes": 3797,
+      "sha256": "2d559dfd6c81a6ddea3ae745dfaf0379305b17f476403e1c071ca17eb7aadbcf"
+    },
+    "results/stage2/pilot/sequence_summary.json": {
+      "bytes": 4253,
+      "sha256": "14fe80cdd877f3ace6807cd32dbf4a662aecff2fc9d3625100fbcb86a5e1f544"
+    },
+    "results/stage2/pilot/track_index.jsonl": {
+      "bytes": 42055,
+      "sha256": "a54940ac414a54ab34babf76b191bfb67b636e46b0c783f76da0213c4759ae33"
+    },
+    "results/stage2/point_events.jsonl": {
+      "bytes": 2288048,
+      "sha256": "feb0930762133a646bfdbb93f2b4d2206bbaa41cc14ca4f1dae1f2c77d2dd92e"
+    },
+    "results/stage2/protocol.json": {
+      "bytes": 4556,
+      "sha256": "9cd02c044233521c1e846a28d1cca4449f0aebd92ef581ca4bf5ae649597aa79"
+    },
+    "results/stage2/protocol.sha256": {
+      "bytes": 80,
+      "sha256": "852917c7bce55a1fb66cfb01f85b0e009977938a8cb787134ae0bf85ae11332c"
+    },
+    "results/stage2/reference_id_rewrite_map.json": {
+      "bytes": 159003,
+      "sha256": "34baf86941fc029a2e4f2546cfb75b07f2e3a10888f93b0cf27fe15eeee3e38c"
+    },
+    "results/stage2/reference_resources.jsonl": {
+      "bytes": 1475510,
+      "sha256": "6612cbfcb1c20eb15522d190cde6474c7530954add3aaf622949998911b15d67"
+    },
+    "results/stage2/reference_review/DanceTrack_long.jpg": {
+      "bytes": 99919,
+      "sha256": "47b6f33d087e236901cdb8b074d715153e341e988a48dfd899626b75a9a32bfa"
+    },
+    "results/stage2/reference_review/DanceTrack_short.jpg": {
+      "bytes": 74260,
+      "sha256": "827aeda87cc8706c2ecc6ca6062d5ec7c69a14a1b709dbe48949b1bbc42cb451"
+    },
+    "results/stage2/reference_review/MOT17_long.jpg": {
+      "bytes": 122099,
+      "sha256": "24f64c89bb8bfc6f66aa4bdae4bd57a2acfc8dd723810ea8c9baa2c2c648bada"
+    },
+    "results/stage2/reference_review/MOT17_short.jpg": {
+      "bytes": 112223,
+      "sha256": "246b06d0970d97d452d3d1c00942cb36ee99ba07646b97c1faa174ba46caaf4b"
+    },
+    "results/stage2/reference_review/SportsMOT_long.jpg": {
+      "bytes": 140338,
+      "sha256": "cfdb7713f104ea1970acda8c42f0b135ad1fc022a3f1013255890152c991c884"
+    },
+    "results/stage2/reference_review/SportsMOT_short.jpg": {
+      "bytes": 110742,
+      "sha256": "d45dc71d1f8d19691100bd9e063233a2656fa9820294e58818b9dfd1692dacf6"
+    },
+    "results/stage2/reference_review_selection.json": {
+      "bytes": 5769,
+      "sha256": "7e64d16e4684f3b695b41f7d5e898169bae5400294028997ffad146240aa16db"
+    },
+    "results/stage2/reference_templates.json": {
+      "bytes": 567,
+      "sha256": "6e860251e1c405642c39aa09845c94e6f68bcbbb596167d06456c4e82c067a0d"
+    },
+    "results/stage2/revisions/initial_1decimal/protocol.json": {
+      "bytes": 4193,
+      "sha256": "6d4bba56f029811a7436f0b76d84f2185df0bcbc68a39974490529986b083b26"
+    },
+    "results/stage2/revisions/initial_1decimal/protocol.sha256": {
+      "bytes": 80,
+      "sha256": "260d44f6a1a1c24d9b3fae1c52870808d3d255546b62ae485cbd852e4aa8faf3"
+    },
+    "results/stage2/revisions/initial_1decimal/reference_resources.jsonl": {
+      "bytes": 1470121,
+      "sha256": "1d8e0efae7155abad819023ec5cc4d48572c2c6dae59b56a56e0fd7cb9dbbf67"
+    },
+    "results/stage2/revisions/initial_1decimal/source_audit.json": {
+      "bytes": 49227,
+      "sha256": "6dca036847894eae3b299bb7bcb16eb07bf4efed305db4ae93295102d8812303"
+    },
+    "results/stage2/revisions/initial_1decimal/stage2_resources.py": {
+      "bytes": 27550,
+      "sha256": "82dbd3f7ea2c5791fd2504343f154cf70dd51f35991fe040cd3272b0063132bc"
+    },
+    "results/stage2/sequence_events.csv": {
+      "bytes": 14682,
+      "sha256": "92fbdfceac86bde0224f55e780f8b7af553205fc0bbfcfed7e163b26a1edac19"
+    },
+    "results/stage2/sequence_metadata.json": {
+      "bytes": 184605,
+      "sha256": "272d7fd57a4eba32b06ba380be8632176aaaca64797fd84b0eb7c3aba77c4405"
+    },
+    "results/stage2/sequence_summary.json": {
+      "bytes": 196577,
+      "sha256": "853aff579cdc78168bb803fb51df9f93c501c450f05679ed42fed4a9116bc558"
+    },
+    "results/stage2/source_audit.json": {
+      "bytes": 53195,
+      "sha256": "241d4ac176117af9bfa35f9def5f1cd30ebab152ac5c5aba888b427dc7e800c6"
+    },
+    "results/stage2/time_display_audit_initial.json": {
+      "bytes": 17356,
+      "sha256": "2e5c34d69af4a4bfca5881645c96ae5752c16939c3faa2b65df2d5083fd033a9"
+    },
+    "results/stage2/time_display_regression.json": {
+      "bytes": 393,
+      "sha256": "abf07c198c9e231194e230b86469bb3c00fae815cf4e19e85dd1c507bc65198b"
+    },
+    "results/stage2/track_index.jsonl": {
+      "bytes": 1384484,
+      "sha256": "c929188892df7d391fc1b92e7301d2d9fd45eabb36b099b05316191549a10ccf"
+    },
+    "results/stage2/visibility_distribution.json": {
+      "bytes": 521,
+      "sha256": "8a9d58f946233a15041cef7ac3232ee4062d5f0987751596c802d3dc551304d2"
+    },
+    "results/stage2/visual_review_notes.json": {
+      "bytes": 3565,
+      "sha256": "79471dfbeaa93f86bb5763205c6a24dc0e06f29417a3f86d8599031024596e7d"
+    },
+    "results/stage2_report.md": {
+      "bytes": 12723,
+      "sha256": "2f887fb113d58f0d36e68ea08c9f7e5b6729ec27470675b0028e919f23bb7c33"
+    },
+    "results/visibility_convention.json": {
+      "bytes": 539,
+      "sha256": "5036847dc051cca1645df5f3303159bc6435a048206d747729c410b6f4725b35"
+    },
+    "results/visibility_convention.sha256": {
+      "bytes": 93,
+      "sha256": "3d2709e0dd5eb3e01bd025d16b23baa4f492133f6fcd95b22ce50b5f37b47f60"
+    },
+    "src/stage2_audit.py": {
+      "bytes": 8318,
+      "sha256": "f977b5141781d3fec74d82c2e6dafc01e29c1841a515e5a1bc28283856a2a638"
+    },
+    "src/stage2_finalize_references.py": {
+      "bytes": 3976,
+      "sha256": "498e7fb7e365cf08b80f3988f533a609992131b76d2a5a0b08563f3b420acab6"
+    },
+    "src/stage2_report_template.md": {
+      "bytes": 10041,
+      "sha256": "b7e27831658c81da234df9ed6e6cd76c23d5fda43207fbc00aa45a7685207ea4"
+    },
+    "src/stage2_resources.py": {
+      "bytes": 27589,
+      "sha256": "6619e36119b8d447bb1d30dd7fe1fb9c0025357ca3111a3f806fe0d69aaf1a69"
+    },
+    "src/summarize_stage2.py": {
+      "bytes": 17462,
+      "sha256": "fa268c6968455e88aa1624b5ae287494b05b19a0ed444488232d60012ef0bd12"
+    }
+  },
+  "unified_npz_files": [
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/DanceTrack/train/dancetrack0001.npz",
+      "sha256": "87be04d3c153cbd896ad8a8b42dc9f6d21accc42c80e1cbd1d6c1189e0718cd4"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/DanceTrack/train/dancetrack0002.npz",
+      "sha256": "d6f1df448dd113dd03287b5d264e9c2137f9f00b631dc24586772844f9cca63f"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/DanceTrack/train/dancetrack0006.npz",
+      "sha256": "3f1d0c16183944e8ef6f257d2f04f03b8005a6060ad16ce39b406d3a0edd9b81"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/DanceTrack/train/dancetrack0008.npz",
+      "sha256": "ac5cb2e7c4080d48d8427997b5e78098072e15eea92ca31b670c703882933817"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/DanceTrack/train/dancetrack0012.npz",
+      "sha256": "808f8399944a45bafe52d710878e7396ba05249843a3b544dd30237f0cff9386"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/DanceTrack/train/dancetrack0015.npz",
+      "sha256": "e5ed80e5a6b7bbb52f4ba3e85ea18048a477ca866c2dad9857a77b936a2a36f7"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/DanceTrack/train/dancetrack0016.npz",
+      "sha256": "e7eb6701caf03ed3a0c973ea7816a5ed1eeec9d72be423c717ea5c8696e9a220"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/DanceTrack/train/dancetrack0020.npz",
+      "sha256": "bb2c6d2842f348fc254c8cadb07918de82289f197b86456cfa78c7f8dbecead8"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/DanceTrack/train/dancetrack0023.npz",
+      "sha256": "784ea697d2765f5b5ebff8be447ff783c8ce8c96e730e5b86f9b0dd4152f9157"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/DanceTrack/train/dancetrack0024.npz",
+      "sha256": "8de621b9d0a30648ba40f575466af0911243a34aba417f384f06ef9bcb02821c"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/DanceTrack/train/dancetrack0027.npz",
+      "sha256": "25c247f56dc3940e435ecdf91998edf7af90ee4a85b70d70fb0087aca40a91ad"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/DanceTrack/train/dancetrack0029.npz",
+      "sha256": "d6720c76addd4e4e07e5841e8282362731ea82adb6d658ddefe46783a295f99f"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/DanceTrack/train/dancetrack0032.npz",
+      "sha256": "44dec2439c6f46426a6db96966dfbcb25fded2bc70e24cc9e5691b9993dd1daa"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/DanceTrack/train/dancetrack0033.npz",
+      "sha256": "ed3ede71f3b0a3c9ee2c6c2f79cfda1bcd952e594366d8a5d0adee23b61da9b0"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/DanceTrack/train/dancetrack0037.npz",
+      "sha256": "2654cacfd2b78355b11fa8c6ba611b404a75f38923e096171dcfbf037c446567"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/DanceTrack/train/dancetrack0039.npz",
+      "sha256": "1b67dce5c55b494e24714e6c95534d630ae56bfba80546590ec1095b45bb0cac"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/DanceTrack/train/dancetrack0044.npz",
+      "sha256": "0a44137d67bac71fcc42f6e43eaf7d5a841239762990ca8174f9e82be1c2a21b"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/DanceTrack/train/dancetrack0045.npz",
+      "sha256": "b07ec3c5e63c4a96d73fbc11e489c1b66158f62a4aa56576de4538c0af8557ac"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/DanceTrack/train/dancetrack0049.npz",
+      "sha256": "014d63a59218f2be9998256eda705e44d2e05bed6123a38e6601ddc6b0035951"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/DanceTrack/train/dancetrack0051.npz",
+      "sha256": "2e68bf716d599de3c72cd7b936771319218f175bd95a8d694beaa5c407e4a89f"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/DanceTrack/train/dancetrack0052.npz",
+      "sha256": "71688ddb07f6ca720bc067e79009c6e5bc1d9c524dc2990bbea049b79bf41249"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/DanceTrack/train/dancetrack0053.npz",
+      "sha256": "9e7d2aaa91118852f7418a89dd345011581dce8e1f6ab4a2f3606038dcddea2f"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/DanceTrack/train/dancetrack0055.npz",
+      "sha256": "8f85c84640edf7bad5b3866792ee75e8857f7a4e6ac291c61635388265d2fc83"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/DanceTrack/train/dancetrack0057.npz",
+      "sha256": "f266abe7b9217439bb91d350866ec797898652bfc37ba538738a84e24043041b"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/DanceTrack/train/dancetrack0061.npz",
+      "sha256": "5754d9f6e7c00ac80316a596f5b9f65ef42a2915c8d20d0b76e21fc32f1370d7"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/DanceTrack/train/dancetrack0062.npz",
+      "sha256": "268f58ebe821f51092229517f0dbfe531932d027b675f79f4332b707def23caf"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/DanceTrack/train/dancetrack0066.npz",
+      "sha256": "44ae6d36463f50a70bd0ad642ca8a0c7746c722384973ea5b059bb364a69da6b"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/DanceTrack/train/dancetrack0068.npz",
+      "sha256": "5e5ee23c62327ec4e37c3a748901b450f2bb68f4911078de2bf9cc1a27daf37a"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/DanceTrack/train/dancetrack0069.npz",
+      "sha256": "aa531cddf6b8da0237483365b1f46c036293bf11c2243f1164f44e25c527c057"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/DanceTrack/train/dancetrack0072.npz",
+      "sha256": "bd954636ee2b21785647ae2eece76f5730ef97285560c909e0dd34fd828383d3"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/DanceTrack/train/dancetrack0074.npz",
+      "sha256": "0ae959b75afbaf657c0810696ebcb2e21467a5f1caa978aba29c09085a22e66b"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/DanceTrack/train/dancetrack0075.npz",
+      "sha256": "96c08f77b7d64639113799f806477d811d3f390d0669bc745cbe04cb555d9d0f"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/DanceTrack/train/dancetrack0080.npz",
+      "sha256": "1b9571d2dfbe8b69479a7756f9bb2fdaa203a6fb267276640ebe09bf20ef680d"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/DanceTrack/train/dancetrack0082.npz",
+      "sha256": "8c04769ed73c4bab77538d68e708c04f8e7e7534a461a8ec28154ca3637a7a1d"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/DanceTrack/train/dancetrack0083.npz",
+      "sha256": "0672f5693af6f98349744f3d76c9196b486b567ea800908c94e297eff3e77e95"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/DanceTrack/train/dancetrack0086.npz",
+      "sha256": "5b27ee69ec1e0b48709762ba48d68b49dd56c9df662029350ec3b2f90389ae6b"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/DanceTrack/train/dancetrack0087.npz",
+      "sha256": "a56ddcf1a1a9244b58a87933e6cf8b4018a7da212f8205accbeeaab2d34bd807"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/DanceTrack/train/dancetrack0096.npz",
+      "sha256": "e0c16ca24dd5548b0d3133f6abd506c53b4a7393a386ce30b1bf76c269ab9453"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/DanceTrack/train/dancetrack0098.npz",
+      "sha256": "c760813627b65f09082fabdd4eab789b36afff83a366f1d241c7c4769b1f73f5"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/DanceTrack/train/dancetrack0099.npz",
+      "sha256": "968ed4576e609c4e32a6d9d1dc368c2c3e82fe4534137561e057a927e1aeab7e"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/DanceTrack/val/dancetrack0004.npz",
+      "sha256": "a6b9d03736a45c24d62280689e76fe205704a503af964c963d7d7d30ef3bc30f"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/DanceTrack/val/dancetrack0005.npz",
+      "sha256": "03ffc116608477d2c7fd8abde5ad443abe329e38f3528bc4c72b5fc3e803045c"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/DanceTrack/val/dancetrack0007.npz",
+      "sha256": "3b1c8a059290b47e3f5b9cf5d28afb55a8b41857e5f3fd283dd48b2a1d0af21d"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/DanceTrack/val/dancetrack0010.npz",
+      "sha256": "cdcb8b705859d18309aa70d9293562860bf7c4eea22c45985ec266b9bae51e80"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/DanceTrack/val/dancetrack0014.npz",
+      "sha256": "9d41f2b16461f247bb3b68e371f5575286d7ee52290b301a7928810ce63010b5"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/DanceTrack/val/dancetrack0018.npz",
+      "sha256": "1f82672cfb4d8658061994fe5e051c03d570ea93f1881aa752524fb6027bd0df"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/DanceTrack/val/dancetrack0019.npz",
+      "sha256": "3e7b45e7b710e0ffeeacdcde7286d863fefc8b44e471f046c215c1e09b6ef8f8"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/DanceTrack/val/dancetrack0025.npz",
+      "sha256": "b22779f1f775aa9fe633a084e67e81f103b894202430609b8c037c7f37e2c0a3"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/DanceTrack/val/dancetrack0026.npz",
+      "sha256": "247c027500982380bfbd3586fdade2cff35084a95d88f8ad0c315e9c9d1d6dbb"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/DanceTrack/val/dancetrack0030.npz",
+      "sha256": "af862adce80bc7634c2f343206498d182be76f27455d98b5239030769aab6f07"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/DanceTrack/val/dancetrack0034.npz",
+      "sha256": "459cc826aeee5187ad6a6de67898efecc2ba8bfd9f58dc1da4f69bbcd296888e"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/DanceTrack/val/dancetrack0035.npz",
+      "sha256": "8feb3c6d97cb800fc4e8cc743ad1d549fda7359a89242facf9c56e9e8b7efec5"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/DanceTrack/val/dancetrack0041.npz",
+      "sha256": "e377658d119b72a98ec0a76ea60848d49e33fcaeb8dce7cdb34643e3ca52f3f3"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/DanceTrack/val/dancetrack0043.npz",
+      "sha256": "d03105a696e6c010546501ffd46fc3348db653321e4e2c80e1081f7204e61051"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/DanceTrack/val/dancetrack0047.npz",
+      "sha256": "21148f09771c15e730e69033ed374a1c1d91f4196d257492b744dce569cab4c6"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/DanceTrack/val/dancetrack0058.npz",
+      "sha256": "60e8d9cc689b2cf8fd352727781f6a0e1c96c0d78763f09e86845b96273103f5"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/DanceTrack/val/dancetrack0063.npz",
+      "sha256": "de105f940156414ac31c17aa7cb203d5a75da8305a6200067a32b39d902de720"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/DanceTrack/val/dancetrack0065.npz",
+      "sha256": "ba06191dea57eed4ae7654da1cad5828c5751876dccdce764b9ee58c7dd120e2"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/DanceTrack/val/dancetrack0073.npz",
+      "sha256": "672ed1e76e493dd9ea2ec06d75873de0c213ad6050743237a61462bc298ba1d2"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/DanceTrack/val/dancetrack0077.npz",
+      "sha256": "3424a5ec88a75adf3d53af3fa3bfbdf99cd1eb9d1f65f6ba981bc9a8ed8aa186"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/DanceTrack/val/dancetrack0079.npz",
+      "sha256": "a88febed0ec8734703d388da095138e00abc22aebfbd1670ee1b3490099248d3"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/DanceTrack/val/dancetrack0081.npz",
+      "sha256": "698048e336ffcad102f2b64750efce0111bb658d34f3aee01d5c93f24e9bde65"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/DanceTrack/val/dancetrack0090.npz",
+      "sha256": "1e519f61f4ca7b2a73f98c2a3031fc029c1800167c9fe0ab6393bfcc8195dde3"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/DanceTrack/val/dancetrack0094.npz",
+      "sha256": "f09eb2ca0fcb5e3016b6481815466d0681b5e6656ac0fad14613cec8adc74892"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/DanceTrack/val/dancetrack0097.npz",
+      "sha256": "f7a1173669707c213c67c417aec14f6a24fbac424f4c826aea89858a73b59569"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/MOT17/train/MOT17-02-FRCNN.npz",
+      "sha256": "ef00dbadce576af3212408654bc7d8d1897b53f9ced1a9fe78b0c8bd87810e34"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/MOT17/train/MOT17-04-FRCNN.npz",
+      "sha256": "7e42e3847547e1b0baa64ce0b8079bb6cee9c7d779718c4c09dc44f7f6dca755"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/MOT17/train/MOT17-05-FRCNN.npz",
+      "sha256": "8512420a607867388456a19e9ebe6cd442e32c9518e16ca632c48b7ef2f9e1f6"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/MOT17/train/MOT17-09-FRCNN.npz",
+      "sha256": "d40a764f09d1bf83c4b653d1e76e5c521354d5053655f1deff1e9a05a35bdd6f"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/MOT17/train/MOT17-10-FRCNN.npz",
+      "sha256": "dc38a522e4b97e507e44277acec08a4610b0352ce2c57c5af5769b81245dd028"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/MOT17/train/MOT17-11-FRCNN.npz",
+      "sha256": "e39ffda2d96680b8a89869c0c908d71939f3a4a5b4bf1ae549d6e8cbd05e5ce0"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/MOT17/train/MOT17-13-FRCNN.npz",
+      "sha256": "13eb938106322a18dc1ed2de940bf792da8b4a9736e7e4afb42acd507f7fe1a0"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/train/v_-6Os86HzwCs_c001.npz",
+      "sha256": "7861d1bfe9fc654416896f0a659867bbb780ce31f38c7cb2ecb8448ec3b63234"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/train/v_-6Os86HzwCs_c003.npz",
+      "sha256": "c35c33d29bbda509f655eb386915ad1afe92cf03c7cfee5cd8da1c6d75f08c62"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/train/v_-6Os86HzwCs_c007.npz",
+      "sha256": "f8e9561a32d92c8d6efa085866ce3c59e7c64a31f6c60c8e34f98843000852d7"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/train/v_-6Os86HzwCs_c009.npz",
+      "sha256": "e388dbf2c30d5fe0a2acb18613bcd24d03e4271db6aca378ef15058e2ba8d114"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/train/v_1LwtoLPw2TU_c006.npz",
+      "sha256": "d288485b258eae2a372558c29d2dcb3eefe39e6ecaca80783832671c7cb34954"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/train/v_1LwtoLPw2TU_c012.npz",
+      "sha256": "e4d5208dc6e9ddd41e2b8e21427c760570cd205f33df67049da9c82b0cf34dc9"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/train/v_1LwtoLPw2TU_c014.npz",
+      "sha256": "9415d5a6af6824fff9e59c6ca0a8aa855f2e01fa09891592782f49195d766c37"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/train/v_1LwtoLPw2TU_c016.npz",
+      "sha256": "690f9e987a0b7dd7978ea5b22deafb909ce4994eb37b680294627365ff281aa4"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/train/v_1yHWGw8DH4A_c029.npz",
+      "sha256": "d50ae22ba247f083005f3ca682bd4488996d9c07a1d4e19bad95250b6f10ded4"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/train/v_1yHWGw8DH4A_c047.npz",
+      "sha256": "6be924c239a6a5dab7c0aeb0407b642363357aad40d74e3ebcec106f47a8538c"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/train/v_1yHWGw8DH4A_c077.npz",
+      "sha256": "6c627266416b096503f4066edb9f65cc35ce1a614c76e9034df45f451345731b"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/train/v_1yHWGw8DH4A_c601.npz",
+      "sha256": "86c5446529c01af2225f03807138ce3096aa7059b7ab8a4982d16c30c459184a"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/train/v_1yHWGw8DH4A_c609.npz",
+      "sha256": "862615a1c9ab5b64e50e6eec81556658008dc302af436cbc53e33825777e79be"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/train/v_1yHWGw8DH4A_c610.npz",
+      "sha256": "1b7068744185370ef02d1c784cd0619e12a29e7b9a9c8c425442413a206e8c0f"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/train/v_2j7kLB-vEEk_c001.npz",
+      "sha256": "42e0ff3cb3f4b5c6ecf21d003ac0d7748b3f8a73a93bf4d262e9843a873cdad7"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/train/v_2j7kLB-vEEk_c002.npz",
+      "sha256": "5620a3d29336bd07d7fb1012ccc615711f53f8a8705ac2d4075d7fe47fc25877"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/train/v_2j7kLB-vEEk_c005.npz",
+      "sha256": "c40a373731a0840e2114c82fb4baf888eaeffb09b4c248d1385669441d46a554"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/train/v_2j7kLB-vEEk_c007.npz",
+      "sha256": "185c2a6e45919466a2dac911a52647f684219c1d86a4d6f411e4fe9f96c2747e"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/train/v_2j7kLB-vEEk_c009.npz",
+      "sha256": "65ca73e7de0a2ec101baba4c0a389759c2ead6bc024e302be94fc4f8d5b7ac3a"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/train/v_2j7kLB-vEEk_c010.npz",
+      "sha256": "6ceb93e1f8caebd4e2b9830e59047e3257fcbb102c2f63d67d52321f1708b838"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/train/v_4LXTUim5anY_c002.npz",
+      "sha256": "8db684a6a75c435e8c1a35bef8f0c3a09849a49479c7c9d69dc969e4fdd28a0b"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/train/v_4LXTUim5anY_c003.npz",
+      "sha256": "a88fcdfaaa589977cb43c2dd573d940cb29e3cbabda4313cdc5e57f27e328b5d"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/train/v_4LXTUim5anY_c010.npz",
+      "sha256": "7331ede4751e3cf22505ae4ccf91775752dc17cd31294411e6736db265810c23"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/train/v_4LXTUim5anY_c012.npz",
+      "sha256": "a298a8fe487a9a3910e51c2e2b9706e87dc51eb59e2a77cb5d5430b594c34293"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/train/v_4LXTUim5anY_c013.npz",
+      "sha256": "969593bada1ee1842f3a10c68806079d10f1d180ed5fe093262bceff5f3de181"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/train/v_ApPxnw_Jffg_c001.npz",
+      "sha256": "428a3e99cff588cdcf2b61e489bab6987ff6d4a849cbf86dbcf6b9a5c6e9fa33"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/train/v_ApPxnw_Jffg_c002.npz",
+      "sha256": "2ca18def11bcbf1a7cf6084819fb3fbb079dfc2e73be3edecd624ad73fba258a"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/train/v_ApPxnw_Jffg_c009.npz",
+      "sha256": "55b17a1bd7397f176476d4059888407a9928ac7c6f31fad535d46ff8ec2e344a"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/train/v_ApPxnw_Jffg_c015.npz",
+      "sha256": "ea083db892127a53e14f71ffb9608997f05a63a2dbbf890c71cf80197937ba40"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/train/v_ApPxnw_Jffg_c016.npz",
+      "sha256": "8d13d4563378440006ca077d06d50d3a58aafb7a9aa66f61efde1220b0915648"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/train/v_CW0mQbgYIF4_c004.npz",
+      "sha256": "475aa4c6c03aa11f4dda3fe35062a671d7784b244c41f84571901aabfd4d1e67"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/train/v_CW0mQbgYIF4_c005.npz",
+      "sha256": "d113dadaf2df0ff3458a8156f2cdaae6847e7a1349038f7f957358af65856902"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/train/v_CW0mQbgYIF4_c006.npz",
+      "sha256": "33ac66be1ff9653c67463d17f6e7505b1b1efd39329ac36a498d784dd8bf5a56"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/train/v_Dk3EpDDa3o0_c002.npz",
+      "sha256": "0b04d34ada62b92bc32ffd0ac3064c07ad48099a0c7fc5baefcb7fda79949a4c"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/train/v_Dk3EpDDa3o0_c007.npz",
+      "sha256": "a7b60d70c9484e3e7e1df33f4ce84a7d26fc39fbd7d288d2625407b551017ac3"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/train/v_HdiyOtliFiw_c003.npz",
+      "sha256": "76a62a7b1e28771c0b0392479d17be2f1fb44b2a7f1cfd0621665c44e8b37eec"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/train/v_HdiyOtliFiw_c004.npz",
+      "sha256": "20f6c8ff1ff39805d53b9dd5b48245d0105da52cf6d52102fe7ebb976200a8e5"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/train/v_HdiyOtliFiw_c008.npz",
+      "sha256": "8c3e339e16f0ab9f9d4af0d1ff695d08568f59f6f100d5952485f28a12acba25"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/train/v_HdiyOtliFiw_c010.npz",
+      "sha256": "b57b3f03217a05ef000b582b989af3f089634834a6c80ef5d957a376049f7772"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/train/v_HdiyOtliFiw_c602.npz",
+      "sha256": "d811082bb2463f7072b97ff975db3c76c06e71242ba34124e91df6040c4041c2"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/train/v_dChHNGIfm4Y_c003.npz",
+      "sha256": "9276ffc3759243b440bb7e2fe06c385eb5579ff40aa6c9df4e048250c8c9aae3"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/train/v_gQNyhv8y0QY_c003.npz",
+      "sha256": "97d2d2b3bc24b47e8fd6d870f0d1c63a1b5ebe97765a87ca8854fcef9addd4aa"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/train/v_gQNyhv8y0QY_c012.npz",
+      "sha256": "60709a5e4062b742313de1619295d7d961d17837dc4500961229554224e9f4b7"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/train/v_gQNyhv8y0QY_c013.npz",
+      "sha256": "c567a6d7e928702d1a14b935968ddf2c056f49a6c075e125d55a035326c5e636"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/train/v_iIxMOsCGH58_c013.npz",
+      "sha256": "18bbff06a0a1e5de2b1ff24b96be763c78901861d43e23c5a5a17fecfc8c7863"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/val/v_00HRwkvvjtQ_c001.npz",
+      "sha256": "6e113cb25c64cd19b1b515c5400b2ae90dfb1366e1bb9e48966999dedb9c89c7"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/val/v_00HRwkvvjtQ_c003.npz",
+      "sha256": "461a0832021167a71736f8f990e8b6d09680efa824bf70adb789b8d9c32464bf"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/val/v_00HRwkvvjtQ_c005.npz",
+      "sha256": "7ecd402796867d62e44e5f4ff174ccdac665d7307aadcd7c183407ad1693bb55"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/val/v_00HRwkvvjtQ_c007.npz",
+      "sha256": "3508dbfe6dd4c4505722e621cabe9000b75f89e0dd10d8663d4146a919222b3b"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/val/v_00HRwkvvjtQ_c008.npz",
+      "sha256": "62825a759b86b0837f1239d45d409f1383b0c5ef43dbf2edb509f8974128bb81"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/val/v_00HRwkvvjtQ_c011.npz",
+      "sha256": "c611f55f402857aed6fb7346da1d3ac048e0f0b6636d9a9e79ffbe50de3bf83d"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/val/v_0kUtTtmLaJA_c004.npz",
+      "sha256": "97851ca6fa3eecf0b8e0b14e51c2ccef8a1a7b4f10e7a0cfbb42bd0a4a7e982e"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/val/v_0kUtTtmLaJA_c005.npz",
+      "sha256": "31fc135c1f36094730f59ebb19b739e1c76deac68f44eef16218a6f7c691e703"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/val/v_0kUtTtmLaJA_c006.npz",
+      "sha256": "0b5d81f0ba7d604d25185a6ac3a63267eb00822490bb08bf1f61933ccd750585"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/val/v_0kUtTtmLaJA_c007.npz",
+      "sha256": "5c947e6902cfaca8eb1ffee34c252406927f5c94849c4683501a4d93f379f570"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/val/v_0kUtTtmLaJA_c008.npz",
+      "sha256": "0fa2f0ae1528f59ef3b5aadbdebbe433ae463cd01be1ac8e30c77941f68cb155"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/val/v_0kUtTtmLaJA_c010.npz",
+      "sha256": "848278d9be5242355bb52f552bcb2c4628f01d08404b0162e2f4ebb990ff62a7"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/val/v_2QhNRucNC7E_c017.npz",
+      "sha256": "5ec50fc93274d712682ecf57fbe0b3802b7b98150b807c5afdb98350aa519673"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/val/v_4-EmEtrturE_c009.npz",
+      "sha256": "39ed06d504e6ae4a65e668352e1defb2f6f90f2dd585bfbdb444d94876816f78"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/val/v_4r8QL_wglzQ_c001.npz",
+      "sha256": "db20744c2147bbc9e21b995e340ac20172da593738cc79f85d0952149ea30f79"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/val/v_5ekaksddqrc_c001.npz",
+      "sha256": "e77986b675b72cc44abcf2bfed39133c7fd8e80dc9881e632f2a783a2a74433e"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/val/v_5ekaksddqrc_c002.npz",
+      "sha256": "9bd17db80c0ec4b74614aebe7e39794664ce52ed27f52b92733b0762e8298928"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/val/v_5ekaksddqrc_c003.npz",
+      "sha256": "bd10ff049499e63a40756e38da859f10226d9bf398c20583340861b4750b70e8"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/val/v_5ekaksddqrc_c004.npz",
+      "sha256": "b0a5b48ed6b40d4010518afbd2a43e64d44cd3e953813f18e956e0f58c44813d"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/val/v_5ekaksddqrc_c005.npz",
+      "sha256": "3a6c623cea89e1f2c172a7cf080b1f4886eab8af553974abb0c007e20bafdf3c"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/val/v_9MHDmAMxO5I_c002.npz",
+      "sha256": "edcb10275903da1cf5314c8a085f3eaa3d75cf800d95a945898c4110f6e9be9a"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/val/v_9MHDmAMxO5I_c003.npz",
+      "sha256": "5ffd5a2517ccab1f74fd000c730ff8755238f3736af5fcf1a4be61fa748103d5"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/val/v_9MHDmAMxO5I_c004.npz",
+      "sha256": "b48fa42ae264f6a7557fad07351147fb24eab13474f7da35430aab8655293192"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/val/v_9MHDmAMxO5I_c006.npz",
+      "sha256": "ff647b17de2ca114373d2eeed17f91b0cc99879645c8a1960af32be7ac49ebcc"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/val/v_9MHDmAMxO5I_c009.npz",
+      "sha256": "03e99283533dd3105a962f8a29bf7a12f0dde94c4254234dede1371a64ba0838"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/val/v_BgwzTUxJaeU_c008.npz",
+      "sha256": "21e4caf091462fec896423687353f316114cc107352ddabda6e34be00547eb07"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/val/v_BgwzTUxJaeU_c012.npz",
+      "sha256": "62f174b33cfa190756319e15d6dff21356633582ed707ecea2a587f4737bd13d"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/val/v_BgwzTUxJaeU_c014.npz",
+      "sha256": "960da35abd7a5c881e2b676bc5eb26871b79b38ada525db91a85580f08c95049"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/val/v_G-vNjfx1GGc_c004.npz",
+      "sha256": "92e103f650286a846f09a611d99e70cbd4be177a9ef8e3718803eb43f2e9af3b"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/val/v_G-vNjfx1GGc_c008.npz",
+      "sha256": "35737866857be4135c4b833fa86248ab96f8c6973b15d8953c1f25e3f534c9b1"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/val/v_G-vNjfx1GGc_c600.npz",
+      "sha256": "1a78730aab87d8f7af211433ffab45c22e19784245776ddcfc88b66b56d7033f"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/val/v_G-vNjfx1GGc_c601.npz",
+      "sha256": "c7e59c967ec1906281546b55e10837c662a2dd8ba61da78d294f77248cdd4205"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/val/v_ITo3sCnpw_k_c007.npz",
+      "sha256": "dcf33bad85f2873298b2d76e9ab2849e95a5a6a8a6ec783153dc008589c887f3"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/val/v_ITo3sCnpw_k_c010.npz",
+      "sha256": "3d22dcded0b939800f23e69dcb15fd5cc51b0d5bc55cbd306e2be97c63bf9c77"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/val/v_ITo3sCnpw_k_c011.npz",
+      "sha256": "39ce5e6a9c9ccda7ae931e1245d4fdd41da0e10c48b25581ef662b9049f31557"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/val/v_ITo3sCnpw_k_c012.npz",
+      "sha256": "cc97026756413bf4eb11d37c66770b3af9c3756a60b22553a4ada010b0b215c5"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/val/v_cC2mHWqMcjk_c007.npz",
+      "sha256": "d40fd09706b0932e1365e370f7c200fd0abcd39a11afe5155eca9fd65d4b6079"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/val/v_cC2mHWqMcjk_c008.npz",
+      "sha256": "70e597f0fd5eef058749080409234b497e35533a522109820e6679949d1abe32"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/val/v_cC2mHWqMcjk_c009.npz",
+      "sha256": "58e8dc78fc59d91370a16a783a81e896ac35cad852c7cc8c78692564943b7549"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/val/v_dw7LOz17Omg_c053.npz",
+      "sha256": "83b9aa46190e5e8d0fcb0f70c36126787a07e4a316dd79f687413735945de256"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/val/v_dw7LOz17Omg_c067.npz",
+      "sha256": "cb55725f737924e1ade0dfcb413a5758ed367cd2d6dfce17cf445bb51d0fa6b2"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/val/v_i2_L4qquVg0_c006.npz",
+      "sha256": "7458c7437c5b6587fdc38a06de3fefeffb6964c6cac9e0725e9109ea332637d0"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/val/v_i2_L4qquVg0_c007.npz",
+      "sha256": "7d772f8bba1e569039e66fe1e03cdeeb6fa08e23ce65aa3cc9f7e9244f9cd18c"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/val/v_i2_L4qquVg0_c009.npz",
+      "sha256": "1a98f95fa66163a07542d0ca0b7a56b4a62fb388b2872774b5f4449d46a21313"
+    },
+    {
+      "path": "/home/user/motqa_pilot/data/stage2/unified/SportsMOT/val/v_i2_L4qquVg0_c010.npz",
+      "sha256": "287cd88c625ccb0ac9b51b80262f02fb393fe7269dce78bc9f8dc94b2d355b89"
+    }
+  ]
+}

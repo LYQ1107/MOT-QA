@@ -1,0 +1,27 @@
+{
+  "locked_at": "2026-11-05T23:37:55.994864+08:00",
+  "status": "LOCKED_BEFORE_ANY_STAGE5_INFERENCE",
+  "model": "Qwen2.5-VL-7B-Instruct",
+  "seed": 42,
+  "expand_only_if": {
+    "G_minus_A_pp_min": 15.0,
+    "G_minus_Gsh_pp_min": 10.0,
+    "script_S_accuracy_required": 1.0
+  },
+  "if_G_close_to_A": "Inspect serialization and prompts; do not expand",
+  "if_S_below100": "Fix generator before interpreting model results",
+  "statistics": {
+    "paired": "exact McNemar",
+    "bootstrap": "video cluster resampling with replacement,1000 replicates,seed42"
+  },
+  "power": {
+    "n_paired": "(1.96+0.84)^2*p_disc/delta^2",
+    "design_effect": "1+(mean_questions_per_video-1)*rho",
+    "candidate_n": "n_paired*design_effect/filter_retention",
+    "overall_delta": 0.05,
+    "per_operation_delta": 0.1,
+    "composition_min_n": 200,
+    "rho": "one-way ANOVA on binary correctness; report raw estimate and design-effect convention"
+  },
+  "no_formal_scale_generation_before_user_decision": true
+}

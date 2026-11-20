@@ -1,0 +1,71 @@
+{
+  "unit_key": "dancetrack0058__id005",
+  "sequence": "dancetrack0058",
+  "gt_id": 5,
+  "phase": "reference_instant_match",
+  "started_at": "2026-11-04T14:14:01.613834+00:00",
+  "completed_at": "2026-11-04T14:14:08.815849+00:00",
+  "seconds": 7.202032516244799,
+  "prompt_text": "At this reference instant, match the following appearance phrase to ALL visible people: \"the person wearing a black bomber jacket over a white t-shirt with black pants and white sneakers\"\nThe first image is the full frame, with anonymous boxes and labels. The other image(s) are crops of EVERY GT-present person at this SAME instant. Read the central person in each crop; neighboring bodies may overlap. Labels are bookkeeping only. Do not use gallery order, location, pose, or box color as appearance attributes. Include ALL people satisfying the full appearance phrase in matches, and any plausible but obscured/unclear people in uncertain. A partly hidden target whose defining clothing cannot be seen is uncertain. No forced choice; none or several are valid outcomes. Omitted labels mean clear non-matches.\nReturn {\"matches\":[\"P01\"],\"uncertain\":[],\"reason\":\"brief visual explanation\"}. Valid labels: [\"P01\", \"P02\", \"P03\", \"P04\", \"P05\", \"P06\", \"P07\"].",
+  "image_paths": [
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0058/anchor_id005_f001273/full_frame.jpg",
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0058/anchor_id005_f001273/local_gallery_page00.jpg"
+  ],
+  "image_sha256": [
+    "77e673ca716ca88fe868d486dbd9eb6f618d4d9640e249d8925747708a151058",
+    "aa7cc0052c98ef6281f3c6252f202a96d353e25d94d0c9ee3115bdf759461384"
+  ],
+  "response": {
+    "id": "chatcmpl-972663c3947d925b",
+    "object": "chat.completion",
+    "created": 1793801641,
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"matches\":[\"P07\"],\"uncertain\":[],\"reason\":\"P07 is clearly wearing a black bomber jacket over a white t-shirt, black pants, and white sneakers. All other individuals either lack one or more of these items (e.g., P01 has black shorts, P03 has tan pants, P05 has black pants but no visible white t-shirt, P06 has a patterned sweater, P04 has a patterned sweater, P02 is partially obscured but appears to have a patterned sweater and no white t-shirt).\"}",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 1488,
+      "total_tokens": 1606,
+      "completion_tokens": 118,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "check": {
+    "valid": true,
+    "parsed": {
+      "matches": [
+        "P07"
+      ],
+      "uncertain": [],
+      "reason": "P07 is clearly wearing a black bomber jacket over a white t-shirt, black pants, and white sneakers. All other individuals either lack one or more of these items (e.g., P01 has black shorts, P03 has tan pants, P05 has black pants but no visible white t-shirt, P06 has a patterned sweater, P04 has a patterned sweater, P02 is partially obscured but appears to have a patterned sweater and no white t-shirt)."
+    },
+    "matched_gt_ids": [
+      5
+    ],
+    "uncertain_gt_ids": [],
+    "passed": true,
+    "error": null
+  },
+  "inference_policy_sha256": "ea3ce06e83208db2fc1ed693ee2ac1b349f8ae344fcdc2cb0a22e30ef8df60e3"
+}

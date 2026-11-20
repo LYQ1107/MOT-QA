@@ -1,0 +1,98 @@
+{
+  "selection": "shortest and longest interval with future3s per dataset; not random, not an error-rate estimator",
+  "reviewed_at": "2026-11-04T21:07:48.708299+08:00",
+  "cases": [
+    {
+      "dataset": "DanceTrack",
+      "selection": "short",
+      "status": "needs_review",
+      "observation": "唯一时段仅0.05秒，目标高度重叠，白色T恤难以从该帧核实。",
+      "image": "/home/user/motqa_pilot/results/stage2/reference_review/DanceTrack_short.jpg",
+      "ref_id": "2279db85ee0ff74b3576",
+      "text": "dancing person with white Tshirt and black pants",
+      "sequence": "dancetrack0005",
+      "frame": 674,
+      "target_ids": [
+        3
+      ],
+      "reviewer": "Codex visual inspection"
+    },
+    {
+      "dataset": "DanceTrack",
+      "selection": "long",
+      "status": "plausible_but_needs_review",
+      "observation": "蓝色裤子较能区分；深色外层与浅色内搭的措辞仍需核查。",
+      "image": "/home/user/motqa_pilot/results/stage2/reference_review/DanceTrack_long.jpg",
+      "ref_id": "a8a2990ce829aef2d290",
+      "text": "dancing person with black shirt and blue pants",
+      "sequence": "dancetrack0058",
+      "frame": 771,
+      "target_ids": [
+        2
+      ],
+      "reviewer": "Codex visual inspection"
+    },
+    {
+      "dataset": "SportsMOT",
+      "selection": "short",
+      "status": "needs_review",
+      "observation": "right-side team player是空间/群体指代，非纯个体外观；唯一时段0.04秒。",
+      "image": "/home/user/motqa_pilot/results/stage2/reference_review/SportsMOT_short.jpg",
+      "ref_id": "01cb9cf42a4db4d18ded",
+      "text": "right-side team player",
+      "sequence": "v_cC2mHWqMcjk_c009",
+      "frame": 18,
+      "target_ids": [
+        6
+      ],
+      "reviewer": "Codex visual inspection"
+    },
+    {
+      "dataset": "SportsMOT",
+      "selection": "long",
+      "status": "apparent_text_id_mismatch",
+      "observation": "描述white clothes，原JSON指定ID10，其原始GT框指向绿色上衣运动员。未猜测ID偏移或修正标注。",
+      "image": "/home/user/motqa_pilot/results/stage2/reference_review/SportsMOT_long.jpg",
+      "ref_id": "fa8e6c7e8fc0390b35fc",
+      "text": "The player in the left-side team wearing white clothes.",
+      "sequence": "v_cC2mHWqMcjk_c007",
+      "frame": 318,
+      "target_ids": [
+        10
+      ],
+      "reviewer": "Codex visual inspection"
+    },
+    {
+      "dataset": "MOT17",
+      "selection": "short",
+      "status": "not_visually_unique",
+      "observation": "泛化的person walking on the street不能从多人画面唯一定位。",
+      "image": "/home/user/motqa_pilot/results/stage2/reference_review/MOT17_short.jpg",
+      "ref_id": "1811aa94173bc76ae228",
+      "text": "a person walking on the street",
+      "sequence": "MOT17-10-FRCNN",
+      "frame": 350,
+      "target_ids": [
+        59
+      ],
+      "reviewer": "Codex visual inspection"
+    },
+    {
+      "dataset": "MOT17",
+      "selection": "long",
+      "status": "not_visually_unique",
+      "observation": "泛化的man walking on the sidewalk不能从多人画面唯一定位。",
+      "image": "/home/user/motqa_pilot/results/stage2/reference_review/MOT17_long.jpg",
+      "ref_id": "c718660b1d9a8cf936c2",
+      "text": "man walking on the sidewalk",
+      "sequence": "MOT17-04-FRCNN",
+      "frame": 808,
+      "target_ids": [
+        106
+      ],
+      "reviewer": "Codex visual inspection"
+    }
+  ],
+  "source_annotations_modified": false,
+  "automatic_candidates_removed": false
+}

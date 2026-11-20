@@ -1,0 +1,73 @@
+{
+  "unit_key": "dancetrack0043__id005",
+  "sequence": "dancetrack0043",
+  "gt_id": 5,
+  "phase": "generate",
+  "started_at": "2026-11-04T13:56:11.479890+00:00",
+  "completed_at": "2026-11-04T13:56:19.049674+00:00",
+  "seconds": 7.569813737180084,
+  "prompt_text": "The first image shows three crops of ONE target person at different times. The other image(s) show comparison people from the SAME video; every labeled tile is a different annotated person, shown in up to three crops. These comparison labels are anonymous bookkeeping labels, not appearance attributes.\nWrite one concise English noun phrase (at most 30 words), starting with \"the person\", describing the target using stable, clearly visible clothing, patterns, hair, or accessories. Prefer details that distinguish this person from comparison people. Do not mention actions, pose, scene location, time, spatial relation to others, gallery labels, or GT identity numbers. Visible garment lettering is allowed only if clearly legible. Do not infer colors/details hidden by another person. If no reliable description is possible, use an empty phrase. If a truthful description is shared by others, still provide it and set visually_distinct to false.\nReturn {\"phrase\":\"...\", \"supported_attributes\":[\"...\"], \"visually_distinct\":true, \"limitations\":\"...\"}. A description need not be unique; truthful uncertainty is preferred to invented uniqueness.\nThe target person is also included once among the comparison gallery tiles. Identify that repeated target visually; do not treat the repeated target tile as a different rival. Look for truthful stable appearance that distinguishes the target from OTHER people.",
+  "image_paths": [
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0043/id005_target.jpg",
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0043/generation_gallery_page00.jpg",
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0043/generation_gallery_page01.jpg"
+  ],
+  "image_sha256": [
+    "918b589e0141b2e54db29492b2621f43c1ad0668dcda63f42e66ca8341453cfa",
+    "b743c0479ae25b12316411e933a74b1eeb1e8360ae9249564ec7b12706d107d8",
+    "7a6526b7a9cd7dce2c2bc4a4074a190f331f4f70681293cf3930ba7160c29f3e"
+  ],
+  "response": {
+    "id": "chatcmpl-9ed283866d8b0298",
+    "object": "chat.completion",
+    "created": 1793800571,
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"phrase\": \"the person with long dark hair and a white traditional dress with a bright pink sash tied at the waist\",\n  \"supported_attributes\": [\"long dark hair\", \"white traditional dress\", \"bright pink sash\", \"tied at the waist\"],\n  \"visually_distinct\": false,\n  \"limitations\": \"Many people in the gallery share the same white traditional dress and pink sash, making the description common rather than unique. The target's hair length and style appear similar to others, and no other distinguishing features (like unique patterns or accessories) are clearly visible.\"\n}",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 2164,
+      "total_tokens": 2288,
+      "completion_tokens": 124,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "check": {
+    "valid": true,
+    "parsed": {
+      "phrase": "the person with long dark hair and a white traditional dress with a bright pink sash tied at the waist",
+      "supported_attributes": [
+        "long dark hair",
+        "white traditional dress",
+        "bright pink sash",
+        "tied at the waist"
+      ],
+      "visually_distinct": false,
+      "limitations": "Many people in the gallery share the same white traditional dress and pink sash, making the description common rather than unique. The target's hair length and style appear similar to others, and no other distinguishing features (like unique patterns or accessories) are clearly visible."
+    },
+    "phrase": "the person with long dark hair and a white traditional dress with a bright pink sash tied at the waist",
+    "error": null
+  },
+  "inference_policy_sha256": "ea3ce06e83208db2fc1ed693ee2ac1b349f8ae344fcdc2cb0a22e30ef8df60e3"
+}

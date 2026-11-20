@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-11-04T20:10:51.099571+08:00",
+  "status": "PROVISIONAL_PENDING_TRACKER_TRAIN_TUNE_DISCLOSURE",
+  "questions_generated": false,
+  "DanceTrack": {
+    "source_split": "val",
+    "sequences": 25
+  },
+  "SportsMOT": {
+    "source_split": "val",
+    "sequences": 45
+  },
+  "MOT17": {
+    "source_split": "train",
+    "detector_variant": "FRCNN",
+    "convention": "frames floor(N/2)+1 through N inclusive, 1-based",
+    "windows": [
+      {
+        "sequence": "MOT17-02-FRCNN",
+        "fps": 30.0,
+        "frame_start": 301,
+        "frame_end": 600,
+        "frames": 300
+      },
+      {
+        "sequence": "MOT17-04-FRCNN",
+        "fps": 30.0,
+        "frame_start": 526,
+        "frame_end": 1050,
+        "frames": 525
+      },
+      {
+        "sequence": "MOT17-05-FRCNN",
+        "fps": 14.0,
+        "frame_start": 419,
+        "frame_end": 837,
+        "frames": 419
+      },
+      {
+        "sequence": "MOT17-09-FRCNN",
+        "fps": 30.0,
+        "frame_start": 263,
+        "frame_end": 525,
+        "frames": 263
+      },
+      {
+        "sequence": "MOT17-10-FRCNN",
+        "fps": 30.0,
+        "frame_start": 328,
+        "frame_end": 654,
+        "frames": 327
+      },
+      {
+        "sequence": "MOT17-11-FRCNN",
+        "fps": 30.0,
+        "frame_start": 451,
+        "frame_end": 900,
+        "frames": 450
+      },
+      {
+        "sequence": "MOT17-13-FRCNN",
+        "fps": 25.0,
+        "frame_start": 376,
+        "frame_end": 750,
+        "frames": 375
+      }
+    ]
+  }
+}

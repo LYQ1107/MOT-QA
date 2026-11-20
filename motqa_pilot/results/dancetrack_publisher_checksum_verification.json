@@ -1,0 +1,20 @@
+[
+  {
+    "archive": "/data2/user/LocateMOT/data/downloads/DanceTrack/train1.zip",
+    "revision": "a0ba42ac690c41e9850a20e76a0b9450a6fb6a47",
+    "bytes_match": true,
+    "sha256_match": true
+  },
+  {
+    "archive": "/data2/user/LocateMOT/data/downloads/DanceTrack/train2.zip",
+    "revision": "a0ba42ac690c41e9850a20e76a0b9450a6fb6a47",
+    "bytes_match": true,
+    "sha256_match": true
+  },
+  {
+    "archive": "/data2/user/LocateMOT/data/downloads/DanceTrack/val.zip",
+    "revision": "a0ba42ac690c41e9850a20e76a0b9450a6fb6a47",
+    "bytes_match": true,
+    "sha256_match": true
+  }
+]

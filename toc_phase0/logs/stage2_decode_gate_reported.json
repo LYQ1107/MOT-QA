@@ -1,0 +1,14 @@
+{
+  "reported_to_user": true,
+  "reported_at": "2026-10-31T17:41:45.357454+00:00",
+  "audited_count": 1951,
+  "anomaly_count": 2,
+  "short_video_ids": [
+    "ovis_2b827e3a",
+    "ovis_f4b271d4"
+  ],
+  "decode_failures": 0,
+  "unexpected_missing_frames": 0,
+  "official_short_video_policy": "N<=32: use all N frames",
+  "confirmation_required": false
+}

@@ -1,0 +1,66 @@
+{
+  "processed_at": "2026-11-05T22:39:22.055552+08:00",
+  "source_file": "/home/user/motqa_pilot/results/question_review/user_submissions/20261105_question_review_result_6e3c7d5452bc.json",
+  "source_sha256": "6e3c7d5452bce487558378555623d80b456b2e93081c776e6d8390e0fd082d6a",
+  "counts": {
+    "total": 20,
+    "pass": 17,
+    "fail": 0,
+    "uncertain": 3,
+    "pending": 0
+  },
+  "accepted_design_count": 17,
+  "held_for_revision": 3,
+  "uncertain_indices": [
+    4,
+    5,
+    17
+  ],
+  "held_details": [
+    {
+      "qa_id": "motqa_precheck_04",
+      "index": 4,
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0019",
+      "operation": "O5",
+      "camera_motion": "moving",
+      "reason": "camera_motion_confounds_cumulative_image_path_comparison"
+    },
+    {
+      "qa_id": "motqa_precheck_05",
+      "index": 5,
+      "dataset": "MOT17",
+      "sequence": "MOT17-11-FRCNN",
+      "operation": "O5",
+      "camera_motion": "moving",
+      "reason": "camera_motion_confounds_cumulative_image_path_comparison"
+    },
+    {
+      "qa_id": "motqa_precheck_17",
+      "index": 17,
+      "dataset": "SportsMOT",
+      "sequence": "v_G-vNjfx1GGc_c004",
+      "operation": "O5",
+      "camera_motion": "moving",
+      "reason": "camera_motion_confounds_cumulative_image_path_comparison"
+    }
+  ],
+  "accepted_design_file": "/home/user/motqa_pilot/data/question_review_user_passed_17.jsonl",
+  "held_file": "/home/user/motqa_pilot/data/question_review_camera_revision_3.jsonl",
+  "annotated_review_file": "/home/user/motqa_pilot/results/question_review/question_review_result_with_camera_notes.json",
+  "policy": "/home/user/motqa_pilot/results/question_review/camera_motion_design_addendum_v1.json",
+  "original_questions_and_GT_unchanged": true,
+  "replacement_questions_generated": 3,
+  "full_900_batch_completed": false,
+  "new_model_calls": 0,
+  "new_tracker_runs": 0,
+  "replacement_delivery_recorded_at": "2026-11-05T22:57:56.729962+08:00",
+  "replacement_delivery": "/home/user/motqa_pilot/results/question_review_replacements/delivery_receipt.json",
+  "replacement_questions": "/home/user/motqa_pilot/data/question_review_temporal_replacements_3.jsonl",
+  "replacement_review_status": "USER_CHAT_APPROVED_ALL3_REPLACEMENTS",
+  "original_human_verdicts_unchanged": true,
+  "replacement_approval": "/home/user/motqa_pilot/results/question_review_replacements/user_chat_approval.json",
+  "combined_accepted_design_count": 20,
+  "combined_accepted_design_file": "/home/user/motqa_pilot/data/question_review_user_passed_20.jsonl",
+  "pending_replacement_design_count": 0
+}

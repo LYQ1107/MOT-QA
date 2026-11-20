@@ -1,0 +1,6 @@
+/data2/user/toc_phase0/upstream/masa_dependencies/CLIP-d05afc436d78f1c48dc0dbf8e5980a9d471f35f6
+/data2/user/toc_phase0/upstream/masa_dependencies/TrackEval-c15c969ebca181d7787e1c0ad814012e934ba8b6
+/data2/user/toc_phase0/upstream/masa_dependencies/tet-a62a9c0affec3a97f2cd0263141c53bcfb9c79f7/teta
+/data2/user/toc_phase0/upstream/masa_dependencies/scalabel-78b26be9800596a3c0c2a999f9e04deb8e3fc29a
+/data2/user/toc_phase0/upstream/masa_dependencies/tao-a3a713c51e2fdeb3a106c34b06d889ea581150a7
+/data2/user/toc_phase0/upstream/masa_dependencies/lvis-api-7d7f07def11da91f8b2710ce352c62a78fd5a7ad

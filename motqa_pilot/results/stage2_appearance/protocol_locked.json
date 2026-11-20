@@ -1,0 +1,86 @@
+{
+  "stage": "2 optional appearance supplementation",
+  "seed": 42,
+  "scope": "All 273 GT IDs in 25 DanceTrack val videos; descriptions and validation only, no QA generation, tracker or training.",
+  "raw_data": "read only; original GT and language annotations unchanged",
+  "authorization": "User explicitly agreed to strong-VLM GT-crop appearance supplementation after Stage 2 gap report.",
+  "model": {
+    "name": "Qwen/Qwen3-VL-32B-Instruct",
+    "modelscope_revision": "8d6f46b05db6abe0cb3a5ca8c817929cc0fa2d5a",
+    "local_path": "/home/user/motqa_pilot/models/Qwen3-VL-32B-Instruct",
+    "dtype": "bfloat16",
+    "tensor_parallel_size": 2,
+    "reason": "Official dense 32B vision-language model, separate from evaluated Qwen2.5-VL-7B and eventual Qwen3-VL-8B filter."
+  },
+  "crops": {
+    "five_temporal_bins": "span first..last GT-visible frames; best unused quality frame in each bin; generation bins 0,2,4, held-out bins 1,3",
+    "quality": "sqrt(box area / max area for this ID) * in-frame box-area fraction * (1 - maximum intersection / target box area)",
+    "min_spacing_s": 0.5,
+    "fallback": "relax spacing if bin has no unused spaced candidate; then choose unused global best if bin empty; record relaxation. Never reuse a frame between generation and validation.",
+    "padding_fraction_each_side": 0.05,
+    "output_jpeg_quality": 95,
+    "native_crop": "clipped only when reading pixels; no change to GT boxes; preserve aspect ratio, resize only for gallery",
+    "gallery": {
+      "crop_size_px": [
+        144,
+        256
+      ],
+      "generation_crops_per_person": 3,
+      "held_out_crops_per_person": 2,
+      "columns": 4,
+      "persons_per_page": 12,
+      "labels": "P01 etc assigned using seed42+stable stage/video/frame key; raw GT ID never included in model images/text"
+    }
+  },
+  "anchor": {
+    "selection": "best-quality held-out frame with >=3 seconds remaining; ties earlier frame",
+    "in_frame_area_fraction_min": 0.95,
+    "max_other_box_cover_fraction": 0.35,
+    "min_native_box_height_px": 48,
+    "min_native_box_width_px": 16,
+    "references_per_id_max": 1,
+    "full_frame_long_edge_px": 1280,
+    "meaning": "one verified timepoint only; do not extrapolate to a contiguous unique interval"
+  },
+  "generation": {
+    "temperature": 0,
+    "seed": 42,
+    "max_tokens": 512,
+    "one_attempt_per_id": true,
+    "phrase_max_words": 30,
+    "no_scene_location_action_time_GT_label_in_phrase": true
+  },
+  "validation": {
+    "same_model": true,
+    "independent_held_out_frames": true,
+    "independent_anonymous_permutations": true,
+    "temperature": 0,
+    "seed": 42,
+    "max_tokens": 768,
+    "global": "phrase matches exactly target ID and no uncertain IDs among all same-video GT identities",
+    "local": "at preselected anchor, full-frame plus every GT-present crop matches exactly target and no uncertain IDs",
+    "accept": "both global and local pass, valid phrase, anchor geometric quality thresholds pass",
+    "parse_failure": "retain raw output and reject; no content-directed retries or label repairs",
+    "limitation": "same-model held-out visual consistency is not independent human verification; indistinguishable/unclear people may be rejected"
+  },
+  "service": {
+    "max_model_len": 32768,
+    "gpu_memory_utilization": 0.8,
+    "max_num_seqs": 4,
+    "max_num_batched_tokens": 16384,
+    "enforce_eager": true,
+    "max_images": 4,
+    "mm_processor_kwargs": {
+      "max_pixels": 2097152,
+      "min_pixels": 65536
+    },
+    "per_endpoint_concurrency": 3,
+    "max_estimated_operation_hours": 6
+  },
+  "visual_review": {
+    "selection": "one deterministic accepted ID per video if any; otherwise one generated ID; plus 5 seed42 rejected cases if available",
+    "purpose": "agent checks facts and ambiguity, not a population error-rate estimate; final user review is still needed"
+  },
+  "stop": "Stop and report after optional Stage 2 supplementation; Stage 3 remains unstarted.",
+  "locked_at": "2026-11-04T13:25:23.127777+00:00"
+}

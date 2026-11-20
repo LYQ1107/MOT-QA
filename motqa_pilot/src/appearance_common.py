@@ -1,0 +1,62 @@
+"""Shared paths and fixed prompts for approved appearance supplementation, not QA."""
+from datetime import datetime, timezone
+import hashlib
+import json
+from pathlib import Path
+
+ROOT = Path('/home/user/motqa_pilot')
+RES = ROOT / 'results/stage2_appearance'
+DATA = ROOT / 'data/stage2_appearance'
+MODEL = ROOT / 'models/Qwen3-VL-32B-Instruct'
+PYTHON = '/data2/user/toc_phase0/env/bin/python'
+MODEL_NAME = 'Qwen/Qwen3-VL-32B-Instruct'
+
+SYSTEM = ('You are an image annotator preparing person reference phrases, not answering benchmark questions. '
+          'Use only visible appearance. Never infer identity from a label, location, action, or external knowledge. '
+          'Do not invent distinguishing details when people look alike. Output only the requested JSON.')
+
+GENERATE = '''The first image shows three crops of ONE target person at different times. The other image(s) show comparison people from the SAME video; every labeled tile is a different annotated person, shown in up to three crops. These comparison labels are anonymous bookkeeping labels, not appearance attributes.
+Write one concise English noun phrase (at most 30 words), starting with "the person", describing the target using stable, clearly visible clothing, patterns, hair, or accessories. Prefer details that distinguish this person from comparison people. Do not mention actions, pose, scene location, time, spatial relation to others, gallery labels, or GT identity numbers. Visible garment lettering is allowed only if clearly legible. Do not infer colors/details hidden by another person. If no reliable description is possible, use an empty phrase. If a truthful description is shared by others, still provide it and set visually_distinct to false.
+Return {"phrase":"...", "supported_attributes":["..."], "visually_distinct":true, "limitations":"..."}. A description need not be unique; truthful uncertainty is preferred to invented uniqueness.'''
+
+MATCH = '''Match this appearance phrase against ALL anonymous person tiles in the image(s): {phrase_json}
+Every labeled tile is one different person from the same video; its two crops are held-out views. Labels and tile order do not reveal the intended target. A phrase may match none, one, or several people. Include ALL people who visibly satisfy the whole phrase in matches. Include in uncertain any plausible person for whom the views do not resolve an attribute, instead of assuming that person is a non-match. Do not pick a best match when several fit. A location or action does not distinguish appearance. Omitted labels mean clear non-matches.
+Return {{"matches":["P01"],"uncertain":[],"reason":"brief visual explanation"}}. Valid labels: {labels_json}.'''
+
+LOCAL = '''At this reference instant, match the following appearance phrase to ALL visible people: {phrase_json}
+The first image is the full frame, with anonymous boxes and labels. The other image(s) are crops of EVERY GT-present person at this SAME instant. Read the central person in each crop; neighboring bodies may overlap. Labels are bookkeeping only. Do not use gallery order, location, pose, or box color as appearance attributes. Include ALL people satisfying the full appearance phrase in matches, and any plausible but obscured/unclear people in uncertain. A partly hidden target whose defining clothing cannot be seen is uncertain. No forced choice; none or several are valid outcomes. Omitted labels mean clear non-matches.
+Return {{"matches":["P01"],"uncertain":[],"reason":"brief visual explanation"}}. Valid labels: {labels_json}.'''
+
+
+def now():
+    return datetime.now(timezone.utc).isoformat()
+
+
+def sha(path):
+    h = hashlib.sha256()
+    with open(path, 'rb') as f:
+        for chunk in iter(lambda: f.read(8 << 20), b''):
+            h.update(chunk)
+    return h.hexdigest()
+
+
+def write(path, value):
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(value, ensure_ascii=False, indent=2) + '\n')
+
+
+def read(path):
+    return json.loads(path.read_text())
+
+
+def rows(path):
+    return [json.loads(line) for line in path.read_text().splitlines() if line.strip()]
+
+
+def write_rows(path, values):
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(''.join(json.dumps(v, ensure_ascii=False) + '\n' for v in values))
+
+
+def key(sequence, tid):
+    return f'{sequence}__id{tid:03d}'

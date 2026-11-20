@@ -1,0 +1,19 @@
+{
+  "completed_at": "2026-11-04T14:32:33.346038+00:00",
+  "status": "STAGE2_APPEARANCE_COMPLETE_STOPPED_BEFORE_STAGE3",
+  "IDs": 273,
+  "auto_model_validated_IDs": 25,
+  "newly_covered_IDs": 15,
+  "qa_generated": 0,
+  "training": false,
+  "tracker_runs": 0,
+  "raw_sources_modified": false,
+  "model_service_stopped": true,
+  "visual_review_cases": 46,
+  "locked_visual_review_cases": 30,
+  "posthoc_extra_visual_review_cases": 16,
+  "agent_cleared_candidate_IDs": 17,
+  "agent_cleared_newly_covered_IDs": 10,
+  "auto_pass_review_flags": 8,
+  "report_sha256": "573c08a5bf7539ddc4b393936de2e4cdc069c1719d17b522167f2cb3be8cfd62"
+}

@@ -1,0 +1,38 @@
+{
+  "dataset": "DanceTrack",
+  "source_split": "val",
+  "videos": 25,
+  "gt_ids": 273,
+  "covered_gt_ids": 21,
+  "uncovered_gt_ids": 252,
+  "videos_with_no_unique_reference": [
+    "dancetrack0007",
+    "dancetrack0019",
+    "dancetrack0025",
+    "dancetrack0026",
+    "dancetrack0030",
+    "dancetrack0034",
+    "dancetrack0035",
+    "dancetrack0041",
+    "dancetrack0043",
+    "dancetrack0047",
+    "dancetrack0063",
+    "dancetrack0065",
+    "dancetrack0073",
+    "dancetrack0077",
+    "dancetrack0081",
+    "dancetrack0090",
+    "dancetrack0094",
+    "dancetrack0097"
+  ],
+  "counts_mean": "original-label uniqueness, not visually verified appearance accuracy",
+  "qa_capacity": "not established; reference intervals are not independent questions",
+  "optional_completion": {
+    "scope": "DanceTrack val first: 273 GT IDs, including 252 with no annotation-unique cue",
+    "method": "strong-VLM descriptions from multiple GT crops; same-video uniqueness and visual checks; human GT tracks and answers unchanged",
+    "user_approval_required": true,
+    "approval_source": "task_request.txt section 3.4",
+    "approved": false,
+    "model_calls": 0
+  }
+}

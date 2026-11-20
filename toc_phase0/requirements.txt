@@ -1,0 +1,16 @@
+# vLLM 0.16 / torch 2.9.1 use CUDA 12.8 on the installed 570 driver.
+vllm==0.16.0
+torch==2.9.1
+torchvision==0.24.1
+torchaudio==2.9.1
+transformers==4.57.6
+huggingface_hub==0.36.0
+modelscope==1.40.2
+# Keep supervision.ByteTrack available.
+supervision==0.26.1
+av==16.1.0
+pandas==2.3.3
+numpy==2.2.6
+setuptools==80.9.0
+accelerate==1.12.0
+qwen-vl-utils==0.0.14

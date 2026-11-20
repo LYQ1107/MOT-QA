@@ -1,0 +1,126 @@
+[
+  {
+    "dataset": "DanceTrack",
+    "split": "train",
+    "unique_sequences": 40,
+    "sequence_directories": 40,
+    "frames": 41796,
+    "declared_frames": 41796,
+    "fps": {
+      "20.0": 40
+    },
+    "resolutions": {
+      "1280x720": 12,
+      "1920x1080": 27,
+      "1920x988": 1
+    },
+    "gt_sequences": 40,
+    "gt_rows": 348930,
+    "target_gt_rows": 348930,
+    "target_gt_ids": 419,
+    "image_bytes": 6978787868
+  },
+  {
+    "dataset": "DanceTrack",
+    "split": "val",
+    "unique_sequences": 25,
+    "sequence_directories": 25,
+    "frames": 25508,
+    "declared_frames": 25508,
+    "fps": {
+      "20.0": 25
+    },
+    "resolutions": {
+      "1920x1080": 19,
+      "1280x720": 5,
+      "1440x1080": 1
+    },
+    "gt_sequences": 25,
+    "gt_rows": 225148,
+    "target_gt_rows": 225148,
+    "target_gt_ids": 273,
+    "image_bytes": 4282853707
+  },
+  {
+    "dataset": "MOT17",
+    "split": "test",
+    "unique_sequences": 7,
+    "sequence_directories": 21,
+    "frames": 5919,
+    "declared_frames": 5919,
+    "fps": {
+      "30.0": 5,
+      "14.0": 1,
+      "25.0": 1
+    },
+    "resolutions": {
+      "1920x1080": 6,
+      "640x480": 1
+    },
+    "gt_sequences": 0,
+    "gt_rows": 0,
+    "target_gt_rows": 0,
+    "target_gt_ids": 0,
+    "image_bytes": 1088510000
+  },
+  {
+    "dataset": "MOT17",
+    "split": "train",
+    "unique_sequences": 7,
+    "sequence_directories": 21,
+    "frames": 5316,
+    "declared_frames": 5316,
+    "fps": {
+      "30.0": 5,
+      "14.0": 1,
+      "25.0": 1
+    },
+    "resolutions": {
+      "1920x1080": 6,
+      "640x480": 1
+    },
+    "gt_sequences": 7,
+    "gt_rows": 204701,
+    "target_gt_rows": 112297,
+    "target_gt_ids": 546,
+    "image_bytes": 883773338
+  },
+  {
+    "dataset": "SportsMOT",
+    "split": "train",
+    "unique_sequences": 45,
+    "sequence_directories": 45,
+    "frames": 28574,
+    "declared_frames": 28574,
+    "fps": {
+      "25.0": 45
+    },
+    "resolutions": {
+      "1280x720": 45
+    },
+    "gt_sequences": 45,
+    "gt_rows": 312579,
+    "target_gt_rows": 312579,
+    "target_gt_ids": 639,
+    "image_bytes": 6611277530
+  },
+  {
+    "dataset": "SportsMOT",
+    "split": "val",
+    "unique_sequences": 45,
+    "sequence_directories": 45,
+    "frames": 26970,
+    "declared_frames": 26970,
+    "fps": {
+      "25.0": 45
+    },
+    "resolutions": {
+      "1280x720": 45
+    },
+    "gt_sequences": 45,
+    "gt_rows": 295573,
+    "target_gt_rows": 295573,
+    "target_gt_ids": 641,
+    "image_bytes": 6506088622
+  }
+]

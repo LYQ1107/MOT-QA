@@ -1,0 +1,188 @@
+{
+  "at": "2026-11-04T14:21:39.797Z",
+  "reviewer": "Codex visual inspection of local images",
+  "scope": "Locked 30 cases; 9 automatic passes plus21 rejected cases. This is agent inspection, not final user approval.",
+  "population_error_rate_estimated": false,
+  "cases": [
+    {
+      "index": 1,
+      "verdict": "consistent_rejection",
+      "observation": "图册中P03与P04都呈浅金发、白短上衣和带褶白短裤，短语不足以唯一指认，拒绝方向合理。",
+      "unit_key": "dancetrack0004__id000"
+    },
+    {
+      "index": 2,
+      "verdict": "consistent",
+      "observation": "固定时刻P02清楚可见浅灰短款上衣、黑色宽松长裤与白鞋；其余三人上衣为深色，整帧中可据衣着组合区分。",
+      "unit_key": "dancetrack0005__id001"
+    },
+    {
+      "index": 3,
+      "verdict": "consistent",
+      "observation": "P07的浅金色高马尾、白色长袖短上衣和宽松白裤可见；其他可见人物发色/下装不同。目标虽运动模糊，关键组合仍可辨。",
+      "unit_key": "dancetrack0007__id004"
+    },
+    {
+      "index": 4,
+      "verdict": "needs_review",
+      "observation": "P04确有黑色短款连帽上衣、黑裤及亮绿鞋，身份指向较清楚；粉红绳在裤腰位置，短语“hoodie with a pink drawstring”可能把裤腰绳归到连帽上衣，需修订或用户确认后使用，不自动改写。",
+      "unit_key": "dancetrack0010__id003"
+    },
+    {
+      "index": 5,
+      "verdict": "consistent",
+      "observation": "P01的浅金发、紫色短外套与同色长裤、白鞋可见；其他紫色服装者搭配白短裤/深色头发，组合有区分度。",
+      "unit_key": "dancetrack0014__id004"
+    },
+    {
+      "index": 6,
+      "verdict": "needs_review",
+      "observation": "P07戴的是有前伸帽檐的棒球帽，非描述中的bucket hat；黄色衣饰和深色衣裤可见。同一模型的生成和两轮验证重复了帽型误认，不按原句直接采用。",
+      "unit_key": "dancetrack0018__id004"
+    },
+    {
+      "index": 7,
+      "verdict": "consistent_rejection",
+      "observation": "多位人物穿相同浅色无袖裙，后背垂坠与收腰并非独有特征，不能唯一指认。",
+      "unit_key": "dancetrack0019__id005"
+    },
+    {
+      "index": 8,
+      "verdict": "consistent_rejection",
+      "observation": "棕色短袖裙为多人共有，照明和运动使发色/长发判定不稳，现有描述无法可靠唯一绑定目标。",
+      "unit_key": "dancetrack0025__id001"
+    },
+    {
+      "index": 9,
+      "verdict": "consistent_rejection",
+      "observation": "多位白色芭蕾裙舞者有相似花饰与后背结构；即使corset细节不够清晰，也足以看出短语不能唯一指认。",
+      "unit_key": "dancetrack0026__id017"
+    },
+    {
+      "index": 10,
+      "verdict": "consistent_rejection",
+      "observation": "六位人物均穿相近深色无袖裙装和浅色舞鞋，描述为群体共性，拒绝合理。",
+      "unit_key": "dancetrack0030__id000"
+    },
+    {
+      "index": 11,
+      "verdict": "consistent_rejection",
+      "observation": "短浅色头发、黑金袖纹和背部圆徽在多人身上可见，无法以此唯一指认。",
+      "unit_key": "dancetrack0034__id009"
+    },
+    {
+      "index": 12,
+      "verdict": "needs_review",
+      "observation": "P02有显著红色高束/蓬起的头发或装饰，其他人无同样红色外观，可区分身份；但现有像素不足以支持把它明确称为feathered headpiece，材质/类别推断过度，标疑而不改成另一个未经核实的描述。",
+      "unit_key": "dancetrack0035__id007"
+    },
+    {
+      "index": 13,
+      "verdict": "consistent_rejection",
+      "observation": "多位人物均有黑红服装、粉色鞋和腰侧大环链，组合仍为多人共有，拒绝合理；未逐一认可模型列出的全部匹配编号。",
+      "unit_key": "dancetrack0041__id001"
+    },
+    {
+      "index": 14,
+      "verdict": "consistent_rejection",
+      "observation": "多人白色长裙与深色长发，粉色飘带也为群体共有；图片更像手持飘带而非固定腰带，生成措辞本身也需谨慎，不可作唯一指代。",
+      "unit_key": "dancetrack0043__id000"
+    },
+    {
+      "index": 15,
+      "verdict": "consistent_rejection",
+      "observation": "目标P02与其他人均穿相似黑色纱裙/连体衣，低马尾与发色随角度难稳判；模型只选P04的具体映射不能据此人工确认，保守拒绝方向合理。",
+      "unit_key": "dancetrack0047__id001"
+    },
+    {
+      "index": 16,
+      "verdict": "consistent",
+      "observation": "P02的明亮青绿色头发、深色有细小花纹的长袖衬衫和棕褐长裤清楚可见，其他六人衣着/发色均不同。",
+      "unit_key": "dancetrack0058__id003"
+    },
+    {
+      "index": 17,
+      "verdict": "consistent_rejection",
+      "observation": "黑色长袖裙、红装饰/流苏和带红色装饰的深帽为多人共同服饰，不能唯一指认。",
+      "unit_key": "dancetrack0063__id003"
+    },
+    {
+      "index": 18,
+      "verdict": "consistent_rejection",
+      "observation": "五人穿高度相同的粉绿闪亮花纹体操服及相近腿部装饰，描述不唯一。",
+      "unit_key": "dancetrack0065__id004"
+    },
+    {
+      "index": 19,
+      "verdict": "consistent_rejection",
+      "observation": "P04与P13等多人穿绿色短上衣和黑裤，仅衣服配色无法唯一指认，拒绝合理。",
+      "unit_key": "dancetrack0073__id009"
+    },
+    {
+      "index": 20,
+      "verdict": "consistent_rejection",
+      "observation": "多位人物穿相似深色外套、长裤和帽子；袖上白条/棕帽细节在当前光照中不够明确。模型将所有人列为匹配的理由过强，但该句不能安全唯一指认，拒绝合理。",
+      "unit_key": "dancetrack0077__id000"
+    },
+    {
+      "index": 21,
+      "verdict": "needs_review",
+      "observation": "P08的黑T恤、黑短裤白色棋盘格裤脚可见；帽子可见黄色前标，帽檐看起来为深色，未支持yellow brim。身份组合有辨识度，但颜色所在部位被错误描述。",
+      "unit_key": "dancetrack0079__id003"
+    },
+    {
+      "index": 22,
+      "verdict": "consistent_rejection",
+      "observation": "多位运动员确有相近深蓝红白边服装和白鞋，也有白衬衫的其他人；拒绝不唯一合理，但不把模型长匹配列表的每个编号都视为已人工核准。",
+      "unit_key": "dancetrack0081__id017"
+    },
+    {
+      "index": 23,
+      "verdict": "consistent_rejection",
+      "observation": "多人有相同BRHD字样的深色上衣/裤子；“hoodie”帽型并不都清晰，整体描述仍是群体共性，不能唯一指认。",
+      "unit_key": "dancetrack0090__id006"
+    },
+    {
+      "index": 24,
+      "verdict": "consistent_rejection",
+      "observation": "多位长发扎起的人穿相近深色夹克/长裤和白鞋，舞台色光也使olive green不稳，无法以此唯一指认。",
+      "unit_key": "dancetrack0094__id007"
+    },
+    {
+      "index": 25,
+      "verdict": "needs_review",
+      "observation": "P03为长黑发、黑西装裤与外套、黑高跟鞋；颈部可见白领/白衬衫配深色细带，无法确认white bow tie。模型把白色领部与领结混称；该属性不够准确，需用户核查后采用。",
+      "unit_key": "dancetrack0097__id002"
+    },
+    {
+      "index": 26,
+      "verdict": "consistent_rejection",
+      "observation": "生成图中前后多人重叠，黑衣与身后的绿色衣物被混写成black top with green sleeves，存在串人属性；校验拒绝合理。",
+      "unit_key": "dancetrack0073__id011"
+    },
+    {
+      "index": 27,
+      "verdict": "consistent_rejection",
+      "observation": "与索引11相同的黑金队服描述用于另一个ID，浅发/金袖纹/背徽多人共享，不能唯一指认。",
+      "unit_key": "dancetrack0034__id005"
+    },
+    {
+      "index": 28,
+      "verdict": "consistent_rejection",
+      "observation": "深色长袖、深裤、白鞋及短深发至少适合多名人物，描述过泛。模型全25人匹配的理由过强，图中也有长发者；这里只认可非唯一的拒绝方向。",
+      "unit_key": "dancetrack0094__id000"
+    },
+    {
+      "index": 29,
+      "verdict": "consistent_rejection",
+      "observation": "与索引28完全相同的泛化描述用于不同ID，不能唯一指认；部分人物长发扎起，模型把全体都说成短发并不可靠。",
+      "unit_key": "dancetrack0094__id016"
+    },
+    {
+      "index": 30,
+      "verdict": "model_match_disagreement",
+      "observation": "目标P02在生成图与校验图中呈较明显的深红长发和白色短装，而P01发色更深；模型反而只选P01，疑似发色/身份匹配错误造成假拒绝。保留拒绝结果，不擅自提升为通过或改GT，供用户复核。",
+      "unit_key": "dancetrack0004__id002"
+    }
+  ]
+}

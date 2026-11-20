@@ -1,0 +1,9 @@
+{
+  "at": "2026-11-04T14:32:33.244427+00:00",
+  "server_pid": 2047692,
+  "endpoint_closed": true,
+  "own_compute_processes_remaining": [],
+  "all_compute_processes": "GPU-6cb11599-704e-c3aa-9e28-5f15faa25c7c, 2056168, 18896\nGPU-44f62835-4095-23ec-d3dd-5af16a00705c, 923884, 8748\nGPU-44f62835-4095-23ec-d3dd-5af16a00705c, 970280, 8748\nGPU-44f62835-4095-23ec-d3dd-5af16a00705c, 2020004, 12706\nGPU-44f62835-4095-23ec-d3dd-5af16a00705c, 2020115, 5690\nGPU-c6523d98-cb2d-95ed-4cb2-a84936acceb6, 940243, 10514\nGPU-c6523d98-cb2d-95ed-4cb2-a84936acceb6, 970281, 8748\nGPU-c6523d98-cb2d-95ed-4cb2-a84936acceb6, 1682236, 9414\nGPU-883c8be3-25b0-3d19-6fa8-4c2e335e67d2, 1719939, 8748\nGPU-883c8be3-25b0-3d19-6fa8-4c2e335e67d2, 2010726, 7170\nGPU-883c8be3-25b0-3d19-6fa8-4c2e335e67d2, 2010845, 10824\n",
+  "GPU_memory_after_cleanup": "0, GPU-bf21a95d-d96d-9ec5-cb15-b0fb7ad50536, 0\n1, GPU-f35654b3-bbf5-7303-cfcb-9bd5d3e16e69, 0\n2, GPU-c2484ded-5f87-237c-bbf0-d23fcb74fdb2, 0\n3, GPU-6cb11599-704e-c3aa-9e28-5f15faa25c7c, 18905\n4, GPU-44f62835-4095-23ec-d3dd-5af16a00705c, 35918\n5, GPU-c6523d98-cb2d-95ed-4cb2-a84936acceb6, 28696\n6, GPU-883c8be3-25b0-3d19-6fa8-4c2e335e67d2, 26762\n7, GPU-0322c0e7-ffbf-e068-5bdd-587b8216a9d9, 0\n",
+  "foreign_processes_terminated": false
+}

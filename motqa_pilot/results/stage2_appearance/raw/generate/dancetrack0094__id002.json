@@ -1,0 +1,75 @@
+{
+  "unit_key": "dancetrack0094__id002",
+  "sequence": "dancetrack0094",
+  "gt_id": 2,
+  "phase": "generate",
+  "started_at": "2026-11-04T14:00:49.628208+00:00",
+  "completed_at": "2026-11-04T14:00:57.602077+00:00",
+  "seconds": 7.973902828991413,
+  "prompt_text": "The first image shows three crops of ONE target person at different times. The other image(s) show comparison people from the SAME video; every labeled tile is a different annotated person, shown in up to three crops. These comparison labels are anonymous bookkeeping labels, not appearance attributes.\nWrite one concise English noun phrase (at most 30 words), starting with \"the person\", describing the target using stable, clearly visible clothing, patterns, hair, or accessories. Prefer details that distinguish this person from comparison people. Do not mention actions, pose, scene location, time, spatial relation to others, gallery labels, or GT identity numbers. Visible garment lettering is allowed only if clearly legible. Do not infer colors/details hidden by another person. If no reliable description is possible, use an empty phrase. If a truthful description is shared by others, still provide it and set visually_distinct to false.\nReturn {\"phrase\":\"...\", \"supported_attributes\":[\"...\"], \"visually_distinct\":true, \"limitations\":\"...\"}. A description need not be unique; truthful uncertainty is preferred to invented uniqueness.\nThe target person is also included once among the comparison gallery tiles. Identify that repeated target visually; do not treat the repeated target tile as a different rival. Look for truthful stable appearance that distinguishes the target from OTHER people.",
+  "image_paths": [
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0094/id002_target.jpg",
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0094/generation_gallery_page00.jpg",
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0094/generation_gallery_page01.jpg",
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0094/generation_gallery_page02.jpg"
+  ],
+  "image_sha256": [
+    "ddec51dc763a37472b34051846476df4749aae616f4685077e0e16f010ce73ea",
+    "7db22f3963198258121c825f490e19b28d982e1423b40ed05a729abeaf95d25c",
+    "4a17d78e5d3ad7801a08a39c1667de85adfd2b10f8e2867c413b8fe32997ec7b",
+    "7b6bda4edfc6f123a628021bc7f94a4bb0d696c3018b2e93b818d3c9d29a685f"
+  ],
+  "response": {
+    "id": "chatcmpl-a545450091381b23",
+    "object": "chat.completion",
+    "created": 1793800849,
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"phrase\": \"the person with long dark hair tied back, wearing a dark long-sleeve top, loose dark pants, and white sneakers\",\n  \"supported_attributes\": [\n    \"long dark hair tied back\",\n    \"dark long-sleeve top\",\n    \"loose dark pants\",\n    \"white sneakers\"\n  ],\n  \"visually_distinct\": false,\n  \"limitations\": \"The clothing and footwear are common among many dancers in the gallery; the hair style is the most distinguishing feature, but it is shared by at least one other person (e.g., P17, P25).\"\n}",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 3507,
+      "total_tokens": 3637,
+      "completion_tokens": 130,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "check": {
+    "valid": true,
+    "parsed": {
+      "phrase": "the person with long dark hair tied back, wearing a dark long-sleeve top, loose dark pants, and white sneakers",
+      "supported_attributes": [
+        "long dark hair tied back",
+        "dark long-sleeve top",
+        "loose dark pants",
+        "white sneakers"
+      ],
+      "visually_distinct": false,
+      "limitations": "The clothing and footwear are common among many dancers in the gallery; the hair style is the most distinguishing feature, but it is shared by at least one other person (e.g., P17, P25)."
+    },
+    "phrase": "the person with long dark hair tied back, wearing a dark long-sleeve top, loose dark pants, and white sneakers",
+    "error": null
+  },
+  "inference_policy_sha256": "ea3ce06e83208db2fc1ed693ee2ac1b349f8ae344fcdc2cb0a22e30ef8df60e3"
+}

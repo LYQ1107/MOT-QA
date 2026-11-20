@@ -1,0 +1,26 @@
+{
+  "at": "2026-11-04T13:50:12.796424+00:00",
+  "selected": [
+    {
+      "physical_index": 0,
+      "uuid": "GPU-bf21a95d-d96d-9ec5-cb15-b0fb7ad50536",
+      "name": "NVIDIA A800-SXM4-80GB",
+      "total_MiB": 81920,
+      "initial_used_MiB": 0,
+      "initial_utilization": 0,
+      "existing_processes": 0
+    },
+    {
+      "physical_index": 1,
+      "uuid": "GPU-f35654b3-bbf5-7303-cfcb-9bd5d3e16e69",
+      "name": "NVIDIA A800-SXM4-80GB",
+      "total_MiB": 81920,
+      "initial_used_MiB": 0,
+      "initial_utilization": 0,
+      "existing_processes": 0
+    }
+  ],
+  "selection": "fewer processes first, then lower utilization and more free memory",
+  "full_snapshot": "0, GPU-bf21a95d-d96d-9ec5-cb15-b0fb7ad50536, NVIDIA A800-SXM4-80GB, 81920, 0, 0\n1, GPU-f35654b3-bbf5-7303-cfcb-9bd5d3e16e69, NVIDIA A800-SXM4-80GB, 81920, 0, 0\n2, GPU-c2484ded-5f87-237c-bbf0-d23fcb74fdb2, NVIDIA A800-SXM4-80GB, 81920, 0, 0\n3, GPU-6cb11599-704e-c3aa-9e28-5f15faa25c7c, NVIDIA A800-SXM4-80GB, 81920, 0, 0\n4, GPU-44f62835-4095-23ec-d3dd-5af16a00705c, NVIDIA A800-SXM4-80GB, 81920, 35918, 100\n5, GPU-c6523d98-cb2d-95ed-4cb2-a84936acceb6, NVIDIA A800-SXM4-80GB, 81920, 28694, 100\n6, GPU-883c8be3-25b0-3d19-6fa8-4c2e335e67d2, NVIDIA A800-SXM4-80GB, 81920, 26762, 100\n7, GPU-0322c0e7-ffbf-e068-5bdd-587b8216a9d9, NVIDIA A800-SXM4-80GB, 81920, 0, 0\n",
+  "processes": "GPU-44f62835-4095-23ec-d3dd-5af16a00705c, 923884, 8748\nGPU-44f62835-4095-23ec-d3dd-5af16a00705c, 970280, 8748\nGPU-44f62835-4095-23ec-d3dd-5af16a00705c, 2020004, 12706\nGPU-44f62835-4095-23ec-d3dd-5af16a00705c, 2020115, 5690\nGPU-c6523d98-cb2d-95ed-4cb2-a84936acceb6, 940243, 10514\nGPU-c6523d98-cb2d-95ed-4cb2-a84936acceb6, 970281, 8748\nGPU-c6523d98-cb2d-95ed-4cb2-a84936acceb6, 1682236, 9414\nGPU-883c8be3-25b0-3d19-6fa8-4c2e335e67d2, 1719939, 8748\nGPU-883c8be3-25b0-3d19-6fa8-4c2e335e67d2, 2010726, 7170\nGPU-883c8be3-25b0-3d19-6fa8-4c2e335e67d2, 2010845, 10824\n"
+}

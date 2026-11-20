@@ -1,0 +1,72 @@
+{
+  "unit_key": "dancetrack0073__id008",
+  "sequence": "dancetrack0073",
+  "gt_id": 8,
+  "phase": "generate",
+  "started_at": "2026-11-04T13:57:53.709527+00:00",
+  "completed_at": "2026-11-04T13:57:59.732733+00:00",
+  "seconds": 6.02323951292783,
+  "prompt_text": "The first image shows three crops of ONE target person at different times. The other image(s) show comparison people from the SAME video; every labeled tile is a different annotated person, shown in up to three crops. These comparison labels are anonymous bookkeeping labels, not appearance attributes.\nWrite one concise English noun phrase (at most 30 words), starting with \"the person\", describing the target using stable, clearly visible clothing, patterns, hair, or accessories. Prefer details that distinguish this person from comparison people. Do not mention actions, pose, scene location, time, spatial relation to others, gallery labels, or GT identity numbers. Visible garment lettering is allowed only if clearly legible. Do not infer colors/details hidden by another person. If no reliable description is possible, use an empty phrase. If a truthful description is shared by others, still provide it and set visually_distinct to false.\nReturn {\"phrase\":\"...\", \"supported_attributes\":[\"...\"], \"visually_distinct\":true, \"limitations\":\"...\"}. A description need not be unique; truthful uncertainty is preferred to invented uniqueness.\nThe target person is also included once among the comparison gallery tiles. Identify that repeated target visually; do not treat the repeated target tile as a different rival. Look for truthful stable appearance that distinguishes the target from OTHER people.",
+  "image_paths": [
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0073/id008_target.jpg",
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0073/generation_gallery_page00.jpg",
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0073/generation_gallery_page01.jpg"
+  ],
+  "image_sha256": [
+    "15097795c7e369092fa26ee7e48fe00cb333e5c3df897c53e3a630a5d4272cb5",
+    "0f0d5127497c60ff3d60c01448b64fb704abd1ac9b47a19511090e62a6bd0912",
+    "62bf96838f7d084a6632ca549afbe040289e0d0de348db2bf348712221345b3f"
+  ],
+  "response": {
+    "id": "chatcmpl-93d0adeb1f6b0cad",
+    "object": "chat.completion",
+    "created": 1793800673,
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"phrase\": \"the person with long dark hair wearing a black t-shirt and black pants\",\n  \"supported_attributes\": [\"long dark hair\", \"black t-shirt\", \"black pants\"],\n  \"visually_distinct\": false,\n  \"limitations\": \"Multiple people in the gallery share the same black t-shirt and black pants; the long dark hair is a distinguishing feature but not unique as some others also have long dark hair. The target is visually repeated in gallery tile P13.\"\n}",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 2164,
+      "total_tokens": 2267,
+      "completion_tokens": 103,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "check": {
+    "valid": true,
+    "parsed": {
+      "phrase": "the person with long dark hair wearing a black t-shirt and black pants",
+      "supported_attributes": [
+        "long dark hair",
+        "black t-shirt",
+        "black pants"
+      ],
+      "visually_distinct": false,
+      "limitations": "Multiple people in the gallery share the same black t-shirt and black pants; the long dark hair is a distinguishing feature but not unique as some others also have long dark hair. The target is visually repeated in gallery tile P13."
+    },
+    "phrase": "the person with long dark hair wearing a black t-shirt and black pants",
+    "error": null
+  },
+  "inference_policy_sha256": "ea3ce06e83208db2fc1ed693ee2ac1b349f8ae344fcdc2cb0a22e30ef8df60e3"
+}

@@ -1,0 +1,72 @@
+{
+  "unit_key": "dancetrack0097__id001",
+  "sequence": "dancetrack0097",
+  "gt_id": 1,
+  "phase": "generate",
+  "started_at": "2026-11-04T14:01:48.804820+00:00",
+  "completed_at": "2026-11-04T14:01:55.264401+00:00",
+  "seconds": 6.459613743703812,
+  "prompt_text": "The first image shows three crops of ONE target person at different times. The other image(s) show comparison people from the SAME video; every labeled tile is a different annotated person, shown in up to three crops. These comparison labels are anonymous bookkeeping labels, not appearance attributes.\nWrite one concise English noun phrase (at most 30 words), starting with \"the person\", describing the target using stable, clearly visible clothing, patterns, hair, or accessories. Prefer details that distinguish this person from comparison people. Do not mention actions, pose, scene location, time, spatial relation to others, gallery labels, or GT identity numbers. Visible garment lettering is allowed only if clearly legible. Do not infer colors/details hidden by another person. If no reliable description is possible, use an empty phrase. If a truthful description is shared by others, still provide it and set visually_distinct to false.\nReturn {\"phrase\":\"...\", \"supported_attributes\":[\"...\"], \"visually_distinct\":true, \"limitations\":\"...\"}. A description need not be unique; truthful uncertainty is preferred to invented uniqueness.\nThe target person is also included once among the comparison gallery tiles. Identify that repeated target visually; do not treat the repeated target tile as a different rival. Look for truthful stable appearance that distinguishes the target from OTHER people.",
+  "image_paths": [
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0097/id001_target.jpg",
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0097/generation_gallery_page00.jpg"
+  ],
+  "image_sha256": [
+    "dbccd3ff73080cb8a2d077e5c9d2c9276bd940ae402aaba6c201ce6fa376a5b9",
+    "8129b88a6be6e63c8caa96183de893f4df7a46bdfaca382463a5e241f9cbff48"
+  ],
+  "response": {
+    "id": "chatcmpl-9f6fd659d563e2e4",
+    "object": "chat.completion",
+    "created": 1793800908,
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"phrase\": \"the person with long dark hair, glasses, a black cropped top, black blazer, and black flared pants\",\n  \"supported_attributes\": [\n    \"long dark hair\",\n    \"glasses\",\n    \"black cropped top\",\n    \"black blazer\",\n    \"black flared pants\"\n  ],\n  \"visually_distinct\": true,\n  \"limitations\": \"The target is visually distinct from other comparison people due to the combination of long dark hair, glasses, and the specific outfit. However, some comparison people wear similar black outfits, so the glasses and long dark hair are key distinguishing features.\"\n}",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 947,
+      "total_tokens": 1078,
+      "completion_tokens": 131,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "check": {
+    "valid": true,
+    "parsed": {
+      "phrase": "the person with long dark hair, glasses, a black cropped top, black blazer, and black flared pants",
+      "supported_attributes": [
+        "long dark hair",
+        "glasses",
+        "black cropped top",
+        "black blazer",
+        "black flared pants"
+      ],
+      "visually_distinct": true,
+      "limitations": "The target is visually distinct from other comparison people due to the combination of long dark hair, glasses, and the specific outfit. However, some comparison people wear similar black outfits, so the glasses and long dark hair are key distinguishing features."
+    },
+    "phrase": "the person with long dark hair, glasses, a black cropped top, black blazer, and black flared pants",
+    "error": null
+  },
+  "inference_policy_sha256": "ea3ce06e83208db2fc1ed693ee2ac1b349f8ae344fcdc2cb0a22e30ef8df60e3"
+}

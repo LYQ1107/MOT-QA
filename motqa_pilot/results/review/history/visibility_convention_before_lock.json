@@ -1,0 +1,10 @@
+{
+  "generated_at": "2026-11-04T20:46:01.706124+08:00",
+  "status": "PROVISIONAL_PENDING_STAGE2_REVIEW",
+  "threshold": 0.25,
+  "DanceTrack": "GT target box present => visible; last column is constant placeholder 1",
+  "SportsMOT": "GT target box present => visible; last column is constant placeholder 1",
+  "MOT17": "flag=1, class=1, visibility>=0.25 => visible; absent rows not visible",
+  "interpolation": false,
+  "threshold_recommendation": "retain requested 0.25; review measured distribution in Stage 2 report before final lock"
+}

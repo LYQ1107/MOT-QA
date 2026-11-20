@@ -1,0 +1,74 @@
+{
+  "started_at": "2026-11-04T13:50:13.378746+00:00",
+  "server_pid": 2047692,
+  "args": [
+    "/data2/user/toc_phase0/env/bin/python",
+    "-m",
+    "vllm.entrypoints.openai.api_server",
+    "--model",
+    "/home/user/motqa_pilot/models/Qwen3-VL-32B-Instruct",
+    "--served-model-name",
+    "Qwen/Qwen3-VL-32B-Instruct",
+    "--host",
+    "127.0.0.1",
+    "--port",
+    "18031",
+    "--tensor-parallel-size",
+    "2",
+    "--dtype",
+    "bfloat16",
+    "--max-model-len",
+    "32768",
+    "--max-num-seqs",
+    "4",
+    "--max-num-batched-tokens",
+    "16384",
+    "--gpu-memory-utilization",
+    "0.80",
+    "--seed",
+    "42",
+    "--enforce-eager",
+    "--limit-mm-per-prompt",
+    "{\"image\":4,\"video\":0}",
+    "--mm-processor-kwargs",
+    "{\"max_pixels\":2097152,\"min_pixels\":65536}",
+    "--generation-config",
+    "vllm",
+    "--disable-log-requests"
+  ],
+  "devices": [
+    {
+      "physical_index": 0,
+      "uuid": "GPU-bf21a95d-d96d-9ec5-cb15-b0fb7ad50536",
+      "name": "NVIDIA A800-SXM4-80GB",
+      "total_MiB": 81920,
+      "initial_used_MiB": 0,
+      "initial_utilization": 0,
+      "existing_processes": 0
+    },
+    {
+      "physical_index": 1,
+      "uuid": "GPU-f35654b3-bbf5-7303-cfcb-9bd5d3e16e69",
+      "name": "NVIDIA A800-SXM4-80GB",
+      "total_MiB": 81920,
+      "initial_used_MiB": 0,
+      "initial_utilization": 0,
+      "existing_processes": 0
+    }
+  ],
+  "actual_cuda_uuids": [
+    "GPU-bf21a95d-d96d-9ec5-cb15-b0fb7ad50536",
+    "GPU-f35654b3-bbf5-7303-cfcb-9bd5d3e16e69"
+  ],
+  "environment_python": "/data2/user/toc_phase0/env/bin/python",
+  "software": {
+    "torch": "2.9.1",
+    "vllm": "0.16.0",
+    "transformers": "4.57.6",
+    "numpy": "2.2.6",
+    "Pillow": "13.0.0",
+    "httpx": "0.28.1"
+  },
+  "cuda_visible_devices": "0,1",
+  "proxy": false
+}

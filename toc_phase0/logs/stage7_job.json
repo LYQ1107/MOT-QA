@@ -1,0 +1,43 @@
+{
+  "status": "COMPLETE",
+  "started_at": "2026-11-04T17:07:51.138060+08:00",
+  "controller_pid": 1780231,
+  "attempt": 1,
+  "protocol_sha256": "ad7f0cd925ecddb89e2a559a1ffc32532ae91aa1e20247e950cfefc2b11df6c0",
+  "hypotheses_sha256": "c92df38d6869dbcb3b8cc0ae80113cf98523b18014a46edc0ca7f15181115829",
+  "allocation": {
+    "checked_at": "2026-11-04T17:07:51.079187+08:00",
+    "selected": {
+      "physical_index": 7,
+      "uuid": "GPU-0322c0e7-ffbf-e068-5bdd-587b8216a9d9",
+      "name": "NVIDIA A800-SXM4-80GB",
+      "initial_used_MiB": 16181,
+      "initial_free_MiB": 65739,
+      "existing_process_count": 1,
+      "initial_utilization": 94
+    },
+    "gpu_count": 1,
+    "sharing_user_authorized": true,
+    "snapshot": "0, GPU-bf21a95d-d96d-9ec5-cb15-b0fb7ad50536, NVIDIA A800-SXM4-80GB, 81920, 71322, 100\n1, GPU-f35654b3-bbf5-7303-cfcb-9bd5d3e16e69, NVIDIA A800-SXM4-80GB, 81920, 70059, 100\n2, GPU-c2484ded-5f87-237c-bbf0-d23fcb74fdb2, NVIDIA A800-SXM4-80GB, 81920, 70059, 94\n3, GPU-6cb11599-704e-c3aa-9e28-5f15faa25c7c, NVIDIA A800-SXM4-80GB, 81920, 70059, 0\n4, GPU-44f62835-4095-23ec-d3dd-5af16a00705c, NVIDIA A800-SXM4-80GB, 81920, 17511, 100\n5, GPU-c6523d98-cb2d-95ed-4cb2-a84936acceb6, NVIDIA A800-SXM4-80GB, 81920, 28696, 100\n6, GPU-883c8be3-25b0-3d19-6fa8-4c2e335e67d2, NVIDIA A800-SXM4-80GB, 81920, 11649, 99\n7, GPU-0322c0e7-ffbf-e068-5bdd-587b8216a9d9, NVIDIA A800-SXM4-80GB, 81920, 16181, 94\n",
+    "compute_processes": "GPU-bf21a95d-d96d-9ec5-cb15-b0fb7ad50536, 1486919, 414\nGPU-bf21a95d-d96d-9ec5-cb15-b0fb7ad50536, 1486922, 414\nGPU-bf21a95d-d96d-9ec5-cb15-b0fb7ad50536, 1486931, 414\nGPU-bf21a95d-d96d-9ec5-cb15-b0fb7ad50536, 1486945, 70050\nGPU-f35654b3-bbf5-7303-cfcb-9bd5d3e16e69, 1486919, 70050\nGPU-c2484ded-5f87-237c-bbf0-d23fcb74fdb2, 1486931, 70050\nGPU-6cb11599-704e-c3aa-9e28-5f15faa25c7c, 1486922, 70050\nGPU-44f62835-4095-23ec-d3dd-5af16a00705c, 923884, 8748\nGPU-44f62835-4095-23ec-d3dd-5af16a00705c, 970280, 8748\nGPU-c6523d98-cb2d-95ed-4cb2-a84936acceb6, 940243, 10514\nGPU-c6523d98-cb2d-95ed-4cb2-a84936acceb6, 970281, 8748\nGPU-c6523d98-cb2d-95ed-4cb2-a84936acceb6, 1682236, 9414\nGPU-883c8be3-25b0-3d19-6fa8-4c2e335e67d2, 1685962, 2876\nGPU-883c8be3-25b0-3d19-6fa8-4c2e335e67d2, 1719939, 8748\nGPU-0322c0e7-ffbf-e068-5bdd-587b8216a9d9, 3348212, 16172\n"
+  },
+  "stage": "all_requested_conditions_complete",
+  "updated_at": "2026-11-04T18:52:46.811785+08:00",
+  "server_pid": 1780243,
+  "condition": "T-sh",
+  "mode": "guided",
+  "committed": 242,
+  "expected": 242,
+  "eta_min": 0.0,
+  "controls_decision": {
+    "decided_at": "2026-11-04T17:31:32.891317+08:00",
+    "scope": "test trackable251",
+    "T1_correct": 98,
+    "T_none_correct": 73,
+    "run_controls": true,
+    "gate": "strictly more correct; significance not required",
+    "T1_sha256": "2779a1311abd25c852896466367e008d36587c6c413b0b79761e7313b3ea8a2d",
+    "T_none_sha256": "b549356c9b49e53325f9997457de8c3a3255398c3a44adfcfbc6a251b3836cd3"
+  },
+  "elapsed_s": 6295.67336942628
+}

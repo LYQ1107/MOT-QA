@@ -1,0 +1,244 @@
+[
+  {
+    "sequence": "dancetrack0004",
+    "old_annotation_unique_IDs": [
+      3
+    ],
+    "agent_cleared_new_IDs": [],
+    "mixed_source_union_IDs": [
+      3
+    ]
+  },
+  {
+    "sequence": "dancetrack0005",
+    "old_annotation_unique_IDs": [
+      0,
+      1,
+      3
+    ],
+    "agent_cleared_new_IDs": [
+      1
+    ],
+    "mixed_source_union_IDs": [
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "sequence": "dancetrack0007",
+    "old_annotation_unique_IDs": [],
+    "agent_cleared_new_IDs": [
+      3,
+      4
+    ],
+    "mixed_source_union_IDs": [
+      3,
+      4
+    ]
+  },
+  {
+    "sequence": "dancetrack0010",
+    "old_annotation_unique_IDs": [
+      0,
+      5
+    ],
+    "agent_cleared_new_IDs": [
+      0,
+      4,
+      5
+    ],
+    "mixed_source_union_IDs": [
+      0,
+      4,
+      5
+    ]
+  },
+  {
+    "sequence": "dancetrack0014",
+    "old_annotation_unique_IDs": [
+      0,
+      1,
+      3,
+      4,
+      5,
+      7,
+      8,
+      9,
+      10
+    ],
+    "agent_cleared_new_IDs": [
+      3,
+      4
+    ],
+    "mixed_source_union_IDs": [
+      0,
+      1,
+      3,
+      4,
+      5,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "sequence": "dancetrack0018",
+    "old_annotation_unique_IDs": [
+      4
+    ],
+    "agent_cleared_new_IDs": [],
+    "mixed_source_union_IDs": [
+      4
+    ]
+  },
+  {
+    "sequence": "dancetrack0019",
+    "old_annotation_unique_IDs": [],
+    "agent_cleared_new_IDs": [],
+    "mixed_source_union_IDs": []
+  },
+  {
+    "sequence": "dancetrack0025",
+    "old_annotation_unique_IDs": [],
+    "agent_cleared_new_IDs": [],
+    "mixed_source_union_IDs": []
+  },
+  {
+    "sequence": "dancetrack0026",
+    "old_annotation_unique_IDs": [],
+    "agent_cleared_new_IDs": [],
+    "mixed_source_union_IDs": []
+  },
+  {
+    "sequence": "dancetrack0030",
+    "old_annotation_unique_IDs": [],
+    "agent_cleared_new_IDs": [],
+    "mixed_source_union_IDs": []
+  },
+  {
+    "sequence": "dancetrack0034",
+    "old_annotation_unique_IDs": [],
+    "agent_cleared_new_IDs": [],
+    "mixed_source_union_IDs": []
+  },
+  {
+    "sequence": "dancetrack0035",
+    "old_annotation_unique_IDs": [],
+    "agent_cleared_new_IDs": [],
+    "mixed_source_union_IDs": []
+  },
+  {
+    "sequence": "dancetrack0041",
+    "old_annotation_unique_IDs": [],
+    "agent_cleared_new_IDs": [],
+    "mixed_source_union_IDs": []
+  },
+  {
+    "sequence": "dancetrack0043",
+    "old_annotation_unique_IDs": [],
+    "agent_cleared_new_IDs": [],
+    "mixed_source_union_IDs": []
+  },
+  {
+    "sequence": "dancetrack0047",
+    "old_annotation_unique_IDs": [],
+    "agent_cleared_new_IDs": [],
+    "mixed_source_union_IDs": []
+  },
+  {
+    "sequence": "dancetrack0058",
+    "old_annotation_unique_IDs": [
+      2,
+      3,
+      4
+    ],
+    "agent_cleared_new_IDs": [
+      0,
+      3,
+      4,
+      5,
+      6
+    ],
+    "mixed_source_union_IDs": [
+      0,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "sequence": "dancetrack0063",
+    "old_annotation_unique_IDs": [],
+    "agent_cleared_new_IDs": [],
+    "mixed_source_union_IDs": []
+  },
+  {
+    "sequence": "dancetrack0065",
+    "old_annotation_unique_IDs": [],
+    "agent_cleared_new_IDs": [],
+    "mixed_source_union_IDs": []
+  },
+  {
+    "sequence": "dancetrack0073",
+    "old_annotation_unique_IDs": [],
+    "agent_cleared_new_IDs": [],
+    "mixed_source_union_IDs": []
+  },
+  {
+    "sequence": "dancetrack0077",
+    "old_annotation_unique_IDs": [],
+    "agent_cleared_new_IDs": [],
+    "mixed_source_union_IDs": []
+  },
+  {
+    "sequence": "dancetrack0079",
+    "old_annotation_unique_IDs": [
+      6,
+      12
+    ],
+    "agent_cleared_new_IDs": [
+      1,
+      5,
+      16
+    ],
+    "mixed_source_union_IDs": [
+      1,
+      5,
+      6,
+      12,
+      16
+    ]
+  },
+  {
+    "sequence": "dancetrack0081",
+    "old_annotation_unique_IDs": [],
+    "agent_cleared_new_IDs": [],
+    "mixed_source_union_IDs": []
+  },
+  {
+    "sequence": "dancetrack0090",
+    "old_annotation_unique_IDs": [],
+    "agent_cleared_new_IDs": [],
+    "mixed_source_union_IDs": []
+  },
+  {
+    "sequence": "dancetrack0094",
+    "old_annotation_unique_IDs": [],
+    "agent_cleared_new_IDs": [],
+    "mixed_source_union_IDs": []
+  },
+  {
+    "sequence": "dancetrack0097",
+    "old_annotation_unique_IDs": [],
+    "agent_cleared_new_IDs": [
+      3
+    ],
+    "mixed_source_union_IDs": [
+      3
+    ]
+  }
+]

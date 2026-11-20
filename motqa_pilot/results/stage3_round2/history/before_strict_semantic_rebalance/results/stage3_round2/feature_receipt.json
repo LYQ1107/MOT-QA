@@ -1,0 +1,15 @@
+{
+  "backbone": "torchvision mobilenet_v3_small IMAGENET1K_V1",
+  "torch": "2.9.1+cu128",
+  "feature_dim": 576,
+  "embedding": "global-average pooled final visual feature, L2 normalized; classifier removed",
+  "weights_sha256": "047dcff4addef86ea5bc2eff13c9614dc11f47ab1160d0a71a25e7db994f4e1f",
+  "preprocess": "official pretrained transforms:resize256,center crop224,ImageNet normalization",
+  "documentation": "https://docs.pytorch.org/vision/stable/models/generated/torchvision.models.mobilenet_v3_small.html",
+  "feature_use": "nearest-neighbor descriptor, not a semantic uniqueness check or specialized ReID model",
+  "device": "cuda",
+  "CUDA_VISIBLE_DEVICES": "2",
+  "crop_count": 7113,
+  "seconds": 22.408927911892533,
+  "peak_GPU_allocated_MiB": 164.64111328125
+}

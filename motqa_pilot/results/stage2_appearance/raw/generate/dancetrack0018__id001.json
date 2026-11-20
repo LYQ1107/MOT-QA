@@ -1,0 +1,70 @@
+{
+  "unit_key": "dancetrack0018__id001",
+  "sequence": "dancetrack0018",
+  "gt_id": 1,
+  "phase": "generate",
+  "started_at": "2026-11-04T13:52:34.005519+00:00",
+  "completed_at": "2026-11-04T13:52:40.570793+00:00",
+  "seconds": 6.565305158030242,
+  "prompt_text": "The first image shows three crops of ONE target person at different times. The other image(s) show comparison people from the SAME video; every labeled tile is a different annotated person, shown in up to three crops. These comparison labels are anonymous bookkeeping labels, not appearance attributes.\nWrite one concise English noun phrase (at most 30 words), starting with \"the person\", describing the target using stable, clearly visible clothing, patterns, hair, or accessories. Prefer details that distinguish this person from comparison people. Do not mention actions, pose, scene location, time, spatial relation to others, gallery labels, or GT identity numbers. Visible garment lettering is allowed only if clearly legible. Do not infer colors/details hidden by another person. If no reliable description is possible, use an empty phrase. If a truthful description is shared by others, still provide it and set visually_distinct to false.\nReturn {\"phrase\":\"...\", \"supported_attributes\":[\"...\"], \"visually_distinct\":true, \"limitations\":\"...\"}. A description need not be unique; truthful uncertainty is preferred to invented uniqueness.\nThe target person is also included once among the comparison gallery tiles. Identify that repeated target visually; do not treat the repeated target tile as a different rival. Look for truthful stable appearance that distinguishes the target from OTHER people.",
+  "image_paths": [
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/id001_target.jpg",
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/generation_gallery_page00.jpg"
+  ],
+  "image_sha256": [
+    "8654febce57b00b46a49386ab055687db83e491d3e371efca7394fc15296e5e2",
+    "3aff1bde339849bad30841eff706d6d4ab8975e6bc1ea3faac0b1f47411ef722"
+  ],
+  "response": {
+    "id": "chatcmpl-aa47c19bd9a87d4b",
+    "object": "chat.completion",
+    "created": 1793800354,
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"phrase\": \"the person wearing a two-tone blue and white hooded shirt with a yellow stripe down the side of dark pants and white sneakers\",\n  \"supported_attributes\": [\n    \"two-tone blue and white hooded shirt\",\n    \"yellow stripe down the side of dark pants\",\n    \"white sneakers\"\n  ],\n  \"visually_distinct\": true,\n  \"limitations\": \"The yellow stripe on the pants and the two-tone shirt are the most distinguishing features; however, some other individuals in the gallery wear similar clothing, so visual distinction is based on the combination of these elements.\"\n}",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 1433,
+      "total_tokens": 1557,
+      "completion_tokens": 124,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "check": {
+    "valid": true,
+    "parsed": {
+      "phrase": "the person wearing a two-tone blue and white hooded shirt with a yellow stripe down the side of dark pants and white sneakers",
+      "supported_attributes": [
+        "two-tone blue and white hooded shirt",
+        "yellow stripe down the side of dark pants",
+        "white sneakers"
+      ],
+      "visually_distinct": true,
+      "limitations": "The yellow stripe on the pants and the two-tone shirt are the most distinguishing features; however, some other individuals in the gallery wear similar clothing, so visual distinction is based on the combination of these elements."
+    },
+    "phrase": "the person wearing a two-tone blue and white hooded shirt with a yellow stripe down the side of dark pants and white sneakers",
+    "error": null
+  },
+  "inference_policy_sha256": "ea3ce06e83208db2fc1ed693ee2ac1b349f8ae344fcdc2cb0a22e30ef8df60e3"
+}

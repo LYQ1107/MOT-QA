@@ -1,0 +1,71 @@
+{
+  "unit_key": "dancetrack0014__id000",
+  "sequence": "dancetrack0014",
+  "gt_id": 0,
+  "phase": "blind_match",
+  "started_at": "2026-11-04T14:02:36.449330+00:00",
+  "completed_at": "2026-11-04T14:02:42.192216+00:00",
+  "seconds": 5.742917631752789,
+  "prompt_text": "Match this appearance phrase against ALL anonymous person tiles in the image(s): \"the person in a white long-sleeve top and white shorts with a short bob haircut\"\nEvery labeled tile is one different person from the same video; its two crops are held-out views. Labels and tile order do not reveal the intended target. A phrase may match none, one, or several people. Include ALL people who visibly satisfy the whole phrase in matches. Include in uncertain any plausible person for whom the views do not resolve an attribute, instead of assuming that person is a non-match. Do not pick a best match when several fit. A location or action does not distinguish appearance. Omitted labels mean clear non-matches.\nReturn {\"matches\":[\"P01\"],\"uncertain\":[],\"reason\":\"brief visual explanation\"}. Valid labels: [\"P01\", \"P02\", \"P03\", \"P04\", \"P05\", \"P06\", \"P07\", \"P08\", \"P09\", \"P10\", \"P11\", \"P12\"].",
+  "image_paths": [
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0014/heldout_gallery_page00.jpg"
+  ],
+  "image_sha256": [
+    "86b594dbff5d3aaf9b9b10f3bfac3cb5bfc1e774f378951be0747f7a66b1dcbd"
+  ],
+  "response": {
+    "id": "chatcmpl-947688835adeb327",
+    "object": "chat.completion",
+    "created": 1793800956,
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"matches\":[\"P10\",\"P11\"],\"uncertain\":[],\"reason\":\"P10 and P11 both wear white long-sleeve tops and white shorts, and both have short bob haircuts. Other individuals either wear different colored tops (e.g., purple), different bottoms (e.g., pants or skirts), or have different hairstyles (e.g., longer hair, ponytails). No other person clearly satisfies all three attributes: white long-sleeve top, white shorts, and short bob haircut.\"}",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 1264,
+      "total_tokens": 1371,
+      "completion_tokens": 107,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "check": {
+    "valid": true,
+    "parsed": {
+      "matches": [
+        "P10",
+        "P11"
+      ],
+      "uncertain": [],
+      "reason": "P10 and P11 both wear white long-sleeve tops and white shorts, and both have short bob haircuts. Other individuals either wear different colored tops (e.g., purple), different bottoms (e.g., pants or skirts), or have different hairstyles (e.g., longer hair, ponytails). No other person clearly satisfies all three attributes: white long-sleeve top, white shorts, and short bob haircut."
+    },
+    "matched_gt_ids": [
+      0,
+      10
+    ],
+    "uncertain_gt_ids": [],
+    "passed": false,
+    "error": null
+  },
+  "inference_policy_sha256": "ea3ce06e83208db2fc1ed693ee2ac1b349f8ae344fcdc2cb0a22e30ef8df60e3"
+}

@@ -1,0 +1,8 @@
+[System]
+You are a video understanding model. Follow output format exactly.
+
+[User]
+You will see a video and a counting question. Output ONLY a single integer (e.g., 2, 3, 4) or the phrase "5 or more". No other words.
+
+Question: {question}
+Answer:

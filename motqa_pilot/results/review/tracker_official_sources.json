@@ -1,0 +1,150 @@
+{
+  "bytetrack": {
+    "repository": "https://github.com/FoundationVision/ByteTrack",
+    "revision": "d1bf0191adff59bc8fcfeaa0b33d3d1642552a99",
+    "default_branch": "main",
+    "files": [
+      {
+        "path": "README.md",
+        "url": "https://raw.githubusercontent.com/FoundationVision/ByteTrack/d1bf0191adff59bc8fcfeaa0b33d3d1642552a99/README.md",
+        "local": "/home/user/motqa_pilot/sources/trackers/bytetrack_README.md",
+        "bytes": 15448
+      },
+      {
+        "path": "LICENSE",
+        "url": "https://raw.githubusercontent.com/FoundationVision/ByteTrack/d1bf0191adff59bc8fcfeaa0b33d3d1642552a99/LICENSE",
+        "local": "/home/user/motqa_pilot/sources/trackers/bytetrack_LICENSE",
+        "bytes": 1067
+      },
+      {
+        "path": "tools/mix_data_ablation.py",
+        "url": "https://raw.githubusercontent.com/FoundationVision/ByteTrack/d1bf0191adff59bc8fcfeaa0b33d3d1642552a99/tools/mix_data_ablation.py",
+        "local": "/home/user/motqa_pilot/sources/trackers/bytetrack_tools__mix_data_ablation.py",
+        "bytes": 2477
+      },
+      {
+        "path": "tools/convert_mot17_to_coco.py",
+        "url": "https://raw.githubusercontent.com/FoundationVision/ByteTrack/d1bf0191adff59bc8fcfeaa0b33d3d1642552a99/tools/convert_mot17_to_coco.py",
+        "local": "/home/user/motqa_pilot/sources/trackers/bytetrack_tools__convert_mot17_to_coco.py",
+        "bytes": 6757
+      },
+      {
+        "path": "exps/example/mot/yolox_x_ablation.py",
+        "url": "https://raw.githubusercontent.com/FoundationVision/ByteTrack/d1bf0191adff59bc8fcfeaa0b33d3d1642552a99/exps/example/mot/yolox_x_ablation.py",
+        "local": "/home/user/motqa_pilot/sources/trackers/bytetrack_exps__example__mot__yolox_x_ablation.py",
+        "bytes": 4358
+      }
+    ]
+  },
+  "ocsort": {
+    "repository": "https://github.com/noahcao/OC_SORT",
+    "revision": "8462e7e729a93ccd3bd995c0a79a890336cb3a0b",
+    "default_branch": "master",
+    "files": [
+      {
+        "path": "README.md",
+        "url": "https://raw.githubusercontent.com/noahcao/OC_SORT/8462e7e729a93ccd3bd995c0a79a890336cb3a0b/README.md",
+        "local": "/home/user/motqa_pilot/sources/trackers/ocsort_README.md",
+        "bytes": 6047
+      },
+      {
+        "path": "LICENSE",
+        "url": "https://raw.githubusercontent.com/noahcao/OC_SORT/8462e7e729a93ccd3bd995c0a79a890336cb3a0b/LICENSE",
+        "local": "/home/user/motqa_pilot/sources/trackers/ocsort_LICENSE",
+        "bytes": 1067
+      },
+      {
+        "path": "docs/MODEL_ZOO.md",
+        "url": "https://raw.githubusercontent.com/noahcao/OC_SORT/8462e7e729a93ccd3bd995c0a79a890336cb3a0b/docs/MODEL_ZOO.md",
+        "local": "/home/user/motqa_pilot/sources/trackers/ocsort_docs__MODEL_ZOO.md",
+        "bytes": 1323
+      },
+      {
+        "path": "docs/GET_STARTED.md",
+        "url": "https://raw.githubusercontent.com/noahcao/OC_SORT/8462e7e729a93ccd3bd995c0a79a890336cb3a0b/docs/GET_STARTED.md",
+        "local": "/home/user/motqa_pilot/sources/trackers/ocsort_docs__GET_STARTED.md",
+        "bytes": 8620
+      },
+      {
+        "path": "trackers/ocsort_tracker/ocsort.py",
+        "url": "https://raw.githubusercontent.com/noahcao/OC_SORT/8462e7e729a93ccd3bd995c0a79a890336cb3a0b/trackers/ocsort_tracker/ocsort.py",
+        "local": "/home/user/motqa_pilot/sources/trackers/ocsort_trackers__ocsort_tracker__ocsort.py",
+        "bytes": 17824
+      }
+    ]
+  },
+  "mixsort": {
+    "repository": "https://github.com/MCG-NJU/MixSort",
+    "revision": "a078f5bf6ae9fbeecbc1384479d5f02ab8b9e7f6",
+    "default_branch": "main",
+    "files": [
+      {
+        "path": "README.md",
+        "url": "https://raw.githubusercontent.com/MCG-NJU/MixSort/a078f5bf6ae9fbeecbc1384479d5f02ab8b9e7f6/README.md",
+        "local": "/home/user/motqa_pilot/sources/trackers/mixsort_README.md",
+        "bytes": 11023
+      },
+      {
+        "path": "LICENSE",
+        "url": "https://raw.githubusercontent.com/MCG-NJU/MixSort/a078f5bf6ae9fbeecbc1384479d5f02ab8b9e7f6/LICENSE",
+        "local": "/home/user/motqa_pilot/sources/trackers/mixsort_LICENSE",
+        "bytes": 1067
+      },
+      {
+        "path": "exps/example/mot/yolox_x_sportsmot.py",
+        "url": "https://raw.githubusercontent.com/MCG-NJU/MixSort/a078f5bf6ae9fbeecbc1384479d5f02ab8b9e7f6/exps/example/mot/yolox_x_sportsmot.py",
+        "local": "/home/user/motqa_pilot/sources/trackers/mixsort_exps__example__mot__yolox_x_sportsmot.py",
+        "bytes": 4536
+      },
+      {
+        "path": "tools/convert_sportsmot_to_coco.py",
+        "url": "https://raw.githubusercontent.com/MCG-NJU/MixSort/a078f5bf6ae9fbeecbc1384479d5f02ab8b9e7f6/tools/convert_sportsmot_to_coco.py",
+        "local": "/home/user/motqa_pilot/sources/trackers/mixsort_tools__convert_sportsmot_to_coco.py",
+        "bytes": 6963
+      },
+      {
+        "path": "MixViT/experiments/mixformer_deit/baseline.yaml",
+        "url": "https://raw.githubusercontent.com/MCG-NJU/MixSort/a078f5bf6ae9fbeecbc1384479d5f02ab8b9e7f6/MixViT/experiments/mixformer_deit/baseline.yaml",
+        "local": "/home/user/motqa_pilot/sources/trackers/mixsort_MixViT__experiments__mixformer_deit__baseline.yaml",
+        "bytes": 2226
+      }
+    ]
+  },
+  "dance": {
+    "repository": "https://github.com/DanceTrack/DanceTrack",
+    "revision": "44057dcc07e4bf6bcad2e6888c9d83ec63d4b1a3",
+    "default_branch": "main",
+    "files": [
+      {
+        "path": "README.md",
+        "url": "https://raw.githubusercontent.com/DanceTrack/DanceTrack/44057dcc07e4bf6bcad2e6888c9d83ec63d4b1a3/README.md",
+        "local": "/home/user/motqa_pilot/sources/trackers/dance_README.md",
+        "bytes": 9700
+      },
+      {
+        "path": "LICENSE",
+        "url": "https://raw.githubusercontent.com/DanceTrack/DanceTrack/44057dcc07e4bf6bcad2e6888c9d83ec63d4b1a3/LICENSE",
+        "local": "/home/user/motqa_pilot/sources/trackers/dance_LICENSE",
+        "bytes": 1066
+      },
+      {
+        "path": "ByteTrack/README.md",
+        "url": "https://raw.githubusercontent.com/DanceTrack/DanceTrack/44057dcc07e4bf6bcad2e6888c9d83ec63d4b1a3/ByteTrack/README.md",
+        "local": "/home/user/motqa_pilot/sources/trackers/dance_ByteTrack__README.md",
+        "bytes": 2552
+      },
+      {
+        "path": "ByteTrack/exps/example/dancetrack/yolox_x.py",
+        "url": "https://raw.githubusercontent.com/DanceTrack/DanceTrack/44057dcc07e4bf6bcad2e6888c9d83ec63d4b1a3/ByteTrack/exps/example/dancetrack/yolox_x.py",
+        "local": "/home/user/motqa_pilot/sources/trackers/dance_ByteTrack__exps__example__dancetrack__yolox_x.py",
+        "bytes": 4881
+      },
+      {
+        "path": "tools/convert_dance_to_coco.py",
+        "url": "https://raw.githubusercontent.com/DanceTrack/DanceTrack/44057dcc07e4bf6bcad2e6888c9d83ec63d4b1a3/tools/convert_dance_to_coco.py",
+        "local": "/home/user/motqa_pilot/sources/trackers/dance_tools__convert_dance_to_coco.py",
+        "bytes": 3343
+      }
+    ]
+  }
+}

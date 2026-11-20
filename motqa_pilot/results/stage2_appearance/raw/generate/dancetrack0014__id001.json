@@ -1,0 +1,70 @@
+{
+  "unit_key": "dancetrack0014__id001",
+  "sequence": "dancetrack0014",
+  "gt_id": 1,
+  "phase": "generate",
+  "started_at": "2026-11-04T13:52:10.003236+00:00",
+  "completed_at": "2026-11-04T13:52:15.754665+00:00",
+  "seconds": 5.751458818092942,
+  "prompt_text": "The first image shows three crops of ONE target person at different times. The other image(s) show comparison people from the SAME video; every labeled tile is a different annotated person, shown in up to three crops. These comparison labels are anonymous bookkeeping labels, not appearance attributes.\nWrite one concise English noun phrase (at most 30 words), starting with \"the person\", describing the target using stable, clearly visible clothing, patterns, hair, or accessories. Prefer details that distinguish this person from comparison people. Do not mention actions, pose, scene location, time, spatial relation to others, gallery labels, or GT identity numbers. Visible garment lettering is allowed only if clearly legible. Do not infer colors/details hidden by another person. If no reliable description is possible, use an empty phrase. If a truthful description is shared by others, still provide it and set visually_distinct to false.\nReturn {\"phrase\":\"...\", \"supported_attributes\":[\"...\"], \"visually_distinct\":true, \"limitations\":\"...\"}. A description need not be unique; truthful uncertainty is preferred to invented uniqueness.\nThe target person is also included once among the comparison gallery tiles. Identify that repeated target visually; do not treat the repeated target tile as a different rival. Look for truthful stable appearance that distinguishes the target from OTHER people.",
+  "image_paths": [
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0014/id001_target.jpg",
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0014/generation_gallery_page00.jpg"
+  ],
+  "image_sha256": [
+    "80e2b7decce4cab504ca710317752c5f531e33d15226f61aa5f0607c4ca43f36",
+    "7f9c8efd64d0c3214b3163d445e625896933c196a489f9b840d2c8043579eeb7"
+  ],
+  "response": {
+    "id": "chatcmpl-8fd2bfb5b760d28b",
+    "object": "chat.completion",
+    "created": 1793800330,
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"phrase\": \"the person with long dark hair wearing a white crop top and light purple pants\",\n  \"supported_attributes\": [\"long dark hair\", \"white crop top\", \"light purple pants\"],\n  \"visually_distinct\": false,\n  \"limitations\": \"The outfit (white crop top and light purple pants) is worn by multiple people in the gallery, including P07 and P08, making the description not visually distinct. The hair color and length are consistent but not unique.\"\n}",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 1919,
+      "total_tokens": 2024,
+      "completion_tokens": 105,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "check": {
+    "valid": true,
+    "parsed": {
+      "phrase": "the person with long dark hair wearing a white crop top and light purple pants",
+      "supported_attributes": [
+        "long dark hair",
+        "white crop top",
+        "light purple pants"
+      ],
+      "visually_distinct": false,
+      "limitations": "The outfit (white crop top and light purple pants) is worn by multiple people in the gallery, including P07 and P08, making the description not visually distinct. The hair color and length are consistent but not unique."
+    },
+    "phrase": "the person with long dark hair wearing a white crop top and light purple pants",
+    "error": null
+  },
+  "inference_policy_sha256": "ea3ce06e83208db2fc1ed693ee2ac1b349f8ae344fcdc2cb0a22e30ef8df60e3"
+}

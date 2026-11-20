@@ -1,0 +1,8 @@
+{
+  "checked_at": "2026-11-04T17:06:23.000288+08:00",
+  "parser_cases": 7,
+  "closed_and_EOS_loop_equivalent": true,
+  "real_offline_event_result": true,
+  "model_requests": 0,
+  "fixture_correction": "Initial mock chose a numerical question but returned A; chose an sp question, no implementation changes."
+}

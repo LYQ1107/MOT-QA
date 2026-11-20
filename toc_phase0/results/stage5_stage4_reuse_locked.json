@@ -1,0 +1,62 @@
+{
+  "created_at": "2026-11-02T16:02:50.103447+08:00",
+  "files": [
+    {
+      "path": "/data2/user/toc_phase0/results/stage4/main_A_predictions.jsonl",
+      "sha256": "70eb8a7338b42a2621a57ece63308a9cf8efb0b5f148c87a80376e0ccead0b05",
+      "template": "official",
+      "condition": "A",
+      "decoding": "main"
+    },
+    {
+      "path": "/data2/user/toc_phase0/results/stage4/main_B_predictions.jsonl",
+      "sha256": "b1f0468be15c7b1418155718337a3d8a9823df06cc225ad1f8a3eb4c7a2f9a7b",
+      "template": "official",
+      "condition": "B",
+      "decoding": "main"
+    },
+    {
+      "path": "/data2/user/toc_phase0/results/stage4/main_C_predictions.jsonl",
+      "sha256": "56e83000e453edfad10bc610eb9a4294962265d0c3a87b7e5905bd985b455ca5",
+      "template": "official",
+      "condition": "C",
+      "decoding": "main"
+    },
+    {
+      "path": "/data2/user/toc_phase0/results/stage4/main_D_predictions.jsonl",
+      "sha256": "93906affe6195a30d65ffd4cb941498e76397ceefc0308614a8f3a1887d7e647",
+      "template": "official",
+      "condition": "D",
+      "decoding": "main"
+    },
+    {
+      "path": "/data2/user/toc_phase0/results/stage4/guided_A_predictions.jsonl",
+      "sha256": "da3b6380d2275a91d88630d507f940bee7c4cd37f18566508794901bb4fbb626",
+      "template": "official",
+      "condition": "A",
+      "decoding": "guided"
+    },
+    {
+      "path": "/data2/user/toc_phase0/results/stage4/guided_B_predictions.jsonl",
+      "sha256": "5a6f82990676eed8973d722fc136b3f31a28fdba15fff9689ea4e67fcbe167dc",
+      "template": "official",
+      "condition": "B",
+      "decoding": "guided"
+    },
+    {
+      "path": "/data2/user/toc_phase0/results/stage4/guided_C_predictions.jsonl",
+      "sha256": "fdedc5ff73507a7a5c6588da2a5974e7c3273acead650f51f8c69beccdd70fae",
+      "template": "official",
+      "condition": "C",
+      "decoding": "guided"
+    },
+    {
+      "path": "/data2/user/toc_phase0/results/stage4/guided_D_predictions.jsonl",
+      "sha256": "de221c8805eeb93afd856ced47c41be015ff12c9fbd9fe8527d77357c5ecbed9",
+      "template": "official",
+      "condition": "D",
+      "decoding": "guided"
+    }
+  ],
+  "D_assignment_sha256": "5ffa173e7aefe6eef47903570c2dc839265eb9f9518cf4654bda37e0a152090c"
+}

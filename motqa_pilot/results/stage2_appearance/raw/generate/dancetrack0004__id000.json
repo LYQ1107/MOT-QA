@@ -1,0 +1,70 @@
+{
+  "unit_key": "dancetrack0004__id000",
+  "sequence": "dancetrack0004",
+  "gt_id": 0,
+  "phase": "generate",
+  "started_at": "2026-11-04T13:51:13.545352+00:00",
+  "completed_at": "2026-11-04T13:51:24.059286+00:00",
+  "seconds": 10.513969431165606,
+  "prompt_text": "The first image shows three crops of ONE target person at different times. The other image(s) show comparison people from the SAME video; every labeled tile is a different annotated person, shown in up to three crops. These comparison labels are anonymous bookkeeping labels, not appearance attributes.\nWrite one concise English noun phrase (at most 30 words), starting with \"the person\", describing the target using stable, clearly visible clothing, patterns, hair, or accessories. Prefer details that distinguish this person from comparison people. Do not mention actions, pose, scene location, time, spatial relation to others, gallery labels, or GT identity numbers. Visible garment lettering is allowed only if clearly legible. Do not infer colors/details hidden by another person. If no reliable description is possible, use an empty phrase. If a truthful description is shared by others, still provide it and set visually_distinct to false.\nReturn {\"phrase\":\"...\", \"supported_attributes\":[\"...\"], \"visually_distinct\":true, \"limitations\":\"...\"}. A description need not be unique; truthful uncertainty is preferred to invented uniqueness.\nThe target person is also included once among the comparison gallery tiles. Identify that repeated target visually; do not treat the repeated target tile as a different rival. Look for truthful stable appearance that distinguishes the target from OTHER people.",
+  "image_paths": [
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0004/id000_target.jpg",
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0004/generation_gallery_page00.jpg"
+  ],
+  "image_sha256": [
+    "bd0225d9fc6cfe3b915ca1fccad347689748134836e4bcf3e03413c056a89420",
+    "b4164555f39ef722a8331b0a7118287bbcffe6ecbc04d592a1ae5317f8192f07"
+  ],
+  "response": {
+    "id": "chatcmpl-880daccf7aa7b1ef",
+    "object": "chat.completion",
+    "created": 1793800275,
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"phrase\": \"the person with long blonde hair wearing a white crop top and white ruffled shorts\",\n  \"supported_attributes\": [\"long blonde hair\", \"white crop top\", \"white ruffled shorts\"],\n  \"visually_distinct\": true,\n  \"limitations\": \"The target is visually distinct from other comparison people primarily due to her long blonde hair, which contrasts with the darker hair of others. The white ruffled shorts are also a distinguishing feature, though some others wear similar white shorts without ruffles. The combination of blonde hair and ruffled shorts provides reliable distinction.\"\n}",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 947,
+      "total_tokens": 1068,
+      "completion_tokens": 121,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "check": {
+    "valid": true,
+    "parsed": {
+      "phrase": "the person with long blonde hair wearing a white crop top and white ruffled shorts",
+      "supported_attributes": [
+        "long blonde hair",
+        "white crop top",
+        "white ruffled shorts"
+      ],
+      "visually_distinct": true,
+      "limitations": "The target is visually distinct from other comparison people primarily due to her long blonde hair, which contrasts with the darker hair of others. The white ruffled shorts are also a distinguishing feature, though some others wear similar white shorts without ruffles. The combination of blonde hair and ruffled shorts provides reliable distinction."
+    },
+    "phrase": "the person with long blonde hair wearing a white crop top and white ruffled shorts",
+    "error": null
+  },
+  "inference_policy_sha256": "ea3ce06e83208db2fc1ed693ee2ac1b349f8ae344fcdc2cb0a22e30ef8df60e3"
+}

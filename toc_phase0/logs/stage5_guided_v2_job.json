@@ -1,0 +1,65 @@
+{
+  "status": "COMPLETE",
+  "started_at": "2026-11-02T21:01:37.744803+08:00",
+  "controller_pid": 1165769,
+  "attempt": 1,
+  "phase": "all",
+  "frozen_config_sha256": "7f0dbd16926026fa087ac4bb84fb1f3dce142ee903e5cf16c9e8eb1b7a62d93d",
+  "hypotheses_sha256": "985f7f38eb040db9f5088a8715bee579dad2b6fd46a983018a3a5222566c0c84",
+  "representation_manifest_sha256": "b97c39aa4574e8410051e61653c23808f3fb08ff36cb19ded57b0c67ff17829d",
+  "d_assignment_sha256": "5ffa173e7aefe6eef47903570c2dc839265eb9f9518cf4654bda37e0a152090c",
+  "guided_eos_fix_sha256": "bd43dffa117d19c9a5a2fb80c40ca91a450fca9ec3a65b9fb0ccdabd118781ab",
+  "stage": "finished",
+  "updated_at": "2026-11-02T21:34:33.872219+08:00",
+  "devices": [
+    {
+      "physical_index": 6,
+      "uuid": "GPU-883c8be3-25b0-3d19-6fa8-4c2e335e67d2",
+      "name": "NVIDIA A800-SXM4-80GB",
+      "initial_used_MiB": 16183,
+      "initial_free_MiB": 65737,
+      "reserved_budget_MiB": 53248,
+      "existing_process_count": 1,
+      "initial_utilization": 4
+    },
+    {
+      "physical_index": 4,
+      "uuid": "GPU-44f62835-4095-23ec-d3dd-5af16a00705c",
+      "name": "NVIDIA A800-SXM4-80GB",
+      "initial_used_MiB": 7585,
+      "initial_free_MiB": 74335,
+      "reserved_budget_MiB": 53248,
+      "existing_process_count": 1,
+      "initial_utilization": 36
+    }
+  ],
+  "server_pids": [
+    1165867,
+    1165870
+  ],
+  "server_ready": 2,
+  "template": "reasoning",
+  "decoding": "guided",
+  "condition": "B-events",
+  "expected": 300,
+  "committed": 300,
+  "new_committed": 300,
+  "eta_minutes": 0.0,
+  "phase_elapsed_s": 308.9,
+  "elapsed_s": 1977.464,
+  "gpu_memory": {
+    "started_at": "2026-11-02T21:02:21.265491+08:00",
+    "interval_s": 5,
+    "devices": {
+      "GPU-883c8be3-25b0-3d19-6fa8-4c2e335e67d2": {
+        "own_peak_MiB": 63134.0,
+        "total_peak_MiB": 80090.625
+      },
+      "GPU-44f62835-4095-23ec-d3dd-5af16a00705c": {
+        "own_peak_MiB": 62442.0,
+        "total_peak_MiB": 75972.625
+      }
+    },
+    "completed_at": "2026-11-02T21:34:33.871250+08:00"
+  }
+}

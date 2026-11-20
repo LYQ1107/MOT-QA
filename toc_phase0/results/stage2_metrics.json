@@ -1,0 +1,160 @@
+{
+  "model": "qwen2.5-vl-7b",
+  "n_total": 2323,
+  "n_scored": 2323,
+  "n_missing_preds": 0,
+  "n_invalid_extraction": 291,
+  "invalid_rate": 0.12526904864399482,
+  "overall": 0.2681876883340508,
+  "macro_dim": 0.3025145368906685,
+  "tier_weighted": 0.256499671906246,
+  "hda": 0.3509127789046653,
+  "per_dim": {
+    "event_existence": 0.4018264840182648,
+    "event_count": 0.006666666666666667,
+    "reappear_identity": 0.5217391304347826,
+    "reappear_or_disappear": 0.39552238805970147,
+    "cross_object_order": 0.44919786096256686,
+    "event_ordering": 0.14285714285714285,
+    "temporal_location": 0.2606473594548552,
+    "duration_category": 0.15705128205128205,
+    "conditional_state": 0.44244604316546765,
+    "relative_spatial_change": 0.24719101123595505
+  },
+  "per_dim_counts": {
+    "event_existence": {
+      "correct": 88,
+      "total": 219
+    },
+    "event_count": {
+      "correct": 2,
+      "total": 300
+    },
+    "reappear_identity": {
+      "correct": 12,
+      "total": 23
+    },
+    "reappear_or_disappear": {
+      "correct": 53,
+      "total": 134
+    },
+    "cross_object_order": {
+      "correct": 84,
+      "total": 187
+    },
+    "event_ordering": {
+      "correct": 15,
+      "total": 105
+    },
+    "temporal_location": {
+      "correct": 153,
+      "total": 587
+    },
+    "duration_category": {
+      "correct": 49,
+      "total": 312
+    },
+    "conditional_state": {
+      "correct": 123,
+      "total": 278
+    },
+    "relative_spatial_change": {
+      "correct": 44,
+      "total": 178
+    }
+  },
+  "per_tier": {
+    "tier1": 0.25771604938271603,
+    "tier2": 0.14590747330960854,
+    "tier3": 0.44516129032258067
+  },
+  "per_tier_counts": {
+    "tier1": {
+      "correct": 334,
+      "total": 1296
+    },
+    "tier2": {
+      "correct": 82,
+      "total": 562
+    },
+    "tier3": {
+      "correct": 207,
+      "total": 465
+    }
+  },
+  "per_format": {
+    "sp": 0.42095914742451157,
+    "numerical": 0.006666666666666667,
+    "ordering_4": 0.03773584905660377,
+    "ordering_3": 0.25,
+    "mcq_4": 0.27232472324723245
+  },
+  "per_format_counts": {
+    "sp": {
+      "correct": 237,
+      "total": 563
+    },
+    "numerical": {
+      "correct": 2,
+      "total": 300
+    },
+    "ordering_4": {
+      "correct": 2,
+      "total": 53
+    },
+    "ordering_3": {
+      "correct": 13,
+      "total": 52
+    },
+    "mcq_4": {
+      "correct": 369,
+      "total": 1355
+    }
+  },
+  "per_source": {
+    "perception": 0.2703030303030303,
+    "charades": 0.2698639942734431,
+    "mose": 0.19540229885057472,
+    "ovis": 0.42857142857142855
+  },
+  "per_source_counts": {
+    "perception": {
+      "correct": 223,
+      "total": 825
+    },
+    "charades": {
+      "correct": 377,
+      "total": 1397
+    },
+    "mose": {
+      "correct": 17,
+      "total": 87
+    },
+    "ovis": {
+      "correct": 6,
+      "total": 14
+    }
+  },
+  "hallucination_buckets": {
+    "clean": {
+      "correct": 298,
+      "total": 1122,
+      "accuracy": 0.26559714795008915
+    },
+    "variant_a": {
+      "correct": 71,
+      "total": 208,
+      "accuracy": 0.34134615384615385
+    },
+    "variant_b": {
+      "correct": 102,
+      "total": 285,
+      "accuracy": 0.35789473684210527
+    },
+    "distractor_only": {
+      "correct": 152,
+      "total": 708,
+      "accuracy": 0.21468926553672316
+    }
+  }
+}

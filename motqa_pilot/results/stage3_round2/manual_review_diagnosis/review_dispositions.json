@@ -1,0 +1,228 @@
+{
+  "recorded_at": "2026-11-06T19:43:22.739321+08:00",
+  "source_sha256": "1ce539a8cef6b72492072aa715a411f28308fe7f00cc9bd5a61f850b14fdea5f",
+  "verdicts_are_original_user_choices": true,
+  "holds_are_review_sidecar_not_candidate_edits": true,
+  "reviews": [
+    {
+      "qa_id": "motqa_pilot_r2_0013",
+      "verdict": "pass",
+      "notes": "",
+      "operation_name": "O2",
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0005",
+      "review_hold": false,
+      "hold_reason": null,
+      "human_verdict_changed": false
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0022",
+      "verdict": "pass",
+      "notes": "",
+      "operation_name": "O7",
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0005",
+      "review_hold": false,
+      "hold_reason": null,
+      "human_verdict_changed": false
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0031",
+      "verdict": "pass",
+      "notes": "",
+      "operation_name": "O7",
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0007",
+      "review_hold": false,
+      "hold_reason": null,
+      "human_verdict_changed": false
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0096",
+      "verdict": "pass",
+      "notes": "",
+      "operation_name": "composition",
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0019",
+      "review_hold": false,
+      "hold_reason": null,
+      "human_verdict_changed": false
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0121",
+      "verdict": "pass",
+      "notes": "",
+      "operation_name": "O1",
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0030",
+      "review_hold": false,
+      "hold_reason": null,
+      "human_verdict_changed": false
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0136",
+      "verdict": "pass",
+      "notes": "",
+      "operation_name": "O8",
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0030",
+      "review_hold": false,
+      "hold_reason": null,
+      "human_verdict_changed": false
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0169",
+      "verdict": "pass",
+      "notes": "",
+      "operation_name": "O6",
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0041",
+      "review_hold": false,
+      "hold_reason": null,
+      "human_verdict_changed": false
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0225",
+      "verdict": "uncertain",
+      "notes": "感觉不是很明显",
+      "operation_name": "O5",
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0063",
+      "review_hold": true,
+      "hold_reason": "用户不确定：感觉不是很明显；检查短间断与重现顺序的可辨认性。",
+      "human_verdict_changed": false
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0229",
+      "verdict": "uncertain",
+      "notes": "遮挡不明显",
+      "operation_name": "O7",
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0063",
+      "review_hold": true,
+      "hold_reason": "用户不确定：遮挡不明显；短间断被事件定义排除，但题面没有说明。",
+      "human_verdict_changed": false
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0240",
+      "verdict": "pass",
+      "notes": "",
+      "operation_name": "O6",
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0065",
+      "review_hold": false,
+      "hold_reason": null,
+      "human_verdict_changed": false
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0264",
+      "verdict": "pass",
+      "notes": "",
+      "operation_name": "O8",
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0077",
+      "review_hold": false,
+      "hold_reason": null,
+      "human_verdict_changed": false
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0535",
+      "verdict": "pass",
+      "notes": "",
+      "operation_name": "O8",
+      "dataset": "SportsMOT",
+      "sequence": "v_00HRwkvvjtQ_c007",
+      "review_hold": false,
+      "hold_reason": null,
+      "human_verdict_changed": false
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0544",
+      "verdict": "pass",
+      "notes": "",
+      "operation_name": "O6",
+      "dataset": "SportsMOT",
+      "sequence": "v_00HRwkvvjtQ_c011",
+      "review_hold": false,
+      "hold_reason": null,
+      "human_verdict_changed": false
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0554",
+      "verdict": "pass",
+      "notes": "",
+      "operation_name": "O2",
+      "dataset": "SportsMOT",
+      "sequence": "v_0kUtTtmLaJA_c005",
+      "review_hold": false,
+      "hold_reason": null,
+      "human_verdict_changed": false
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0653",
+      "verdict": "pass",
+      "notes": "",
+      "operation_name": "composition",
+      "dataset": "SportsMOT",
+      "sequence": "v_5ekaksddqrc_c004",
+      "review_hold": false,
+      "hold_reason": null,
+      "human_verdict_changed": false
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0677",
+      "verdict": "pass",
+      "notes": "",
+      "operation_name": "O1",
+      "dataset": "SportsMOT",
+      "sequence": "v_9MHDmAMxO5I_c004",
+      "review_hold": false,
+      "hold_reason": null,
+      "human_verdict_changed": false
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0738",
+      "verdict": "pass",
+      "notes": "",
+      "operation_name": "O3",
+      "dataset": "SportsMOT",
+      "sequence": "v_G-vNjfx1GGc_c600",
+      "review_hold": false,
+      "hold_reason": null,
+      "human_verdict_changed": false
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0777",
+      "verdict": "pass",
+      "notes": "",
+      "operation_name": "O3",
+      "dataset": "SportsMOT",
+      "sequence": "v_ITo3sCnpw_k_c011",
+      "review_hold": true,
+      "hold_reason": "对话额外提出0.440秒边缘消失指代困难；保留JSON中的通过，另列修订疑点。",
+      "human_verdict_changed": false
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0841",
+      "verdict": "pass",
+      "notes": "",
+      "operation_name": "O4",
+      "dataset": "SportsMOT",
+      "sequence": "v_dw7LOz17Omg_c067",
+      "review_hold": false,
+      "hold_reason": null,
+      "human_verdict_changed": false
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0844",
+      "verdict": "pass",
+      "notes": "",
+      "operation_name": "O1",
+      "dataset": "SportsMOT",
+      "sequence": "v_i2_L4qquVg0_c006",
+      "review_hold": false,
+      "hold_reason": null,
+      "human_verdict_changed": false
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "unit_key": "dancetrack0081__id001",
+  "sequence": "dancetrack0081",
+  "gt_id": 1,
+  "phase": "generate",
+  "started_at": "2026-11-04T13:59:16.245424+00:00",
+  "completed_at": "2026-11-04T13:59:22.478076+00:00",
+  "seconds": 6.232683741953224,
+  "prompt_text": "The first image shows three crops of ONE target person at different times. The other image(s) show comparison people from the SAME video; every labeled tile is a different annotated person, shown in up to three crops. These comparison labels are anonymous bookkeeping labels, not appearance attributes.\nWrite one concise English noun phrase (at most 30 words), starting with \"the person\", describing the target using stable, clearly visible clothing, patterns, hair, or accessories. Prefer details that distinguish this person from comparison people. Do not mention actions, pose, scene location, time, spatial relation to others, gallery labels, or GT identity numbers. Visible garment lettering is allowed only if clearly legible. Do not infer colors/details hidden by another person. If no reliable description is possible, use an empty phrase. If a truthful description is shared by others, still provide it and set visually_distinct to false.\nReturn {\"phrase\":\"...\", \"supported_attributes\":[\"...\"], \"visually_distinct\":true, \"limitations\":\"...\"}. A description need not be unique; truthful uncertainty is preferred to invented uniqueness.\nThe target person is also included once among the comparison gallery tiles. Identify that repeated target visually; do not treat the repeated target tile as a different rival. Look for truthful stable appearance that distinguishes the target from OTHER people.",
+  "image_paths": [
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0081/id001_target.jpg",
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0081/generation_gallery_page00.jpg",
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0081/generation_gallery_page01.jpg"
+  ],
+  "image_sha256": [
+    "734d0af69a007c4f6e58adc3d642c1470ea8a5700f144715314b137785f04605",
+    "501bdb46ad0435ad1f962156d251e9d38cb1631c272e712511ccada6005cb3e5",
+    "92a2093af55585415c11e21e8dc10228f586f28320c83706e68645ffa76ecfbb"
+  ],
+  "response": {
+    "id": "chatcmpl-b3ac18fb9bb291dc",
+    "object": "chat.completion",
+    "created": 1793800756,
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"phrase\": \"the person in a white short-sleeved collared shirt and dark trousers\",\n  \"supported_attributes\": [\n    \"white short-sleeved collared shirt\",\n    \"dark trousers\"\n  ],\n  \"visually_distinct\": false,\n  \"limitations\": \"The target person's attire is shared by multiple individuals in the comparison gallery, including P01, P11, P12, P17, and P18, making the description not visually distinct.\"\n}",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 2893,
+      "total_tokens": 2999,
+      "completion_tokens": 106,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "check": {
+    "valid": true,
+    "parsed": {
+      "phrase": "the person in a white short-sleeved collared shirt and dark trousers",
+      "supported_attributes": [
+        "white short-sleeved collared shirt",
+        "dark trousers"
+      ],
+      "visually_distinct": false,
+      "limitations": "The target person's attire is shared by multiple individuals in the comparison gallery, including P01, P11, P12, P17, and P18, making the description not visually distinct."
+    },
+    "phrase": "the person in a white short-sleeved collared shirt and dark trousers",
+    "error": null
+  },
+  "inference_policy_sha256": "ea3ce06e83208db2fc1ed693ee2ac1b349f8ae344fcdc2cb0a22e30ef8df60e3"
+}

@@ -1,0 +1,34 @@
+{
+  "locked_at": "2026-11-02T21:01:36.278884+08:00",
+  "version": "v2_committed_final_answer_field",
+  "role": "Technical correction of numerical guided diagnosis only; raw main andH6-H8 remain unchanged.",
+  "corrected_regex": "(?:(?:[^A\\n][^\\n]*|A|A[^n\\n][^\\n]*|An|An[^s\\n][^\\n]*|Ans|Ans[^w\\n][^\\n]*|Answ|Answ[^e\\n][^\\n]*|Answe|Answe[^r\\n][^\\n]*|Answer|Answer[^:\\n][^\\n]*)?\\n)*Answer: (2|3|4|5 or more)",
+  "final_answer_marker": "A line starting Answer: commits to final field; earlier reasoning lines cannot start that reserved marker.",
+  "intended_policy": "Zero or more free reasoning lines, then exactly one final Answer: legal-value line; total1024 tokens. The final-answer parser and legal answers are unchanged.",
+  "reason": "Original mandatory-newline grammar rejected legitimate one-line answers. A universal wildcard could also absorb an invalid Answer field. This grammar accepts bare answers and commits the reserved final marker, preventing that escape.",
+  "eos_fix": {
+    "bad_words": [
+      "<|endoftext|>"
+    ],
+    "blocked_extra_eos": 151643,
+    "actual_eos": 151645
+  },
+  "supersedes_unexecuted_draft_sha256": "c9f6192b464e0e659e508656b3af0b131b0e863ee53d42541e7755fcb4b4d60a",
+  "cpu_regression": "All4 bare answers and three reasoning-prefix forms accept proper EOS. Prefixes Answer:0/1/2.0/9/B rejected immediately; incomplete Answer and5 or... prefixes reject EOS.",
+  "unchanged": [
+    "allrawmain5992",
+    "H6-H8",
+    "frozenv1",
+    "images",
+    "timestamps",
+    "evidence",
+    "final_answer parser",
+    "1024budget",
+    "temperature0",
+    "seed42",
+    "serverflags"
+  ],
+  "run_policy": "All6 reasoning conditions x300 numbers rerun uniformly; original1800 guided predictions retained separately as implementation-diagnostic v1, never overwritten.",
+  "expected_requests": 1800,
+  "hypotheses_sha256": "985f7f38eb040db9f5088a8715bee579dad2b6fd46a983018a3a5222566c0c84"
+}

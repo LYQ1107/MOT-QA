@@ -1,0 +1,71 @@
+{
+  "unit_key": "dancetrack0063__id003",
+  "sequence": "dancetrack0063",
+  "gt_id": 3,
+  "phase": "generate",
+  "started_at": "2026-11-04T13:57:14.806767+00:00",
+  "completed_at": "2026-11-04T13:57:21.772343+00:00",
+  "seconds": 6.965610343031585,
+  "prompt_text": "The first image shows three crops of ONE target person at different times. The other image(s) show comparison people from the SAME video; every labeled tile is a different annotated person, shown in up to three crops. These comparison labels are anonymous bookkeeping labels, not appearance attributes.\nWrite one concise English noun phrase (at most 30 words), starting with \"the person\", describing the target using stable, clearly visible clothing, patterns, hair, or accessories. Prefer details that distinguish this person from comparison people. Do not mention actions, pose, scene location, time, spatial relation to others, gallery labels, or GT identity numbers. Visible garment lettering is allowed only if clearly legible. Do not infer colors/details hidden by another person. If no reliable description is possible, use an empty phrase. If a truthful description is shared by others, still provide it and set visually_distinct to false.\nReturn {\"phrase\":\"...\", \"supported_attributes\":[\"...\"], \"visually_distinct\":true, \"limitations\":\"...\"}. A description need not be unique; truthful uncertainty is preferred to invented uniqueness.\nThe target person is also included once among the comparison gallery tiles. Identify that repeated target visually; do not treat the repeated target tile as a different rival. Look for truthful stable appearance that distinguishes the target from OTHER people.",
+  "image_paths": [
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0063/id003_target.jpg",
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0063/generation_gallery_page00.jpg"
+  ],
+  "image_sha256": [
+    "74fcbb9410db3a322cf76bd079dc9ae48deb201f4d7d2c3bb12524920d7606e8",
+    "ccf1f2d97eb46a6ba7ca08bc71125f58b8b3471d1606203c7ee94cbf7e8acc77"
+  ],
+  "response": {
+    "id": "chatcmpl-9207e8a97b8021a7",
+    "object": "chat.completion",
+    "created": 1793800634,
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"phrase\": \"the person in a black long-sleeve dress with red sequined trim and a red fringed hem, wearing a dark hat with a red band\",\n  \"supported_attributes\": [\n    \"black long-sleeve dress\",\n    \"red sequined trim\",\n    \"red fringed hem\",\n    \"dark hat with red band\"\n  ],\n  \"visually_distinct\": false,\n  \"limitations\": \"The described outfit is worn by multiple people in the gallery, making the appearance not visually distinct. The target is present in the gallery as P05, but the clothing is shared with others.\"\n}",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 1433,
+      "total_tokens": 1564,
+      "completion_tokens": 131,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "check": {
+    "valid": true,
+    "parsed": {
+      "phrase": "the person in a black long-sleeve dress with red sequined trim and a red fringed hem, wearing a dark hat with a red band",
+      "supported_attributes": [
+        "black long-sleeve dress",
+        "red sequined trim",
+        "red fringed hem",
+        "dark hat with red band"
+      ],
+      "visually_distinct": false,
+      "limitations": "The described outfit is worn by multiple people in the gallery, making the appearance not visually distinct. The target is present in the gallery as P05, but the clothing is shared with others."
+    },
+    "phrase": "the person in a black long-sleeve dress with red sequined trim and a red fringed hem, wearing a dark hat with a red band",
+    "error": null
+  },
+  "inference_policy_sha256": "ea3ce06e83208db2fc1ed693ee2ac1b349f8ae344fcdc2cb0a22e30ef8df60e3"
+}

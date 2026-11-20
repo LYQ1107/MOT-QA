@@ -1,0 +1,15 @@
+{
+  "MOT17": {
+    "physical_person_reentry_after_exit": "unsupported by original IDs",
+    "global_unique_people_across_new_ids": "unsupported without additional identity GT",
+    "within_original_id_position_relation_interaction": "supported subject to valid reference"
+  },
+  "DanceTrack": {
+    "fully_occluded_reappearance_same_id": "publisher supported",
+    "general_out_of_view_reentry_same_id": "unconfirmed"
+  },
+  "SportsMOT": {
+    "identity": "publisher specifies athlete ID throughout clip"
+  },
+  "event_labels": "task-defined operational edge/gap heuristic"
+}

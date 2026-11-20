@@ -1,0 +1,193 @@
+{
+  "n": 900,
+  "operations": {
+    "O4": 105,
+    "O7": 110,
+    "O8": 135,
+    "composition": 100,
+    "O1": 60,
+    "O2": 90,
+    "O6": 100,
+    "O3": 100,
+    "O5": 100
+  },
+  "datasets": {
+    "DanceTrack": 360,
+    "MOT17": 135,
+    "SportsMOT": 405
+  },
+  "references": {
+    "box": 476,
+    "appearance": 64,
+    "event": 225,
+    "position": 135
+  },
+  "formats": {
+    "multiple_choice": 720,
+    "numeric_count": 70,
+    "numeric_time": 110
+  },
+  "operation_dataset": {
+    "O4": {
+      "DanceTrack": 46,
+      "SportsMOT": 59
+    },
+    "O7": {
+      "DanceTrack": 73,
+      "MOT17": 14,
+      "SportsMOT": 23
+    },
+    "O8": {
+      "DanceTrack": 73,
+      "MOT17": 61,
+      "SportsMOT": 1
+    },
+    "composition": {
+      "DanceTrack": 48,
+      "MOT17": 1,
+      "SportsMOT": 51
+    },
+    "O1": {
+      "DanceTrack": 21,
+      "MOT17": 30,
+      "SportsMOT": 9
+    },
+    "O2": {
+      "DanceTrack": 32,
+      "MOT17": 22,
+      "SportsMOT": 36
+    },
+    "O6": {
+      "DanceTrack": 51,
+      "MOT17": 3,
+      "SportsMOT": 46
+    },
+    "O3": {
+      "DanceTrack": 4,
+      "SportsMOT": 95,
+      "MOT17": 1
+    },
+    "O5": {
+      "DanceTrack": 12,
+      "SportsMOT": 85,
+      "MOT17": 3
+    }
+  },
+  "retained_original_facts": 647,
+  "replaced_original_questions": 253,
+  "wording_changed_vs_old_slot": 414,
+  "original_gap_definition_made_explicit": 310,
+  "event_reference_reanchored": 19,
+  "unchanged_reviewed_preserved": 9,
+  "videos": 77,
+  "max_per_video": 20,
+  "primary_identities": 404,
+  "max_primary_reuse": 3,
+  "identity_challenge": 717,
+  "binary": 150,
+  "image_options": 45,
+  "confusion_options": 504,
+  "choice_n": 720,
+  "O7_premise_counts": {
+    "False": 55,
+    "True": 55
+  },
+  "ordinary_never_correct": 40,
+  "held_out_wordings": 379,
+  "blind_baselines": {
+    "O1": {
+      "n": 60,
+      "multiple_choice_n": 60,
+      "majority_letter": 0.3333333333333333,
+      "dataset_only_letter": 0.3333333333333333,
+      "uniform_choice_chance": 0.3333333333333332,
+      "semantic_majority": 0.35,
+      "semantic_dataset_only": 0.38333333333333336
+    },
+    "O2": {
+      "n": 90,
+      "multiple_choice_n": 90,
+      "majority_letter": 0.5,
+      "dataset_only_letter": 0.5,
+      "uniform_choice_chance": 0.5,
+      "semantic_majority": 0.5333333333333333,
+      "semantic_dataset_only": 0.5333333333333333
+    },
+    "O3": {
+      "n": 100,
+      "multiple_choice_n": 60,
+      "majority_letter": 0.25,
+      "dataset_only_letter": 0.25,
+      "uniform_choice_chance": 0.25,
+      "semantic_majority": 0.3,
+      "semantic_dataset_only": 0.3
+    },
+    "O4": {
+      "n": 105,
+      "multiple_choice_n": 35,
+      "majority_letter": 0.2857142857142857,
+      "dataset_only_letter": 0.2857142857142857,
+      "uniform_choice_chance": 0.25,
+      "semantic_majority": 0.34285714285714286,
+      "semantic_dataset_only": 0.34285714285714286
+    },
+    "O5": {
+      "n": 100,
+      "multiple_choice_n": 30,
+      "majority_letter": 0.26666666666666666,
+      "dataset_only_letter": 0.26666666666666666,
+      "uniform_choice_chance": 0.25,
+      "semantic_majority": 0.3333333333333333,
+      "semantic_dataset_only": 0.3333333333333333
+    },
+    "O6": {
+      "n": 100,
+      "multiple_choice_n": 100,
+      "majority_letter": 0.27,
+      "dataset_only_letter": 0.27,
+      "uniform_choice_chance": 0.25,
+      "semantic_majority": 0.12,
+      "semantic_dataset_only": 0.13
+    },
+    "O7": {
+      "n": 110,
+      "multiple_choice_n": 110,
+      "majority_letter": 0.2636363636363636,
+      "dataset_only_letter": 0.2636363636363636,
+      "uniform_choice_chance": 0.25,
+      "semantic_majority": 0.5,
+      "semantic_dataset_only": 0.5
+    },
+    "O8": {
+      "n": 135,
+      "multiple_choice_n": 135,
+      "majority_letter": 0.362962962962963,
+      "dataset_only_letter": 0.37037037037037035,
+      "uniform_choice_chance": 0.3611111111111111,
+      "semantic_majority": 0.2222222222222222,
+      "semantic_dataset_only": 0.24444444444444444
+    },
+    "composition": {
+      "n": 100,
+      "multiple_choice_n": 100,
+      "majority_letter": 0.33,
+      "dataset_only_letter": 0.33,
+      "uniform_choice_chance": 0.3183333333333333,
+      "semantic_majority": 0.29,
+      "semantic_dataset_only": 0.3
+    }
+  },
+  "balance_warnings": [],
+  "input_window_duration_s": {
+    "min": 4.0,
+    "p50": 15.999999999999996,
+    "p95": 32.60749999999999,
+    "max": 96.9
+  },
+  "input_sampling_interval_s": {
+    "min": 0.12625,
+    "p50": 0.50125,
+    "p95": 1.0205468749999997,
+    "max": 3.0296875
+  }
+}

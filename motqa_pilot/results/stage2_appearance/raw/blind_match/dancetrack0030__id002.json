@@ -1,0 +1,79 @@
+{
+  "unit_key": "dancetrack0030__id002",
+  "sequence": "dancetrack0030",
+  "gt_id": 2,
+  "phase": "blind_match",
+  "started_at": "2026-11-04T14:04:44.345543+00:00",
+  "completed_at": "2026-11-04T14:04:49.060692+00:00",
+  "seconds": 4.715200864244252,
+  "prompt_text": "Match this appearance phrase against ALL anonymous person tiles in the image(s): \"the person in a dark sleeveless leotard with a flared skirt and light-colored ballet shoes\"\nEvery labeled tile is one different person from the same video; its two crops are held-out views. Labels and tile order do not reveal the intended target. A phrase may match none, one, or several people. Include ALL people who visibly satisfy the whole phrase in matches. Include in uncertain any plausible person for whom the views do not resolve an attribute, instead of assuming that person is a non-match. Do not pick a best match when several fit. A location or action does not distinguish appearance. Omitted labels mean clear non-matches.\nReturn {\"matches\":[\"P01\"],\"uncertain\":[],\"reason\":\"brief visual explanation\"}. Valid labels: [\"P01\", \"P02\", \"P03\", \"P04\", \"P05\", \"P06\"].",
+  "image_paths": [
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0030/heldout_gallery_page00.jpg"
+  ],
+  "image_sha256": [
+    "77dbe41803b9da87b48e3732c884e3750d732779fde47c70078777bef6b5fc0b"
+  ],
+  "response": {
+    "id": "chatcmpl-b14c6c77aa782444",
+    "object": "chat.completion",
+    "created": 1793801084,
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"matches\":[\"P01\",\"P02\",\"P03\",\"P04\",\"P05\",\"P06\"],\"uncertain\":[],\"reason\":\"All six individuals are wearing dark sleeveless leotards with flared skirts and light-colored ballet shoes, as visible in their respective crops. The attire is consistent across all tiles, and no person lacks any of the specified clothing elements. Therefore, all match the description.\"}",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 912,
+      "total_tokens": 1001,
+      "completion_tokens": 89,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "check": {
+    "valid": true,
+    "parsed": {
+      "matches": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06"
+      ],
+      "uncertain": [],
+      "reason": "All six individuals are wearing dark sleeveless leotards with flared skirts and light-colored ballet shoes, as visible in their respective crops. The attire is consistent across all tiles, and no person lacks any of the specified clothing elements. Therefore, all match the description."
+    },
+    "matched_gt_ids": [
+      1,
+      2,
+      5,
+      0,
+      3,
+      4
+    ],
+    "uncertain_gt_ids": [],
+    "passed": false,
+    "error": null
+  },
+  "inference_policy_sha256": "ea3ce06e83208db2fc1ed693ee2ac1b349f8ae344fcdc2cb0a22e30ef8df60e3"
+}

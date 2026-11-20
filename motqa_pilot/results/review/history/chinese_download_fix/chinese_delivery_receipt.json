@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-11-05T15:04:02.579070+08:00",
+  "language": "zh-CN",
+  "html": "/home/user/motqa_pilot/results/review/reference_review_zh.html",
+  "html_bytes": 138827,
+  "html_sha256": "394e8a2e9ef879886863452f52b782c5d58aaa2ec944c73100c9d3fca944e98f",
+  "zip": "/home/user/motqa_pilot/results/review/reference_review_zh.zip",
+  "zip_bytes": 36631376,
+  "zip_sha256": "573de2e1545d10f8356d12aa918dfdf8ad226ffbb4c9d296047551753b5be4f8",
+  "translation_source": "/home/user/motqa_pilot/src/reference_review_translations_zh.json",
+  "translation_sha256": "d77d7c5461367be47f513ff03b282c2637e51aaa245dfba0483fc4b0666c8f64",
+  "translated_cases": 154,
+  "unique_source_descriptions": 81,
+  "packet_id": "motqa_reference_review_0e0f0cfcf748e8323d62",
+  "locked_files_sha256": {
+    "/home/user/motqa_pilot/results/review/reference_review_selection_locked.json": "cd035a43567957e933f8415330259910a752653befa8295f5dd21bf21e053858",
+    "/home/user/motqa_pilot/results/generation_config_locked.json": "b75ddac560bb71629e37120f97f0c5e23c4b8dddb052e9605d2d750a8fd85166",
+    "/home/user/motqa_pilot/results/visibility_convention.json": "ab72163cdc2ba92a4dfe78bb1970fc4d7ea08974f035c9cd72b33eadc7721c98"
+  },
+  "images": 766,
+  "images_byte_identical": true,
+  "canonical_english_metadata_unchanged": true,
+  "export_schema_unchanged": true,
+  "english_originals_collapsed": true,
+  "translation_policy": "仅翻译原文，不依据图片改正属性、补充细节或消除歧义。笼统表述、角色名称和待核查的可疑细节均保留，供用户审阅。",
+  "qa_generated": 0,
+  "new_model_calls": 0,
+  "new_tracker_runs": 0,
+  "browser_check": "/home/user/motqa_pilot/results/review/zh_browser_check/browser_check_result.json",
+  "browser_check_status": "PASSED",
+  "browser_opening_mode": "extracted ZIP via file:// in system Firefox, path includes spaces and Chinese",
+  "actual_user_review_received": false
+}

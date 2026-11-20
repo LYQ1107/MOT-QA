@@ -1,0 +1,73 @@
+{
+  "unit_key": "dancetrack0079__id005",
+  "sequence": "dancetrack0079",
+  "gt_id": 5,
+  "phase": "reference_instant_match",
+  "started_at": "2026-11-04T14:14:07.474813+00:00",
+  "completed_at": "2026-11-04T14:14:12.461003+00:00",
+  "seconds": 4.986223496962339,
+  "prompt_text": "At this reference instant, match the following appearance phrase to ALL visible people: \"the person in a black long-sleeve top with a white waistband, black pants with a white stripe down the leg, and white sneakers\"\nThe first image is the full frame, with anonymous boxes and labels. The other image(s) are crops of EVERY GT-present person at this SAME instant. Read the central person in each crop; neighboring bodies may overlap. Labels are bookkeeping only. Do not use gallery order, location, pose, or box color as appearance attributes. Include ALL people satisfying the full appearance phrase in matches, and any plausible but obscured/unclear people in uncertain. A partly hidden target whose defining clothing cannot be seen is uncertain. No forced choice; none or several are valid outcomes. Omitted labels mean clear non-matches.\nReturn {\"matches\":[\"P01\"],\"uncertain\":[],\"reason\":\"brief visual explanation\"}. Valid labels: [\"P01\", \"P02\", \"P03\", \"P04\", \"P05\", \"P06\", \"P07\", \"P08\", \"P09\", \"P10\", \"P11\", \"P12\", \"P13\", \"P14\", \"P15\"].",
+  "image_paths": [
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0079/anchor_id005_f000604/full_frame.jpg",
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0079/anchor_id005_f000604/local_gallery_page00.jpg",
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0079/anchor_id005_f000604/local_gallery_page01.jpg"
+  ],
+  "image_sha256": [
+    "f782255db8ca895f4bdc94f9ec003edf34b58e88ee6cd64d12521e52f4c6a0d9",
+    "9335931fe65655fb476a747d141c0fb5e9cc93fddc415ed0f332475c61e6dd75",
+    "c0f35f307c736ca222f9aa3a44bee4e0a69ffab8609de4bdcbf6483d1aa5f719"
+  ],
+  "response": {
+    "id": "chatcmpl-b33abaf67a088508",
+    "object": "chat.completion",
+    "created": 1793801647,
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"matches\":[\"P11\"],\"uncertain\":[],\"reason\":\"P11 is wearing a black long-sleeve top, black pants with a white stripe down the leg, and white sneakers. A white waistband is visible at the waist. All other individuals either wear yellow tops or have different pants/sneaker combinations that do not match the full description.\"}",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 1829,
+      "total_tokens": 1904,
+      "completion_tokens": 75,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "check": {
+    "valid": true,
+    "parsed": {
+      "matches": [
+        "P11"
+      ],
+      "uncertain": [],
+      "reason": "P11 is wearing a black long-sleeve top, black pants with a white stripe down the leg, and white sneakers. A white waistband is visible at the waist. All other individuals either wear yellow tops or have different pants/sneaker combinations that do not match the full description."
+    },
+    "matched_gt_ids": [
+      5
+    ],
+    "uncertain_gt_ids": [],
+    "passed": true,
+    "error": null
+  },
+  "inference_policy_sha256": "ea3ce06e83208db2fc1ed693ee2ac1b349f8ae344fcdc2cb0a22e30ef8df60e3"
+}

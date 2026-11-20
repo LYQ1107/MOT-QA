@@ -1,0 +1,73 @@
+{
+  "unit_key": "dancetrack0010__id000",
+  "sequence": "dancetrack0010",
+  "gt_id": 0,
+  "phase": "generate",
+  "started_at": "2026-11-04T13:51:55.787128+00:00",
+  "completed_at": "2026-11-04T13:52:03.889406+00:00",
+  "seconds": 8.102296135853976,
+  "prompt_text": "The first image shows three crops of ONE target person at different times. The other image(s) show comparison people from the SAME video; every labeled tile is a different annotated person, shown in up to three crops. These comparison labels are anonymous bookkeeping labels, not appearance attributes.\nWrite one concise English noun phrase (at most 30 words), starting with \"the person\", describing the target using stable, clearly visible clothing, patterns, hair, or accessories. Prefer details that distinguish this person from comparison people. Do not mention actions, pose, scene location, time, spatial relation to others, gallery labels, or GT identity numbers. Visible garment lettering is allowed only if clearly legible. Do not infer colors/details hidden by another person. If no reliable description is possible, use an empty phrase. If a truthful description is shared by others, still provide it and set visually_distinct to false.\nReturn {\"phrase\":\"...\", \"supported_attributes\":[\"...\"], \"visually_distinct\":true, \"limitations\":\"...\"}. A description need not be unique; truthful uncertainty is preferred to invented uniqueness.\nThe target person is also included once among the comparison gallery tiles. Identify that repeated target visually; do not treat the repeated target tile as a different rival. Look for truthful stable appearance that distinguishes the target from OTHER people.",
+  "image_paths": [
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0010/id000_target.jpg",
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0010/generation_gallery_page00.jpg"
+  ],
+  "image_sha256": [
+    "3fedd2bba07862ce857f6f8ed48adacbc1bdff923e623447e6d88340e83345f1",
+    "bbeb94bad1c87fd3f66fbe4766a6c1d1a9c56f942aa88e2b9d6f41c40e2648f6"
+  ],
+  "response": {
+    "id": "chatcmpl-91f0a7251f0c3466",
+    "object": "chat.completion",
+    "created": 1793800315,
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"phrase\": \"the person with red hair tied in a high ponytail, wearing a white crop top with black trim and black pants with white side stripes\",\n  \"supported_attributes\": [\n    \"red hair\",\n    \"high ponytail\",\n    \"white crop top\",\n    \"black trim on top\",\n    \"black pants\",\n    \"white side stripes on pants\"\n  ],\n  \"visually_distinct\": true,\n  \"limitations\": \"The red hair and specific white crop top with black trim are distinguishing features; however, the black pants with white side stripes are also worn by P06, though the top differs. The combination of red hair and the specific top makes the target visually distinct.\"\n}",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 1433,
+      "total_tokens": 1580,
+      "completion_tokens": 147,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "check": {
+    "valid": true,
+    "parsed": {
+      "phrase": "the person with red hair tied in a high ponytail, wearing a white crop top with black trim and black pants with white side stripes",
+      "supported_attributes": [
+        "red hair",
+        "high ponytail",
+        "white crop top",
+        "black trim on top",
+        "black pants",
+        "white side stripes on pants"
+      ],
+      "visually_distinct": true,
+      "limitations": "The red hair and specific white crop top with black trim are distinguishing features; however, the black pants with white side stripes are also worn by P06, though the top differs. The combination of red hair and the specific top makes the target visually distinct."
+    },
+    "phrase": "the person with red hair tied in a high ponytail, wearing a white crop top with black trim and black pants with white side stripes",
+    "error": null
+  },
+  "inference_policy_sha256": "ea3ce06e83208db2fc1ed693ee2ac1b349f8ae344fcdc2cb0a22e30ef8df60e3"
+}

@@ -1,0 +1,13 @@
+{
+  "completed_at": "2026-11-02T16:30:36.513496+08:00",
+  "template": "official",
+  "decoding": "main",
+  "condition": "B-main",
+  "predictions": 749,
+  "new_predictions": 749,
+  "elapsed_this_attempt_s": 1017.618,
+  "parse_failures": 79,
+  "truncated": 0,
+  "sha256": "d597046a718291e69f6621728801606f32dfcb29993b1facc465a7d8d46b4782",
+  "output": "/data2/user/toc_phase0/results/stage5/official_main_B-main_predictions.jsonl"
+}

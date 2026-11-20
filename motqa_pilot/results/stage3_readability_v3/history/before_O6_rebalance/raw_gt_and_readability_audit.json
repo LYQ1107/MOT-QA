@@ -1,0 +1,4520 @@
+{
+  "recorded_at": "2026-11-06T20:29:52.540335+08:00",
+  "status": "FAILED",
+  "verified_original_GT_answers": 900,
+  "n": 900,
+  "failures": [],
+  "balance_warnings": [
+    {
+      "operation": "O6",
+      "metric": "source_minus_global_semantic",
+      "delta": 0.07,
+      "limit": 0.05
+    }
+  ],
+  "candidate_sha256": "acdea7cc46257fe6e09dea99004a2a7dc314f50270e6bc7e09534b0d8db80336",
+  "seconds": 6.917816750239581,
+  "checks": [
+    {
+      "qa_id": "motqa_pilot_r2_0001_v3",
+      "raw_GT_recomputed_answer": "1",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0002_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0003_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0004_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0005_v3",
+      "raw_GT_recomputed_answer": "1",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0006_v3",
+      "raw_GT_recomputed_answer": "2",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0007_v3",
+      "raw_GT_recomputed_answer": "right",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0008_v3",
+      "raw_GT_recomputed_answer": "right",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0009_v3",
+      "raw_GT_recomputed_answer": "right",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0010_v3",
+      "raw_GT_recomputed_answer": "center",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0011_v3",
+      "raw_GT_recomputed_answer": "left",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0012_v3",
+      "raw_GT_recomputed_answer": "Person A",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0013_v3",
+      "raw_GT_recomputed_answer": "Person A",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0014_v3",
+      "raw_GT_recomputed_answer": "Person A",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0015_v3",
+      "raw_GT_recomputed_answer": "Person A",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0016_v3",
+      "raw_GT_recomputed_answer": "Person A",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0017_v3",
+      "raw_GT_recomputed_answer": "Person B",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0018_v3",
+      "raw_GT_recomputed_answer": "33.100–35.200 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0019_v3",
+      "raw_GT_recomputed_answer": "30.900–34.200 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0020_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0021_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0022_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0023_v3",
+      "raw_GT_recomputed_answer": "left",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0024_v3",
+      "raw_GT_recomputed_answer": "1",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0025_v3",
+      "raw_GT_recomputed_answer": "2",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0026_v3",
+      "raw_GT_recomputed_answer": "2",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0027_v3",
+      "raw_GT_recomputed_answer": "1",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0028_v3",
+      "raw_GT_recomputed_answer": "1",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0029_v3",
+      "raw_GT_recomputed_answer": "42.300–47.600 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0030_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0031_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0032_v3",
+      "raw_GT_recomputed_answer": "No",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0033_v3",
+      "raw_GT_recomputed_answer": "Yes",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0034_v3",
+      "raw_GT_recomputed_answer": "Yes",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0035_v3",
+      "raw_GT_recomputed_answer": "center",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0036_v3",
+      "raw_GT_recomputed_answer": "right",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0037_v3",
+      "raw_GT_recomputed_answer": "Person B",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0038_v3",
+      "raw_GT_recomputed_answer": "2",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0039_v3",
+      "raw_GT_recomputed_answer": "2",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0040_v3",
+      "raw_GT_recomputed_answer": 2,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0041_v3",
+      "raw_GT_recomputed_answer": "portrait 3",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0042_v3",
+      "raw_GT_recomputed_answer": "portrait 1",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0043_v3",
+      "raw_GT_recomputed_answer": "50.350–53.200 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0044_v3",
+      "raw_GT_recomputed_answer": "portrait 2",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0045_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0046_v3",
+      "raw_GT_recomputed_answer": "37.300–40.100 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0047_v3",
+      "raw_GT_recomputed_answer": "center",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0048_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0049_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0050_v3",
+      "raw_GT_recomputed_answer": "3",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0051_v3",
+      "raw_GT_recomputed_answer": "No",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0052_v3",
+      "raw_GT_recomputed_answer": "center",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0053_v3",
+      "raw_GT_recomputed_answer": "right",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0054_v3",
+      "raw_GT_recomputed_answer": "center",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0055_v3",
+      "raw_GT_recomputed_answer": "left",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0056_v3",
+      "raw_GT_recomputed_answer": "right",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0057_v3",
+      "raw_GT_recomputed_answer": 51.75,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0058_v3",
+      "raw_GT_recomputed_answer": 51.75,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0059_v3",
+      "raw_GT_recomputed_answer": 51.75,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0060_v3",
+      "raw_GT_recomputed_answer": "Person A",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0061_v3",
+      "raw_GT_recomputed_answer": "Person A",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0062_v3",
+      "raw_GT_recomputed_answer": "center",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0063_v3",
+      "raw_GT_recomputed_answer": "27.400–30.700 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0064_v3",
+      "raw_GT_recomputed_answer": "26.050–31.350 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0065_v3",
+      "raw_GT_recomputed_answer": "center",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0066_v3",
+      "raw_GT_recomputed_answer": "center",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0067_v3",
+      "raw_GT_recomputed_answer": "center",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0068_v3",
+      "raw_GT_recomputed_answer": "left",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0069_v3",
+      "raw_GT_recomputed_answer": "left",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0070_v3",
+      "raw_GT_recomputed_answer": "left",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0071_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0072_v3",
+      "raw_GT_recomputed_answer": "43.700–45.650 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0073_v3",
+      "raw_GT_recomputed_answer": "41.700–47.000 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0074_v3",
+      "raw_GT_recomputed_answer": "center",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0075_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0076_v3",
+      "raw_GT_recomputed_answer": "4",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0077_v3",
+      "raw_GT_recomputed_answer": "Yes",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0078_v3",
+      "raw_GT_recomputed_answer": "No",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0079_v3",
+      "raw_GT_recomputed_answer": "1",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0080_v3",
+      "raw_GT_recomputed_answer": 14.35,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0081_v3",
+      "raw_GT_recomputed_answer": "32.680–38.000 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0082_v3",
+      "raw_GT_recomputed_answer": 2,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0083_v3",
+      "raw_GT_recomputed_answer": 4,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0084_v3",
+      "raw_GT_recomputed_answer": "1",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0085_v3",
+      "raw_GT_recomputed_answer": "0",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0086_v3",
+      "raw_GT_recomputed_answer": "center",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0087_v3",
+      "raw_GT_recomputed_answer": "Yes",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0088_v3",
+      "raw_GT_recomputed_answer": "Yes",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0089_v3",
+      "raw_GT_recomputed_answer": "No",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0090_v3",
+      "raw_GT_recomputed_answer": "2",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0091_v3",
+      "raw_GT_recomputed_answer": "No",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0092_v3",
+      "raw_GT_recomputed_answer": "3",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0093_v3",
+      "raw_GT_recomputed_answer": "left",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0094_v3",
+      "raw_GT_recomputed_answer": "0",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0095_v3",
+      "raw_GT_recomputed_answer": "center",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0096_v3",
+      "raw_GT_recomputed_answer": "left",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0097_v3",
+      "raw_GT_recomputed_answer": "left",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0098_v3",
+      "raw_GT_recomputed_answer": "left",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0099_v3",
+      "raw_GT_recomputed_answer": "Person A",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0100_v3",
+      "raw_GT_recomputed_answer": "Person A",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0101_v3",
+      "raw_GT_recomputed_answer": "Person A",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0102_v3",
+      "raw_GT_recomputed_answer": "center",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0103_v3",
+      "raw_GT_recomputed_answer": "center",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0104_v3",
+      "raw_GT_recomputed_answer": "right",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0105_v3",
+      "raw_GT_recomputed_answer": "Person B",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0106_v3",
+      "raw_GT_recomputed_answer": "Person B",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0107_v3",
+      "raw_GT_recomputed_answer": "34.760–40.080 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0108_v3",
+      "raw_GT_recomputed_answer": "35.160–37.320 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0109_v3",
+      "raw_GT_recomputed_answer": "portrait 2",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0110_v3",
+      "raw_GT_recomputed_answer": "portrait 4",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0111_v3",
+      "raw_GT_recomputed_answer": "center",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0112_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0113_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0114_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0115_v3",
+      "raw_GT_recomputed_answer": "No",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0116_v3",
+      "raw_GT_recomputed_answer": "No",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0117_v3",
+      "raw_GT_recomputed_answer": "Yes",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0118_v3",
+      "raw_GT_recomputed_answer": "4",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0119_v3",
+      "raw_GT_recomputed_answer": "Yes",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0120_v3",
+      "raw_GT_recomputed_answer": "1",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0121_v3",
+      "raw_GT_recomputed_answer": "left",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0122_v3",
+      "raw_GT_recomputed_answer": 3,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0123_v3",
+      "raw_GT_recomputed_answer": "2",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0124_v3",
+      "raw_GT_recomputed_answer": "1",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0125_v3",
+      "raw_GT_recomputed_answer": "portrait 3",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0126_v3",
+      "raw_GT_recomputed_answer": "portrait 3",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0127_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0128_v3",
+      "raw_GT_recomputed_answer": "2",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0129_v3",
+      "raw_GT_recomputed_answer": "Yes",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0130_v3",
+      "raw_GT_recomputed_answer": "Yes",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0131_v3",
+      "raw_GT_recomputed_answer": "Yes",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0132_v3",
+      "raw_GT_recomputed_answer": "3",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0133_v3",
+      "raw_GT_recomputed_answer": "4",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0134_v3",
+      "raw_GT_recomputed_answer": "Yes",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0135_v3",
+      "raw_GT_recomputed_answer": "1",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0136_v3",
+      "raw_GT_recomputed_answer": "2",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0137_v3",
+      "raw_GT_recomputed_answer": "No",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0138_v3",
+      "raw_GT_recomputed_answer": "Yes",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0139_v3",
+      "raw_GT_recomputed_answer": "right",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0140_v3",
+      "raw_GT_recomputed_answer": "right",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0141_v3",
+      "raw_GT_recomputed_answer": "Person B",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0142_v3",
+      "raw_GT_recomputed_answer": "1",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0143_v3",
+      "raw_GT_recomputed_answer": "32.700–38.000 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0144_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0145_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0146_v3",
+      "raw_GT_recomputed_answer": "24.750–30.050 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0147_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0148_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0149_v3",
+      "raw_GT_recomputed_answer": "42.200–47.500 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0150_v3",
+      "raw_GT_recomputed_answer": "right",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0151_v3",
+      "raw_GT_recomputed_answer": "right",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0152_v3",
+      "raw_GT_recomputed_answer": "28.800–30.750 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0153_v3",
+      "raw_GT_recomputed_answer": "26.950–34.950 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0154_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0155_v3",
+      "raw_GT_recomputed_answer": "No",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0156_v3",
+      "raw_GT_recomputed_answer": "right",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0157_v3",
+      "raw_GT_recomputed_answer": "1",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0158_v3",
+      "raw_GT_recomputed_answer": "right",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0159_v3",
+      "raw_GT_recomputed_answer": "right",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0160_v3",
+      "raw_GT_recomputed_answer": "right",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0161_v3",
+      "raw_GT_recomputed_answer": "Person B",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0162_v3",
+      "raw_GT_recomputed_answer": "35.200–37.440 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0163_v3",
+      "raw_GT_recomputed_answer": "11.240–16.560 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0164_v3",
+      "raw_GT_recomputed_answer": "13.960–19.280 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0165_v3",
+      "raw_GT_recomputed_answer": "35.160–37.320 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0166_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0167_v3",
+      "raw_GT_recomputed_answer": "11.320–16.640 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0168_v3",
+      "raw_GT_recomputed_answer": "Person A",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0169_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0170_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0171_v3",
+      "raw_GT_recomputed_answer": "23.000–28.950 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0172_v3",
+      "raw_GT_recomputed_answer": "41.700–45.000 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0173_v3",
+      "raw_GT_recomputed_answer": "16.050–19.350 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0174_v3",
+      "raw_GT_recomputed_answer": "42.900–45.650 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0175_v3",
+      "raw_GT_recomputed_answer": "39.500–47.450 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0176_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0177_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0178_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0179_v3",
+      "raw_GT_recomputed_answer": "right",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0180_v3",
+      "raw_GT_recomputed_answer": "right",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0181_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0182_v3",
+      "raw_GT_recomputed_answer": "8.320–13.640 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0183_v3",
+      "raw_GT_recomputed_answer": "11.000–18.960 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0184_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0185_v3",
+      "raw_GT_recomputed_answer": "1",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0186_v3",
+      "raw_GT_recomputed_answer": "portrait 1",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0187_v3",
+      "raw_GT_recomputed_answer": "portrait 2",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0188_v3",
+      "raw_GT_recomputed_answer": "53.650–56.850 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0189_v3",
+      "raw_GT_recomputed_answer": "2",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0190_v3",
+      "raw_GT_recomputed_answer": "Yes",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0191_v3",
+      "raw_GT_recomputed_answer": "No",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0192_v3",
+      "raw_GT_recomputed_answer": "3",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0193_v3",
+      "raw_GT_recomputed_answer": "4",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0194_v3",
+      "raw_GT_recomputed_answer": "right",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0195_v3",
+      "raw_GT_recomputed_answer": "center",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0196_v3",
+      "raw_GT_recomputed_answer": "center",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0197_v3",
+      "raw_GT_recomputed_answer": "center",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0198_v3",
+      "raw_GT_recomputed_answer": "left",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0199_v3",
+      "raw_GT_recomputed_answer": "Person A",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0200_v3",
+      "raw_GT_recomputed_answer": "5.000–6.960 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0201_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0202_v3",
+      "raw_GT_recomputed_answer": 4,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0203_v3",
+      "raw_GT_recomputed_answer": "32.350–40.350 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0204_v3",
+      "raw_GT_recomputed_answer": "portrait 1",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0205_v3",
+      "raw_GT_recomputed_answer": "portrait 2",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0206_v3",
+      "raw_GT_recomputed_answer": "portrait 3",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0207_v3",
+      "raw_GT_recomputed_answer": "6.300–9.150 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0208_v3",
+      "raw_GT_recomputed_answer": "portrait 1",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0209_v3",
+      "raw_GT_recomputed_answer": "6.200–11.500 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0210_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0211_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0212_v3",
+      "raw_GT_recomputed_answer": "32.700–40.650 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0213_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0214_v3",
+      "raw_GT_recomputed_answer": "No",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0215_v3",
+      "raw_GT_recomputed_answer": "left",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0216_v3",
+      "raw_GT_recomputed_answer": "right",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0217_v3",
+      "raw_GT_recomputed_answer": "center",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0218_v3",
+      "raw_GT_recomputed_answer": "center",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0219_v3",
+      "raw_GT_recomputed_answer": "Person B",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0220_v3",
+      "raw_GT_recomputed_answer": "Person B",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0221_v3",
+      "raw_GT_recomputed_answer": "Person B",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0222_v3",
+      "raw_GT_recomputed_answer": "27.960–35.920 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0223_v3",
+      "raw_GT_recomputed_answer": "Person B",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0224_v3",
+      "raw_GT_recomputed_answer": "Person B",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0225_v3",
+      "raw_GT_recomputed_answer": "Person B",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0226_v3",
+      "raw_GT_recomputed_answer": 34.2,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0227_v3",
+      "raw_GT_recomputed_answer": "6.000–9.300 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0228_v3",
+      "raw_GT_recomputed_answer": "center",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0229_v3",
+      "raw_GT_recomputed_answer": "28.800–32.100 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0230_v3",
+      "raw_GT_recomputed_answer": "1",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0231_v3",
+      "raw_GT_recomputed_answer": "No",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0232_v3",
+      "raw_GT_recomputed_answer": "Yes",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0233_v3",
+      "raw_GT_recomputed_answer": "No",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0234_v3",
+      "raw_GT_recomputed_answer": "2",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0235_v3",
+      "raw_GT_recomputed_answer": "left",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0236_v3",
+      "raw_GT_recomputed_answer": "center",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0237_v3",
+      "raw_GT_recomputed_answer": "3",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0238_v3",
+      "raw_GT_recomputed_answer": 3,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0239_v3",
+      "raw_GT_recomputed_answer": "3",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0240_v3",
+      "raw_GT_recomputed_answer": "34.900–37.450 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0241_v3",
+      "raw_GT_recomputed_answer": "19.400–22.200 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0242_v3",
+      "raw_GT_recomputed_answer": "10.150–12.550 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0243_v3",
+      "raw_GT_recomputed_answer": "portrait 3",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0244_v3",
+      "raw_GT_recomputed_answer": "3",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0245_v3",
+      "raw_GT_recomputed_answer": "4",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0246_v3",
+      "raw_GT_recomputed_answer": "Yes",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0247_v3",
+      "raw_GT_recomputed_answer": "left",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0248_v3",
+      "raw_GT_recomputed_answer": "left",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0249_v3",
+      "raw_GT_recomputed_answer": "right",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0250_v3",
+      "raw_GT_recomputed_answer": "center",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0251_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0252_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0253_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0254_v3",
+      "raw_GT_recomputed_answer": "Yes",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0255_v3",
+      "raw_GT_recomputed_answer": "left",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0256_v3",
+      "raw_GT_recomputed_answer": "2",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0257_v3",
+      "raw_GT_recomputed_answer": "2",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0258_v3",
+      "raw_GT_recomputed_answer": "2",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0259_v3",
+      "raw_GT_recomputed_answer": "2",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0260_v3",
+      "raw_GT_recomputed_answer": "4",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0261_v3",
+      "raw_GT_recomputed_answer": 1,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0262_v3",
+      "raw_GT_recomputed_answer": "portrait 4",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0263_v3",
+      "raw_GT_recomputed_answer": "Yes",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0264_v3",
+      "raw_GT_recomputed_answer": "No",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0265_v3",
+      "raw_GT_recomputed_answer": "1",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0266_v3",
+      "raw_GT_recomputed_answer": "Yes",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0267_v3",
+      "raw_GT_recomputed_answer": "No",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0268_v3",
+      "raw_GT_recomputed_answer": "2",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0269_v3",
+      "raw_GT_recomputed_answer": "3",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0270_v3",
+      "raw_GT_recomputed_answer": "4",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0271_v3",
+      "raw_GT_recomputed_answer": "0",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0272_v3",
+      "raw_GT_recomputed_answer": 0,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0273_v3",
+      "raw_GT_recomputed_answer": 0,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0274_v3",
+      "raw_GT_recomputed_answer": "4",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0275_v3",
+      "raw_GT_recomputed_answer": "1",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0276_v3",
+      "raw_GT_recomputed_answer": 1,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0277_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0278_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0279_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0280_v3",
+      "raw_GT_recomputed_answer": "2",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0281_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0282_v3",
+      "raw_GT_recomputed_answer": "portrait 1",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0283_v3",
+      "raw_GT_recomputed_answer": "0",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0284_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0285_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0286_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0287_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0288_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0289_v3",
+      "raw_GT_recomputed_answer": "1",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0290_v3",
+      "raw_GT_recomputed_answer": "Yes",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0291_v3",
+      "raw_GT_recomputed_answer": "2",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0292_v3",
+      "raw_GT_recomputed_answer": "center",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0293_v3",
+      "raw_GT_recomputed_answer": "center",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0294_v3",
+      "raw_GT_recomputed_answer": "Person B",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0295_v3",
+      "raw_GT_recomputed_answer": "Person B",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0296_v3",
+      "raw_GT_recomputed_answer": "Person B",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0297_v3",
+      "raw_GT_recomputed_answer": "Person B",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0298_v3",
+      "raw_GT_recomputed_answer": "13.520–21.480 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0299_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0300_v3",
+      "raw_GT_recomputed_answer": "24.520–32.520 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0301_v3",
+      "raw_GT_recomputed_answer": "35.500–38.550 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0302_v3",
+      "raw_GT_recomputed_answer": "34.650–37.400 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0303_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0304_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0305_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0306_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0307_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0308_v3",
+      "raw_GT_recomputed_answer": "3",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0309_v3",
+      "raw_GT_recomputed_answer": "4",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0310_v3",
+      "raw_GT_recomputed_answer": "1",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0311_v3",
+      "raw_GT_recomputed_answer": "right",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0312_v3",
+      "raw_GT_recomputed_answer": "Person B",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0313_v3",
+      "raw_GT_recomputed_answer": "Person B",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0314_v3",
+      "raw_GT_recomputed_answer": "Person A",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0315_v3",
+      "raw_GT_recomputed_answer": "Person A",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0316_v3",
+      "raw_GT_recomputed_answer": "1",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0317_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0318_v3",
+      "raw_GT_recomputed_answer": "0",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0319_v3",
+      "raw_GT_recomputed_answer": "16.240–19.520 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0320_v3",
+      "raw_GT_recomputed_answer": "2",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0321_v3",
+      "raw_GT_recomputed_answer": "3",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0322_v3",
+      "raw_GT_recomputed_answer": "4",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0323_v3",
+      "raw_GT_recomputed_answer": "No",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0324_v3",
+      "raw_GT_recomputed_answer": "1",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0325_v3",
+      "raw_GT_recomputed_answer": "2",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0326_v3",
+      "raw_GT_recomputed_answer": "No",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0327_v3",
+      "raw_GT_recomputed_answer": "3",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0328_v3",
+      "raw_GT_recomputed_answer": "4",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0329_v3",
+      "raw_GT_recomputed_answer": "13.640–15.840 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0330_v3",
+      "raw_GT_recomputed_answer": "11.480–14.800 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0331_v3",
+      "raw_GT_recomputed_answer": 15.52,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0332_v3",
+      "raw_GT_recomputed_answer": "32.160–35.480 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0333_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0334_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0335_v3",
+      "raw_GT_recomputed_answer": 23.52,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0336_v3",
+      "raw_GT_recomputed_answer": "left",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0337_v3",
+      "raw_GT_recomputed_answer": "left",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0338_v3",
+      "raw_GT_recomputed_answer": "left",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0339_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0340_v3",
+      "raw_GT_recomputed_answer": "6.320–9.640 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0341_v3",
+      "raw_GT_recomputed_answer": "26.560–29.880 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0342_v3",
+      "raw_GT_recomputed_answer": "29.000–31.760 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0343_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0344_v3",
+      "raw_GT_recomputed_answer": "31.920–37.200 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0345_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0346_v3",
+      "raw_GT_recomputed_answer": "right",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0347_v3",
+      "raw_GT_recomputed_answer": "right",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0348_v3",
+      "raw_GT_recomputed_answer": "right",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0349_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0350_v3",
+      "raw_GT_recomputed_answer": "Person C",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0351_v3",
+      "raw_GT_recomputed_answer": "1",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0352_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0353_v3",
+      "raw_GT_recomputed_answer": "21.480–26.800 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0354_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0355_v3",
+      "raw_GT_recomputed_answer": "14.840–20.120 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0356_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0357_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0358_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0359_v3",
+      "raw_GT_recomputed_answer": "No",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0360_v3",
+      "raw_GT_recomputed_answer": "Yes",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0361_v3",
+      "raw_GT_recomputed_answer": "center",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0362_v3",
+      "raw_GT_recomputed_answer": "Person A",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0363_v3",
+      "raw_GT_recomputed_answer": "Person B",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0364_v3",
+      "raw_GT_recomputed_answer": "Person A",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0365_v3",
+      "raw_GT_recomputed_answer": "Person B",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0366_v3",
+      "raw_GT_recomputed_answer": 35.2,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0367_v3",
+      "raw_GT_recomputed_answer": "Person B",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0368_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0369_v3",
+      "raw_GT_recomputed_answer": "center",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0370_v3",
+      "raw_GT_recomputed_answer": "1",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0371_v3",
+      "raw_GT_recomputed_answer": "2",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0372_v3",
+      "raw_GT_recomputed_answer": "3",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0373_v3",
+      "raw_GT_recomputed_answer": "Yes",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0374_v3",
+      "raw_GT_recomputed_answer": "4",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0375_v3",
+      "raw_GT_recomputed_answer": "1",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0376_v3",
+      "raw_GT_recomputed_answer": "Yes",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0377_v3",
+      "raw_GT_recomputed_answer": "2",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0378_v3",
+      "raw_GT_recomputed_answer": "Yes",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0379_v3",
+      "raw_GT_recomputed_answer": "No",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0380_v3",
+      "raw_GT_recomputed_answer": "3",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0381_v3",
+      "raw_GT_recomputed_answer": "1",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0382_v3",
+      "raw_GT_recomputed_answer": "1",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0383_v3",
+      "raw_GT_recomputed_answer": "0",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0384_v3",
+      "raw_GT_recomputed_answer": "0",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0385_v3",
+      "raw_GT_recomputed_answer": "1",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0386_v3",
+      "raw_GT_recomputed_answer": "0",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0387_v3",
+      "raw_GT_recomputed_answer": "left",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0388_v3",
+      "raw_GT_recomputed_answer": "left",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0389_v3",
+      "raw_GT_recomputed_answer": "left",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0390_v3",
+      "raw_GT_recomputed_answer": "No",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0391_v3",
+      "raw_GT_recomputed_answer": "4",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0392_v3",
+      "raw_GT_recomputed_answer": "No",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0393_v3",
+      "raw_GT_recomputed_answer": "1",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0394_v3",
+      "raw_GT_recomputed_answer": "No",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0395_v3",
+      "raw_GT_recomputed_answer": "2",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0396_v3",
+      "raw_GT_recomputed_answer": "3",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0397_v3",
+      "raw_GT_recomputed_answer": "Yes",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0398_v3",
+      "raw_GT_recomputed_answer": "4",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0399_v3",
+      "raw_GT_recomputed_answer": "No",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0400_v3",
+      "raw_GT_recomputed_answer": "left",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0401_v3",
+      "raw_GT_recomputed_answer": "center",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0402_v3",
+      "raw_GT_recomputed_answer": "center",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0403_v3",
+      "raw_GT_recomputed_answer": "Person A",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0404_v3",
+      "raw_GT_recomputed_answer": 58.5,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0405_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0406_v3",
+      "raw_GT_recomputed_answer": "Person A",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0407_v3",
+      "raw_GT_recomputed_answer": "Person A",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0408_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0409_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0410_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0411_v3",
+      "raw_GT_recomputed_answer": "right",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0412_v3",
+      "raw_GT_recomputed_answer": "right",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0413_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0414_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0415_v3",
+      "raw_GT_recomputed_answer": "13.880–21.840 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0416_v3",
+      "raw_GT_recomputed_answer": "16.560–21.880 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0417_v3",
+      "raw_GT_recomputed_answer": "No",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0418_v3",
+      "raw_GT_recomputed_answer": "1",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0419_v3",
+      "raw_GT_recomputed_answer": "No",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0420_v3",
+      "raw_GT_recomputed_answer": "2",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0421_v3",
+      "raw_GT_recomputed_answer": "center",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0422_v3",
+      "raw_GT_recomputed_answer": "left",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0423_v3",
+      "raw_GT_recomputed_answer": "right",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0424_v3",
+      "raw_GT_recomputed_answer": "right",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0425_v3",
+      "raw_GT_recomputed_answer": "right",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0426_v3",
+      "raw_GT_recomputed_answer": "right",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0427_v3",
+      "raw_GT_recomputed_answer": "right",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0428_v3",
+      "raw_GT_recomputed_answer": "right",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0429_v3",
+      "raw_GT_recomputed_answer": "right",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0430_v3",
+      "raw_GT_recomputed_answer": "right",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0431_v3",
+      "raw_GT_recomputed_answer": "right",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0432_v3",
+      "raw_GT_recomputed_answer": "right",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0433_v3",
+      "raw_GT_recomputed_answer": "Person A",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0434_v3",
+      "raw_GT_recomputed_answer": "Person B",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0435_v3",
+      "raw_GT_recomputed_answer": "Person B",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0436_v3",
+      "raw_GT_recomputed_answer": "center",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0437_v3",
+      "raw_GT_recomputed_answer": "left",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0438_v3",
+      "raw_GT_recomputed_answer": "Person A",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0439_v3",
+      "raw_GT_recomputed_answer": "No",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0440_v3",
+      "raw_GT_recomputed_answer": "3",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0441_v3",
+      "raw_GT_recomputed_answer": "Yes",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0442_v3",
+      "raw_GT_recomputed_answer": "4",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0443_v3",
+      "raw_GT_recomputed_answer": "1",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0444_v3",
+      "raw_GT_recomputed_answer": "No",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0445_v3",
+      "raw_GT_recomputed_answer": "2",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0446_v3",
+      "raw_GT_recomputed_answer": "3",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0447_v3",
+      "raw_GT_recomputed_answer": "No",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0448_v3",
+      "raw_GT_recomputed_answer": "4",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0449_v3",
+      "raw_GT_recomputed_answer": "1",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0450_v3",
+      "raw_GT_recomputed_answer": "Yes",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0451_v3",
+      "raw_GT_recomputed_answer": "2",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0452_v3",
+      "raw_GT_recomputed_answer": "Yes",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0453_v3",
+      "raw_GT_recomputed_answer": "3",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0454_v3",
+      "raw_GT_recomputed_answer": "No",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0455_v3",
+      "raw_GT_recomputed_answer": "Yes",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0456_v3",
+      "raw_GT_recomputed_answer": "left",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0457_v3",
+      "raw_GT_recomputed_answer": "left",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0458_v3",
+      "raw_GT_recomputed_answer": "left",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0459_v3",
+      "raw_GT_recomputed_answer": "left",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0460_v3",
+      "raw_GT_recomputed_answer": "right",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0461_v3",
+      "raw_GT_recomputed_answer": "Person A",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0462_v3",
+      "raw_GT_recomputed_answer": "Person B",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0463_v3",
+      "raw_GT_recomputed_answer": "Person B",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0464_v3",
+      "raw_GT_recomputed_answer": "Person A",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0465_v3",
+      "raw_GT_recomputed_answer": "Person B",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0466_v3",
+      "raw_GT_recomputed_answer": "Person B",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0467_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0468_v3",
+      "raw_GT_recomputed_answer": "4",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0469_v3",
+      "raw_GT_recomputed_answer": "Yes",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0470_v3",
+      "raw_GT_recomputed_answer": "1",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0471_v3",
+      "raw_GT_recomputed_answer": "2",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0472_v3",
+      "raw_GT_recomputed_answer": "3",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0473_v3",
+      "raw_GT_recomputed_answer": "4",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0474_v3",
+      "raw_GT_recomputed_answer": "Yes",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0475_v3",
+      "raw_GT_recomputed_answer": "No",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0476_v3",
+      "raw_GT_recomputed_answer": "left",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0477_v3",
+      "raw_GT_recomputed_answer": "left",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0478_v3",
+      "raw_GT_recomputed_answer": "center",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0479_v3",
+      "raw_GT_recomputed_answer": "center",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0480_v3",
+      "raw_GT_recomputed_answer": "left",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0481_v3",
+      "raw_GT_recomputed_answer": "center",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0482_v3",
+      "raw_GT_recomputed_answer": "left",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0483_v3",
+      "raw_GT_recomputed_answer": "center",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0484_v3",
+      "raw_GT_recomputed_answer": "Person A",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0485_v3",
+      "raw_GT_recomputed_answer": "Person A",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0486_v3",
+      "raw_GT_recomputed_answer": "Person A",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0487_v3",
+      "raw_GT_recomputed_answer": "Person B",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0488_v3",
+      "raw_GT_recomputed_answer": "Person B",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0489_v3",
+      "raw_GT_recomputed_answer": "Person B",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0490_v3",
+      "raw_GT_recomputed_answer": "Person B",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0491_v3",
+      "raw_GT_recomputed_answer": "Person A",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0492_v3",
+      "raw_GT_recomputed_answer": "Person B",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0493_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0494_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0495_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0496_v3",
+      "raw_GT_recomputed_answer": 0,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0497_v3",
+      "raw_GT_recomputed_answer": "portrait 2",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0498_v3",
+      "raw_GT_recomputed_answer": "1",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0499_v3",
+      "raw_GT_recomputed_answer": "1",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0500_v3",
+      "raw_GT_recomputed_answer": "0",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0501_v3",
+      "raw_GT_recomputed_answer": "center",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0502_v3",
+      "raw_GT_recomputed_answer": "left",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0503_v3",
+      "raw_GT_recomputed_answer": "right",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0504_v3",
+      "raw_GT_recomputed_answer": "Person A",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0505_v3",
+      "raw_GT_recomputed_answer": "Person A",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0506_v3",
+      "raw_GT_recomputed_answer": 16.64,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0507_v3",
+      "raw_GT_recomputed_answer": "33.320–36.640 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0508_v3",
+      "raw_GT_recomputed_answer": 36.84,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0509_v3",
+      "raw_GT_recomputed_answer": 36.96,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0510_v3",
+      "raw_GT_recomputed_answer": 36.96,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0511_v3",
+      "raw_GT_recomputed_answer": 36.24,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0512_v3",
+      "raw_GT_recomputed_answer": 36.96,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0513_v3",
+      "raw_GT_recomputed_answer": 36.24,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0514_v3",
+      "raw_GT_recomputed_answer": 36.84,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0515_v3",
+      "raw_GT_recomputed_answer": 36.84,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0516_v3",
+      "raw_GT_recomputed_answer": "left",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0517_v3",
+      "raw_GT_recomputed_answer": 15.48,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0518_v3",
+      "raw_GT_recomputed_answer": 16.0,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0519_v3",
+      "raw_GT_recomputed_answer": 35.44,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0520_v3",
+      "raw_GT_recomputed_answer": "Person B",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0521_v3",
+      "raw_GT_recomputed_answer": "portrait 1",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0522_v3",
+      "raw_GT_recomputed_answer": "portrait 4",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0523_v3",
+      "raw_GT_recomputed_answer": "portrait 2",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0524_v3",
+      "raw_GT_recomputed_answer": "2",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0525_v3",
+      "raw_GT_recomputed_answer": "center",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0526_v3",
+      "raw_GT_recomputed_answer": "10.960–14.280 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0527_v3",
+      "raw_GT_recomputed_answer": "10.200–15.520 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0528_v3",
+      "raw_GT_recomputed_answer": "10.720–13.960 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0529_v3",
+      "raw_GT_recomputed_answer": "4.240–12.200 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0530_v3",
+      "raw_GT_recomputed_answer": 2,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0531_v3",
+      "raw_GT_recomputed_answer": 2,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0532_v3",
+      "raw_GT_recomputed_answer": "portrait 4",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0533_v3",
+      "raw_GT_recomputed_answer": "portrait 1",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0534_v3",
+      "raw_GT_recomputed_answer": "right",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0535_v3",
+      "raw_GT_recomputed_answer": "3",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0536_v3",
+      "raw_GT_recomputed_answer": 2,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0537_v3",
+      "raw_GT_recomputed_answer": "portrait 1",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0538_v3",
+      "raw_GT_recomputed_answer": "portrait 4",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0539_v3",
+      "raw_GT_recomputed_answer": "center",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0540_v3",
+      "raw_GT_recomputed_answer": 18.84,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0541_v3",
+      "raw_GT_recomputed_answer": "2",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0542_v3",
+      "raw_GT_recomputed_answer": 3,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0543_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0544_v3",
+      "raw_GT_recomputed_answer": "portrait 1",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0545_v3",
+      "raw_GT_recomputed_answer": "26.760–29.320 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0546_v3",
+      "raw_GT_recomputed_answer": "22.440–24.680 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0547_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0548_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0549_v3",
+      "raw_GT_recomputed_answer": "Person B",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0550_v3",
+      "raw_GT_recomputed_answer": 3,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0551_v3",
+      "raw_GT_recomputed_answer": "0",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0552_v3",
+      "raw_GT_recomputed_answer": "left",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0553_v3",
+      "raw_GT_recomputed_answer": "0",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0554_v3",
+      "raw_GT_recomputed_answer": "Person A",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0555_v3",
+      "raw_GT_recomputed_answer": "Person B",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0556_v3",
+      "raw_GT_recomputed_answer": "Person B",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0557_v3",
+      "raw_GT_recomputed_answer": "1",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0558_v3",
+      "raw_GT_recomputed_answer": "portrait 2",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0559_v3",
+      "raw_GT_recomputed_answer": "portrait 4",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0560_v3",
+      "raw_GT_recomputed_answer": "left",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0561_v3",
+      "raw_GT_recomputed_answer": "left",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0562_v3",
+      "raw_GT_recomputed_answer": "Person A",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0563_v3",
+      "raw_GT_recomputed_answer": "10.440–12.440 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0564_v3",
+      "raw_GT_recomputed_answer": 10.96,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0565_v3",
+      "raw_GT_recomputed_answer": "10.840–12.960 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0566_v3",
+      "raw_GT_recomputed_answer": 1,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0567_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0568_v3",
+      "raw_GT_recomputed_answer": "1",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0569_v3",
+      "raw_GT_recomputed_answer": "Person B",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0570_v3",
+      "raw_GT_recomputed_answer": "Person B",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0571_v3",
+      "raw_GT_recomputed_answer": "Person B",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0572_v3",
+      "raw_GT_recomputed_answer": 3,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0573_v3",
+      "raw_GT_recomputed_answer": "portrait 2",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0574_v3",
+      "raw_GT_recomputed_answer": "portrait 3",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0575_v3",
+      "raw_GT_recomputed_answer": "1",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0576_v3",
+      "raw_GT_recomputed_answer": "left",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0577_v3",
+      "raw_GT_recomputed_answer": "Person A",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0578_v3",
+      "raw_GT_recomputed_answer": 2,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0579_v3",
+      "raw_GT_recomputed_answer": "portrait 3",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0580_v3",
+      "raw_GT_recomputed_answer": "center",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0581_v3",
+      "raw_GT_recomputed_answer": "center",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0582_v3",
+      "raw_GT_recomputed_answer": "center",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0583_v3",
+      "raw_GT_recomputed_answer": "Person A",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0584_v3",
+      "raw_GT_recomputed_answer": "Person A",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0585_v3",
+      "raw_GT_recomputed_answer": "Person A",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0586_v3",
+      "raw_GT_recomputed_answer": 1,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0587_v3",
+      "raw_GT_recomputed_answer": "1",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0588_v3",
+      "raw_GT_recomputed_answer": "7.200–8.960 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0589_v3",
+      "raw_GT_recomputed_answer": "center",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0590_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0591_v3",
+      "raw_GT_recomputed_answer": 6.4,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0592_v3",
+      "raw_GT_recomputed_answer": 0,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0593_v3",
+      "raw_GT_recomputed_answer": 0,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0594_v3",
+      "raw_GT_recomputed_answer": "Person C",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0595_v3",
+      "raw_GT_recomputed_answer": "portrait 1",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0596_v3",
+      "raw_GT_recomputed_answer": "left",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0597_v3",
+      "raw_GT_recomputed_answer": "Person B",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0598_v3",
+      "raw_GT_recomputed_answer": "Person B",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0599_v3",
+      "raw_GT_recomputed_answer": 22.4,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0600_v3",
+      "raw_GT_recomputed_answer": 22.4,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0601_v3",
+      "raw_GT_recomputed_answer": 22.4,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0602_v3",
+      "raw_GT_recomputed_answer": 0,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0603_v3",
+      "raw_GT_recomputed_answer": "Person B",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0604_v3",
+      "raw_GT_recomputed_answer": 36.96,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0605_v3",
+      "raw_GT_recomputed_answer": 13.96,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0606_v3",
+      "raw_GT_recomputed_answer": 13.96,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0607_v3",
+      "raw_GT_recomputed_answer": "right",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0608_v3",
+      "raw_GT_recomputed_answer": "center",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0609_v3",
+      "raw_GT_recomputed_answer": "center",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0610_v3",
+      "raw_GT_recomputed_answer": "center",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0611_v3",
+      "raw_GT_recomputed_answer": "center",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0612_v3",
+      "raw_GT_recomputed_answer": "3",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0613_v3",
+      "raw_GT_recomputed_answer": "3",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0614_v3",
+      "raw_GT_recomputed_answer": 2,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0615_v3",
+      "raw_GT_recomputed_answer": 1,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0616_v3",
+      "raw_GT_recomputed_answer": "portrait 4",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0617_v3",
+      "raw_GT_recomputed_answer": "2",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0618_v3",
+      "raw_GT_recomputed_answer": "left",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0619_v3",
+      "raw_GT_recomputed_answer": "right",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0620_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0621_v3",
+      "raw_GT_recomputed_answer": 2,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0622_v3",
+      "raw_GT_recomputed_answer": "3",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0623_v3",
+      "raw_GT_recomputed_answer": "4",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0624_v3",
+      "raw_GT_recomputed_answer": 3,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0625_v3",
+      "raw_GT_recomputed_answer": "Person A",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0626_v3",
+      "raw_GT_recomputed_answer": 15.4,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0627_v3",
+      "raw_GT_recomputed_answer": 15.4,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0628_v3",
+      "raw_GT_recomputed_answer": 15.4,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0629_v3",
+      "raw_GT_recomputed_answer": "1",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0630_v3",
+      "raw_GT_recomputed_answer": "center",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0631_v3",
+      "raw_GT_recomputed_answer": "right",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0632_v3",
+      "raw_GT_recomputed_answer": "2",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0633_v3",
+      "raw_GT_recomputed_answer": "2",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0634_v3",
+      "raw_GT_recomputed_answer": 13.6,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0635_v3",
+      "raw_GT_recomputed_answer": "6.040–14.000 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0636_v3",
+      "raw_GT_recomputed_answer": "6.280–14.240 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0637_v3",
+      "raw_GT_recomputed_answer": "9.000–16.960 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0638_v3",
+      "raw_GT_recomputed_answer": 13.28,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0639_v3",
+      "raw_GT_recomputed_answer": "28.840–34.120 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0640_v3",
+      "raw_GT_recomputed_answer": 33.2,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0641_v3",
+      "raw_GT_recomputed_answer": 13.6,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0642_v3",
+      "raw_GT_recomputed_answer": "2",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0643_v3",
+      "raw_GT_recomputed_answer": "left",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0644_v3",
+      "raw_GT_recomputed_answer": "right",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0645_v3",
+      "raw_GT_recomputed_answer": "center",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0646_v3",
+      "raw_GT_recomputed_answer": 30.28,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0647_v3",
+      "raw_GT_recomputed_answer": 2,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0648_v3",
+      "raw_GT_recomputed_answer": "portrait 4",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0649_v3",
+      "raw_GT_recomputed_answer": "portrait 2",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0650_v3",
+      "raw_GT_recomputed_answer": "center",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0651_v3",
+      "raw_GT_recomputed_answer": "center",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0652_v3",
+      "raw_GT_recomputed_answer": "center",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0653_v3",
+      "raw_GT_recomputed_answer": "center",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0654_v3",
+      "raw_GT_recomputed_answer": "Person A",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0655_v3",
+      "raw_GT_recomputed_answer": "Person A",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0656_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0657_v3",
+      "raw_GT_recomputed_answer": "23.520–25.760 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0658_v3",
+      "raw_GT_recomputed_answer": "21.480–24.800 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0659_v3",
+      "raw_GT_recomputed_answer": "23.480–28.800 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0660_v3",
+      "raw_GT_recomputed_answer": 4,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0661_v3",
+      "raw_GT_recomputed_answer": 3,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0662_v3",
+      "raw_GT_recomputed_answer": 2,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0663_v3",
+      "raw_GT_recomputed_answer": 2,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0664_v3",
+      "raw_GT_recomputed_answer": 14.96,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0665_v3",
+      "raw_GT_recomputed_answer": 13.96,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0666_v3",
+      "raw_GT_recomputed_answer": 13.96,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0667_v3",
+      "raw_GT_recomputed_answer": 9.52,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0668_v3",
+      "raw_GT_recomputed_answer": 13.96,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0669_v3",
+      "raw_GT_recomputed_answer": "portrait 1",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0670_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0671_v3",
+      "raw_GT_recomputed_answer": "3",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0672_v3",
+      "raw_GT_recomputed_answer": "right",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0673_v3",
+      "raw_GT_recomputed_answer": "right",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0674_v3",
+      "raw_GT_recomputed_answer": "Person B",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0675_v3",
+      "raw_GT_recomputed_answer": "Person B",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0676_v3",
+      "raw_GT_recomputed_answer": "Person B",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0677_v3",
+      "raw_GT_recomputed_answer": "left",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0678_v3",
+      "raw_GT_recomputed_answer": "Person B",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0679_v3",
+      "raw_GT_recomputed_answer": "Person A",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0680_v3",
+      "raw_GT_recomputed_answer": 15.52,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0681_v3",
+      "raw_GT_recomputed_answer": "1",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0682_v3",
+      "raw_GT_recomputed_answer": "portrait 4",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0683_v3",
+      "raw_GT_recomputed_answer": "left",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0684_v3",
+      "raw_GT_recomputed_answer": "right",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0685_v3",
+      "raw_GT_recomputed_answer": 2,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0686_v3",
+      "raw_GT_recomputed_answer": 2,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0687_v3",
+      "raw_GT_recomputed_answer": 2,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0688_v3",
+      "raw_GT_recomputed_answer": "4",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0689_v3",
+      "raw_GT_recomputed_answer": "Person B",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0690_v3",
+      "raw_GT_recomputed_answer": 17.68,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0691_v3",
+      "raw_GT_recomputed_answer": 17.68,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0692_v3",
+      "raw_GT_recomputed_answer": 17.68,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0693_v3",
+      "raw_GT_recomputed_answer": 17.2,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0694_v3",
+      "raw_GT_recomputed_answer": 17.2,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0695_v3",
+      "raw_GT_recomputed_answer": 17.88,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0696_v3",
+      "raw_GT_recomputed_answer": "17.680–19.880 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0697_v3",
+      "raw_GT_recomputed_answer": "left",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0698_v3",
+      "raw_GT_recomputed_answer": "0",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0699_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0700_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0701_v3",
+      "raw_GT_recomputed_answer": "13.640–15.840 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0702_v3",
+      "raw_GT_recomputed_answer": 13.84,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0703_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0704_v3",
+      "raw_GT_recomputed_answer": 6.52,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0705_v3",
+      "raw_GT_recomputed_answer": 13.96,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0706_v3",
+      "raw_GT_recomputed_answer": 6.52,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0707_v3",
+      "raw_GT_recomputed_answer": 6.52,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0708_v3",
+      "raw_GT_recomputed_answer": 6.52,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0709_v3",
+      "raw_GT_recomputed_answer": 6.52,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0710_v3",
+      "raw_GT_recomputed_answer": 5,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0711_v3",
+      "raw_GT_recomputed_answer": "portrait 3",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0712_v3",
+      "raw_GT_recomputed_answer": "portrait 3",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0713_v3",
+      "raw_GT_recomputed_answer": "left",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0714_v3",
+      "raw_GT_recomputed_answer": "portrait 1",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0715_v3",
+      "raw_GT_recomputed_answer": "right",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0716_v3",
+      "raw_GT_recomputed_answer": "0",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0717_v3",
+      "raw_GT_recomputed_answer": "Person A",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0718_v3",
+      "raw_GT_recomputed_answer": 0,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0719_v3",
+      "raw_GT_recomputed_answer": 0,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0720_v3",
+      "raw_GT_recomputed_answer": 0,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0721_v3",
+      "raw_GT_recomputed_answer": 0,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0722_v3",
+      "raw_GT_recomputed_answer": "2",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0723_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0724_v3",
+      "raw_GT_recomputed_answer": "1",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0725_v3",
+      "raw_GT_recomputed_answer": "2",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0726_v3",
+      "raw_GT_recomputed_answer": 1,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0727_v3",
+      "raw_GT_recomputed_answer": 0,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0728_v3",
+      "raw_GT_recomputed_answer": 0,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0729_v3",
+      "raw_GT_recomputed_answer": 0,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0730_v3",
+      "raw_GT_recomputed_answer": "26.150–31.450 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0731_v3",
+      "raw_GT_recomputed_answer": "1",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0732_v3",
+      "raw_GT_recomputed_answer": "1",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0733_v3",
+      "raw_GT_recomputed_answer": "left",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0734_v3",
+      "raw_GT_recomputed_answer": 12.68,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0735_v3",
+      "raw_GT_recomputed_answer": 12.68,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0736_v3",
+      "raw_GT_recomputed_answer": 12.68,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0737_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0738_v3",
+      "raw_GT_recomputed_answer": 13.84,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0739_v3",
+      "raw_GT_recomputed_answer": 6.52,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0740_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0741_v3",
+      "raw_GT_recomputed_answer": 9.08,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0742_v3",
+      "raw_GT_recomputed_answer": 22.16,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0743_v3",
+      "raw_GT_recomputed_answer": 9.08,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0744_v3",
+      "raw_GT_recomputed_answer": "portrait 4",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0745_v3",
+      "raw_GT_recomputed_answer": "1",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0746_v3",
+      "raw_GT_recomputed_answer": "right",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0747_v3",
+      "raw_GT_recomputed_answer": "Person A",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0748_v3",
+      "raw_GT_recomputed_answer": 0,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0749_v3",
+      "raw_GT_recomputed_answer": 1,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0750_v3",
+      "raw_GT_recomputed_answer": 9.52,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0751_v3",
+      "raw_GT_recomputed_answer": "Person B",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0752_v3",
+      "raw_GT_recomputed_answer": 21.36,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0753_v3",
+      "raw_GT_recomputed_answer": "11.160–16.480 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0754_v3",
+      "raw_GT_recomputed_answer": "14.400–19.720 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0755_v3",
+      "raw_GT_recomputed_answer": 9.08,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0756_v3",
+      "raw_GT_recomputed_answer": 8.8,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0757_v3",
+      "raw_GT_recomputed_answer": "Person A",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0758_v3",
+      "raw_GT_recomputed_answer": 8.8,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0759_v3",
+      "raw_GT_recomputed_answer": 8.56,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0760_v3",
+      "raw_GT_recomputed_answer": 9.08,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0761_v3",
+      "raw_GT_recomputed_answer": 22.16,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0762_v3",
+      "raw_GT_recomputed_answer": 20.4,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0763_v3",
+      "raw_GT_recomputed_answer": 22.16,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0764_v3",
+      "raw_GT_recomputed_answer": 20.4,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0765_v3",
+      "raw_GT_recomputed_answer": 20.4,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0766_v3",
+      "raw_GT_recomputed_answer": 0,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0767_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0768_v3",
+      "raw_GT_recomputed_answer": "1",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0769_v3",
+      "raw_GT_recomputed_answer": "left",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0770_v3",
+      "raw_GT_recomputed_answer": "left",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0771_v3",
+      "raw_GT_recomputed_answer": "right",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0772_v3",
+      "raw_GT_recomputed_answer": "Person B",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0773_v3",
+      "raw_GT_recomputed_answer": "Person B",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0774_v3",
+      "raw_GT_recomputed_answer": "Person B",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0775_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0776_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0777_v3",
+      "raw_GT_recomputed_answer": "34.960–37.200 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0778_v3",
+      "raw_GT_recomputed_answer": 10.92,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0779_v3",
+      "raw_GT_recomputed_answer": "3.000–10.960 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0780_v3",
+      "raw_GT_recomputed_answer": 22.84,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0781_v3",
+      "raw_GT_recomputed_answer": "1",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0782_v3",
+      "raw_GT_recomputed_answer": 0,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0783_v3",
+      "raw_GT_recomputed_answer": 1,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0784_v3",
+      "raw_GT_recomputed_answer": 1,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0785_v3",
+      "raw_GT_recomputed_answer": 9.92,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0786_v3",
+      "raw_GT_recomputed_answer": 9.92,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0787_v3",
+      "raw_GT_recomputed_answer": 9.92,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0788_v3",
+      "raw_GT_recomputed_answer": 14.64,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0789_v3",
+      "raw_GT_recomputed_answer": 20.4,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0790_v3",
+      "raw_GT_recomputed_answer": 9.92,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0791_v3",
+      "raw_GT_recomputed_answer": "portrait 2",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0792_v3",
+      "raw_GT_recomputed_answer": "Person A",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0793_v3",
+      "raw_GT_recomputed_answer": 27.64,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0794_v3",
+      "raw_GT_recomputed_answer": 27.64,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0795_v3",
+      "raw_GT_recomputed_answer": 27.68,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0796_v3",
+      "raw_GT_recomputed_answer": 1,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0797_v3",
+      "raw_GT_recomputed_answer": 0,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0798_v3",
+      "raw_GT_recomputed_answer": "1",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0799_v3",
+      "raw_GT_recomputed_answer": 26.12,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0800_v3",
+      "raw_GT_recomputed_answer": 17.84,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0801_v3",
+      "raw_GT_recomputed_answer": 17.64,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0802_v3",
+      "raw_GT_recomputed_answer": 17.84,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0803_v3",
+      "raw_GT_recomputed_answer": 26.12,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0804_v3",
+      "raw_GT_recomputed_answer": 26.12,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0805_v3",
+      "raw_GT_recomputed_answer": 26.12,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0806_v3",
+      "raw_GT_recomputed_answer": 26.12,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0807_v3",
+      "raw_GT_recomputed_answer": 26.12,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0808_v3",
+      "raw_GT_recomputed_answer": 26.12,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0809_v3",
+      "raw_GT_recomputed_answer": "36.200–39.500 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0810_v3",
+      "raw_GT_recomputed_answer": "left",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0811_v3",
+      "raw_GT_recomputed_answer": "left",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0812_v3",
+      "raw_GT_recomputed_answer": "Person B",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0813_v3",
+      "raw_GT_recomputed_answer": "Person B",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0814_v3",
+      "raw_GT_recomputed_answer": "29.200–34.520 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0815_v3",
+      "raw_GT_recomputed_answer": 26.12,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0816_v3",
+      "raw_GT_recomputed_answer": "portrait 3",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0817_v3",
+      "raw_GT_recomputed_answer": "right",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0818_v3",
+      "raw_GT_recomputed_answer": "right",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0819_v3",
+      "raw_GT_recomputed_answer": "left",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0820_v3",
+      "raw_GT_recomputed_answer": "left",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0821_v3",
+      "raw_GT_recomputed_answer": "left",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0822_v3",
+      "raw_GT_recomputed_answer": "Person A",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0823_v3",
+      "raw_GT_recomputed_answer": "Person A",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0824_v3",
+      "raw_GT_recomputed_answer": "portrait 3",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0825_v3",
+      "raw_GT_recomputed_answer": "right",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0826_v3",
+      "raw_GT_recomputed_answer": "1",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0827_v3",
+      "raw_GT_recomputed_answer": 2,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0828_v3",
+      "raw_GT_recomputed_answer": 2,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0829_v3",
+      "raw_GT_recomputed_answer": 2,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0830_v3",
+      "raw_GT_recomputed_answer": 2,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0831_v3",
+      "raw_GT_recomputed_answer": 2,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0832_v3",
+      "raw_GT_recomputed_answer": "portrait 2",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0833_v3",
+      "raw_GT_recomputed_answer": "left",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0834_v3",
+      "raw_GT_recomputed_answer": "right",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0835_v3",
+      "raw_GT_recomputed_answer": "right",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0836_v3",
+      "raw_GT_recomputed_answer": "center",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0837_v3",
+      "raw_GT_recomputed_answer": "Person A",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0838_v3",
+      "raw_GT_recomputed_answer": "3",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0839_v3",
+      "raw_GT_recomputed_answer": 0,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0840_v3",
+      "raw_GT_recomputed_answer": 0,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0841_v3",
+      "raw_GT_recomputed_answer": 2,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0842_v3",
+      "raw_GT_recomputed_answer": "4.750–10.700 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0843_v3",
+      "raw_GT_recomputed_answer": "portrait 1",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0844_v3",
+      "raw_GT_recomputed_answer": "right",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0845_v3",
+      "raw_GT_recomputed_answer": "center",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0846_v3",
+      "raw_GT_recomputed_answer": "Person B",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0847_v3",
+      "raw_GT_recomputed_answer": "Person A",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0848_v3",
+      "raw_GT_recomputed_answer": 0,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0849_v3",
+      "raw_GT_recomputed_answer": 17.64,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0850_v3",
+      "raw_GT_recomputed_answer": 17.64,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0851_v3",
+      "raw_GT_recomputed_answer": 17.64,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0852_v3",
+      "raw_GT_recomputed_answer": 17.64,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0853_v3",
+      "raw_GT_recomputed_answer": 17.64,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0854_v3",
+      "raw_GT_recomputed_answer": "Person A",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0855_v3",
+      "raw_GT_recomputed_answer": "Person B",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0856_v3",
+      "raw_GT_recomputed_answer": 26.12,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0857_v3",
+      "raw_GT_recomputed_answer": "Person C",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0858_v3",
+      "raw_GT_recomputed_answer": "0",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0859_v3",
+      "raw_GT_recomputed_answer": "right",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0860_v3",
+      "raw_GT_recomputed_answer": "21.240–25.520 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0861_v3",
+      "raw_GT_recomputed_answer": "2",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0862_v3",
+      "raw_GT_recomputed_answer": "right",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0863_v3",
+      "raw_GT_recomputed_answer": "Person B",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0864_v3",
+      "raw_GT_recomputed_answer": "0",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0865_v3",
+      "raw_GT_recomputed_answer": 0,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0866_v3",
+      "raw_GT_recomputed_answer": 0,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0867_v3",
+      "raw_GT_recomputed_answer": 1,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0868_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0869_v3",
+      "raw_GT_recomputed_answer": "14.160–16.160 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0870_v3",
+      "raw_GT_recomputed_answer": "14.360–16.160 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0871_v3",
+      "raw_GT_recomputed_answer": "center",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0872_v3",
+      "raw_GT_recomputed_answer": "right",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0873_v3",
+      "raw_GT_recomputed_answer": "center",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0874_v3",
+      "raw_GT_recomputed_answer": "Person A",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0875_v3",
+      "raw_GT_recomputed_answer": "Person A",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0876_v3",
+      "raw_GT_recomputed_answer": "Person A",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0877_v3",
+      "raw_GT_recomputed_answer": 2,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0878_v3",
+      "raw_GT_recomputed_answer": "2",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0879_v3",
+      "raw_GT_recomputed_answer": "3",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0880_v3",
+      "raw_GT_recomputed_answer": "center",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0881_v3",
+      "raw_GT_recomputed_answer": "15.920–18.000 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0882_v3",
+      "raw_GT_recomputed_answer": "15.920–18.000 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0883_v3",
+      "raw_GT_recomputed_answer": "16.000–18.000 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0884_v3",
+      "raw_GT_recomputed_answer": "11.920–19.880 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0885_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0886_v3",
+      "raw_GT_recomputed_answer": "This never happens.",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0887_v3",
+      "raw_GT_recomputed_answer": 2,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0888_v3",
+      "raw_GT_recomputed_answer": 2,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0889_v3",
+      "raw_GT_recomputed_answer": 1,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0890_v3",
+      "raw_GT_recomputed_answer": "3",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0891_v3",
+      "raw_GT_recomputed_answer": 0,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0892_v3",
+      "raw_GT_recomputed_answer": 1,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0893_v3",
+      "raw_GT_recomputed_answer": 14.92,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0894_v3",
+      "raw_GT_recomputed_answer": 14.92,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0895_v3",
+      "raw_GT_recomputed_answer": 14.92,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0896_v3",
+      "raw_GT_recomputed_answer": 14.92,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0897_v3",
+      "raw_GT_recomputed_answer": 14.92,
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0898_v3",
+      "raw_GT_recomputed_answer": "21.960–24.680 s",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0899_v3",
+      "raw_GT_recomputed_answer": "2",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_pilot_r2_0900_v3",
+      "raw_GT_recomputed_answer": "center",
+      "status": "PASSED"
+    }
+  ],
+  "human_readability_is_not_claimed_by_this_automated_audit": true
+}

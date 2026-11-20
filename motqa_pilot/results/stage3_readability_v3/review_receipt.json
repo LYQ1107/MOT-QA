@@ -1,0 +1,25 @@
+{
+  "packet_id": "motqa_readability_v3_12_49689cd333cc5b6f",
+  "count": 12,
+  "page": "/home/user/motqa_pilot/results/stage3_readability_v3/review/打开中文补审12题.html",
+  "zip": "/home/user/motqa_pilot/results/motqa_readability_v3_review12_zh.zip",
+  "zip_bytes": 97282257,
+  "zip_sha256": "f21796802499f27bac83039296afd94a2aa5537521c0a6cf828de46e0fbe30ec",
+  "export_filename": "stage3_readability_v3_review_result.json",
+  "qa_ids": [
+    "motqa_pilot_r2_0225_v3",
+    "motqa_pilot_r2_0229_v3",
+    "motqa_pilot_r2_0777_v3",
+    "motqa_pilot_r2_0047_v3",
+    "motqa_pilot_r2_0065_v3",
+    "motqa_pilot_r2_0331_v3",
+    "motqa_pilot_r2_0667_v3",
+    "motqa_pilot_r2_0499_v3",
+    "motqa_pilot_r2_0072_v3",
+    "motqa_pilot_r2_0559_v3",
+    "motqa_pilot_r2_0171_v3",
+    "motqa_pilot_r2_0879_v3"
+  ],
+  "selection": "purposeful coverage, seed42; not a random estimate of pass rate",
+  "template_file": "/home/user/motqa_pilot/src/readability_review_template_zh.html"
+}

@@ -1,0 +1,15 @@
+{
+  "at": "2026-11-04T14:33:28.366516+00:00",
+  "all_passed": true,
+  "unique_ID_ledger": 273,
+  "automatic_candidates": 25,
+  "agent_cleared_candidates": 17,
+  "separated_flagged_auto_candidates": 8,
+  "source_GT_files_sha256_unchanged": 25,
+  "GT_timestamp_visibility_future3s_checks": 17,
+  "point_references_not_intervals": true,
+  "QA_generated": 0,
+  "own_service_terminated": true,
+  "own_GPU_memory_released": true,
+  "frozen_acceptance_unchanged": true
+}

@@ -1,0 +1,18 @@
+{
+  "model": {
+    "files": 32,
+    "bytes": 19062611338
+  },
+  "conda": {
+    "files": 26,
+    "bytes": 46154313
+  },
+  "pip": {
+    "files": 307,
+    "bytes": 8287769522
+  },
+  "source": {
+    "files": 7,
+    "bytes": 87772711
+  }
+}

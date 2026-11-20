@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "at": "2026-11-02T18:21:33.789124+08:00",
+  "checks": [
+    {
+      "prefix": "unfinished reasoning",
+      "primary_eos_accepted": false,
+      "secondary_eos_masked": true
+    },
+    {
+      "prefix": "Reasoning.\nAnswer: 2",
+      "primary_eos_accepted": true,
+      "secondary_eos_masked": true
+    },
+    {
+      "prefix": "Reasoning.\nAnswer: 5 or more",
+      "primary_eos_accepted": true,
+      "secondary_eos_masked": true
+    }
+  ],
+  "fix_sha256": "bd43dffa117d19c9a5a2fb80c40ca91a450fca9ec3a65b9fb0ccdabd118781ab"
+}

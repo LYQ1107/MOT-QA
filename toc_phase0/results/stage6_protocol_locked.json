@@ -1,0 +1,112 @@
+{
+  "created_at": "2026-11-04T09:59:36.123245+08:00",
+  "before_any_stage6_inference": true,
+  "hypotheses_sha256": "b3a14977afe2d0bbc75870e5d4c97f25e5908ddd19b54b1bebb292027705af71",
+  "demonstrations_sha256": "69a8c4697c0916aa177c131db45c6f7575408418e3690b25f2c417970961e33c",
+  "frozen_config_sha256": "7f0dbd16926026fa087ac4bb84fb1f3dce142ee903e5cf16c9e8eb1b7a62d93d",
+  "d_assignments_sha256": "5ffa173e7aefe6eef47903570c2dc839265eb9f9518cf4654bda37e0a152090c",
+  "user_approved_image_count_limit": 40,
+  "original32_frames_preserved": true,
+  "image_count_authorization": "User explicitly selected uniform40 limit, preserving original32 frames; other server args unchanged.",
+  "system": "You are a careful video analyst. Answer the question about the video. Think briefly and give your final answer on the last line in the requested Answer: format. When tools are available, you may use them to inspect evidence before answering. For one call, output <tool_call>{\"name\":\"tool_name\",\"arguments\":{...}}</tool_call> on a single line, without an Answer: line in that turn. Use at most one call per turn and four calls per question. Tool results are observations from an imperfect tracker, not answers. Compare them with the video. Do not invent tool results. After receiving a result, continue or give a brief explanation and the final answer.",
+  "tool_descriptions": "Available tools (all use offline frozen 5fps tracks):\ntrack(object, t_start=null, t_end=null): representative trajectory summary; optional inclusive time range in seconds.\nevents(object): first appearance, disappearance, reappearance and last observation times and positions.\nlook(object, time): nearest 5fps subject crop expanded by 30% on each side and a full-frame thumbnail; if not detected, only the full frame.\nUse the object phrase from the question, options, statements or event descriptions. Matching is exact after Unicode, case and whitespace normalization; no synonym or fuzzy matching.\n",
+  "no_tools_text": "Available tools: none. Answer directly using the supplied frames and timestamps.\n",
+  "tool_policy": {
+    "max_calls": 4,
+    "max_turns": 5,
+    "total_generation_tokens": 2048,
+    "temperature": 0,
+    "seed": 42,
+    "call_parsing": "Custom one tagged JSON object per turn; malformed attempts consume call budget. Never use vLLM tool parser.",
+    "execution": "Tool response is the next user message; after4 attempts request direct final answer; exhausted generation or bad parse wrong.",
+    "matching": "NFKC, casefold, collapse whitespace then exact; no fuzzy/plural/synonym mapping",
+    "images": "Initial32 JPEG bytes/order unchanged; look returns1or2 additional images, all retained,<=40; crop pad30%eachside, JPEG85; full thumbnail360, crop720",
+    "nearest_frame": "Nearest5fps index with exact half-frame ties going to earlier index; clamp to available video frames",
+    "shuffle": "Use the exact Stage4D donor or saved per-track tile permutation; project to frozen representative/timeline. Look crops current video with shuffled normalized boxes."
+  },
+  "guided_count": {
+    "tool_turn_regex": "(?:(?:(?:[^A\\n][^\\n]*|A|A[^n\\n][^\\n]*|An|An[^s\\n][^\\n]*|Ans|Ans[^w\\n][^\\n]*|Answ|Answ[^e\\n][^\\n]*|Answe|Answe[^r\\n][^\\n]*|Answer|Answer[^:\\n][^\\n]*)?\\n)*Answer: (2|3|4|5 or more)|(?:(?:[^A\\n][^\\n]*|A|A[^n\\n][^\\n]*|An|An[^s\\n][^\\n]*|Ans|Ans[^w\\n][^\\n]*|Answ|Answ[^e\\n][^\\n]*|Answe|Answe[^r\\n][^\\n]*|Answer|Answer[^:\\n][^\\n]*)?\\n)*<tool_call>\\{[^\\n]*\\}</tool_call>)",
+    "final_only_regex": "(?:(?:[^A\\n][^\\n]*|A|A[^n\\n][^\\n]*|An|An[^s\\n][^\\n]*|Ans|Ans[^w\\n][^\\n]*|Answ|Answ[^e\\n][^\\n]*|Answe|Answe[^r\\n][^\\n]*|Answer|Answer[^:\\n][^\\n]*)?\\n)*Answer: (2|3|4|5 or more)",
+    "bad_words": [
+      "<|endoftext|>"
+    ],
+    "meaning": "Allow free reasoning and optional custom tool call, constrain only finalAnswer to2/3/4/5 or more. After call budget only final grammar.",
+    "cpu_xgrammar_regression": "Compiled both grammars; bare and reasoning answers accepted; illegal2.0 rejected; toolcall accepted only by tool grammar."
+  },
+  "server": {
+    "max_model_len": 65536,
+    "max_num_seqs": 8,
+    "max_num_batched_tokens": 32768,
+    "gpu_memory_utilization": 0.65,
+    "dtype": "bfloat16",
+    "seed": 42,
+    "tensor_parallel_size": 1,
+    "enforce_eager": true,
+    "image_limit": 40,
+    "width": 720,
+    "height": 720,
+    "video_limit": 0,
+    "generation_config": "auto; base checkpoint repetition_penalty1.05 unchanged",
+    "trained_evaluation": "Same server flags; add only LoRA loading flags required for rank8 adapter. Stage5B-events exact prompts,1024token max."
+  },
+  "training_api": "LlamaFactory0.9.3 run_exp, bypass unused CLI chat/vLLM imports; separate trainingvenv; finalsecond-epoch adapter",
+  "prompts": [
+    {
+      "path": "/data2/user/toc_phase0/results/stage6/prompts/T-none.jsonl",
+      "sha256": "26b6464798a570a5ac047f0c797a08699f836f6d115f96a88c75be18cf354ebb"
+    },
+    {
+      "path": "/data2/user/toc_phase0/results/stage6/prompts/T0.jsonl",
+      "sha256": "6e371a2b245ff2746959cbf6ec2d10cfa600e34453feea3cbb79777772cd389f"
+    },
+    {
+      "path": "/data2/user/toc_phase0/results/stage6/prompts/T1.jsonl",
+      "sha256": "4a2017b9bd597496889e28d620a39e35a2bd185ec726570cb70b3c0cefb303d1"
+    }
+  ],
+  "source_sha256": {
+    "stage6_common.py": "d3b191597719b3d71ecd8057e8e3231e99da89ca4e1e129586a8f470e1ec74b9",
+    "stage6_tools.py": "5ebed0b6ae2b9e3dd7e1e6334b413ad6c4fe8a465d8a4e548adf407660d47c4f",
+    "stage6_synthetic.py": "36c73e0732b81ea922e9d50c09b9871304a20fcd64ac7ca0a369423a373600c4"
+  },
+  "context_statistics": {
+    "T-none": {
+      "initial": {
+        "median": 7608.0,
+        "p95": 12205.95,
+        "maximum": 22186
+      },
+      "conservative_full": {
+        "median": 17592.0,
+        "p95": 22189.95,
+        "maximum": 32170
+      }
+    },
+    "T0": {
+      "initial": {
+        "median": 7712.0,
+        "p95": 12309.95,
+        "maximum": 22290
+      },
+      "conservative_full": {
+        "median": 17696.0,
+        "p95": 22293.95,
+        "maximum": 32274
+      }
+    },
+    "T1": {
+      "initial": {
+        "median": 10686.0,
+        "p95": 15283.95,
+        "maximum": 25264
+      },
+      "conservative_full": {
+        "median": 20670.0,
+        "p95": 25267.95,
+        "maximum": 35248
+      }
+    }
+  },
+  "no_tracking_rerun": true,
+  "bench_labels_in_tools_or_training": false
+}

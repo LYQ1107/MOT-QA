@@ -1,0 +1,87 @@
+{
+  "status": "PASSED",
+  "verified_questions": 20,
+  "method": "recompute from original released GT text; no use of unified NPZ for answer validation",
+  "checks": [
+    {
+      "qa_id": "motqa_precheck_01",
+      "original_GT_answer_verified": true
+    },
+    {
+      "qa_id": "motqa_precheck_02",
+      "original_GT_answer_verified": true
+    },
+    {
+      "qa_id": "motqa_precheck_03",
+      "original_GT_answer_verified": true
+    },
+    {
+      "qa_id": "motqa_precheck_04",
+      "original_GT_answer_verified": true
+    },
+    {
+      "qa_id": "motqa_precheck_05",
+      "original_GT_answer_verified": true
+    },
+    {
+      "qa_id": "motqa_precheck_06",
+      "original_GT_answer_verified": true
+    },
+    {
+      "qa_id": "motqa_precheck_07",
+      "original_GT_answer_verified": true
+    },
+    {
+      "qa_id": "motqa_precheck_08",
+      "original_GT_answer_verified": true
+    },
+    {
+      "qa_id": "motqa_precheck_09",
+      "original_GT_answer_verified": true
+    },
+    {
+      "qa_id": "motqa_precheck_10",
+      "original_GT_answer_verified": true
+    },
+    {
+      "qa_id": "motqa_precheck_11",
+      "original_GT_answer_verified": true
+    },
+    {
+      "qa_id": "motqa_precheck_12",
+      "original_GT_answer_verified": true
+    },
+    {
+      "qa_id": "motqa_precheck_13",
+      "original_GT_answer_verified": true
+    },
+    {
+      "qa_id": "motqa_precheck_14",
+      "original_GT_answer_verified": true
+    },
+    {
+      "qa_id": "motqa_precheck_15",
+      "original_GT_answer_verified": true
+    },
+    {
+      "qa_id": "motqa_precheck_16",
+      "original_GT_answer_verified": true
+    },
+    {
+      "qa_id": "motqa_precheck_17",
+      "original_GT_answer_verified": true
+    },
+    {
+      "qa_id": "motqa_precheck_18",
+      "original_GT_answer_verified": true
+    },
+    {
+      "qa_id": "motqa_precheck_19",
+      "original_GT_answer_verified": true
+    },
+    {
+      "qa_id": "motqa_precheck_20",
+      "original_GT_answer_verified": true
+    }
+  ]
+}

@@ -1,0 +1,277 @@
+{
+  "schema_version": "motqa_complete_question_review_v1",
+  "packet_id": "motqa_fullquestion20_e092f59020a4a6cd",
+  "questions_sha256": "e092f59020a4a6cd3b5765b33a9bcbc278c0edf3a1a64296979513350e1d2a2d",
+  "exported_at": "2026-11-05T14:29:55.711Z",
+  "counts": {
+    "total": 20,
+    "pass": 17,
+    "fail": 0,
+    "uncertain": 3,
+    "pending": 0
+  },
+  "reviews": [
+    {
+      "qa_id": "motqa_precheck_01",
+      "index": 1,
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0019",
+      "reference_type": "box",
+      "operations": [
+        "O2"
+      ],
+      "question_zh": "在 71.400 秒时，人物 A 和 B 中谁更靠画面左侧？",
+      "verdict": "pass",
+      "note": ""
+    },
+    {
+      "qa_id": "motqa_precheck_02",
+      "index": 2,
+      "dataset": "SportsMOT",
+      "sequence": "v_9MHDmAMxO5I_c009",
+      "reference_type": "box",
+      "operations": [
+        "O2"
+      ],
+      "question_zh": "在 14.760 秒时，人物 A 和 B 中谁更靠画面左侧？",
+      "verdict": "pass",
+      "note": ""
+    },
+    {
+      "qa_id": "motqa_precheck_03",
+      "index": 3,
+      "dataset": "MOT17",
+      "sequence": "MOT17-02-FRCNN",
+      "reference_type": "box",
+      "operations": [
+        "O2"
+      ],
+      "question_zh": "在 18.033 秒时，人物 A 和 B 中谁更靠画面左侧？",
+      "verdict": "pass",
+      "note": ""
+    },
+    {
+      "qa_id": "motqa_precheck_04",
+      "index": 4,
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0019",
+      "reference_type": "box",
+      "operations": [
+        "O5"
+      ],
+      "question_zh": "在 61.400–73.400 秒内，A、B、C、D 中谁在画面内累计移动的距离最大？",
+      "verdict": "uncertain",
+      "note": ""
+    },
+    {
+      "qa_id": "motqa_precheck_05",
+      "index": 5,
+      "dataset": "MOT17",
+      "sequence": "MOT17-11-FRCNN",
+      "reference_type": "box",
+      "operations": [
+        "O5"
+      ],
+      "question_zh": "在 19.333–25.333 秒内，A、B、C、D 中谁在画面内累计移动的距离最大？",
+      "verdict": "uncertain",
+      "note": ""
+    },
+    {
+      "qa_id": "motqa_precheck_06",
+      "index": 6,
+      "dataset": "SportsMOT",
+      "sequence": "v_0kUtTtmLaJA_c005",
+      "reference_type": "box",
+      "operations": [
+        "O6"
+      ],
+      "question_zh": "在 9.640–10.640 秒内，人物 A 和 B 在画面中距离最近的时刻落在哪个时间段？",
+      "verdict": "pass",
+      "note": ""
+    },
+    {
+      "qa_id": "motqa_precheck_07",
+      "index": 7,
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0019",
+      "reference_type": "box",
+      "operations": [
+        "O4"
+      ],
+      "question_zh": "在 61.400–74.400 秒内，有多少个不同的人与人物 A 发生过交错？同一个人只计一次。",
+      "verdict": "pass",
+      "note": ""
+    },
+    {
+      "qa_id": "motqa_precheck_08",
+      "index": 8,
+      "dataset": "MOT17",
+      "sequence": "MOT17-02-FRCNN",
+      "reference_type": "box",
+      "operations": [
+        "O5",
+        "O2"
+      ],
+      "question_zh": "在 15.033–18.033 秒内，A、B 中谁在画面内累计移动更远？在区间终点，这个人位于另一人的左侧还是右侧？",
+      "verdict": "pass",
+      "note": ""
+    },
+    {
+      "qa_id": "motqa_precheck_09",
+      "index": 9,
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0007",
+      "reference_type": "event",
+      "operations": [
+        "O3"
+      ],
+      "question_zh": "人物 A 在 39.800 秒附近从视野中消失。到 50.200 秒为止，同一个人是否再次清晰可见？",
+      "verdict": "pass",
+      "note": ""
+    },
+    {
+      "qa_id": "motqa_precheck_10",
+      "index": 10,
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0014",
+      "reference_type": "event",
+      "operations": [
+        "O3"
+      ],
+      "question_zh": "人物 A 在 27.350 秒附近从视野中消失。到 30.000 秒为止，同一个人是否再次清晰可见？",
+      "verdict": "pass",
+      "note": ""
+    },
+    {
+      "qa_id": "motqa_precheck_11",
+      "index": 11,
+      "dataset": "SportsMOT",
+      "sequence": "v_4r8QL_wglzQ_c001",
+      "reference_type": "event",
+      "operations": [
+        "O4"
+      ],
+      "question_zh": "在 8.760–22.760 秒内，有多少个不同的人与人物 A 发生过交错？同一个人只计一次。",
+      "verdict": "pass",
+      "note": ""
+    },
+    {
+      "qa_id": "motqa_precheck_12",
+      "index": 12,
+      "dataset": "SportsMOT",
+      "sequence": "v_ITo3sCnpw_k_c011",
+      "reference_type": "event",
+      "operations": [
+        "O7"
+      ],
+      "question_zh": "在 3.400–17.400 秒内，人物 A 第一次在消失超过 1 秒后重新出现时，位于画面哪个区域？",
+      "verdict": "pass",
+      "note": ""
+    },
+    {
+      "qa_id": "motqa_precheck_13",
+      "index": 13,
+      "dataset": "MOT17",
+      "sequence": "MOT17-02-FRCNN",
+      "reference_type": "event",
+      "operations": [
+        "O6"
+      ],
+      "question_zh": "在 13.067–19.067 秒内，人物 A 和 B 在画面中距离最近的时刻落在哪个时间段？",
+      "verdict": "pass",
+      "note": ""
+    },
+    {
+      "qa_id": "motqa_precheck_14",
+      "index": 14,
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0005",
+      "reference_type": "appearance",
+      "operations": [
+        "O1"
+      ],
+      "question_zh": "在 43.850 秒时，人物 A 位于画面的哪个区域？",
+      "verdict": "pass",
+      "note": ""
+    },
+    {
+      "qa_id": "motqa_precheck_15",
+      "index": 15,
+      "dataset": "SportsMOT",
+      "sequence": "v_9MHDmAMxO5I_c009",
+      "reference_type": "appearance",
+      "operations": [
+        "O1"
+      ],
+      "question_zh": "在 19.280 秒时，人物 A 位于画面的哪个区域？",
+      "verdict": "pass",
+      "note": ""
+    },
+    {
+      "qa_id": "motqa_precheck_16",
+      "index": 16,
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0005",
+      "reference_type": "appearance",
+      "operations": [
+        "O6"
+      ],
+      "question_zh": "在 39.850–52.850 秒内，人物 A 和 B 在画面中距离最近的时刻落在哪个时间段？",
+      "verdict": "pass",
+      "note": ""
+    },
+    {
+      "qa_id": "motqa_precheck_17",
+      "index": 17,
+      "dataset": "SportsMOT",
+      "sequence": "v_G-vNjfx1GGc_c004",
+      "reference_type": "appearance",
+      "operations": [
+        "O5"
+      ],
+      "question_zh": "在 5.960–19.960 秒内，A、B、C、D 中谁在画面内累计移动的距离最大？",
+      "verdict": "uncertain",
+      "note": "因为你的相机是晃动的不能确定人物的移动距离"
+    },
+    {
+      "qa_id": "motqa_precheck_18",
+      "index": 18,
+      "dataset": "DanceTrack",
+      "sequence": "dancetrack0034",
+      "reference_type": "position",
+      "operations": [
+        "O7"
+      ],
+      "question_zh": "在 3.350–16.350 秒内，人物 A 第一次在消失超过 1 秒后重新出现时，位于画面哪个区域？",
+      "verdict": "pass",
+      "note": ""
+    },
+    {
+      "qa_id": "motqa_precheck_19",
+      "index": 19,
+      "dataset": "SportsMOT",
+      "sequence": "v_cC2mHWqMcjk_c007",
+      "reference_type": "position",
+      "operations": [
+        "O4"
+      ],
+      "question_zh": "在 12.120–15.120 秒内，有多少个不同的人与人物 A 发生过交错？同一个人只计一次。",
+      "verdict": "pass",
+      "note": ""
+    },
+    {
+      "qa_id": "motqa_precheck_20",
+      "index": 20,
+      "dataset": "SportsMOT",
+      "sequence": "v_ITo3sCnpw_k_c011",
+      "reference_type": "position",
+      "operations": [
+        "O6",
+        "O4"
+      ],
+      "question_zh": "在 20.600–29.600 秒内，与人物 A 交错过的人中，有多少人在交错之后、该区间结束之前离开画面？每人只计一次。",
+      "verdict": "pass",
+      "note": ""
+    }
+  ]
+}

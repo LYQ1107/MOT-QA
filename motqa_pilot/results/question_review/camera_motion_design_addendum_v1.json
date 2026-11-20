@@ -1,0 +1,18 @@
+{
+  "version": "camera_motion_design_addendum_v1",
+  "status": "APPLIED_TO_PRE_RELEASE_DESIGN_ELIGIBILITY",
+  "recorded_at": "2026-11-05T22:39:22.055552+08:00",
+  "source_config_sha256": "b75ddac560bb71629e37120f97f0c5e23c4b8dddb052e9605d2d750a8fd85166",
+  "source_user_review_sha256": "6e3c7d5452bce487558378555623d80b456b2e93081c776e6d8390e0fd082d6a",
+  "user_feedback_verbatim": "这里面有三个不确定。原因都是因为相机会运动，也就是相机本身的摄像是移动的，没法判断里面的目标的具体移动距离",
+  "finding": "Raw bbox-center path length is an image-coordinate measurement. Camera motion contributes to it; it does not identify a person’s physical distance travelled.",
+  "main_pool_rule": "Exclude cumulative image-path comparison questions, including compositions using that quantity, unless camera_motion is static. Non-static or unknown camera tags are held.",
+  "O5_replacement_priority": "Prefer temporal comparisons such as first-appearance/reappearance order on moving-camera videos, retaining the comparison/sorting operation.",
+  "static_camera_wording": "If retained, explicitly ask about cumulative movement of the box center in image coordinates, never physical/world distance.",
+  "other_operations": "Keep the 17 human-passed questions under their original image-plane/event meanings. Do not discard all moving-camera videos.",
+  "numeric_GT_values_changed": false,
+  "human_verdicts_changed": false,
+  "base_locked_config_changed": false,
+  "no_camera_compensated_or_world_distances_estimated": true,
+  "replacement_questions_generated": 0
+}

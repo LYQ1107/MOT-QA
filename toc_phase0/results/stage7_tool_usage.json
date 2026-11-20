@@ -1,0 +1,455 @@
+{
+  "created_at": "2026-11-04T18:53:27.911086+08:00",
+  "statistics": {
+    "main": {
+      "T1": {
+        "all": {
+          "questions": 602,
+          "questions_with_call": 463,
+          "call_rate": 0.7691029900332226,
+          "attempts": 567,
+          "legal_calls": 567,
+          "legal_call_rate": 1.0,
+          "mean_calls_all": 0.9418604651162791,
+          "mean_calls_called": 1.224622030237581,
+          "matched_calls": 563,
+          "object_unmatched": 4,
+          "object_unmatched_rate": 0.007054673721340388,
+          "tool_counts": {
+            "track": 0,
+            "events": 567,
+            "look": 0
+          },
+          "tool_shares": {
+            "track": 0.0,
+            "events": 1.0,
+            "look": 0.0
+          },
+          "questions_with_look": 0,
+          "look_question_rate": 0.0,
+          "generated_tokens_total": 29054,
+          "mean_generated_tokens": 48.262458471760795,
+          "budget_exhausted": 0,
+          "final_turn_rejected_extra_call": 0,
+          "questions_with_legal_execution": 463,
+          "questions_with_matched_execution": 459,
+          "recovered_calls": 567,
+          "parse_errors": {},
+          "signature_errors": {},
+          "actual_image_returning_calls": 0,
+          "actual_image_returning_questions": 0
+        },
+        "trackable": {
+          "questions": 251,
+          "questions_with_call": 206,
+          "call_rate": 0.8207171314741036,
+          "attempts": 226,
+          "legal_calls": 226,
+          "legal_call_rate": 1.0,
+          "mean_calls_all": 0.900398406374502,
+          "mean_calls_called": 1.0970873786407767,
+          "matched_calls": 225,
+          "object_unmatched": 1,
+          "object_unmatched_rate": 0.004424778761061947,
+          "tool_counts": {
+            "track": 0,
+            "events": 226,
+            "look": 0
+          },
+          "tool_shares": {
+            "track": 0.0,
+            "events": 1.0,
+            "look": 0.0
+          },
+          "questions_with_look": 0,
+          "look_question_rate": 0.0,
+          "generated_tokens_total": 12973,
+          "mean_generated_tokens": 51.68525896414343,
+          "budget_exhausted": 0,
+          "final_turn_rejected_extra_call": 0,
+          "questions_with_legal_execution": 206,
+          "questions_with_matched_execution": 205,
+          "recovered_calls": 226,
+          "parse_errors": {},
+          "signature_errors": {},
+          "actual_image_returning_calls": 0,
+          "actual_image_returning_questions": 0
+        }
+      },
+      "T-ph": {
+        "all": {
+          "questions": 602,
+          "questions_with_call": 463,
+          "call_rate": 0.7691029900332226,
+          "attempts": 475,
+          "legal_calls": 475,
+          "legal_call_rate": 1.0,
+          "mean_calls_all": 0.7890365448504983,
+          "mean_calls_called": 1.0259179265658747,
+          "matched_calls": 471,
+          "object_unmatched": 4,
+          "object_unmatched_rate": 0.008421052631578947,
+          "tool_counts": {
+            "track": 0,
+            "events": 475,
+            "look": 0
+          },
+          "tool_shares": {
+            "track": 0.0,
+            "events": 1.0,
+            "look": 0.0
+          },
+          "questions_with_look": 0,
+          "look_question_rate": 0.0,
+          "generated_tokens_total": 21587,
+          "mean_generated_tokens": 35.85880398671096,
+          "budget_exhausted": 0,
+          "final_turn_rejected_extra_call": 0,
+          "questions_with_legal_execution": 463,
+          "questions_with_matched_execution": 459,
+          "recovered_calls": 475,
+          "parse_errors": {},
+          "signature_errors": {},
+          "actual_image_returning_calls": 0,
+          "actual_image_returning_questions": 0
+        },
+        "trackable": {
+          "questions": 251,
+          "questions_with_call": 206,
+          "call_rate": 0.8207171314741036,
+          "attempts": 210,
+          "legal_calls": 210,
+          "legal_call_rate": 1.0,
+          "mean_calls_all": 0.8366533864541833,
+          "mean_calls_called": 1.0194174757281553,
+          "matched_calls": 209,
+          "object_unmatched": 1,
+          "object_unmatched_rate": 0.004761904761904762,
+          "tool_counts": {
+            "track": 0,
+            "events": 210,
+            "look": 0
+          },
+          "tool_shares": {
+            "track": 0.0,
+            "events": 1.0,
+            "look": 0.0
+          },
+          "questions_with_look": 0,
+          "look_question_rate": 0.0,
+          "generated_tokens_total": 11134,
+          "mean_generated_tokens": 44.35856573705179,
+          "budget_exhausted": 0,
+          "final_turn_rejected_extra_call": 0,
+          "questions_with_legal_execution": 206,
+          "questions_with_matched_execution": 205,
+          "recovered_calls": 210,
+          "parse_errors": {},
+          "signature_errors": {},
+          "actual_image_returning_calls": 0,
+          "actual_image_returning_questions": 0
+        }
+      },
+      "T-sh": {
+        "all": {
+          "questions": 602,
+          "questions_with_call": 463,
+          "call_rate": 0.7691029900332226,
+          "attempts": 568,
+          "legal_calls": 568,
+          "legal_call_rate": 1.0,
+          "mean_calls_all": 0.9435215946843853,
+          "mean_calls_called": 1.2267818574514038,
+          "matched_calls": 564,
+          "object_unmatched": 4,
+          "object_unmatched_rate": 0.007042253521126761,
+          "tool_counts": {
+            "track": 0,
+            "events": 568,
+            "look": 0
+          },
+          "tool_shares": {
+            "track": 0.0,
+            "events": 1.0,
+            "look": 0.0
+          },
+          "questions_with_look": 0,
+          "look_question_rate": 0.0,
+          "generated_tokens_total": 28815,
+          "mean_generated_tokens": 47.86544850498339,
+          "budget_exhausted": 0,
+          "final_turn_rejected_extra_call": 0,
+          "questions_with_legal_execution": 463,
+          "questions_with_matched_execution": 459,
+          "recovered_calls": 568,
+          "parse_errors": {},
+          "signature_errors": {},
+          "actual_image_returning_calls": 0,
+          "actual_image_returning_questions": 0
+        },
+        "trackable": {
+          "questions": 251,
+          "questions_with_call": 206,
+          "call_rate": 0.8207171314741036,
+          "attempts": 224,
+          "legal_calls": 224,
+          "legal_call_rate": 1.0,
+          "mean_calls_all": 0.8924302788844621,
+          "mean_calls_called": 1.087378640776699,
+          "matched_calls": 223,
+          "object_unmatched": 1,
+          "object_unmatched_rate": 0.004464285714285714,
+          "tool_counts": {
+            "track": 0,
+            "events": 224,
+            "look": 0
+          },
+          "tool_shares": {
+            "track": 0.0,
+            "events": 1.0,
+            "look": 0.0
+          },
+          "questions_with_look": 0,
+          "look_question_rate": 0.0,
+          "generated_tokens_total": 12804,
+          "mean_generated_tokens": 51.01195219123506,
+          "budget_exhausted": 0,
+          "final_turn_rejected_extra_call": 0,
+          "questions_with_legal_execution": 206,
+          "questions_with_matched_execution": 205,
+          "recovered_calls": 224,
+          "parse_errors": {},
+          "signature_errors": {},
+          "actual_image_returning_calls": 0,
+          "actual_image_returning_questions": 0
+        }
+      }
+    },
+    "guided": {
+      "T1": {
+        "all": {
+          "questions": 242,
+          "questions_with_call": 207,
+          "call_rate": 0.8553719008264463,
+          "attempts": 207,
+          "legal_calls": 207,
+          "legal_call_rate": 1.0,
+          "mean_calls_all": 0.8553719008264463,
+          "mean_calls_called": 1.0,
+          "matched_calls": 204,
+          "object_unmatched": 3,
+          "object_unmatched_rate": 0.014492753623188406,
+          "tool_counts": {
+            "track": 0,
+            "events": 207,
+            "look": 0
+          },
+          "tool_shares": {
+            "track": 0.0,
+            "events": 1.0,
+            "look": 0.0
+          },
+          "questions_with_look": 0,
+          "look_question_rate": 0.0,
+          "generated_tokens_total": 11720,
+          "mean_generated_tokens": 48.429752066115704,
+          "budget_exhausted": 0,
+          "final_turn_rejected_extra_call": 0,
+          "questions_with_legal_execution": 207,
+          "questions_with_matched_execution": 204,
+          "recovered_calls": 207,
+          "parse_errors": {},
+          "signature_errors": {},
+          "actual_image_returning_calls": 0,
+          "actual_image_returning_questions": 0
+        },
+        "trackable": {
+          "questions": 81,
+          "questions_with_call": 71,
+          "call_rate": 0.8765432098765432,
+          "attempts": 71,
+          "legal_calls": 71,
+          "legal_call_rate": 1.0,
+          "mean_calls_all": 0.8765432098765432,
+          "mean_calls_called": 1.0,
+          "matched_calls": 70,
+          "object_unmatched": 1,
+          "object_unmatched_rate": 0.014084507042253521,
+          "tool_counts": {
+            "track": 0,
+            "events": 71,
+            "look": 0
+          },
+          "tool_shares": {
+            "track": 0.0,
+            "events": 1.0,
+            "look": 0.0
+          },
+          "questions_with_look": 0,
+          "look_question_rate": 0.0,
+          "generated_tokens_total": 4553,
+          "mean_generated_tokens": 56.20987654320987,
+          "budget_exhausted": 0,
+          "final_turn_rejected_extra_call": 0,
+          "questions_with_legal_execution": 71,
+          "questions_with_matched_execution": 70,
+          "recovered_calls": 71,
+          "parse_errors": {},
+          "signature_errors": {},
+          "actual_image_returning_calls": 0,
+          "actual_image_returning_questions": 0
+        }
+      },
+      "T-ph": {
+        "all": {
+          "questions": 242,
+          "questions_with_call": 207,
+          "call_rate": 0.8553719008264463,
+          "attempts": 207,
+          "legal_calls": 207,
+          "legal_call_rate": 1.0,
+          "mean_calls_all": 0.8553719008264463,
+          "mean_calls_called": 1.0,
+          "matched_calls": 204,
+          "object_unmatched": 3,
+          "object_unmatched_rate": 0.014492753623188406,
+          "tool_counts": {
+            "track": 0,
+            "events": 207,
+            "look": 0
+          },
+          "tool_shares": {
+            "track": 0.0,
+            "events": 1.0,
+            "look": 0.0
+          },
+          "questions_with_look": 0,
+          "look_question_rate": 0.0,
+          "generated_tokens_total": 8237,
+          "mean_generated_tokens": 34.03719008264463,
+          "budget_exhausted": 0,
+          "final_turn_rejected_extra_call": 0,
+          "questions_with_legal_execution": 207,
+          "questions_with_matched_execution": 204,
+          "recovered_calls": 207,
+          "parse_errors": {},
+          "signature_errors": {},
+          "actual_image_returning_calls": 0,
+          "actual_image_returning_questions": 0
+        },
+        "trackable": {
+          "questions": 81,
+          "questions_with_call": 71,
+          "call_rate": 0.8765432098765432,
+          "attempts": 71,
+          "legal_calls": 71,
+          "legal_call_rate": 1.0,
+          "mean_calls_all": 0.8765432098765432,
+          "mean_calls_called": 1.0,
+          "matched_calls": 70,
+          "object_unmatched": 1,
+          "object_unmatched_rate": 0.014084507042253521,
+          "tool_counts": {
+            "track": 0,
+            "events": 71,
+            "look": 0
+          },
+          "tool_shares": {
+            "track": 0.0,
+            "events": 1.0,
+            "look": 0.0
+          },
+          "questions_with_look": 0,
+          "look_question_rate": 0.0,
+          "generated_tokens_total": 4126,
+          "mean_generated_tokens": 50.93827160493827,
+          "budget_exhausted": 0,
+          "final_turn_rejected_extra_call": 0,
+          "questions_with_legal_execution": 71,
+          "questions_with_matched_execution": 70,
+          "recovered_calls": 71,
+          "parse_errors": {},
+          "signature_errors": {},
+          "actual_image_returning_calls": 0,
+          "actual_image_returning_questions": 0
+        }
+      },
+      "T-sh": {
+        "all": {
+          "questions": 242,
+          "questions_with_call": 207,
+          "call_rate": 0.8553719008264463,
+          "attempts": 207,
+          "legal_calls": 207,
+          "legal_call_rate": 1.0,
+          "mean_calls_all": 0.8553719008264463,
+          "mean_calls_called": 1.0,
+          "matched_calls": 203,
+          "object_unmatched": 4,
+          "object_unmatched_rate": 0.01932367149758454,
+          "tool_counts": {
+            "track": 0,
+            "events": 207,
+            "look": 0
+          },
+          "tool_shares": {
+            "track": 0.0,
+            "events": 1.0,
+            "look": 0.0
+          },
+          "questions_with_look": 0,
+          "look_question_rate": 0.0,
+          "generated_tokens_total": 11467,
+          "mean_generated_tokens": 47.38429752066116,
+          "budget_exhausted": 0,
+          "final_turn_rejected_extra_call": 0,
+          "questions_with_legal_execution": 207,
+          "questions_with_matched_execution": 203,
+          "recovered_calls": 207,
+          "parse_errors": {},
+          "signature_errors": {},
+          "actual_image_returning_calls": 0,
+          "actual_image_returning_questions": 0
+        },
+        "trackable": {
+          "questions": 81,
+          "questions_with_call": 71,
+          "call_rate": 0.8765432098765432,
+          "attempts": 71,
+          "legal_calls": 71,
+          "legal_call_rate": 1.0,
+          "mean_calls_all": 0.8765432098765432,
+          "mean_calls_called": 1.0,
+          "matched_calls": 70,
+          "object_unmatched": 1,
+          "object_unmatched_rate": 0.014084507042253521,
+          "tool_counts": {
+            "track": 0,
+            "events": 71,
+            "look": 0
+          },
+          "tool_shares": {
+            "track": 0.0,
+            "events": 1.0,
+            "look": 0.0
+          },
+          "questions_with_look": 0,
+          "look_question_rate": 0.0,
+          "generated_tokens_total": 4576,
+          "mean_generated_tokens": 56.49382716049383,
+          "budget_exhausted": 0,
+          "final_turn_rejected_extra_call": 0,
+          "questions_with_legal_execution": 71,
+          "questions_with_matched_execution": 70,
+          "recovered_calls": 71,
+          "parse_errors": {},
+          "signature_errors": {},
+          "actual_image_returning_calls": 0,
+          "actual_image_returning_questions": 0
+        }
+      }
+    }
+  },
+  "legal_execution": "Valid tool name/signature executed, including no-track responses; matched-fact counts and unmatched ratios separate.",
+  "look": "Tool shares among legally executed calls; look question rate among all questions; image-returning look also counted."
+}

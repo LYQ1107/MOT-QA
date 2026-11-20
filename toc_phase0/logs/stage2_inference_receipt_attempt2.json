@@ -1,0 +1,13 @@
+{
+  "status": "ALL_2323_UNIQUE_PREDICTIONS_COMPLETE",
+  "attempt": 2,
+  "ended_at": "2026-10-31T18:03:29.263510+00:00",
+  "unique_predictions": 2323,
+  "parse_failures": 291,
+  "resumed_predictions": 0,
+  "new_predictions": 2323,
+  "invocation_total_s": 1148.168,
+  "inference_s": 1099.604,
+  "raw_outputs_preserved": true,
+  "prediction_path": "/data2/user/toc_phase0/results/stage2_predictions.jsonl"
+}

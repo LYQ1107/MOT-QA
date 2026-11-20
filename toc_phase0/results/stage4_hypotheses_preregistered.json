@@ -1,0 +1,60 @@
+{
+  "created_at": "2026-11-02T10:05:48.436166+08:00",
+  "seed": 42,
+  "inference_started": false,
+  "frozen_config_sha256": "7f0dbd16926026fa087ac4bb84fb1f3dce142ee903e5cf16c9e8eb1b7a62d93d",
+  "split_sha256": "e1d87675aca7e69d57a5ac99dc7ecdedaf8ca8c4efb1588bb86f42066fce80b3",
+  "trackable_subset_sha256": "4a4d1fdbb57158696986a99130d0a4e2ba27a51c73776c813347829d4b9a2593",
+  "primary_scope": "test trackable subset (251 questions; main four dimensions 231; secondary ReID 20)",
+  "alpha": 0.05,
+  "tests": {
+    "mcnemar": "Exact two-sided conditional binomial test of discordant paired correctness; discordant count zero gives p=1. No continuity correction.",
+    "bootstrap": "Paired question-level percentile 95% CI for accuracy(other)-accuracy(reference), 1000 resamples, numpy default_rng(42), sorted qa_id within each fixed subset. Question, not video, is the requested resampling unit.",
+    "comparisons": "A vs B, A vs C, A vs D: primary test trackable aggregate and each dimension; also main-four aggregate. H4 also B vs frozen rule; H5 uses guided predictions and one-sided exact binomial vs 0.25.",
+    "multiplicity": "Report unadjusted exact p values; additionally Holm-adjust the three aggregate A/B,C,D p values. Hypotheses are individually assessed at alpha .05; no claim of familywise significance for all per-dimension exploratory comparisons.",
+    "positive_effect": "Positive accuracy difference, exact two-sided paired p<.05 and paired bootstrap lower bound>0.",
+    "null_caution": "Failure to reject is not proof of equivalence or non-superiority; report uncertainty explicitly."
+  },
+  "hypotheses": [
+    {
+      "id": "H1",
+      "scope": "test trackable reappear_or_disappear (101)",
+      "statement": "B significantly exceeds A.",
+      "criterion": "positive_effect criterion on B-A; strict official decoding"
+    },
+    {
+      "id": "H2",
+      "scope": "test trackable aggregate (251)",
+      "statement": "C and A show no clear difference, addressing mention-of-tracker effects.",
+      "criterion": "p>=.05 and CI includes 0 is compatible with H2 but is not equivalence proof; p<.05 contradicts H2; otherwise inconclusive."
+    },
+    {
+      "id": "H3",
+      "scope": "test trackable aggregate (251)",
+      "statement": "D does not exceed A, addressing trajectory-format placebo.",
+      "criterion": "Upper CI<=0 supports non-superiority; positive_effect contradicts H3; otherwise inconclusive (no inference from nonsignificance)."
+    },
+    {
+      "id": "H4",
+      "scope": "test trackable cross_object_order (30)",
+      "statement": "B exceeds both A and the frozen rule.",
+      "criterion": "positive_effect for both B-A and B-rule; conjunctive assessment."
+    },
+    {
+      "id": "H5",
+      "scope": "test trackable event_count (81), guided-choice decoding",
+      "statement": "B exceeds A and random 25%; strict-only improvement is not evidence.",
+      "criterion": "positive_effect on guided B-A, plus guided B accuracy>25% with one-sided exact binomial p<.05 and bootstrap accuracy lower bound>25%."
+    }
+  ],
+  "secondary_scopes": "All 602 test questions; full 749 and full trackable 324 supplemental, development contributed to tuning.",
+  "numerical_choices": [
+    "2",
+    "3",
+    "4",
+    "5 or more"
+  ],
+  "numerical_main": "Unconstrained official strict accuracy, plus exact stripped raw legality; constrained runs remain diagnostic.",
+  "evidence_examples": "Per dimension, first five sorted test qa_id in each direction B-correct/A-wrong and B-wrong/A-correct; if fewer, include all available and state shortage. Include whole B track text and both raw model outputs; full-set additional cases separately if needed.",
+  "supplemental_template": "Do not run until main results have been completed and reported."
+}

@@ -1,0 +1,122 @@
+{
+  "locked_at": "2026-11-04T12:11:08.493528+08:00",
+  "role": "Technical correction of auxiliary count diagnosis only; all main predictions andH9-H11 unchanged",
+  "reason": "The ordinary parser can end a malformed/unclosed call and return an error. Original auxiliary grammar disallowed EOS there and imposed single-line closed-tag syntax, generating hallucinated addCriterion and blank-line tails.",
+  "corrected_tool_or_final_regex": "(?:(?:(?:[^A\\n][^\\n]*|A|A[^n\\n][^\\n]*|An|An[^s\\n][^\\n]*|Ans|Ans[^w\\n][^\\n]*|Answ|Answ[^e\\n][^\\n]*|Answe|Answe[^r\\n][^\\n]*|Answer|Answer[^:\\n][^\\n]*)?\\n)*Answer: (2|3|4|5 or more)|(?:(?:[^A\\n][^\\n]*|A|A[^n\\n][^\\n]*|An|An[^s\\n][^\\n]*|Ans|Ans[^w\\n][^\\n]*|Answ|Answ[^e\\n][^\\n]*|Answe|Answe[^r\\n][^\\n]*|Answer|Answer[^:\\n][^\\n]*)?\\n)*[ \\t]*<tool_call[\\s\\S]*)",
+  "final_answer_regex_unchanged": "(?:(?:[^A\\n][^\\n]*|A|A[^n\\n][^\\n]*|An|An[^s\\n][^\\n]*|Ans|Ans[^w\\n][^\\n]*|Answ|Answ[^e\\n][^\\n]*|Answe|Answe[^r\\n][^\\n]*|Answer|Answer[^:\\n][^\\n]*)?\\n)*Answer: (2|3|4|5 or more)",
+  "semantics": "Line-start Answer: commits to a final legal number. Line-start tool-attempt marker commits to a tool turn whose body/EOS are unconstrained; ordinary custom parser alone accepts or rejects it. No invented closing tags.",
+  "legal_choices": [
+    "2",
+    "3",
+    "4",
+    "5 or more"
+  ],
+  "bad_words": [
+    "<|endoftext|>"
+  ],
+  "total_generation_tokens": 2048,
+  "max_calls": 4,
+  "primary_and_training_reused": {
+    "T-none": {
+      "path": "/data2/user/toc_phase0/results/stage6/main_T-none_predictions.jsonl",
+      "sha256": "b549356c9b49e53325f9997457de8c3a3255398c3a44adfcfbc6a251b3836cd3",
+      "questions": 602,
+      "attempted": 0,
+      "legal": 0
+    },
+    "T0": {
+      "path": "/data2/user/toc_phase0/results/stage6/main_T0_predictions.jsonl",
+      "sha256": "e04474a819033acc0b61189869327fcbfa54c217a687c74b28c152d73e94a3ad",
+      "questions": 602,
+      "attempted": 0,
+      "legal": 0
+    },
+    "T1": {
+      "path": "/data2/user/toc_phase0/results/stage6/main_T1_predictions.jsonl",
+      "sha256": "32bc72b74b0af05fc1e2b7a040e3238e27e0486a64802dcffa8a81dbf9709166",
+      "questions": 602,
+      "attempted": 1801,
+      "legal": 0
+    },
+    "LoRA-B-events": {
+      "path": "/data2/user/toc_phase0/results/stage6/main_LoRA-B-events_predictions.jsonl",
+      "sha256": "fa9b23afcbe8f8a305d880458a216180a4f05d284767ffe633c65bd54a974742",
+      "questions": 251
+    }
+  },
+  "archived_diagnostics": [
+    {
+      "condition": "T-none",
+      "completed": 242,
+      "expected": 242,
+      "partial": false,
+      "truncated": 19,
+      "output": "/data2/user/toc_phase0/results/stage6_guided_initial_implementation/guided_T-none_predictions.jsonl",
+      "sha256": "7584077be05036d89fa35451dcb24302342799542c34fc8f10f527e8a40afe69"
+    },
+    {
+      "condition": "T0",
+      "completed": 242,
+      "expected": 242,
+      "partial": false,
+      "truncated": 0,
+      "output": "/data2/user/toc_phase0/results/stage6_guided_initial_implementation/guided_T0_predictions.jsonl",
+      "sha256": "e39c829451c60839e5b2a711a7b48b29a3bd8d16f2859bbe2603d8d539a5d678"
+    },
+    {
+      "condition": "T1",
+      "completed": 30,
+      "expected": 242,
+      "partial": true,
+      "truncated": 23,
+      "output": "/data2/user/toc_phase0/results/stage6_guided_initial_implementation/guided_T1_predictions.jsonl",
+      "sha256": "53d8de5538045c1c79c3a3b337f7a2963536b597556e8288d7b348c7f61bcd9f"
+    }
+  ],
+  "original_diagnostic_records": 514,
+  "cpu_checks": [
+    {
+      "text": "Answer: 2",
+      "accepts_primary_eos": true
+    },
+    {
+      "text": "A reason.\nAnswer: 5 or more",
+      "accepts_primary_eos": true
+    },
+    {
+      "text": "Answer: 0",
+      "accepts_primary_eos": false
+    },
+    {
+      "text": "Answer: 2.0",
+      "accepts_primary_eos": false
+    },
+    {
+      "text": "<tool_call>{\"name\":\"events\",\"arguments\":{\"object\":\"cup\"}}",
+      "accepts_primary_eos": true
+    },
+    {
+      "text": "<tool_call>\n{\"name\":\"events\",\"arguments\":{\"object\":\"cup\"}}\n</tool_call>",
+      "accepts_primary_eos": true
+    },
+    {
+      "text": "A reason.\n <tool_call>{\"name\":\"look\",\"arguments\":{\"object\":\"cup\",\"time\":2}}",
+      "accepts_primary_eos": true
+    }
+  ],
+  "rerun": "All three numerical conditions uniformly242each; later conditional controls use this same corrected grammar",
+  "unchanged": [
+    "all raw primary predictions",
+    "H9-H11",
+    "frozenv1",
+    "split",
+    "trackable list",
+    "five demonstrations",
+    "frames/timestamps",
+    "server flags",
+    "final-answer parser",
+    "seed42",
+    "temperature0"
+  ],
+  "implementation_sha256": "c02e91834e1534d467b6540a4d44e5244081d7464c17dee4734bd72da7792d0b"
+}

@@ -1,0 +1,69 @@
+{
+  "unit_key": "dancetrack0058__id005",
+  "sequence": "dancetrack0058",
+  "gt_id": 5,
+  "phase": "blind_match",
+  "started_at": "2026-11-04T14:07:52.750186+00:00",
+  "completed_at": "2026-11-04T14:07:59.636784+00:00",
+  "seconds": 6.886629063170403,
+  "prompt_text": "Match this appearance phrase against ALL anonymous person tiles in the image(s): \"the person wearing a black bomber jacket over a white t-shirt with black pants and white sneakers\"\nEvery labeled tile is one different person from the same video; its two crops are held-out views. Labels and tile order do not reveal the intended target. A phrase may match none, one, or several people. Include ALL people who visibly satisfy the whole phrase in matches. Include in uncertain any plausible person for whom the views do not resolve an attribute, instead of assuming that person is a non-match. Do not pick a best match when several fit. A location or action does not distinguish appearance. Omitted labels mean clear non-matches.\nReturn {\"matches\":[\"P01\"],\"uncertain\":[],\"reason\":\"brief visual explanation\"}. Valid labels: [\"P01\", \"P02\", \"P03\", \"P04\", \"P05\", \"P06\", \"P07\"].",
+  "image_paths": [
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0058/heldout_gallery_page00.jpg"
+  ],
+  "image_sha256": [
+    "ed666a1921b72943dc564d629bad9b905189cb0a0428cb82278e687950d33ee1"
+  ],
+  "response": {
+    "id": "chatcmpl-95eb2ac2c53b631f",
+    "object": "chat.completion",
+    "created": 1793801272,
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"matches\":[\"P07\"],\"uncertain\":[],\"reason\":\"P07 is wearing a black bomber jacket over a white t-shirt, black pants, and white sneakers in both crops. All other individuals either lack the white t-shirt, have different outerwear, or different pants/sneakers. P06 wears a black jacket over a graphic tee, not a plain white t-shirt, and has dark sneakers. P02 and P03 wear all-black outfits without visible white t-shirts. P01, P04, P05 have different tops or pants. P07 is the only one matching all specified clothing items.\"}",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 915,
+      "total_tokens": 1048,
+      "completion_tokens": 133,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "check": {
+    "valid": true,
+    "parsed": {
+      "matches": [
+        "P07"
+      ],
+      "uncertain": [],
+      "reason": "P07 is wearing a black bomber jacket over a white t-shirt, black pants, and white sneakers in both crops. All other individuals either lack the white t-shirt, have different outerwear, or different pants/sneakers. P06 wears a black jacket over a graphic tee, not a plain white t-shirt, and has dark sneakers. P02 and P03 wear all-black outfits without visible white t-shirts. P01, P04, P05 have different tops or pants. P07 is the only one matching all specified clothing items."
+    },
+    "matched_gt_ids": [
+      5
+    ],
+    "uncertain_gt_ids": [],
+    "passed": true,
+    "error": null
+  },
+  "inference_policy_sha256": "ea3ce06e83208db2fc1ed693ee2ac1b349f8ae344fcdc2cb0a22e30ef8df60e3"
+}

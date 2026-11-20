@@ -1,0 +1,73 @@
+{
+  "unit_key": "dancetrack0010__id001",
+  "sequence": "dancetrack0010",
+  "gt_id": 1,
+  "phase": "reference_instant_match",
+  "started_at": "2026-11-04T14:13:27.260111+00:00",
+  "completed_at": "2026-11-04T14:13:32.266409+00:00",
+  "seconds": 5.006329951342195,
+  "prompt_text": "At this reference instant, match the following appearance phrase to ALL visible people: \"the person wearing a black crop top and black pants with a thick yellow-green stripe down the outer leg\"\nThe first image is the full frame, with anonymous boxes and labels. The other image(s) are crops of EVERY GT-present person at this SAME instant. Read the central person in each crop; neighboring bodies may overlap. Labels are bookkeeping only. Do not use gallery order, location, pose, or box color as appearance attributes. Include ALL people satisfying the full appearance phrase in matches, and any plausible but obscured/unclear people in uncertain. A partly hidden target whose defining clothing cannot be seen is uncertain. No forced choice; none or several are valid outcomes. Omitted labels mean clear non-matches.\nReturn {\"matches\":[\"P01\"],\"uncertain\":[],\"reason\":\"brief visual explanation\"}. Valid labels: [\"P01\", \"P02\", \"P03\", \"P04\", \"P05\", \"P06\"].",
+  "image_paths": [
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0010/anchor_id001_f000746/full_frame.jpg",
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0010/anchor_id001_f000746/local_gallery_page00.jpg"
+  ],
+  "image_sha256": [
+    "46c0455f4338558a8f701c8953c4a30978bb8c07c6ff3da84e81319b07cc88a6",
+    "c1d26f18d9999cbc1c7ae88c1787028f785d5b54f30233fbd78bb790fdce9223"
+  ],
+  "response": {
+    "id": "chatcmpl-a6614b929e865434",
+    "object": "chat.completion",
+    "created": 1793801607,
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"matches\":[\"P05\",\"P06\"],\"uncertain\":[],\"reason\":\"P05 and P06 both wear black crop tops and black pants with a thick yellow-green stripe down the outer leg. P01 wears black pants without a visible stripe. P02 wears a white crop top. P03 wears black pants with no visible stripe. P04 wears jeans, not black pants.\"}",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 1485,
+      "total_tokens": 1571,
+      "completion_tokens": 86,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "check": {
+    "valid": true,
+    "parsed": {
+      "matches": [
+        "P05",
+        "P06"
+      ],
+      "uncertain": [],
+      "reason": "P05 and P06 both wear black crop tops and black pants with a thick yellow-green stripe down the outer leg. P01 wears black pants without a visible stripe. P02 wears a white crop top. P03 wears black pants with no visible stripe. P04 wears jeans, not black pants."
+    },
+    "matched_gt_ids": [
+      1,
+      2
+    ],
+    "uncertain_gt_ids": [],
+    "passed": false,
+    "error": null
+  },
+  "inference_policy_sha256": "ea3ce06e83208db2fc1ed693ee2ac1b349f8ae344fcdc2cb0a22e30ef8df60e3"
+}

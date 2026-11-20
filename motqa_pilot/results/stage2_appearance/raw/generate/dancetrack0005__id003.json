@@ -1,0 +1,70 @@
+{
+  "unit_key": "dancetrack0005__id003",
+  "sequence": "dancetrack0005",
+  "gt_id": 3,
+  "phase": "generate",
+  "started_at": "2026-11-04T13:51:36.949912+00:00",
+  "completed_at": "2026-11-04T13:51:43.555479+00:00",
+  "seconds": 6.6055988278239965,
+  "prompt_text": "The first image shows three crops of ONE target person at different times. The other image(s) show comparison people from the SAME video; every labeled tile is a different annotated person, shown in up to three crops. These comparison labels are anonymous bookkeeping labels, not appearance attributes.\nWrite one concise English noun phrase (at most 30 words), starting with \"the person\", describing the target using stable, clearly visible clothing, patterns, hair, or accessories. Prefer details that distinguish this person from comparison people. Do not mention actions, pose, scene location, time, spatial relation to others, gallery labels, or GT identity numbers. Visible garment lettering is allowed only if clearly legible. Do not infer colors/details hidden by another person. If no reliable description is possible, use an empty phrase. If a truthful description is shared by others, still provide it and set visually_distinct to false.\nReturn {\"phrase\":\"...\", \"supported_attributes\":[\"...\"], \"visually_distinct\":true, \"limitations\":\"...\"}. A description need not be unique; truthful uncertainty is preferred to invented uniqueness.\nThe target person is also included once among the comparison gallery tiles. Identify that repeated target visually; do not treat the repeated target tile as a different rival. Look for truthful stable appearance that distinguishes the target from OTHER people.",
+  "image_paths": [
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0005/id003_target.jpg",
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0005/generation_gallery_page00.jpg"
+  ],
+  "image_sha256": [
+    "bf6a803cb317f5639d01ae803c6982b6dcae5f9b6012e93e809f6981fec5ffd9",
+    "b2af568f1704ad190f03d032ce4503a8c39556f78e5667fd00be325aa704df45"
+  ],
+  "response": {
+    "id": "chatcmpl-a250dca9de7a03a5",
+    "object": "chat.completion",
+    "created": 1793800296,
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"phrase\": \"the person with long red hair wearing a white crop top with black trim and black pants\",\n  \"supported_attributes\": [\"long red hair\", \"white crop top with black trim\", \"black pants\"],\n  \"visually_distinct\": true,\n  \"limitations\": \"The red hair is the most distinguishing feature; the white crop top with black trim is also visible but shared by P02 and P03, though their tops are different in design. The black pants are common, but the combination of red hair and the specific top design makes this person visually distinct.\"\n}",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 947,
+      "total_tokens": 1070,
+      "completion_tokens": 123,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "check": {
+    "valid": true,
+    "parsed": {
+      "phrase": "the person with long red hair wearing a white crop top with black trim and black pants",
+      "supported_attributes": [
+        "long red hair",
+        "white crop top with black trim",
+        "black pants"
+      ],
+      "visually_distinct": true,
+      "limitations": "The red hair is the most distinguishing feature; the white crop top with black trim is also visible but shared by P02 and P03, though their tops are different in design. The black pants are common, but the combination of red hair and the specific top design makes this person visually distinct."
+    },
+    "phrase": "the person with long red hair wearing a white crop top with black trim and black pants",
+    "error": null
+  },
+  "inference_policy_sha256": "ea3ce06e83208db2fc1ed693ee2ac1b349f8ae344fcdc2cb0a22e30ef8df60e3"
+}

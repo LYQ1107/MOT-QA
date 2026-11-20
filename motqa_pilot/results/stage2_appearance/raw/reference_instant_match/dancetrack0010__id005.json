@@ -1,0 +1,71 @@
+{
+  "unit_key": "dancetrack0010__id005",
+  "sequence": "dancetrack0010",
+  "gt_id": 5,
+  "phase": "reference_instant_match",
+  "started_at": "2026-11-04T14:13:32.270398+00:00",
+  "completed_at": "2026-11-04T14:13:39.208045+00:00",
+  "seconds": 6.937678051646799,
+  "prompt_text": "At this reference instant, match the following appearance phrase to ALL visible people: \"the person wearing a black long-sleeve crop top and light blue flared jeans\"\nThe first image is the full frame, with anonymous boxes and labels. The other image(s) are crops of EVERY GT-present person at this SAME instant. Read the central person in each crop; neighboring bodies may overlap. Labels are bookkeeping only. Do not use gallery order, location, pose, or box color as appearance attributes. Include ALL people satisfying the full appearance phrase in matches, and any plausible but obscured/unclear people in uncertain. A partly hidden target whose defining clothing cannot be seen is uncertain. No forced choice; none or several are valid outcomes. Omitted labels mean clear non-matches.\nReturn {\"matches\":[\"P01\"],\"uncertain\":[],\"reason\":\"brief visual explanation\"}. Valid labels: [\"P01\", \"P02\", \"P03\", \"P04\", \"P05\", \"P06\"].",
+  "image_paths": [
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0010/anchor_id005_f000725/full_frame.jpg",
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0010/anchor_id005_f000725/local_gallery_page00.jpg"
+  ],
+  "image_sha256": [
+    "052dd2f91c059ac890cb9a8292ba6b37dd231dd8d4d0430dcc8ee0e9532dd7d1",
+    "2567e88b98b1fcb4031a79e1bde44f1f22d401ed64ca72e2bee04db9ccc3ec73"
+  ],
+  "response": {
+    "id": "chatcmpl-a6f86dc3bc13f204",
+    "object": "chat.completion",
+    "created": 1793801612,
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"matches\":[\"P05\"],\"uncertain\":[],\"reason\":\"P05 is wearing a black long-sleeve crop top and light blue flared jeans, matching the description exactly. All other individuals are wearing different outfits: P01 has a white top with black pants, P02 has a black long-sleeve top with black pants, P03 has a black long-sleeve top with black pants, P04 has a black crop top with black pants, and P06 has a black crop top with black pants. None of the others match the specified light blue flared jeans.\"}",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 1482,
+      "total_tokens": 1609,
+      "completion_tokens": 127,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "check": {
+    "valid": true,
+    "parsed": {
+      "matches": [
+        "P05"
+      ],
+      "uncertain": [],
+      "reason": "P05 is wearing a black long-sleeve crop top and light blue flared jeans, matching the description exactly. All other individuals are wearing different outfits: P01 has a white top with black pants, P02 has a black long-sleeve top with black pants, P03 has a black long-sleeve top with black pants, P04 has a black crop top with black pants, and P06 has a black crop top with black pants. None of the others match the specified light blue flared jeans."
+    },
+    "matched_gt_ids": [
+      5
+    ],
+    "uncertain_gt_ids": [],
+    "passed": true,
+    "error": null
+  },
+  "inference_policy_sha256": "ea3ce06e83208db2fc1ed693ee2ac1b349f8ae344fcdc2cb0a22e30ef8df60e3"
+}

@@ -1,0 +1,73 @@
+{
+  "unit_key": "dancetrack0041__id010",
+  "sequence": "dancetrack0041",
+  "gt_id": 10,
+  "phase": "generate",
+  "started_at": "2026-11-04T13:55:31.418394+00:00",
+  "completed_at": "2026-11-04T13:55:39.229828+00:00",
+  "seconds": 7.811467796098441,
+  "prompt_text": "The first image shows three crops of ONE target person at different times. The other image(s) show comparison people from the SAME video; every labeled tile is a different annotated person, shown in up to three crops. These comparison labels are anonymous bookkeeping labels, not appearance attributes.\nWrite one concise English noun phrase (at most 30 words), starting with \"the person\", describing the target using stable, clearly visible clothing, patterns, hair, or accessories. Prefer details that distinguish this person from comparison people. Do not mention actions, pose, scene location, time, spatial relation to others, gallery labels, or GT identity numbers. Visible garment lettering is allowed only if clearly legible. Do not infer colors/details hidden by another person. If no reliable description is possible, use an empty phrase. If a truthful description is shared by others, still provide it and set visually_distinct to false.\nReturn {\"phrase\":\"...\", \"supported_attributes\":[\"...\"], \"visually_distinct\":true, \"limitations\":\"...\"}. A description need not be unique; truthful uncertainty is preferred to invented uniqueness.\nThe target person is also included once among the comparison gallery tiles. Identify that repeated target visually; do not treat the repeated target tile as a different rival. Look for truthful stable appearance that distinguishes the target from OTHER people.",
+  "image_paths": [
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0041/id010_target.jpg",
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0041/generation_gallery_page00.jpg",
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0041/generation_gallery_page01.jpg"
+  ],
+  "image_sha256": [
+    "40997a50936adbdb7b2d9a244d4873f4e4fa98a554365ca61255864d95b7747c",
+    "225c50bf7a24394eb74ad86d9cab8d932ece5dc9e461a6098b5ac66cb81212c4",
+    "db0dc500113a4896510242f7cf107b445fb4cad4c5ad9099b2662ee070549e7e"
+  ],
+  "response": {
+    "id": "chatcmpl-bb0f18a9561c0f21",
+    "object": "chat.completion",
+    "created": 1793800531,
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"phrase\": \"the person wearing a black crop top with a red band, black wide-leg pants, and bright pink shoes\",\n  \"supported_attributes\": [\n    \"black crop top\",\n    \"red band around waist\",\n    \"black wide-leg pants\",\n    \"bright pink shoes\"\n  ],\n  \"visually_distinct\": false,\n  \"limitations\": \"The described outfit is worn by multiple people in the gallery, making the target not visually distinct based on clothing alone. No unique accessories or patterns are clearly visible to differentiate the target from others.\"\n}",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 3379,
+      "total_tokens": 3495,
+      "completion_tokens": 116,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "check": {
+    "valid": true,
+    "parsed": {
+      "phrase": "the person wearing a black crop top with a red band, black wide-leg pants, and bright pink shoes",
+      "supported_attributes": [
+        "black crop top",
+        "red band around waist",
+        "black wide-leg pants",
+        "bright pink shoes"
+      ],
+      "visually_distinct": false,
+      "limitations": "The described outfit is worn by multiple people in the gallery, making the target not visually distinct based on clothing alone. No unique accessories or patterns are clearly visible to differentiate the target from others."
+    },
+    "phrase": "the person wearing a black crop top with a red band, black wide-leg pants, and bright pink shoes",
+    "error": null
+  },
+  "inference_policy_sha256": "ea3ce06e83208db2fc1ed693ee2ac1b349f8ae344fcdc2cb0a22e30ef8df60e3"
+}

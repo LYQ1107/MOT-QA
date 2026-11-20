@@ -1,0 +1,71 @@
+{
+  "unit_key": "dancetrack0005__id001",
+  "sequence": "dancetrack0005",
+  "gt_id": 1,
+  "phase": "reference_instant_match",
+  "started_at": "2026-11-04T14:13:22.618771+00:00",
+  "completed_at": "2026-11-04T14:13:27.255418+00:00",
+  "seconds": 4.636673882137984,
+  "prompt_text": "At this reference instant, match the following appearance phrase to ALL visible people: \"the person with a light gray cropped top, black baggy pants, and white sneakers\"\nThe first image is the full frame, with anonymous boxes and labels. The other image(s) are crops of EVERY GT-present person at this SAME instant. Read the central person in each crop; neighboring bodies may overlap. Labels are bookkeeping only. Do not use gallery order, location, pose, or box color as appearance attributes. Include ALL people satisfying the full appearance phrase in matches, and any plausible but obscured/unclear people in uncertain. A partly hidden target whose defining clothing cannot be seen is uncertain. No forced choice; none or several are valid outcomes. Omitted labels mean clear non-matches.\nReturn {\"matches\":[\"P01\"],\"uncertain\":[],\"reason\":\"brief visual explanation\"}. Valid labels: [\"P01\", \"P02\", \"P03\", \"P04\"].",
+  "image_paths": [
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0005/anchor_id001_f000877/full_frame.jpg",
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0005/anchor_id001_f000877/local_gallery_page00.jpg"
+  ],
+  "image_sha256": [
+    "7b8d75eb6f1158ed68c1ad14079312c9f6ce34012fcbe60797e0c909203fe9c1",
+    "f23528e36b883287620c368657900847136c2cb5e9d675afe16ae7b3348efecb"
+  ],
+  "response": {
+    "id": "chatcmpl-a6c102e5c7d15a2e",
+    "object": "chat.completion",
+    "created": 1793801602,
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"matches\":[\"P02\"],\"uncertain\":[],\"reason\":\"P02 wears a light gray cropped top, black baggy pants, and white sneakers, matching the description exactly. P01, P03, and P04 wear dark-colored cropped tops (black or dark gray), not light gray, so they do not match.\"}",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 1310,
+      "total_tokens": 1382,
+      "completion_tokens": 72,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "check": {
+    "valid": true,
+    "parsed": {
+      "matches": [
+        "P02"
+      ],
+      "uncertain": [],
+      "reason": "P02 wears a light gray cropped top, black baggy pants, and white sneakers, matching the description exactly. P01, P03, and P04 wear dark-colored cropped tops (black or dark gray), not light gray, so they do not match."
+    },
+    "matched_gt_ids": [
+      1
+    ],
+    "uncertain_gt_ids": [],
+    "passed": true,
+    "error": null
+  },
+  "inference_policy_sha256": "ea3ce06e83208db2fc1ed693ee2ac1b349f8ae344fcdc2cb0a22e30ef8df60e3"
+}

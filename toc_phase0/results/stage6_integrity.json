@@ -1,0 +1,518 @@
+{
+  "checked_at": "2026-11-04T12:53:53.950615+08:00",
+  "status": "PASS",
+  "missing": 0,
+  "duplicates": 0,
+  "conditions": [
+    "T-none",
+    "T0",
+    "T1"
+  ],
+  "counts": {
+    "main/T-none": {
+      "n": 602,
+      "parse_failures": 85,
+      "budget_exhausted": 0,
+      "max_generated": 14,
+      "max_turns": 1,
+      "max_calls": 0
+    },
+    "main/T0": {
+      "n": 602,
+      "parse_failures": 79,
+      "budget_exhausted": 0,
+      "max_generated": 216,
+      "max_turns": 1,
+      "max_calls": 0
+    },
+    "main/T1": {
+      "n": 602,
+      "parse_failures": 169,
+      "budget_exhausted": 0,
+      "max_generated": 1102,
+      "max_turns": 5,
+      "max_calls": 4
+    },
+    "guided/T-none": {
+      "n": 242,
+      "parse_failures": 57,
+      "budget_exhausted": 0,
+      "max_generated": 14,
+      "max_turns": 1,
+      "max_calls": 0
+    },
+    "guided/T0": {
+      "n": 242,
+      "parse_failures": 33,
+      "budget_exhausted": 0,
+      "max_generated": 215,
+      "max_turns": 1,
+      "max_calls": 0
+    },
+    "guided/T1": {
+      "n": 242,
+      "parse_failures": 1,
+      "budget_exhausted": 0,
+      "max_generated": 1558,
+      "max_turns": 5,
+      "max_calls": 4
+    },
+    "main/LoRA-B-events": {
+      "n": 251,
+      "parse_failures": 54,
+      "truncated": 37
+    }
+  },
+  "total_unique_new_predictions": 2783,
+  "hypotheses_sha256": "b3a14977afe2d0bbc75870e5d4c97f25e5908ddd19b54b1bebb292027705af71",
+  "protocol_sha256": "3b15efad09ef2913ff7ed2a8db3f9a37705f95deb03a4017cdb5bcf66c21504e",
+  "frozen_config_sha256": "7f0dbd16926026fa087ac4bb84fb1f3dce142ee903e5cf16c9e8eb1b7a62d93d",
+  "split_sha256": "e1d87675aca7e69d57a5ac99dc7ecdedaf8ca8c4efb1588bb86f42066fce80b3",
+  "trackable_sha256": "4a4d1fdbb57158696986a99130d0a4e2ba27a51c73776c813347829d4b9a2593",
+  "demonstrations_sha256": "69a8c4697c0916aa177c131db45c6f7575408418e3690b25f2c417970961e33c",
+  "training_receipt": {
+    "completed_at": "2026-11-04T10:48:21.419761+08:00",
+    "elapsed_s": 2140.496,
+    "epochs": 2.0,
+    "global_step": 250,
+    "train_examples": 2000,
+    "synthetic_only": true,
+    "adapter_path": "/data2/user/toc_phase0/models/stage6_lora_r8",
+    "adapter_sha256": "3572c37f70ff0f1206aab7fa40aee6031826d303e6c60572685b27a869ac97ea",
+    "adapter_config_sha256": "fd6586dda00479761d9e8584a3e6f20357f211378df692087ca729ad32597b60",
+    "data_manifest_sha256": "c8049019a947229f23b56dc78e4bc71346e5373c5499dcdbad18dbc1336ebd7e",
+    "hypotheses_sha256": "b3a14977afe2d0bbc75870e5d4c97f25e5908ddd19b54b1bebb292027705af71"
+  },
+  "runtimes": [
+    {
+      "path": "/data2/user/toc_phase0/logs/stage6_runtime_base_attempt1.json",
+      "kind": "base",
+      "pid": 1002181,
+      "port": 18022,
+      "device": {
+        "physical_index": 7,
+        "uuid": "GPU-0322c0e7-ffbf-e068-5bdd-587b8216a9d9",
+        "name": "NVIDIA A800-SXM4-80GB",
+        "initial_used_MiB": 16181,
+        "initial_free_MiB": 65739,
+        "existing_process_count": 1,
+        "initial_utilization": 89
+      },
+      "args": [
+        "/data2/user/toc_phase0/env/bin/python",
+        "-m",
+        "vllm.entrypoints.openai.api_server",
+        "--model",
+        "/data2/user/toc_phase0/models/Qwen2.5-VL-7B-Instruct",
+        "--served-model-name",
+        "Qwen/Qwen2.5-VL-7B-Instruct",
+        "--host",
+        "127.0.0.1",
+        "--port",
+        "18022",
+        "--tensor-parallel-size",
+        "1",
+        "--dtype",
+        "bfloat16",
+        "--max-model-len",
+        "65536",
+        "--max-num-seqs",
+        "8",
+        "--max-num-batched-tokens",
+        "32768",
+        "--gpu-memory-utilization",
+        "0.65",
+        "--seed",
+        "42",
+        "--enforce-eager",
+        "--limit-mm-per-prompt",
+        "{\"image\":{\"count\":40,\"width\":720,\"height\":720},\"video\":0}",
+        "--disable-log-requests"
+      ],
+      "actual_cuda_uuid": "GPU-0322c0e7-ffbf-e068-5bdd-587b8216a9d9",
+      "log": "/data2/user/toc_phase0/logs/stage6_vllm_base_attempt1.log"
+    },
+    {
+      "path": "/data2/user/toc_phase0/logs/stage6_runtime_base_attempt2.json",
+      "kind": "base",
+      "pid": 1006002,
+      "port": 18022,
+      "device": {
+        "physical_index": 7,
+        "uuid": "GPU-0322c0e7-ffbf-e068-5bdd-587b8216a9d9",
+        "name": "NVIDIA A800-SXM4-80GB",
+        "initial_used_MiB": 16181,
+        "initial_free_MiB": 65739,
+        "existing_process_count": 1,
+        "initial_utilization": 89
+      },
+      "args": [
+        "/data2/user/toc_phase0/env/bin/python",
+        "-m",
+        "vllm.entrypoints.openai.api_server",
+        "--model",
+        "/data2/user/toc_phase0/models/Qwen2.5-VL-7B-Instruct",
+        "--served-model-name",
+        "Qwen/Qwen2.5-VL-7B-Instruct",
+        "--host",
+        "127.0.0.1",
+        "--port",
+        "18022",
+        "--tensor-parallel-size",
+        "1",
+        "--dtype",
+        "bfloat16",
+        "--max-model-len",
+        "65536",
+        "--max-num-seqs",
+        "8",
+        "--max-num-batched-tokens",
+        "32768",
+        "--gpu-memory-utilization",
+        "0.65",
+        "--seed",
+        "42",
+        "--enforce-eager",
+        "--limit-mm-per-prompt",
+        "{\"image\":{\"count\":40,\"width\":720,\"height\":720},\"video\":0}",
+        "--disable-log-requests"
+      ],
+      "actual_cuda_uuid": "GPU-0322c0e7-ffbf-e068-5bdd-587b8216a9d9",
+      "log": "/data2/user/toc_phase0/logs/stage6_vllm_base_attempt2.log"
+    },
+    {
+      "path": "/data2/user/toc_phase0/logs/stage6_runtime_base_attempt3.json",
+      "kind": "base",
+      "pid": 1201684,
+      "port": 18022,
+      "device": {
+        "physical_index": 7,
+        "uuid": "GPU-0322c0e7-ffbf-e068-5bdd-587b8216a9d9",
+        "name": "NVIDIA A800-SXM4-80GB",
+        "initial_used_MiB": 16181,
+        "initial_free_MiB": 65739,
+        "existing_process_count": 1,
+        "initial_utilization": 89
+      },
+      "args": [
+        "/data2/user/toc_phase0/env/bin/python",
+        "-m",
+        "vllm.entrypoints.openai.api_server",
+        "--model",
+        "/data2/user/toc_phase0/models/Qwen2.5-VL-7B-Instruct",
+        "--served-model-name",
+        "Qwen/Qwen2.5-VL-7B-Instruct",
+        "--host",
+        "127.0.0.1",
+        "--port",
+        "18022",
+        "--tensor-parallel-size",
+        "1",
+        "--dtype",
+        "bfloat16",
+        "--max-model-len",
+        "65536",
+        "--max-num-seqs",
+        "8",
+        "--max-num-batched-tokens",
+        "32768",
+        "--gpu-memory-utilization",
+        "0.65",
+        "--seed",
+        "42",
+        "--enforce-eager",
+        "--limit-mm-per-prompt",
+        "{\"image\":{\"count\":40,\"width\":720,\"height\":720},\"video\":0}",
+        "--disable-log-requests"
+      ],
+      "actual_cuda_uuid": "GPU-0322c0e7-ffbf-e068-5bdd-587b8216a9d9",
+      "log": "/data2/user/toc_phase0/logs/stage6_vllm_base_attempt3.log"
+    },
+    {
+      "path": "/data2/user/toc_phase0/logs/stage6_runtime_lora_attempt2.json",
+      "kind": "lora",
+      "pid": 1063122,
+      "port": 18023,
+      "device": {
+        "physical_index": 6,
+        "uuid": "GPU-883c8be3-25b0-3d19-6fa8-4c2e335e67d2",
+        "name": "NVIDIA A800-SXM4-80GB",
+        "initial_used_MiB": 19009,
+        "initial_free_MiB": 62911,
+        "existing_process_count": 2,
+        "initial_utilization": 91
+      },
+      "args": [
+        "/data2/user/toc_phase0/env/bin/python",
+        "-m",
+        "vllm.entrypoints.openai.api_server",
+        "--model",
+        "/data2/user/toc_phase0/models/Qwen2.5-VL-7B-Instruct",
+        "--served-model-name",
+        "Qwen/Qwen2.5-VL-7B-Instruct",
+        "--host",
+        "127.0.0.1",
+        "--port",
+        "18023",
+        "--tensor-parallel-size",
+        "1",
+        "--dtype",
+        "bfloat16",
+        "--max-model-len",
+        "65536",
+        "--max-num-seqs",
+        "8",
+        "--max-num-batched-tokens",
+        "32768",
+        "--gpu-memory-utilization",
+        "0.65",
+        "--seed",
+        "42",
+        "--enforce-eager",
+        "--limit-mm-per-prompt",
+        "{\"image\":{\"count\":40,\"width\":720,\"height\":720},\"video\":0}",
+        "--disable-log-requests",
+        "--enable-lora",
+        "--max-lora-rank",
+        "8",
+        "--lora-modules",
+        "stage6_lora=/data2/user/toc_phase0/models/stage6_lora_r8"
+      ],
+      "actual_cuda_uuid": "GPU-883c8be3-25b0-3d19-6fa8-4c2e335e67d2",
+      "log": "/data2/user/toc_phase0/logs/stage6_vllm_lora_attempt2.log"
+    },
+    {
+      "path": "/data2/user/toc_phase0/logs/stage6_runtime_training_attempt1.json",
+      "pid": 1002175,
+      "args": [
+        "/data2/user/toc_phase0/env_stage6_train/bin/python",
+        "-u",
+        "/data2/user/toc_phase0/src/train_stage6.py"
+      ],
+      "device": {
+        "physical_index": 6,
+        "uuid": "GPU-883c8be3-25b0-3d19-6fa8-4c2e335e67d2",
+        "name": "NVIDIA A800-SXM4-80GB",
+        "initial_used_MiB": 19009,
+        "initial_free_MiB": 62911,
+        "existing_process_count": 2,
+        "initial_utilization": 91
+      },
+      "log": "/data2/user/toc_phase0/logs/stage6_training_attempt1.log"
+    },
+    {
+      "path": "/data2/user/toc_phase0/logs/stage6_runtime_training_attempt2.json",
+      "pid": 1005979,
+      "args": [
+        "/data2/user/toc_phase0/env_stage6_train/bin/python",
+        "-u",
+        "/data2/user/toc_phase0/src/train_stage6.py"
+      ],
+      "device": {
+        "physical_index": 6,
+        "uuid": "GPU-883c8be3-25b0-3d19-6fa8-4c2e335e67d2",
+        "name": "NVIDIA A800-SXM4-80GB",
+        "initial_used_MiB": 19009,
+        "initial_free_MiB": 62911,
+        "existing_process_count": 2,
+        "initial_utilization": 91
+      },
+      "log": "/data2/user/toc_phase0/logs/stage6_training_attempt2.log"
+    }
+  ],
+  "remaining_task_owned_pids": [],
+  "total_elapsed_s": 10621.117117,
+  "jobs": [
+    {
+      "status": "FAILED",
+      "controller_pid": 1002125,
+      "started_at": "2026-11-04T10:11:02.724122+08:00",
+      "attempt": 1,
+      "protocol_sha256": "3b15efad09ef2913ff7ed2a8db3f9a37705f95deb03a4017cdb5bcf66c21504e",
+      "hypotheses_sha256": "b3a14977afe2d0bbc75870e5d4c97f25e5908ddd19b54b1bebb292027705af71",
+      "allocation": {
+        "checked_at": "2026-11-04T10:11:02.723645+08:00",
+        "vllm": {
+          "physical_index": 7,
+          "uuid": "GPU-0322c0e7-ffbf-e068-5bdd-587b8216a9d9",
+          "name": "NVIDIA A800-SXM4-80GB",
+          "initial_used_MiB": 16181,
+          "initial_free_MiB": 65739,
+          "existing_process_count": 1,
+          "initial_utilization": 89
+        },
+        "training_and_lora_eval": {
+          "physical_index": 6,
+          "uuid": "GPU-883c8be3-25b0-3d19-6fa8-4c2e335e67d2",
+          "name": "NVIDIA A800-SXM4-80GB",
+          "initial_used_MiB": 19009,
+          "initial_free_MiB": 62911,
+          "existing_process_count": 2,
+          "initial_utilization": 91
+        },
+        "registered_physical_gpus": [
+          7,
+          6
+        ],
+        "sharing_user_authorized": true,
+        "full_snapshot": "0, GPU-bf21a95d-d96d-9ec5-cb15-b0fb7ad50536, NVIDIA A800-SXM4-80GB, 81920, 69000, 90\n1, GPU-f35654b3-bbf5-7303-cfcb-9bd5d3e16e69, NVIDIA A800-SXM4-80GB, 81920, 69096, 100\n2, GPU-c2484ded-5f87-237c-bbf0-d23fcb74fdb2, NVIDIA A800-SXM4-80GB, 81920, 69064, 82\n3, GPU-6cb11599-704e-c3aa-9e28-5f15faa25c7c, NVIDIA A800-SXM4-80GB, 81920, 69224, 49\n4, GPU-44f62835-4095-23ec-d3dd-5af16a00705c, NVIDIA A800-SXM4-80GB, 81920, 24910, 100\n5, GPU-c6523d98-cb2d-95ed-4cb2-a84936acceb6, NVIDIA A800-SXM4-80GB, 81920, 28030, 100\n6, GPU-883c8be3-25b0-3d19-6fa8-4c2e335e67d2, NVIDIA A800-SXM4-80GB, 81920, 19009, 91\n7, GPU-0322c0e7-ffbf-e068-5bdd-587b8216a9d9, NVIDIA A800-SXM4-80GB, 81920, 16181, 89\n",
+        "processes": "GPU-bf21a95d-d96d-9ec5-cb15-b0fb7ad50536, 2258854, 68830\nGPU-f35654b3-bbf5-7303-cfcb-9bd5d3e16e69, 2258855, 68926\nGPU-c2484ded-5f87-237c-bbf0-d23fcb74fdb2, 2258856, 68894\nGPU-6cb11599-704e-c3aa-9e28-5f15faa25c7c, 2258857, 69054\nGPU-44f62835-4095-23ec-d3dd-5af16a00705c, 923884, 8748\nGPU-44f62835-4095-23ec-d3dd-5af16a00705c, 934359, 7394\nGPU-44f62835-4095-23ec-d3dd-5af16a00705c, 970280, 8748\nGPU-c6523d98-cb2d-95ed-4cb2-a84936acceb6, 3949636, 8748\nGPU-c6523d98-cb2d-95ed-4cb2-a84936acceb6, 940243, 10514\nGPU-c6523d98-cb2d-95ed-4cb2-a84936acceb6, 970281, 8748\nGPU-883c8be3-25b0-3d19-6fa8-4c2e335e67d2, 3528813, 8480\nGPU-883c8be3-25b0-3d19-6fa8-4c2e335e67d2, 940244, 10514\nGPU-0322c0e7-ffbf-e068-5bdd-587b8216a9d9, 3348212, 16172\n"
+      },
+      "source_sha256": {
+        "run_stage6.py": "1def5c8f1faa09273bc6815540b9f43d61fb2b48f6a2d24205e9b49a43b98222",
+        "stage6_runtime.py": "a4f8b15d4d492d6dc5a5c8c30eb5cf0e819e11b72db9594e5fdc44c6a347cf10",
+        "train_stage6.py": "d9065c57e8151897b466d8b5adf8a78828f5166836374404cbce611c92efb231"
+      },
+      "stage": "failed",
+      "updated_at": "2026-11-04T10:11:46.323850+08:00",
+      "training_pid": 1002175,
+      "server_pid": 1002181,
+      "error": "ImportError(\"Using SOCKS proxy, but the 'socksio' package is not installed. Make sure to install httpx using `pip install httpx[socks]`.\")",
+      "traceback": "Traceback (most recent call last):\n  File \"/data2/user/toc_phase0/src/run_stage6.py\", line 229, in main\n    client=OpenAI(api_key='local',base_url='http://127.0.0.1:18022/v1',timeout=900,max_retries=0)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data2/user/toc_phase0/env/lib/python3.11/site-packages/openai/_client.py\", line 323, in __init__\n    return sync__init__(\n           ^^^^^^^^^^^^^\n  File \"/data2/user/toc_phase0/env/lib/python3.11/site-packages/openai/lib/_client_auth.py\", line 241, in sync__init__\n    super(_owner, self).__init__(\n  File \"/data2/user/toc_phase0/env/lib/python3.11/site-packages/openai/_base_client.py\", line 1050, in __init__\n    self._client = http_client or SyncHttpxClientWrapper(\n                                  ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data2/user/toc_phase0/env/lib/python3.11/site-packages/openai/_base_client.py\", line 975, in __init__\n    super().__init__(**kwargs)\n  File \"/data2/user/toc_phase0/env/lib/python3.11/site-packages/httpx2/_client.py\", line 670, in __init__\n    self._mounts: dict[URLPattern, BaseTransport | None] = {\n                                                           ^\n  File \"/data2/user/toc_phase0/env/lib/python3.11/site-packages/httpx2/_client.py\", line 673, in <dictcomp>\n    else self._init_proxy_transport(\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data2/user/toc_phase0/env/lib/python3.11/site-packages/httpx2/_client.py\", line 721, in _init_proxy_transport\n    return HTTPTransport(\n           ^^^^^^^^^^^^^^\n  File \"/data2/user/toc_phase0/env/lib/python3.11/site-packages/httpx2/_transports/default.py\", line 187, in __init__\n    raise ImportError(\nImportError: Using SOCKS proxy, but the 'socksio' package is not installed. Make sure to install httpx using `pip install httpx[socks]`.\n",
+      "branch_errors": [
+        {
+          "branch": "training_lora",
+          "error": "AssertionError(('LlamaFactory training failed', '/data2/user/toc_phase0/logs/stage6_training_attempt1.log'))",
+          "traceback": "Traceback (most recent call last):\n  File \"/data2/user/toc_phase0/src/run_stage6.py\", line 216, in train_eval\n    assert code==0,('LlamaFactory training failed',train[2]['log'])\n           ^^^^^^^\nAssertionError: ('LlamaFactory training failed', '/data2/user/toc_phase0/logs/stage6_training_attempt1.log')\n"
+        }
+      ],
+      "elapsed_s": 42.931
+    },
+    {
+      "status": "INTERRUPTED_AUXILIARY_IMPLEMENTATION",
+      "controller_pid": 1005931,
+      "started_at": "2026-11-04T10:12:40.109155+08:00",
+      "attempt": 2,
+      "protocol_sha256": "3b15efad09ef2913ff7ed2a8db3f9a37705f95deb03a4017cdb5bcf66c21504e",
+      "hypotheses_sha256": "b3a14977afe2d0bbc75870e5d4c97f25e5908ddd19b54b1bebb292027705af71",
+      "allocation": {
+        "checked_at": "2026-11-04T10:11:02.723645+08:00",
+        "vllm": {
+          "physical_index": 7,
+          "uuid": "GPU-0322c0e7-ffbf-e068-5bdd-587b8216a9d9",
+          "name": "NVIDIA A800-SXM4-80GB",
+          "initial_used_MiB": 16181,
+          "initial_free_MiB": 65739,
+          "existing_process_count": 1,
+          "initial_utilization": 89
+        },
+        "training_and_lora_eval": {
+          "physical_index": 6,
+          "uuid": "GPU-883c8be3-25b0-3d19-6fa8-4c2e335e67d2",
+          "name": "NVIDIA A800-SXM4-80GB",
+          "initial_used_MiB": 19009,
+          "initial_free_MiB": 62911,
+          "existing_process_count": 2,
+          "initial_utilization": 91
+        },
+        "registered_physical_gpus": [
+          7,
+          6
+        ],
+        "sharing_user_authorized": true,
+        "full_snapshot": "0, GPU-bf21a95d-d96d-9ec5-cb15-b0fb7ad50536, NVIDIA A800-SXM4-80GB, 81920, 69000, 90\n1, GPU-f35654b3-bbf5-7303-cfcb-9bd5d3e16e69, NVIDIA A800-SXM4-80GB, 81920, 69096, 100\n2, GPU-c2484ded-5f87-237c-bbf0-d23fcb74fdb2, NVIDIA A800-SXM4-80GB, 81920, 69064, 82\n3, GPU-6cb11599-704e-c3aa-9e28-5f15faa25c7c, NVIDIA A800-SXM4-80GB, 81920, 69224, 49\n4, GPU-44f62835-4095-23ec-d3dd-5af16a00705c, NVIDIA A800-SXM4-80GB, 81920, 24910, 100\n5, GPU-c6523d98-cb2d-95ed-4cb2-a84936acceb6, NVIDIA A800-SXM4-80GB, 81920, 28030, 100\n6, GPU-883c8be3-25b0-3d19-6fa8-4c2e335e67d2, NVIDIA A800-SXM4-80GB, 81920, 19009, 91\n7, GPU-0322c0e7-ffbf-e068-5bdd-587b8216a9d9, NVIDIA A800-SXM4-80GB, 81920, 16181, 89\n",
+        "processes": "GPU-bf21a95d-d96d-9ec5-cb15-b0fb7ad50536, 2258854, 68830\nGPU-f35654b3-bbf5-7303-cfcb-9bd5d3e16e69, 2258855, 68926\nGPU-c2484ded-5f87-237c-bbf0-d23fcb74fdb2, 2258856, 68894\nGPU-6cb11599-704e-c3aa-9e28-5f15faa25c7c, 2258857, 69054\nGPU-44f62835-4095-23ec-d3dd-5af16a00705c, 923884, 8748\nGPU-44f62835-4095-23ec-d3dd-5af16a00705c, 934359, 7394\nGPU-44f62835-4095-23ec-d3dd-5af16a00705c, 970280, 8748\nGPU-c6523d98-cb2d-95ed-4cb2-a84936acceb6, 3949636, 8748\nGPU-c6523d98-cb2d-95ed-4cb2-a84936acceb6, 940243, 10514\nGPU-c6523d98-cb2d-95ed-4cb2-a84936acceb6, 970281, 8748\nGPU-883c8be3-25b0-3d19-6fa8-4c2e335e67d2, 3528813, 8480\nGPU-883c8be3-25b0-3d19-6fa8-4c2e335e67d2, 940244, 10514\nGPU-0322c0e7-ffbf-e068-5bdd-587b8216a9d9, 3348212, 16172\n"
+      },
+      "source_sha256": {
+        "run_stage6.py": "ba3e8f803515d2b41a3c75ffeca9736cbae4bddfe2643d9f4af0a9b7b853033c",
+        "stage6_runtime.py": "a4f8b15d4d492d6dc5a5c8c30eb5cf0e819e11b72db9594e5fdc44c6a347cf10",
+        "train_stage6.py": "d9065c57e8151897b466d8b5adf8a78828f5166836374404cbce611c92efb231"
+      },
+      "stage": "base_server_startup",
+      "updated_at": "2026-11-04T11:55:01.969185+08:00",
+      "training_pid": 1005979,
+      "server_pid": 1006002,
+      "tools_stage": "T1/guided",
+      "tools_committed": 20,
+      "tools_expected": 242,
+      "tools_eta_min": 76.4,
+      "lora_stage": "complete",
+      "lora_committed": 251,
+      "lora_expected": 251,
+      "lora_eta_min": 0.0,
+      "interrupted_at": "2026-11-04T12:11:08.398426+08:00",
+      "interruption_reason": "Auxiliary grammar forced closing-tag syntax instead of leaving model errors to the ordinary parser; no primary outcomes changed"
+    },
+    {
+      "status": "COMPLETE",
+      "controller_pid": 1201657,
+      "started_at": "2026-11-04T12:19:16.672764+08:00",
+      "attempt": 3,
+      "protocol_sha256": "3b15efad09ef2913ff7ed2a8db3f9a37705f95deb03a4017cdb5bcf66c21504e",
+      "hypotheses_sha256": "b3a14977afe2d0bbc75870e5d4c97f25e5908ddd19b54b1bebb292027705af71",
+      "allocation": {
+        "checked_at": "2026-11-04T10:11:02.723645+08:00",
+        "vllm": {
+          "physical_index": 7,
+          "uuid": "GPU-0322c0e7-ffbf-e068-5bdd-587b8216a9d9",
+          "name": "NVIDIA A800-SXM4-80GB",
+          "initial_used_MiB": 16181,
+          "initial_free_MiB": 65739,
+          "existing_process_count": 1,
+          "initial_utilization": 89
+        },
+        "training_and_lora_eval": {
+          "physical_index": 6,
+          "uuid": "GPU-883c8be3-25b0-3d19-6fa8-4c2e335e67d2",
+          "name": "NVIDIA A800-SXM4-80GB",
+          "initial_used_MiB": 19009,
+          "initial_free_MiB": 62911,
+          "existing_process_count": 2,
+          "initial_utilization": 91
+        },
+        "registered_physical_gpus": [
+          7,
+          6
+        ],
+        "sharing_user_authorized": true,
+        "full_snapshot": "0, GPU-bf21a95d-d96d-9ec5-cb15-b0fb7ad50536, NVIDIA A800-SXM4-80GB, 81920, 69000, 90\n1, GPU-f35654b3-bbf5-7303-cfcb-9bd5d3e16e69, NVIDIA A800-SXM4-80GB, 81920, 69096, 100\n2, GPU-c2484ded-5f87-237c-bbf0-d23fcb74fdb2, NVIDIA A800-SXM4-80GB, 81920, 69064, 82\n3, GPU-6cb11599-704e-c3aa-9e28-5f15faa25c7c, NVIDIA A800-SXM4-80GB, 81920, 69224, 49\n4, GPU-44f62835-4095-23ec-d3dd-5af16a00705c, NVIDIA A800-SXM4-80GB, 81920, 24910, 100\n5, GPU-c6523d98-cb2d-95ed-4cb2-a84936acceb6, NVIDIA A800-SXM4-80GB, 81920, 28030, 100\n6, GPU-883c8be3-25b0-3d19-6fa8-4c2e335e67d2, NVIDIA A800-SXM4-80GB, 81920, 19009, 91\n7, GPU-0322c0e7-ffbf-e068-5bdd-587b8216a9d9, NVIDIA A800-SXM4-80GB, 81920, 16181, 89\n",
+        "processes": "GPU-bf21a95d-d96d-9ec5-cb15-b0fb7ad50536, 2258854, 68830\nGPU-f35654b3-bbf5-7303-cfcb-9bd5d3e16e69, 2258855, 68926\nGPU-c2484ded-5f87-237c-bbf0-d23fcb74fdb2, 2258856, 68894\nGPU-6cb11599-704e-c3aa-9e28-5f15faa25c7c, 2258857, 69054\nGPU-44f62835-4095-23ec-d3dd-5af16a00705c, 923884, 8748\nGPU-44f62835-4095-23ec-d3dd-5af16a00705c, 934359, 7394\nGPU-44f62835-4095-23ec-d3dd-5af16a00705c, 970280, 8748\nGPU-c6523d98-cb2d-95ed-4cb2-a84936acceb6, 3949636, 8748\nGPU-c6523d98-cb2d-95ed-4cb2-a84936acceb6, 940243, 10514\nGPU-c6523d98-cb2d-95ed-4cb2-a84936acceb6, 970281, 8748\nGPU-883c8be3-25b0-3d19-6fa8-4c2e335e67d2, 3528813, 8480\nGPU-883c8be3-25b0-3d19-6fa8-4c2e335e67d2, 940244, 10514\nGPU-0322c0e7-ffbf-e068-5bdd-587b8216a9d9, 3348212, 16172\n"
+      },
+      "source_sha256": {
+        "run_stage6.py": "661303812e35872fc8bbe78ad5548ebb3b789a968e1038db1f8e9106295c07f2",
+        "stage6_runtime.py": "a4f8b15d4d492d6dc5a5c8c30eb5cf0e819e11b72db9594e5fdc44c6a347cf10",
+        "train_stage6.py": "d9065c57e8151897b466d8b5adf8a78828f5166836374404cbce611c92efb231"
+      },
+      "stage": "inference_and_training_complete",
+      "updated_at": "2026-11-04T12:50:16.314710+08:00",
+      "lora_stage": "complete_reused_no_model_launch",
+      "lora_committed": 251,
+      "lora_expected": 251,
+      "server_pid": 1201684,
+      "tools_stage": "complete",
+      "tools_committed": 242,
+      "tools_expected": 242,
+      "tools_eta_min": 0.0,
+      "controls_decision": {
+        "decided_at": "2026-11-04T12:50:14.540029+08:00",
+        "primary_n": 251,
+        "correct": {
+          "T-none": 73,
+          "T0": 66,
+          "T1": 71
+        },
+        "best": "T1",
+        "run_controls": false,
+        "rule": "Observed strictly higher correct count; T0 wins ties; fixed before control inference",
+        "prediction_sha256": {
+          "T-none": "b549356c9b49e53325f9997457de8c3a3255398c3a44adfcfbc6a251b3836cd3",
+          "T0": "e04474a819033acc0b61189869327fcbfa54c217a687c74b28c152d73e94a3ad",
+          "T1": "32bc72b74b0af05fc1e2b7a040e3238e27e0486a64802dcffa8a81dbf9709166"
+        }
+      },
+      "elapsed_s": 1859.081
+    }
+  ],
+  "examples": 24,
+  "no_tracking_rerun": true,
+  "no_frozen_changes": true,
+  "final_field_guidance_sha256": "a06952e83c73a19d62bb8a6695305dd83610ddbb0b3a9e0e5a30d46933e1431f",
+  "original_auxiliary_records_archived": 514,
+  "primary_and_training_sha256_unchanged": true,
+  "final_review_at": "2026-11-04T13:15:10.468156+08:00",
+  "final_resource_check": "/data2/user/toc_phase0/results/stage6_final_resource_check.json",
+  "loading_sanity": "/data2/user/toc_phase0/results/stage6_lora_loading_sanity.json",
+  "manual_review": "/data2/user/toc_phase0/results/stage6_RD_manual_review.json",
+  "posthoc_diagnostics": "/data2/user/toc_phase0/results/stage6_posthoc_diagnostics.json",
+  "remaining_task_owned_gpu_processes": []
+}

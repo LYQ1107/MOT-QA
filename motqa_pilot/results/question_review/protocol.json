@@ -1,0 +1,133 @@
+{
+  "generated_at": "2026-11-05T21:01:11.569014+08:00",
+  "status": "LOCKED_FOR_20_QUESTION_DESIGN_REVIEW",
+  "scope": "20 newly generated complete questions for user design review; not a random sample from a completed900-question batch.",
+  "seed": 42,
+  "source_config_sha256": "b75ddac560bb71629e37120f97f0c5e23c4b8dddb052e9605d2d750a8fd85166",
+  "human_review_sha256": "c40b5fb27e275a4860a3b1080db30a49e5abdb431c99066e47cf0b7c90921763",
+  "generator_sha256": "78a22b05d96cb8554130212b024e8b373a6f6af88bba27112ab1089921a357bd",
+  "specs": [
+    {
+      "dataset": "DanceTrack",
+      "reference_type": "box",
+      "operation": "O2"
+    },
+    {
+      "dataset": "SportsMOT",
+      "reference_type": "box",
+      "operation": "O2"
+    },
+    {
+      "dataset": "MOT17",
+      "reference_type": "box",
+      "operation": "O2"
+    },
+    {
+      "dataset": "DanceTrack",
+      "reference_type": "box",
+      "operation": "O5"
+    },
+    {
+      "dataset": "MOT17",
+      "reference_type": "box",
+      "operation": "O5"
+    },
+    {
+      "dataset": "SportsMOT",
+      "reference_type": "box",
+      "operation": "O6"
+    },
+    {
+      "dataset": "DanceTrack",
+      "reference_type": "box",
+      "operation": "O4"
+    },
+    {
+      "dataset": "MOT17",
+      "reference_type": "box",
+      "operation": "composition_motion_relation"
+    },
+    {
+      "dataset": "DanceTrack",
+      "reference_type": "event",
+      "operation": "O3"
+    },
+    {
+      "dataset": "DanceTrack",
+      "reference_type": "event",
+      "operation": "O3"
+    },
+    {
+      "dataset": "SportsMOT",
+      "reference_type": "event",
+      "operation": "O4"
+    },
+    {
+      "dataset": "SportsMOT",
+      "reference_type": "event",
+      "operation": "O7"
+    },
+    {
+      "dataset": "MOT17",
+      "reference_type": "event",
+      "operation": "O6"
+    },
+    {
+      "dataset": "DanceTrack",
+      "reference_type": "appearance",
+      "operation": "O1"
+    },
+    {
+      "dataset": "SportsMOT",
+      "reference_type": "appearance",
+      "operation": "O1"
+    },
+    {
+      "dataset": "DanceTrack",
+      "reference_type": "appearance",
+      "operation": "O6"
+    },
+    {
+      "dataset": "SportsMOT",
+      "reference_type": "appearance",
+      "operation": "O5"
+    },
+    {
+      "dataset": "DanceTrack",
+      "reference_type": "position",
+      "operation": "O7"
+    },
+    {
+      "dataset": "SportsMOT",
+      "reference_type": "position",
+      "operation": "O4"
+    },
+    {
+      "dataset": "SportsMOT",
+      "reference_type": "position",
+      "operation": "composition_cross_exit"
+    }
+  ],
+  "ref_to_question_min_s": 3,
+  "query_max_after_reference_s": 17,
+  "return_evidence_search_max_s": 24,
+  "box_geometry": "unchanged frozen box gates",
+  "count_bins": [
+    0,
+    1,
+    2,
+    "3 or more"
+  ],
+  "box_reference_candidates": "existing event/position anchors plus frames3.5seconds before eligible GT crossing episodes or MOT17 overlap episodes; require all frozen box gates",
+  "O2_identity_interaction": "require a real overlap between reference and query, as permitted by the original overlap-or-crossing distractor rule; literal question asks left/right at query",
+  "time_bins": "four consecutive frame-index quarters of the stated question interval; no overlapping frames",
+  "O2_min_x_difference_width_fraction": 0.05,
+  "O5_min_path_length_winner_margin_diagonals": 0.03,
+  "O6_min_quarter_minimum_distance_margin_diagonals": 0.005,
+  "crossing_definition": "frozen Stage2 IoU>=.1 for>=3frames plus reversed left-right order, with both evidence frames inside interval",
+  "path_length": "sum consecutive-visible-frame center displacements; never bridge missing frames",
+  "appearance_similarity": "not computed in this design-review batch; public visual feature model still required before full Stage3 release",
+  "annotation_video": "10fps review derivative; exact source keyframes also provided; no tracking inference",
+  "full_batch_status": "not generated; global answer/dataset balance and confusion coverage acceptance are not claimed for this small design review",
+  "selection_policy": "Prefer candidates with a different GT-derived answer under an overlapping-identity substitution; retain original>=70% confusion coverage requirement."
+}

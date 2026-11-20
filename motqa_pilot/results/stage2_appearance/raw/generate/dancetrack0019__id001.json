@@ -1,0 +1,72 @@
+{
+  "unit_key": "dancetrack0019__id001",
+  "sequence": "dancetrack0019",
+  "gt_id": 1,
+  "phase": "generate",
+  "started_at": "2026-11-04T13:52:53.824733+00:00",
+  "completed_at": "2026-11-04T13:52:59.598688+00:00",
+  "seconds": 5.7739857216365635,
+  "prompt_text": "The first image shows three crops of ONE target person at different times. The other image(s) show comparison people from the SAME video; every labeled tile is a different annotated person, shown in up to three crops. These comparison labels are anonymous bookkeeping labels, not appearance attributes.\nWrite one concise English noun phrase (at most 30 words), starting with \"the person\", describing the target using stable, clearly visible clothing, patterns, hair, or accessories. Prefer details that distinguish this person from comparison people. Do not mention actions, pose, scene location, time, spatial relation to others, gallery labels, or GT identity numbers. Visible garment lettering is allowed only if clearly legible. Do not infer colors/details hidden by another person. If no reliable description is possible, use an empty phrase. If a truthful description is shared by others, still provide it and set visually_distinct to false.\nReturn {\"phrase\":\"...\", \"supported_attributes\":[\"...\"], \"visually_distinct\":true, \"limitations\":\"...\"}. A description need not be unique; truthful uncertainty is preferred to invented uniqueness.\nThe target person is also included once among the comparison gallery tiles. Identify that repeated target visually; do not treat the repeated target tile as a different rival. Look for truthful stable appearance that distinguishes the target from OTHER people.",
+  "image_paths": [
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0019/id001_target.jpg",
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0019/generation_gallery_page00.jpg"
+  ],
+  "image_sha256": [
+    "30fc05968b219ff515e374457192590191429d6c1ed0c0aab3344ad56c7e8669",
+    "c72023622609c817e1d0b007ce624115149b3843efa76deca9f31c7e92a49568"
+  ],
+  "response": {
+    "id": "chatcmpl-a956a3e344dbb41b",
+    "object": "chat.completion",
+    "created": 1793800373,
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"phrase\": \"the person in a light-colored, sleeveless, asymmetrical dress with a draped front and a high side slit\",\n  \"supported_attributes\": [\"light-colored\", \"sleeveless\", \"asymmetrical dress\", \"draped front\", \"high side slit\"],\n  \"visually_distinct\": false,\n  \"limitations\": \"The dress style is shared by multiple dancers in the gallery, making the description not uniquely distinguishing. The target is visually identical to others in attire and appearance.\"\n}",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 1433,
+      "total_tokens": 1540,
+      "completion_tokens": 107,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "check": {
+    "valid": true,
+    "parsed": {
+      "phrase": "the person in a light-colored, sleeveless, asymmetrical dress with a draped front and a high side slit",
+      "supported_attributes": [
+        "light-colored",
+        "sleeveless",
+        "asymmetrical dress",
+        "draped front",
+        "high side slit"
+      ],
+      "visually_distinct": false,
+      "limitations": "The dress style is shared by multiple dancers in the gallery, making the description not uniquely distinguishing. The target is visually identical to others in attire and appearance."
+    },
+    "phrase": "the person in a light-colored, sleeveless, asymmetrical dress with a draped front and a high side slit",
+    "error": null
+  },
+  "inference_policy_sha256": "ea3ce06e83208db2fc1ed693ee2ac1b349f8ae344fcdc2cb0a22e30ef8df60e3"
+}

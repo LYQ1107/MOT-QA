@@ -1,0 +1,37 @@
+{
+  "status": "PASSED",
+  "verified_questions": 3,
+  "method": "derive visible-frame gaps and first-return frame order directly from original GT text; per-dataset visibility convention unchanged",
+  "checks": [
+    {
+      "qa_id": "motqa_precheck_04_temporal_v2",
+      "original_index": 4,
+      "raw_GT_first_return_frames": {
+        "A": 809,
+        "B": 896
+      },
+      "earlier_role": "A",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_precheck_05_temporal_v2",
+      "original_index": 5,
+      "raw_GT_first_return_frames": {
+        "A": 534,
+        "B": 425
+      },
+      "earlier_role": "B",
+      "status": "PASSED"
+    },
+    {
+      "qa_id": "motqa_precheck_17_temporal_v2",
+      "original_index": 17,
+      "raw_GT_first_return_frames": {
+        "A": 735,
+        "B": 685
+      },
+      "earlier_role": "B",
+      "status": "PASSED"
+    }
+  ]
+}

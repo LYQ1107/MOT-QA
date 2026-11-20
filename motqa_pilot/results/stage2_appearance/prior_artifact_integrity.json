@@ -1,0 +1,8 @@
+{
+  "at": "2026-11-04T14:32:33.328307+00:00",
+  "files_checked": 246,
+  "all_passed": true,
+  "append_only_downloads_log_prefix_preserved": true,
+  "log_archive": "/home/user/motqa_pilot/sources/appearance/downloads_log_before_appearance.md",
+  "note": "Completed snapshots are unchanged. Their historical logs/downloads.md bytes are verified against the saved archive and exact current-log prefix because new authorized downloads require appending to that log."
+}

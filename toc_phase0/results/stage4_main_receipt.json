@@ -1,0 +1,92 @@
+{
+  "status": "STAGE4_MAIN_COMPLETE_STOP_BEFORE_SUPPLEMENT",
+  "completed_at": "2026-11-02T11:18:46.723870+08:00",
+  "report": "/data2/user/toc_phase0/results/stage4_main_report.md",
+  "main_predictions": 2996,
+  "guided_predictions": 1200,
+  "primary_test_trackable": {
+    "A": {
+      "total": 251,
+      "correct": 89,
+      "accuracy": 0.3545816733067729,
+      "covered": 251,
+      "coverage": 1.0,
+      "accuracy_covered": 0.3545816733067729,
+      "parse_failures": 41,
+      "parse_failure_rate": 0.16334661354581673,
+      "numerical_total": 81,
+      "numerical_legal": 40,
+      "numerical_legal_ratio": 0.49382716049382713
+    },
+    "B": {
+      "total": 251,
+      "correct": 88,
+      "accuracy": 0.350597609561753,
+      "covered": 251,
+      "coverage": 1.0,
+      "accuracy_covered": 0.350597609561753,
+      "parse_failures": 20,
+      "parse_failure_rate": 0.0796812749003984,
+      "numerical_total": 81,
+      "numerical_legal": 61,
+      "numerical_legal_ratio": 0.7530864197530864
+    },
+    "C": {
+      "total": 251,
+      "correct": 90,
+      "accuracy": 0.35856573705179284,
+      "covered": 251,
+      "coverage": 1.0,
+      "accuracy_covered": 0.35856573705179284,
+      "parse_failures": 36,
+      "parse_failure_rate": 0.14342629482071714,
+      "numerical_total": 81,
+      "numerical_legal": 45,
+      "numerical_legal_ratio": 0.5555555555555556
+    },
+    "D": {
+      "total": 251,
+      "correct": 88,
+      "accuracy": 0.350597609561753,
+      "covered": 251,
+      "coverage": 1.0,
+      "accuracy_covered": 0.350597609561753,
+      "parse_failures": 24,
+      "parse_failure_rate": 0.09561752988047809,
+      "numerical_total": 81,
+      "numerical_legal": 57,
+      "numerical_legal_ratio": 0.7037037037037037
+    }
+  },
+  "hypotheses": [
+    {
+      "id": "H1",
+      "conclusion": "not_supported"
+    },
+    {
+      "id": "H2",
+      "conclusion": "compatible_but_not_equivalence_proof"
+    },
+    {
+      "id": "H3",
+      "conclusion": "inconclusive"
+    },
+    {
+      "id": "H4",
+      "conclusion": "not_supported"
+    },
+    {
+      "id": "H5",
+      "conclusion": "not_supported"
+    }
+  ],
+  "frozen_config_unchanged": true,
+  "supplemental_template_started": false,
+  "missing_predictions": 0,
+  "elapsed_inference_s": 4120.068,
+  "elapsed_from_preregistration_s": 4378.404271,
+  "review_completed_at": "2026-11-02T11:25:40.662564+08:00",
+  "examples_saved": 40,
+  "known_gpu_processes_remaining": [],
+  "elapsed_until_review_from_D_registration_s": 4792.346081
+}

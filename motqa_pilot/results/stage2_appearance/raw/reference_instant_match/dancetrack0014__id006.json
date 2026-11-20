@@ -1,0 +1,75 @@
+{
+  "unit_key": "dancetrack0014__id006",
+  "sequence": "dancetrack0014",
+  "gt_id": 6,
+  "phase": "reference_instant_match",
+  "started_at": "2026-11-04T14:13:42.857161+00:00",
+  "completed_at": "2026-11-04T14:13:50.834707+00:00",
+  "seconds": 7.977584673091769,
+  "prompt_text": "At this reference instant, match the following appearance phrase to ALL visible people: \"the person in a long-sleeved purple crop top and white shorts\"\nThe first image is the full frame, with anonymous boxes and labels. The other image(s) are crops of EVERY GT-present person at this SAME instant. Read the central person in each crop; neighboring bodies may overlap. Labels are bookkeeping only. Do not use gallery order, location, pose, or box color as appearance attributes. Include ALL people satisfying the full appearance phrase in matches, and any plausible but obscured/unclear people in uncertain. A partly hidden target whose defining clothing cannot be seen is uncertain. No forced choice; none or several are valid outcomes. Omitted labels mean clear non-matches.\nReturn {\"matches\":[\"P01\"],\"uncertain\":[],\"reason\":\"brief visual explanation\"}. Valid labels: [\"P01\", \"P02\", \"P03\", \"P04\", \"P05\", \"P06\", \"P07\", \"P08\", \"P09\", \"P10\"].",
+  "image_paths": [
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0014/anchor_id006_f000731/full_frame.jpg",
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0014/anchor_id006_f000731/local_gallery_page00.jpg"
+  ],
+  "image_sha256": [
+    "da412c011844c0c60fefb9d18b71a56df80a10b2d960c8116cd2b82dcba97e4a",
+    "ec78cc44f0ae5824884e332cdbc9db17bbbd2306c8cabf9c00c19609a9ec96a7"
+  ],
+  "response": {
+    "id": "chatcmpl-9bbbcc54051ac6c0",
+    "object": "chat.completion",
+    "created": 1793801622,
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"matches\":[\"P01\",\"P03\",\"P04\"],\"uncertain\":[],\"reason\":\"P01, P03, and P04 are clearly wearing long-sleeved purple crop tops and white shorts. P05 wears a light blue top, P06 wears a white top with purple pants, P07 wears a purple top with a light skirt, P08 wears a purple top with white pants, P09 wears a white top with a purple skirt, and P10 wears a white top with purple pants — none match the full description. P02 is partially visible but wears a white top and purple pants, not matching the required outfit.\"}",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 1661,
+      "total_tokens": 1804,
+      "completion_tokens": 143,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "check": {
+    "valid": true,
+    "parsed": {
+      "matches": [
+        "P01",
+        "P03",
+        "P04"
+      ],
+      "uncertain": [],
+      "reason": "P01, P03, and P04 are clearly wearing long-sleeved purple crop tops and white shorts. P05 wears a light blue top, P06 wears a white top with purple pants, P07 wears a purple top with a light skirt, P08 wears a purple top with white pants, P09 wears a white top with a purple skirt, and P10 wears a white top with purple pants — none match the full description. P02 is partially visible but wears a white top and purple pants, not matching the required outfit."
+    },
+    "matched_gt_ids": [
+      4,
+      6,
+      0
+    ],
+    "uncertain_gt_ids": [],
+    "passed": false,
+    "error": null
+  },
+  "inference_policy_sha256": "ea3ce06e83208db2fc1ed693ee2ac1b349f8ae344fcdc2cb0a22e30ef8df60e3"
+}

@@ -1,0 +1,72 @@
+{
+  "unit_key": "dancetrack0063__id005",
+  "sequence": "dancetrack0063",
+  "gt_id": 5,
+  "phase": "generate",
+  "started_at": "2026-11-04T13:57:17.988919+00:00",
+  "completed_at": "2026-11-04T13:57:26.525417+00:00",
+  "seconds": 8.536527956370264,
+  "prompt_text": "The first image shows three crops of ONE target person at different times. The other image(s) show comparison people from the SAME video; every labeled tile is a different annotated person, shown in up to three crops. These comparison labels are anonymous bookkeeping labels, not appearance attributes.\nWrite one concise English noun phrase (at most 30 words), starting with \"the person\", describing the target using stable, clearly visible clothing, patterns, hair, or accessories. Prefer details that distinguish this person from comparison people. Do not mention actions, pose, scene location, time, spatial relation to others, gallery labels, or GT identity numbers. Visible garment lettering is allowed only if clearly legible. Do not infer colors/details hidden by another person. If no reliable description is possible, use an empty phrase. If a truthful description is shared by others, still provide it and set visually_distinct to false.\nReturn {\"phrase\":\"...\", \"supported_attributes\":[\"...\"], \"visually_distinct\":true, \"limitations\":\"...\"}. A description need not be unique; truthful uncertainty is preferred to invented uniqueness.\nThe target person is also included once among the comparison gallery tiles. Identify that repeated target visually; do not treat the repeated target tile as a different rival. Look for truthful stable appearance that distinguishes the target from OTHER people.",
+  "image_paths": [
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0063/id005_target.jpg",
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0063/generation_gallery_page00.jpg"
+  ],
+  "image_sha256": [
+    "82351be574439be958afe1e52abf2f0f9a8656495864402cc31394082154b1f7",
+    "ccf1f2d97eb46a6ba7ca08bc71125f58b8b3471d1606203c7ee94cbf7e8acc77"
+  ],
+  "response": {
+    "id": "chatcmpl-8cba166a816d0b4d",
+    "object": "chat.completion",
+    "created": 1793800638,
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"phrase\": \"the person in a black sequined dress with red fringe hem and red floral embellishments, wearing a red and black headband and holding yellow-orange scarves\",\n  \"supported_attributes\": [\n    \"black sequined dress\",\n    \"red fringe hem\",\n    \"red floral embellishments\",\n    \"red and black headband\",\n    \"yellow-orange scarves\"\n  ],\n  \"visually_distinct\": false,\n  \"limitations\": \"The described appearance is shared by multiple people in the gallery, including P01, P02, P03, P04, P05, P06, P07, and P08, making it non-unique. The target is visually identical to these others in visible clothing and accessories.\"\n}",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 1433,
+      "total_tokens": 1596,
+      "completion_tokens": 163,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "check": {
+    "valid": true,
+    "parsed": {
+      "phrase": "the person in a black sequined dress with red fringe hem and red floral embellishments, wearing a red and black headband and holding yellow-orange scarves",
+      "supported_attributes": [
+        "black sequined dress",
+        "red fringe hem",
+        "red floral embellishments",
+        "red and black headband",
+        "yellow-orange scarves"
+      ],
+      "visually_distinct": false,
+      "limitations": "The described appearance is shared by multiple people in the gallery, including P01, P02, P03, P04, P05, P06, P07, and P08, making it non-unique. The target is visually identical to these others in visible clothing and accessories."
+    },
+    "phrase": "the person in a black sequined dress with red fringe hem and red floral embellishments, wearing a red and black headband and holding yellow-orange scarves",
+    "error": null
+  },
+  "inference_policy_sha256": "ea3ce06e83208db2fc1ed693ee2ac1b349f8ae344fcdc2cb0a22e30ef8df60e3"
+}

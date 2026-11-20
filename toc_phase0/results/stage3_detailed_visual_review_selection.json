@@ -1,0 +1,16 @@
+{
+  "selected_at": "2026-11-01T14:49:05.931749+08:00",
+  "video_ids": [
+    "charades_1514T",
+    "charades_3LN8C",
+    "charades_8OHDL",
+    "charades_JTTAP",
+    "charades_W4W97",
+    "mose_5ibctv9k",
+    "mose_f9oeua6y",
+    "perception_test_video_3232",
+    "perception_test_video_7380",
+    "perception_test_video_9148"
+  ],
+  "method": "10 fixed pilot videos with visible-text return/fully-hidden predicates, including the ReID example and all three sources; selected before looking at trajectories or correctness; qualitative occlusion audit, not random population estimate"
+}

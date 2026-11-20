@@ -1,0 +1,72 @@
+{
+  "registered_at": "2026-11-01T18:57:08.518302+08:00",
+  "deadline": "2026-11-02T18:57:08.518302+08:00",
+  "maximum_work_hours": 24,
+  "seed": 42,
+  "split_sha256": "e1d87675aca7e69d57a5ac99dc7ecdedaf8ca8c4efb1588bb86f42066fce80b3",
+  "preregistration_sha256": "4a4d1fdbb57158696986a99130d0a4e2ba27a51c73776c813347829d4b9a2593",
+  "memory_candidates": [
+    10,
+    25,
+    50
+  ],
+  "memory_baseline": "reuse accepted memo10 raw outputs on development only",
+  "filter_trials": [
+    {
+      "name": "none",
+      "short_seconds": 0,
+      "low_confidence": 0,
+      "top_k": null
+    },
+    {
+      "name": "short_weak",
+      "short_seconds": 0.6,
+      "low_confidence": 0.3,
+      "top_k": null
+    },
+    {
+      "name": "short_weak_top5",
+      "short_seconds": 0.6,
+      "low_confidence": 0.3,
+      "top_k": 5
+    },
+    {
+      "name": "short_weak_top10",
+      "short_seconds": 0.6,
+      "low_confidence": 0.3,
+      "top_k": 10
+    }
+  ],
+  "filter_selection": "select top5 or top10 satisfying development text P95<=8000 and max<=12000; if neither fits, the single predefined fallback is top3",
+  "duration_definition": "observed frame count / 5; rank by mean confidence times observed duration, equal to sum(confidence)/5; ties by original ID",
+  "event_candidates": [
+    "legacy_gap_0.5",
+    "public_3fps_min2_confirm2"
+  ],
+  "public_event_reference": {
+    "url": "https://arxiv.org/html/2605.09904#A1",
+    "section": "Appendix A, Table 3",
+    "source_tracking_fps": 3,
+    "minimum_occlusion_frames": 2,
+    "reappearance_visible_frames": 2,
+    "implementation": "MASA remains 5fps; project visibility to a 3fps nearest-sample grid (max time offset 1/15s), require two absent samples and two consecutive visible samples; backdate confirmed return to first visible sample",
+    "limitation": "box absence/edge position remain proxies; no SAM masks or mask-area thresholds used"
+  },
+  "selection_order": [
+    "main-four trackable development accuracy with abstentions counted wrong",
+    "main-four trackable development coverage"
+  ],
+  "ties": {
+    "memory": "lower fresh-ID reacquisition proxy, then smaller memory",
+    "filter": "smaller K",
+    "event": "public_3fps_min2_confirm2"
+  },
+  "optional_b2": "deferred; do not change the main serializer or preregistered subset",
+  "service_context_candidates": [
+    32768,
+    65536
+  ],
+  "context_policy": "choose a supported context covering complete-input bounds plus generation budget; all four future conditions use the same configuration",
+  "test_policy": "No new test rule accuracy before immutable frozen_config_v1. The requested historical stage2-vs-stage3 full-subset comparison is written now for reporting and not displayed to the selector.",
+  "final_retracking": "After freeze, recompute all 689 videos in tracks/v1/raw; never reuse development trial outputs as final raw outputs"
+}

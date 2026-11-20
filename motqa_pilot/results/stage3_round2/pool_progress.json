@@ -1,0 +1,1674 @@
+[
+  {
+    "video": [
+      "DanceTrack",
+      "dancetrack0004"
+    ],
+    "refs": {
+      "position": 20,
+      "box": 98,
+      "appearance": 1
+    },
+    "pool_n": 458,
+    "types": {
+      "O7": 48,
+      "O8": 40,
+      "O4": 88,
+      "O6": 40,
+      "O2": 80,
+      "composition": 40,
+      "O5": 40,
+      "O1": 82
+    }
+  },
+  {
+    "video": [
+      "DanceTrack",
+      "dancetrack0005"
+    ],
+    "refs": {
+      "box": 100,
+      "appearance": 3,
+      "position": 17,
+      "event": 1
+    },
+    "pool_n": 598,
+    "types": {
+      "O1": 108,
+      "O8": 40,
+      "O6": 72,
+      "composition": 49,
+      "O7": 68,
+      "O2": 102,
+      "O4": 108,
+      "O5": 51
+    }
+  },
+  {
+    "video": [
+      "DanceTrack",
+      "dancetrack0007"
+    ],
+    "refs": {
+      "box": 200,
+      "position": 29,
+      "event": 2
+    },
+    "pool_n": 702,
+    "types": {
+      "O6": 75,
+      "O1": 125,
+      "O4": 98,
+      "O8": 40,
+      "O2": 119,
+      "composition": 75,
+      "O7": 72,
+      "O5": 44,
+      "O3": 54
+    }
+  },
+  {
+    "video": [
+      "DanceTrack",
+      "dancetrack0010"
+    ],
+    "refs": {
+      "box": 150,
+      "appearance": 3,
+      "position": 21,
+      "event": 1
+    },
+    "pool_n": 826,
+    "types": {
+      "O4": 114,
+      "O5": 56,
+      "composition": 82,
+      "O8": 40,
+      "O2": 142,
+      "O6": 123,
+      "O7": 101,
+      "O1": 116,
+      "O3": 52
+    }
+  },
+  {
+    "video": [
+      "DanceTrack",
+      "dancetrack0018"
+    ],
+    "refs": {
+      "box": 57,
+      "appearance": 1,
+      "position": 1
+    },
+    "pool_n": 279,
+    "types": {
+      "O4": 46,
+      "O7": 26,
+      "O8": 40,
+      "O2": 48,
+      "O5": 23,
+      "O6": 26,
+      "O1": 62,
+      "composition": 8
+    }
+  },
+  {
+    "video": [
+      "DanceTrack",
+      "dancetrack0019"
+    ],
+    "refs": {
+      "box": 175,
+      "position": 49
+    },
+    "pool_n": 507,
+    "types": {
+      "composition": 40,
+      "O2": 80,
+      "O1": 120,
+      "O4": 80,
+      "O6": 40,
+      "O8": 40,
+      "O7": 49,
+      "O5": 40,
+      "O3": 18
+    }
+  },
+  {
+    "video": [
+      "DanceTrack",
+      "dancetrack0025"
+    ],
+    "refs": {
+      "box": 189,
+      "position": 15,
+      "event": 1
+    },
+    "pool_n": 509,
+    "types": {
+      "O8": 40,
+      "O4": 88,
+      "O6": 56,
+      "O7": 56,
+      "O5": 44,
+      "O2": 96,
+      "O1": 93,
+      "composition": 20,
+      "O3": 16
+    }
+  },
+  {
+    "video": [
+      "DanceTrack",
+      "dancetrack0026"
+    ],
+    "refs": {
+      "box": 34,
+      "position": 9,
+      "event": 2
+    },
+    "pool_n": 260,
+    "types": {
+      "O3": 38,
+      "O5": 27,
+      "composition": 32,
+      "O8": 7,
+      "O6": 23,
+      "O4": 66,
+      "O1": 20,
+      "O7": 29,
+      "O2": 18
+    }
+  },
+  {
+    "video": [
+      "DanceTrack",
+      "dancetrack0030"
+    ],
+    "refs": {
+      "box": 150,
+      "position": 28
+    },
+    "pool_n": 459,
+    "types": {
+      "O4": 80,
+      "O6": 40,
+      "O1": 99,
+      "composition": 40,
+      "O5": 40,
+      "O7": 40,
+      "O2": 80,
+      "O8": 40
+    }
+  },
+  {
+    "video": [
+      "DanceTrack",
+      "dancetrack0034"
+    ],
+    "refs": {
+      "box": 191,
+      "position": 38,
+      "event": 6
+    },
+    "pool_n": 751,
+    "types": {
+      "O6": 75,
+      "O7": 129,
+      "O2": 104,
+      "O8": 40,
+      "composition": 44,
+      "O4": 114,
+      "O5": 52,
+      "O1": 113,
+      "O3": 80
+    }
+  },
+  {
+    "video": [
+      "DanceTrack",
+      "dancetrack0035"
+    ],
+    "refs": {
+      "box": 157,
+      "position": 13,
+      "appearance": 1
+    },
+    "pool_n": 470,
+    "types": {
+      "O7": 46,
+      "O2": 93,
+      "O6": 55,
+      "O8": 40,
+      "O4": 86,
+      "O1": 79,
+      "composition": 41,
+      "O5": 30
+    }
+  },
+  {
+    "video": [
+      "DanceTrack",
+      "dancetrack0041"
+    ],
+    "refs": {
+      "position": 62,
+      "box": 339,
+      "event": 6
+    },
+    "pool_n": 768,
+    "types": {
+      "O6": 75,
+      "O8": 40,
+      "O7": 96,
+      "O1": 132,
+      "O5": 57,
+      "composition": 52,
+      "O4": 118,
+      "O2": 119,
+      "O3": 79
+    }
+  },
+  {
+    "video": [
+      "DanceTrack",
+      "dancetrack0043"
+    ],
+    "refs": {
+      "position": 1,
+      "box": 3
+    },
+    "pool_n": 0,
+    "types": {}
+  },
+  {
+    "video": [
+      "DanceTrack",
+      "dancetrack0047"
+    ],
+    "refs": {
+      "box": 154,
+      "position": 19,
+      "event": 1
+    },
+    "pool_n": 560,
+    "types": {
+      "O2": 82,
+      "O6": 47,
+      "O5": 40,
+      "composition": 49,
+      "O4": 90,
+      "O1": 111,
+      "O7": 53,
+      "O8": 40,
+      "O3": 48
+    }
+  },
+  {
+    "video": [
+      "DanceTrack",
+      "dancetrack0058"
+    ],
+    "refs": {
+      "box": 175,
+      "position": 26,
+      "appearance": 3
+    },
+    "pool_n": 790,
+    "types": {
+      "O6": 90,
+      "O7": 99,
+      "O2": 141,
+      "O8": 40,
+      "composition": 90,
+      "O4": 120,
+      "O1": 117,
+      "O5": 59,
+      "O3": 34
+    }
+  },
+  {
+    "video": [
+      "DanceTrack",
+      "dancetrack0063"
+    ],
+    "refs": {
+      "box": 188,
+      "position": 11,
+      "event": 1
+    },
+    "pool_n": 587,
+    "types": {
+      "composition": 41,
+      "O6": 45,
+      "O4": 82,
+      "O8": 40,
+      "O2": 81,
+      "O7": 77,
+      "O1": 87,
+      "O3": 65,
+      "O5": 69
+    }
+  },
+  {
+    "video": [
+      "DanceTrack",
+      "dancetrack0065"
+    ],
+    "refs": {
+      "box": 125,
+      "position": 19
+    },
+    "pool_n": 478,
+    "types": {
+      "O2": 80,
+      "composition": 40,
+      "O6": 40,
+      "O7": 40,
+      "O1": 118,
+      "O5": 40,
+      "O4": 80,
+      "O8": 40
+    }
+  },
+  {
+    "video": [
+      "DanceTrack",
+      "dancetrack0073"
+    ],
+    "refs": {
+      "box": 71,
+      "position": 3,
+      "event": 1
+    },
+    "pool_n": 383,
+    "types": {
+      "O4": 68,
+      "O2": 56,
+      "composition": 20,
+      "O7": 48,
+      "O1": 72,
+      "O6": 52,
+      "O3": 14,
+      "O5": 33,
+      "O8": 20
+    }
+  },
+  {
+    "video": [
+      "DanceTrack",
+      "dancetrack0077"
+    ],
+    "refs": {
+      "box": 223,
+      "position": 10
+    },
+    "pool_n": 449,
+    "types": {
+      "O6": 40,
+      "O2": 80,
+      "composition": 40,
+      "O1": 89,
+      "O4": 80,
+      "O8": 40,
+      "O7": 40,
+      "O5": 40
+    }
+  },
+  {
+    "video": [
+      "DanceTrack",
+      "dancetrack0079"
+    ],
+    "refs": {
+      "box": 336,
+      "position": 35,
+      "event": 3
+    },
+    "pool_n": 525,
+    "types": {
+      "O6": 75,
+      "composition": 40,
+      "O2": 80,
+      "O5": 48,
+      "O1": 90,
+      "O4": 96,
+      "O8": 40,
+      "O7": 56
+    }
+  },
+  {
+    "video": [
+      "DanceTrack",
+      "dancetrack0081"
+    ],
+    "refs": {
+      "box": 481,
+      "event": 5,
+      "position": 13
+    },
+    "pool_n": 797,
+    "types": {
+      "O2": 134,
+      "O7": 114,
+      "O4": 120,
+      "O6": 75,
+      "composition": 75,
+      "O8": 40,
+      "O1": 130,
+      "O5": 65,
+      "O3": 44
+    }
+  },
+  {
+    "video": [
+      "DanceTrack",
+      "dancetrack0090"
+    ],
+    "refs": {
+      "box": 152,
+      "position": 20,
+      "event": 2
+    },
+    "pool_n": 582,
+    "types": {
+      "O1": 121,
+      "O4": 86,
+      "O6": 42,
+      "O2": 88,
+      "O5": 41,
+      "O7": 71,
+      "composition": 35,
+      "O8": 40,
+      "O3": 58
+    }
+  },
+  {
+    "video": [
+      "DanceTrack",
+      "dancetrack0094"
+    ],
+    "refs": {
+      "box": 219,
+      "position": 11,
+      "event": 3
+    },
+    "pool_n": 621,
+    "types": {
+      "O5": 43,
+      "O2": 106,
+      "O4": 90,
+      "O7": 93,
+      "O8": 40,
+      "O6": 68,
+      "O3": 64,
+      "O1": 88,
+      "composition": 29
+    }
+  },
+  {
+    "video": [
+      "DanceTrack",
+      "dancetrack0097"
+    ],
+    "refs": {
+      "position": 22,
+      "box": 100,
+      "event": 1,
+      "appearance": 1
+    },
+    "pool_n": 685,
+    "types": {
+      "composition": 65,
+      "O4": 108,
+      "O6": 60,
+      "O8": 40,
+      "O7": 104,
+      "O5": 46,
+      "O2": 92,
+      "O1": 90,
+      "O3": 80
+    }
+  },
+  {
+    "video": [
+      "MOT17",
+      "MOT17-02-FRCNN"
+    ],
+    "refs": {
+      "position": 7,
+      "box": 11,
+      "event": 1
+    },
+    "pool_n": 51,
+    "types": {
+      "O5": 8,
+      "O2": 17,
+      "composition": 15,
+      "O8": 6,
+      "O1": 4,
+      "O7": 1
+    }
+  },
+  {
+    "video": [
+      "MOT17",
+      "MOT17-04-FRCNN"
+    ],
+    "refs": {
+      "box": 113,
+      "position": 2,
+      "event": 1
+    },
+    "pool_n": 256,
+    "types": {
+      "O2": 44,
+      "O6": 20,
+      "O5": 20,
+      "O7": 31,
+      "composition": 21,
+      "O8": 40,
+      "O1": 58,
+      "O3": 22
+    }
+  },
+  {
+    "video": [
+      "MOT17",
+      "MOT17-05-FRCNN"
+    ],
+    "refs": {
+      "box": 25,
+      "position": 14,
+      "event": 3
+    },
+    "pool_n": 128,
+    "types": {
+      "O7": 61,
+      "O6": 23,
+      "O3": 2,
+      "O1": 8,
+      "O5": 32,
+      "O2": 2
+    }
+  },
+  {
+    "video": [
+      "MOT17",
+      "MOT17-09-FRCNN"
+    ],
+    "refs": {
+      "box": 5,
+      "position": 2,
+      "event": 1
+    },
+    "pool_n": 0,
+    "types": {}
+  },
+  {
+    "video": [
+      "MOT17",
+      "MOT17-10-FRCNN"
+    ],
+    "refs": {
+      "position": 10,
+      "box": 29,
+      "event": 1
+    },
+    "pool_n": 25,
+    "types": {
+      "O2": 10,
+      "O5": 3,
+      "O8": 6,
+      "O1": 4,
+      "O7": 2
+    }
+  },
+  {
+    "video": [
+      "MOT17",
+      "MOT17-11-FRCNN"
+    ],
+    "refs": {
+      "box": 27,
+      "position": 8,
+      "event": 2
+    },
+    "pool_n": 83,
+    "types": {
+      "O6": 21,
+      "O7": 28,
+      "O8": 12,
+      "O5": 13,
+      "O1": 7,
+      "O2": 2
+    }
+  },
+  {
+    "video": [
+      "MOT17",
+      "MOT17-13-FRCNN"
+    ],
+    "refs": {
+      "position": 8,
+      "box": 21,
+      "event": 3
+    },
+    "pool_n": 41,
+    "types": {
+      "O5": 17,
+      "O7": 24
+    }
+  },
+  {
+    "video": [
+      "SportsMOT",
+      "v_00HRwkvvjtQ_c001"
+    ],
+    "refs": {
+      "box": 250,
+      "event": 5,
+      "position": 25
+    },
+    "pool_n": 854,
+    "types": {
+      "O2": 141,
+      "O4": 120,
+      "O6": 75,
+      "composition": 75,
+      "O8": 40,
+      "O5": 60,
+      "O7": 133,
+      "O1": 134,
+      "O3": 76
+    }
+  },
+  {
+    "video": [
+      "SportsMOT",
+      "v_00HRwkvvjtQ_c003"
+    ],
+    "refs": {
+      "box": 250,
+      "position": 27,
+      "event": 2
+    },
+    "pool_n": 614,
+    "types": {
+      "O6": 40,
+      "O2": 80,
+      "O3": 60,
+      "composition": 40,
+      "O8": 40,
+      "O4": 80,
+      "O1": 116,
+      "O5": 64,
+      "O7": 94
+    }
+  },
+  {
+    "video": [
+      "SportsMOT",
+      "v_00HRwkvvjtQ_c005"
+    ],
+    "refs": {
+      "box": 211,
+      "position": 18
+    },
+    "pool_n": 530,
+    "types": {
+      "composition": 40,
+      "O8": 40,
+      "O7": 70,
+      "O6": 40,
+      "O1": 84,
+      "O2": 80,
+      "O4": 80,
+      "O5": 38,
+      "O3": 58
+    }
+  },
+  {
+    "video": [
+      "SportsMOT",
+      "v_00HRwkvvjtQ_c007"
+    ],
+    "refs": {
+      "box": 215,
+      "position": 20,
+      "event": 1
+    },
+    "pool_n": 577,
+    "types": {
+      "O5": 42,
+      "composition": 48,
+      "O4": 90,
+      "O8": 40,
+      "O6": 57,
+      "O2": 94,
+      "O7": 78,
+      "O1": 92,
+      "O3": 36
+    }
+  },
+  {
+    "video": [
+      "SportsMOT",
+      "v_00HRwkvvjtQ_c008"
+    ],
+    "refs": {
+      "box": 214,
+      "position": 22
+    },
+    "pool_n": 465,
+    "types": {
+      "composition": 40,
+      "O6": 40,
+      "O2": 80,
+      "O7": 40,
+      "O5": 40,
+      "O8": 40,
+      "O4": 80,
+      "O1": 105
+    }
+  },
+  {
+    "video": [
+      "SportsMOT",
+      "v_00HRwkvvjtQ_c011"
+    ],
+    "refs": {
+      "box": 196,
+      "position": 24,
+      "event": 2
+    },
+    "pool_n": 636,
+    "types": {
+      "O2": 86,
+      "O4": 98,
+      "O6": 67,
+      "O1": 108,
+      "O7": 85,
+      "composition": 52,
+      "O8": 40,
+      "O5": 38,
+      "O3": 62
+    }
+  },
+  {
+    "video": [
+      "SportsMOT",
+      "v_0kUtTtmLaJA_c004"
+    ],
+    "refs": {
+      "box": 150,
+      "position": 15,
+      "appearance": 1
+    },
+    "pool_n": 452,
+    "types": {
+      "O2": 80,
+      "O1": 89,
+      "composition": 40,
+      "O6": 40,
+      "O4": 80,
+      "O7": 43,
+      "O8": 40,
+      "O5": 40
+    }
+  },
+  {
+    "video": [
+      "SportsMOT",
+      "v_0kUtTtmLaJA_c005"
+    ],
+    "refs": {
+      "box": 69,
+      "position": 12,
+      "appearance": 1
+    },
+    "pool_n": 393,
+    "types": {
+      "O7": 34,
+      "O2": 80,
+      "O4": 70,
+      "O1": 71,
+      "O8": 40,
+      "O6": 40,
+      "composition": 39,
+      "O5": 19
+    }
+  },
+  {
+    "video": [
+      "SportsMOT",
+      "v_0kUtTtmLaJA_c006"
+    ],
+    "refs": {
+      "box": 53,
+      "position": 13,
+      "event": 3,
+      "appearance": 1
+    },
+    "pool_n": 433,
+    "types": {
+      "O4": 52,
+      "O6": 45,
+      "O2": 89,
+      "O8": 40,
+      "O7": 55,
+      "composition": 24,
+      "O1": 58,
+      "O3": 42,
+      "O5": 28
+    }
+  },
+  {
+    "video": [
+      "SportsMOT",
+      "v_0kUtTtmLaJA_c007"
+    ],
+    "refs": {
+      "position": 8,
+      "box": 43,
+      "event": 3
+    },
+    "pool_n": 278,
+    "types": {
+      "O2": 79,
+      "composition": 23,
+      "O6": 37,
+      "O4": 58,
+      "O8": 40,
+      "O1": 41
+    }
+  },
+  {
+    "video": [
+      "SportsMOT",
+      "v_0kUtTtmLaJA_c008"
+    ],
+    "refs": {
+      "box": 40,
+      "position": 9,
+      "appearance": 1
+    },
+    "pool_n": 257,
+    "types": {
+      "O4": 52,
+      "O2": 75,
+      "O6": 36,
+      "O1": 25,
+      "O8": 40,
+      "composition": 29
+    }
+  },
+  {
+    "video": [
+      "SportsMOT",
+      "v_0kUtTtmLaJA_c010"
+    ],
+    "refs": {
+      "position": 8,
+      "box": 32,
+      "event": 2,
+      "appearance": 2
+    },
+    "pool_n": 242,
+    "types": {
+      "O6": 24,
+      "O8": 40,
+      "O2": 74,
+      "O1": 34,
+      "O4": 50,
+      "composition": 20
+    }
+  },
+  {
+    "video": [
+      "SportsMOT",
+      "v_2QhNRucNC7E_c017"
+    ],
+    "refs": {
+      "box": 149,
+      "position": 14,
+      "appearance": 1,
+      "event": 1
+    },
+    "pool_n": 489,
+    "types": {
+      "O4": 70,
+      "O2": 72,
+      "O1": 66,
+      "O6": 60,
+      "O8": 40,
+      "composition": 25,
+      "O7": 86,
+      "O3": 40,
+      "O5": 30
+    }
+  },
+  {
+    "video": [
+      "SportsMOT",
+      "v_4-EmEtrturE_c009"
+    ],
+    "refs": {
+      "box": 18,
+      "position": 5,
+      "appearance": 1
+    },
+    "pool_n": 63,
+    "types": {
+      "O8": 12,
+      "O1": 8,
+      "O4": 8,
+      "O2": 26,
+      "composition": 4,
+      "O6": 5
+    }
+  },
+  {
+    "video": [
+      "SportsMOT",
+      "v_4r8QL_wglzQ_c001"
+    ],
+    "refs": {
+      "box": 250,
+      "position": 25,
+      "event": 2
+    },
+    "pool_n": 694,
+    "types": {
+      "O6": 75,
+      "O4": 92,
+      "O2": 116,
+      "O5": 67,
+      "O8": 40,
+      "composition": 61,
+      "O7": 76,
+      "O1": 114,
+      "O3": 53
+    }
+  },
+  {
+    "video": [
+      "SportsMOT",
+      "v_5ekaksddqrc_c001"
+    ],
+    "refs": {
+      "box": 157,
+      "position": 17
+    },
+    "pool_n": 449,
+    "types": {
+      "O6": 40,
+      "O2": 80,
+      "composition": 40,
+      "O8": 40,
+      "O1": 89,
+      "O4": 80,
+      "O7": 40,
+      "O5": 40
+    }
+  },
+  {
+    "video": [
+      "SportsMOT",
+      "v_5ekaksddqrc_c002"
+    ],
+    "refs": {
+      "box": 213,
+      "position": 24,
+      "event": 2
+    },
+    "pool_n": 702,
+    "types": {
+      "O2": 94,
+      "O6": 75,
+      "composition": 54,
+      "O4": 102,
+      "O8": 40,
+      "O3": 65,
+      "O5": 67,
+      "O7": 97,
+      "O1": 108
+    }
+  },
+  {
+    "video": [
+      "SportsMOT",
+      "v_5ekaksddqrc_c003"
+    ],
+    "refs": {
+      "box": 250,
+      "position": 32
+    },
+    "pool_n": 611,
+    "types": {
+      "O6": 40,
+      "O7": 99,
+      "O4": 80,
+      "composition": 40,
+      "O2": 80,
+      "O1": 120,
+      "O8": 40,
+      "O5": 44,
+      "O3": 68
+    }
+  },
+  {
+    "video": [
+      "SportsMOT",
+      "v_5ekaksddqrc_c004"
+    ],
+    "refs": {
+      "box": 232,
+      "position": 31,
+      "event": 2
+    },
+    "pool_n": 749,
+    "types": {
+      "O1": 121,
+      "O8": 40,
+      "composition": 72,
+      "O2": 121,
+      "O6": 75,
+      "O5": 46,
+      "O7": 108,
+      "O4": 98,
+      "O3": 68
+    }
+  },
+  {
+    "video": [
+      "SportsMOT",
+      "v_5ekaksddqrc_c005"
+    ],
+    "refs": {
+      "box": 241,
+      "position": 36,
+      "event": 5
+    },
+    "pool_n": 883,
+    "types": {
+      "O6": 75,
+      "O4": 118,
+      "O8": 40,
+      "O7": 141,
+      "composition": 60,
+      "O2": 141,
+      "O1": 140,
+      "O5": 82,
+      "O3": 86
+    }
+  },
+  {
+    "video": [
+      "SportsMOT",
+      "v_9MHDmAMxO5I_c002"
+    ],
+    "refs": {
+      "box": 16,
+      "position": 8,
+      "appearance": 1
+    },
+    "pool_n": 94,
+    "types": {
+      "O6": 13,
+      "O4": 22,
+      "O2": 13,
+      "O8": 31,
+      "O1": 13,
+      "composition": 2
+    }
+  },
+  {
+    "video": [
+      "SportsMOT",
+      "v_9MHDmAMxO5I_c003"
+    ],
+    "refs": {
+      "appearance": 1,
+      "box": 6,
+      "position": 8
+    },
+    "pool_n": 5,
+    "types": {
+      "O4": 2,
+      "O1": 3
+    }
+  },
+  {
+    "video": [
+      "SportsMOT",
+      "v_9MHDmAMxO5I_c004"
+    ],
+    "refs": {
+      "box": 108,
+      "position": 12,
+      "appearance": 1
+    },
+    "pool_n": 482,
+    "types": {
+      "O8": 40,
+      "O7": 61,
+      "O1": 81,
+      "O2": 80,
+      "composition": 40,
+      "O6": 40,
+      "O4": 80,
+      "O5": 32,
+      "O3": 28
+    }
+  },
+  {
+    "video": [
+      "SportsMOT",
+      "v_9MHDmAMxO5I_c006"
+    ],
+    "refs": {
+      "position": 12,
+      "box": 18,
+      "appearance": 1
+    },
+    "pool_n": 158,
+    "types": {
+      "O1": 24,
+      "O8": 24,
+      "O2": 34,
+      "O6": 30,
+      "O7": 8,
+      "O3": 6,
+      "composition": 8,
+      "O4": 20,
+      "O5": 4
+    }
+  },
+  {
+    "video": [
+      "SportsMOT",
+      "v_9MHDmAMxO5I_c009"
+    ],
+    "refs": {
+      "box": 112,
+      "position": 20,
+      "appearance": 1,
+      "event": 2
+    },
+    "pool_n": 599,
+    "types": {
+      "O4": 80,
+      "O2": 87,
+      "O6": 40,
+      "O7": 95,
+      "O3": 84,
+      "O1": 95,
+      "O5": 38,
+      "O8": 40,
+      "composition": 40
+    }
+  },
+  {
+    "video": [
+      "SportsMOT",
+      "v_BgwzTUxJaeU_c008"
+    ],
+    "refs": {
+      "box": 152,
+      "position": 21
+    },
+    "pool_n": 570,
+    "types": {
+      "O6": 40,
+      "O8": 40,
+      "O2": 80,
+      "O4": 80,
+      "O5": 56,
+      "O7": 95,
+      "composition": 40,
+      "O3": 50,
+      "O1": 89
+    }
+  },
+  {
+    "video": [
+      "SportsMOT",
+      "v_BgwzTUxJaeU_c012"
+    ],
+    "refs": {
+      "box": 203,
+      "position": 22
+    },
+    "pool_n": 472,
+    "types": {
+      "O4": 80,
+      "O8": 40,
+      "O2": 80,
+      "composition": 40,
+      "O6": 40,
+      "O5": 40,
+      "O1": 98,
+      "O7": 54
+    }
+  },
+  {
+    "video": [
+      "SportsMOT",
+      "v_BgwzTUxJaeU_c014"
+    ],
+    "refs": {
+      "box": 250,
+      "event": 2,
+      "position": 26
+    },
+    "pool_n": 676,
+    "types": {
+      "O8": 40,
+      "O6": 75,
+      "composition": 75,
+      "O4": 92,
+      "O2": 137,
+      "O5": 46,
+      "O7": 70,
+      "O1": 120,
+      "O3": 21
+    }
+  },
+  {
+    "video": [
+      "SportsMOT",
+      "v_G-vNjfx1GGc_c004"
+    ],
+    "refs": {
+      "position": 33,
+      "box": 162,
+      "event": 2,
+      "appearance": 1
+    },
+    "pool_n": 586,
+    "types": {
+      "O6": 65,
+      "O4": 92,
+      "composition": 40,
+      "O7": 91,
+      "O2": 80,
+      "O3": 49,
+      "O8": 40,
+      "O5": 40,
+      "O1": 89
+    }
+  },
+  {
+    "video": [
+      "SportsMOT",
+      "v_G-vNjfx1GGc_c008"
+    ],
+    "refs": {
+      "box": 89,
+      "position": 19,
+      "appearance": 1,
+      "event": 4
+    },
+    "pool_n": 514,
+    "types": {
+      "O8": 21,
+      "O4": 96,
+      "composition": 31,
+      "O2": 79,
+      "O6": 70,
+      "O7": 90,
+      "O5": 43,
+      "O1": 52,
+      "O3": 32
+    }
+  },
+  {
+    "video": [
+      "SportsMOT",
+      "v_G-vNjfx1GGc_c600"
+    ],
+    "refs": {
+      "box": 89,
+      "position": 38
+    },
+    "pool_n": 599,
+    "types": {
+      "O6": 40,
+      "O2": 80,
+      "O4": 80,
+      "O1": 99,
+      "composition": 40,
+      "O3": 72,
+      "O8": 40,
+      "O7": 105,
+      "O5": 43
+    }
+  },
+  {
+    "video": [
+      "SportsMOT",
+      "v_G-vNjfx1GGc_c601"
+    ],
+    "refs": {
+      "box": 115,
+      "position": 22,
+      "event": 4,
+      "appearance": 1
+    },
+    "pool_n": 482,
+    "types": {
+      "O4": 74,
+      "O5": 29,
+      "O3": 44,
+      "O2": 78,
+      "O7": 74,
+      "O6": 52,
+      "composition": 24,
+      "O8": 40,
+      "O1": 67
+    }
+  },
+  {
+    "video": [
+      "SportsMOT",
+      "v_ITo3sCnpw_k_c007"
+    ],
+    "refs": {
+      "box": 283,
+      "position": 46,
+      "event": 4
+    },
+    "pool_n": 692,
+    "types": {
+      "O2": 89,
+      "O6": 55,
+      "O5": 67,
+      "O4": 86,
+      "O8": 40,
+      "O3": 84,
+      "composition": 40,
+      "O7": 123,
+      "O1": 108
+    }
+  },
+  {
+    "video": [
+      "SportsMOT",
+      "v_ITo3sCnpw_k_c010"
+    ],
+    "refs": {
+      "box": 114,
+      "position": 21,
+      "event": 2
+    },
+    "pool_n": 548,
+    "types": {
+      "O6": 50,
+      "O2": 80,
+      "O4": 84,
+      "O7": 88,
+      "O5": 42,
+      "O1": 84,
+      "O3": 49,
+      "composition": 31,
+      "O8": 40
+    }
+  },
+  {
+    "video": [
+      "SportsMOT",
+      "v_ITo3sCnpw_k_c011"
+    ],
+    "refs": {
+      "box": 284,
+      "position": 29,
+      "event": 7,
+      "appearance": 1
+    },
+    "pool_n": 839,
+    "types": {
+      "O7": 132,
+      "O6": 75,
+      "O8": 40,
+      "composition": 66,
+      "O1": 119,
+      "O4": 132,
+      "O2": 110,
+      "O5": 79,
+      "O3": 86
+    }
+  },
+  {
+    "video": [
+      "SportsMOT",
+      "v_ITo3sCnpw_k_c012"
+    ],
+    "refs": {
+      "box": 228,
+      "position": 52,
+      "appearance": 1,
+      "event": 4
+    },
+    "pool_n": 734,
+    "types": {
+      "O7": 128,
+      "O8": 40,
+      "O3": 80,
+      "O6": 70,
+      "O4": 92,
+      "composition": 40,
+      "O1": 117,
+      "O2": 98,
+      "O5": 69
+    }
+  },
+  {
+    "video": [
+      "SportsMOT",
+      "v_cC2mHWqMcjk_c007"
+    ],
+    "refs": {
+      "box": 221,
+      "position": 20,
+      "event": 3
+    },
+    "pool_n": 665,
+    "types": {
+      "O5": 45,
+      "O6": 75,
+      "O4": 98,
+      "O7": 76,
+      "composition": 53,
+      "O2": 107,
+      "O8": 40,
+      "O1": 115,
+      "O3": 56
+    }
+  },
+  {
+    "video": [
+      "SportsMOT",
+      "v_cC2mHWqMcjk_c008"
+    ],
+    "refs": {
+      "box": 30,
+      "position": 10,
+      "appearance": 1
+    },
+    "pool_n": 235,
+    "types": {
+      "composition": 29,
+      "O8": 31,
+      "O2": 59,
+      "O4": 54,
+      "O1": 25,
+      "O6": 33,
+      "O3": 4
+    }
+  },
+  {
+    "video": [
+      "SportsMOT",
+      "v_cC2mHWqMcjk_c009"
+    ],
+    "refs": {
+      "box": 97,
+      "position": 13,
+      "appearance": 1
+    },
+    "pool_n": 462,
+    "types": {
+      "O7": 40,
+      "O1": 91,
+      "O6": 42,
+      "O2": 87,
+      "O4": 84,
+      "O8": 40,
+      "composition": 42,
+      "O5": 36
+    }
+  },
+  {
+    "video": [
+      "SportsMOT",
+      "v_dw7LOz17Omg_c053"
+    ],
+    "refs": {
+      "box": 189,
+      "position": 21
+    },
+    "pool_n": 505,
+    "types": {
+      "O6": 40,
+      "O4": 74,
+      "O2": 74,
+      "composition": 40,
+      "O8": 40,
+      "O7": 85,
+      "O3": 46,
+      "O5": 31,
+      "O1": 75
+    }
+  },
+  {
+    "video": [
+      "SportsMOT",
+      "v_dw7LOz17Omg_c067"
+    ],
+    "refs": {
+      "box": 177,
+      "position": 14,
+      "event": 4,
+      "appearance": 1
+    },
+    "pool_n": 435,
+    "types": {
+      "composition": 23,
+      "O2": 75,
+      "O6": 70,
+      "O4": 80,
+      "O7": 59,
+      "O5": 38,
+      "O8": 40,
+      "O1": 50
+    }
+  },
+  {
+    "video": [
+      "SportsMOT",
+      "v_i2_L4qquVg0_c006"
+    ],
+    "refs": {
+      "position": 24,
+      "box": 191,
+      "event": 8,
+      "appearance": 1
+    },
+    "pool_n": 731,
+    "types": {
+      "O6": 90,
+      "O2": 103,
+      "O4": 104,
+      "composition": 34,
+      "O7": 123,
+      "O8": 40,
+      "O3": 69,
+      "O5": 70,
+      "O1": 98
+    }
+  },
+  {
+    "video": [
+      "SportsMOT",
+      "v_i2_L4qquVg0_c007"
+    ],
+    "refs": {
+      "box": 74,
+      "position": 21,
+      "event": 8,
+      "appearance": 1
+    },
+    "pool_n": 523,
+    "types": {
+      "O6": 64,
+      "O7": 67,
+      "O4": 92,
+      "O8": 40,
+      "O1": 58,
+      "O2": 98,
+      "O3": 29,
+      "composition": 25,
+      "O5": 50
+    }
+  },
+  {
+    "video": [
+      "SportsMOT",
+      "v_i2_L4qquVg0_c009"
+    ],
+    "refs": {
+      "box": 150,
+      "position": 13,
+      "appearance": 1,
+      "event": 4
+    },
+    "pool_n": 488,
+    "types": {
+      "O4": 70,
+      "O6": 44,
+      "O8": 40,
+      "O1": 71,
+      "O2": 81,
+      "O3": 46,
+      "O7": 75,
+      "composition": 30,
+      "O5": 31
+    }
+  },
+  {
+    "video": [
+      "SportsMOT",
+      "v_i2_L4qquVg0_c010"
+    ],
+    "refs": {
+      "position": 56,
+      "box": 134,
+      "appearance": 1,
+      "event": 8
+    },
+    "pool_n": 861,
+    "types": {
+      "O4": 136,
+      "O1": 123,
+      "O2": 98,
+      "O6": 78,
+      "O7": 175,
+      "O3": 106,
+      "composition": 51,
+      "O5": 54,
+      "O8": 40
+    }
+  }
+]

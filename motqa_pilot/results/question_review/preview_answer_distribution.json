@@ -1,0 +1,117 @@
+{
+  "scope": "descriptive statistics for20 design-review examples; not a balanced evaluation benchmark",
+  "by_operation": {
+    "O1": {
+      "n": 2,
+      "option_letters": {
+        "A": 1,
+        "C": 1
+      },
+      "semantic_answers": {
+        "left": 1,
+        "center": 1
+      },
+      "letter_majority": 0.5,
+      "semantic_majority": 0.5
+    },
+    "O2": {
+      "n": 3,
+      "option_letters": {
+        "B": 1,
+        "A": 2
+      },
+      "semantic_answers": {
+        "Person B": 3
+      },
+      "letter_majority": 0.6666666666666666,
+      "semantic_majority": 1.0
+    },
+    "O3": {
+      "n": 2,
+      "option_letters": {
+        "B": 1,
+        "A": 1
+      },
+      "semantic_answers": {
+        "Yes": 1,
+        "No": 1
+      },
+      "letter_majority": 0.5,
+      "semantic_majority": 0.5
+    },
+    "O4": {
+      "n": 3,
+      "option_letters": {
+        "B": 1,
+        "D": 1,
+        "C": 1
+      },
+      "semantic_answers": {
+        "3 or more": 2,
+        "1": 1
+      },
+      "letter_majority": 0.3333333333333333,
+      "semantic_majority": 0.6666666666666666
+    },
+    "O5": {
+      "n": 3,
+      "option_letters": {
+        "C": 1,
+        "B": 2
+      },
+      "semantic_answers": {
+        "Person B": 3
+      },
+      "letter_majority": 0.6666666666666666,
+      "semantic_majority": 1.0
+    },
+    "O6": {
+      "n": 3,
+      "option_letters": {
+        "B": 1,
+        "A": 1,
+        "D": 1
+      },
+      "semantic_answers": {
+        "9.640–9.880 s": 1,
+        "13.067–14.567 s": 1,
+        "46.400–49.600 s": 1
+      },
+      "letter_majority": 0.3333333333333333,
+      "semantic_majority": 0.3333333333333333
+    },
+    "O7": {
+      "n": 2,
+      "option_letters": {
+        "C": 2
+      },
+      "semantic_answers": {
+        "This never happens.": 2
+      },
+      "letter_majority": 1.0,
+      "semantic_majority": 1.0
+    },
+    "composition_cross_exit": {
+      "n": 1,
+      "option_letters": {
+        "D": 1
+      },
+      "semantic_answers": {
+        "1": 1
+      },
+      "letter_majority": 1.0,
+      "semantic_majority": 1.0
+    },
+    "composition_motion_relation": {
+      "n": 1,
+      "option_letters": {
+        "A": 1
+      },
+      "semantic_answers": {
+        "A travels farther; A is right of B": 1
+      },
+      "letter_majority": 1.0,
+      "semantic_majority": 1.0
+    }
+  }
+}

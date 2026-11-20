@@ -1,0 +1,25 @@
+# Official MASA environment.yml / install_dependencies.sh versions.
+torch==2.1.2+cu118
+torchvision==0.16.2+cu118
+torchaudio==2.1.2+cu118
+numpy==1.26.4
+sympy==1.12
+mmcv @ https://download.openmmlab.com/mmcv/dist/cu118/torch2.1.0/mmcv-2.1.0-cp311-cp311-manylinux1_x86_64.whl
+mmengine==0.10.7
+mmdet==3.3.0
+transformers==4.38.2
+huggingface_hub==0.36.0
+opencv-python==4.10.0.84
+supervision==0.26.1
+openmim==0.3.9
+nltk
+h5py
+einops
+seaborn
+fairscale==0.4.13
+lvis
+pandas==2.3.3
+ftfy
+regex
+pycocotools
+setuptools<81

@@ -1,0 +1,12 @@
+{
+  "status": "STAGE2_COMPUTED_REPORT_PENDING",
+  "pilot": true,
+  "sequences": 3,
+  "elapsed_s": 0.5239390982314944,
+  "completed_at": "2026-11-04T20:44:16.281577+08:00",
+  "qa_generated": 0,
+  "model_inference": false,
+  "training": false,
+  "tracker_runs": false,
+  "gpu_used": false
+}

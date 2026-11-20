@@ -1,0 +1,71 @@
+{
+  "unit_key": "dancetrack0014__id003",
+  "sequence": "dancetrack0014",
+  "gt_id": 3,
+  "phase": "reference_instant_match",
+  "started_at": "2026-11-04T14:13:35.734777+00:00",
+  "completed_at": "2026-11-04T14:13:39.085419+00:00",
+  "seconds": 3.3506844639778137,
+  "prompt_text": "At this reference instant, match the following appearance phrase to ALL visible people: \"the person in a white crop top and purple pleated skirt\"\nThe first image is the full frame, with anonymous boxes and labels. The other image(s) are crops of EVERY GT-present person at this SAME instant. Read the central person in each crop; neighboring bodies may overlap. Labels are bookkeeping only. Do not use gallery order, location, pose, or box color as appearance attributes. Include ALL people satisfying the full appearance phrase in matches, and any plausible but obscured/unclear people in uncertain. A partly hidden target whose defining clothing cannot be seen is uncertain. No forced choice; none or several are valid outcomes. Omitted labels mean clear non-matches.\nReturn {\"matches\":[\"P01\"],\"uncertain\":[],\"reason\":\"brief visual explanation\"}. Valid labels: [\"P01\", \"P02\", \"P03\", \"P04\", \"P05\", \"P06\", \"P07\", \"P08\", \"P09\", \"P10\"].",
+  "image_paths": [
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0014/anchor_id003_f000726/full_frame.jpg",
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0014/anchor_id003_f000726/local_gallery_page00.jpg"
+  ],
+  "image_sha256": [
+    "fe753b85153e554e585781add6905cd0a369a7f88fd4151d683f47aeba44e33d",
+    "e9509e18393ad7a486453f89ed6ee9fcc6529bbdc757e439b9bea8bf1576138f"
+  ],
+  "response": {
+    "id": "chatcmpl-a3dc5da3f4151277",
+    "object": "chat.completion",
+    "created": 1793801615,
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"matches\":[\"P10\"],\"uncertain\":[],\"reason\":\"Only P10 is wearing a white crop top and a purple pleated skirt. All others wear different bottoms (e.g., shorts, pants) or different tops (e.g., purple crop top, long-sleeve top).\"}",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 1659,
+      "total_tokens": 1721,
+      "completion_tokens": 62,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "check": {
+    "valid": true,
+    "parsed": {
+      "matches": [
+        "P10"
+      ],
+      "uncertain": [],
+      "reason": "Only P10 is wearing a white crop top and a purple pleated skirt. All others wear different bottoms (e.g., shorts, pants) or different tops (e.g., purple crop top, long-sleeve top)."
+    },
+    "matched_gt_ids": [
+      3
+    ],
+    "uncertain_gt_ids": [],
+    "passed": true,
+    "error": null
+  },
+  "inference_policy_sha256": "ea3ce06e83208db2fc1ed693ee2ac1b349f8ae344fcdc2cb0a22e30ef8df60e3"
+}

@@ -1,0 +1,71 @@
+{
+  "unit_key": "dancetrack0007__id004",
+  "sequence": "dancetrack0007",
+  "gt_id": 4,
+  "phase": "reference_instant_match",
+  "started_at": "2026-11-04T14:13:22.638855+00:00",
+  "completed_at": "2026-11-04T14:13:26.699857+00:00",
+  "seconds": 4.061034820042551,
+  "prompt_text": "At this reference instant, match the following appearance phrase to ALL visible people: \"the person with light blonde hair in a high ponytail wearing a white long-sleeve crop top and white loose pants\"\nThe first image is the full frame, with anonymous boxes and labels. The other image(s) are crops of EVERY GT-present person at this SAME instant. Read the central person in each crop; neighboring bodies may overlap. Labels are bookkeeping only. Do not use gallery order, location, pose, or box color as appearance attributes. Include ALL people satisfying the full appearance phrase in matches, and any plausible but obscured/unclear people in uncertain. A partly hidden target whose defining clothing cannot be seen is uncertain. No forced choice; none or several are valid outcomes. Omitted labels mean clear non-matches.\nReturn {\"matches\":[\"P01\"],\"uncertain\":[],\"reason\":\"brief visual explanation\"}. Valid labels: [\"P01\", \"P02\", \"P03\", \"P04\", \"P05\", \"P06\", \"P07\", \"P08\"].",
+  "image_paths": [
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0007/anchor_id004_f000910/full_frame.jpg",
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0007/anchor_id004_f000910/local_gallery_page00.jpg"
+  ],
+  "image_sha256": [
+    "4c9e36eba321363de6e63327f46c73d94545803df2013febfd10684acd33c1d3",
+    "fe01cf1bb8d78408d9664d821219df0959b20c494ccd5253d0913fbb2a8e03f1"
+  ],
+  "response": {
+    "id": "chatcmpl-9f3b85b09778e349",
+    "object": "chat.completion",
+    "created": 1793801602,
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"matches\":[\"P07\"],\"uncertain\":[],\"reason\":\"P07 has light blonde hair styled in a high ponytail and is wearing a white long-sleeve crop top and white loose pants. All other individuals have dark hair and do not match the hair color and style specified in the phrase.\"}",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 1499,
+      "total_tokens": 1563,
+      "completion_tokens": 64,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "check": {
+    "valid": true,
+    "parsed": {
+      "matches": [
+        "P07"
+      ],
+      "uncertain": [],
+      "reason": "P07 has light blonde hair styled in a high ponytail and is wearing a white long-sleeve crop top and white loose pants. All other individuals have dark hair and do not match the hair color and style specified in the phrase."
+    },
+    "matched_gt_ids": [
+      4
+    ],
+    "uncertain_gt_ids": [],
+    "passed": true,
+    "error": null
+  },
+  "inference_policy_sha256": "ea3ce06e83208db2fc1ed693ee2ac1b349f8ae344fcdc2cb0a22e30ef8df60e3"
+}

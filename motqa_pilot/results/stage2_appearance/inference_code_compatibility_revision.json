@@ -1,0 +1,9 @@
+{
+  "at": "2026-11-04T13:50:11.320225+00:00",
+  "runner_sha256": "f868eef2b010e1a038321acd824eca4d7b2da9499289b0a9df54241a2f40c510",
+  "previous_runner_receipt": "/home/user/motqa_pilot/results/stage2_appearance/inference_code_receipt.json",
+  "root_cause": "vLLM0.16 device_id_to_physical_device_id requires integer CVD elements",
+  "scope": "task-local device-selection representation; CUDA UUID identity check retained",
+  "regression_passed": true,
+  "model_outputs_before_change": 0
+}

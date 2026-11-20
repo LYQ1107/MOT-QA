@@ -1,0 +1,378 @@
+[
+  {
+    "qa_id": "39e6c1c321a7",
+    "video_id": "charades_ECXEX",
+    "dimension": "event_existence",
+    "format": "sp",
+    "question": "Does yellow bottle ever come back into view in the video?",
+    "options": {
+      "statement_A": "yellow bottle never comes back into view",
+      "statement_B": "yellow bottle does come back into view"
+    },
+    "ground_truth": "B",
+    "raw_response": "A",
+    "extracted_answer": "A",
+    "failure_type": "wrong_answer",
+    "hallucination": null
+  },
+  {
+    "qa_id": "12fcfbaedfa3",
+    "video_id": "perception_test_video_6207",
+    "dimension": "event_existence",
+    "format": "sp",
+    "question": "Does teabag box ever get fully hidden in the video?",
+    "options": {
+      "statement_A": "teabag box does gets fully hidden",
+      "statement_B": "teabag box never gets fully hidden"
+    },
+    "ground_truth": "A",
+    "raw_response": "B",
+    "extracted_answer": "B",
+    "failure_type": "wrong_answer",
+    "hallucination": null
+  },
+  {
+    "qa_id": "817c973dfc2e",
+    "video_id": "perception_test_video_2716",
+    "dimension": "event_count",
+    "format": "numerical",
+    "question": "How many times does the white towel change abruptly in the video?",
+    "options": {},
+    "ground_truth": "3",
+    "raw_response": "1",
+    "extracted_answer": null,
+    "failure_type": "parse_failure",
+    "hallucination": null
+  },
+  {
+    "qa_id": "712260bf1958",
+    "video_id": "charades_RQRRD",
+    "dimension": "event_count",
+    "format": "numerical",
+    "question": "How many times does the white shirt get partly hidden in the video?",
+    "options": {},
+    "ground_truth": "3",
+    "raw_response": "1",
+    "extracted_answer": null,
+    "failure_type": "parse_failure",
+    "hallucination": null
+  },
+  {
+    "qa_id": "5d35b80f555d",
+    "video_id": "charades_GL7E6",
+    "dimension": "reappear_identity",
+    "format": "sp",
+    "question": "After the red cup comes back into view, is it the same cup as before, or a different one?",
+    "options": {
+      "statement_A": "the cup that comes back is the same one as before",
+      "statement_B": "the cup that comes back is a different one"
+    },
+    "ground_truth": "B",
+    "raw_response": "A",
+    "extracted_answer": "A",
+    "failure_type": "wrong_answer",
+    "hallucination": null
+  },
+  {
+    "qa_id": "5c92e154093b",
+    "video_id": "perception_test_video_7414",
+    "dimension": "reappear_identity",
+    "format": "sp",
+    "question": "After brown medicine bottle comes back into view, is it the same bottle as before, or a different one?",
+    "options": {
+      "statement_A": "the bottle that comes back is a different one",
+      "statement_B": "the bottle that comes back is the same one as before"
+    },
+    "ground_truth": "A",
+    "raw_response": "B",
+    "extracted_answer": "B",
+    "failure_type": "wrong_answer",
+    "hallucination": null
+  },
+  {
+    "qa_id": "22cd8d7961ed",
+    "video_id": "charades_WJ13E",
+    "dimension": "reappear_or_disappear",
+    "format": "sp",
+    "question": "When the soap bottle disappears, does it get fully blocked or left the frame?",
+    "options": {
+      "statement_A": "soap bottle got fully blocked",
+      "statement_B": "soap bottle left the frame"
+    },
+    "ground_truth": "A",
+    "raw_response": "B",
+    "extracted_answer": "B",
+    "failure_type": "wrong_answer",
+    "hallucination": null
+  },
+  {
+    "qa_id": "d69bd17512b5",
+    "video_id": "perception_test_video_11514",
+    "dimension": "reappear_or_disappear",
+    "format": "sp",
+    "question": "When the green toothbrush disappears, does it get fully blocked or leave the frame?",
+    "options": {
+      "statement_A": "green toothbrush left the frame",
+      "statement_B": "green toothbrush got fully blocked"
+    },
+    "ground_truth": "B",
+    "raw_response": "A",
+    "extracted_answer": "A",
+    "failure_type": "wrong_answer",
+    "hallucination": null
+  },
+  {
+    "qa_id": "249a574204b2",
+    "video_id": "charades_2SIO0",
+    "dimension": "cross_object_order",
+    "format": "sp",
+    "question": "Which event happens first in the video?",
+    "options": {
+      "statement_A": "hanging clothes enters the frame before white bedsheet gets partly hidden",
+      "statement_B": "white bedsheet gets partly hidden before hanging clothes enters the frame"
+    },
+    "ground_truth": "B",
+    "raw_response": "A",
+    "extracted_answer": "A",
+    "failure_type": "wrong_answer",
+    "hallucination": null
+  },
+  {
+    "qa_id": "9d99ed3cfaf9",
+    "video_id": "perception_test_video_2305",
+    "dimension": "cross_object_order",
+    "format": "sp",
+    "question": "Which event happens first in the video?",
+    "options": {
+      "statement_A": "blue mug gets partly hidden before black cable gets partly hidden",
+      "statement_B": "black cable gets partly hidden before blue mug gets partly hidden"
+    },
+    "ground_truth": "B",
+    "raw_response": "A",
+    "extracted_answer": "A",
+    "failure_type": "wrong_answer",
+    "hallucination": null
+  },
+  {
+    "qa_id": "90d708e859f9",
+    "video_id": "charades_73J9F",
+    "dimension": "event_ordering",
+    "format": "ordering_4",
+    "question": "Put the following events for blue spray bottle in order from earliest to latest.",
+    "options": {
+      "events": [
+        {
+          "label": "A",
+          "event_text": "it comes back into view"
+        },
+        {
+          "label": "B",
+          "event_text": "it disappears for good"
+        },
+        {
+          "label": "C",
+          "event_text": "it gets fully hidden"
+        },
+        {
+          "label": "D",
+          "event_text": "it leaves the frame"
+        }
+      ]
+    },
+    "ground_truth": [
+      "D",
+      "A",
+      "C",
+      "B"
+    ],
+    "raw_response": "D, B, C, A",
+    "extracted_answer": [
+      "D",
+      "B",
+      "C",
+      "A"
+    ],
+    "failure_type": "wrong_answer",
+    "hallucination": null
+  },
+  {
+    "qa_id": "0adf492d0dfd",
+    "video_id": "perception_test_video_9131",
+    "dimension": "event_ordering",
+    "format": "ordering_3",
+    "question": "Put the following events for laptop in order from earliest to latest.",
+    "options": {
+      "events": [
+        {
+          "label": "A",
+          "event_text": "it gets partly hidden"
+        },
+        {
+          "label": "B",
+          "event_text": "it gets fully hidden"
+        },
+        {
+          "label": "C",
+          "event_text": "it comes back into view"
+        }
+      ]
+    },
+    "ground_truth": [
+      "B",
+      "C",
+      "A"
+    ],
+    "raw_response": "A, B, C",
+    "extracted_answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "failure_type": "wrong_answer",
+    "hallucination": null
+  },
+  {
+    "qa_id": "09ed55fc46bb",
+    "video_id": "charades_B4ED1",
+    "dimension": "temporal_location",
+    "format": "mcq_4",
+    "question": "When in the video does bookshelf come back into view?",
+    "options": {
+      "option_A": "bookshelf never comes back into view",
+      "option_B": "end",
+      "option_C": "early",
+      "option_D": "beginning"
+    },
+    "ground_truth": "C",
+    "raw_response": "D",
+    "extracted_answer": "D",
+    "failure_type": "wrong_answer",
+    "hallucination": null
+  },
+  {
+    "qa_id": "186f2f3f5dcf",
+    "video_id": "charades_004QE",
+    "dimension": "temporal_location",
+    "format": "mcq_4",
+    "question": "When in the video does shelf with toiletries get partly hidden?",
+    "options": {
+      "option_A": "early",
+      "option_B": "late",
+      "option_C": "shelf with toiletries never gets partly hidden",
+      "option_D": "end"
+    },
+    "ground_truth": "A",
+    "raw_response": "B",
+    "extracted_answer": "B",
+    "failure_type": "wrong_answer",
+    "hallucination": "variant_b"
+  },
+  {
+    "qa_id": "616809a35e35",
+    "video_id": "perception_test_video_5791",
+    "dimension": "duration_category",
+    "format": "mcq_4",
+    "question": "How long is the pink napkin partly hidden?",
+    "options": {
+      "option_A": "briefly",
+      "option_B": "for several seconds",
+      "option_C": "for an extended period",
+      "option_D": "there is no pink napkin in this video"
+    },
+    "ground_truth": "D",
+    "raw_response": "B",
+    "extracted_answer": "B",
+    "failure_type": "wrong_answer",
+    "hallucination": "variant_a"
+  },
+  {
+    "qa_id": "66b8a8aeacf7",
+    "video_id": "charades_L1BNN",
+    "dimension": "duration_category",
+    "format": "mcq_4",
+    "question": "How long does clothes hanging stay out of the frame?",
+    "options": {
+      "option_A": "for several seconds",
+      "option_B": "briefly",
+      "option_C": "for an extended period",
+      "option_D": "clothes hanging never stays out of the frame"
+    },
+    "ground_truth": "D",
+    "raw_response": "B",
+    "extracted_answer": "B",
+    "failure_type": "wrong_answer",
+    "hallucination": null
+  },
+  {
+    "qa_id": "d4c6775bd0b4",
+    "video_id": "charades_K0Z9V",
+    "dimension": "conditional_state",
+    "format": "mcq_4",
+    "question": "At the moment the white door comes back into view, what is the state of the man in the gray t-shirt?",
+    "options": {
+      "option_A": "not yet appeared or already gone",
+      "option_B": "partly hidden",
+      "option_C": "fully hidden",
+      "option_D": "white door never comes back into view"
+    },
+    "ground_truth": "B",
+    "raw_response": "A",
+    "extracted_answer": "A",
+    "failure_type": "wrong_answer",
+    "hallucination": "variant_b"
+  },
+  {
+    "qa_id": "fda3134d931e",
+    "video_id": "perception_test_video_1834",
+    "dimension": "conditional_state",
+    "format": "mcq_4",
+    "question": "At the moment knife with black handle comes back into view, what is the state of man in red shirt?",
+    "options": {
+      "option_A": "knife with black handle never comes back into view",
+      "option_B": "not yet appeared or already gone",
+      "option_C": "fully visible",
+      "option_D": "partly hidden"
+    },
+    "ground_truth": "B",
+    "raw_response": "C",
+    "extracted_answer": "C",
+    "failure_type": "wrong_answer",
+    "hallucination": "variant_b"
+  },
+  {
+    "qa_id": "058b3c997560",
+    "video_id": "charades_830OE",
+    "dimension": "relative_spatial_change",
+    "format": "mcq_4",
+    "question": "How does the man's arm move across the frame during the video?",
+    "options": {
+      "option_A": "moves from bottom to top",
+      "option_B": "stays in roughly the same place",
+      "option_C": "moves from left to right",
+      "option_D": "there is no man's arm in this video"
+    },
+    "ground_truth": "D",
+    "raw_response": "C",
+    "extracted_answer": "C",
+    "failure_type": "wrong_answer",
+    "hallucination": "variant_a"
+  },
+  {
+    "qa_id": "4d08f0e5e824",
+    "video_id": "mose_yes1xec3",
+    "dimension": "relative_spatial_change",
+    "format": "mcq_4",
+    "question": "How does the red cherry move across the frame during the video?",
+    "options": {
+      "option_A": "moves from right to left",
+      "option_B": "stays in roughly the same place",
+      "option_C": "there is no red cherry in this video",
+      "option_D": "moves from top to bottom"
+    },
+    "ground_truth": "D",
+    "raw_response": "B",
+    "extracted_answer": "B",
+    "failure_type": "wrong_answer",
+    "hallucination": null
+  }
+]

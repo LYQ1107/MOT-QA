@@ -1,0 +1,162 @@
+[
+  {
+    "index": 1,
+    "dataset": "DanceTrack",
+    "reference_type": "box",
+    "operation": "O2",
+    "tried": 1,
+    "found": true
+  },
+  {
+    "index": 2,
+    "dataset": "SportsMOT",
+    "reference_type": "box",
+    "operation": "O2",
+    "tried": 1,
+    "found": true
+  },
+  {
+    "index": 3,
+    "dataset": "MOT17",
+    "reference_type": "box",
+    "operation": "O2",
+    "tried": 13,
+    "found": true
+  },
+  {
+    "index": 4,
+    "dataset": "DanceTrack",
+    "reference_type": "box",
+    "operation": "O5",
+    "tried": 1,
+    "found": true
+  },
+  {
+    "index": 5,
+    "dataset": "MOT17",
+    "reference_type": "box",
+    "operation": "O5",
+    "tried": 12,
+    "found": true
+  },
+  {
+    "index": 6,
+    "dataset": "SportsMOT",
+    "reference_type": "box",
+    "operation": "O6",
+    "tried": 3,
+    "found": true
+  },
+  {
+    "index": 7,
+    "dataset": "DanceTrack",
+    "reference_type": "box",
+    "operation": "O4",
+    "tried": 1,
+    "found": true
+  },
+  {
+    "index": 8,
+    "dataset": "MOT17",
+    "reference_type": "box",
+    "operation": "composition_motion_relation",
+    "tried": 13,
+    "found": true
+  },
+  {
+    "index": 9,
+    "dataset": "DanceTrack",
+    "reference_type": "event",
+    "operation": "O3",
+    "tried": 141,
+    "found": true
+  },
+  {
+    "index": 10,
+    "dataset": "DanceTrack",
+    "reference_type": "event",
+    "operation": "O3",
+    "tried": 17,
+    "found": true
+  },
+  {
+    "index": 11,
+    "dataset": "SportsMOT",
+    "reference_type": "event",
+    "operation": "O4",
+    "tried": 1,
+    "found": true
+  },
+  {
+    "index": 12,
+    "dataset": "SportsMOT",
+    "reference_type": "event",
+    "operation": "O7",
+    "tried": 4,
+    "found": true
+  },
+  {
+    "index": 13,
+    "dataset": "MOT17",
+    "reference_type": "event",
+    "operation": "O6",
+    "tried": 2,
+    "found": true
+  },
+  {
+    "index": 14,
+    "dataset": "DanceTrack",
+    "reference_type": "appearance",
+    "operation": "O1",
+    "tried": 1,
+    "found": true
+  },
+  {
+    "index": 15,
+    "dataset": "SportsMOT",
+    "reference_type": "appearance",
+    "operation": "O1",
+    "tried": 4,
+    "found": true
+  },
+  {
+    "index": 16,
+    "dataset": "DanceTrack",
+    "reference_type": "appearance",
+    "operation": "O6",
+    "tried": 1,
+    "found": true
+  },
+  {
+    "index": 17,
+    "dataset": "SportsMOT",
+    "reference_type": "appearance",
+    "operation": "O5",
+    "tried": 2,
+    "found": true
+  },
+  {
+    "index": 18,
+    "dataset": "DanceTrack",
+    "reference_type": "position",
+    "operation": "O7",
+    "tried": 1,
+    "found": true
+  },
+  {
+    "index": 19,
+    "dataset": "SportsMOT",
+    "reference_type": "position",
+    "operation": "O4",
+    "tried": 4,
+    "found": true
+  },
+  {
+    "index": 20,
+    "dataset": "SportsMOT",
+    "reference_type": "position",
+    "operation": "composition_cross_exit",
+    "tried": 7,
+    "found": true
+  }
+]

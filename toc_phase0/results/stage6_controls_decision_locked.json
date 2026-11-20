@@ -1,0 +1,17 @@
+{
+  "decided_at": "2026-11-04T12:50:14.540029+08:00",
+  "primary_n": 251,
+  "correct": {
+    "T-none": 73,
+    "T0": 66,
+    "T1": 71
+  },
+  "best": "T1",
+  "run_controls": false,
+  "rule": "Observed strictly higher correct count; T0 wins ties; fixed before control inference",
+  "prediction_sha256": {
+    "T-none": "b549356c9b49e53325f9997457de8c3a3255398c3a44adfcfbc6a251b3836cd3",
+    "T0": "e04474a819033acc0b61189869327fcbfa54c217a687c74b28c152d73e94a3ad",
+    "T1": "32bc72b74b0af05fc1e2b7a040e3238e27e0486a64802dcffa8a81dbf9709166"
+  }
+}

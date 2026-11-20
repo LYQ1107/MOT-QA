@@ -1,0 +1,71 @@
+{
+  "unit_key": "dancetrack0030__id001",
+  "sequence": "dancetrack0030",
+  "gt_id": 1,
+  "phase": "generate",
+  "started_at": "2026-11-04T13:54:04.703063+00:00",
+  "completed_at": "2026-11-04T13:54:12.378145+00:00",
+  "seconds": 7.675113586243242,
+  "prompt_text": "The first image shows three crops of ONE target person at different times. The other image(s) show comparison people from the SAME video; every labeled tile is a different annotated person, shown in up to three crops. These comparison labels are anonymous bookkeeping labels, not appearance attributes.\nWrite one concise English noun phrase (at most 30 words), starting with \"the person\", describing the target using stable, clearly visible clothing, patterns, hair, or accessories. Prefer details that distinguish this person from comparison people. Do not mention actions, pose, scene location, time, spatial relation to others, gallery labels, or GT identity numbers. Visible garment lettering is allowed only if clearly legible. Do not infer colors/details hidden by another person. If no reliable description is possible, use an empty phrase. If a truthful description is shared by others, still provide it and set visually_distinct to false.\nReturn {\"phrase\":\"...\", \"supported_attributes\":[\"...\"], \"visually_distinct\":true, \"limitations\":\"...\"}. A description need not be unique; truthful uncertainty is preferred to invented uniqueness.\nThe target person is also included once among the comparison gallery tiles. Identify that repeated target visually; do not treat the repeated target tile as a different rival. Look for truthful stable appearance that distinguishes the target from OTHER people.",
+  "image_paths": [
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0030/id001_target.jpg",
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0030/generation_gallery_page00.jpg"
+  ],
+  "image_sha256": [
+    "bebba2d044fc407f8e0e2196851710dc2fdcf5e4fd0f0af5dd42bf43e352e476",
+    "c850e3bf18219eba73209d3a3bf24d923e79efaf49d870af012b39b77e890bae"
+  ],
+  "response": {
+    "id": "chatcmpl-acf40c13cf5f333a",
+    "object": "chat.completion",
+    "created": 1793800444,
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"phrase\": \"the person with blonde hair in a bun wearing a dark sleeveless leotard with a flared skirt and white dance shoes\",\n  \"supported_attributes\": [\n    \"blonde hair in a bun\",\n    \"dark sleeveless leotard\",\n    \"flared skirt\",\n    \"white dance shoes\"\n  ],\n  \"visually_distinct\": false,\n  \"limitations\": \"The described appearance is shared by multiple dancers in the gallery, including the repeated target in P05, making it non-unique. The clothing and hairstyle are common among the group, and no distinguishing features like unique patterns or accessories are visible.\"\n}",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 1433,
+      "total_tokens": 1568,
+      "completion_tokens": 135,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "check": {
+    "valid": true,
+    "parsed": {
+      "phrase": "the person with blonde hair in a bun wearing a dark sleeveless leotard with a flared skirt and white dance shoes",
+      "supported_attributes": [
+        "blonde hair in a bun",
+        "dark sleeveless leotard",
+        "flared skirt",
+        "white dance shoes"
+      ],
+      "visually_distinct": false,
+      "limitations": "The described appearance is shared by multiple dancers in the gallery, including the repeated target in P05, making it non-unique. The clothing and hairstyle are common among the group, and no distinguishing features like unique patterns or accessories are visible."
+    },
+    "phrase": "the person with blonde hair in a bun wearing a dark sleeveless leotard with a flared skirt and white dance shoes",
+    "error": null
+  },
+  "inference_policy_sha256": "ea3ce06e83208db2fc1ed693ee2ac1b349f8ae344fcdc2cb0a22e30ef8df60e3"
+}

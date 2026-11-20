@@ -1,0 +1,69 @@
+{
+  "unit_key": "dancetrack0018__id001",
+  "sequence": "dancetrack0018",
+  "gt_id": 1,
+  "phase": "blind_match",
+  "started_at": "2026-11-04T14:03:03.064210+00:00",
+  "completed_at": "2026-11-04T14:03:10.812011+00:00",
+  "seconds": 7.747833992820233,
+  "prompt_text": "Match this appearance phrase against ALL anonymous person tiles in the image(s): \"the person wearing a two-tone blue and white hooded shirt with a yellow stripe down the side of dark pants and white sneakers\"\nEvery labeled tile is one different person from the same video; its two crops are held-out views. Labels and tile order do not reveal the intended target. A phrase may match none, one, or several people. Include ALL people who visibly satisfy the whole phrase in matches. Include in uncertain any plausible person for whom the views do not resolve an attribute, instead of assuming that person is a non-match. Do not pick a best match when several fit. A location or action does not distinguish appearance. Omitted labels mean clear non-matches.\nReturn {\"matches\":[\"P01\"],\"uncertain\":[],\"reason\":\"brief visual explanation\"}. Valid labels: [\"P01\", \"P02\", \"P03\", \"P04\", \"P05\", \"P06\", \"P07\", \"P08\"].",
+  "image_paths": [
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0018/heldout_gallery_page00.jpg"
+  ],
+  "image_sha256": [
+    "d563ed208a556323ffce37886ebefdf4f02f7b9b5ea8b9c9fe6a09b8c2b3179b"
+  ],
+  "response": {
+    "id": "chatcmpl-84d80b849db0ecea",
+    "object": "chat.completion",
+    "created": 1793800983,
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"matches\":[\"P01\"],\"uncertain\":[],\"reason\":\"P01 clearly wears a two-tone blue and white hooded shirt, dark pants with a visible yellow stripe down the side, and white sneakers. All other individuals either lack the hooded shirt, do not show the yellow stripe on dark pants, or have different shirt colors or styles. P06 has a yellow stripe on pants but wears a different shirt (black and white, not hooded). P04 and P07 have similar shirts but no visible yellow stripe on pants. P02 and P05 are too blurry or cropped to confirm all attributes. P03, P08, and others do not match the shirt description.\"}",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 927,
+      "total_tokens": 1075,
+      "completion_tokens": 148,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "check": {
+    "valid": true,
+    "parsed": {
+      "matches": [
+        "P01"
+      ],
+      "uncertain": [],
+      "reason": "P01 clearly wears a two-tone blue and white hooded shirt, dark pants with a visible yellow stripe down the side, and white sneakers. All other individuals either lack the hooded shirt, do not show the yellow stripe on dark pants, or have different shirt colors or styles. P06 has a yellow stripe on pants but wears a different shirt (black and white, not hooded). P04 and P07 have similar shirts but no visible yellow stripe on pants. P02 and P05 are too blurry or cropped to confirm all attributes. P03, P08, and others do not match the shirt description."
+    },
+    "matched_gt_ids": [
+      4
+    ],
+    "uncertain_gt_ids": [],
+    "passed": false,
+    "error": null
+  },
+  "inference_policy_sha256": "ea3ce06e83208db2fc1ed693ee2ac1b349f8ae344fcdc2cb0a22e30ef8df60e3"
+}

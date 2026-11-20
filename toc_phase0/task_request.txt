@@ -1,0 +1,226 @@
+# 任务说明：TOC-Bench 第一阶段可行性实验（MOT 轨迹作为大模型证据）
+
+> 使用方法：把本文件放到服务器的工作目录，交给有 shell 权限的编程智能体（如 Claude Code）执行。
+> 智能体请严格按阶段推进，每个阶段结束时停下来汇报，等待确认后再进入下一阶段。
+
+---
+
+## 0. 背景与目标
+
+我们想验证一个假设：**对视频大模型来说，跨帧身份（谁消失了、谁重新出现、出现了几次）是它自己从稀疏帧里算不出来的信息；把多目标跟踪器的轨迹作为文本证据提供给它，能显著提升身份相关题目的准确率。**
+
+第一阶段**不训练任何模型、不做多轮工具调用**，只把预先算好的轨迹直接放进提示词，比较四种条件下 Qwen2.5-VL-7B 在 TOC-Bench 上的表现。
+
+参考数字（来自 TOC-Bench 论文 arXiv:2605.09904）：Qwen2.5-VL-7B 在 32 帧均匀采样下总体准确率 27.0%，其中事件计数（Count）0.7%。
+
+---
+
+## 1. 硬件与网络约束
+
+- 硬件：2 × NVIDIA A800 80GB。建议 GPU0 跑 vLLM 推理，GPU1 跑检测/跟踪。
+- **下载优先不走代理**：
+  - 开始前执行 `unset http_proxy https_proxy HTTP_PROXY HTTPS_PROXY all_proxy ALL_PROXY`。
+  - pip：`-i https://pypi.tuna.tsinghua.edu.cn/simple`（或阿里云镜像 `https://mirrors.aliyun.com/pypi/simple`）。
+  - Hugging Face：`export HF_ENDPOINT=https://hf-mirror.com`，再用 `huggingface-cli download`。
+  - Qwen2.5-VL-7B-Instruct 优先从 ModelScope 下载：`modelscope download --model Qwen/Qwen2.5-VL-7B-Instruct --local_dir ...`；失败再走 hf-mirror。
+  - 如果某个资源在不走代理的情况下确实下载不了，**不要静默改用代理**，把资源名称、地址和报错列出来，停下来汇报。
+- 所有下载记录来源、大小、校验结果，写入 `logs/downloads.md`。
+
+---
+
+## 2. 目录结构
+
+```
+toc_phase0/
+├── data/toc_bench/        # 基准标注与视频
+├── models/                # Qwen2.5-VL-7B-Instruct、Grounding DINO 权重
+├── tracks/                # 每个视频、每个查询词的跟踪结果（JSON + 文本格式）
+├── frames_cache/          # 32 帧采样缓存（可选）
+├── src/
+│   ├── load_bench.py      # 读取 TOC-Bench
+│   ├── sample_frames.py   # 32 帧均匀采样 + 时间戳
+│   ├── extract_query.py   # 从问题中抽取要跟踪的目标短语
+│   ├── run_tracker.py     # 开放词表检测 + 关联
+│   ├── serialize_tracks.py# 轨迹转文本
+│   ├── rule_baseline.py   # 跟踪器 + 规则脚本基线
+│   ├── build_prompts.py   # 四种条件的提示词
+│   ├── infer_vllm.py      # vLLM 批量推理
+│   └── score.py           # 答案解析、按维度统计
+├── results/
+└── logs/
+```
+
+---
+
+## 3. 阶段一：环境与数据（完成后停下汇报）
+
+1. 新建 conda 环境（Python 3.10 或 3.11），安装：一个支持 Qwen2.5-VL 的较新版本 vLLM、transformers、decord 或 PyAV、`supervision`（用于 ByteTrack）、`modelscope`、`huggingface_hub`、pandas。安装后打印各包版本。
+2. 下载 TOC-Bench：Hugging Face 数据集 `anonymous-video-benchmark/toc_bench`（GitHub：`cjzcjz666/toc_bench`）。
+   - 先只下载标注文件和 README，**不要一次性拉全部视频**。
+   - 弄清楚：视频是否包含在仓库里，还是需要从 Charades、Perception Test、OVIS、MOSE 原始数据集另行下载；每条 QA 的字段（问题、选项、答案、维度、题型、视频 ID 等）；**是否公开了逐帧轨迹标注**；仓库里是否有**官方评测提示词和评测脚本**。
+3. 下载模型：Qwen2.5-VL-7B-Instruct；Grounding DINO（`IDEA-Research/grounding-dino-base`，通过 transformers 加载）。
+4. 汇报内容：
+   - 数据字段说明（贴 3 条样例 QA）。
+   - 各维度、各题型的题目数量统计。
+   - 视频获取方式及总大小；哪些需要另行下载、是否需要代理。
+   - 是否有逐帧轨迹、是否有官方评测提示词。
+
+---
+
+## 4. 阶段二：复现基线（完成后停下汇报）
+
+1. **评测协议与论文一致**：每个视频均匀采样 32 帧；温度 0；最大生成长度足够容纳简短推理加答案。
+2. 若仓库提供官方评测提示词，**原样使用**；否则使用第 7 节的条件 A 提示词。
+3. 在 GPU0 上用 vLLM 跑全部 2,323 题，按维度统计准确率。
+4. **判断**：总体准确率应与论文的 27.0% 相近（±3 个百分点内）。如果偏差较大，先排查帧采样、提示词、答案解析，不要进入下一阶段。
+5. 汇报：总体和分维度准确率表、答案解析失败率、20 条错误样例。
+
+---
+
+## 5. 阶段三：跟踪器与规则基线（完成后停下汇报）
+
+先只处理以下五个维度（论文缩写）：**Count（事件计数）、ReID（重现身份）、R/D（重现还是消失）、X-Order（跨对象顺序）、Order（事件排序）**。
+
+### 5.1 目标短语抽取
+- 从问题文本中抽取需要跟踪的物体短语（例如问题问苹果，就得到 `apple`；跨对象题会有两个短语）。
+- 实现方式：用 Qwen2.5-VL-7B **只输入问题文本**（不给视频），固定提示词让它输出 JSON 列表；或使用规则/spaCy。记录抽取结果到文件，人工抽查 50 条正确率。
+- 注意：TOC-Bench 含"虚构物体"的幻觉变体题，物体可能根本不存在，跟踪器返回空结果是正常的、有信息量的。
+
+### 5.2 开放词表跟踪
+- 视频以 **5 fps** 解码（TOC-Bench 题目由 3 fps 轨迹构造，5 fps 足够）。
+- 每帧用 Grounding DINO 以目标短语检测（初始阈值 box 0.35、text 0.25，可根据抽查调整，调整后固定）。
+- 用 `supervision.ByteTrack` 做关联（帧率参数设为 5）。
+- **不要使用 SAM3**（TOC-Bench 的候选轨迹由 SAM3 生成，会造成循环质疑）；也不要用 SAM2 作为主工具。
+- 每个（视频，短语）保存原始轨迹 JSON：每条轨迹的逐帧框、置信度、时间戳。
+
+### 5.3 轨迹转文本（serialize_tracks.py）
+**原则：只给原始事实，不给任何推导出的答案**（不能写"重新出现了 3 次"之类）。格式：
+
+```text
+[Tracking results] query="apple"  video_length=28.8s  tracker_fps=5
+Track 1 (mean_conf=0.82)
+  visible: 0.0-4.2s | 9.8-12.0s | 18.4-20.6s | 25.0-28.8s
+  first_seen: 0.0s at (0.21, 0.55)   last_seen: 28.8s at (0.47, 0.52)
+  gaps: 4.2-9.8s (last pos (0.03, 0.60)) | 12.0-18.4s (last pos (0.45, 0.50))
+Track 2 (mean_conf=0.41)
+  visible: 13.1-13.6s
+  first_seen: 13.1s at (0.80, 0.30)   last_seen: 13.6s at (0.81, 0.31)
+Note: Coordinates are normalized (x, y) box centers. Tracks may be fragmented,
+and a short low-confidence track may be a false detection or a split of another track.
+```
+
+- 可见区间：同一轨迹内相邻可见帧间隔超过 0.5 秒即视为断开。
+- 坐标为归一化框中心，保留两位小数。
+- 若某短语没有任何检测结果，输出 `[Tracking results] query="..." : no detections in the video.`
+- 多个短语时，依次列出各自的轨迹块。
+
+### 5.4 跟踪器 + 规则脚本基线（rule_baseline.py）
+- 只针对题意可以用规则明确判定的题型实现，例如：
+  - Count 中"重新进入画面几次"：可见区间数 − 1（合并同一物体的碎片后）。
+  - R/D "消失是因为被遮挡还是离开画面"：消失前最后位置是否靠近画面边缘（阈值如 0.05）。
+  - ReID "重现的是否同一个"：重现前后是否属于同一轨迹 ID。
+  - Order / X-Order：比较事件发生时间。
+- 无法用规则判定的题跳过，并报告规则覆盖率。
+- 这是论文必需的基线，也用来检验轨迹质量：如果规则脚本在覆盖的题上准确率很低，先改进跟踪器，再进入阶段四。
+
+### 汇报
+- 五个维度的题目数、规则覆盖率、规则准确率。
+- 10 个视频的轨迹可视化抽查（把框画回帧上存成图片）。
+- 跟踪耗时与显存占用。
+
+---
+
+## 6. 阶段四：四种条件对比（完成后停下汇报）
+
+在阶段三的五个维度上，对每道题跑以下条件。**除证据块外，帧、问题、选项、答案格式指令必须完全相同。**
+
+| 条件 | 证据块内容 | 目的 |
+|---|---|---|
+| A 无工具 | 空 | 基线 |
+| B 真实轨迹 | 本题目标短语的轨迹文本 | 测轨迹是否有用 |
+| C 占位符 | 提到跑过跟踪器，但输出被省略 | 排除"提示词变长 / 提到跟踪器"本身的影响 |
+| D 打乱轨迹 | 换成另一个视频中同一短语的轨迹；找不到时随机打乱本视频轨迹的时间区间 | 排除"有轨迹格式就涨分" |
+| E GT 轨迹（可选） | 若 TOC-Bench 公开了逐帧轨迹，用同样格式序列化 | 上限 |
+
+另外在全部 2,323 题上跑 A 和 B，看非跟踪维度是否被轨迹干扰而下降。
+
+---
+
+## 7. 提示词模板
+
+### 7.1 共用框架（所有条件相同）
+
+所有条件都在帧后附上 32 帧的采样时间戳，避免"只有条件 B 知道时间"造成不公平。
+
+```text
+System: You are a careful video analyst. Answer the question about the video.
+
+User: <32 video frames>
+The frames above were sampled at these times (seconds): {t_1}, {t_2}, ..., {t_32}.
+{EVIDENCE_BLOCK}
+Question: {question}
+Options:
+{options}
+
+{ANSWER_FORMAT_INSTRUCTION}
+```
+
+`{ANSWER_FORMAT_INSTRUCTION}` 按题型选择（若有官方提示词，以官方为准）：
+- 四选一：`Think briefly, then give your final answer on the last line as "Answer: X", where X is one of A, B, C, D.`
+- 二选一判断：`Think briefly, then give your final answer on the last line as "Answer: X", where X is A or B.`
+- 计数：`Think briefly, then give your final answer on the last line as "Answer: N", where N is one of 2, 3, 4, or "5 or more".`
+- 排序：`Think briefly, then give your final answer on the last line as "Answer: " followed by the event labels in chronological order, separated by commas (e.g., "Answer: C, A, B").`
+
+### 7.2 条件 A：无工具
+`{EVIDENCE_BLOCK}` 为空字符串。
+
+### 7.3 条件 B：真实轨迹
+
+```text
+An object tracker was run on the full video at 5 fps. Its output is below.
+The tracker sees every frame, while you only see 32 sampled frames, so use
+the tracks as evidence about when objects appear, disappear and reappear.
+The tracker can make mistakes (fragmented tracks, identity switches, false
+detections); check the tracks against the frames when they conflict.
+
+{TRACK_TEXT}
+```
+
+### 7.4 条件 C：占位符
+
+```text
+An object tracker was run on the full video at 5 fps.
+[Tracking output omitted]
+```
+
+### 7.5 条件 D：打乱轨迹
+与条件 B 文字完全相同，只把 `{TRACK_TEXT}` 替换为打乱后的轨迹。
+
+---
+
+## 8. 答案解析与统计（score.py）
+
+- 取最后一行 `Answer:` 后的内容；解析失败记为错误，并单独统计解析失败率。
+- 计数题把答案规范化到 {2, 3, 4, "5 or more"}；排序题要求完整顺序完全一致。
+- 输出：
+  - `results/summary.csv`：条件 × 维度的准确率。
+  - `results/report.md`：总结表；B 相对 A 的分维度提升；C、D 的对照结果；每个维度挑 5 条"B 答对而 A 答错"和 5 条"B 仍然答错"的样例（含轨迹文本和模型输出）。
+- 推理时保存完整的模型输出（含推理过程），便于后续分析。
+
+---
+
+## 9. 判断标准（写进最终报告）
+
+- **故事成立**：B 在 Count、ReID 上明显高于 A；C 与 A 接近；D 不高于 A（甚至更低）。
+- **B 只比 A 高一点**：对照规则基线。规则好而 B 差 → 轨迹格式或提示词有问题；规则也差 → 跟踪器在日常物品上质量不足。
+- **C 也明显涨分**：提示词本身有引导效应，需要调整各条件使长度和措辞更一致后重跑。
+
+---
+
+## 10. 工作约定
+
+- 每个阶段结束都停下来汇报，等待确认。
+- 不修改基准的任何题目、选项或答案。
+- 所有随机操作固定种子（如 42）并记录。
+- 长时间任务（下载、全量推理、跟踪）在后台运行并写日志，定期汇报进度。
+- 遇到需要代理才能获取的资源、需要删除文件、或预计单步耗时超过 6 小时的操作，先停下来说明情况。

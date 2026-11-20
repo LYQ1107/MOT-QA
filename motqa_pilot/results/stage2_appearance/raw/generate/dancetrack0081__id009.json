@@ -1,0 +1,73 @@
+{
+  "unit_key": "dancetrack0081__id009",
+  "sequence": "dancetrack0081",
+  "gt_id": 9,
+  "phase": "generate",
+  "started_at": "2026-11-04T13:59:35.418467+00:00",
+  "completed_at": "2026-11-04T13:59:46.297880+00:00",
+  "seconds": 10.879444207064807,
+  "prompt_text": "The first image shows three crops of ONE target person at different times. The other image(s) show comparison people from the SAME video; every labeled tile is a different annotated person, shown in up to three crops. These comparison labels are anonymous bookkeeping labels, not appearance attributes.\nWrite one concise English noun phrase (at most 30 words), starting with \"the person\", describing the target using stable, clearly visible clothing, patterns, hair, or accessories. Prefer details that distinguish this person from comparison people. Do not mention actions, pose, scene location, time, spatial relation to others, gallery labels, or GT identity numbers. Visible garment lettering is allowed only if clearly legible. Do not infer colors/details hidden by another person. If no reliable description is possible, use an empty phrase. If a truthful description is shared by others, still provide it and set visually_distinct to false.\nReturn {\"phrase\":\"...\", \"supported_attributes\":[\"...\"], \"visually_distinct\":true, \"limitations\":\"...\"}. A description need not be unique; truthful uncertainty is preferred to invented uniqueness.\nThe target person is also included once among the comparison gallery tiles. Identify that repeated target visually; do not treat the repeated target tile as a different rival. Look for truthful stable appearance that distinguishes the target from OTHER people.",
+  "image_paths": [
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0081/id009_target.jpg",
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0081/generation_gallery_page00.jpg",
+    "/home/user/motqa_pilot/data/stage2_appearance/dancetrack0081/generation_gallery_page01.jpg"
+  ],
+  "image_sha256": [
+    "b9e87053ae9cce91f42133bcb7e468830442e133fbbb259b8aaab90003623a66",
+    "501bdb46ad0435ad1f962156d251e9d38cb1631c272e712511ccada6005cb3e5",
+    "92a2093af55585415c11e21e8dc10228f586f28320c83706e68645ffa76ecfbb"
+  ],
+  "response": {
+    "id": "chatcmpl-8368268a28314764",
+    "object": "chat.completion",
+    "created": 1793800775,
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"phrase\": \"the person in a white and blue long-sleeve top with red trim and matching blue pants with red and white stripes on the lower legs\",\n  \"supported_attributes\": [\n    \"white and blue long-sleeve top\",\n    \"red trim on top\",\n    \"blue pants\",\n    \"red and white stripes on lower legs\"\n  ],\n  \"visually_distinct\": false,\n  \"limitations\": \"This description is shared by multiple individuals in the gallery, including P03, P05, P06, P07, P08, P14, P15, P18, P19, P20, and others, making it non-unique. No other stable distinguishing features (e.g., hair, accessories, or unique patterns) are clearly visible to differentiate this person from others wearing the same uniform.\"\n}",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 2893,
+      "total_tokens": 3077,
+      "completion_tokens": 184,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "check": {
+    "valid": true,
+    "parsed": {
+      "phrase": "the person in a white and blue long-sleeve top with red trim and matching blue pants with red and white stripes on the lower legs",
+      "supported_attributes": [
+        "white and blue long-sleeve top",
+        "red trim on top",
+        "blue pants",
+        "red and white stripes on lower legs"
+      ],
+      "visually_distinct": false,
+      "limitations": "This description is shared by multiple individuals in the gallery, including P03, P05, P06, P07, P08, P14, P15, P18, P19, P20, and others, making it non-unique. No other stable distinguishing features (e.g., hair, accessories, or unique patterns) are clearly visible to differentiate this person from others wearing the same uniform."
+    },
+    "phrase": "the person in a white and blue long-sleeve top with red trim and matching blue pants with red and white stripes on the lower legs",
+    "error": null
+  },
+  "inference_policy_sha256": "ea3ce06e83208db2fc1ed693ee2ac1b349f8ae344fcdc2cb0a22e30ef8df60e3"
+}

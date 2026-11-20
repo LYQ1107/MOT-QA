@@ -1,0 +1,281 @@
+{
+  "created_at": "2026-11-04T12:53:53.017278+08:00",
+  "definitions": {
+    "call_rate": "QA with any attempted tagged call /allQA",
+    "legal_call_rate": "documented name and valid argument signature with tools available /all attempts; unmatched valid names remain legal",
+    "unmatched": "unmatched object phrases /legal calls; no fuzzy matching",
+    "tool_shares": "legal requests by tool /all legal requests",
+    "look_rate": "QA with legal look call /allQA"
+  },
+  "main": {
+    "T-none": {
+      "test_all": {
+        "questions": 602,
+        "questions_with_call": 0,
+        "call_rate": 0.0,
+        "attempts": 0,
+        "legal_calls": 0,
+        "legal_call_rate": null,
+        "mean_calls_all": 0.0,
+        "mean_calls_called": null,
+        "matched_calls": 0,
+        "object_unmatched": 0,
+        "object_unmatched_rate": null,
+        "tool_counts": {
+          "track": 0,
+          "events": 0,
+          "look": 0
+        },
+        "tool_shares": {
+          "track": null,
+          "events": null,
+          "look": null
+        },
+        "questions_with_look": 0,
+        "look_question_rate": 0.0,
+        "generated_tokens_total": 3122,
+        "mean_generated_tokens": 5.186046511627907,
+        "budget_exhausted": 0,
+        "final_turn_rejected_extra_call": 0
+      },
+      "test_trackable": {
+        "questions": 251,
+        "questions_with_call": 0,
+        "call_rate": 0.0,
+        "attempts": 0,
+        "legal_calls": 0,
+        "legal_call_rate": null,
+        "mean_calls_all": 0.0,
+        "mean_calls_called": null,
+        "matched_calls": 0,
+        "object_unmatched": 0,
+        "object_unmatched_rate": null,
+        "tool_counts": {
+          "track": 0,
+          "events": 0,
+          "look": 0
+        },
+        "tool_shares": {
+          "track": null,
+          "events": null,
+          "look": null
+        },
+        "questions_with_look": 0,
+        "look_question_rate": 0.0,
+        "generated_tokens_total": 1281,
+        "mean_generated_tokens": 5.103585657370518,
+        "budget_exhausted": 0,
+        "final_turn_rejected_extra_call": 0
+      }
+    },
+    "T0": {
+      "test_all": {
+        "questions": 602,
+        "questions_with_call": 0,
+        "call_rate": 0.0,
+        "attempts": 0,
+        "legal_calls": 0,
+        "legal_call_rate": null,
+        "mean_calls_all": 0.0,
+        "mean_calls_called": null,
+        "matched_calls": 0,
+        "object_unmatched": 0,
+        "object_unmatched_rate": null,
+        "tool_counts": {
+          "track": 0,
+          "events": 0,
+          "look": 0
+        },
+        "tool_shares": {
+          "track": null,
+          "events": null,
+          "look": null
+        },
+        "questions_with_look": 0,
+        "look_question_rate": 0.0,
+        "generated_tokens_total": 4458,
+        "mean_generated_tokens": 7.40531561461794,
+        "budget_exhausted": 0,
+        "final_turn_rejected_extra_call": 0
+      },
+      "test_trackable": {
+        "questions": 251,
+        "questions_with_call": 0,
+        "call_rate": 0.0,
+        "attempts": 0,
+        "legal_calls": 0,
+        "legal_call_rate": null,
+        "mean_calls_all": 0.0,
+        "mean_calls_called": null,
+        "matched_calls": 0,
+        "object_unmatched": 0,
+        "object_unmatched_rate": null,
+        "tool_counts": {
+          "track": 0,
+          "events": 0,
+          "look": 0
+        },
+        "tool_shares": {
+          "track": null,
+          "events": null,
+          "look": null
+        },
+        "questions_with_look": 0,
+        "look_question_rate": 0.0,
+        "generated_tokens_total": 2296,
+        "mean_generated_tokens": 9.147410358565738,
+        "budget_exhausted": 0,
+        "final_turn_rejected_extra_call": 0
+      }
+    },
+    "T1": {
+      "test_all": {
+        "questions": 602,
+        "questions_with_call": 463,
+        "call_rate": 0.7691029900332226,
+        "attempts": 1801,
+        "legal_calls": 0,
+        "legal_call_rate": 0.0,
+        "mean_calls_all": 2.9916943521594686,
+        "mean_calls_called": 3.8898488120950323,
+        "matched_calls": 0,
+        "object_unmatched": 0,
+        "object_unmatched_rate": null,
+        "tool_counts": {
+          "track": 0,
+          "events": 0,
+          "look": 0
+        },
+        "tool_shares": {
+          "track": null,
+          "events": null,
+          "look": null
+        },
+        "questions_with_look": 0,
+        "look_question_rate": 0.0,
+        "generated_tokens_total": 53891,
+        "mean_generated_tokens": 89.51993355481727,
+        "budget_exhausted": 0,
+        "final_turn_rejected_extra_call": 0
+      },
+      "test_trackable": {
+        "questions": 251,
+        "questions_with_call": 206,
+        "call_rate": 0.8207171314741036,
+        "attempts": 776,
+        "legal_calls": 0,
+        "legal_call_rate": 0.0,
+        "mean_calls_all": 3.091633466135458,
+        "mean_calls_called": 3.766990291262136,
+        "matched_calls": 0,
+        "object_unmatched": 0,
+        "object_unmatched_rate": null,
+        "tool_counts": {
+          "track": 0,
+          "events": 0,
+          "look": 0
+        },
+        "tool_shares": {
+          "track": null,
+          "events": null,
+          "look": null
+        },
+        "questions_with_look": 0,
+        "look_question_rate": 0.0,
+        "generated_tokens_total": 23372,
+        "mean_generated_tokens": 93.11553784860558,
+        "budget_exhausted": 0,
+        "final_turn_rejected_extra_call": 0
+      }
+    }
+  },
+  "guided": {
+    "T-none": {
+      "questions": 242,
+      "questions_with_call": 0,
+      "call_rate": 0.0,
+      "attempts": 0,
+      "legal_calls": 0,
+      "legal_call_rate": null,
+      "mean_calls_all": 0.0,
+      "mean_calls_called": null,
+      "matched_calls": 0,
+      "object_unmatched": 0,
+      "object_unmatched_rate": null,
+      "tool_counts": {
+        "track": 0,
+        "events": 0,
+        "look": 0
+      },
+      "tool_shares": {
+        "track": null,
+        "events": null,
+        "look": null
+      },
+      "questions_with_look": 0,
+      "look_question_rate": 0.0,
+      "generated_tokens_total": 955,
+      "mean_generated_tokens": 3.946280991735537,
+      "budget_exhausted": 0,
+      "final_turn_rejected_extra_call": 0
+    },
+    "T0": {
+      "questions": 242,
+      "questions_with_call": 0,
+      "call_rate": 0.0,
+      "attempts": 0,
+      "legal_calls": 0,
+      "legal_call_rate": null,
+      "mean_calls_all": 0.0,
+      "mean_calls_called": null,
+      "matched_calls": 0,
+      "object_unmatched": 0,
+      "object_unmatched_rate": null,
+      "tool_counts": {
+        "track": 0,
+        "events": 0,
+        "look": 0
+      },
+      "tool_shares": {
+        "track": null,
+        "events": null,
+        "look": null
+      },
+      "questions_with_look": 0,
+      "look_question_rate": 0.0,
+      "generated_tokens_total": 1848,
+      "mean_generated_tokens": 7.636363636363637,
+      "budget_exhausted": 0,
+      "final_turn_rejected_extra_call": 0
+    },
+    "T1": {
+      "questions": 242,
+      "questions_with_call": 207,
+      "call_rate": 0.8553719008264463,
+      "attempts": 789,
+      "legal_calls": 0,
+      "legal_call_rate": 0.0,
+      "mean_calls_all": 3.260330578512397,
+      "mean_calls_called": 3.8115942028985508,
+      "matched_calls": 0,
+      "object_unmatched": 0,
+      "object_unmatched_rate": null,
+      "tool_counts": {
+        "track": 0,
+        "events": 0,
+        "look": 0
+      },
+      "tool_shares": {
+        "track": null,
+        "events": null,
+        "look": null
+      },
+      "questions_with_look": 0,
+      "look_question_rate": 0.0,
+      "generated_tokens_total": 24632,
+      "mean_generated_tokens": 101.78512396694215,
+      "budget_exhausted": 0,
+      "final_turn_rejected_extra_call": 0
+    }
+  }
+}

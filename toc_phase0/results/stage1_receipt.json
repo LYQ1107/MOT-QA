@@ -1,0 +1,21 @@
+{
+  "status": "STAGE_ONE_COMPLETE_WAITING_USER_CONFIRMATION",
+  "project_root": "/data2/user/toc_phase0",
+  "masa_status": "MASA_SETUP_COMPLETE",
+  "primary_tracker": "MASA-GroundingDINO unified",
+  "backup_route_used": false,
+  "vllm_environment": "/data2/user/toc_phase0/env",
+  "masa_environment": "/data2/user/toc_phase0/env_masa",
+  "qa_count": 2323,
+  "video_count": 1951,
+  "videos_downloaded": 0,
+  "tracking_dimensions_qa_count": 749,
+  "public_per_frame_tracks": false,
+  "official_prompts_and_scoring": true,
+  "environment_checked": true,
+  "model_artifacts_verified": true,
+  "gpu_inference_run": false,
+  "next_stage_authorized": false,
+  "dataset_revision": "da3065053d958c38151304e33a42e138b1899eaf",
+  "official_code_commit": "e4a10bc1fd31ec1af9482bcfc827e41f2fac769a"
+}

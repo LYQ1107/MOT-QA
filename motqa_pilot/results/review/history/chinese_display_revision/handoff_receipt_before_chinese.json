@@ -1,0 +1,33 @@
+{
+  "finished_at": "2026-11-04T23:32:35.692464+08:00",
+  "status": "WAITING_FOR_USER_REFERENCE_REVIEW",
+  "main_count": 137,
+  "additional_count": 17,
+  "qa_generated": 0,
+  "model_calls": 0,
+  "tracker_runs": 0,
+  "jpeg_files_checked": 766,
+  "source_files_checked": 467,
+  "unchanged_old_reports_and_appendices": 17,
+  "generation_config_sha256": "b75ddac560bb71629e37120f97f0c5e23c4b8dddb052e9605d2d750a8fd85166",
+  "visibility_sha256": "ab72163cdc2ba92a4dfe78bb1970fc4d7ea08974f035c9cd72b33eadc7721c98",
+  "selection_sha256": "cd035a43567957e933f8415330259910a752653befa8295f5dd21bf21e053858",
+  "html_sha256": "32ac8cc7ea030446171f289f41ec8dffc23cb3bef5dbf0cf12fd0b2b44c8313f",
+  "html_bytes": 122669,
+  "zip_path": "/home/user/motqa_pilot/results/review/reference_review_browser.zip",
+  "zip_bytes": 36629371,
+  "zip_sha256": "fdb9b8a56f99eb7964c9a3c0724a7047425e46a9aef5cbd73062ab7728ac61b5",
+  "report": "/home/user/motqa_pilot/results/stage3_preparation_report.md",
+  "tracker_report": "/home/user/motqa_pilot/logs/tracker_candidates.md",
+  "browser_check": "/home/user/motqa_pilot/results/review/compat_browser_check/browser_check_result.json",
+  "actual_user_review_received": false,
+  "report_sha256": "80a0c9ededea5fe6bf65b430bc125e8a25357db0b661aa8193937d3b74cea230",
+  "comparator_counts": {
+    "dancetrack0004_id3": 0,
+    "v_9MHDmAMxO5I_c006_id0": 1
+  },
+  "delivery_updated_at": "2026-11-04T23:56:38.160054+08:00",
+  "delivery_revision": "compact_paginated_local_browser",
+  "historical_browser_check": "/home/user/motqa_pilot/results/review/browser_check/browser_check_result.json",
+  "opening_instructions": "/home/user/motqa_pilot/results/review/OPEN_IN_BROWSER.txt"
+}

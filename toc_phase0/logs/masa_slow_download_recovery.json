@@ -1,0 +1,8 @@
+{
+  "reason": "Very slow original PyTorch wheel transfer; switch to same published wheel via SJTU direct mirror",
+  "preserved_partial": "/data2/user/toc_phase0/cache/masa_wheels/torch-2.1.2+cu118-cp311-cp311-linux_x86_64.whl.incomplete",
+  "preserved_bytes_at_signal": 780437675,
+  "pip_pid": 1028197,
+  "official_source": "logs/masa_torch_wheel_origin.json",
+  "source_probe": "logs/masa_torch_direct_source_probes.json"
+}

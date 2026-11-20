@@ -1,0 +1,24 @@
+{
+  "generation_image_note": "The target person is also included once among the comparison gallery tiles. Identify that repeated target visually; do not treat the repeated target tile as a different rival. Look for truthful stable appearance that distinguishes the target from OTHER people.",
+  "parse": "JSON object, optionally surrounded by one markdown JSON fence. No partial-JSON recovery, content resampling, forced unique choice, or guessed identities.",
+  "phrase": {
+    "prefix": "the person",
+    "max_words": 30,
+    "reject_regex": "\\b(?:P\\d{2}|GT|ID\\s*\\d+|leftmost|rightmost)\\b|\\b(?:in|on) the (?:left|right|front|back) (?:side|row|corner)\\b"
+  },
+  "matching": "unique valid labels, no intersection between matches/uncertain; unknown label = parse failure; exactly intended target, zero uncertain = pass",
+  "request": {
+    "temperature": 0,
+    "seed": 42,
+    "top_p": 1,
+    "repetition_penalty": 1.0,
+    "generation_max_tokens": 512,
+    "match_max_tokens": 768
+  },
+  "checkpoint": "one JSON file per ID and phase; successful HTTP outputs, including parse failures, are immutable on resume",
+  "transport_failure": "save error and stop job; resume only missing units after root-cause fix",
+  "pilot": "first deterministic ID, all three applicable stages, solely to check API and estimate runtime, retained in final data",
+  "estimated_hours_stop_threshold": 6,
+  "note_before_inference": "The locked initial prompt did not clarify that the target is repeated once in the comparison gallery; the explicit image note resolves that known layout fact before any model inference. No acceptance rules or source images change.",
+  "locked_at": "2026-11-04T13:29:49.441662+00:00"
+}

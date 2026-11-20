@@ -1,0 +1,17 @@
+diff --git a/masa/models/detectors/grounding_dino.py b/masa/models/detectors/grounding_dino.py
+index 03b35f0..9808907 100644
+--- a/masa/models/detectors/grounding_dino.py
++++ b/masa/models/detectors/grounding_dino.py
+@@ -23,8 +23,10 @@ try:
+     import nltk
+ 
+     download_dir = os.path.expanduser("~/nltk_data")
+-    nltk.download("punkt", download_dir=download_dir, quiet=True)
+-    nltk.download("averaged_perceptron_tagger", download_dir=download_dir, quiet=True)
++    # Explicit custom-entity prompts bypass NLTK noun-phrase extraction.
++    if os.environ.get("MASA_SKIP_NLTK_DOWNLOAD") != "1":
++        nltk.download("punkt", download_dir=download_dir, quiet=True)
++        nltk.download("averaged_perceptron_tagger", download_dir=download_dir, quiet=True)
+ except ImportError:
+     raise RuntimeError(
+         "nltk is not installed, please install it by: " "pip install nltk."

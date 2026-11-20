@@ -1,0 +1,102 @@
+{
+  "stage": 2,
+  "seed": 42,
+  "scope": "GT facts and reference resources; no QA or model inference",
+  "visibility_threshold_mot17": 0.25,
+  "visibility_status": "PROVISIONAL_PENDING_STAGE2_REVIEW",
+  "target_rows": "flag == 1 and class == 1; retain GT ID 0",
+  "timestamp": "(original 1-based frame_id - 1) / fps; retain original full-sequence time even in half-val",
+  "coordinates": {
+    "unified": "continuous xywh pixel edges, 0-based; no clipping or interpolation",
+    "MOT17": "subtract 1 from source x,y under documented MOT17 1-based coordinate convention",
+    "DanceTrack": "retain released x,y; raw source boxes are retained separately",
+    "SportsMOT": "retain released x,y; raw source boxes are retained separately"
+  },
+  "region": {
+    "x_bins": [
+      0.3333333333333333,
+      0.6666666666666666
+    ],
+    "ambiguous_margin_width_fraction": 0.05,
+    "codes": {
+      "-2": "not visible",
+      "-1": "boundary ambiguous",
+      "0": "left",
+      "1": "center",
+      "2": "right"
+    }
+  },
+  "gap": {
+    "strictly_greater_than_s": 1.0,
+    "duration": "number of absent/not-visible frames divided by fps",
+    "edge_threshold": 0.02,
+    "edge_test": "signed bbox-to-edge distance / respective width or height < threshold",
+    "edge_labels": [
+      "left",
+      "right",
+      "top",
+      "bottom"
+    ],
+    "internal_gap_evidence": "both last visible and next visible frames; terminal absences reported separately",
+    "terminal": "only when remaining invisible frames / fps > 1; right-censored at video end",
+    "event_label_meaning": "operational GT-derived edge heuristic specified by the task, not independent semantic occlusion annotations"
+  },
+  "entry": "first visible occurrence touches edge; frame-1 entries are left-censored and not used as event references",
+  "overlap": {
+    "iou_min": 0.1,
+    "min_consecutive_frames": 3,
+    "crossing": "opposite nonzero signs of x_a-x_b immediately before and after an overlap episode; both people must be visible at both evidence frames",
+    "unknown_crossing": "missing/censored evidence or tied centers; never convert unknown into a negative"
+  },
+  "screen_distance": "sum of center displacement over consecutive visible frames only / image diagonal; gaps not bridged; camera-motion tag retained",
+  "appearance": {
+    "group_key": "dataset + sequence + whitespace/casefold-normalized text",
+    "duplicate_policy": "union original per-frame target IDs across all matching description files; retain every provenance path",
+    "unique": "exactly one labeled GT target also visible at t_ref",
+    "units": [
+      "description group",
+      "distinct video/text/target",
+      "contiguous unique interval",
+      "reference frame"
+    ],
+    "warning": "annotation uniqueness alone does not verify visual truth or provide independent QA count"
+  },
+  "event_reference": {
+    "types": [
+      "enters_frame",
+      "leaves_frame",
+      "becomes_occluded",
+      "reappears"
+    ],
+    "same_type_uniqueness_radius_s": 1.0,
+    "comparison": "inclusive +/-1 second over all actors of the same event type",
+    "disappearance_t_ref": "last visible frame; text time is first invisible frame",
+    "eligibility": "all evidence frames within provisional source window; exclude left-censored entries"
+  },
+  "position_reference": {
+    "ranks": [
+      "leftmost",
+      "rightmost"
+    ],
+    "min_second_place_gap_width_fraction": 0.05,
+    "min_visible_people": 2
+  },
+  "future_question_horizon_s": 3.0,
+  "source_scope": "inventory all 162 public-GT sequences; eligible references only Dance val, Sports val, MOT17 train second half",
+  "tracker_overlap_status": "PENDING_PUBLIC_TRACKER_SELECTION_AND_TRAIN_TUNE_AUDIT; continuation authorized without resolution",
+  "identity_limits": {
+    "MOT17": "same GT ID does not cover real-person exit/re-entry; do not use unseen-ID absence as a natural-person never-returns label",
+    "DanceTrack": "same ID guaranteed after full occlusion; general out-of-view re-entry identity guarantee unconfirmed",
+    "SportsMOT": "publisher specifies one athlete ID throughout the clip"
+  },
+  "generated_at": "2026-11-04T20:46:01.706124+08:00",
+  "workers": 4,
+  "reference_text_time_decimals": 3,
+  "display_precision_revision": {
+    "at": "2026-11-04T20:57:24.120405+08:00",
+    "previous_decimals": 1,
+    "current_decimals": 3,
+    "reason": "observed 82 wrong position targets, 2 out-of-range timestamps, 2 event-uniqueness changes after 0.1s rounding",
+    "underlying_reference_frames_and_facts_changed": false
+  }
+}
